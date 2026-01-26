@@ -15,7 +15,30 @@ document.addEventListener('DOMContentLoaded', function() {
     loadRecipes();
     initializeEventListeners();
     initializeLazyLoading();
+    adjustSidebarPosition(); // 调整侧边栏位置
 });
+
+/**
+ * 调整侧边栏位置，确保不被header遮挡
+ */
+function adjustSidebarPosition() {
+    const header = document.querySelector('.header');
+    const sidebars = document.querySelectorAll('.sidebar');
+    
+    if (header && sidebars.length > 0) {
+        // 获取header的实际高度
+        const headerHeight = header.offsetHeight;
+        
+        // 为每个侧边栏设置top值，添加额外间距
+        sidebars.forEach(sidebar => {
+            sidebar.style.top = `${headerHeight + 16}px`; // header高度 + 16px间距
+            sidebar.style.maxHeight = `calc(100vh - ${headerHeight + 64}px)`; // 调整最大高度
+        });
+    }
+}
+
+// 监听窗口大小变化，重新调整
+window.addEventListener('resize', adjustSidebarPosition);
 
 /**
  * 从JSON文件加载食谱数据
@@ -329,6 +352,7 @@ function loadRecipeDetail() {
     // 初始化详情页图片的懒加载
     setTimeout(() => {
         initializeLazyLoading();
+        adjustSidebarPosition(); // 调整侧边栏位置（详情页header可能更高）
     }, 100);
 }
 
