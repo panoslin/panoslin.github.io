@@ -14,6 +14,7 @@ let currentCategory = 'all';
 document.addEventListener('DOMContentLoaded', function() {
     loadRecipes();
     initializeEventListeners();
+    initializeLazyLoading();
 });
 
 /**
@@ -32,6 +33,7 @@ async function loadRecipes() {
         if (document.getElementById('recipes-grid')) {
             renderRecipes(filteredRecipes);
             renderCategoryFilters();
+            renderSidebarContent(); // 渲染侧边栏内容
         } else if (document.getElementById('recipe-detail')) {
             loadRecipeDetail();
         }
@@ -160,13 +162,21 @@ function renderCategoryFilters() {
     const categoryContainer = document.getElementById('category-filters');
     if (!categoryContainer) return;
     
+    // 先清空容器，防止重复添加
+    categoryContainer.innerHTML = '';
+    
     // 创建"全部"按钮
     const allBtn = document.createElement('button');
-    allBtn.className = 'category-btn active';
+    allBtn.className = 'category-btn';
     allBtn.dataset.category = 'all';
     allBtn.textContent = '全部';
     allBtn.addEventListener('click', handleCategoryFilter);
     categoryContainer.appendChild(allBtn);
+    
+    // 根据当前选中的分类设置"全部"按钮的激活状态
+    if (currentCategory === 'all') {
+        allBtn.classList.add('active');
+    }
     
     // 创建各分类按钮
     Array.from(categories).sort().forEach(category => {
@@ -175,6 +185,12 @@ function renderCategoryFilters() {
         btn.dataset.category = category;
         btn.textContent = category;
         btn.addEventListener('click', handleCategoryFilter);
+        
+        // 根据当前选中的分类设置按钮的激活状态
+        if (currentCategory === category) {
+            btn.classList.add('active');
+        }
+        
         categoryContainer.appendChild(btn);
     });
 }
@@ -206,6 +222,11 @@ function renderRecipes(recipes, searchTerm = '') {
         const card = createRecipeCard(recipe, searchTerm);
         grid.appendChild(card);
     });
+    
+    // 初始化新添加图片的懒加载
+    setTimeout(() => {
+        initializeLazyLoading();
+    }, 100);
 }
 
 /**
@@ -226,14 +247,20 @@ function createRecipeCard(recipe, searchTerm = '') {
         return text.replace(regex, '<span class="highlight">$1</span>');
     };
     
-    // 创建图片（如果有图片URL则显示图片，否则显示占位符）
+    // 创建图片（支持懒加载和原始比例显示）
     const imageHtml = recipe.imageUrl ? `
-        <div class="recipe-card-image">
-            <img src="${recipe.imageUrl}" alt="${recipe.title}" onerror="this.style.display='none'; this.parentElement.innerHTML='🍽️';">
+        <div class="recipe-card-image loading">
+            <img 
+                data-src="${recipe.imageUrl}" 
+                alt="${recipe.title}" 
+                class="lazy-load"
+                loading="lazy"
+                onerror="this.classList.add('error'); this.parentElement.classList.remove('loading'); this.parentElement.innerHTML='<div style=\\'padding: 2rem; text-align: center; font-size: 3rem; color: var(--text-tertiary);\\'>🍽️</div>';"
+            >
         </div>
     ` : `
         <div class="recipe-card-image">
-            🍽️
+            <div style="padding: 2rem; text-align: center; font-size: 3rem; color: var(--text-tertiary);">🍽️</div>
         </div>
     `;
     
@@ -246,7 +273,10 @@ function createRecipeCard(recipe, searchTerm = '') {
     card.innerHTML = `
         ${imageHtml}
         <div class="recipe-card-content">
-            <h3 class="recipe-card-title">${highlightText(recipe.title)}</h3>
+            <div class="recipe-card-header">
+                <span class="recipe-card-id">#${recipe.id}</span>
+                <h3 class="recipe-card-title">${highlightText(recipe.title)}</h3>
+            </div>
             <p class="recipe-card-description">${highlightText(recipe.description || '')}</p>
             <div class="recipe-card-categories">
                 ${categoryTags}
@@ -294,6 +324,12 @@ function loadRecipeDetail() {
     }
     
     renderRecipeDetail(recipe);
+    renderDetailSidebar(recipe); // 渲染详情页侧边栏
+    
+    // 初始化详情页图片的懒加载
+    setTimeout(() => {
+        initializeLazyLoading();
+    }, 100);
 }
 
 /**
@@ -363,11 +399,21 @@ function renderRecipeDetail(recipe) {
             ${recipe.description ? `<p class="recipe-detail-description">${recipe.description}</p>` : ''}
         </div>
         
-        <div class="recipe-detail-image">
-            ${recipe.imageUrl ? `<img src="${recipe.imageUrl}" alt="${recipe.title}" onerror="this.style.display='none'; this.parentElement.innerHTML='🍽️';">` : '🍽️'}
+        <div class="recipe-detail-image ${recipe.imageUrl ? 'loading' : ''}">
+            ${recipe.imageUrl ? `
+                <img 
+                    data-src="${recipe.imageUrl}" 
+                    alt="${recipe.title}" 
+                    class="lazy-load"
+                    loading="lazy"
+                    onerror="this.classList.add('error'); this.parentElement.classList.remove('loading'); this.parentElement.innerHTML='<div style=\\'padding: 4rem; text-align: center; font-size: 4rem; color: var(--text-tertiary);\\'>🍽️</div>';"
+                >
+            ` : `
+                <div style="padding: 4rem; text-align: center; font-size: 4rem; color: var(--text-tertiary);">🍽️</div>
+            `}
         </div>
         
-        <div class="recipe-section">
+        <div class="recipe-section" id="ingredients">
             <div class="ingredients-header">
                 <h2 class="recipe-section-title">食材清单</h2>
                 <div class="portion-control">
@@ -397,7 +443,7 @@ function renderRecipeDetail(recipe) {
         </div>
         
         ${recipe.nutrition ? `
-        <div class="recipe-section">
+        <div class="recipe-section" id="nutrition">
             <h2 class="recipe-section-title">营养信息</h2>
             <div class="nutrition-grid">
                 <div class="nutrition-item" data-nutrition="calories">
@@ -456,7 +502,7 @@ function renderRecipeDetail(recipe) {
         </div>
         ` : ''}
         
-        <div class="recipe-section">
+        <div class="recipe-section" id="instructions">
             <h2 class="recipe-section-title">制作方法</h2>
             <ol class="instructions-list">
                 ${instructionsList}
@@ -576,4 +622,339 @@ function resetPortion() {
         input.value = '1';
         updatePortion(1);
     }
+}
+
+/**
+ * 初始化懒加载功能
+ */
+function initializeLazyLoading() {
+    // 使用 Intersection Observer API 实现懒加载
+    if ('IntersectionObserver' in window) {
+        // 如果已经存在observer，先断开
+        if (window.imageObserver) {
+            window.imageObserver.disconnect();
+        }
+        
+        window.imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    const imageContainer = img.closest('.recipe-card-image, .recipe-detail-image');
+                    
+                    // 加载图片
+                    if (img.dataset.src) {
+                        // 设置加载状态
+                        if (imageContainer) {
+                            imageContainer.classList.add('loading');
+                        }
+                        
+                        img.src = img.dataset.src;
+                        img.removeAttribute('data-src');
+                        
+                        // 图片加载完成
+                        img.onload = function() {
+                            img.classList.add('loaded');
+                            if (imageContainer) {
+                                imageContainer.classList.remove('loading');
+                            }
+                        };
+                        
+                        // 图片加载失败
+                        img.onerror = function() {
+                            img.classList.add('error');
+                            if (imageContainer) {
+                                imageContainer.classList.remove('loading');
+                                // 显示占位符
+                                if (imageContainer.classList.contains('recipe-card-image')) {
+                                    imageContainer.innerHTML = '<div style="padding: 2rem; text-align: center; font-size: 3rem; color: var(--text-tertiary);">🍽️</div>';
+                                } else {
+                                    imageContainer.innerHTML = '<div style="padding: 4rem; text-align: center; font-size: 4rem; color: var(--text-tertiary);">🍽️</div>';
+                                }
+                            }
+                        };
+                    }
+                    
+                    observer.unobserve(img);
+                }
+            });
+        }, {
+            rootMargin: '50px' // 提前50px开始加载
+        });
+        
+        // 观察所有懒加载图片
+        document.querySelectorAll('img.lazy-load').forEach(img => {
+            window.imageObserver.observe(img);
+        });
+    } else {
+        // 降级方案：直接加载所有图片
+        document.querySelectorAll('img.lazy-load').forEach(img => {
+            if (img.dataset.src) {
+                const imageContainer = img.closest('.recipe-card-image, .recipe-detail-image');
+                if (imageContainer) {
+                    imageContainer.classList.add('loading');
+                }
+                
+                img.src = img.dataset.src;
+                img.removeAttribute('data-src');
+                
+                img.onload = function() {
+                    img.classList.add('loaded');
+                    if (imageContainer) {
+                        imageContainer.classList.remove('loading');
+                    }
+                };
+            }
+        });
+    }
+}
+
+/**
+ * 加载图片（用于动态添加的图片）
+ */
+function loadImage(img) {
+    if (img.dataset.src) {
+        const imageContainer = img.closest('.recipe-card-image, .recipe-detail-image');
+        if (imageContainer) {
+            imageContainer.classList.add('loading');
+        }
+        
+        img.src = img.dataset.src;
+        img.removeAttribute('data-src');
+        
+        img.onload = function() {
+            img.classList.add('loaded');
+            if (imageContainer) {
+                imageContainer.classList.remove('loading');
+            }
+        };
+        
+        img.onerror = function() {
+            img.classList.add('error');
+            if (imageContainer) {
+                imageContainer.classList.remove('loading');
+                if (imageContainer.classList.contains('recipe-card-image')) {
+                    imageContainer.innerHTML = '<div style="padding: 2rem; text-align: center; font-size: 3rem; color: var(--text-tertiary);">🍽️</div>';
+                } else {
+                    imageContainer.innerHTML = '<div style="padding: 4rem; text-align: center; font-size: 4rem; color: var(--text-tertiary);">🍽️</div>';
+                }
+            }
+        };
+    }
+}
+
+/**
+ * 渲染主页侧边栏内容
+ */
+function renderSidebarContent() {
+    // 渲染热门推荐
+    renderPopularRecipes();
+    
+    // 渲染统计信息
+    renderStatsInfo();
+    
+    // 渲染所有分类
+    renderAllCategories();
+}
+
+/**
+ * 渲染热门推荐
+ */
+function renderPopularRecipes() {
+    const container = document.getElementById('popular-recipes');
+    if (!container) return;
+    
+    // 按ID排序，显示前5个
+    const popular = [...allRecipes]
+        .sort((a, b) => a.id - b.id)
+        .slice(0, 5);
+    
+    container.innerHTML = popular.map(recipe => `
+        <a href="recipe_detail.html?id=${recipe.id}" class="popular-recipe-item">
+            <span class="recipe-number">#${recipe.id}</span>
+            <span class="recipe-title">${recipe.title}</span>
+        </a>
+    `).join('');
+}
+
+/**
+ * 渲染统计信息
+ */
+function renderStatsInfo() {
+    const container = document.getElementById('stats-info');
+    if (!container) return;
+    
+    const totalRecipes = allRecipes.length;
+    const categories = new Set();
+    allRecipes.forEach(recipe => {
+        recipe.category.forEach(cat => categories.add(cat));
+    });
+    
+    container.innerHTML = `
+        <div class="stat-item">
+            <span class="stat-label">总食谱数</span>
+            <span class="stat-value">${totalRecipes}</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">分类数量</span>
+            <span class="stat-value">${categories.size}</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">有图片</span>
+            <span class="stat-value">${allRecipes.filter(r => r.imageUrl).length}</span>
+        </div>
+    `;
+}
+
+/**
+ * 渲染所有分类
+ */
+function renderAllCategories() {
+    const container = document.getElementById('all-categories');
+    if (!container) return;
+    
+    const categoryCounts = {};
+    allRecipes.forEach(recipe => {
+        recipe.category.forEach(cat => {
+            categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+        });
+    });
+    
+    const sortedCategories = Object.entries(categoryCounts)
+        .sort((a, b) => b[1] - a[1]);
+    
+    container.innerHTML = sortedCategories.map(([cat, count]) => `
+        <a href="#" class="category-link" onclick="filterByCategory('${cat}'); return false;">
+            <span>${cat}</span>
+            <span class="category-count">${count}</span>
+        </a>
+    `).join('');
+}
+
+/**
+ * 渲染详情页侧边栏
+ */
+function renderDetailSidebar(recipe) {
+    // 渲染目录导航
+    renderDetailTOC(recipe);
+    
+    // 渲染相关食谱
+    renderRelatedRecipes(recipe);
+    
+    // 渲染营养信息摘要
+    renderNutritionSummary(recipe);
+}
+
+/**
+ * 渲染详情页目录导航
+ */
+function renderDetailTOC(recipe) {
+    const container = document.getElementById('detail-toc');
+    if (!container) return;
+    
+    const tocItems = [
+        { id: 'recipe-image', label: '食谱图片', level: 1 },
+        { id: 'ingredients', label: '食材清单', level: 1 },
+        { id: 'nutrition', label: '营养信息', level: 1 },
+        { id: 'instructions', label: '制作方法', level: 1 }
+    ];
+    
+    container.innerHTML = tocItems.map(item => `
+        <a href="#${item.id}" class="toc-item level-${item.level}" onclick="scrollToSection('${item.id}'); return false;">
+            ${item.label}
+        </a>
+    `).join('');
+}
+
+/**
+ * 渲染相关食谱
+ */
+function renderRelatedRecipes(recipe) {
+    const container = document.getElementById('related-recipes');
+    if (!container) return;
+    
+    // 找到相同分类的其他食谱
+    const related = allRecipes
+        .filter(r => r.id !== recipe.id && 
+                r.category.some(cat => recipe.category.includes(cat)))
+        .slice(0, 3);
+    
+    if (related.length === 0) {
+        container.innerHTML = '<p style="color: var(--text-tertiary); font-size: var(--text-sm);">暂无相关食谱</p>';
+        return;
+    }
+    
+    container.innerHTML = related.map(r => `
+        <a href="recipe_detail.html?id=${r.id}" class="related-recipe-item">
+            ${r.imageUrl ? `<img src="${r.imageUrl}" alt="${r.title}" class="recipe-image" onerror="this.style.display='none';">` : ''}
+            <div class="recipe-info">
+                <div class="recipe-title">${r.title}</div>
+                <div class="recipe-category">${r.category[0] || ''}</div>
+            </div>
+        </a>
+    `).join('');
+}
+
+/**
+ * 渲染营养信息摘要
+ */
+function renderNutritionSummary(recipe) {
+    const container = document.getElementById('nutrition-summary');
+    if (!container || !recipe.nutrition) return;
+    
+    const nutrition = recipe.nutrition;
+    container.innerHTML = `
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🔥 热量</span>
+            <span class="nutrition-summary-value">${nutrition.calories.toFixed(0)} 千卡</span>
+        </div>
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🥩 蛋白质</span>
+            <span class="nutrition-summary-value">${nutrition.protein.toFixed(1)} 克</span>
+        </div>
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🍞 碳水</span>
+            <span class="nutrition-summary-value">${nutrition.carbs.toFixed(1)} 克</span>
+        </div>
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🧈 脂肪</span>
+            <span class="nutrition-summary-value">${nutrition.fat.toFixed(1)} 克</span>
+        </div>
+        ${nutrition.salt !== undefined ? `
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🧂 盐</span>
+            <span class="nutrition-summary-value">${nutrition.salt.toFixed(2)} 克</span>
+        </div>
+        ` : ''}
+    `;
+}
+
+/**
+ * 滚动到指定区域
+ */
+function scrollToSection(sectionId) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+/**
+ * 滚动到顶部
+ */
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/**
+ * 清除搜索和筛选
+ */
+function clearSearch() {
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        searchInput.value = '';
+    }
+    currentCategory = 'all';
+    filteredRecipes = allRecipes;
+    renderRecipes(filteredRecipes);
+    renderCategoryFilters();
 }
