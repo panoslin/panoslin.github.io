@@ -794,6 +794,12 @@ body::before {
     font-size: var(--text-base);
     font-weight: var(--font-semibold);
     color: var(--primary-color);
+    transition: all var(--transition-base);
+}
+
+.nutrition-summary-value.nutrition-updated {
+    transform: scale(1.1);
+    color: var(--primary-hover);
 }
 
 /* ============================================

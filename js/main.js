@@ -618,7 +618,7 @@ function updatePortion(multiplier) {
         }, 300);
     });
     
-    // 更新营养信息
+    // 更新营养信息（主内容区）
     const nutritionValues = document.querySelectorAll('.nutrition-value');
     nutritionValues.forEach(element => {
         const originalValue = parseFloat(element.getAttribute('data-original'));
@@ -635,6 +635,9 @@ function updatePortion(multiplier) {
             element.classList.remove('nutrition-updated');
         }, 300);
     });
+    
+    // 更新侧边栏营养信息摘要
+    updateNutritionSummary(clampedMultiplier);
 }
 
 /**
@@ -929,27 +932,63 @@ function renderNutritionSummary(recipe) {
     container.innerHTML = `
         <div class="nutrition-summary-item">
             <span class="nutrition-summary-label">🔥 热量</span>
-            <span class="nutrition-summary-value">${nutrition.calories.toFixed(0)} 千卡</span>
+            <span class="nutrition-summary-value" data-nutrition="calories" data-original="${nutrition.calories}">${nutrition.calories.toFixed(0)} 千卡</span>
         </div>
         <div class="nutrition-summary-item">
             <span class="nutrition-summary-label">🥩 蛋白质</span>
-            <span class="nutrition-summary-value">${nutrition.protein.toFixed(1)} 克</span>
+            <span class="nutrition-summary-value" data-nutrition="protein" data-original="${nutrition.protein}">${nutrition.protein.toFixed(1)} 克</span>
         </div>
         <div class="nutrition-summary-item">
             <span class="nutrition-summary-label">🍞 碳水</span>
-            <span class="nutrition-summary-value">${nutrition.carbs.toFixed(1)} 克</span>
+            <span class="nutrition-summary-value" data-nutrition="carbs" data-original="${nutrition.carbs}">${nutrition.carbs.toFixed(1)} 克</span>
         </div>
         <div class="nutrition-summary-item">
             <span class="nutrition-summary-label">🧈 脂肪</span>
-            <span class="nutrition-summary-value">${nutrition.fat.toFixed(1)} 克</span>
+            <span class="nutrition-summary-value" data-nutrition="fat" data-original="${nutrition.fat}">${nutrition.fat.toFixed(1)} 克</span>
         </div>
         ${nutrition.salt !== undefined ? `
         <div class="nutrition-summary-item">
             <span class="nutrition-summary-label">🧂 盐</span>
-            <span class="nutrition-summary-value">${nutrition.salt.toFixed(2)} 克</span>
+            <span class="nutrition-summary-value" data-nutrition="salt" data-original="${nutrition.salt}">${nutrition.salt.toFixed(2)} 克</span>
         </div>
         ` : ''}
     `;
+}
+
+/**
+ * 更新侧边栏营养信息摘要
+ * @param {number} multiplier - 倍数
+ */
+function updateNutritionSummary(multiplier) {
+    const summaryValues = document.querySelectorAll('#nutrition-summary .nutrition-summary-value');
+    if (summaryValues.length === 0) return;
+    
+    summaryValues.forEach(element => {
+        const originalValue = parseFloat(element.getAttribute('data-original'));
+        const nutritionType = element.getAttribute('data-nutrition');
+        const newValue = originalValue * multiplier;
+        
+        // 格式化显示
+        let displayValue;
+        let unit = '克';
+        
+        if (nutritionType === 'calories') {
+            displayValue = newValue.toFixed(0);
+            unit = '千卡';
+        } else if (nutritionType === 'salt') {
+            displayValue = newValue.toFixed(2);
+        } else {
+            displayValue = newValue.toFixed(1);
+        }
+        
+        element.textContent = `${displayValue} ${unit}`;
+        
+        // 添加动画效果
+        element.classList.add('nutrition-updated');
+        setTimeout(() => {
+            element.classList.remove('nutrition-updated');
+        }, 300);
+    });
 }
 
 /**
