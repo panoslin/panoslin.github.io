@@ -226,8 +226,12 @@ function createRecipeCard(recipe, searchTerm = '') {
         return text.replace(regex, '<span class="highlight">$1</span>');
     };
     
-    // 创建图片占位符（如果图片不存在）
-    const imageHtml = `
+    // 创建图片（如果有图片URL则显示图片，否则显示占位符）
+    const imageHtml = recipe.imageUrl ? `
+        <div class="recipe-card-image">
+            <img src="${recipe.imageUrl}" alt="${recipe.title}" onerror="this.style.display='none'; this.parentElement.innerHTML='🍽️';">
+        </div>
+    ` : `
         <div class="recipe-card-image">
             🍽️
         </div>
@@ -360,7 +364,7 @@ function renderRecipeDetail(recipe) {
         </div>
         
         <div class="recipe-detail-image">
-            🍽️
+            ${recipe.imageUrl ? `<img src="${recipe.imageUrl}" alt="${recipe.title}" onerror="this.style.display='none'; this.parentElement.innerHTML='🍽️';">` : '🍽️'}
         </div>
         
         <div class="recipe-section">
