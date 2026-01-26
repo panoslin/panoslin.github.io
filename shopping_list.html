@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="购物清单 - 管理你的食材采购">
+    <title>购物清单 - 林哥的厨房 闲人免进</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 页面头部 -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-top">
+                <a href="index.html" class="back-home-btn" title="返回首页">
+                    <span class="back-icon">←</span>
+                    <span class="back-text">返回首页</span>
+                </a>
+            </div>
+            <div class="header-logo-title">
+                <img src="images/logo.png" alt="林哥的厨房 闲人免进 Logo" class="site-logo">
+                <h1>购物清单</h1>
+            </div>
+            <p>管理你的食材采购</p>
+        </div>
+    </header>
+
+    <!-- 购物清单容器 -->
+    <main class="main-content">
+        <div class="content-layout">
+            <!-- 左侧边栏（桌面端显示） -->
+            <aside class="sidebar sidebar-left">
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-title">📋 分类导航</h3>
+                    <nav id="shopping-list-toc" class="shopping-list-toc">
+                        <!-- 分类导航将通过JavaScript动态生成 -->
+                    </nav>
+                </div>
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-title">📝 已选食谱</h3>
+                    <div id="selected-recipes-list" class="selected-recipes-list">
+                        <!-- 已选食谱列表将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- 主内容区 -->
+            <div class="content-main">
+                <div class="shopping-list-container">
+                    <!-- 统计信息和操作栏 -->
+                    <div class="shopping-list-header">
+                        <div class="shopping-list-stats" id="shopping-list-stats">
+                            <span class="stat-item">
+                                <span class="stat-label">总计</span>
+                                <span class="stat-value" id="stat-total">0</span>
+                                <span class="stat-unit">种食材</span>
+                            </span>
+                            <span class="stat-item">
+                                <span class="stat-label">已购买</span>
+                                <span class="stat-value" id="stat-purchased">0</span>
+                                <span class="stat-unit">种</span>
+                            </span>
+                            <span class="stat-item">
+                                <span class="stat-label">待购买</span>
+                                <span class="stat-value" id="stat-remaining">0</span>
+                                <span class="stat-unit">种</span>
+                            </span>
+                            <span class="stat-item">
+                                <span class="stat-label">已选食谱</span>
+                                <span class="stat-value" id="stat-recipes">0</span>
+                                <span class="stat-unit">个</span>
+                            </span>
+                        </div>
+                        <div class="shopping-list-actions">
+                            <button class="btn btn-secondary" onclick="exportShoppingList()">
+                                <span>📥</span> 导出JSON
+                            </button>
+                            <button class="btn btn-danger" onclick="clearAllShoppingList()">
+                                <span>🗑️</span> 清空清单
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 购物清单内容 -->
+                    <div id="shopping-list-content" class="shopping-list-content">
+                        <div class="loading">加载中</div>
+                    </div>
+
+                    <!-- 空状态 -->
+                    <div id="shopping-list-empty" class="shopping-list-empty" style="display: none;">
+                        <div class="empty-state-icon">🛒</div>
+                        <div class="empty-state-text">购物清单是空的</div>
+                        <p class="empty-state-hint">在主页选择食谱添加到购物清单</p>
+                        <a href="index.html" class="btn">去选择食谱</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右侧边栏（桌面端显示） -->
+            <aside class="sidebar sidebar-right">
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-title">📊 统计信息</h3>
+                    <div id="shopping-stats-sidebar" class="shopping-stats-sidebar">
+                        <!-- 统计信息将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-title">⚡ 快速操作</h3>
+                    <div class="quick-actions">
+                        <button class="quick-action-btn" onclick="scrollToTop()">
+                            <span class="action-icon">⬆️</span>
+                            <span class="action-text">回到顶部</span>
+                        </button>
+                        <button class="quick-action-btn" onclick="markAllPurchased()">
+                            <span class="action-icon">✓</span>
+                            <span class="action-text">全部标记已购</span>
+                        </button>
+                        <button class="quick-action-btn" onclick="markAllUnpurchased()">
+                            <span class="action-icon">↻</span>
+                            <span class="action-text">重置购买状态</span>
+                        </button>
+                        <a href="index.html" class="quick-action-btn">
+                            <span class="action-icon">🏠</span>
+                            <span class="action-text">返回主页</span>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- JavaScript文件 -->
+    <script src="js/shoppingList.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/shoppingListPage.js"></script>
+</body>
+</html>
