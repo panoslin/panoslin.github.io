@@ -52,7 +52,8 @@
       "calories": 3754.7,
       "protein": 55.1,
       "carbs": 242.8,
-      "fat": 287.2
+      "fat": 287.2,
+      "salt": 0.0
     }
   },
   {
@@ -140,7 +141,8 @@
       "calories": 408.6,
       "protein": 47.7,
       "carbs": 19.7,
-      "fat": 17.1
+      "fat": 17.1,
+      "salt": 3.26
     }
   },
   {
@@ -227,7 +229,8 @@
       "calories": 1527.6,
       "protein": 81.6,
       "carbs": 173.9,
-      "fat": 57.6
+      "fat": 57.6,
+      "salt": 7.87
     }
   },
   {
@@ -282,7 +285,8 @@
       "calories": 376.6,
       "protein": 48.8,
       "carbs": 6.2,
-      "fat": 18.3
+      "fat": 18.3,
+      "salt": 2.2
     }
   },
   {
@@ -331,7 +335,8 @@
       "calories": 857.7,
       "protein": 31.5,
       "carbs": 110.8,
-      "fat": 33.6
+      "fat": 33.6,
+      "salt": 0.0
     }
   },
   {
@@ -437,7 +442,8 @@
       "calories": 1265.7,
       "protein": 75.5,
       "carbs": 114.4,
-      "fat": 55.4
+      "fat": 55.4,
+      "salt": 4.87
     }
   },
   {
@@ -494,7 +500,8 @@
       "calories": 206.1,
       "protein": 2.3,
       "carbs": 29.7,
-      "fat": 8.9
+      "fat": 8.9,
+      "salt": 0.0
     }
   },
   {
@@ -587,7 +594,8 @@
       "calories": 1307.3,
       "protein": 101.4,
       "carbs": 76.9,
-      "fat": 70.9
+      "fat": 70.9,
+      "salt": 5.41
     }
   },
   {
@@ -641,7 +649,8 @@
       "calories": 668.0,
       "protein": 3.3,
       "carbs": 178.0,
-      "fat": 0.9
+      "fat": 0.9,
+      "salt": 3.0
     }
   },
   {
@@ -708,7 +717,8 @@
       "calories": 631.3,
       "protein": 44.8,
       "carbs": 33.6,
-      "fat": 33.5
+      "fat": 33.5,
+      "salt": 4.69
     }
   },
   {
@@ -784,7 +794,8 @@
       "calories": 588.5,
       "protein": 11.1,
       "carbs": 47.9,
-      "fat": 39.8
+      "fat": 39.8,
+      "salt": 0.0
     }
   },
   {
@@ -847,7 +858,8 @@
       "calories": 232.4,
       "protein": 20.0,
       "carbs": 5.1,
-      "fat": 13.2
+      "fat": 13.2,
+      "salt": 1.35
     }
   },
   {
@@ -927,7 +939,8 @@
       "calories": 484.1,
       "protein": 22.5,
       "carbs": 75.9,
-      "fat": 8.8
+      "fat": 8.8,
+      "salt": 2.7
     }
   },
   {
@@ -995,7 +1008,8 @@
       "calories": 908.6,
       "protein": 78.7,
       "carbs": 32.5,
-      "fat": 51.7
+      "fat": 51.7,
+      "salt": 9.25
     }
   },
   {
@@ -1041,7 +1055,8 @@
       "calories": 385.4,
       "protein": 16.6,
       "carbs": 15.9,
-      "fat": 28.3
+      "fat": 28.3,
+      "salt": 0.0
     }
   },
   {
@@ -1094,7 +1109,8 @@
       "calories": 2270.8,
       "protein": 188.5,
       "carbs": 15.3,
-      "fat": 151.0
+      "fat": 151.0,
+      "salt": 10.9
     }
   },
   {
@@ -1139,7 +1155,8 @@
       "calories": 788.7,
       "protein": 32.6,
       "carbs": 112.2,
-      "fat": 22.0
+      "fat": 22.0,
+      "salt": 0.0
     }
   },
   {
@@ -1178,7 +1195,8 @@
       "calories": 1136.2,
       "protein": 59.5,
       "carbs": 108.1,
-      "fat": 50.8
+      "fat": 50.8,
+      "salt": 0.0
     }
   },
   {
@@ -1283,7 +1301,8 @@
       "calories": 2313.9,
       "protein": 190.8,
       "carbs": 184.4,
-      "fat": 119.2
+      "fat": 119.2,
+      "salt": 32.9
     }
   },
   {
@@ -1384,7 +1403,8 @@
       "calories": 2884.4,
       "protein": 164.5,
       "carbs": 60.4,
-      "fat": 213.5
+      "fat": 213.5,
+      "salt": 10.97
     }
   },
   {
@@ -1438,7 +1458,8 @@
       "calories": 2846.1,
       "protein": 7.0,
       "carbs": 43.4,
-      "fat": 301.8
+      "fat": 301.8,
+      "salt": 0.0
     }
   },
   {
@@ -1450,11 +1471,94 @@
     ],
     "imageUrl": "images/recipe_22.png",
     "description": "健康餐的详细制作方法",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "燕麦米",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "红糙米",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "黑糯米",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "小土豆",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "红薯",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "玉米",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "鸡肉",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "虾",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "牛肉",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "猪肉",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "羽衣甘蓝",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "西蓝花",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      }
+    ],
     "instructions": [
       "煮米饭",
       "蔬菜："
-    ]
+    ],
+    "nutrition": {
+      "calories": 3554.3,
+      "protein": 174.8,
+      "carbs": 523.8,
+      "fat": 92.3,
+      "salt": 5.0
+    }
   },
   {
     "id": 23,
@@ -1511,7 +1615,8 @@
       "calories": 690.2,
       "protein": 11.4,
       "carbs": 49.1,
-      "fat": 51.8
+      "fat": 51.8,
+      "salt": 10.97
     }
   },
   {
@@ -1588,7 +1693,8 @@
       "calories": 2964.1,
       "protein": 29.0,
       "carbs": 368.1,
-      "fat": 155.8
+      "fat": 155.8,
+      "salt": 3.0
     }
   },
   {
@@ -1640,7 +1746,8 @@
       "calories": 1511.1,
       "protein": 13.1,
       "carbs": 363.0,
-      "fat": 11.6
+      "fat": 11.6,
+      "salt": 0.0
     }
   },
   {
@@ -1682,7 +1789,8 @@
       "calories": 200.0,
       "protein": 9.6,
       "carbs": 17.9,
-      "fat": 10.2
+      "fat": 10.2,
+      "salt": 0.0
     }
   },
   {
@@ -1760,7 +1868,8 @@
       "calories": 370.5,
       "protein": 4.1,
       "carbs": 41.4,
-      "fat": 21.3
+      "fat": 21.3,
+      "salt": 0.0
     }
   },
   {
@@ -1804,7 +1913,8 @@
       "calories": 278.3,
       "protein": 1.1,
       "carbs": 2.1,
-      "fat": 30.0
+      "fat": 30.0,
+      "salt": 6.92
     }
   },
   {
@@ -1816,10 +1926,23 @@
     ],
     "imageUrl": "images/recipe_29.png",
     "description": "烤红薯🍠的详细制作方法",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "红薯",
+        "quantity": 500,
+        "unit": "克"
+      }
+    ],
     "instructions": [
       "红薯洗净，包锡纸，180 度烤 50 分钟"
-    ]
+    ],
+    "nutrition": {
+      "calories": 495.0,
+      "protein": 5.5,
+      "carbs": 123.5,
+      "fat": 1.0,
+      "salt": 0.0
+    }
   },
   {
     "id": 30,
@@ -1899,7 +2022,8 @@
       "calories": 388.4,
       "protein": 15.8,
       "carbs": 26.3,
-      "fat": 24.3
+      "fat": 24.3,
+      "salt": 2.46
     }
   },
   {
@@ -1911,11 +2035,39 @@
     ],
     "imageUrl": "images/recipe_31.png",
     "description": "烤薯条🍟的详细制作方法",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "藕",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 15,
+        "unit": "毫升"
+      }
+    ],
     "instructions": [
       "藕切片",
       "洗净，加盐，玉米淀粉，食用油",
       "烤箱 200 度，8 分钟"
-    ]
+    ],
+    "nutrition": {
+      "calories": 415.4,
+      "protein": 5.7,
+      "carbs": 67.5,
+      "fat": 15.6,
+      "salt": 3.0
+    }
   }
 ]

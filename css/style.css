@@ -217,6 +217,48 @@ body {
     position: relative;
 }
 
+.header-top {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: var(--spacing-4);
+}
+
+.back-home-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    color: var(--text-inverse);
+    text-decoration: none;
+    font-size: var(--text-base);
+    font-weight: var(--font-medium);
+    padding: var(--spacing-2) var(--spacing-4);
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    transition: all var(--transition-base) ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.back-home-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateX(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.back-home-btn:active {
+    transform: translateX(0);
+}
+
+.back-icon {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    line-height: 1;
+}
+
+.back-text {
+    font-size: var(--text-base);
+}
+
 .header h1 {
     font-size: var(--text-3xl);
     font-weight: var(--font-bold);
@@ -880,6 +922,10 @@ body {
     background: linear-gradient(90deg, #FF9800 0%, #F57C00 100%);
 }
 
+.nutrition-item[data-nutrition="salt"]::before {
+    background: linear-gradient(90deg, #9E9E9E 0%, #616161 100%);
+}
+
 .nutrition-icon {
     font-size: var(--text-3xl);
     width: 60px;
@@ -926,6 +972,10 @@ body {
     color: #FF9800;
 }
 
+.nutrition-item[data-nutrition="salt"] .nutrition-value {
+    color: #616161;
+}
+
 .nutrition-unit {
     font-size: var(--text-xs);
     color: var(--text-tertiary);
@@ -947,6 +997,10 @@ body {
 
 .nutrition-item[data-nutrition="fat"] .nutrition-value.nutrition-updated {
     color: #F57C00;
+}
+
+.nutrition-item[data-nutrition="salt"] .nutrition-value.nutrition-updated {
+    color: #424242;
 }
 
 /* 响应式调整 */
@@ -1296,6 +1350,19 @@ body {
         --container-padding: var(--spacing-4);
     }
     
+    .header-top {
+        margin-bottom: var(--spacing-3);
+    }
+    
+    .back-home-btn {
+        padding: var(--spacing-1) var(--spacing-3);
+        font-size: var(--text-sm);
+    }
+    
+    .back-text {
+        font-size: var(--text-sm);
+    }
+    
     .header h1 {
         font-size: var(--text-2xl);
     }
@@ -1344,6 +1411,23 @@ body {
 @media (max-width: 480px) {
     .header {
         padding: var(--spacing-4) 0;
+    }
+    
+    .header-top {
+        margin-bottom: var(--spacing-2);
+    }
+    
+    .back-home-btn {
+        padding: var(--spacing-1) var(--spacing-2);
+        font-size: var(--text-xs);
+    }
+    
+    .back-icon {
+        font-size: var(--text-lg);
+    }
+    
+    .back-text {
+        font-size: var(--text-xs);
     }
     
     .header h1 {

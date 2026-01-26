@@ -440,6 +440,18 @@ function renderRecipeDetail(recipe) {
                         <div class="nutrition-unit">克</div>
                     </div>
                 </div>
+                ${recipe.nutrition.salt !== undefined ? `
+                <div class="nutrition-item" data-nutrition="salt">
+                    <div class="nutrition-icon">🧂</div>
+                    <div class="nutrition-content">
+                        <div class="nutrition-label">盐（钠）</div>
+                        <div class="nutrition-value" data-original="${recipe.nutrition.salt}">
+                            ${recipe.nutrition.salt.toFixed(2)}
+                        </div>
+                        <div class="nutrition-unit">克</div>
+                    </div>
+                </div>
+                ` : ''}
             </div>
         </div>
         ` : ''}
@@ -542,8 +554,9 @@ function updatePortion(multiplier) {
         const originalValue = parseFloat(element.getAttribute('data-original'));
         const newValue = originalValue * clampedMultiplier;
         
-        // 格式化显示：保留1位小数
-        const displayValue = newValue.toFixed(1);
+        // 格式化显示：盐含量保留2位小数，其他保留1位小数
+        const nutritionType = element.closest('.nutrition-item')?.getAttribute('data-nutrition');
+        const displayValue = nutritionType === 'salt' ? newValue.toFixed(2) : newValue.toFixed(1);
         element.textContent = displayValue;
         
         // 添加动画效果
