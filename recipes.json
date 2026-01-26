@@ -1,0 +1,269 @@
+[
+  {
+    "id": 1,
+    "title": "番茄炒蛋",
+    "category": ["中餐", "家常菜"],
+    "imageUrl": "images/tomato_egg.jpg",
+    "description": "经典的中式家常菜，简单易做，营养丰富，是很多人的最爱。",
+    "ingredients": [
+      {"name": "鸡蛋", "quantity": 3, "unit": "个"},
+      {"name": "番茄", "quantity": 2, "unit": "个"},
+      {"name": "食用油", "quantity": 15, "unit": "毫升"},
+      {"name": "盐", "quantity": 3, "unit": "克"},
+      {"name": "糖", "quantity": 5, "unit": "克"},
+      {"name": "葱花", "quantity": 10, "unit": "克"}
+    ],
+    "instructions": [
+      "鸡蛋打入碗中，加少许盐打散备用。",
+      "番茄洗净，在顶部划十字刀，用开水烫一下去皮，然后切块。",
+      "热锅下油，油温七成热时倒入蛋液，快速炒至凝固后盛出。",
+      "用锅内余油，放入番茄块，中火翻炒至出汁。",
+      "加入糖和盐调味，继续翻炒至番茄软烂。",
+      "将炒好的鸡蛋倒回锅中，与番茄混合翻炒均匀。",
+      "撒上葱花，翻炒几下即可出锅装盘。"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "红烧肉",
+    "category": ["中餐", "肉类"],
+    "imageUrl": "images/braised_pork.jpg",
+    "description": "中国传统名菜，肥而不腻，入口即化，是宴客的经典菜品。",
+    "ingredients": [
+      {"name": "五花肉", "quantity": 500, "unit": "克"},
+      {"name": "冰糖", "quantity": 30, "unit": "克"},
+      {"name": "生抽", "quantity": 20, "unit": "毫升"},
+      {"name": "老抽", "quantity": 10, "unit": "毫升"},
+      {"name": "料酒", "quantity": 30, "unit": "毫升"},
+      {"name": "生姜", "quantity": 20, "unit": "克"},
+      {"name": "八角", "quantity": 2, "unit": "个"},
+      {"name": "香叶", "quantity": 2, "unit": "片"},
+      {"name": "水", "quantity": 500, "unit": "毫升"}
+    ],
+    "instructions": [
+      "五花肉洗净，切成3厘米见方的块。",
+      "锅中加水，放入五花肉块，大火煮开后撇去浮沫，捞出沥干。",
+      "热锅下少许油，放入冰糖，小火炒至糖色变红。",
+      "放入五花肉块，翻炒均匀，使每块肉都裹上糖色。",
+      "加入生抽、老抽、料酒，继续翻炒。",
+      "放入生姜片、八角、香叶，倒入热水，水量要没过肉块。",
+      "大火烧开后转小火，盖上锅盖炖煮40-50分钟。",
+      "待汤汁浓稠，肉质软烂时，开大火收汁即可。"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "提拉米苏",
+    "category": ["西餐", "甜点"],
+    "imageUrl": "images/tiramisu.jpg",
+    "description": "经典的意大利甜点，口感层次丰富，咖啡与奶香的完美结合。",
+    "ingredients": [
+      {"name": "马斯卡彭奶酪", "quantity": 250, "unit": "克"},
+      {"name": "淡奶油", "quantity": 200, "unit": "毫升"},
+      {"name": "细砂糖", "quantity": 50, "unit": "克"},
+      {"name": "手指饼干", "quantity": 12, "unit": "根"},
+      {"name": "浓缩咖啡", "quantity": 150, "unit": "毫升"},
+      {"name": "咖啡酒", "quantity": 30, "unit": "毫升"},
+      {"name": "可可粉", "quantity": 20, "unit": "克"},
+      {"name": "鸡蛋黄", "quantity": 2, "unit": "个"}
+    ],
+    "instructions": [
+      "将浓缩咖啡与咖啡酒混合，放凉备用。",
+      "鸡蛋黄与细砂糖隔水加热，用打蛋器打至颜色变浅、体积膨大。",
+      "马斯卡彭奶酪室温软化，加入蛋黄糊中，搅拌均匀。",
+      "淡奶油打发至7分发，与奶酪糊混合均匀。",
+      "手指饼干快速蘸取咖啡液，铺在容器底部。",
+      "在饼干上铺一层奶酪糊，再铺一层蘸了咖啡的饼干。",
+      "最后再铺一层奶酪糊，用刮刀抹平表面。",
+      "放入冰箱冷藏至少4小时，食用前撒上可可粉即可。"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "意式肉酱面",
+    "category": ["西餐", "主食"],
+    "imageUrl": "images/spaghetti_bolognese.jpg",
+    "description": "经典的意大利面食，浓郁的肉酱与弹牙的面条完美搭配。",
+    "ingredients": [
+      {"name": "意大利面", "quantity": 300, "unit": "克"},
+      {"name": "牛肉末", "quantity": 200, "unit": "克"},
+      {"name": "猪肉末", "quantity": 100, "unit": "克"},
+      {"name": "洋葱", "quantity": 1, "unit": "个"},
+      {"name": "胡萝卜", "quantity": 1, "unit": "根"},
+      {"name": "芹菜", "quantity": 50, "unit": "克"},
+      {"name": "番茄罐头", "quantity": 400, "unit": "克"},
+      {"name": "红酒", "quantity": 50, "unit": "毫升"},
+      {"name": "橄榄油", "quantity": 30, "unit": "毫升"},
+      {"name": "盐", "quantity": 5, "unit": "克"},
+      {"name": "黑胡椒", "quantity": 3, "unit": "克"},
+      {"name": "帕玛森奶酪", "quantity": 30, "unit": "克"}
+    ],
+    "instructions": [
+      "洋葱、胡萝卜、芹菜切碎备用。",
+      "热锅下橄榄油，放入洋葱炒至透明。",
+      "加入胡萝卜和芹菜，继续翻炒5分钟。",
+      "放入牛肉末和猪肉末，炒至变色。",
+      "倒入红酒，煮至酒精挥发。",
+      "加入番茄罐头，用铲子压碎番茄，搅拌均匀。",
+      "加盐和黑胡椒调味，转小火炖煮1-1.5小时，期间偶尔搅拌。",
+      "另起一锅，水开后加盐，放入意大利面煮至包装说明的时间。",
+      "将煮好的面条与肉酱混合，撒上帕玛森奶酪即可。"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "抹茶拿铁",
+    "category": ["饮品", "咖啡"],
+    "imageUrl": "images/matcha_latte.jpg",
+    "description": "日式风味的抹茶饮品，清香淡雅，是下午茶的完美选择。",
+    "ingredients": [
+      {"name": "抹茶粉", "quantity": 5, "unit": "克"},
+      {"name": "热水", "quantity": 30, "unit": "毫升"},
+      {"name": "牛奶", "quantity": 200, "unit": "毫升"},
+      {"name": "糖浆", "quantity": 15, "unit": "毫升"},
+      {"name": "冰块", "quantity": 150, "unit": "克"}
+    ],
+    "instructions": [
+      "将抹茶粉过筛，放入碗中。",
+      "加入热水，用茶筅或打蛋器快速搅拌至无颗粒，形成抹茶液。",
+      "在杯中放入冰块，倒入牛奶。",
+      "加入糖浆，搅拌均匀。",
+      "将抹茶液缓缓倒入杯中，形成分层效果。",
+      "用勺子轻轻搅拌，使抹茶与牛奶混合均匀即可。"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "宫保鸡丁",
+    "category": ["中餐", "川菜"],
+    "imageUrl": "images/kung_pao_chicken.jpg",
+    "description": "经典的川菜代表，麻辣鲜香，鸡肉嫩滑，花生酥脆。",
+    "ingredients": [
+      {"name": "鸡胸肉", "quantity": 300, "unit": "克"},
+      {"name": "花生米", "quantity": 50, "unit": "克"},
+      {"name": "干辣椒", "quantity": 10, "unit": "个"},
+      {"name": "花椒", "quantity": 10, "unit": "粒"},
+      {"name": "大葱", "quantity": 50, "unit": "克"},
+      {"name": "生姜", "quantity": 10, "unit": "克"},
+      {"name": "大蒜", "quantity": 3, "unit": "瓣"},
+      {"name": "生抽", "quantity": 15, "unit": "毫升"},
+      {"name": "老抽", "quantity": 5, "unit": "毫升"},
+      {"name": "料酒", "quantity": 10, "unit": "毫升"},
+      {"name": "糖", "quantity": 10, "unit": "克"},
+      {"name": "醋", "quantity": 10, "unit": "毫升"},
+      {"name": "淀粉", "quantity": 10, "unit": "克"},
+      {"name": "食用油", "quantity": 30, "unit": "毫升"}
+    ],
+    "instructions": [
+      "鸡胸肉切丁，用料酒、生抽、淀粉腌制15分钟。",
+      "大葱切段，生姜、大蒜切末。",
+      "热锅下油，放入花生米小火炒至酥脆，盛出备用。",
+      "锅中留底油，放入鸡丁炒至变色，盛出。",
+      "锅中再下油，放入干辣椒和花椒，小火炒出香味。",
+      "加入葱段、姜末、蒜末爆香。",
+      "放入鸡丁，大火快速翻炒。",
+      "加入生抽、老抽、糖、醋，翻炒均匀。",
+      "最后放入花生米，快速翻炒几下即可出锅。"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "巧克力布朗尼",
+    "category": ["西餐", "甜点"],
+    "imageUrl": "images/brownie.jpg",
+    "description": "浓郁的巧克力蛋糕，外脆内软，是巧克力爱好者的最爱。",
+    "ingredients": [
+      {"name": "黑巧克力", "quantity": 150, "unit": "克"},
+      {"name": "无盐黄油", "quantity": 100, "unit": "克"},
+      {"name": "细砂糖", "quantity": 100, "unit": "克"},
+      {"name": "鸡蛋", "quantity": 2, "unit": "个"},
+      {"name": "中筋面粉", "quantity": 60, "unit": "克"},
+      {"name": "可可粉", "quantity": 20, "unit": "克"},
+      {"name": "盐", "quantity": 2, "unit": "克"},
+      {"name": "香草精", "quantity": 5, "unit": "毫升"},
+      {"name": "核桃仁", "quantity": 50, "unit": "克"}
+    ],
+    "instructions": [
+      "黑巧克力和黄油隔水加热，搅拌至完全融化，放凉至室温。",
+      "烤箱预热至180°C，烤盘铺上烘焙纸。",
+      "鸡蛋和细砂糖用打蛋器打至颜色变浅、体积膨大。",
+      "将巧克力黄油液倒入蛋糊中，加入香草精，搅拌均匀。",
+      "筛入面粉、可可粉和盐，用刮刀轻轻翻拌均匀。",
+      "加入切碎的核桃仁，拌匀。",
+      "将面糊倒入烤盘，用刮刀抹平表面。",
+      "放入烤箱，烘烤25-30分钟，至表面形成脆皮。",
+      "取出后放凉，切成方块即可。"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "柠檬蜂蜜茶",
+    "category": ["饮品", "茶饮"],
+    "imageUrl": "images/lemon_honey_tea.jpg",
+    "description": "清新的柠檬与甜美的蜂蜜完美结合，是润喉养颜的健康饮品。",
+    "ingredients": [
+      {"name": "柠檬", "quantity": 1, "unit": "个"},
+      {"name": "蜂蜜", "quantity": 30, "unit": "毫升"},
+      {"name": "热水", "quantity": 300, "unit": "毫升"},
+      {"name": "红茶包", "quantity": 1, "unit": "个"},
+      {"name": "薄荷叶", "quantity": 3, "unit": "片"}
+    ],
+    "instructions": [
+      "用热水冲泡红茶包，浸泡3-5分钟后取出茶包。",
+      "柠檬洗净，一半切片，一半挤汁。",
+      "待茶水温度降至60°C左右时，加入蜂蜜，搅拌均匀。",
+      "加入柠檬汁，再次搅拌均匀。",
+      "放入柠檬片和薄荷叶装饰。",
+      "可以热饮，也可以放凉后加冰块冷饮。"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "番茄炒蛋（经典版）",
+    "category": ["中餐", "家常菜"],
+    "imageUrl": "images/tomato_egg_classic.jpg",
+    "description": "最经典的家常菜之一，酸甜可口，营养搭配均衡，老少皆宜。",
+    "ingredients": [
+      {"name": "鸡蛋", "quantity": 4, "unit": "个"},
+      {"name": "番茄", "quantity": 3, "unit": "个"},
+      {"name": "食用油", "quantity": 20, "unit": "毫升"},
+      {"name": "盐", "quantity": 4, "unit": "克"},
+      {"name": "白砂糖", "quantity": 8, "unit": "克"},
+      {"name": "料酒", "quantity": 5, "unit": "毫升"},
+      {"name": "小葱", "quantity": 15, "unit": "克"},
+      {"name": "蒜", "quantity": 2, "unit": "瓣"}
+    ],
+    "instructions": [
+      {
+        "text": "番茄洗净，用开水烫一下，去皮后切成小块备用。",
+        "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400"
+      },
+      {
+        "text": "鸡蛋打入碗中，加入1克盐和料酒，用筷子充分打散。",
+        "imageUrl": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=400"
+      },
+      "小葱切段，蒜切末备用。",
+      {
+        "text": "热锅下油，油温六成热时倒入蛋液，用筷子快速划散，炒至八成熟盛起。",
+        "imageUrl": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=400"
+      },
+      "锅中留底油，放入蒜末爆香。",
+      {
+        "text": "倒入番茄块，大火翻炒至出汁，用铲子压一压帮助出汁。",
+        "imageUrl": "https://images.unsplash.com/photo-1546094092-3c0b0c5a0a7a?w=400"
+      },
+      "加入白砂糖和剩余盐，继续翻炒至番茄软烂。",
+      "将炒好的鸡蛋倒回锅中，与番茄混合翻炒均匀。",
+      {
+        "text": "加入葱段，快速翻炒几下即可出锅。",
+        "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400"
+      }
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 18.5,
+      "carbs": 15.2,
+      "fat": 28.6
+    }
+  }
+]

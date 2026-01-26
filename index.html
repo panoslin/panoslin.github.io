@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="食谱管理系统 - 发现和分享美味食谱">
+    <title>食谱管理系统 - 主页</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 页面头部 -->
+    <header class="header">
+        <div class="header-content">
+            <h1>🍽️ 食谱管理系统</h1>
+            <p>发现美食，分享快乐</p>
+        </div>
+    </header>
+
+    <!-- 搜索区域 -->
+    <section class="search-section">
+        <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input 
+                type="text" 
+                id="search-input" 
+                class="search-input" 
+                placeholder="搜索食谱、食材、制作方法..."
+                autocomplete="off"
+            >
+        </div>
+    </section>
+
+    <!-- 分类筛选区域 -->
+    <section class="category-section">
+        <h2 class="category-title">分类浏览</h2>
+        <div id="category-filters" class="category-filters">
+            <!-- 分类按钮将通过JavaScript动态生成 -->
+        </div>
+    </section>
+
+    <!-- 主内容区域 -->
+    <main class="main-content">
+        <div id="recipes-grid" class="recipes-grid">
+            <!-- 食谱卡片将通过JavaScript动态生成 -->
+            <div class="loading">加载中</div>
+        </div>
+    </main>
+
+    <!-- JavaScript文件 -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="食谱详情页 - 查看完整的食谱信息">
+    <title>食谱详情 - 食谱管理系统</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 打印样式 */
+        @media print {
+            .header,
+            .navigation-buttons {
+                display: none;
+            }
+            
+            .recipe-detail {
+                box-shadow: none;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 页面头部 -->
+    <header class="header">
+        <div class="header-content">
+            <h1>🍽️ 食谱管理系统</h1>
+            <p>发现美食，分享快乐</p>
+        </div>
+    </header>
+
+    <!-- 食谱详情容器 -->
+    <main class="main-content">
+        <div id="recipe-detail" class="recipe-detail">
+            <!-- 食谱详情内容将通过JavaScript动态生成 -->
+            <div class="loading">加载中</div>
+        </div>
+    </main>
+
+    <!-- JavaScript文件 -->
+    <script src="js/main.js"></script>
+</body>
+</html>
