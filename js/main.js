@@ -18,13 +18,51 @@ function toggleRecipeInShoppingList(recipeId) {
         addRecipeToShoppingList(recipeId, allRecipes);
     }
     
-    // 重新渲染卡片以更新按钮状态
-    const currentSearchTerm = document.getElementById('search-input')?.value || '';
-    const currentCategory = window.currentCategory || 'all';
-    renderRecipes(allRecipes, currentSearchTerm, currentCategory);
+    // 只更新对应卡片的状态，而不是重新渲染整个列表
+    updateRecipeCardShoppingButton(recipeId);
     
     // 更新购物清单按钮状态（如果存在）
     updateShoppingListButton();
+}
+
+// 更新单个食谱卡片的购物清单按钮状态
+function updateRecipeCardShoppingButton(recipeId) {
+    // 通过按钮的 data-recipe-id 或卡片的 data-recipe-id 查找
+    const button = document.querySelector(`.add-to-shopping-list-btn[data-recipe-id="${recipeId}"]`) ||
+                   document.querySelector(`.recipe-card[data-recipe-id="${recipeId}"] .add-to-shopping-list-btn`);
+    
+    if (!button) {
+        // 如果找不到，尝试通过按钮的 onclick 属性查找
+        const allButtons = document.querySelectorAll('.add-to-shopping-list-btn');
+        for (const btn of allButtons) {
+            if (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes(`toggleRecipeInShoppingList(${recipeId})`)) {
+                updateButtonState(btn, recipeId);
+                return;
+            }
+        }
+        return;
+    }
+    
+    updateButtonState(button, recipeId);
+}
+
+// 更新按钮状态的辅助函数
+function updateButtonState(button, recipeId) {
+    const isInList = typeof isRecipeInShoppingList !== 'undefined' && isRecipeInShoppingList(recipeId);
+    const btnIcon = button.querySelector('.btn-icon');
+    const btnText = button.querySelector('.btn-text');
+    
+    if (isInList) {
+        button.classList.add('added');
+        button.title = '已添加到购物清单';
+        if (btnIcon) btnIcon.textContent = '✓';
+        if (btnText) btnText.textContent = '已添加';
+    } else {
+        button.classList.remove('added');
+        button.title = '添加到购物清单';
+        if (btnIcon) btnIcon.textContent = '🛒';
+        if (btnText) btnText.textContent = '加入清单';
+    }
 }
 
 // 更新购物清单按钮状态
@@ -305,6 +343,7 @@ function renderRecipes(recipes, searchTerm = '') {
 function createRecipeCard(recipe, searchTerm = '') {
     const card = document.createElement('div');
     card.className = 'recipe-card';
+    card.setAttribute('data-recipe-id', recipe.id); // 添加 data-recipe-id 属性以便快速查找
     card.onclick = () => navigateToDetail(recipe.id);
     
     // 高亮搜索关键词
@@ -354,7 +393,8 @@ function createRecipeCard(recipe, searchTerm = '') {
             <div class="recipe-card-actions">
                 <button class="add-to-shopping-list-btn ${inShoppingList ? 'added' : ''}" 
                         onclick="event.stopPropagation(); toggleRecipeInShoppingList(${recipe.id})"
-                        title="${inShoppingList ? '已添加到购物清单' : '添加到购物清单'}">
+                        title="${inShoppingList ? '已添加到购物清单' : '添加到购物清单'}"
+                        data-recipe-id="${recipe.id}">
                     <span class="btn-icon">${inShoppingList ? '✓' : '🛒'}</span>
                     <span class="btn-text">${inShoppingList ? '已添加' : '加入清单'}</span>
                 </button>
