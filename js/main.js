@@ -1173,3 +1173,290 @@ function clearSearch() {
     renderRecipes(filteredRecipes);
     renderCategoryFilters();
 }
+
+/* ============================================
+   移动端侧边栏控制功能
+   ============================================ */
+
+// 侧边栏状态管理
+let mobileSidebarState = {
+    left: false,
+    right: false
+};
+
+// 触摸手势状态
+let touchState = {
+    startX: 0,
+    startY: 0,
+    currentX: 0,
+    currentY: 0,
+    sidebar: null,
+    isDragging: false
+};
+
+/**
+ * 切换移动端侧边栏
+ * @param {string} side - 'left' 或 'right'
+ */
+function toggleMobileSidebar(side) {
+    if (!isMobileViewport()) {
+        return; // 非移动端不执行
+    }
+
+    const sidebar = document.getElementById(`sidebar-${side}`);
+    const toggle = document.querySelector(`.mobile-sidebar-toggle-${side}`);
+    const overlay = document.getElementById('sidebar-overlay');
+
+    if (!sidebar || !toggle) return;
+
+    const isOpen = mobileSidebarState[side];
+
+    if (isOpen) {
+        closeMobileSidebar(side);
+    } else {
+        // 先关闭其他侧边栏
+        if (mobileSidebarState.left && side !== 'left') closeMobileSidebar('left');
+        if (mobileSidebarState.right && side !== 'right') closeMobileSidebar('right');
+        
+        openMobileSidebar(side);
+    }
+}
+
+/**
+ * 打开移动端侧边栏
+ * @param {string} side - 'left' 或 'right'
+ */
+function openMobileSidebar(side) {
+    const sidebar = document.getElementById(`sidebar-${side}`);
+    const toggle = document.querySelector(`.mobile-sidebar-toggle-${side}`);
+    const overlay = document.getElementById('sidebar-overlay');
+
+    if (!sidebar || !toggle) return;
+
+    // 保存当前滚动位置（在设置 position: fixed 之前）
+    if (!window.savedScrollPosition && !document.body.classList.contains('sidebar-open')) {
+        window.savedScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    }
+
+    sidebar.classList.add('mobile-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    if (overlay) {
+        overlay.classList.add('active');
+        overlay.setAttribute('aria-hidden', 'false');
+    }
+    document.body.classList.add('sidebar-open');
+
+    mobileSidebarState[side] = true;
+
+    // 初始化触摸手势
+    initSidebarTouchGesture(sidebar, side);
+}
+
+/**
+ * 关闭移动端侧边栏
+ * @param {string} side - 'left' 或 'right'
+ */
+function closeMobileSidebar(side) {
+    const sidebar = document.getElementById(`sidebar-${side}`);
+    const toggle = document.querySelector(`.mobile-sidebar-toggle-${side}`);
+    const overlay = document.getElementById('sidebar-overlay');
+
+    if (!sidebar) return;
+
+    // 先更新状态
+    mobileSidebarState[side] = false;
+
+    // 移除侧边栏的展开状态
+    sidebar.classList.remove('mobile-open');
+    if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    
+    // 如果两个侧边栏都关闭了，移除遮罩层和 body 类
+    if (!mobileSidebarState.left && !mobileSidebarState.right) {
+        if (overlay) {
+            overlay.classList.remove('active');
+            overlay.setAttribute('aria-hidden', 'true');
+        }
+        document.body.classList.remove('sidebar-open');
+        // 恢复 body 的滚动位置（如果有保存的话）
+        if (window.savedScrollPosition !== undefined) {
+            window.scrollTo(0, window.savedScrollPosition);
+            window.savedScrollPosition = undefined;
+        }
+    }
+}
+
+/**
+ * 关闭所有移动端侧边栏
+ */
+function closeAllMobileSidebars() {
+    // 先更新状态，确保检查逻辑正确
+    mobileSidebarState.left = false;
+    mobileSidebarState.right = false;
+    
+    // 关闭所有侧边栏
+    const leftSidebar = document.getElementById('sidebar-left');
+    const rightSidebar = document.getElementById('sidebar-right');
+    const overlay = document.getElementById('sidebar-overlay');
+    
+    if (leftSidebar) {
+        leftSidebar.classList.remove('mobile-open');
+        const leftToggle = document.querySelector('.mobile-sidebar-toggle-left');
+        if (leftToggle) leftToggle.setAttribute('aria-expanded', 'false');
+    }
+    
+    if (rightSidebar) {
+        rightSidebar.classList.remove('mobile-open');
+        const rightToggle = document.querySelector('.mobile-sidebar-toggle-right');
+        if (rightToggle) rightToggle.setAttribute('aria-expanded', 'false');
+    }
+    
+    // 移除遮罩层和 body 类
+    if (overlay) {
+        overlay.classList.remove('active');
+        overlay.setAttribute('aria-hidden', 'true');
+    }
+    
+    document.body.classList.remove('sidebar-open');
+    
+    // 恢复滚动位置
+    if (window.savedScrollPosition !== undefined) {
+        window.scrollTo(0, window.savedScrollPosition);
+        window.savedScrollPosition = undefined;
+    }
+}
+
+/**
+ * 检测是否为移动端视口
+ * @returns {boolean}
+ */
+function isMobileViewport() {
+    return window.innerWidth <= 768;
+}
+
+/**
+ * 初始化侧边栏触摸手势
+ * @param {HTMLElement} sidebar - 侧边栏元素
+ * @param {string} side - 'left' 或 'right'
+ */
+function initSidebarTouchGesture(sidebar, side) {
+    if (!sidebar) return;
+
+    // 移除旧的事件监听器
+    sidebar.removeEventListener('touchstart', handleSidebarTouchStart);
+    sidebar.removeEventListener('touchmove', handleSidebarTouchMove);
+    sidebar.removeEventListener('touchend', handleSidebarTouchEnd);
+
+    // 添加新的事件监听器
+    sidebar.addEventListener('touchstart', handleSidebarTouchStart, { passive: false });
+    sidebar.addEventListener('touchmove', handleSidebarTouchMove, { passive: false });
+    sidebar.addEventListener('touchend', handleSidebarTouchEnd, { passive: true });
+}
+
+/**
+ * 处理侧边栏触摸开始
+ */
+function handleSidebarTouchStart(e) {
+    if (!isMobileViewport()) return;
+
+    const sidebar = e.currentTarget;
+    const side = sidebar.id.includes('left') ? 'left' : 'right';
+    
+    touchState.startX = e.touches[0].clientX;
+    touchState.startY = e.touches[0].clientY;
+    touchState.currentX = touchState.startX;
+    touchState.currentY = touchState.startY;
+    touchState.sidebar = sidebar;
+    touchState.isDragging = false;
+}
+
+/**
+ * 处理侧边栏触摸移动
+ */
+function handleSidebarTouchMove(e) {
+    if (!isMobileViewport() || !touchState.sidebar) return;
+
+    touchState.currentX = e.touches[0].clientX;
+    touchState.currentY = e.touches[0].clientY;
+
+    const deltaX = touchState.currentX - touchState.startX;
+    const deltaY = touchState.currentY - touchState.startY;
+
+    // 判断是否为水平滑动
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
+        touchState.isDragging = true;
+        e.preventDefault();
+
+        const sidebar = touchState.sidebar;
+        const side = sidebar.id.includes('left') ? 'left' : 'right';
+        
+        // 只允许关闭方向的滑动
+        if ((side === 'left' && deltaX < 0) || (side === 'right' && deltaX > 0)) {
+            const translateX = side === 'left' ? deltaX : deltaX;
+            sidebar.style.transform = `translateX(${translateX}px)`;
+            sidebar.style.transition = 'none';
+        }
+    }
+}
+
+/**
+ * 处理侧边栏触摸结束
+ */
+function handleSidebarTouchEnd(e) {
+    if (!isMobileViewport() || !touchState.sidebar) return;
+
+    const sidebar = touchState.sidebar;
+    const side = sidebar.id.includes('left') ? 'left' : 'right';
+    
+    sidebar.style.transition = 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+
+    if (touchState.isDragging) {
+        const deltaX = touchState.currentX - touchState.startX;
+        const threshold = 100; // 滑动阈值
+
+        // 如果滑动距离超过阈值，关闭侧边栏
+        if ((side === 'left' && deltaX < -threshold) || 
+            (side === 'right' && deltaX > threshold)) {
+            closeMobileSidebar(side);
+        } else {
+            // 否则恢复原状
+            sidebar.style.transform = '';
+        }
+    }
+
+    // 重置触摸状态
+    touchState.sidebar = null;
+    touchState.isDragging = false;
+}
+
+/**
+ * 处理窗口大小变化
+ */
+function handleWindowResize() {
+    // 如果从移动端切换到桌面端，关闭所有侧边栏
+    if (!isMobileViewport()) {
+        closeAllMobileSidebars();
+    }
+}
+
+// 监听窗口大小变化
+window.addEventListener('resize', handleWindowResize);
+
+// 监听 ESC 键关闭侧边栏
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && isMobileViewport()) {
+        closeAllMobileSidebars();
+    }
+});
+
+// 页面加载完成后初始化
+document.addEventListener('DOMContentLoaded', function() {
+    // 确保遮罩层存在
+    if (!document.getElementById('sidebar-overlay')) {
+        const overlay = document.createElement('div');
+        overlay.id = 'sidebar-overlay';
+        overlay.className = 'sidebar-overlay';
+        overlay.setAttribute('aria-hidden', 'true');
+        overlay.onclick = closeAllMobileSidebars;
+        document.body.appendChild(overlay);
+    }
+});

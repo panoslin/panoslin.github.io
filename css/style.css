@@ -1697,10 +1697,10 @@ body::before {
         gap: var(--spacing-4);
     }
     
+    /* 在移动端，侧边栏通过 JavaScript 控制显示/隐藏 */
     .sidebar {
         position: static;
         max-height: none;
-        display: none; /* 移动端隐藏侧边栏 */
     }
     
     .content-main {
@@ -1714,49 +1714,55 @@ body::before {
 }
 
 @media (max-width: 768px) {
+    /* Header 高度优化 - 减少移动端占用空间 */
+    :root {
+        --header-height: 60px; /* 移动端减少 header 高度 */
+    }
+
+    .header {
+        padding: var(--spacing-3) 0; /* 减少上下内边距 */
+    }
+
+    /* Header 布局优化 */
+    .header-content {
+        position: relative;
+        padding-top: calc(var(--spacing-2) + 44px); /* 减少顶部内边距，为触发按钮留空间 */
+    }
+
     .header-logo-title {
-        gap: var(--spacing-3);
+        gap: var(--spacing-2); /* 减少 logo 和标题之间的间距 */
+        justify-content: center;
+        margin-bottom: var(--spacing-1); /* 减少底部边距 */
     }
     
     .site-logo {
-        width: 50px;
-        height: 50px;
+        width: 40px; /* 减小 logo 尺寸 */
+        height: 40px;
     }
     
     .header h1 {
-        font-size: var(--text-3xl);
+        font-size: var(--text-2xl); /* 减小标题字体 */
+        margin: 0;
     }
     
     .header p {
-        font-size: var(--text-base);
+        font-size: var(--text-sm); /* 减小描述文字 */
+        margin: 0;
+        line-height: 1.4;
     }
     
     .header-top {
-        margin-bottom: var(--spacing-3);
+        margin-bottom: var(--spacing-2); /* 减少顶部区域边距 */
     }
     
     .back-home-btn {
-        padding: var(--spacing-1) var(--spacing-3);
-        font-size: var(--text-sm);
+        padding: var(--spacing-1) var(--spacing-2); /* 减少按钮内边距 */
+        font-size: var(--text-xs); /* 减小字体 */
     }
     
     .recipes-grid {
         column-width: 260px;
         column-gap: var(--spacing-4);
-    }
-    
-    /* 平板端显示侧边栏（可选） */
-    .sidebar {
-        display: block;
-    }
-    
-    .content-layout {
-        grid-template-columns: 200px 1fr;
-        gap: var(--spacing-4);
-    }
-    
-    .sidebar-right {
-        display: none; /* 平板端只显示左侧边栏 */
     }
     
     .recipe-card-image {
@@ -1807,27 +1813,40 @@ body::before {
 @media (max-width: 480px) {
     :root {
         --container-padding: var(--spacing-4);
+        --header-height: 56px; /* 超小屏幕进一步减少高度 */
     }
     
     .header {
-        padding: var(--spacing-4) 0;
+        padding: var(--spacing-2) 0; /* 进一步减少内边距 */
     }
     
+    .header-content {
+        padding-top: calc(var(--spacing-1) + 44px); /* 最小化顶部内边距 */
+    }
+
     .header-logo-title {
         gap: var(--spacing-2);
+        margin-bottom: 0; /* 移除底部边距 */
     }
     
     .site-logo {
-        width: 44px;
-        height: 44px;
+        width: 36px; /* 进一步减小 logo */
+        height: 36px;
     }
     
     .header h1 {
-        font-size: var(--text-2xl);
+        font-size: var(--text-xl); /* 进一步减小标题 */
+        line-height: 1.2;
     }
     
     .header p {
-        font-size: var(--text-sm);
+        font-size: var(--text-xs); /* 进一步减小描述 */
+        line-height: 1.3;
+        margin-top: var(--spacing-1);
+    }
+
+    .header-top {
+        margin-bottom: var(--spacing-1); /* 最小化顶部区域边距 */
     }
     
     .search-section {
@@ -2629,5 +2648,244 @@ body::before {
 @media (max-width: 768px) {
     .shopping-list-container {
         padding: var(--spacing-4);
+    }
+}
+
+/* ============================================
+   移动端侧边栏折叠功能
+   ============================================ */
+
+/* 移动端侧边栏触发按钮 */
+.mobile-sidebar-toggle {
+    display: none; /* 桌面端隐藏 */
+    position: fixed;
+    top: var(--spacing-2); /* 减少顶部间距，更紧凑 */
+    z-index: var(--z-sticky) + 1;
+    width: 40px; /* 稍微减小按钮尺寸 */
+    height: 40px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.mobile-sidebar-toggle:hover {
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+    box-shadow: var(--shadow-lg);
+    transform: scale(1.05);
+}
+
+.mobile-sidebar-toggle:active {
+    transform: scale(0.95);
+}
+
+.mobile-sidebar-toggle-left {
+    left: var(--spacing-4);
+}
+
+.mobile-sidebar-toggle-right {
+    right: var(--spacing-4);
+}
+
+.hamburger-icon {
+    font-size: var(--text-xl);
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+/* 侧边栏关闭按钮 */
+.sidebar-close-btn {
+    display: none; /* 桌面端隐藏 */
+    position: absolute;
+    top: var(--spacing-4);
+    right: var(--spacing-4);
+    width: 36px;
+    height: 36px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 0;
+    color: var(--text-primary);
+    font-size: var(--text-lg);
+    line-height: 1;
+}
+
+.sidebar-close-btn:hover {
+    background: var(--spring-pink-50);
+    border-color: var(--spring-pink-300);
+    color: var(--spring-pink-600);
+    transform: scale(1.1);
+}
+
+.sidebar-close-btn:active {
+    transform: scale(0.9);
+}
+
+/* 侧边栏遮罩层 */
+.sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: var(--z-modal) - 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    touch-action: none;
+}
+
+.sidebar-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/* 移动端侧边栏样式 */
+@media (max-width: 768px) {
+    /* 显示触发按钮 */
+    .mobile-sidebar-toggle {
+        display: flex;
+    }
+
+    /* 侧边栏基础样式 - 默认隐藏 */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 280px;
+        max-width: 85vw;
+        max-height: 100vh;
+        background: var(--bg-primary);
+        box-shadow: var(--shadow-2xl);
+        z-index: var(--z-modal);
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: var(--spacing-6) var(--spacing-4);
+        padding-top: calc(var(--spacing-6) + 44px); /* 为关闭按钮留空间 */
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+        -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+        display: block; /* 确保可以显示 */
+    }
+
+    /* 左侧边栏默认隐藏（向左移出屏幕） */
+    .sidebar-left {
+        left: 0;
+        transform: translateX(-100%);
+    }
+
+    /* 右侧边栏默认隐藏（向右移出屏幕） */
+    .sidebar-right {
+        right: 0;
+        transform: translateX(100%);
+    }
+
+    /* 展开状态 */
+    .sidebar-left.mobile-open {
+        transform: translateX(0);
+    }
+
+    .sidebar-right.mobile-open {
+        transform: translateX(0);
+    }
+
+    /* 显示关闭按钮 */
+    .sidebar-close-btn {
+        display: flex;
+    }
+
+    /* 调整内容布局 */
+    .content-layout {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    /* 主内容区在侧边栏打开时变暗 */
+    .content-main {
+        transition: filter 0.3s ease;
+    }
+
+    body.sidebar-open .content-main {
+        filter: brightness(0.95);
+    }
+
+    /* 防止背景滚动 */
+    body.sidebar-open {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* 侧边栏内容优化 */
+    .sidebar-widget {
+        margin-bottom: var(--spacing-4);
+    }
+
+    .sidebar-title {
+        font-size: var(--text-base);
+    }
+
+    /* 触摸手势优化 */
+    .sidebar {
+        touch-action: pan-y;
+    }
+
+    /* Header 内容区域调整 */
+    .header-content {
+        min-height: auto;
+    }
+
+    /* 进一步优化移动端 header 间距 */
+    .header-logo-title {
+        margin-bottom: var(--spacing-1);
+    }
+
+    .header p {
+        margin-top: 0;
+    }
+}
+
+/* 平板端（768px - 1024px）保持原有布局 */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .mobile-sidebar-toggle {
+        display: none;
+    }
+
+    .sidebar-close-btn {
+        display: none;
+    }
+
+    .sidebar-overlay {
+        display: none !important;
+    }
+
+    .sidebar {
+        position: static;
+        max-height: none;
+    }
+
+    .sidebar-left.mobile-open,
+    .sidebar-right.mobile-open {
+        transform: none;
+    }
+
+    body.sidebar-open {
+        overflow: auto;
+        position: static;
     }
 }

@@ -19,10 +19,26 @@
                     <span class="back-text">返回首页</span>
                 </a>
             </div>
+            <!-- 移动端侧边栏触发按钮 -->
+            <button class="mobile-sidebar-toggle mobile-sidebar-toggle-left" 
+                    aria-label="打开左侧边栏" 
+                    aria-expanded="false" 
+                    aria-controls="sidebar-left"
+                    onclick="toggleMobileSidebar('left')">
+                <span class="hamburger-icon">☰</span>
+            </button>
             <div class="header-logo-title">
                 <img src="images/logo.png" alt="林哥的厨房 闲人免进 Logo" class="site-logo">
                 <h1>购物清单</h1>
             </div>
+            <!-- 移动端右侧边栏触发按钮 -->
+            <button class="mobile-sidebar-toggle mobile-sidebar-toggle-right" 
+                    aria-label="打开右侧边栏" 
+                    aria-expanded="false" 
+                    aria-controls="sidebar-right"
+                    onclick="toggleMobileSidebar('right')">
+                <span class="hamburger-icon">☰</span>
+            </button>
             <p>管理你的食材采购</p>
         </div>
     </header>
@@ -31,7 +47,12 @@
     <main class="main-content">
         <div class="content-layout">
             <!-- 左侧边栏（桌面端显示） -->
-            <aside class="sidebar sidebar-left">
+            <aside class="sidebar sidebar-left" id="sidebar-left" aria-label="左侧边栏">
+                <button class="sidebar-close-btn" 
+                        aria-label="关闭侧边栏" 
+                        onclick="toggleMobileSidebar('left')">
+                    <span>✕</span>
+                </button>
                 <div class="sidebar-widget">
                     <h3 class="sidebar-title">📋 分类导航</h3>
                     <nav id="shopping-list-toc" class="shopping-list-toc">
@@ -99,7 +120,12 @@
             </div>
 
             <!-- 右侧边栏（桌面端显示） -->
-            <aside class="sidebar sidebar-right">
+            <aside class="sidebar sidebar-right" id="sidebar-right" aria-label="右侧边栏">
+                <button class="sidebar-close-btn" 
+                        aria-label="关闭侧边栏" 
+                        onclick="toggleMobileSidebar('right')">
+                    <span>✕</span>
+                </button>
                 <div class="sidebar-widget">
                     <h3 class="sidebar-title">📊 统计信息</h3>
                     <div id="shopping-stats-sidebar" class="shopping-stats-sidebar">
@@ -130,6 +156,12 @@
             </aside>
         </div>
     </main>
+
+    <!-- 移动端侧边栏遮罩层 -->
+    <div class="sidebar-overlay" 
+         id="sidebar-overlay" 
+         aria-hidden="true"
+         onclick="closeAllMobileSidebars()"></div>
 
     <!-- JavaScript文件 -->
     <script src="js/shoppingList.js"></script>
