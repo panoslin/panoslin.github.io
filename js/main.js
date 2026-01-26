@@ -3,6 +3,45 @@
  * 负责数据加载、搜索、筛选和页面渲染
  */
 
+// 切换食谱在购物清单中的状态
+function toggleRecipeInShoppingList(recipeId) {
+    if (typeof addRecipeToShoppingList === 'undefined' || typeof removeRecipeFromShoppingList === 'undefined') {
+        console.error('购物清单模块未加载');
+        return;
+    }
+    
+    const isInList = isRecipeInShoppingList(recipeId);
+    
+    if (isInList) {
+        removeRecipeFromShoppingList(recipeId, allRecipes);
+    } else {
+        addRecipeToShoppingList(recipeId, allRecipes);
+    }
+    
+    // 重新渲染卡片以更新按钮状态
+    const currentSearchTerm = document.getElementById('search-input')?.value || '';
+    const currentCategory = window.currentCategory || 'all';
+    renderRecipes(allRecipes, currentSearchTerm, currentCategory);
+    
+    // 更新购物清单按钮状态（如果存在）
+    updateShoppingListButton();
+}
+
+// 更新购物清单按钮状态
+function updateShoppingListButton() {
+    if (typeof getShoppingListStats === 'undefined') return;
+    
+    const stats = getShoppingListStats();
+    const btn = document.getElementById('shopping-list-btn');
+    if (btn) {
+        const badge = btn.querySelector('.shopping-list-badge');
+        if (badge) {
+            badge.textContent = stats.selectedRecipes > 0 ? stats.selectedRecipes : '';
+            badge.style.display = stats.selectedRecipes > 0 ? 'flex' : 'none';
+        }
+    }
+}
+
 // 全局变量
 let allRecipes = [];
 let filteredRecipes = [];
@@ -59,6 +98,11 @@ async function loadRecipes() {
             renderSidebarContent(); // 渲染侧边栏内容
         } else if (document.getElementById('recipe-detail')) {
             loadRecipeDetail();
+        } else if (document.getElementById('shopping-list-content')) {
+            // 购物清单页面
+            if (typeof loadShoppingListPage === 'function') {
+                loadShoppingListPage();
+            }
         }
     } catch (error) {
         console.error('加载食谱数据失败:', error);
@@ -292,6 +336,9 @@ function createRecipeCard(recipe, searchTerm = '') {
         `<span class="recipe-category-tag">${cat}</span>`
     ).join('');
     
+    // 检查是否在购物清单中
+    const inShoppingList = typeof isRecipeInShoppingList !== 'undefined' && isRecipeInShoppingList(recipe.id);
+    
     // 创建卡片内容
     card.innerHTML = `
         ${imageHtml}
@@ -303,6 +350,14 @@ function createRecipeCard(recipe, searchTerm = '') {
             <p class="recipe-card-description">${highlightText(recipe.description || '')}</p>
             <div class="recipe-card-categories">
                 ${categoryTags}
+            </div>
+            <div class="recipe-card-actions">
+                <button class="add-to-shopping-list-btn ${inShoppingList ? 'added' : ''}" 
+                        onclick="event.stopPropagation(); toggleRecipeInShoppingList(${recipe.id})"
+                        title="${inShoppingList ? '已添加到购物清单' : '添加到购物清单'}">
+                    <span class="btn-icon">${inShoppingList ? '✓' : '🛒'}</span>
+                    <span class="btn-text">${inShoppingList ? '已添加' : '加入清单'}</span>
+                </button>
             </div>
         </div>
     `;

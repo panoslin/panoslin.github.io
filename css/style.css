@@ -1906,3 +1906,728 @@ body::before {
         display: none;
     }
 }
+
+/* ============================================
+   购物清单样式
+   ============================================ */
+
+/* 添加到购物清单按钮 */
+.recipe-card-actions {
+    margin-top: var(--spacing-3);
+    padding-top: var(--spacing-3);
+    border-top: 1px solid var(--border-light);
+}
+
+.add-to-shopping-list-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-4);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    width: 100%;
+    justify-content: center;
+}
+
+.add-to-shopping-list-btn:hover {
+    background: var(--primary-bg);
+    border-color: var(--primary-color);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+
+.add-to-shopping-list-btn.added {
+    background: var(--spring-green-50);
+    border-color: var(--spring-green-300);
+    color: var(--spring-green-700);
+}
+
+.add-to-shopping-list-btn.added:hover {
+    background: var(--spring-green-100);
+}
+
+.add-to-shopping-list-btn .btn-icon {
+    font-size: var(--text-base);
+}
+
+.add-to-shopping-list-btn .btn-text {
+    font-size: var(--text-sm);
+}
+
+/* 购物清单按钮徽章 */
+.shopping-list-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 var(--spacing-1);
+    background: var(--spring-pink-500);
+    color: white;
+    border-radius: var(--radius-full);
+    font-size: var(--text-xs);
+    font-weight: var(--font-semibold);
+    margin-left: auto;
+}
+
+/* 购物清单容器 */
+.shopping-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-6);
+}
+
+.shopping-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-6);
+    padding: var(--spacing-5);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-light);
+    flex-wrap: wrap;
+    gap: var(--spacing-4);
+}
+
+.shopping-list-stats {
+    display: flex;
+    gap: var(--spacing-6);
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-1);
+}
+
+.stat-label {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    font-weight: var(--font-medium);
+}
+
+.stat-value {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--primary-color);
+    line-height: 1;
+}
+
+.stat-unit {
+    font-size: var(--text-xs);
+    color: var(--text-tertiary);
+}
+
+.shopping-list-actions {
+    display: flex;
+    gap: var(--spacing-3);
+}
+
+.shopping-list-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-6);
+}
+
+/* 购物清单分类 */
+.shopping-category {
+    background: var(--bg-primary);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-5);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-sm);
+}
+
+.shopping-category-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    font-size: var(--text-xl);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-4);
+    padding-bottom: var(--spacing-3);
+    border-bottom: 2px solid var(--border-light);
+}
+
+.category-icon {
+    font-size: var(--text-2xl);
+}
+
+.category-count {
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+    color: var(--text-secondary);
+    margin-left: auto;
+}
+
+/* 食材列表 */
+.shopping-ingredients-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+}
+
+.shopping-ingredient-item {
+    position: relative;
+    overflow: hidden;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-light);
+    transition: all var(--transition-base);
+    touch-action: pan-y;
+}
+
+.shopping-ingredient-item:hover {
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+}
+
+.shopping-ingredient-item.purchased {
+    opacity: 0.6;
+    background: var(--apple-gray-50);
+}
+
+.shopping-ingredient-item.purchased .ingredient-name {
+    text-decoration: line-through;
+    color: var(--text-tertiary);
+}
+
+.shopping-ingredient-item.purchased .ingredient-quantity {
+    color: var(--text-tertiary);
+}
+
+/* 食材项内容容器 */
+.ingredient-item-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    padding: var(--spacing-3) var(--spacing-4);
+    background: inherit;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+/* 删除操作区域 */
+.ingredient-delete-action {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-1);
+    width: 80px;
+    background: var(--spring-pink-500);
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 0;
+    user-select: none;
+}
+
+.ingredient-delete-action:active {
+    background: var(--spring-pink-600);
+}
+
+.delete-icon {
+    font-size: var(--text-xl);
+}
+
+.delete-text {
+    font-size: var(--text-xs);
+    font-weight: var(--font-medium);
+}
+
+/* 滑动打开状态 */
+.shopping-ingredient-item.swiped-open .ingredient-item-content {
+    transform: translateX(-80px);
+}
+
+.shopping-ingredient-item.swiped-open .ingredient-delete-action {
+    opacity: 1;
+}
+
+/* 复选框样式 */
+.ingredient-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.ingredient-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-custom {
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--border-light);
+    border-radius: var(--radius-sm);
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-base);
+    flex-shrink: 0;
+}
+
+.ingredient-checkbox:checked + .checkbox-custom {
+    background: var(--spring-green-500);
+    border-color: var(--spring-green-500);
+}
+
+.ingredient-checkbox:checked + .checkbox-custom::after {
+    content: '✓';
+    color: white;
+    font-size: var(--text-base);
+    font-weight: var(--font-bold);
+}
+
+.ingredient-checkbox:focus + .checkbox-custom {
+    box-shadow: 0 0 0 3px var(--spring-green-100);
+}
+
+/* 食材信息 */
+.ingredient-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+    min-width: 0;
+}
+
+.ingredient-main-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+.ingredient-name {
+    font-size: var(--text-base);
+    font-weight: var(--font-medium);
+    color: var(--text-primary);
+}
+
+.ingredient-quantity {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+}
+
+/* 食材来源 */
+.ingredient-sources {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-2);
+    margin-top: var(--spacing-1);
+    flex-wrap: wrap;
+}
+
+.sources-label {
+    font-size: var(--text-xs);
+    color: var(--text-tertiary);
+    font-weight: var(--font-medium);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.sources-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-1);
+    flex: 1;
+}
+
+.source-recipe-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: var(--text-xs);
+    color: var(--spring-blue-600);
+    background: var(--spring-blue-50);
+    border: 1px solid var(--spring-blue-200);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: all var(--transition-base);
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.source-recipe-tag:hover {
+    background: var(--spring-blue-100);
+    border-color: var(--spring-blue-300);
+    color: var(--spring-blue-700);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-xs);
+}
+
+.shopping-ingredient-item.purchased .source-recipe-tag {
+    opacity: 0.5;
+}
+
+/* 删除按钮（桌面端保留） */
+.ingredient-delete-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    flex-shrink: 0;
+}
+
+.ingredient-delete-btn:hover {
+    background: var(--spring-pink-50);
+    border-color: var(--spring-pink-300);
+    color: var(--spring-pink-600);
+    transform: scale(1.1);
+}
+
+.ingredient-delete-btn span {
+    font-size: var(--text-base);
+}
+
+/* 移动端隐藏传统删除按钮，使用滑动删除 */
+@media (max-width: 768px) {
+    .ingredient-delete-btn {
+        display: none;
+    }
+    
+    .ingredient-delete-action {
+        width: 100px;
+    }
+    
+    .shopping-ingredient-item.swiped-open .ingredient-item-content {
+        transform: translateX(-100px);
+    }
+}
+
+/* 空状态 */
+.shopping-list-empty {
+    text-align: center;
+    padding: var(--spacing-12) var(--spacing-6);
+}
+
+.shopping-list-empty .empty-state-icon {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-4);
+    opacity: 0.5;
+}
+
+.shopping-list-empty .empty-state-text {
+    font-size: var(--text-xl);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-2);
+}
+
+.shopping-list-empty .empty-state-hint {
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-6);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .shopping-list-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .shopping-list-stats {
+        justify-content: space-around;
+    }
+    
+    .shopping-list-actions {
+        flex-direction: column;
+    }
+    
+    .shopping-list-actions .btn {
+        width: 100%;
+    }
+    
+    .shopping-category {
+        padding: var(--spacing-4);
+    }
+    
+    .shopping-ingredient-item {
+        padding: var(--spacing-2) var(--spacing-3);
+    }
+    
+    .ingredient-info {
+        min-width: 0;
+    }
+    
+    .ingredient-name {
+        font-size: var(--text-sm);
+        word-break: break-word;
+    }
+    
+    .ingredient-quantity {
+        font-size: var(--text-xs);
+    }
+    
+    .ingredient-sources {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .sources-label {
+        margin-bottom: var(--spacing-1);
+    }
+    
+    .source-recipe-tag {
+        max-width: 100%;
+        font-size: var(--text-xs);
+    }
+}
+
+/* ============================================
+   购物清单侧边栏样式
+   ============================================ */
+
+/* 购物清单分类导航 */
+.shopping-list-toc {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+.shopping-list-toc .toc-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-3);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    transition: all var(--transition-base);
+    border-left: 3px solid transparent;
+}
+
+.shopping-list-toc .toc-item:hover {
+    background: var(--primary-bg);
+    color: var(--primary-color);
+    border-left-color: var(--primary-color);
+    transform: translateX(4px);
+}
+
+.toc-icon {
+    font-size: var(--text-base);
+    flex-shrink: 0;
+}
+
+.toc-label {
+    flex: 1;
+    font-weight: var(--font-medium);
+}
+
+.toc-count {
+    font-size: var(--text-xs);
+    color: var(--text-tertiary);
+    background: var(--bg-secondary);
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+}
+
+/* 已选食谱列表 */
+.selected-recipes-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+}
+
+.selected-recipe-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-light);
+    transition: all var(--transition-base);
+}
+
+.selected-recipe-item:hover {
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+}
+
+.selected-recipe-link {
+    flex: 1;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: var(--text-sm);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: color var(--transition-base);
+}
+
+.selected-recipe-link:hover {
+    color: var(--primary-color);
+}
+
+.recipe-title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.remove-recipe-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    flex-shrink: 0;
+    font-size: var(--text-sm);
+}
+
+.remove-recipe-btn:hover {
+    background: var(--spring-pink-50);
+    border-color: var(--spring-pink-300);
+    color: var(--spring-pink-600);
+    transform: scale(1.1);
+}
+
+/* 侧边栏统计信息 */
+.shopping-stats-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+.stats-sidebar-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-2) 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.stats-sidebar-item:last-child {
+    border-bottom: none;
+}
+
+.stats-sidebar-label {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    font-weight: var(--font-medium);
+}
+
+.stats-sidebar-value {
+    font-size: var(--text-lg);
+    font-weight: var(--font-bold);
+    color: var(--primary-color);
+}
+
+.stats-sidebar-divider {
+    height: 1px;
+    background: var(--border-light);
+    margin: var(--spacing-2) 0;
+}
+
+.stats-sidebar-categories {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+.stats-category-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+.stats-category-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    font-size: var(--text-sm);
+}
+
+.stats-category-icon {
+    font-size: var(--text-base);
+    flex-shrink: 0;
+}
+
+.stats-category-name {
+    flex: 1;
+    color: var(--text-primary);
+    font-weight: var(--font-medium);
+}
+
+.stats-category-count {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+}
+
+.stats-category-progress {
+    height: 4px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+}
+
+.stats-category-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--spring-green-400), var(--spring-green-500));
+    border-radius: var(--radius-full);
+    transition: width var(--transition-base);
+}
+
+/* 购物清单容器调整 */
+.shopping-list-container {
+    max-width: 100%;
+    padding: 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+    .shopping-list-container {
+        padding: var(--spacing-4);
+    }
+}
+
+@media (max-width: 768px) {
+    .shopping-list-container {
+        padding: var(--spacing-4);
+    }
+}
