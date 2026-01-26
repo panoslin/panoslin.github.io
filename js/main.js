@@ -416,7 +416,11 @@ function renderRecipeDetail(recipe) {
     // 渲染详情页内容
     detailContainer.innerHTML = `
         <div class="recipe-detail-header">
-            <h1 class="recipe-detail-title">${recipe.title}</h1>
+            <h1 class="recipe-detail-title ${recipe.source ? 'clickable-title' : ''}" 
+                ${recipe.source ? `onclick="window.open('${recipe.source}', '_blank', 'noopener,noreferrer')" title="点击查看来源"` : ''}>
+                ${recipe.title}
+                ${recipe.source ? '<span class="title-link-icon">🔗</span>' : ''}
+            </h1>
             <div class="recipe-detail-categories">
                 ${categoryTags}
             </div>
@@ -532,6 +536,19 @@ function renderRecipeDetail(recipe) {
                 ${instructionsList}
             </ol>
         </div>
+        
+        ${recipe.source ? `
+        <div class="recipe-section" id="source">
+            <h2 class="recipe-section-title">来源</h2>
+            <div class="recipe-source">
+                <a href="${recipe.source}" target="_blank" rel="noopener noreferrer" class="source-link">
+                    <span class="source-icon">🔗</span>
+                    <span class="source-text">${recipe.source}</span>
+                    <span class="source-external-icon">↗</span>
+                </a>
+            </div>
+        </div>
+        ` : ''}
         
         <div class="navigation-buttons">
             <a href="index.html" class="btn">返回主页</a>
@@ -869,6 +886,9 @@ function renderDetailSidebar(recipe) {
     
     // 渲染营养信息摘要
     renderNutritionSummary(recipe);
+    
+    // 渲染快速操作（包括来源链接）
+    renderQuickActions(recipe);
 }
 
 /**
@@ -953,6 +973,43 @@ function renderNutritionSummary(recipe) {
         </div>
         ` : ''}
     `;
+}
+
+/**
+ * 渲染快速操作（包括来源链接）
+ * @param {Object} recipe - 食谱对象
+ */
+function renderQuickActions(recipe) {
+    const container = document.querySelector('.quick-actions');
+    if (!container) return;
+    
+    // 基础操作按钮
+    let actionsHTML = `
+        <button class="quick-action-btn" onclick="scrollToTop()">
+            <span class="action-icon">⬆️</span>
+            <span class="action-text">回到顶部</span>
+        </button>
+        <button class="quick-action-btn" onclick="window.print()">
+            <span class="action-icon">🖨️</span>
+            <span class="action-text">打印食谱</span>
+        </button>
+    `;
+    
+    // 如果有来源链接，添加来源链接按钮
+    if (recipe.source) {
+        actionsHTML += `
+            <a href="${recipe.source}" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="quick-action-btn quick-action-link">
+                <span class="action-icon">🔗</span>
+                <span class="action-text">查看来源</span>
+                <span class="action-external-icon">↗</span>
+            </a>
+        `;
+    }
+    
+    container.innerHTML = actionsHTML;
 }
 
 /**

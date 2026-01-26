@@ -315,10 +315,35 @@ body::before {
     line-height: 1;
 }
 
+/* Logo 和标题容器 */
+.header-logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-2);
+}
+
+.site-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: var(--radius-full);
+    background: var(--bg-primary);
+    padding: var(--spacing-2);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-base);
+}
+
+.site-logo:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-md);
+}
+
 .header h1 {
     font-size: var(--text-4xl);
     font-weight: var(--font-semibold);
-    margin-bottom: var(--spacing-2);
+    margin: 0;
     text-align: center;
     letter-spacing: -0.02em;
     color: var(--text-primary);
@@ -670,6 +695,29 @@ body::before {
     border-color: var(--border-spring);
     transform: translateX(4px);
     box-shadow: var(--shadow-sm);
+}
+
+.quick-action-btn.quick-action-link {
+    text-decoration: none;
+    color: var(--text-primary);
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.quick-action-btn.quick-action-link:hover {
+    color: var(--primary-color);
+}
+
+.action-external-icon {
+    font-size: var(--text-xs);
+    opacity: 0.6;
+    margin-left: auto;
+    transition: all var(--transition-base);
+}
+
+.quick-action-btn.quick-action-link:hover .action-external-icon {
+    opacity: 1;
+    transform: translate(2px, -2px);
 }
 
 .action-icon {
@@ -1031,6 +1079,32 @@ body::before {
     letter-spacing: -0.02em;
 }
 
+.recipe-detail-title.clickable-title {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    transition: all var(--transition-base);
+    position: relative;
+}
+
+.recipe-detail-title.clickable-title:hover {
+    color: var(--primary-color);
+    transform: translateX(2px);
+}
+
+.recipe-detail-title.clickable-title:hover .title-link-icon {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.title-link-icon {
+    font-size: var(--text-xl);
+    opacity: 0.6;
+    transition: all var(--transition-base);
+    flex-shrink: 0;
+}
+
 .recipe-detail-description {
     font-size: var(--text-lg);
     color: var(--text-secondary);
@@ -1111,6 +1185,64 @@ body::before {
     border-bottom: 2px solid var(--border-light);
     position: relative;
     letter-spacing: -0.01em;
+}
+
+/* 来源链接样式 */
+.recipe-source {
+    padding: var(--spacing-4);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-light);
+    transition: all var(--transition-base);
+}
+
+.recipe-source:hover {
+    background: var(--primary-bg);
+    border-color: var(--spring-green-300);
+    box-shadow: var(--shadow-sm);
+}
+
+.source-link {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: var(--text-base);
+    font-weight: var(--font-medium);
+    transition: all var(--transition-base);
+    word-break: break-all;
+}
+
+.source-link:hover {
+    color: var(--spring-green-600);
+    transform: translateX(2px);
+}
+
+.source-link:visited {
+    color: var(--spring-blue-600);
+}
+
+.source-icon {
+    font-size: var(--text-lg);
+    flex-shrink: 0;
+}
+
+.source-text {
+    flex: 1;
+    line-height: var(--leading-relaxed);
+}
+
+.source-external-icon {
+    font-size: var(--text-sm);
+    opacity: 0.6;
+    flex-shrink: 0;
+    transition: all var(--transition-base);
+}
+
+.source-link:hover .source-external-icon {
+    opacity: 1;
+    transform: translate(2px, -2px);
 }
 
 .recipe-section-title::after {
@@ -1582,6 +1714,15 @@ body::before {
 }
 
 @media (max-width: 768px) {
+    .header-logo-title {
+        gap: var(--spacing-3);
+    }
+    
+    .site-logo {
+        width: 50px;
+        height: 50px;
+    }
+    
     .header h1 {
         font-size: var(--text-3xl);
     }
@@ -1631,6 +1772,16 @@ body::before {
         border-radius: var(--radius-xl);
     }
     
+    .header-logo-title {
+        gap: var(--spacing-2);
+        flex-direction: column;
+    }
+    
+    .site-logo {
+        width: 48px;
+        height: 48px;
+    }
+    
     .recipe-detail-title {
         font-size: var(--text-3xl);
     }
@@ -1660,6 +1811,15 @@ body::before {
     
     .header {
         padding: var(--spacing-4) 0;
+    }
+    
+    .header-logo-title {
+        gap: var(--spacing-2);
+    }
+    
+    .site-logo {
+        width: 44px;
+        height: 44px;
     }
     
     .header h1 {
