@@ -93,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeEventListeners();
     initializeLazyLoading();
     adjustSidebarPosition(); // 调整侧边栏位置
+    initializeHeaderScroll(); // 初始化 Header 滚动收缩功能
 });
 
 /**
@@ -1158,6 +1159,10 @@ function scrollToSection(sectionId) {
  */
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    // 确保返回顶部时 header 展开
+    setTimeout(function() {
+        expandHeader();
+    }, 100);
 }
 
 /**
@@ -1199,15 +1204,15 @@ let touchState = {
  * @param {string} side - 'left' 或 'right'
  */
 function toggleMobileSidebar(side) {
-    if (!isMobileViewport()) {
-        return; // 非移动端不执行
-    }
-
     const sidebar = document.getElementById(`sidebar-${side}`);
     const toggle = document.querySelector(`.mobile-sidebar-toggle-${side}`);
+    const menuBarToggle = document.querySelector(`.sidebar-toggle-${side}`);
     const overlay = document.getElementById('sidebar-overlay');
 
-    if (!sidebar || !toggle) return;
+    // 优先使用 menu bar 中的按钮（如果存在）
+    const activeToggle = menuBarToggle || toggle;
+    
+    if (!sidebar || !activeToggle) return;
 
     const isOpen = mobileSidebarState[side];
 
@@ -1218,7 +1223,13 @@ function toggleMobileSidebar(side) {
         if (mobileSidebarState.left && side !== 'left') closeMobileSidebar('left');
         if (mobileSidebarState.right && side !== 'right') closeMobileSidebar('right');
         
-        openMobileSidebar(side);
+        // 移动端打开侧边栏，桌面端在 menu bar 中也可以切换
+        if (isMobileViewport()) {
+            openMobileSidebar(side);
+        } else {
+            // 桌面端：如果侧边栏被隐藏，可以显示提示或直接显示
+            // 这里保持原有逻辑，桌面端侧边栏应该始终可见
+        }
     }
 }
 
@@ -1229,9 +1240,13 @@ function toggleMobileSidebar(side) {
 function openMobileSidebar(side) {
     const sidebar = document.getElementById(`sidebar-${side}`);
     const toggle = document.querySelector(`.mobile-sidebar-toggle-${side}`);
+    const menuBarToggle = document.querySelector(`.sidebar-toggle-${side}`);
     const overlay = document.getElementById('sidebar-overlay');
 
-    if (!sidebar || !toggle) return;
+    // 优先使用 menu bar 中的按钮（如果存在）
+    const activeToggle = menuBarToggle || toggle;
+
+    if (!sidebar || !activeToggle) return;
 
     // 保存当前滚动位置（在设置 position: fixed 之前）
     if (!window.savedScrollPosition && !document.body.classList.contains('sidebar-open')) {
@@ -1239,17 +1254,30 @@ function openMobileSidebar(side) {
     }
 
     sidebar.classList.add('mobile-open');
-    toggle.setAttribute('aria-expanded', 'true');
+    activeToggle.setAttribute('aria-expanded', 'true');
+    // 同时更新另一个按钮（如果存在）
+    if (toggle && toggle !== activeToggle) toggle.setAttribute('aria-expanded', 'true');
+    if (menuBarToggle && menuBarToggle !== activeToggle) menuBarToggle.setAttribute('aria-expanded', 'true');
+    
     if (overlay) {
         overlay.classList.add('active');
         overlay.setAttribute('aria-hidden', 'false');
     }
-    document.body.classList.add('sidebar-open');
+    
+    // 只在移动端添加 sidebar-open 类
+    if (isMobileViewport()) {
+        document.body.classList.add('sidebar-open');
+    }
 
     mobileSidebarState[side] = true;
 
-    // 初始化触摸手势
-    initSidebarTouchGesture(sidebar, side);
+    // 只在移动端初始化触摸手势
+    if (isMobileViewport()) {
+        initSidebarTouchGesture(sidebar, side);
+    }
+
+    // 更新 menu bar 按钮状态
+    updateMenuBarButtons();
 }
 
 /**
@@ -1259,6 +1287,7 @@ function openMobileSidebar(side) {
 function closeMobileSidebar(side) {
     const sidebar = document.getElementById(`sidebar-${side}`);
     const toggle = document.querySelector(`.mobile-sidebar-toggle-${side}`);
+    const menuBarToggle = document.querySelector(`.sidebar-toggle-${side}`);
     const overlay = document.getElementById('sidebar-overlay');
 
     if (!sidebar) return;
@@ -1269,6 +1298,7 @@ function closeMobileSidebar(side) {
     // 移除侧边栏的展开状态
     sidebar.classList.remove('mobile-open');
     if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    if (menuBarToggle) menuBarToggle.setAttribute('aria-expanded', 'false');
     
     // 如果两个侧边栏都关闭了，移除遮罩层和 body 类
     if (!mobileSidebarState.left && !mobileSidebarState.right) {
@@ -1276,13 +1306,19 @@ function closeMobileSidebar(side) {
             overlay.classList.remove('active');
             overlay.setAttribute('aria-hidden', 'true');
         }
-        document.body.classList.remove('sidebar-open');
-        // 恢复 body 的滚动位置（如果有保存的话）
-        if (window.savedScrollPosition !== undefined) {
-            window.scrollTo(0, window.savedScrollPosition);
-            window.savedScrollPosition = undefined;
+        // 只在移动端移除 sidebar-open 类
+        if (isMobileViewport()) {
+            document.body.classList.remove('sidebar-open');
+            // 恢复 body 的滚动位置（如果有保存的话）
+            if (window.savedScrollPosition !== undefined) {
+                window.scrollTo(0, window.savedScrollPosition);
+                window.savedScrollPosition = undefined;
+            }
         }
     }
+
+    // 更新 menu bar 按钮状态
+    updateMenuBarButtons();
 }
 
 /**
@@ -1448,7 +1484,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// 页面加载完成后初始化
+// 页面加载完成后初始化（侧边栏相关）
 document.addEventListener('DOMContentLoaded', function() {
     // 确保遮罩层存在
     if (!document.getElementById('sidebar-overlay')) {
@@ -1459,4 +1495,235 @@ document.addEventListener('DOMContentLoaded', function() {
         overlay.onclick = closeAllMobileSidebars;
         document.body.appendChild(overlay);
     }
+    
+    // 延迟初始化 Header 滚动功能，确保 DOM 完全加载
+    setTimeout(function() {
+        if (typeof initializeHeaderScroll === 'function') {
+            initializeHeaderScroll();
+        }
+    }, 200);
 });
+
+/* ============================================
+   Header 滚动收缩为 Menu Bar 功能
+   ============================================ */
+
+// Header 滚动状态管理
+let headerScrollState = {
+    lastScrollTop: 0,
+    scrollThreshold: 100, // 滚动阈值（像素），超过此值才开始收缩
+    isHeaderVisible: true,
+    ticking: false, // 节流标志
+    scrollDirection: null, // 滚动方向：'up' 或 'down'
+    directionLock: false, // 方向锁定，避免在阈值附近反复切换
+    lastStateChange: 0, // 上次状态改变的时间戳
+    minStateChangeInterval: 150 // 最小状态改变间隔（毫秒），避免频繁切换
+};
+
+/**
+ * 初始化 Header 滚动收缩功能
+ */
+function initializeHeaderScroll() {
+    const header = document.getElementById('main-header');
+    const menuBar = document.getElementById('menu-bar');
+    
+    if (!header || !menuBar) return;
+
+    // 初始化 header 为展开状态
+    header.classList.remove('header-compact');
+    menuBar.classList.remove('menu-bar-visible');
+    headerScrollState.isHeaderVisible = true;
+    headerScrollState.lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    headerScrollState.scrollDirection = null;
+    headerScrollState.directionLock = false;
+    headerScrollState.lastStateChange = 0;
+
+    // 使用节流优化滚动事件处理
+    window.addEventListener('scroll', handleHeaderScroll, { passive: true });
+}
+
+/**
+ * 处理 Header 滚动事件（节流版本）
+ */
+function handleHeaderScroll() {
+    if (headerScrollState.ticking) return;
+
+    window.requestAnimationFrame(function() {
+        processHeaderScroll();
+        headerScrollState.ticking = false;
+    });
+
+    headerScrollState.ticking = true;
+}
+
+/**
+ * 滚动结束检测（防抖）
+ */
+let scrollEndTimeout = null;
+function handleScrollEnd() {
+    clearTimeout(scrollEndTimeout);
+    scrollEndTimeout = setTimeout(function() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        // 滚动结束后，如果在顶部附近，确保 header 展开
+        if (scrollTop < headerScrollState.scrollThreshold) {
+            expandHeader();
+            // 重置方向锁定
+            headerScrollState.directionLock = false;
+            headerScrollState.scrollDirection = null;
+        }
+    }, 200);
+}
+
+/**
+ * 处理 Header 滚动逻辑
+ */
+function processHeaderScroll() {
+    const header = document.getElementById('main-header');
+    const menuBar = document.getElementById('menu-bar');
+    
+    if (!header || !menuBar) return;
+
+    // 如果侧边栏打开，不处理 header 收缩
+    if (document.body.classList.contains('sidebar-open')) {
+        return;
+    }
+
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollDelta = scrollTop - headerScrollState.lastScrollTop;
+    const currentTime = Date.now();
+
+    // 防止状态频繁切换：检查最小间隔
+    const timeSinceLastChange = currentTime - headerScrollState.lastStateChange;
+    if (timeSinceLastChange < headerScrollState.minStateChangeInterval && headerScrollState.directionLock) {
+        headerScrollState.lastScrollTop = scrollTop;
+        handleScrollEnd();
+        return;
+    }
+
+    // 在页面顶部附近时，确保 header 完全展开
+    if (scrollTop < headerScrollState.scrollThreshold) {
+        if (!headerScrollState.isHeaderVisible) {
+            expandHeader();
+            headerScrollState.directionLock = false;
+            headerScrollState.scrollDirection = null;
+        }
+        headerScrollState.lastScrollTop = scrollTop;
+        handleScrollEnd();
+        return;
+    }
+
+    // 判断滚动方向（使用阈值，避免微小滚动导致切换）
+    const scrollDeltaThreshold = 10;
+    let currentDirection = null;
+
+    if (Math.abs(scrollDelta) < scrollDeltaThreshold) {
+        // 滚动距离太小，保持当前状态
+        headerScrollState.lastScrollTop = scrollTop;
+        handleScrollEnd();
+        return;
+    }
+
+    if (scrollDelta > scrollDeltaThreshold) {
+        currentDirection = 'down';
+    } else if (scrollDelta < -scrollDeltaThreshold) {
+        currentDirection = 'up';
+    }
+
+    // 如果方向改变，重置锁定
+    if (headerScrollState.scrollDirection && headerScrollState.scrollDirection !== currentDirection) {
+        headerScrollState.directionLock = false;
+    }
+
+    // 设置当前方向
+    if (currentDirection) {
+        headerScrollState.scrollDirection = currentDirection;
+    }
+
+    // 根据滚动方向和位置决定状态
+    // 向下滚动且超过阈值：收缩 header 为 menu bar
+    if (currentDirection === 'down' && scrollTop > headerScrollState.scrollThreshold) {
+        if (headerScrollState.isHeaderVisible && !headerScrollState.directionLock) {
+            compactHeader();
+            headerScrollState.directionLock = true;
+            headerScrollState.lastStateChange = currentTime;
+        }
+    }
+    // 向上滚动：展开 header
+    else if (currentDirection === 'up') {
+        if (!headerScrollState.isHeaderVisible && !headerScrollState.directionLock) {
+            expandHeader();
+            headerScrollState.directionLock = true;
+            headerScrollState.lastStateChange = currentTime;
+        }
+    }
+
+    // 更新最后滚动位置
+    headerScrollState.lastScrollTop = scrollTop;
+
+    // 检测滚动结束
+    handleScrollEnd();
+}
+
+/**
+ * 收缩 Header 为 Menu Bar
+ */
+function compactHeader() {
+    const header = document.getElementById('main-header');
+    const menuBar = document.getElementById('menu-bar');
+    
+    if (!header || !menuBar) return;
+
+    // 如果已经是收缩状态，不重复操作
+    if (!headerScrollState.isHeaderVisible) return;
+
+    header.classList.add('header-compact');
+    menuBar.classList.add('menu-bar-visible');
+    headerScrollState.isHeaderVisible = false;
+    headerScrollState.lastStateChange = Date.now();
+
+    // 更新 menu bar 中的按钮状态
+    updateMenuBarButtons();
+}
+
+/**
+ * 展开 Header
+ */
+function expandHeader() {
+    const header = document.getElementById('main-header');
+    const menuBar = document.getElementById('menu-bar');
+    
+    if (!header || !menuBar) return;
+
+    // 如果已经是展开状态，不重复操作
+    if (headerScrollState.isHeaderVisible) return;
+
+    header.classList.remove('header-compact');
+    menuBar.classList.remove('menu-bar-visible');
+    headerScrollState.isHeaderVisible = true;
+    headerScrollState.lastStateChange = Date.now();
+    headerScrollState.directionLock = false; // 展开时重置锁定
+
+    // 更新 menu bar 中的按钮状态
+    updateMenuBarButtons();
+}
+
+/**
+ * 更新 Menu Bar 中的按钮状态
+ */
+function updateMenuBarButtons() {
+    // 更新 menu bar 中侧边栏按钮的 aria-expanded 状态
+    const leftToggle = document.querySelector('.sidebar-toggle-left');
+    const rightToggle = document.querySelector('.sidebar-toggle-right');
+    
+    if (leftToggle) {
+        const leftSidebar = document.getElementById('sidebar-left');
+        const isOpen = leftSidebar && leftSidebar.classList.contains('mobile-open');
+        leftToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+    
+    if (rightToggle) {
+        const rightSidebar = document.getElementById('sidebar-right');
+        const isOpen = rightSidebar && rightSidebar.classList.contains('mobile-open');
+        rightToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}

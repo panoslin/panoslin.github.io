@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- 页面头部 -->
-    <header class="header">
+    <header class="header" id="main-header">
         <div class="header-content">
             <div class="header-top">
                 <a href="index.html" class="back-home-btn" title="返回首页">
@@ -39,9 +39,34 @@
                     onclick="toggleMobileSidebar('right')">
                 <span class="hamburger-icon">☰</span>
             </button>
-            <p>管理你的食材采购</p>
+            <p class="header-subtitle">管理你的食材采购</p>
         </div>
     </header>
+
+    <!-- Menu Bar (滚动时显示的简洁菜单栏) -->
+    <div class="menu-bar" id="menu-bar">
+        <div class="menu-bar-content">
+            <button class="menu-bar-btn sidebar-toggle-left" 
+                    aria-label="打开左侧边栏" 
+                    aria-expanded="false" 
+                    aria-controls="sidebar-left"
+                    onclick="toggleMobileSidebar('left')"
+                    title="左侧边栏">
+                <img src="images/sidebar-left-icon.png" alt="左侧边栏" class="sidebar-icon">
+            </button>
+            <a href="index.html" class="menu-bar-btn menu-bar-home" title="返回主页">
+                <span class="home-icon">🏠</span>
+            </a>
+            <button class="menu-bar-btn sidebar-toggle-right" 
+                    aria-label="打开右侧边栏" 
+                    aria-expanded="false" 
+                    aria-controls="sidebar-right"
+                    onclick="toggleMobileSidebar('right')"
+                    title="右侧边栏">
+                <img src="images/sidebar-right-icon.png" alt="右侧边栏" class="sidebar-icon">
+            </button>
+        </div>
+    </div>
 
     <!-- 购物清单容器 -->
     <main class="main-content">

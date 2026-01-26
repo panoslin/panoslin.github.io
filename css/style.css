@@ -2889,3 +2889,217 @@ body::before {
         position: static;
     }
 }
+
+/* ============================================
+   Header 滚动收缩为 Menu Bar 功能
+   ============================================ */
+
+/* Header 收缩状态 */
+.header.header-compact {
+    padding: var(--spacing-2) 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.header.header-compact .header-content {
+    transform: scale(0.95);
+}
+
+.header.header-compact .header-logo-title,
+.header.header-compact .header-subtitle {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Menu Bar 样式 */
+.menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--z-sticky);
+    background: var(--bg-glass);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid var(--border-light);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.menu-bar.menu-bar-visible {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.menu-bar-content {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-2) var(--container-padding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-4);
+    height: 56px; /* 固定高度 */
+}
+
+.menu-bar-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    color: var(--text-primary);
+    position: relative;
+}
+
+.menu-bar-btn:hover {
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.menu-bar-btn:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+
+.menu-bar-btn.sidebar-toggle-left,
+.menu-bar-btn.sidebar-toggle-right {
+    background: var(--spring-green-50);
+    border-color: var(--spring-green-200);
+}
+
+.menu-bar-btn.sidebar-toggle-left:hover,
+.menu-bar-btn.sidebar-toggle-right:hover {
+    background: var(--spring-green-100);
+    border-color: var(--spring-green-300);
+}
+
+.menu-bar-btn.menu-bar-home {
+    background: var(--spring-blue-50);
+    border-color: var(--spring-blue-200);
+}
+
+.menu-bar-btn.menu-bar-home:hover {
+    background: var(--spring-blue-100);
+    border-color: var(--spring-blue-300);
+}
+
+.sidebar-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
+}
+
+.home-icon {
+    font-size: var(--text-xl);
+    line-height: 1;
+}
+
+/* Header 和 Menu Bar 过渡动画优化 */
+.header {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                padding 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-content {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-subtitle {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.header.header-compact .header-subtitle {
+    opacity: 0;
+    transform: translateY(-10px);
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header-logo-title {
+    transition: gap 0.3s ease, margin-bottom 0.3s ease;
+}
+
+.header.header-compact .header-logo-title {
+    gap: var(--spacing-2);
+    margin-bottom: 0;
+}
+
+.header h1 {
+    transition: font-size 0.3s ease;
+}
+
+.header.header-compact h1 {
+    font-size: var(--text-lg);
+}
+
+.site-logo {
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.header.header-compact .site-logo {
+    width: 32px;
+    height: 32px;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+    .menu-bar-content {
+        height: 52px;
+        padding: var(--spacing-2) var(--spacing-4);
+        gap: var(--spacing-3);
+    }
+
+    .menu-bar-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sidebar-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .home-icon {
+        font-size: var(--text-lg);
+    }
+}
+
+/* 桌面端优化 */
+@media (min-width: 769px) {
+    .menu-bar-content {
+        gap: var(--spacing-6);
+    }
+
+    .menu-bar-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .sidebar-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
