@@ -10,12 +10,17 @@ function toggleRecipeInShoppingList(recipeId) {
         return;
     }
     
-    const isInList = isRecipeInShoppingList(recipeId);
+    const isInList = typeof isRecipeInShoppingList === 'function' ? isRecipeInShoppingList(recipeId) : false;
     
     if (isInList) {
         removeRecipeFromShoppingList(recipeId, allRecipes);
+        showNotification('已从购物清单移除');
     } else {
-        addRecipeToShoppingList(recipeId, allRecipes);
+        // 详情页支持按当前分量比例添加；首页默认 1 倍
+        const isDetailPage = !!document.getElementById('recipe-detail');
+        const scale = isDetailPage ? (window.portionMultiplier || 1) : 1;
+        addRecipeToShoppingList(recipeId, allRecipes, scale);
+        showNotification(`已按 x${Number(scale).toFixed(2)} 分量添加至购物清单`);
     }
     
     // 只更新对应卡片的状态，而不是重新渲染整个列表
@@ -23,6 +28,32 @@ function toggleRecipeInShoppingList(recipeId) {
     
     // 更新购物清单按钮状态（如果存在）
     updateShoppingListButton();
+}
+
+/**
+ * 显示轻量通知（移动端友好）
+ */
+function showNotification(message) {
+    try {
+        const existing = document.querySelector('.shopping-notification');
+        if (existing) existing.remove();
+
+        const notification = document.createElement('div');
+        notification.className = 'shopping-notification';
+        notification.textContent = message;
+        document.body.appendChild(notification);
+
+        requestAnimationFrame(() => {
+            notification.classList.add('show');
+        });
+
+        setTimeout(() => {
+            notification.classList.remove('show');
+            setTimeout(() => notification.remove(), 250);
+        }, 1800);
+    } catch (e) {
+        // noop
+    }
 }
 
 // 更新单个食谱卡片的购物清单按钮状态
@@ -558,6 +589,12 @@ function renderRecipeDetail(recipe) {
                         <button class="portion-btn" onclick="adjustPortion(0.25)" title="增加0.25倍">+0.25</button>
                         <button class="portion-btn" onclick="adjustPortion(0.5)" title="增加0.5倍">+0.5</button>
                         <button class="portion-btn portion-reset" onclick="resetPortion()" title="重置为1倍">重置</button>
+                        <button class="portion-btn portion-add-to-list"
+                                onclick="toggleRecipeInShoppingList(${recipe.id}); return false;"
+                                title="按当前分量添加到购物清单">
+                            <span class="btn-icon">🛒</span>
+                            <span class="btn-text">加入清单</span>
+                        </button>
                     </div>
                 </div>
             </div>

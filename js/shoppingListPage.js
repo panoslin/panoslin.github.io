@@ -376,20 +376,51 @@ function renderSelectedRecipesList() {
         return;
     }
     
-    container.innerHTML = selectedRecipes.map(recipe => `
-        <div class="selected-recipe-item">
-            <a href="recipe_detail.html?id=${recipe.id}" class="selected-recipe-link">
-                <span class="recipe-title">${recipe.title}</span>
-            </a>
-            <button class="remove-recipe-btn" 
-                    onclick="removeRecipeFromShoppingListPage(${recipe.id}); return false;"
-                    title="移除">
-                <span>✕</span>
-            </button>
-        </div>
-    `).join('');
+    const recipeScales = (data && data.recipeScales) ? data.recipeScales : {};
+
+    container.innerHTML = selectedRecipes.map(recipe => {
+        const scale = recipeScales && recipeScales[recipe.id] !== undefined ? Number(recipeScales[recipe.id]) : 1;
+        const scaleText = (Number.isFinite(scale) && scale !== 1) ? ` (x${scale.toFixed(2)})` : '';
+        return `
+            <div class="selected-recipe-item">
+                <a href="recipe_detail.html?id=${recipe.id}" class="selected-recipe-link">
+                    <span class="recipe-title">${recipe.title}${scaleText}</span>
+                </a>
+                <div class="selected-recipe-actions">
+                    <label class="recipe-scale-editor" title="调整分量比例">
+                        <span class="scale-label">x</span>
+                        <input class="recipe-scale-input"
+                               type="number"
+                               step="0.1"
+                               min="0.1"
+                               max="20"
+                               value="${Number.isFinite(scale) ? scale : 1}"
+                               onchange="updateSelectedRecipeScale(${recipe.id}, this.value); event.stopPropagation();">
+                    </label>
+                    <button class="remove-recipe-btn" 
+                            onclick="removeRecipeFromShoppingListPage(${recipe.id}); return false;"
+                            title="移除">
+                        <span>✕</span>
+                    </button>
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 
+/**
+ * 更新已选食谱的分量比例（购物清单页）
+ */
+function updateSelectedRecipeScale(recipeId, scale) {
+    if (typeof updateRecipeScaleInShoppingList !== 'function') {
+        console.error('updateRecipeScaleInShoppingList 未定义');
+        return;
+    }
+    updateRecipeScaleInShoppingList(recipeId, scale, allRecipes);
+    renderShoppingList();
+    updateStats();
+    renderShoppingListSidebar();
+}
 /**
  * 从购物清单移除食谱（页面版本）
  */
@@ -487,7 +518,7 @@ function markAllPurchased() {
     data.ingredients.forEach(ing => {
         ing.purchased = true;
     });
-    saveShoppingList(data.ingredients, data.selectedRecipeIds);
+    saveShoppingList(data.ingredients, data.selectedRecipeIds, data.recipeScales);
     renderShoppingList();
     updateStats();
     renderShoppingListSidebar();
@@ -501,7 +532,7 @@ function markAllUnpurchased() {
     data.ingredients.forEach(ing => {
         ing.purchased = false;
     });
-    saveShoppingList(data.ingredients, data.selectedRecipeIds);
+    saveShoppingList(data.ingredients, data.selectedRecipeIds, data.recipeScales);
     renderShoppingList();
     updateStats();
     renderShoppingListSidebar();

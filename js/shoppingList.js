@@ -3,6 +3,20 @@
  * 负责食材收集、合并、分类和持久化
  */
 
+/**
+ * 规范化分量比例
+ * - 允许小数与大于1
+ * - 限制范围避免极端值导致UI/计算异常
+ * @param {any} scale
+ * @returns {number}
+ */
+function normalizeScale(scale) {
+    const n = Number(scale);
+    if (!Number.isFinite(n) || n <= 0) return 1;
+    // 允许 0.1 ~ 20 之间
+    return Math.min(Math.max(n, 0.1), 20);
+}
+
 // 食材分类映射
 const INGREDIENT_CATEGORIES = {
     // 蔬菜类
@@ -98,16 +112,17 @@ function mergeIngredients(ingredients) {
  * @param {Array} allRecipes - 所有食谱数据
  * @returns {Array} 合并后的食材数组
  */
-function collectIngredientsFromRecipes(recipeIds, allRecipes) {
+function collectIngredientsFromRecipes(recipeIds, allRecipes, recipeScales = {}) {
     const allIngredients = [];
     
     recipeIds.forEach(recipeId => {
         const recipe = allRecipes.find(r => r.id === recipeId);
+        const scale = normalizeScale(recipeScales && recipeScales[recipeId] !== undefined ? recipeScales[recipeId] : 1);
         if (recipe && recipe.ingredients) {
             recipe.ingredients.forEach(ing => {
                 allIngredients.push({
                     name: ing.name,
-                    quantity: ing.quantity,
+                    quantity: (Number(ing.quantity) || 0) * scale,
                     unit: ing.unit,
                     recipeId: recipeId // 记录来源食谱ID
                 });
@@ -148,11 +163,13 @@ function groupIngredientsByCategory(ingredients) {
  * 保存购物清单到 localStorage
  * @param {Array} ingredients - 食材数组
  * @param {Array} selectedRecipeIds - 选中的食谱ID数组
+ * @param {Object} recipeScales - 每个食谱的分量比例 { [recipeId]: scale }
  */
-function saveShoppingList(ingredients, selectedRecipeIds) {
+function saveShoppingList(ingredients, selectedRecipeIds, recipeScales = {}) {
     const data = {
         ingredients: ingredients,
         selectedRecipeIds: selectedRecipeIds,
+        recipeScales: recipeScales,
         lastUpdated: new Date().toISOString()
     };
     localStorage.setItem('shoppingList', JSON.stringify(data));
@@ -166,13 +183,27 @@ function loadShoppingList() {
     const data = localStorage.getItem('shoppingList');
     if (data) {
         try {
-            return JSON.parse(data);
+            const parsed = JSON.parse(data);
+            if (!parsed || typeof parsed !== 'object') {
+                return { ingredients: [], selectedRecipeIds: [], recipeScales: {} };
+            }
+            // 向后兼容：旧数据没有 recipeScales
+            if (!parsed.recipeScales || typeof parsed.recipeScales !== 'object') {
+                parsed.recipeScales = {};
+            }
+            // 归一化 scale
+            Object.keys(parsed.recipeScales).forEach((k) => {
+                parsed.recipeScales[k] = normalizeScale(parsed.recipeScales[k]);
+            });
+            if (!Array.isArray(parsed.ingredients)) parsed.ingredients = [];
+            if (!Array.isArray(parsed.selectedRecipeIds)) parsed.selectedRecipeIds = [];
+            return parsed;
         } catch (e) {
             console.error('加载购物清单失败:', e);
-            return { ingredients: [], selectedRecipeIds: [] };
+            return { ingredients: [], selectedRecipeIds: [], recipeScales: {} };
         }
     }
-    return { ingredients: [], selectedRecipeIds: [] };
+    return { ingredients: [], selectedRecipeIds: [], recipeScales: {} };
 }
 
 /**
@@ -194,7 +225,7 @@ function updateIngredientPurchasedStatus(ingredientKey, purchased) {
     const ingredient = data.ingredients.find(ing => ing.name === name && ing.unit === unit);
     if (ingredient) {
         ingredient.purchased = purchased;
-        saveShoppingList(data.ingredients, data.selectedRecipeIds);
+        saveShoppingList(data.ingredients, data.selectedRecipeIds, data.recipeScales);
     }
 }
 
@@ -207,7 +238,7 @@ function removeIngredient(ingredientKey) {
     const [name, unit] = ingredientKey.split('_');
     
     data.ingredients = data.ingredients.filter(ing => !(ing.name === name && ing.unit === unit));
-    saveShoppingList(data.ingredients, data.selectedRecipeIds);
+    saveShoppingList(data.ingredients, data.selectedRecipeIds, data.recipeScales);
 }
 
 /**
@@ -215,7 +246,7 @@ function removeIngredient(ingredientKey) {
  * @param {number} recipeId - 食谱ID
  * @param {Array} allRecipes - 所有食谱数据
  */
-function addRecipeToShoppingList(recipeId, allRecipes) {
+function addRecipeToShoppingList(recipeId, allRecipes, scale = 1) {
     const data = loadShoppingList();
     
     // 如果已经存在，不重复添加
@@ -225,9 +256,14 @@ function addRecipeToShoppingList(recipeId, allRecipes) {
     
     // 添加食谱ID
     data.selectedRecipeIds.push(recipeId);
+    // 记录分量比例
+    if (!data.recipeScales || typeof data.recipeScales !== 'object') {
+        data.recipeScales = {};
+    }
+    data.recipeScales[recipeId] = normalizeScale(scale);
     
     // 重新收集所有食材
-    const allIngredients = collectIngredientsFromRecipes(data.selectedRecipeIds, allRecipes);
+    const allIngredients = collectIngredientsFromRecipes(data.selectedRecipeIds, allRecipes, data.recipeScales);
     
     // 保留现有的购买状态和食谱来源
     allIngredients.forEach(ing => {
@@ -245,7 +281,7 @@ function addRecipeToShoppingList(recipeId, allRecipes) {
         }
     });
     
-    saveShoppingList(allIngredients, data.selectedRecipeIds);
+    saveShoppingList(allIngredients, data.selectedRecipeIds, data.recipeScales);
 }
 
 /**
@@ -258,9 +294,12 @@ function removeRecipeFromShoppingList(recipeId, allRecipes) {
     
     // 移除食谱ID
     data.selectedRecipeIds = data.selectedRecipeIds.filter(id => id !== recipeId);
+    if (data.recipeScales && typeof data.recipeScales === 'object') {
+        delete data.recipeScales[recipeId];
+    }
     
     // 重新收集剩余食谱的食材
-    const allIngredients = collectIngredientsFromRecipes(data.selectedRecipeIds, allRecipes);
+    const allIngredients = collectIngredientsFromRecipes(data.selectedRecipeIds, allRecipes, data.recipeScales);
     
     // 保留现有的购买状态和食谱来源
     allIngredients.forEach(ing => {
@@ -278,7 +317,40 @@ function removeRecipeFromShoppingList(recipeId, allRecipes) {
         }
     });
     
-    saveShoppingList(allIngredients, data.selectedRecipeIds);
+    saveShoppingList(allIngredients, data.selectedRecipeIds, data.recipeScales);
+}
+
+/**
+ * 更新某个已选食谱的分量比例，并重新计算购物清单食材汇总
+ * @param {number} recipeId
+ * @param {number} scale
+ * @param {Array} allRecipes
+ */
+function updateRecipeScaleInShoppingList(recipeId, scale, allRecipes) {
+    const data = loadShoppingList();
+    if (!data.selectedRecipeIds.includes(recipeId)) return;
+    if (!data.recipeScales || typeof data.recipeScales !== 'object') {
+        data.recipeScales = {};
+    }
+    data.recipeScales[recipeId] = normalizeScale(scale);
+
+    const allIngredients = collectIngredientsFromRecipes(data.selectedRecipeIds, allRecipes, data.recipeScales);
+
+    // 保留现有的购买状态和食谱来源
+    allIngredients.forEach(ing => {
+        const existing = data.ingredients.find(
+            e => e.name === ing.name && e.unit === ing.unit
+        );
+        if (existing) {
+            ing.purchased = existing.purchased;
+            if (existing.recipeIds && existing.recipeIds.length > 0) {
+                const combined = [...new Set([...(ing.recipeIds || []), ...existing.recipeIds])];
+                ing.recipeIds = combined;
+            }
+        }
+    });
+
+    saveShoppingList(allIngredients, data.selectedRecipeIds, data.recipeScales);
 }
 
 /**
