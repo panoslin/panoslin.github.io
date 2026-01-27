@@ -125,6 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeLazyLoading();
     adjustSidebarPosition(); // 调整侧边栏位置
     initializeHeaderScroll(); // 初始化 Header 滚动收缩功能
+    initFloatingShoppingButton(); // 初始化悬浮购物清单按钮
 });
 
 /**
@@ -157,6 +158,147 @@ function adjustSidebarPosition() {
 
 // 监听窗口大小变化，重新调整
 window.addEventListener('resize', adjustSidebarPosition);
+
+/* ============================================
+   悬浮购物清单按钮（可拖拽）
+   ============================================ */
+
+const FLOATING_BTN_KEY = 'floatingShoppingBtnPos';
+
+/**
+ * 初始化悬浮按钮
+ */
+function initFloatingShoppingButton() {
+    // 已存在则不重复创建
+    if (document.getElementById('floating-shopping-btn')) return;
+
+    const btn = document.createElement('button');
+    btn.id = 'floating-shopping-btn';
+    btn.className = 'floating-shopping-btn';
+    btn.innerHTML = `<img src="image.png" alt="购物清单" class="floating-btn-img" />`;
+    btn.type = 'button';
+    btn.title = '前往购物清单';
+
+    document.body.appendChild(btn);
+
+    // 加载持久化位置
+    const saved = loadFloatingBtnPosition();
+    const defaultPos = {
+        x: window.innerWidth - 80,
+        y: window.innerHeight - 100
+    };
+    const pos = saved || defaultPos;
+    setFloatingBtnPosition(btn, pos.x, pos.y);
+
+    // 拖拽处理（pointer events）
+    let dragging = false;
+    let pointerId = null;
+    let startX = 0;
+    let startY = 0;
+    let originX = pos.x;
+    let originY = pos.y;
+    let rafId = null;
+    let moved = false;
+
+    const onPointerMove = (e) => {
+        if (!dragging || e.pointerId !== pointerId) return;
+        e.preventDefault();
+        const dx = e.clientX - startX;
+        const dy = e.clientY - startY;
+        const nextX = originX + dx;
+        const nextY = originY + dy;
+        moved = moved || Math.abs(dx) + Math.abs(dy) > 3;
+
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = requestAnimationFrame(() => {
+            setFloatingBtnPosition(btn, nextX, nextY);
+        });
+    };
+
+    const onPointerUp = (e) => {
+        if (!dragging || e.pointerId !== pointerId) return;
+        dragging = false;
+        btn.releasePointerCapture(pointerId);
+        btn.classList.remove('dragging');
+        pointerId = null;
+        saveFloatingBtnPosition(btn);
+    };
+
+    btn.addEventListener('pointerdown', (e) => {
+        if (e.button !== 0) return;
+        dragging = true;
+        moved = false;
+        pointerId = e.pointerId;
+        startX = e.clientX;
+        startY = e.clientY;
+        const current = getFloatingBtnPosition(btn);
+        originX = current.x;
+        originY = current.y;
+        btn.setPointerCapture(pointerId);
+        btn.classList.add('dragging');
+    });
+
+    btn.addEventListener('pointermove', onPointerMove);
+    btn.addEventListener('pointerup', onPointerUp);
+    btn.addEventListener('pointercancel', onPointerUp);
+    btn.addEventListener('lostpointercapture', onPointerUp);
+
+    btn.addEventListener('click', (e) => {
+        // 如果刚拖拽过且有明显位移，就不触发点击导航
+        if (moved) return;
+        e.preventDefault();
+        // 触觉反馈
+        if (navigator.vibrate) navigator.vibrate(10);
+        // 轻微缩放动画
+        btn.classList.add('clicked');
+        setTimeout(() => btn.classList.remove('clicked'), 180);
+        // 平滑跳转购物清单
+        launchToShoppingList(btn);
+    });
+}
+
+function loadFloatingBtnPosition() {
+    try {
+        const raw = localStorage.getItem(FLOATING_BTN_KEY);
+        if (!raw) return null;
+        const obj = JSON.parse(raw);
+        if (typeof obj === 'object' && obj.x !== undefined && obj.y !== undefined) {
+            return obj;
+        }
+    } catch (e) {
+        // ignore
+    }
+    return null;
+}
+
+function saveFloatingBtnPosition(btn) {
+    const pos = getFloatingBtnPosition(btn);
+    localStorage.setItem(FLOATING_BTN_KEY, JSON.stringify(pos));
+}
+
+function getFloatingBtnPosition(btn) {
+    return {
+        x: parseFloat(btn.style.left) || 0,
+        y: parseFloat(btn.style.top) || 0
+    };
+}
+
+function setFloatingBtnPosition(btn, x, y) {
+    const padding = 12;
+    const maxX = window.innerWidth - btn.offsetWidth - padding;
+    const maxY = window.innerHeight - btn.offsetHeight - padding;
+    const clampedX = Math.min(Math.max(x, padding), maxX);
+    const clampedY = Math.min(Math.max(y, padding), maxY);
+    btn.style.left = `${clampedX}px`;
+    btn.style.top = `${clampedY}px`;
+}
+
+function launchToShoppingList(btn) {
+    btn.classList.add('launching');
+    setTimeout(() => {
+        window.location.href = 'shopping_list.html';
+    }, 180);
+}
 
 /**
  * 从JSON文件加载食谱数据

@@ -2035,6 +2035,77 @@ body::before {
     transform: translateX(-50%) translateY(0);
 }
 
+/* 悬浮购物清单按钮 */
+.floating-shopping-btn {
+    position: fixed;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    box-shadow: 0 10px 24px rgba(16, 66, 52, 0.25), 0 4px 8px rgba(16, 66, 52, 0.18);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: calc(var(--z-modal) + 10);
+    cursor: grab;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+    left: calc(100% - 80px);
+    top: calc(100% - 100px);
+    user-select: none;
+}
+
+.floating-shopping-btn:hover {
+    transform: scale(1.04);
+    box-shadow: 0 12px 28px rgba(16, 66, 52, 0.3), 0 4px 10px rgba(16, 66, 52, 0.2);
+}
+
+.floating-shopping-btn:active,
+.floating-shopping-btn.clicked {
+    transform: scale(0.94);
+    box-shadow: 0 8px 18px rgba(16, 66, 52, 0.22), 0 3px 6px rgba(16, 66, 52, 0.18);
+}
+
+.floating-shopping-btn.dragging {
+    opacity: 0.8;
+    cursor: grabbing;
+}
+
+.floating-btn-icon {
+    font-size: var(--text-xl);
+    line-height: 1;
+}
+
+.floating-btn-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.floating-shopping-btn.launching {
+    animation: floating-launch 0.2s ease forwards;
+}
+
+@keyframes floating-launch {
+    from { transform: scale(1); }
+    to { transform: scale(1.08); }
+}
+
+@media (max-width: 768px) {
+    .floating-shopping-btn {
+        width: 52px;
+        height: 52px;
+        left: calc(100% - 76px);
+        top: calc(100% - 96px);
+    }
+    .floating-btn-icon {
+        font-size: var(--text-lg);
+    }
+}
+
 /* 购物清单：已选食谱分量编辑 */
 .selected-recipe-actions {
     display: flex;
