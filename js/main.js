@@ -131,19 +131,28 @@ document.addEventListener('DOMContentLoaded', function() {
  * 调整侧边栏位置，确保不被header遮挡
  */
 function adjustSidebarPosition() {
-    const header = document.querySelector('.header');
+    // 仅桌面端需要跟随 header/menu bar 变化；移动端侧边栏为 fixed 抽屉，不处理
+    if (typeof isMobileViewport === 'function' && isMobileViewport()) return;
+
+    const header = document.getElementById('main-header') || document.querySelector('.header');
+    const menuBar = document.getElementById('menu-bar');
     const sidebars = document.querySelectorAll('.sidebar');
-    
-    if (header && sidebars.length > 0) {
-        // 获取header的实际高度
-        const headerHeight = header.offsetHeight;
-        
-        // 为每个侧边栏设置top值，添加额外间距
-        sidebars.forEach(sidebar => {
-            sidebar.style.top = `${headerHeight + 16}px`; // header高度 + 16px间距
-            sidebar.style.maxHeight = `calc(100vh - ${headerHeight + 64}px)`; // 调整最大高度
-        });
-    }
+
+    if (!header || sidebars.length === 0) return;
+
+    // header 收缩后是 menu bar 固定在顶部；此时侧边栏应贴齐 menu bar 底部
+    const isMenuBarVisible = !!(menuBar && menuBar.classList.contains('menu-bar-visible'));
+    const headerHeight = header.offsetHeight || 0;
+    const menuBarHeight = menuBar ? (menuBar.offsetHeight || 0) : 0;
+    const topBase = isMenuBarVisible ? menuBarHeight : headerHeight;
+
+    // 添加一点呼吸空间
+    const topOffset = topBase + 16;
+
+    sidebars.forEach(sidebar => {
+        sidebar.style.top = `${topOffset}px`;
+        sidebar.style.maxHeight = `calc(100vh - ${topBase + 64}px)`;
+    });
 }
 
 // 监听窗口大小变化，重新调整
@@ -1755,6 +1764,11 @@ function compactHeader() {
 
     // 更新 menu bar 中的按钮状态
     updateMenuBarButtons();
+
+    // 桌面端：header 收缩后侧边栏上移贴齐 menu bar
+    if (typeof adjustSidebarPosition === 'function') {
+        requestAnimationFrame(adjustSidebarPosition);
+    }
 }
 
 /**
@@ -1777,6 +1791,11 @@ function expandHeader() {
 
     // 更新 menu bar 中的按钮状态
     updateMenuBarButtons();
+
+    // 桌面端：header 展开后侧边栏下移回到 header 下方
+    if (typeof adjustSidebarPosition === 'function') {
+        requestAnimationFrame(adjustSidebarPosition);
+    }
 }
 
 /**

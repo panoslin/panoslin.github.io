@@ -506,6 +506,8 @@ body::before {
     overflow-y: auto;
     padding-right: var(--spacing-2);
     z-index: 1; /* 确保在内容之上 */
+    transition: top 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+                max-height 0.28s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebar::-webkit-scrollbar {
