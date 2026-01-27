@@ -1248,9 +1248,19 @@ function openMobileSidebar(side) {
 
     if (!sidebar || !activeToggle) return;
 
-    // 保存当前滚动位置（在设置 position: fixed 之前）
-    if (!window.savedScrollPosition && !document.body.classList.contains('sidebar-open')) {
-        window.savedScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    // 只在移动端处理滚动位置和 body 类
+    if (isMobileViewport()) {
+        // 保存当前滚动位置（在设置 position: fixed 之前）
+        const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (!window.savedScrollPosition && !document.body.classList.contains('sidebar-open')) {
+            window.savedScrollPosition = currentScrollTop;
+        }
+
+        // 先设置 body 的 top 值，再添加 fixed 类，这样可以保持滚动位置
+        if (!document.body.classList.contains('sidebar-open')) {
+            document.body.style.top = `-${currentScrollTop}px`;
+            document.body.classList.add('sidebar-open');
+        }
     }
 
     sidebar.classList.add('mobile-open');
@@ -1262,11 +1272,6 @@ function openMobileSidebar(side) {
     if (overlay) {
         overlay.classList.add('active');
         overlay.setAttribute('aria-hidden', 'false');
-    }
-    
-    // 只在移动端添加 sidebar-open 类
-    if (isMobileViewport()) {
-        document.body.classList.add('sidebar-open');
     }
 
     mobileSidebarState[side] = true;
@@ -1308,12 +1313,15 @@ function closeMobileSidebar(side) {
         }
         // 只在移动端移除 sidebar-open 类
         if (isMobileViewport()) {
+            // 恢复滚动位置的正确方法
+            const savedScrollTop = window.savedScrollPosition || 0;
             document.body.classList.remove('sidebar-open');
-            // 恢复 body 的滚动位置（如果有保存的话）
-            if (window.savedScrollPosition !== undefined) {
-                window.scrollTo(0, window.savedScrollPosition);
+            document.body.style.top = '';
+            // 使用 requestAnimationFrame 确保 DOM 更新后再滚动
+            requestAnimationFrame(function() {
+                window.scrollTo(0, savedScrollTop);
                 window.savedScrollPosition = undefined;
-            }
+            });
         }
     }
 
@@ -1337,13 +1345,17 @@ function closeAllMobileSidebars() {
     if (leftSidebar) {
         leftSidebar.classList.remove('mobile-open');
         const leftToggle = document.querySelector('.mobile-sidebar-toggle-left');
+        const leftMenuBarToggle = document.querySelector('.sidebar-toggle-left');
         if (leftToggle) leftToggle.setAttribute('aria-expanded', 'false');
+        if (leftMenuBarToggle) leftMenuBarToggle.setAttribute('aria-expanded', 'false');
     }
     
     if (rightSidebar) {
         rightSidebar.classList.remove('mobile-open');
         const rightToggle = document.querySelector('.mobile-sidebar-toggle-right');
+        const rightMenuBarToggle = document.querySelector('.sidebar-toggle-right');
         if (rightToggle) rightToggle.setAttribute('aria-expanded', 'false');
+        if (rightMenuBarToggle) rightMenuBarToggle.setAttribute('aria-expanded', 'false');
     }
     
     // 移除遮罩层和 body 类
@@ -1352,12 +1364,16 @@ function closeAllMobileSidebars() {
         overlay.setAttribute('aria-hidden', 'true');
     }
     
-    document.body.classList.remove('sidebar-open');
-    
-    // 恢复滚动位置
-    if (window.savedScrollPosition !== undefined) {
-        window.scrollTo(0, window.savedScrollPosition);
-        window.savedScrollPosition = undefined;
+    // 只在移动端处理滚动位置
+    if (isMobileViewport() && document.body.classList.contains('sidebar-open')) {
+        const savedScrollTop = window.savedScrollPosition || 0;
+        document.body.classList.remove('sidebar-open');
+        document.body.style.top = '';
+        // 使用 requestAnimationFrame 确保 DOM 更新后再滚动
+        requestAnimationFrame(function() {
+            window.scrollTo(0, savedScrollTop);
+            window.savedScrollPosition = undefined;
+        });
     }
 }
 

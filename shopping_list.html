@@ -21,10 +21,11 @@
             </div>
             <!-- 移动端侧边栏触发按钮 -->
             <button class="mobile-sidebar-toggle mobile-sidebar-toggle-left" 
+                    type="button"
                     aria-label="打开左侧边栏" 
                     aria-expanded="false" 
                     aria-controls="sidebar-left"
-                    onclick="toggleMobileSidebar('left')">
+                    onclick="toggleMobileSidebar('left'); return false;">
                 <span class="hamburger-icon">☰</span>
             </button>
             <div class="header-logo-title">
@@ -33,10 +34,11 @@
             </div>
             <!-- 移动端右侧边栏触发按钮 -->
             <button class="mobile-sidebar-toggle mobile-sidebar-toggle-right" 
+                    type="button"
                     aria-label="打开右侧边栏" 
                     aria-expanded="false" 
                     aria-controls="sidebar-right"
-                    onclick="toggleMobileSidebar('right')">
+                    onclick="toggleMobileSidebar('right'); return false;">
                 <span class="hamburger-icon">☰</span>
             </button>
             <p class="header-subtitle">管理你的食材采购</p>
@@ -47,10 +49,11 @@
     <div class="menu-bar" id="menu-bar">
         <div class="menu-bar-content">
             <button class="menu-bar-btn sidebar-toggle-left" 
+                    type="button"
                     aria-label="打开左侧边栏" 
                     aria-expanded="false" 
                     aria-controls="sidebar-left"
-                    onclick="toggleMobileSidebar('left')"
+                    onclick="toggleMobileSidebar('left'); return false;"
                     title="左侧边栏">
                 <img src="images/sidebar-left-icon.png" alt="左侧边栏" class="sidebar-icon">
             </button>
@@ -58,10 +61,11 @@
                 <span class="home-icon">🏠</span>
             </a>
             <button class="menu-bar-btn sidebar-toggle-right" 
+                    type="button"
                     aria-label="打开右侧边栏" 
                     aria-expanded="false" 
                     aria-controls="sidebar-right"
-                    onclick="toggleMobileSidebar('right')"
+                    onclick="toggleMobileSidebar('right'); return false;"
                     title="右侧边栏">
                 <img src="images/sidebar-right-icon.png" alt="右侧边栏" class="sidebar-icon">
             </button>
@@ -74,8 +78,9 @@
             <!-- 左侧边栏（桌面端显示） -->
             <aside class="sidebar sidebar-left" id="sidebar-left" aria-label="左侧边栏">
                 <button class="sidebar-close-btn" 
+                        type="button"
                         aria-label="关闭侧边栏" 
-                        onclick="toggleMobileSidebar('left')">
+                        onclick="toggleMobileSidebar('left'); return false;">
                     <span>✕</span>
                 </button>
                 <div class="sidebar-widget">
@@ -147,8 +152,9 @@
             <!-- 右侧边栏（桌面端显示） -->
             <aside class="sidebar sidebar-right" id="sidebar-right" aria-label="右侧边栏">
                 <button class="sidebar-close-btn" 
+                        type="button"
                         aria-label="关闭侧边栏" 
-                        onclick="toggleMobileSidebar('right')">
+                        onclick="toggleMobileSidebar('right'); return false;">
                     <span>✕</span>
                 </button>
                 <div class="sidebar-widget">
