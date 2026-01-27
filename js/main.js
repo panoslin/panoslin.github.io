@@ -1528,6 +1528,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let headerScrollState = {
     lastScrollTop: 0,
     scrollThreshold: 100, // 滚动阈值（像素），超过此值才开始收缩
+    topThreshold: 5, // 顶部阈值（像素），只有滚动到接近顶部时才展开
     isHeaderVisible: true,
     ticking: false, // 节流标志
     scrollDirection: null, // 滚动方向：'up' 或 'down'
@@ -1580,8 +1581,8 @@ function handleScrollEnd() {
     clearTimeout(scrollEndTimeout);
     scrollEndTimeout = setTimeout(function() {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        // 滚动结束后，如果在顶部附近，确保 header 展开
-        if (scrollTop < headerScrollState.scrollThreshold) {
+        // 滚动结束后，如果非常接近顶部，确保 header 展开
+        if (scrollTop < headerScrollState.topThreshold) {
             expandHeader();
             // 重置方向锁定
             headerScrollState.directionLock = false;
@@ -1616,8 +1617,8 @@ function processHeaderScroll() {
         return;
     }
 
-    // 在页面顶部附近时，确保 header 完全展开
-    if (scrollTop < headerScrollState.scrollThreshold) {
+    // 在页面顶部附近时（非常接近顶部），确保 header 完全展开
+    if (scrollTop < headerScrollState.topThreshold) {
         if (!headerScrollState.isHeaderVisible) {
             expandHeader();
             headerScrollState.directionLock = false;
@@ -1664,13 +1665,17 @@ function processHeaderScroll() {
             headerScrollState.lastStateChange = currentTime;
         }
     }
-    // 向上滚动：展开 header
+    // 向上滚动：只有当滚动到接近顶部时才展开 header
     else if (currentDirection === 'up') {
-        if (!headerScrollState.isHeaderVisible && !headerScrollState.directionLock) {
-            expandHeader();
-            headerScrollState.directionLock = true;
-            headerScrollState.lastStateChange = currentTime;
+        // 只有当滚动位置非常接近顶部时才展开
+        if (scrollTop < headerScrollState.topThreshold) {
+            if (!headerScrollState.isHeaderVisible && !headerScrollState.directionLock) {
+                expandHeader();
+                headerScrollState.directionLock = true;
+                headerScrollState.lastStateChange = currentTime;
+            }
         }
+        // 如果向上滚动但还没到顶部，保持 menu bar 状态（不做任何操作）
     }
 
     // 更新最后滚动位置
