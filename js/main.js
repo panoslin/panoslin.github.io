@@ -201,7 +201,8 @@ function initializeEventListeners() {
  * 处理搜索输入
  */
 function handleSearch(event) {
-    const searchTerm = event.target.value.toLowerCase().trim();
+    const raw = event && event.target ? event.target.value : '';
+    const searchTerm = (typeof raw === 'string' ? raw : String(raw || '')).toLowerCase().trim();
     
     if (searchTerm === '') {
         // 如果搜索框为空，显示当前分类的所有食谱
@@ -217,27 +218,39 @@ function handleSearch(event) {
  * @param {string} searchTerm - 搜索关键词
  */
 function performSearch(searchTerm) {
+    // 安全转小写字符串，避免 toLowerCase 类型错误
+    function toLowerSafe(value) {
+        if (value === null || value === undefined) return '';
+        if (typeof value === 'string') return value.toLowerCase();
+        // instructions 可能是 { text, imageUrl } 等对象
+        if (typeof value === 'object') {
+            if (typeof value.text === 'string') return value.text.toLowerCase();
+            try { return JSON.stringify(value).toLowerCase(); } catch (e) { return ''; }
+        }
+        return String(value).toLowerCase();
+    }
+
     filteredRecipes = allRecipes.filter(recipe => {
         // 搜索标题
-        const titleMatch = recipe.title.toLowerCase().includes(searchTerm);
+        const titleMatch = toLowerSafe(recipe.title).includes(searchTerm);
         
         // 搜索描述
-        const descMatch = recipe.description && 
-            recipe.description.toLowerCase().includes(searchTerm);
+        const descMatch = !!recipe.description && 
+            toLowerSafe(recipe.description).includes(searchTerm);
         
         // 搜索食材
-        const ingredientsMatch = recipe.ingredients.some(ingredient =>
-            ingredient.name.toLowerCase().includes(searchTerm)
+        const ingredientsMatch = Array.isArray(recipe.ingredients) && recipe.ingredients.some(ingredient =>
+            toLowerSafe(ingredient && ingredient.name).includes(searchTerm)
         );
         
         // 搜索制作方法
-        const instructionsMatch = recipe.instructions.some(instruction =>
-            instruction.toLowerCase().includes(searchTerm)
+        const instructionsMatch = Array.isArray(recipe.instructions) && recipe.instructions.some(instruction =>
+            toLowerSafe(instruction).includes(searchTerm)
         );
         
         // 搜索分类
-        const categoryMatch = recipe.category.some(cat =>
-            cat.toLowerCase().includes(searchTerm)
+        const categoryMatch = Array.isArray(recipe.category) && recipe.category.some(cat =>
+            toLowerSafe(cat).includes(searchTerm)
         );
         
         return titleMatch || descMatch || ingredientsMatch || 
@@ -380,9 +393,10 @@ function createRecipeCard(recipe, searchTerm = '') {
     
     // 高亮搜索关键词
     const highlightText = (text) => {
-        if (!searchTerm) return text;
+        const safeText = (text === null || text === undefined) ? '' : String(text);
+        if (!searchTerm) return safeText;
         const regex = new RegExp(`(${searchTerm})`, 'gi');
-        return text.replace(regex, '<span class="highlight">$1</span>');
+        return safeText.replace(regex, '<span class="highlight">$1</span>');
     };
     
     // 创建图片（支持懒加载和原始比例显示）

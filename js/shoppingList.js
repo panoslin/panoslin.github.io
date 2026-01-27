@@ -17,6 +17,58 @@ function normalizeScale(scale) {
     return Math.min(Math.max(n, 0.1), 20);
 }
 
+/**
+ * 规范化食材名称（用于合并）
+ * - 去掉常见 emoji
+ * - 去掉多余空白
+ * - 同义词合并（如：纯牛奶/牛奶🥛 → 牛奶）
+ */
+function normalizeIngredientName(name) {
+    if (name === null || name === undefined) return '';
+    let n = String(name).trim();
+    // 移除常见 emoji（与 getIngredientCategory 保持一致）
+    n = n.replace(/[🥔🍆🥦🥬🥕🧄🧅🌶️🍅🥒🥑🍌🍎🍊🍋🍇🍓🍑🥭🍍🥝🍒🍈🍉🍐🍏🦐🥩🍝🍵🍹🧋🍨🥚🍞🍟🍠🍄]/g, '').trim();
+    // 同义词/别名归一
+    const aliasMap = {
+        '纯牛奶': '牛奶',
+        '牛奶🥛': '牛奶',
+        '纯牛奶🥛': '牛奶',
+        '牛奶 ': '牛奶'
+    };
+    if (aliasMap[n]) n = aliasMap[n];
+    return n;
+}
+
+/**
+ * 规范化单位（用于合并）
+ */
+function normalizeIngredientUnit(unit) {
+    if (unit === null || unit === undefined) return '';
+    const u = String(unit).trim();
+    const map = {
+        '克': 'g',
+        'g': 'g',
+        '毫升': 'ml',
+        'ml': 'ml'
+    };
+    return map[u] || u;
+}
+
+/**
+ * 针对少数食材做单位转换以便合并
+ * 目前只做用户强预期的：牛奶 ml ↔ g（近似按 1ml≈1g）
+ */
+function normalizeIngredientQuantityByName(name, quantity, unit) {
+    const n = normalizeIngredientName(name);
+    const u = normalizeIngredientUnit(unit);
+    const q = Number(quantity) || 0;
+
+    if (n === '牛奶' && u === 'ml') {
+        return { quantity: q, unit: 'g' }; // 近似：1ml≈1g
+    }
+    return { quantity: q, unit: u };
+}
+
 // 食材分类映射
 const INGREDIENT_CATEGORIES = {
     // 蔬菜类
@@ -76,11 +128,13 @@ function mergeIngredients(ingredients) {
     const merged = {};
     
     ingredients.forEach(ing => {
-        const key = `${ing.name}_${ing.unit}`;
+        const cleanName = normalizeIngredientName(ing.name);
+        const normalized = normalizeIngredientQuantityByName(cleanName, ing.quantity, ing.unit);
+        const key = `${cleanName}_${normalized.unit}`;
         
         if (merged[key]) {
             // 累加数量
-            merged[key].quantity += ing.quantity;
+            merged[key].quantity += normalized.quantity;
             // 合并食谱来源（去重）
             if (ing.recipeId) {
                 if (!merged[key].recipeIds) {
@@ -93,10 +147,10 @@ function mergeIngredients(ingredients) {
         } else {
             // 创建新条目
             merged[key] = {
-                name: ing.name,
-                quantity: ing.quantity,
-                unit: ing.unit,
-                category: getIngredientCategory(ing.name),
+                name: cleanName,
+                quantity: normalized.quantity,
+                unit: normalized.unit,
+                category: getIngredientCategory(cleanName),
                 purchased: ing.purchased || false,
                 recipeIds: ing.recipeId ? [ing.recipeId] : []
             };
@@ -120,10 +174,12 @@ function collectIngredientsFromRecipes(recipeIds, allRecipes, recipeScales = {})
         const scale = normalizeScale(recipeScales && recipeScales[recipeId] !== undefined ? recipeScales[recipeId] : 1);
         if (recipe && recipe.ingredients) {
             recipe.ingredients.forEach(ing => {
+                const cleanName = normalizeIngredientName(ing.name);
+                const normalized = normalizeIngredientQuantityByName(cleanName, (Number(ing.quantity) || 0) * scale, ing.unit);
                 allIngredients.push({
-                    name: ing.name,
-                    quantity: (Number(ing.quantity) || 0) * scale,
-                    unit: ing.unit,
+                    name: cleanName,
+                    quantity: normalized.quantity,
+                    unit: normalized.unit,
                     recipeId: recipeId // 记录来源食谱ID
                 });
             });
@@ -197,6 +253,22 @@ function loadShoppingList() {
             });
             if (!Array.isArray(parsed.ingredients)) parsed.ingredients = [];
             if (!Array.isArray(parsed.selectedRecipeIds)) parsed.selectedRecipeIds = [];
+
+            // 数据自愈：规范化已保存的食材名称/单位，并再次合并，避免出现“牛奶”重复
+            if (Array.isArray(parsed.ingredients) && parsed.ingredients.length > 0) {
+                const normalizedIngredients = parsed.ingredients.map((ing) => {
+                    const cleanName = normalizeIngredientName(ing.name);
+                    const normalized = normalizeIngredientQuantityByName(cleanName, ing.quantity, ing.unit);
+                    return {
+                        ...ing,
+                        name: cleanName,
+                        unit: normalized.unit,
+                        quantity: normalized.quantity
+                    };
+                });
+                parsed.ingredients = mergeIngredients(normalizedIngredients);
+            }
+
             return parsed;
         } catch (e) {
             console.error('加载购物清单失败:', e);

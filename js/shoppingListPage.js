@@ -26,6 +26,7 @@ function loadShoppingListPage() {
     renderShoppingList();
     updateStats();
     renderShoppingListSidebar();
+    renderShoppingNutritionSummary();
     
     // 调整侧边栏位置
     if (typeof adjustSidebarPosition === 'function') {
@@ -278,6 +279,55 @@ function renderShoppingListSidebar() {
     renderShoppingListTOC();
     renderSelectedRecipesList();
     renderShoppingStatsSidebar();
+    renderShoppingNutritionSummary();
+}
+
+/**
+ * 渲染购物清单营养总汇（按已选食谱 & 分量比例汇总）
+ */
+function renderShoppingNutritionSummary() {
+    const container = document.getElementById('shopping-nutrition-summary');
+    if (!container) return;
+
+    if (typeof loadShoppingList !== 'function' || typeof allRecipes === 'undefined' || !allRecipes) {
+        container.innerHTML = '<p style="color: var(--text-tertiary); font-size: var(--text-sm);">加载中...</p>';
+        return;
+    }
+
+    const data = loadShoppingList();
+    const hasRecipes = data && Array.isArray(data.selectedRecipeIds) && data.selectedRecipeIds.length > 0;
+
+    const utils = (typeof NutritionUtils !== 'undefined') ? NutritionUtils : null;
+    if (!utils || typeof utils.sumNutritionForShoppingList !== 'function') {
+        container.innerHTML = '<p style="color: var(--text-tertiary); font-size: var(--text-sm);">营养模块未加载</p>';
+        return;
+    }
+
+    const totals = hasRecipes ? utils.sumNutritionForShoppingList(data, allRecipes) : utils.emptyTotals();
+
+    container.innerHTML = `
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🔥 热量</span>
+            <span class="nutrition-summary-value">${Math.round(totals.calories)} 千卡</span>
+        </div>
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🥩 蛋白质</span>
+            <span class="nutrition-summary-value">${totals.protein.toFixed(1)} 克</span>
+        </div>
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🍞 碳水</span>
+            <span class="nutrition-summary-value">${totals.carbs.toFixed(1)} 克</span>
+        </div>
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🧈 脂肪</span>
+            <span class="nutrition-summary-value">${totals.fat.toFixed(1)} 克</span>
+        </div>
+        <div class="nutrition-summary-item">
+            <span class="nutrition-summary-label">🧂 盐</span>
+            <span class="nutrition-summary-value">${totals.salt.toFixed(2)} 克</span>
+        </div>
+        ${hasRecipes ? '' : '<p style="margin-top: var(--spacing-3); color: var(--text-tertiary); font-size: var(--text-sm);">清单为空时显示为 0</p>'}
+    `;
 }
 
 /**
