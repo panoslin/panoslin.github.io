@@ -88,6 +88,7 @@
     --bg-tertiary: var(--apple-gray-50);
     --bg-overlay: rgba(28, 28, 30, 0.4);
     --bg-glass: rgba(255, 255, 255, 0.7);
+    --page-bg: linear-gradient(180deg, var(--frost-white) 0%, var(--apple-white) 100%);
     
     /* 边框颜色 */
     --border-light: var(--apple-gray-200);
@@ -208,6 +209,40 @@
 }
 
 /* ============================================
+   Dark Mode（data-theme 驱动）
+   ============================================ */
+
+html {
+    color-scheme: light;
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+    /* 文本颜色 */
+    --text-primary: rgba(255, 255, 255, 0.92);
+    --text-secondary: rgba(255, 255, 255, 0.72);
+    --text-tertiary: rgba(255, 255, 255, 0.55);
+    --text-muted: rgba(255, 255, 255, 0.45);
+
+    /* 背景颜色 */
+    --bg-primary: #0B0D10;
+    --bg-secondary: #10141A;
+    --bg-tertiary: #141A22;
+    --bg-glass: rgba(16, 20, 26, 0.72);
+    --bg-overlay: rgba(0, 0, 0, 0.55);
+    --page-bg: radial-gradient(circle at 20% 20%, rgba(58, 157, 110, 0.10) 0%, transparent 45%),
+               radial-gradient(circle at 80% 30%, rgba(58, 143, 196, 0.10) 0%, transparent 50%),
+               radial-gradient(circle at 50% 80%, rgba(230, 130, 165, 0.08) 0%, transparent 55%),
+               linear-gradient(180deg, #07090C 0%, #0B0D10 100%);
+
+    /* 边框颜色 */
+    --border-light: rgba(255, 255, 255, 0.10);
+    --border-medium: rgba(255, 255, 255, 0.16);
+    --border-dark: rgba(255, 255, 255, 0.22);
+    --border-spring: rgba(124, 201, 162, 0.35);
+}
+
+/* ============================================
    基础样式
    ============================================ */
 body {
@@ -215,12 +250,60 @@ body {
     font-size: var(--text-base);
     line-height: var(--leading-normal);
     color: var(--text-primary);
-    background: linear-gradient(180deg, var(--frost-white) 0%, var(--apple-white) 100%);
+    background: var(--page-bg);
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     min-height: 100vh;
+}
+
+/* 平滑过渡（避免闪烁） */
+html.theme-transition,
+html.theme-transition * {
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* 主题切换按钮 */
+.theme-toggle {
+    position: absolute;
+    right: var(--container-padding);
+    top: var(--spacing-3);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-3);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-light);
+    background: var(--bg-glass);
+    color: var(--text-primary);
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(14px) saturate(160%);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+}
+
+.theme-toggle:hover {
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+}
+
+.theme-toggle .theme-icon {
+    font-size: var(--text-base);
+    line-height: 1;
+}
+
+.theme-toggle .theme-label {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+/* menu bar 中的主题按钮 */
+.menu-bar-btn.theme-toggle-menubar {
+    width: auto;
+    padding: 0 var(--spacing-3);
+    gap: var(--spacing-2);
 }
 
 /* Spring Frost 背景纹理 - 微妙的自然元素 */
@@ -1548,6 +1631,12 @@ body::before {
     box-shadow: var(--shadow-sm);
 }
 
+/* 暗色模式下制作步骤 hover 状态优化 */
+html[data-theme="dark"] .instructions-list li:hover {
+    background: rgba(58, 157, 110, 0.18);
+    border-left-color: var(--spring-green-400);
+}
+
 .instruction-item {
     display: flex;
     flex-direction: column;
@@ -2271,6 +2360,12 @@ body::before {
     border-color: var(--border-spring);
 }
 
+/* 暗色模式下购物清单条目 hover 可读性优化 */
+html[data-theme="dark"] .shopping-ingredient-item:hover {
+    background: rgba(58, 157, 110, 0.16);
+    border-color: rgba(124, 201, 162, 0.45);
+}
+
 .shopping-ingredient-item.purchased {
     opacity: 0.6;
     background: var(--apple-gray-50);
@@ -2455,6 +2550,19 @@ body::before {
     color: var(--spring-blue-700);
     transform: translateY(-1px);
     box-shadow: var(--shadow-xs);
+}
+
+/* 暗色模式下食谱来源标签优化 */
+html[data-theme="dark"] .source-recipe-tag {
+    color: var(--spring-blue-300);
+    background: rgba(58, 143, 196, 0.15);
+    border-color: rgba(124, 201, 225, 0.35);
+}
+
+html[data-theme="dark"] .source-recipe-tag:hover {
+    background: rgba(58, 143, 196, 0.25);
+    border-color: rgba(124, 201, 225, 0.5);
+    color: var(--spring-blue-200);
 }
 
 .shopping-ingredient-item.purchased .source-recipe-tag {

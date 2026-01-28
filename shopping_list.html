@@ -7,6 +7,21 @@
     <title>购物清单 - 林哥的厨房 闲人免进</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/favicon.png">
+    <script>
+      // Early theme apply to reduce flash
+      (function () {
+        try {
+          var pref = localStorage.getItem('themePreference') || 'auto';
+          var isNight = function () {
+            var d = new Date();
+            var h = d.getHours();
+            return (h >= 18 || h < 6);
+          };
+          var theme = (pref === 'light' || pref === 'dark') ? pref : (isNight() ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -42,6 +57,10 @@
                 <span class="hamburger-icon">☰</span>
             </button>
             <p class="header-subtitle">管理你的食材采购</p>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换主题">
+                <span class="theme-icon">🌓</span>
+                <span class="theme-label">自动</span>
+            </button>
         </div>
     </header>
 
@@ -68,6 +87,10 @@
                     onclick="toggleMobileSidebar('right'); return false;"
                     title="右侧边栏">
                 <img src="images/sidebar-right-icon.png" alt="右侧边栏" class="sidebar-icon">
+            </button>
+            <button id="theme-toggle-menubar" class="menu-bar-btn theme-toggle-menubar" type="button" aria-label="切换主题" title="切换主题">
+                <span class="theme-icon">🌓</span>
+                <span class="theme-label">自动</span>
             </button>
         </div>
     </div>

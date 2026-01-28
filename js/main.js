@@ -126,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
     adjustSidebarPosition(); // 调整侧边栏位置
     initializeHeaderScroll(); // 初始化 Header 滚动收缩功能
     initFloatingShoppingButton(); // 初始化悬浮购物清单按钮
+    initThemeSystem(); // 初始化暗色模式（自动/手动）
 });
 
 /**
@@ -298,6 +299,131 @@ function launchToShoppingList(btn) {
     setTimeout(() => {
         window.location.href = 'shopping_list.html';
     }, 180);
+}
+
+/* ============================================
+   Dark Mode System（自动/手动/持久化）
+   ============================================ */
+
+const THEME_PREF_KEY = 'themePreference'; // 'auto' | 'light' | 'dark'
+let themeAutoTimer = null;
+
+function getUserTimeZone() {
+    try {
+        return Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    } catch (e) {
+        return '';
+    }
+}
+
+function isNightByLocalTime(date = new Date()) {
+    // 简化规则：18:00~06:00 视为夜间（无手动设置时生效）
+    const h = date.getHours();
+    return (h >= 18 || h < 6);
+}
+
+function getStoredThemePreference() {
+    try {
+        const pref = localStorage.getItem(THEME_PREF_KEY);
+        if (pref === 'light' || pref === 'dark' || pref === 'auto') return pref;
+    } catch (e) {}
+    return 'auto';
+}
+
+function setStoredThemePreference(pref) {
+    try {
+        localStorage.setItem(THEME_PREF_KEY, pref);
+    } catch (e) {}
+}
+
+function applyTheme(theme, withTransition = true) {
+    const html = document.documentElement;
+    if (!html) return;
+    if (withTransition) {
+        html.classList.add('theme-transition');
+        window.setTimeout(() => html.classList.remove('theme-transition'), 280);
+    }
+    html.setAttribute('data-theme', theme);
+}
+
+function resolveThemeFromPreference(pref) {
+    if (pref === 'light' || pref === 'dark') return pref;
+    return isNightByLocalTime() ? 'dark' : 'light';
+}
+
+function scheduleAutoTheme() {
+    if (themeAutoTimer) window.clearTimeout(themeAutoTimer);
+    // 下一次切换点：06:00 或 18:00（本地时间）
+    const now = new Date();
+    const next = new Date(now);
+    const h = now.getHours();
+    const isNight = (h >= 18 || h < 6);
+    if (isNight) {
+        // next 06:00
+        next.setDate(h >= 18 ? now.getDate() + 1 : now.getDate());
+        next.setHours(6, 0, 0, 0);
+    } else {
+        // next 18:00
+        next.setHours(18, 0, 0, 0);
+    }
+    const ms = Math.max(30 * 1000, next.getTime() - now.getTime());
+    themeAutoTimer = window.setTimeout(() => {
+        const pref = getStoredThemePreference();
+        if (pref === 'auto') {
+            applyTheme(resolveThemeFromPreference('auto'), true);
+            updateThemeToggleUI('auto');
+            scheduleAutoTheme();
+        }
+    }, ms);
+}
+
+function updateThemeToggleUI(pref) {
+    const btns = [
+        document.getElementById('theme-toggle'),
+        document.getElementById('theme-toggle-menubar')
+    ].filter(Boolean);
+    const theme = resolveThemeFromPreference(pref);
+    const icon = pref === 'auto' ? '🌓' : (theme === 'dark' ? '🌙' : '☀️');
+    const label = pref === 'auto' ? '自动' : (theme === 'dark' ? '暗色' : '亮色');
+    const title = `主题：${label}${getUserTimeZone() ? `（${getUserTimeZone()}）` : ''}`;
+
+    btns.forEach((b) => {
+        const iconEl = b.querySelector('.theme-icon');
+        const labelEl = b.querySelector('.theme-label');
+        if (iconEl) iconEl.textContent = icon;
+        if (labelEl) labelEl.textContent = label;
+        b.title = title;
+        b.setAttribute('aria-label', title);
+    });
+}
+
+function cycleThemePreference() {
+    const current = getStoredThemePreference();
+    const next = current === 'auto' ? 'light' : (current === 'light' ? 'dark' : 'auto');
+    setStoredThemePreference(next);
+    applyTheme(resolveThemeFromPreference(next), true);
+    updateThemeToggleUI(next);
+    if (next === 'auto') scheduleAutoTheme();
+    else if (themeAutoTimer) window.clearTimeout(themeAutoTimer);
+}
+
+function initThemeSystem() {
+    const pref = getStoredThemePreference();
+    applyTheme(resolveThemeFromPreference(pref), false);
+    updateThemeToggleUI(pref);
+    if (pref === 'auto') scheduleAutoTheme();
+
+    const bind = (id) => {
+        const btn = document.getElementById(id);
+        if (!btn) return;
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (navigator.vibrate) navigator.vibrate(8);
+            cycleThemePreference();
+        });
+    };
+    bind('theme-toggle');
+    bind('theme-toggle-menubar');
 }
 
 /**
