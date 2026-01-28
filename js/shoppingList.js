@@ -131,19 +131,20 @@ function mergeIngredients(ingredients) {
         const cleanName = normalizeIngredientName(ing.name);
         const normalized = normalizeIngredientQuantityByName(cleanName, ing.quantity, ing.unit);
         const key = `${cleanName}_${normalized.unit}`;
+        const incomingRecipeIds = Array.isArray(ing.recipeIds)
+            ? ing.recipeIds.slice()
+            : (ing.recipeId ? [ing.recipeId] : []);
         
         if (merged[key]) {
             // 累加数量
             merged[key].quantity += normalized.quantity;
             // 合并食谱来源（去重）
-            if (ing.recipeId) {
-                if (!merged[key].recipeIds) {
-                    merged[key].recipeIds = [];
+            if (!merged[key].recipeIds) merged[key].recipeIds = [];
+            incomingRecipeIds.forEach((rid) => {
+                if (rid && !merged[key].recipeIds.includes(rid)) {
+                    merged[key].recipeIds.push(rid);
                 }
-                if (!merged[key].recipeIds.includes(ing.recipeId)) {
-                    merged[key].recipeIds.push(ing.recipeId);
-                }
-            }
+            });
         } else {
             // 创建新条目
             merged[key] = {
@@ -152,7 +153,7 @@ function mergeIngredients(ingredients) {
                 unit: normalized.unit,
                 category: getIngredientCategory(cleanName),
                 purchased: ing.purchased || false,
-                recipeIds: ing.recipeId ? [ing.recipeId] : []
+                recipeIds: incomingRecipeIds.filter(Boolean)
             };
         }
     });
