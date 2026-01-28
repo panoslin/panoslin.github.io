@@ -306,6 +306,308 @@ html.theme-transition * {
     gap: var(--spacing-2);
 }
 
+/* ============================================
+   今天吃什么？（滑动选菜页）
+   ============================================ */
+
+.what-to-eat-page {
+    padding: calc(var(--header-height) + var(--spacing-6)) var(--container-padding) var(--spacing-12);
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.what-to-eat-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-6);
+}
+
+.what-to-eat-hint {
+    background: var(--bg-glass);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-4);
+    box-shadow: var(--shadow-sm);
+}
+
+.hint-row {
+    display: flex;
+    gap: var(--spacing-3);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hint-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: 6px 10px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border-light);
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+}
+
+.hint-pill.hint-left {
+    border-color: rgba(230, 130, 165, 0.45);
+}
+
+.hint-pill.hint-right {
+    border-color: rgba(124, 201, 162, 0.55);
+}
+
+.hint-sub {
+    margin-top: var(--spacing-2);
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+}
+
+.swipe-stage {
+    position: relative;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swipe-card {
+    width: min(520px, 92vw);
+    border-radius: var(--radius-2xl);
+    background: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    touch-action: pan-y;
+    transform: translateZ(0);
+    will-change: transform;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease;
+    position: relative;
+}
+
+.swipe-card.dragging {
+    transition: none;
+    cursor: grabbing;
+}
+
+.swipe-card-media {
+    width: 100%;
+    background: var(--bg-secondary);
+}
+
+.swipe-card-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    max-height: 420px;
+}
+
+.swipe-card-body {
+    padding: var(--spacing-5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+.swipe-card-title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
+}
+
+.swipe-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-2);
+}
+
+.meta-pill {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-light);
+    background: var(--bg-secondary);
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+}
+
+.meta-pill.meta-pill-soft {
+    color: var(--primary-color);
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+}
+
+.swipe-card-desc {
+    color: var(--text-secondary);
+    font-size: var(--text-base);
+    line-height: 1.55;
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.swipe-card-badges {
+    position: absolute;
+    top: var(--spacing-4);
+    left: var(--spacing-4);
+    right: var(--spacing-4);
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.badge {
+    padding: 8px 12px;
+    border-radius: var(--radius-full);
+    font-weight: var(--font-semibold);
+    font-size: var(--text-sm);
+    letter-spacing: 0.02em;
+    opacity: 0;
+    transform: scale(0.98);
+    transition: opacity 0.12s ease, transform 0.12s ease;
+}
+
+.badge-nope {
+    color: rgba(255, 255, 255, 0.92);
+    background: rgba(230, 130, 165, 0.85);
+}
+
+.badge-like {
+    color: rgba(255, 255, 255, 0.92);
+    background: rgba(58, 157, 110, 0.85);
+}
+
+/* 根据 JS 写入的 --swipe-progress（-1 ~ 1）显示提示 */
+.swipe-card {
+    --swipe-progress: 0;
+}
+.swipe-card .badge-nope {
+    opacity: clamp(0, calc(var(--swipe-progress) * -1), 1);
+    transform: translateY(calc(clamp(0, calc(var(--swipe-progress) * -1), 1) * -2px)) scale(1);
+}
+.swipe-card .badge-like {
+    opacity: clamp(0, var(--swipe-progress), 1);
+    transform: translateY(calc(clamp(0, var(--swipe-progress), 1) * -2px)) scale(1);
+}
+
+.what-to-eat-actions {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--spacing-3);
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-ghost {
+    border-radius: var(--radius-lg);
+    padding: 12px 14px;
+    border: 1px solid var(--border-light);
+    font-size: var(--text-base);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: var(--text-inverse);
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover,
+.btn-ghost:hover {
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+}
+
+.what-to-eat-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-3);
+    flex-wrap: wrap;
+}
+
+.btn-ghost {
+    background: transparent;
+    border-color: var(--border-light);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swipe-empty {
+    width: min(520px, 92vw);
+    border-radius: var(--radius-2xl);
+    background: var(--bg-glass);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-md);
+    padding: var(--spacing-8);
+    text-align: center;
+}
+
+.swipe-empty-title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.swipe-empty-sub {
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+}
+
+.what-to-eat-toast {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%) translateY(8px);
+    padding: 10px 14px;
+    border-radius: var(--radius-full);
+    background: var(--bg-glass);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-md);
+    color: var(--text-primary);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+    backdrop-filter: blur(14px) saturate(160%);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+}
+
+.what-to-eat-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.what-to-eat-toast.error {
+    border-color: rgba(230, 130, 165, 0.55);
+}
+
+@media (max-width: 480px) {
+    .swipe-stage {
+        min-height: 480px;
+    }
+    .swipe-card-body {
+        padding: var(--spacing-4);
+    }
+    .what-to-eat-actions {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Spring Frost 背景纹理 - 微妙的自然元素 */
 body::before {
     content: '';

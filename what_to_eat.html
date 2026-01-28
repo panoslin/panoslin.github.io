@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="今天吃什么？- 左滑跳过，右滑加入购物清单">
+    <title>今天吃什么？ - 林哥的厨房 闲人免进</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script>
+      // Early theme apply to reduce flash
+      (function () {
+        try {
+          var pref = localStorage.getItem('themePreference') || 'auto';
+          var isNight = function () {
+            var d = new Date();
+            var h = d.getHours();
+            return (h >= 18 || h < 6);
+          };
+          var theme = (pref === 'light' || pref === 'dark') ? pref : (isNight() ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header" id="main-header">
+        <div class="header-content">
+            <div class="header-top">
+                <a href="index.html" class="back-home-btn" title="返回首页">
+                    <span class="back-icon">←</span>
+                    <span class="back-text">返回首页</span>
+                </a>
+            </div>
+            <div class="header-logo-title">
+                <img src="images/logo.png" alt="林哥的厨房 闲人免进 Logo" class="site-logo">
+                <h1>今天吃什么？</h1>
+            </div>
+            <p class="header-subtitle">右滑想吃加入清单，左滑跳过</p>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换主题">
+                <span class="theme-icon">🌓</span>
+                <span class="theme-label">自动</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="menu-bar" id="menu-bar">
+        <div class="menu-bar-content">
+            <a href="index.html" class="menu-bar-btn menu-bar-home" title="返回主页">
+                <span class="home-icon">🏠</span>
+            </a>
+            <a href="shopping_list.html" class="menu-bar-btn" title="购物清单">
+                <span class="home-icon">🛒</span>
+            </a>
+            <button id="theme-toggle-menubar" class="menu-bar-btn theme-toggle-menubar" type="button" aria-label="切换主题" title="切换主题">
+                <span class="theme-icon">🌓</span>
+                <span class="theme-label">自动</span>
+            </button>
+        </div>
+    </div>
+
+    <main class="what-to-eat-page">
+        <section class="what-to-eat-container" aria-label="今天吃什么卡片">
+            <div class="what-to-eat-hint">
+                <div class="hint-row">
+                    <span class="hint-pill hint-left">← 左滑 / 左键：不吃</span>
+                    <span class="hint-pill hint-right">右滑 / 右键：吃（加入清单） →</span>
+                </div>
+                <div class="hint-sub">提示：桌面端可用键盘方向键；移动端请左右滑动卡片。</div>
+            </div>
+
+            <div class="swipe-stage" id="swipe-stage">
+                <!-- 卡片由 JS 渲染 -->
+            </div>
+
+            <div class="what-to-eat-actions">
+                <button type="button" class="btn-secondary" id="btn-skip">不吃（←）</button>
+                <button type="button" class="btn-primary" id="btn-eat">想吃（→ 加入清单）</button>
+            </div>
+
+            <div class="what-to-eat-footer">
+                <button type="button" class="btn-ghost" id="btn-reset">重新开始</button>
+                <a class="btn-ghost" href="shopping_list.html">查看购物清单</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/shoppingList.js"></script>
+    <script src="js/whatToEat.js"></script>
+</body>
+</html>
+
