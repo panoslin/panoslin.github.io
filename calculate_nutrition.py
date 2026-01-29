@@ -20,6 +20,9 @@ NUTRITION_DB = {
     '牛里脊': {'calories': 107, 'protein': 22.2, 'carbs': 0, 'fat': 2.3, 'salt': 0, 'unit': 'g'},
     '牛肉': {'calories': 250, 'protein': 26.0, 'carbs': 0, 'fat': 15.0, 'salt': 0, 'unit': 'g'},
     '鸡肉': {'calories': 167, 'protein': 19.3, 'carbs': 0, 'fat': 9.4, 'salt': 0, 'unit': 'g'},
+    # 老母鸡：按老母鸡/土鸡近似，略高脂肪和热量
+    '老母鸡': {'calories': 200, 'protein': 20.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
+    '母鸡': {'calories': 200, 'protein': 20.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     # 去骨鸡腿肉：按去皮鸡腿生肉近似，略高脂肪
     '去骨鸡腿肉': {'calories': 180, 'protein': 18.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '猪肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
@@ -70,6 +73,8 @@ NUTRITION_DB = {
     '红薯': {'calories': 99, 'protein': 1.1, 'carbs': 24.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '玉米': {'calories': 112, 'protein': 4.2, 'carbs': 22.8, 'fat': 1.2, 'salt': 0, 'unit': 'g'},
     '藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    '莲藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    '九孔莲藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     
     # 调料类
     # 盐：100g盐 = 100g盐（直接计算）
@@ -199,6 +204,19 @@ NUTRITION_DB = {
     
     # 其他
     '红枣': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    # 蜜枣：按蜜饯红枣近似
+    '蜜枣': {'calories': 320, 'protein': 1.5, 'carbs': 78.0, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    # 陈皮：干橘皮，按常见值
+    '陈皮': {'calories': 324, 'protein': 8.0, 'carbs': 79.0, 'fat': 1.4, 'salt': 0, 'unit': 'g'},
+    # 红豆：按干红豆近似
+    '红豆': {'calories': 324, 'protein': 20.2, 'carbs': 63.0, 'fat': 0.6, 'salt': 0, 'unit': 'g'},
+    # 绿豆：按干绿豆近似
+    '绿豆': {'calories': 316, 'protein': 21.6, 'carbs': 62.0, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
+    # 龙骨：猪脊骨，按排骨近似但略低脂肪
+    '龙骨': {'calories': 240, 'protein': 18.0, 'carbs': 0, 'fat': 18.0, 'salt': 0, 'unit': 'g'},
+    # 鸡脚：按鸡爪近似
+    '鸡脚': {'calories': 215, 'protein': 19.4, 'carbs': 0, 'fat': 14.6, 'salt': 0, 'unit': 'g'},
+    '鸡爪': {'calories': 215, 'protein': 19.4, 'carbs': 0, 'fat': 14.6, 'salt': 0, 'unit': 'g'},
     '玫瑰': {'calories': 316, 'protein': 4.0, 'carbs': 75.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     
     # 特殊单位换算（在find_nutrition中处理）
