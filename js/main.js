@@ -1524,7 +1524,10 @@ let touchState = {
     currentX: 0,
     currentY: 0,
     sidebar: null,
-    isDragging: false
+    isDragging: false,
+    startTime: 0,
+    lastX: 0,
+    lastTime: 0
 };
 
 /**
@@ -1604,6 +1607,13 @@ function openMobileSidebar(side) {
 
     mobileSidebarState[side] = true;
 
+    // ARIA 可访问性：标记侧边栏为可见对话框
+    sidebar.setAttribute('aria-hidden', 'false');
+    sidebar.setAttribute('aria-modal', 'true');
+    if (!sidebar.getAttribute('role')) {
+        sidebar.setAttribute('role', 'dialog');
+    }
+
     // 只在移动端初始化触摸手势
     if (isMobileViewport()) {
         initSidebarTouchGesture(sidebar, side);
@@ -1611,6 +1621,15 @@ function openMobileSidebar(side) {
 
     // 更新 menu bar 按钮状态
     updateMenuBarButtons();
+
+    // 焦点管理：将焦点移动到侧边栏内第一个可交互元素
+    window.lastSidebarTrigger = activeToggle;
+    const firstFocusable = sidebar.querySelector('a, button, input, textarea, select, [tabindex]:not([tabindex="-1"])');
+    if (firstFocusable) {
+        firstFocusable.focus();
+    } else {
+        sidebar.focus && sidebar.focus();
+    }
 }
 
 /**
@@ -1630,6 +1649,9 @@ function closeMobileSidebar(side) {
 
     // 移除侧边栏的展开状态
     sidebar.classList.remove('mobile-open');
+    sidebar.style.transform = ''; // 清理拖拽时的内联 transform
+    sidebar.setAttribute('aria-hidden', 'true');
+    sidebar.removeAttribute('aria-modal');
     if (toggle) toggle.setAttribute('aria-expanded', 'false');
     if (menuBarToggle) menuBarToggle.setAttribute('aria-expanded', 'false');
     
@@ -1650,6 +1672,11 @@ function closeMobileSidebar(side) {
                 window.scrollTo(0, savedScrollTop);
                 window.savedScrollPosition = undefined;
             });
+        }
+
+        // 焦点返回到触发按钮
+        if (window.lastSidebarTrigger && typeof window.lastSidebarTrigger.focus === 'function') {
+            window.lastSidebarTrigger.focus();
         }
     }
 
@@ -1680,6 +1707,7 @@ function closeAllMobileSidebars() {
     
     if (rightSidebar) {
         rightSidebar.classList.remove('mobile-open');
+        rightSidebar.style.transform = '';
         const rightToggle = document.querySelector('.mobile-sidebar-toggle-right');
         const rightMenuBarToggle = document.querySelector('.sidebar-toggle-right');
         if (rightToggle) rightToggle.setAttribute('aria-expanded', 'false');
@@ -1702,6 +1730,11 @@ function closeAllMobileSidebars() {
             window.scrollTo(0, savedScrollTop);
             window.savedScrollPosition = undefined;
         });
+    }
+
+    // 焦点返回上次触发按钮
+    if (window.lastSidebarTrigger && typeof window.lastSidebarTrigger.focus === 'function') {
+        window.lastSidebarTrigger.focus();
     }
 }
 
@@ -1747,6 +1780,9 @@ function handleSidebarTouchStart(e) {
     touchState.currentY = touchState.startY;
     touchState.sidebar = sidebar;
     touchState.isDragging = false;
+    touchState.startTime = Date.now();
+    touchState.lastX = touchState.startX;
+    touchState.lastTime = touchState.startTime;
 }
 
 /**
@@ -1771,9 +1807,22 @@ function handleSidebarTouchMove(e) {
         
         // 只允许关闭方向的滑动
         if ((side === 'left' && deltaX < 0) || (side === 'right' && deltaX > 0)) {
-            const translateX = side === 'left' ? deltaX : deltaX;
+            const width = sidebar.offsetWidth || window.innerWidth;
+            // 限制拖拽位移在 [ -width, 0 ] 或 [ 0, width ] 区间
+            let translateX = deltaX;
+            if (side === 'left') {
+                translateX = Math.max(deltaX, -width);
+                translateX = Math.min(0, translateX);
+            } else {
+                translateX = Math.min(deltaX, width);
+                translateX = Math.max(0, translateX);
+            }
             sidebar.style.transform = `translateX(${translateX}px)`;
             sidebar.style.transition = 'none';
+
+            // 记录最近一次位置与时间，用于计算速度
+            touchState.lastX = touchState.currentX;
+            touchState.lastTime = Date.now();
         }
     }
 }
@@ -1791,11 +1840,22 @@ function handleSidebarTouchEnd(e) {
 
     if (touchState.isDragging) {
         const deltaX = touchState.currentX - touchState.startX;
-        const threshold = 100; // 滑动阈值
+        const width = sidebar.offsetWidth || window.innerWidth;
+        const distanceThreshold = width * 0.3; // 30% 宽度
+        const dt = Math.max((touchState.lastTime || Date.now()) - (touchState.startTime || Date.now()), 1);
+        const velocity = (touchState.currentX - touchState.startX) / dt; // px/ms
+        const speedThreshold = 0.4; // 速度阈值
 
-        // 如果滑动距离超过阈值，关闭侧边栏
-        if ((side === 'left' && deltaX < -threshold) || 
-            (side === 'right' && deltaX > threshold)) {
+        const shouldCloseByDistance =
+            (side === 'left' && deltaX < -distanceThreshold) ||
+            (side === 'right' && deltaX > distanceThreshold);
+
+        const shouldCloseBySpeed =
+            (side === 'left' && velocity < -speedThreshold) ||
+            (side === 'right' && velocity > speedThreshold);
+
+        // 距离或速度满足其一则关闭
+        if (shouldCloseByDistance || shouldCloseBySpeed) {
             closeMobileSidebar(side);
         } else {
             // 否则恢复原状
@@ -1806,6 +1866,9 @@ function handleSidebarTouchEnd(e) {
     // 重置触摸状态
     touchState.sidebar = null;
     touchState.isDragging = false;
+    touchState.startTime = 0;
+    touchState.lastX = 0;
+    touchState.lastTime = 0;
 }
 
 /**
