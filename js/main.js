@@ -2024,19 +2024,10 @@ function processHeaderScroll() {
 
     // 阈值 + 回差：避免 scrollTop 在临界点上下抖动导致频繁切换
     const collapseThreshold = headerScrollState.scrollThreshold + headerScrollState.hysteresis;
-    const expandThreshold = Math.max(
-        headerScrollState.topThreshold + 1,
-        headerScrollState.scrollThreshold - headerScrollState.hysteresis
-    );
 
-    // 大于 collapseThreshold：一定收缩
+    // 大于 collapseThreshold：一定收缩为 menu bar
     if (scrollTop > collapseThreshold && headerScrollState.isHeaderVisible) {
         compactHeader();
-        headerScrollState.lastStateChange = currentTime;
-    }
-    // 小于等于 expandThreshold：一定展开
-    else if (scrollTop <= expandThreshold && !headerScrollState.isHeaderVisible) {
-        expandHeader();
         headerScrollState.lastStateChange = currentTime;
     }
 

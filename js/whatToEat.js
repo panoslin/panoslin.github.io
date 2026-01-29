@@ -487,16 +487,9 @@ function processWteHeaderScroll() {
     }
 
     const collapseThreshold = wteHeaderScrollState.scrollThreshold + wteHeaderScrollState.hysteresis;
-    const expandThreshold = Math.max(
-        wteHeaderScrollState.topThreshold + 1,
-        wteHeaderScrollState.scrollThreshold - wteHeaderScrollState.hysteresis
-    );
 
     if (scrollTop > collapseThreshold && wteHeaderScrollState.isHeaderVisible) {
         compactWteHeader();
-        wteHeaderScrollState.lastStateChange = currentTime;
-    } else if (scrollTop <= expandThreshold && !wteHeaderScrollState.isHeaderVisible) {
-        expandWteHeader();
         wteHeaderScrollState.lastStateChange = currentTime;
     }
 
