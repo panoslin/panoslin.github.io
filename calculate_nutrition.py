@@ -30,6 +30,9 @@ NUTRITION_DB = {
     '去骨鸡腿肉': {'calories': 180, 'protein': 18.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '猪肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
     '虾': {'calories': 93, 'protein': 18.6, 'carbs': 2.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
+    # 虾米：干虾米，按常见值
+    '虾米': {'calories': 195, 'protein': 43.7, 'carbs': 0, 'fat': 2.6, 'salt': 0, 'unit': 'g'},
+    '虾米粒': {'calories': 195, 'protein': 43.7, 'carbs': 0, 'fat': 2.6, 'salt': 0, 'unit': 'g'},
     # 贝类/螺类（常见值，按每100g可食部分估算）
     # 参考：USDA/中国食物成分表中同类贝类（螺/海螺/田螺）营养范围
     '花螺': {'calories': 110, 'protein': 20.0, 'carbs': 3.0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
@@ -58,6 +61,7 @@ NUTRITION_DB = {
     '蒜头': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '蒜蓉': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '蒜末': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
+    '蒜粒': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '姜': {'calories': 80, 'protein': 1.8, 'carbs': 17.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
     '紫菜': {'calories': 207, 'protein': 28.2, 'carbs': 44.1, 'fat': 1.1, 'salt': 0, 'unit': 'g'},
     # 海带/裙带菜：按泡发后的湿海带近似（干海带泡发后重量约增加10倍）
@@ -162,18 +166,37 @@ NUTRITION_DB = {
     '白米醋': {'calories': 6, 'protein': 0, 'carbs': 1.5, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     # 豆瓣酱：每100g含钠约6000mg，约等于15.2g盐
     '豆瓣酱': {'calories': 181, 'protein': 13.6, 'carbs': 15.6, 'fat': 6.8, 'salt': 6000, 'unit': 'g'},
+    '郫县豆瓣酱': {'calories': 181, 'protein': 13.6, 'carbs': 15.6, 'fat': 6.8, 'salt': 6000, 'unit': 'g'},
+    '四川豆瓣酱': {'calories': 181, 'protein': 13.6, 'carbs': 15.6, 'fat': 6.8, 'salt': 6000, 'unit': 'g'},
     '番茄酱': {'calories': 82, 'protein': 4.9, 'carbs': 18.1, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     # 鸡精：每100g含钠约20000mg，约等于50.8g盐
     '鸡精': {'calories': 195, 'protein': 10.7, 'carbs': 43.5, 'fat': 0.3, 'salt': 20000, 'unit': 'g'},
     '鸡粉': {'calories': 195, 'protein': 10.7, 'carbs': 43.5, 'fat': 0.3, 'salt': 20000, 'unit': 'g'},
     '辣椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '干辣椒': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
+    '辣椒干': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '白胡椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '花椒': {'calories': 258, 'protein': 6.7, 'carbs': 66.5, 'fat': 8.9, 'salt': 0, 'unit': 'g'},
     '八角': {'calories': 195, 'protein': 3.8, 'carbs': 75.4, 'fat': 5.6, 'salt': 0, 'unit': 'g'},
     '桂皮': {'calories': 174, 'protein': 4.6, 'carbs': 80.0, 'fat': 1.2, 'salt': 0, 'unit': 'g'},
     '香叶': {'calories': 313, 'protein': 7.5, 'carbs': 75.0, 'fat': 8.4, 'salt': 0, 'unit': 'g'},
     '草果': {'calories': 207, 'protein': 8.4, 'carbs': 68.0, 'fat': 7.0, 'salt': 0, 'unit': 'g'},
+    # 咖喱粉：按常见值
+    '咖喱粉': {'calories': 325, 'protein': 12.0, 'carbs': 55.0, 'fat': 13.0, 'salt': 0, 'unit': 'g'},
+    '咖喱': {'calories': 325, 'protein': 12.0, 'carbs': 55.0, 'fat': 13.0, 'salt': 0, 'unit': 'g'},
+    # 沙嗲酱：按常见值
+    '沙嗲酱': {'calories': 320, 'protein': 8.0, 'carbs': 25.0, 'fat': 22.0, 'salt': 2000, 'unit': 'g'},
+    # 圆椒酱：按辣椒酱近似
+    '圆椒酱': {'calories': 150, 'protein': 2.0, 'carbs': 30.0, 'fat': 3.0, 'salt': 3000, 'unit': 'g'},
+    # 当归片：中药材，按常见值
+    '当归': {'calories': 280, 'protein': 16.0, 'carbs': 60.0, 'fat': 4.0, 'salt': 0, 'unit': 'g'},
+    '当归片': {'calories': 280, 'protein': 16.0, 'carbs': 60.0, 'fat': 4.0, 'salt': 0, 'unit': 'g'},
+    # 浓缩鸡汁：按鸡精近似但更浓
+    '浓缩鸡汁': {'calories': 150, 'protein': 8.0, 'carbs': 20.0, 'fat': 0.2, 'salt': 15000, 'unit': 'ml'},
+    # 鸡油：按鸡脂肪近似
+    '鸡油': {'calories': 900, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
+    # 辣酒：按黄酒近似
+    '辣酒': {'calories': 81, 'protein': 0.5, 'carbs': 5.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     # 香油：芝麻油
     '香油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     '芝麻油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
@@ -202,6 +225,7 @@ NUTRITION_DB = {
     '泡发干香菇': {'calories': 19, 'protein': 2.2, 'carbs': 3.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '青椒': {'calories': 22, 'protein': 1.0, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '红椒': {'calories': 22, 'protein': 1.0, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    '青红椒': {'calories': 22, 'protein': 1.0, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '鲜河粉': {'calories': 140, 'protein': 3.0, 'carbs': 30.0, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '木薯粉': {'calories': 360, 'protein': 0.2, 'carbs': 88.7, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '干淀粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
