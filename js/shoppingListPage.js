@@ -431,10 +431,13 @@ function renderSelectedRecipesList() {
     container.innerHTML = selectedRecipes.map(recipe => {
         const scale = recipeScales && recipeScales[recipe.id] !== undefined ? Number(recipeScales[recipe.id]) : 1;
         const scaleText = (Number.isFinite(scale) && scale !== 1) ? ` (x${scale.toFixed(2)})` : '';
+        const fullTitle = `${recipe.title}${scaleText}`;
         return `
             <div class="selected-recipe-item">
-                <a href="recipe_detail.html?id=${recipe.id}" class="selected-recipe-link">
-                    <span class="recipe-title">${recipe.title}${scaleText}</span>
+                <a href="recipe_detail.html?id=${recipe.id}" 
+                   class="selected-recipe-link"
+                   title="${fullTitle}">
+                    <span class="recipe-title">${fullTitle}</span>
                 </a>
                 <div class="selected-recipe-actions">
                     <label class="recipe-scale-editor" title="调整分量比例">

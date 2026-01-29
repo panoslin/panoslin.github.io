@@ -3230,13 +3230,13 @@ html[data-theme="dark"] .source-recipe-tag:hover {
 
 .selected-recipe-link {
     flex: 1;
+    min-width: 0; /* 允许 flex 子元素收缩 */
     text-decoration: none;
     color: var(--text-primary);
     font-size: var(--text-sm);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     transition: color var(--transition-base);
+    display: flex;
+    align-items: center;
 }
 
 .selected-recipe-link:hover {
@@ -3245,9 +3245,12 @@ html[data-theme="dark"] .source-recipe-tag:hover {
 
 .recipe-title {
     display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    line-height: 1.4;
+    /* 移除 text-overflow 和 white-space: nowrap，允许换行显示完整文本 */
 }
 
 .remove-recipe-btn {
@@ -3590,6 +3593,28 @@ html[data-theme="dark"] .source-recipe-tag:hover {
 
     .header p {
         margin-top: 0;
+    }
+
+    /* 移动端已选食谱项优化 */
+    .selected-recipe-item {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .selected-recipe-link {
+        flex-basis: 100%;
+        min-width: 0;
+        margin-bottom: var(--spacing-1);
+    }
+
+    .selected-recipe-actions {
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+
+    .recipe-title {
+        font-size: var(--text-xs);
+        line-height: 1.5;
     }
 }
 
