@@ -2371,11 +2371,97 @@
       "加入香菜段，所有食材充分拌匀即可食用。"
     ],
     "nutrition": {
-      "calories": 106.7,
-      "protein": 3.8,
-      "carbs": 23.8,
-      "fat": 1.4,
+      "calories": 446.9,
+      "protein": 10.3,
+      "carbs": 37.8,
+      "fat": 32.4,
       "salt": 5.41
+    },
+    "source": "https://v.douyin.com/qp7mL4NMI1o/"
+  },
+  {
+    "id": 35,
+    "title": "杏鲍菇鸡腿一锅焖",
+    "category": [
+      "中餐",
+      "家常菜",
+      "低脂"
+    ],
+    "imageUrl": "images/recipe_35.png",
+    "description": "去骨鸡腿肉腌制入味，搭配大量杏鲍菇铺底，小火焖煮 12 分钟即可出锅的一道适合减脂人的高蛋白家常菜。",
+    "ingredients": [
+      {
+        "name": "去骨鸡腿肉",
+        "quantity": 400,
+        "unit": "克"
+      },
+      {
+        "name": "杏鲍菇",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "酱油",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "黄酒",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "姜片",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "蒜酥",
+        "quantity": 5,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "去骨鸡腿肉切成小块，这个做法很适合减脂人。",
+      "在鸡腿肉中加入盐巴、酱油、蚝油、黄酒、黑胡椒和淀粉，抓匀后腌制约 10 分钟。",
+      "杏鲍菇用刮皮刀刨成薄片，处理好的杏鲍菇铺在锅中做底。",
+      "将腌好的鸡腿肉和姜片均匀铺在杏鲍菇上方。",
+      "如果前面忘记加油，表面再补淋一圈食用油。",
+      "在鸡肉表面撒上一层蒜酥增加香味。",
+      "盖上锅盖，小火全程焖煮约 12 分钟，期间不用翻动。",
+      "时间到后打开锅盖，确认鸡肉熟透、杏鲍菇出汁即可关火装盘。"
+    ],
+    "nutrition": {
+      "calories": 983.1,
+      "protein": 83.2,
+      "carbs": 32.9,
+      "fat": 59.1,
+      "salt": 7.44
     },
     "source": "https://v.douyin.com/qp7mL4NMI1o/"
   }
