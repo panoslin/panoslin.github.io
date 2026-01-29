@@ -1670,6 +1670,20 @@ body::before {
     box-shadow: var(--shadow-sm);
 }
 
+/* 暗色模式下来源链接 hover 可读性优化 */
+html[data-theme="dark"] .recipe-source:hover {
+    background: rgba(58, 157, 110, 0.16);
+    border-color: rgba(124, 201, 162, 0.45);
+}
+
+.source-link:visited {
+    color: var(--spring-blue-600);
+}
+
+html[data-theme="dark"] .source-link:visited {
+    color: var(--spring-blue-300);
+}
+
 .source-link {
     display: flex;
     align-items: center;
