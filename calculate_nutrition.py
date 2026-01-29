@@ -36,6 +36,8 @@ NUTRITION_DB = {
     # 贝类/螺类（常见值，按每100g可食部分估算）
     # 参考：USDA/中国食物成分表中同类贝类（螺/海螺/田螺）营养范围
     '花螺': {'calories': 110, 'protein': 20.0, 'carbs': 3.0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
+    # 鲈鱼：按常见海鱼近似
+    '鲈鱼': {'calories': 105, 'protein': 18.6, 'carbs': 0, 'fat': 3.4, 'salt': 0, 'unit': 'g'},
     
     # 蔬菜类（天然含钠量很少）
     '番茄': {'calories': 18, 'protein': 0.9, 'carbs': 3.5, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
@@ -99,6 +101,9 @@ NUTRITION_DB = {
     '生抽': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
     # 品牌/同类调味汁：按生抽近似
     '东古酱油': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
+    # 蒸鱼豉油：按生抽近似但略甜
+    '蒸鱼豉油': {'calories': 70, 'protein': 5.0, 'carbs': 12.0, 'fat': 0.1, 'salt': 5500, 'unit': 'ml'},
+    '蒸鱼汁': {'calories': 70, 'protein': 5.0, 'carbs': 12.0, 'fat': 0.1, 'salt': 5500, 'unit': 'ml'},
     '辣鲜露': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
     # 芥末（酱）：按常见芥末酱近似（钠含量差异较大，先按0处理；主要盐来自酱油/调味汁）
     '芥末': {'calories': 66, 'protein': 4.4, 'carbs': 5.8, 'fat': 4.0, 'salt': 0, 'unit': 'g'},
