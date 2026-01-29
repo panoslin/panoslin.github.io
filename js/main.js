@@ -176,11 +176,30 @@ function initFloatingShoppingButton() {
     const btn = document.createElement('button');
     btn.id = 'floating-shopping-btn';
     btn.className = 'floating-shopping-btn';
-    btn.innerHTML = `<img src="image.png" alt="购物清单" class="floating-btn-img" />`;
+    btn.innerHTML = `<img src="images/image.png" alt="购物清单" class="floating-btn-img" />`;
     btn.type = 'button';
-    btn.title = '前往购物清单';
+    btn.title = '打开快捷入口';
+    btn.setAttribute('aria-haspopup', 'menu');
+    btn.setAttribute('aria-expanded', 'false');
+
+    const menu = document.createElement('div');
+    menu.id = 'floating-menu';
+    menu.className = 'floating-menu';
+    menu.setAttribute('role', 'menu');
+    menu.setAttribute('aria-hidden', 'true');
+    menu.innerHTML = `
+        <button class="floating-menu-item" role="menuitem" data-target="shopping_list.html">
+            <span class="floating-menu-icon">🛒</span>
+            <span class="floating-menu-text">购物清单</span>
+        </button>
+        <button class="floating-menu-item" role="menuitem" data-target="what_to_eat.html">
+            <span class="floating-menu-icon">🍽️</span>
+            <span class="floating-menu-text">今天吃什么</span>
+        </button>
+    `;
 
     document.body.appendChild(btn);
+    document.body.appendChild(menu);
 
     // 加载持久化位置
     const saved = loadFloatingBtnPosition();
@@ -190,6 +209,15 @@ function initFloatingShoppingButton() {
     };
     const pos = saved || defaultPos;
     setFloatingBtnPosition(btn, pos.x, pos.y);
+
+    const updateMenuPosition = () => {
+        const rect = btn.getBoundingClientRect();
+        const centerX = rect.left + rect.width / 2;
+        const anchorY = rect.top;
+        menu.style.left = `${centerX}px`;
+        menu.style.top = `${anchorY}px`;
+    };
+    updateMenuPosition();
 
     // 拖拽处理（pointer events）
     let dragging = false;
@@ -213,6 +241,7 @@ function initFloatingShoppingButton() {
         if (rafId) cancelAnimationFrame(rafId);
         rafId = requestAnimationFrame(() => {
             setFloatingBtnPosition(btn, nextX, nextY);
+            updateMenuPosition();
         });
     };
 
@@ -244,8 +273,28 @@ function initFloatingShoppingButton() {
     btn.addEventListener('pointercancel', onPointerUp);
     btn.addEventListener('lostpointercapture', onPointerUp);
 
+    function closeFloatingMenu() {
+        menu.classList.remove('floating-menu-open');
+        menu.setAttribute('aria-hidden', 'true');
+        btn.setAttribute('aria-expanded', 'false');
+    }
+
+    function openFloatingMenu() {
+        updateMenuPosition();
+        menu.classList.add('floating-menu-open');
+        menu.setAttribute('aria-hidden', 'false');
+        btn.setAttribute('aria-expanded', 'true');
+        const firstItem = menu.querySelector('.floating-menu-item');
+        firstItem && firstItem.focus();
+    }
+
+    function toggleFloatingMenu() {
+        const isOpen = menu.classList.contains('floating-menu-open');
+        if (isOpen) closeFloatingMenu(); else openFloatingMenu();
+    }
+
     btn.addEventListener('click', (e) => {
-        // 如果刚拖拽过且有明显位移，就不触发点击导航
+        // 如果刚拖拽过且有明显位移，就不触发点击导航/菜单
         if (moved) return;
         e.preventDefault();
         // 触觉反馈
@@ -253,8 +302,32 @@ function initFloatingShoppingButton() {
         // 轻微缩放动画
         btn.classList.add('clicked');
         setTimeout(() => btn.classList.remove('clicked'), 180);
-        // 平滑跳转购物清单
-        launchToShoppingList(btn);
+        toggleFloatingMenu();
+    });
+
+    menu.addEventListener('click', (e) => {
+        const item = e.target.closest('.floating-menu-item');
+        if (!item) return;
+        e.preventDefault();
+        const target = item.getAttribute('data-target');
+        if (!target) return;
+        closeFloatingMenu();
+        setTimeout(() => {
+            window.location.href = target;
+        }, 140);
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!menu.classList.contains('floating-menu-open')) return;
+        if (btn.contains(e.target) || menu.contains(e.target)) return;
+        closeFloatingMenu();
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && menu.classList.contains('floating-menu-open')) {
+            closeFloatingMenu();
+            btn.focus();
+        }
     });
 }
 
