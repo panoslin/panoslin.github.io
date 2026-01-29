@@ -2565,7 +2565,7 @@
       "fat": 51.3,
       "salt": 6.21
     },
-    "source": ""
+    "source": "https://v.douyin.com/cpzI6fnlIiw/"
   },
   {
     "id": 37,
@@ -2649,6 +2649,94 @@
       "fat": 145.2,
       "salt": 5.0
     },
-    "source": ""
+    "source": "https://v.douyin.com/4CtIHhpawRk/"
+  },
+  {
+    "id": 38,
+    "title": "酱萝卜",
+    "category": [
+      "中餐",
+      "小菜",
+      "腌制菜"
+    ],
+    "imageUrl": "images/recipe_38.png",
+    "description": "秘制酱萝卜，酸甜辣爽，脆嫩开胃。用白糖腌制后加入特制酱汁，简单方便，顿顿离不开。",
+    "ingredients": [
+      {
+        "name": "白萝卜",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "蒜",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "薄盐生抽",
+        "quantity": 150,
+        "unit": "毫升"
+      },
+      {
+        "name": "老抽",
+        "quantity": 25,
+        "unit": "毫升"
+      },
+      {
+        "name": "香醋",
+        "quantity": 150,
+        "unit": "毫升"
+      },
+      {
+        "name": "香油",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 10,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "选择瓷实的白萝卜，洗净去皮。",
+      "将萝卜一开四，切成四块。",
+      "切连刀片：每三刀切断一次，切成厚度约一块钱硬币的片状。",
+      "将切好的萝卜片放入容器中，加入 50 克白糖，用手抓匀，腌制出水分。",
+      "腌制约 30 分钟后，萝卜会出水，将水倒掉，尽量把萝卜里的水分挤干。",
+      "准备配料：半个柠檬去籽切片，1 块姜切片，5 颗蒜头拍碎。",
+      "制作腌制酱汁：将半个柠檬片、蒜头、姜片、薄盐生抽 150g、老抽 25g、香醋 150g、香油 20g、蜂蜜 1 勺混合均匀。",
+      "如果喜欢吃辣，可以加入几根小米辣。",
+      "将挤干水分的萝卜片放入酱汁中，搅拌均匀，确保每片萝卜都裹上酱汁。",
+      "盖上盖子，放入冰箱腌制 3 个小时即可食用。如果喜欢味道重一点的，可以腌制 1-2 天。"
+    ],
+    "nutrition": {
+      "calories": 607.6,
+      "protein": 7.7,
+      "carbs": 104.7,
+      "fat": 21.0,
+      "salt": 384.66
+    },
+    "source": "https://v.douyin.com/YLuRhPpHJYM/"
   }
 ]

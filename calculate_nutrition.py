@@ -42,6 +42,9 @@ NUTRITION_DB = {
     '娃娃菜': {'calories': 15, 'protein': 1.3, 'carbs': 2.8, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '青菜': {'calories': 15, 'protein': 1.5, 'carbs': 2.4, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '胡萝卜': {'calories': 41, 'protein': 0.9, 'carbs': 9.6, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    # 白萝卜：按常见值
+    '白萝卜': {'calories': 16, 'protein': 0.7, 'carbs': 3.5, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '萝卜': {'calories': 16, 'protein': 0.7, 'carbs': 3.5, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '洋葱': {'calories': 40, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '大葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '小葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
@@ -165,6 +168,11 @@ NUTRITION_DB = {
     '桂皮': {'calories': 174, 'protein': 4.6, 'carbs': 80.0, 'fat': 1.2, 'salt': 0, 'unit': 'g'},
     '香叶': {'calories': 313, 'protein': 7.5, 'carbs': 75.0, 'fat': 8.4, 'salt': 0, 'unit': 'g'},
     '草果': {'calories': 207, 'protein': 8.4, 'carbs': 68.0, 'fat': 7.0, 'salt': 0, 'unit': 'g'},
+    # 香油：芝麻油
+    '香油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
+    '芝麻油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
+    # 蜂蜜：按常见值
+    '蜂蜜': {'calories': 304, 'protein': 0.3, 'carbs': 75.6, 'fat': 0, 'salt': 0, 'unit': 'g'},
     
     # 水果类
     '菠萝': {'calories': 50, 'protein': 0.5, 'carbs': 12.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
