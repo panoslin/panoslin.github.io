@@ -2738,5 +2738,114 @@
       "salt": 384.66
     },
     "source": "https://v.douyin.com/YLuRhPpHJYM/"
+  },
+  {
+    "id": 39,
+    "title": "包菜口蘑焖鸡胸肉",
+    "category": [
+      "中餐",
+      "家常菜",
+      "焖菜"
+    ],
+    "imageUrl": "images/recipe_39.png",
+    "description": "使用中国膳食指南推荐的水油焖菜法，包菜打底，口蘑和鸡胸肉一起焖煮，省时省力，营养健康。",
+    "ingredients": [
+      {
+        "name": "包菜",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "口蘑",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "鸡胸肉",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "食用小苏打",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "料酒",
+        "quantity": 10,
+        "unit": "毫升"
+      },
+      {
+        "name": "生抽",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 5,
+        "unit": "毫升"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "味精",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "清水",
+        "quantity": 50,
+        "unit": "毫升"
+      },
+      {
+        "name": "葱花",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 5,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "腌肉：鸡胸肉先用食用小苏打和料酒腌制 5 分钟，然后用清水洗净。",
+      "继续腌制：在洗净的鸡胸肉中加入生抽、蚝油、胡椒粉和淀粉，抓匀。",
+      "在腌好的鸡胸肉表面喷上食用油，锁住水分，继续腌制 15 分钟。",
+      "包菜洗净切块，在平底锅中打底铺平。",
+      "依次放上口蘑片。",
+      "放上提前腌制好的鸡胸肉。",
+      "制作料汁：将生抽、蚝油、蒜末、味精和一点点清水混合均匀。",
+      "淋上灵魂小料汁，让酱汁均匀覆盖在食材上。",
+      "盖上锅盖，小火焖煮 8 分钟，让食材充分吸收汤汁。",
+      "焖煮完成后，撒上葱花。",
+      "如果喜欢吃辣，可以加入几根小米辣增加风味。"
+    ],
+    "nutrition": {
+      "calories": 473.4,
+      "protein": 48.4,
+      "carbs": 33.1,
+      "fat": 15.6,
+      "salt": 4.65
+    },
+    "source": "https://v.douyin.com/ewrr8vChKws/"
   }
 ]

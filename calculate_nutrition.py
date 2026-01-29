@@ -20,6 +20,9 @@ NUTRITION_DB = {
     '牛里脊': {'calories': 107, 'protein': 22.2, 'carbs': 0, 'fat': 2.3, 'salt': 0, 'unit': 'g'},
     '牛肉': {'calories': 250, 'protein': 26.0, 'carbs': 0, 'fat': 15.0, 'salt': 0, 'unit': 'g'},
     '鸡肉': {'calories': 167, 'protein': 19.3, 'carbs': 0, 'fat': 9.4, 'salt': 0, 'unit': 'g'},
+    # 鸡胸肉：脂肪含量更低
+    '鸡胸肉': {'calories': 133, 'protein': 19.4, 'carbs': 0, 'fat': 5.0, 'salt': 0, 'unit': 'g'},
+    '鸡胸': {'calories': 133, 'protein': 19.4, 'carbs': 0, 'fat': 5.0, 'salt': 0, 'unit': 'g'},
     # 老母鸡：按老母鸡/土鸡近似，略高脂肪和热量
     '老母鸡': {'calories': 200, 'protein': 20.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '母鸡': {'calories': 200, 'protein': 20.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
@@ -64,6 +67,9 @@ NUTRITION_DB = {
     '小米辣': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '羽衣甘蓝': {'calories': 49, 'protein': 4.3, 'carbs': 8.8, 'fat': 0.9, 'salt': 0, 'unit': 'g'},
     '小卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 包菜：卷心菜
+    '包菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     
     # 主食类
     '面饼': {'calories': 280, 'protein': 9.0, 'carbs': 58.0, 'fat': 1.0, 'salt': 0, 'unit': 'g'},
@@ -188,6 +194,9 @@ NUTRITION_DB = {
     '蛋白': {'calories': 52, 'protein': 10.9, 'carbs': 1.0, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '韭菜': {'calories': 26, 'protein': 2.4, 'carbs': 4.5, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '蘑菇': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 口蘑：白蘑菇/双孢菇
+    '口蘑': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '白蘑菇': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     # 杏鲍菇：按常见营养表近似
     '杏鲍菇': {'calories': 32, 'protein': 3.0, 'carbs': 6.0, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '泡发干香菇': {'calories': 19, 'protein': 2.2, 'carbs': 3.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
