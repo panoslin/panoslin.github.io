@@ -105,6 +105,17 @@
         } catch (e) {}
     }
 
+    function updateProgressUI() {
+        const el = $('wte-progress');
+        if (!el) return;
+        const total = Array.isArray(allRecipes) ? allRecipes.length : 0;
+        const seenCount = seen ? seen.size : 0;
+        const remaining = Math.max(total - seenCount, 0);
+        el.textContent = total
+            ? `已浏览 ${seenCount}/${total} · 剩余 ${remaining}`
+            : '加载中…';
+    }
+
     function saveSessionState() {
         try { sessionStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(seen))); } catch (e) {}
         try { sessionStorage.setItem(ORDER_KEY, JSON.stringify(order)); } catch (e) {}
@@ -150,6 +161,7 @@
             <div class="swipe-empty-sub">你可以点击“重新开始”再来一轮，或者去购物清单看看。</div>
           </div>
         `;
+        updateProgressUI();
     }
 
     function createCard(recipe) {
@@ -206,8 +218,12 @@
         stage.innerHTML = '';
         const card = createCard(recipe);
         stage.appendChild(card);
+        // 进场动画
+        card.classList.add('entering');
+        window.setTimeout(() => card.classList.remove('entering'), 280);
         initSwipe(card);
         currentRecipeId = recipe.id;
+        updateProgressUI();
     }
 
     function goNext() {
@@ -229,6 +245,7 @@
     function markSeen(id) {
         seen.add(Number(id));
         saveSessionState();
+        updateProgressUI();
     }
 
     function addToShoppingList(recipeId) {
@@ -251,6 +268,8 @@
 
         const id = currentRecipeId;
         markSeen(id);
+
+        if (navigator.vibrate) navigator.vibrate(direction > 0 ? 16 : 10);
 
         if (direction > 0) addToShoppingList(id);
 
@@ -376,6 +395,7 @@
             showToast('食谱为空', 'error');
             return;
         }
+        updateProgressUI();
         goNext();
     }
 

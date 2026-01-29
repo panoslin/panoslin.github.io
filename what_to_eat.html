@@ -62,26 +62,28 @@
 
     <main class="what-to-eat-page">
         <section class="what-to-eat-container" aria-label="今天吃什么卡片">
-            <div class="what-to-eat-hint">
-                <div class="hint-row">
-                    <span class="hint-pill hint-left">← 左滑 / 左键：不吃</span>
-                    <span class="hint-pill hint-right">右滑 / 右键：吃（加入清单） →</span>
+            <div class="wte-statusbar" aria-label="进度与快捷操作">
+                <div class="wte-progress" id="wte-progress">加载中…</div>
+                <div class="wte-status-actions">
+                    <button type="button" class="wte-mini-btn" id="btn-reset" title="重新开始">重置</button>
+                    <a class="wte-mini-btn" href="shopping_list.html" title="查看购物清单">清单</a>
                 </div>
-                <div class="hint-sub">提示：桌面端可用键盘方向键；移动端请左右滑动卡片。</div>
             </div>
 
             <div class="swipe-stage" id="swipe-stage">
                 <!-- 卡片由 JS 渲染 -->
             </div>
 
-            <div class="what-to-eat-actions">
-                <button type="button" class="btn-secondary" id="btn-skip">不吃（←）</button>
-                <button type="button" class="btn-primary" id="btn-eat">想吃（→ 加入清单）</button>
-            </div>
-
-            <div class="what-to-eat-footer">
-                <button type="button" class="btn-ghost" id="btn-reset">重新开始</button>
-                <a class="btn-ghost" href="shopping_list.html">查看购物清单</a>
+            <div class="wte-actionbar" role="group" aria-label="选择操作">
+                <button type="button" class="wte-action-btn wte-skip" id="btn-skip" aria-label="不吃（左滑或左方向键）">
+                    <span class="wte-action-icon">✕</span>
+                    <span class="wte-action-text">不吃</span>
+                </button>
+                <button type="button" class="wte-action-btn wte-eat" id="btn-eat" aria-label="想吃（右滑或右方向键，加入购物清单）">
+                    <span class="wte-action-icon">＋</span>
+                    <span class="wte-action-text">想吃</span>
+                </button>
+                <div class="wte-microcopy">左滑/← 跳过 · 右滑/→ 加入购物清单（默认 x1）</div>
             </div>
         </section>
     </main>

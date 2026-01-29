@@ -322,50 +322,69 @@ html.theme-transition * {
     gap: var(--spacing-6);
 }
 
-.what-to-eat-hint {
+/* 顶部状态条（进度 + 快捷操作） */
+.wte-statusbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-3);
+    padding: var(--spacing-3) var(--spacing-4);
+    border-radius: var(--radius-xl);
     background: var(--bg-glass);
     border: 1px solid var(--border-light);
-    border-radius: var(--radius-xl);
-    padding: var(--spacing-4);
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(14px) saturate(160%);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+}
+
+.wte-progress {
+    color: var(--text-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    letter-spacing: -0.01em;
+}
+
+.wte-status-actions {
+    display: flex;
+    gap: var(--spacing-2);
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.wte-mini-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border-light);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: var(--text-sm);
+    cursor: pointer;
+    transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-xs);
+}
+
+.wte-mini-btn:hover {
+    background: var(--primary-bg);
+    border-color: var(--border-spring);
+    transform: translateY(-1px);
     box-shadow: var(--shadow-sm);
 }
 
-.hint-row {
-    display: flex;
-    gap: var(--spacing-3);
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.hint-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--spacing-2);
-    padding: 6px 10px;
-    border-radius: var(--radius-full);
-    border: 1px solid var(--border-light);
-    font-size: var(--text-sm);
-    color: var(--text-primary);
-    background: var(--bg-secondary);
-}
-
-.hint-pill.hint-left {
-    border-color: rgba(230, 130, 165, 0.45);
-}
-
-.hint-pill.hint-right {
-    border-color: rgba(124, 201, 162, 0.55);
-}
-
-.hint-sub {
-    margin-top: var(--spacing-2);
-    color: var(--text-secondary);
-    font-size: var(--text-sm);
+.wte-mini-btn:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-xs);
 }
 
 .swipe-stage {
     position: relative;
-    min-height: 520px;
+    min-height: clamp(420px, 60vh, 560px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -383,6 +402,15 @@ html.theme-transition * {
     will-change: transform;
     transition: transform 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease;
     position: relative;
+}
+
+.swipe-card.entering {
+    animation: wteCardIn 260ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes wteCardIn {
+    from { opacity: 0; transform: translateY(10px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .swipe-card.dragging {
@@ -493,58 +521,95 @@ html.theme-transition * {
     transform: translateY(calc(clamp(0, var(--swipe-progress), 1) * -2px)) scale(1);
 }
 
-.what-to-eat-actions {
+/* 底部操作条：移动端拇指优先 */
+.wte-actionbar {
+    position: sticky;
+    bottom: max(10px, env(safe-area-inset-bottom));
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: 1fr 1fr;
     gap: var(--spacing-3);
-}
-
-.btn-primary,
-.btn-secondary,
-.btn-ghost {
-    border-radius: var(--radius-lg);
-    padding: 12px 14px;
+    padding: var(--spacing-3);
+    border-radius: var(--radius-2xl);
+    background: var(--bg-glass);
     border: 1px solid var(--border-light);
-    font-size: var(--text-base);
-    font-weight: var(--font-medium);
-    cursor: pointer;
-    transition: all var(--transition-base);
-    background: var(--bg-secondary);
-    color: var(--text-primary);
+    box-shadow: var(--shadow-md);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
 }
 
-.btn-primary {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    color: var(--text-inverse);
-    border-color: transparent;
-}
-
-.btn-primary:hover {
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-sm);
-}
-
-.btn-secondary:hover,
-.btn-ghost:hover {
-    background: var(--primary-bg);
-    border-color: var(--border-spring);
-}
-
-.what-to-eat-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--spacing-3);
-    flex-wrap: wrap;
-}
-
-.btn-ghost {
-    background: transparent;
-    border-color: var(--border-light);
-    text-decoration: none;
+.wte-action-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: var(--spacing-2);
+    padding: 14px 14px;
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-light);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
+}
+
+.wte-action-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.wte-action-btn:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+
+.wte-action-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-md);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.wte-action-text {
+    font-size: var(--text-base);
+    font-weight: var(--font-semibold);
+    letter-spacing: -0.01em;
+}
+
+.wte-action-btn.wte-skip .wte-action-icon {
+    background: rgba(230, 130, 165, 0.18);
+    color: var(--accent-color);
+}
+
+.wte-action-btn.wte-eat .wte-action-icon {
+    background: rgba(58, 157, 110, 0.18);
+    color: var(--primary-color);
+}
+
+.wte-action-btn.wte-skip:hover {
+    border-color: rgba(230, 130, 165, 0.45);
+    background: rgba(230, 130, 165, 0.08);
+}
+
+.wte-action-btn.wte-eat:hover {
+    border-color: rgba(124, 201, 162, 0.55);
+    background: rgba(58, 157, 110, 0.08);
+}
+
+.wte-microcopy {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    padding-top: 2px;
 }
 
 .swipe-empty {
@@ -603,8 +668,24 @@ html.theme-transition * {
     .swipe-card-body {
         padding: var(--spacing-4);
     }
-    .what-to-eat-actions {
-        grid-template-columns: 1fr;
+    .wte-action-btn {
+        padding: 14px 12px;
+    }
+    .wte-action-icon {
+        width: 26px;
+        height: 26px;
+        font-size: 16px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .swipe-card.entering {
+        animation: none;
+    }
+    .wte-action-btn,
+    .wte-mini-btn,
+    .what-to-eat-toast {
+        transition: none;
     }
 }
 
