@@ -1852,18 +1852,24 @@ document.addEventListener('DOMContentLoaded', function() {
    Header 滚动收缩为 Menu Bar 功能
    ============================================ */
 
-// Header 滚动状态管理
+// Header 滚动状态管理（阈值驱动）
 let headerScrollState = {
     lastScrollTop: 0,
-    scrollThreshold: 100, // 滚动阈值（像素），超过此值才开始收缩
-    topThreshold: 5, // 顶部阈值（像素），只有滚动到接近顶部时才展开
+    scrollThreshold: 0, // 初始化时根据设备类型设置
+    hysteresis: 0, // 回差区间（像素），避免在阈值附近抖动
+    topThreshold: 5, // 非常接近顶部时强制展开
     isHeaderVisible: true,
-    ticking: false, // 节流标志
-    scrollDirection: null, // 滚动方向：'up' 或 'down'
-    directionLock: false, // 方向锁定，避免在阈值附近反复切换
-    lastStateChange: 0, // 上次状态改变的时间戳
+    ticking: false,
+    lastStateChange: 0,
     minStateChangeInterval: 150 // 最小状态改变间隔（毫秒），避免频繁切换
 };
+
+function updateHeaderScrollThresholds() {
+    const isMobile = typeof isMobileViewport === 'function' ? isMobileViewport() : window.innerWidth <= 768;
+    headerScrollState.scrollThreshold = isMobile ? 80 : 120;
+    // 移动端滚动更易出现微抖动（回弹/惯性），回差适当大一些
+    headerScrollState.hysteresis = isMobile ? 20 : 28;
+}
 
 /**
  * 初始化 Header 滚动收缩功能
@@ -1874,17 +1880,20 @@ function initializeHeaderScroll() {
     
     if (!header || !menuBar) return;
 
+    // 根据设备类型设定阈值与回差
+    updateHeaderScrollThresholds();
+
     // 初始化 header 为展开状态
     header.classList.remove('header-compact');
     menuBar.classList.remove('menu-bar-visible');
     headerScrollState.isHeaderVisible = true;
     headerScrollState.lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    headerScrollState.scrollDirection = null;
-    headerScrollState.directionLock = false;
     headerScrollState.lastStateChange = 0;
 
     // 使用节流优化滚动事件处理
     window.addEventListener('scroll', handleHeaderScroll, { passive: true });
+    window.addEventListener('resize', updateHeaderScrollThresholds);
+    window.addEventListener('orientationchange', updateHeaderScrollThresholds);
 }
 
 /**
@@ -1912,9 +1921,6 @@ function handleScrollEnd() {
         // 滚动结束后，如果非常接近顶部，确保 header 展开
         if (scrollTop < headerScrollState.topThreshold) {
             expandHeader();
-            // 重置方向锁定
-            headerScrollState.directionLock = false;
-            headerScrollState.scrollDirection = null;
         }
     }, 200);
 }
@@ -1934,82 +1940,44 @@ function processHeaderScroll() {
     }
 
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollDelta = scrollTop - headerScrollState.lastScrollTop;
     const currentTime = Date.now();
 
-    // 防止状态频繁切换：检查最小间隔
-    const timeSinceLastChange = currentTime - headerScrollState.lastStateChange;
-    if (timeSinceLastChange < headerScrollState.minStateChangeInterval && headerScrollState.directionLock) {
-        headerScrollState.lastScrollTop = scrollTop;
-        handleScrollEnd();
-        return;
-    }
-
-    // 在页面顶部附近时（非常接近顶部），确保 header 完全展开
+    // 非常接近顶部时强制展开，避免停在顶部出现菜单栏
     if (scrollTop < headerScrollState.topThreshold) {
         if (!headerScrollState.isHeaderVisible) {
             expandHeader();
-            headerScrollState.directionLock = false;
-            headerScrollState.scrollDirection = null;
         }
         headerScrollState.lastScrollTop = scrollTop;
         handleScrollEnd();
         return;
     }
 
-    // 判断滚动方向（使用阈值，避免微小滚动导致切换）
-    const scrollDeltaThreshold = 10;
-    let currentDirection = null;
-
-    if (Math.abs(scrollDelta) < scrollDeltaThreshold) {
-        // 滚动距离太小，保持当前状态
+    const timeSinceLastChange = currentTime - headerScrollState.lastStateChange;
+    if (timeSinceLastChange < headerScrollState.minStateChangeInterval) {
         headerScrollState.lastScrollTop = scrollTop;
         handleScrollEnd();
         return;
     }
 
-    if (scrollDelta > scrollDeltaThreshold) {
-        currentDirection = 'down';
-    } else if (scrollDelta < -scrollDeltaThreshold) {
-        currentDirection = 'up';
+    // 阈值 + 回差：避免 scrollTop 在临界点上下抖动导致频繁切换
+    const collapseThreshold = headerScrollState.scrollThreshold + headerScrollState.hysteresis;
+    const expandThreshold = Math.max(
+        headerScrollState.topThreshold + 1,
+        headerScrollState.scrollThreshold - headerScrollState.hysteresis
+    );
+
+    // 大于 collapseThreshold：一定收缩
+    if (scrollTop > collapseThreshold && headerScrollState.isHeaderVisible) {
+        compactHeader();
+        headerScrollState.lastStateChange = currentTime;
+    }
+    // 小于等于 expandThreshold：一定展开
+    else if (scrollTop <= expandThreshold && !headerScrollState.isHeaderVisible) {
+        expandHeader();
+        headerScrollState.lastStateChange = currentTime;
     }
 
-    // 如果方向改变，重置锁定
-    if (headerScrollState.scrollDirection && headerScrollState.scrollDirection !== currentDirection) {
-        headerScrollState.directionLock = false;
-    }
-
-    // 设置当前方向
-    if (currentDirection) {
-        headerScrollState.scrollDirection = currentDirection;
-    }
-
-    // 根据滚动方向和位置决定状态
-    // 向下滚动且超过阈值：收缩 header 为 menu bar
-    if (currentDirection === 'down' && scrollTop > headerScrollState.scrollThreshold) {
-        if (headerScrollState.isHeaderVisible && !headerScrollState.directionLock) {
-            compactHeader();
-            headerScrollState.directionLock = true;
-            headerScrollState.lastStateChange = currentTime;
-        }
-    }
-    // 向上滚动：只有当滚动到接近顶部时才展开 header
-    else if (currentDirection === 'up') {
-        // 只有当滚动位置非常接近顶部时才展开
-        if (scrollTop < headerScrollState.topThreshold) {
-            if (!headerScrollState.isHeaderVisible && !headerScrollState.directionLock) {
-                expandHeader();
-                headerScrollState.directionLock = true;
-                headerScrollState.lastStateChange = currentTime;
-            }
-        }
-        // 如果向上滚动但还没到顶部，保持 menu bar 状态（不做任何操作）
-    }
-
-    // 更新最后滚动位置
     headerScrollState.lastScrollTop = scrollTop;
-
-    // 检测滚动结束
     handleScrollEnd();
 }
 
@@ -2055,7 +2023,6 @@ function expandHeader() {
     menuBar.classList.remove('menu-bar-visible');
     headerScrollState.isHeaderVisible = true;
     headerScrollState.lastStateChange = Date.now();
-    headerScrollState.directionLock = false; // 展开时重置锁定
 
     // 更新 menu bar 中的按钮状态
     updateMenuBarButtons();

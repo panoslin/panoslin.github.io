@@ -389,28 +389,37 @@
 
 let wteHeaderScrollState = {
     lastScrollTop: 0,
-    scrollThreshold: 100,
+    scrollThreshold: 0,
+    hysteresis: 0,
     topThreshold: 5,
     isHeaderVisible: true,
     ticking: false,
-    scrollDirection: null,
     lastStateChange: 0,
     minStateChangeInterval: 150
 };
+
+function updateWteHeaderScrollThresholds() {
+    const isMobile = window.innerWidth <= 768;
+    wteHeaderScrollState.scrollThreshold = isMobile ? 80 : 120;
+    wteHeaderScrollState.hysteresis = isMobile ? 20 : 28;
+}
 
 function initHeaderScroll() {
     const header = document.getElementById('main-header');
     const menuBar = document.getElementById('menu-bar');
     if (!header || !menuBar) return;
 
+    updateWteHeaderScrollThresholds();
+
     header.classList.remove('header-compact');
     menuBar.classList.remove('menu-bar-visible');
     wteHeaderScrollState.isHeaderVisible = true;
     wteHeaderScrollState.lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    wteHeaderScrollState.scrollDirection = null;
     wteHeaderScrollState.lastStateChange = 0;
 
     window.addEventListener('scroll', handleWteHeaderScroll, { passive: true });
+    window.addEventListener('resize', updateWteHeaderScrollThresholds);
+    window.addEventListener('orientationchange', updateWteHeaderScrollThresholds);
 }
 
 function handleWteHeaderScroll() {
@@ -439,7 +448,6 @@ function processWteHeaderScroll() {
     if (!header || !menuBar) return;
 
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollDelta = scrollTop - wteHeaderScrollState.lastScrollTop;
     const currentTime = Date.now();
 
     if (scrollTop < wteHeaderScrollState.topThreshold) {
@@ -451,29 +459,25 @@ function processWteHeaderScroll() {
         return;
     }
 
-    const scrollDeltaThreshold = 10;
-    if (Math.abs(scrollDelta) < scrollDeltaThreshold) {
+    const timeSinceLastChange = currentTime - wteHeaderScrollState.lastStateChange;
+    if (timeSinceLastChange < wteHeaderScrollState.minStateChangeInterval) {
         wteHeaderScrollState.lastScrollTop = scrollTop;
         handleWteScrollEnd();
         return;
     }
 
-    const direction = scrollDelta > 0 ? 'down' : 'up';
+    const collapseThreshold = wteHeaderScrollState.scrollThreshold + wteHeaderScrollState.hysteresis;
+    const expandThreshold = Math.max(
+        wteHeaderScrollState.topThreshold + 1,
+        wteHeaderScrollState.scrollThreshold - wteHeaderScrollState.hysteresis
+    );
 
-    if (direction === 'down' && scrollTop > wteHeaderScrollState.scrollThreshold) {
-        if (wteHeaderScrollState.isHeaderVisible &&
-            currentTime - wteHeaderScrollState.lastStateChange > wteHeaderScrollState.minStateChangeInterval) {
-            compactWteHeader();
-            wteHeaderScrollState.lastStateChange = currentTime;
-        }
-    } else if (direction === 'up') {
-        // 仅当非常接近顶部时才展开（与全站行为一致）
-        if (scrollTop < wteHeaderScrollState.topThreshold &&
-            !wteHeaderScrollState.isHeaderVisible &&
-            currentTime - wteHeaderScrollState.lastStateChange > wteHeaderScrollState.minStateChangeInterval) {
-            expandWteHeader();
-            wteHeaderScrollState.lastStateChange = currentTime;
-        }
+    if (scrollTop > collapseThreshold && wteHeaderScrollState.isHeaderVisible) {
+        compactWteHeader();
+        wteHeaderScrollState.lastStateChange = currentTime;
+    } else if (scrollTop <= expandThreshold && !wteHeaderScrollState.isHeaderVisible) {
+        expandWteHeader();
+        wteHeaderScrollState.lastStateChange = currentTime;
     }
 
     wteHeaderScrollState.lastScrollTop = scrollTop;

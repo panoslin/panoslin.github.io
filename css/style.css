@@ -3467,7 +3467,6 @@ html[data-theme="dark"] .source-recipe-tag:hover {
 
 /* Header 收缩状态 */
 .header.header-compact {
-    padding: var(--spacing-2) 0;
     transform: translateY(-100%);
     opacity: 0;
     pointer-events: none;
@@ -3481,9 +3480,6 @@ html[data-theme="dark"] .source-recipe-tag:hover {
 .header.header-compact .header-logo-title,
 .header.header-compact .header-subtitle {
     opacity: 0;
-    height: 0;
-    margin: 0;
-    overflow: hidden;
 }
 
 /* Menu Bar 样式 */
