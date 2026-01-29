@@ -219,7 +219,7 @@ function initFloatingShoppingButton() {
     };
     updateMenuPosition();
 
-    // 拖拽处理（pointer events）
+    // 拖拽处理（pointer events + touch events）
     let dragging = false;
     let pointerId = null;
     let startX = 0;
@@ -228,6 +228,9 @@ function initFloatingShoppingButton() {
     let originY = pos.y;
     let rafId = null;
     let moved = false;
+    let touchStartTime = 0;
+    let touchStartX = 0;
+    let touchStartY = 0;
 
     const onPointerMove = (e) => {
         if (!dragging || e.pointerId !== pointerId) return;
@@ -254,6 +257,7 @@ function initFloatingShoppingButton() {
         saveFloatingBtnPosition(btn);
     };
 
+    // Pointer Events（桌面端和现代移动端）
     btn.addEventListener('pointerdown', (e) => {
         if (e.button !== 0) return;
         dragging = true;
@@ -268,10 +272,74 @@ function initFloatingShoppingButton() {
         btn.classList.add('dragging');
     });
 
-    btn.addEventListener('pointermove', onPointerMove);
+    btn.addEventListener('pointermove', onPointerMove, { passive: false });
     btn.addEventListener('pointerup', onPointerUp);
     btn.addEventListener('pointercancel', onPointerUp);
     btn.addEventListener('lostpointercapture', onPointerUp);
+
+    // Touch Events（移动端专用，确保阻止页面滚动）
+    btn.addEventListener('touchstart', (e) => {
+        if (e.touches.length !== 1) return;
+        const touch = e.touches[0];
+        dragging = true;
+        moved = false;
+        touchStartTime = Date.now();
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+        startX = touch.clientX;
+        startY = touch.clientY;
+        const current = getFloatingBtnPosition(btn);
+        originX = current.x;
+        originY = current.y;
+        btn.classList.add('dragging');
+        // 不阻止默认行为，等待 touchmove 判断是否为拖拽
+    }, { passive: true });
+
+    btn.addEventListener('touchmove', (e) => {
+        if (!dragging || e.touches.length !== 1) return;
+        const touch = e.touches[0];
+        const dx = touch.clientX - touchStartX;
+        const dy = touch.clientY - touchStartY;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        
+        // 如果移动距离超过阈值（5px），认为是拖拽操作，阻止页面滚动
+        if (distance > 5) {
+            e.preventDefault(); // 阻止页面滚动
+            moved = moved || distance > 3;
+            
+            const nextX = originX + (touch.clientX - startX);
+            const nextY = originY + (touch.clientY - startY);
+            
+            if (rafId) cancelAnimationFrame(rafId);
+            rafId = requestAnimationFrame(() => {
+                setFloatingBtnPosition(btn, nextX, nextY);
+                updateMenuPosition();
+            });
+        }
+    }, { passive: false }); // 必须设为 false 才能调用 preventDefault
+
+    btn.addEventListener('touchend', (e) => {
+        if (!dragging) return;
+        dragging = false;
+        btn.classList.remove('dragging');
+        
+        // 如果确实发生了拖拽，保存位置
+        if (moved) {
+            saveFloatingBtnPosition(btn);
+        }
+        
+        // 重置状态
+        moved = false;
+        touchStartTime = 0;
+    }, { passive: true });
+
+    btn.addEventListener('touchcancel', (e) => {
+        if (!dragging) return;
+        dragging = false;
+        btn.classList.remove('dragging');
+        moved = false;
+        touchStartTime = 0;
+    }, { passive: true });
 
     function closeFloatingMenu() {
         menu.classList.remove('floating-menu-open');

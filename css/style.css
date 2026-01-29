@@ -2526,6 +2526,12 @@ html[data-theme="dark"] .instructions-list li:hover {
     left: calc(100% - 80px);
     top: calc(100% - 100px);
     user-select: none;
+    touch-action: none; /* 阻止默认触摸行为，防止页面滚动 */
+    -webkit-touch-callout: none; /* iOS Safari 禁用长按菜单 */
+}
+
+.floating-shopping-btn.dragging {
+    touch-action: none; /* 拖拽时确保阻止所有触摸默认行为 */
 }
 
 .floating-shopping-btn:hover {
