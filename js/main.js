@@ -1355,9 +1355,6 @@ function loadImage(img) {
  * 渲染主页侧边栏内容
  */
 function renderSidebarContent() {
-    // 渲染热门推荐
-    renderPopularRecipes();
-    
     // 渲染统计信息
     renderStatsInfo();
     
