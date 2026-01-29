@@ -2301,5 +2301,82 @@
       "salt": 7.31
     },
     "source": "https://v.douyin.com/kKP01yroHlc/"
+  },
+  {
+    "id": 34,
+    "title": "炝拌白菜",
+    "category": [
+      "中餐",
+      "凉菜",
+      "素菜"
+    ],
+    "imageUrl": "images/recipe_34.png",
+    "description": "娃娃菜切细后加盐腌出水分，再配蒜末、干辣椒和热油，高温激发辣椒香味，最后加入白糖、米醋和香菜拌匀的一道清爽凉拌菜。",
+    "ingredients": [
+      {
+        "name": "娃娃菜",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "干辣椒",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "植物油",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "味精",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "米醋",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "香菜",
+        "quantity": 10,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "娃娃菜尽可能地切细一些，放入大碗中。",
+      "加入适量盐，抓匀后静置约 10 分钟，让娃娃菜腌出水分。",
+      "用手把多余水分挤出或沥干，保留清脆口感。",
+      "加入蒜末，与娃娃菜拌匀备用。",
+      "干辣椒剪成小段，放入勺中，另起火烧一勺热油。",
+      "将烧好的热油浇在装有干辣椒的勺中，激发出干辣椒的香味。",
+      "把带着辣椒香味的热油和干辣椒一起倒入娃娃菜中。",
+      "加入味精、白糖和米醋，根据个人口味调整酸甜度。",
+      "加入香菜段，所有食材充分拌匀即可食用。"
+    ],
+    "nutrition": {
+      "calories": 106.7,
+      "protein": 3.8,
+      "carbs": 23.8,
+      "fat": 1.4,
+      "salt": 5.41
+    },
+    "source": "https://v.douyin.com/qp7mL4NMI1o/"
   }
 ]
