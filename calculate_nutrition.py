@@ -22,6 +22,9 @@ NUTRITION_DB = {
     '鸡肉': {'calories': 167, 'protein': 19.3, 'carbs': 0, 'fat': 9.4, 'salt': 0, 'unit': 'g'},
     '猪肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
     '虾': {'calories': 93, 'protein': 18.6, 'carbs': 2.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
+    # 贝类/螺类（常见值，按每100g可食部分估算）
+    # 参考：USDA/中国食物成分表中同类贝类（螺/海螺/田螺）营养范围
+    '花螺': {'calories': 110, 'protein': 20.0, 'carbs': 3.0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
     
     # 蔬菜类（天然含钠量很少）
     '番茄': {'calories': 18, 'protein': 0.9, 'carbs': 3.5, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
@@ -43,6 +46,8 @@ NUTRITION_DB = {
     '蒜末': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '姜': {'calories': 80, 'protein': 1.8, 'carbs': 17.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
     '紫菜': {'calories': 207, 'protein': 28.2, 'carbs': 44.1, 'fat': 1.1, 'salt': 0, 'unit': 'g'},
+    '香菜': {'calories': 23, 'protein': 2.1, 'carbs': 3.7, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
+    '小米辣': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '羽衣甘蓝': {'calories': 49, 'protein': 4.3, 'carbs': 8.8, 'fat': 0.9, 'salt': 0, 'unit': 'g'},
     '小卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     
@@ -66,6 +71,11 @@ NUTRITION_DB = {
     # 酱油：每100g含钠约5757mg，约等于14.6g盐
     '酱油': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
     '生抽': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
+    # 品牌/同类调味汁：按生抽近似
+    '东古酱油': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
+    '辣鲜露': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
+    # 芥末（酱）：按常见芥末酱近似（钠含量差异较大，先按0处理；主要盐来自酱油/调味汁）
+    '芥末': {'calories': 66, 'protein': 4.4, 'carbs': 5.8, 'fat': 4.0, 'salt': 0, 'unit': 'g'},
     # 蚝油：每100g含钠约4000mg，约等于10.2g盐
     '蚝油': {'calories': 114, 'protein': 2.5, 'carbs': 23.0, 'fat': 0.3, 'salt': 4000, 'unit': 'g'},
     '耗油': {'calories': 114, 'protein': 2.5, 'carbs': 23.0, 'fat': 0.3, 'salt': 4000, 'unit': 'g'},

@@ -2225,5 +2225,81 @@
       "salt": 0.0
     },
     "source": "https://v.douyin.com/UJKDxAah3YA/"
+  },
+  {
+    "id": 33,
+    "title": "芥辣浸花螺",
+    "category": [
+      "中餐",
+      "凉菜",
+      "海鲜"
+    ],
+    "imageUrl": "images/recipe_33.png",
+    "description": "清爽开胃的芥辣浸花螺：花螺葱姜水焯水后，拌入调好的料汁冷藏入味。",
+    "ingredients": [
+      {
+        "name": "花螺",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "葱",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "香菜",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "东古酱油",
+        "quantity": 10,
+        "unit": "毫升"
+      },
+      {
+        "name": "辣鲜露",
+        "quantity": 10,
+        "unit": "毫升"
+      },
+      {
+        "name": "芥末",
+        "quantity": 10,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "花螺用葱姜水焯水至开口，捞出过冷水沥干。",
+      "将生抽、东古酱油、辣鲜露、芥末、小米辣、蒜末、香菜等混匀成料汁。",
+      "将花螺与料汁充分混合，密封冷藏 2 小时入味后即可食用。"
+    ],
+    "nutrition": {
+      "calories": 750.7,
+      "protein": 110.7,
+      "carbs": 56.2,
+      "fat": 9.5,
+      "salt": 7.31
+    },
+    "source": "https://v.douyin.com/kKP01yroHlc/"
   }
 ]
