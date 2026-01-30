@@ -177,6 +177,7 @@ NUTRITION_DB = {
     # 鸡精：每100g含钠约20000mg，约等于50.8g盐
     '鸡精': {'calories': 195, 'protein': 10.7, 'carbs': 43.5, 'fat': 0.3, 'salt': 20000, 'unit': 'g'},
     '鸡粉': {'calories': 195, 'protein': 10.7, 'carbs': 43.5, 'fat': 0.3, 'salt': 20000, 'unit': 'g'},
+    '松鲜鲜': {'calories': 195, 'protein': 10.7, 'carbs': 43.5, 'fat': 0.3, 'salt': 20000, 'unit': 'g'},
     '辣椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '干辣椒': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '辣椒干': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
