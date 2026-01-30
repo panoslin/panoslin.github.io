@@ -57,6 +57,9 @@ NUTRITION_DB = {
     '大葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '小葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '香葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
+    # 干葱 / 红葱头：按常见小洋葱近似
+    '干葱': {'calories': 40, 'protein': 1.4, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '红葱头': {'calories': 40, 'protein': 1.4, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '葱花': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '蒜': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
@@ -90,6 +93,9 @@ NUTRITION_DB = {
     '藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '莲藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '九孔莲藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    # 蟹类：按膏蟹近似
+    '膏蟹': {'calories': 87, 'protein': 18.0, 'carbs': 0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
+    '膏仔蟹': {'calories': 87, 'protein': 18.0, 'carbs': 0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
     
     # 调料类
     # 盐：100g盐 = 100g盐（直接计算）
