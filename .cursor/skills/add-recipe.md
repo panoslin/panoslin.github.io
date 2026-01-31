@@ -92,15 +92,63 @@ This skill handles the complete workflow for adding a new recipe to the recipe d
    - Steps with complex procedures that benefit from visual demonstration
    - Steps mentioning specific visual cues (e.g., "看到...", "呈现...", "出现...")
    
-   **Match images to steps**:
-   - Analyze all provided images (excluding the cover image)
-   - For each step that requires visual demonstration:
-     - Look for images that show the described action or result
-     - Match images to steps based on:
-       - Visual content (what the image shows)
-       - Sequential order (if images are in order)
-       - Text cues in the image (if any)
-   - If multiple images are provided and their order is clear, match them sequentially to steps
+   **Match images to steps** (content-based matching):
+   
+   **Critical requirement**: Ensure text and image content correspond accurately. Never match an image to a step if the content doesn't match.
+   
+   **Content verification process**:
+   1. **Extract key elements from step text**:
+      - Main action/verb (e.g., "切", "炒", "摆", "蒸")
+      - Key ingredients/objects (e.g., "鲈鱼", "鸡腿肉", "杏鲍菇")
+      - Visual characteristics (e.g., "花刀", "金黄", "薄片", "焦糖色")
+      - Cooking state/stage (e.g., "腌制", "焯水", "出锅")
+   
+   2. **Analyze image content**:
+      - Identify what the image actually shows:
+        - What ingredients/foods are visible?
+        - What cooking action is being performed?
+        - What is the cooking state (raw, cooking, finished)?
+        - Any specific visual features (cuts, arrangements, colors)?
+      - Extract any text visible in the image (subtitles, labels, step numbers)
+   
+   3. **Match verification criteria** (ALL must be satisfied):
+      - **Ingredient match**: The main ingredient(s) in the step text must be visible in the image
+      - **Action match**: The action described in the step should be shown or implied in the image
+      - **State match**: The cooking state (raw/prep, cooking, finished) should align
+      - **Visual feature match**: If step mentions specific visual features (e.g., "花刀", "薄片"), they should be visible
+      - **Text cue match**: If image contains step numbers or text, verify they match the step
+   
+   4. **Matching strategies** (in order of preference):
+      - **Explicit text match**: If image contains step numbers (e.g., "步骤1", "Step 1") or text matching step content, use this as primary indicator
+      - **Content-based match**: Compare extracted step elements with image content
+      - **Sequential match**: If images are clearly in sequential order and no explicit matches found, use order as fallback (but verify content still aligns)
+      - **Visual similarity**: Compare visual features mentioned in text with what's shown in image
+   
+   5. **Rejection criteria** (do NOT match if):
+      - Image shows different ingredients than mentioned in step
+      - Image shows a different cooking stage (e.g., step says "腌制" but image shows "出锅")
+      - Image shows a different action (e.g., step says "切" but image shows "炒")
+      - Image appears to be a duplicate or very similar to cover image
+      - Image quality is too poor to verify content
+      - No clear relationship between step text and image content
+   
+   6. **Verification workflow**:
+      ```
+      For each step requiring an image:
+        1. Extract key elements from step text
+        2. For each candidate image:
+           a. Analyze image content
+           b. Check all match criteria
+           c. Score the match (0-100)
+        3. Select best match (score > 70) or skip if no good match
+        4. Double-check: manually verify the match makes sense
+      ```
+   
+   7. **When in doubt**:
+      - If multiple images could match, choose the one with highest content similarity
+      - If no image clearly matches a step, **do not force a match** - leave the step without an image
+      - If unsure about a match, prefer skipping rather than incorrect matching
+      - Ask user for clarification if multiple ambiguous matches exist
    
    **Process step images automatically**:
    - For each matched step image:
@@ -136,10 +184,23 @@ This skill handles the complete workflow for adding a new recipe to the recipe d
      ```
    
    **Best practices for step images**:
+   - **Content accuracy is paramount**: Never match an image to a step unless you're confident the content corresponds
    - Only add images to steps that truly benefit from visual demonstration
    - Don't add images to simple text-only steps (e.g., "加盐调味")
-   - If unsure whether a step needs an image, err on the side of including it if a relevant image exists
+   - **Quality over quantity**: Better to have fewer, accurate step images than many mismatched ones
+   - If unsure whether a step needs an image, err on the side of including it **only if** a clearly matching image exists
    - Maintain consistency: if one step has an image, consider if adjacent steps also need images
+   
+   **Examples of correct matches**:
+   - Step: "首先把鲈鱼处理干净，开背，改成交叉一字花刀" → Image showing a fish with cross cuts
+   - Step: "杏鲍菇用刮皮刀刨成薄片" → Image showing sliced king oyster mushrooms
+   - Step: "炒至焦糖色" → Image showing caramel-colored food in a pan
+   
+   **Examples of incorrect matches (DO NOT DO)**:
+   - Step: "腌制鸡腿肉" → Image showing finished dish (wrong stage)
+   - Step: "切杏鲍菇" → Image showing chicken (wrong ingredient)
+   - Step: "蒸制" → Image showing frying (wrong cooking method)
+   - Step: "加盐调味" → Image showing final plated dish (too generic, doesn't match specific action)
 
 ### Step 4: Calculate and Update Nutrition
 
@@ -226,9 +287,14 @@ This skill handles the complete workflow for adding a new recipe to the recipe d
 5. Select first screenshot as cover, save as `images/recipe_35.png`
 6. **Analyze remaining 9 images for step matching**:
    - Identify steps requiring visual aid (e.g., step 1: "杏鲍菇用刮皮刀刨成薄片")
-   - Match images to steps based on content and order
-   - Automatically move/rename: `images/recipe_35_step_1.png`, `recipe_35_step_3.png`, etc.
+   - **Content verification for each match**:
+     - Step 1 mentions "杏鲍菇薄片" → Verify image shows sliced mushrooms
+     - Step 3 mentions "铺鸡肉和姜片" → Verify image shows chicken and ginger arranged
+     - Step 6 mentions "撒蒜酥" → Verify image shows garlic crisp being sprinkled
+   - Only match images where content clearly corresponds
+   - Automatically move/rename matched images: `images/recipe_35_step_1.png`, `recipe_35_step_3.png`, etc.
    - Update `instructions` array: convert matching steps to objects with `imageUrl`
+   - Skip steps without clear image matches (don't force matches)
 7. Calculate nutrition → warnings about "去骨鸡腿肉", "杏鲍菇", "黄酒", "黑胡椒"
 8. Add these ingredients to `calculate_nutrition.py` with accurate nutrition data
 9. Recalculate nutrition → update recipe
