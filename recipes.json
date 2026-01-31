@@ -3335,5 +3335,137 @@
       "salt": 3.29
     },
     "source": "https://v.douyin.com/"
+  },
+  {
+    "id": 45,
+    "title": "口蘑虾滑",
+    "category": [
+      "中餐",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_45.png",
+    "description": "口蘑虾滑，新吃法，可好吃了试试吧！将虾滑填入口蘑中，煎制后炖煮，口感丰富，营养美味。",
+    "ingredients": [
+      {
+        "name": "口蘑",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "虾滑",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "葱花",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "水",
+        "quantity": 50,
+        "unit": "毫升"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "味精",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "土豆淀粉",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 20,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "把口蘑的根部去掉，留下蘑菇帽。",
+        "imageUrl": "images/recipe_45_step_1.png"
+      },
+      {
+        "text": "把虾滑挤入去根的口蘑中，填满。",
+        "imageUrl": "images/recipe_45_step_2.png"
+      },
+      {
+        "text": "检查填充好的口蘑，确保虾滑填满即可。",
+        "imageUrl": "images/recipe_45_step_3.png"
+      },
+      {
+        "text": "把填充好的口蘑放入锅中。",
+        "imageUrl": "images/recipe_45_step_4.png"
+      },
+      {
+        "text": "下锅煎一下，让底部定型。",
+        "imageUrl": "images/recipe_45_step_5.png"
+      },
+      {
+        "text": "把口蘑翻过来，煎另一面。",
+        "imageUrl": "images/recipe_45_step_6.png"
+      },
+      {
+        "text": "煎至两面金黄。",
+        "imageUrl": "images/recipe_45_step_7.png"
+      },
+      {
+        "text": "加入葱花。",
+        "imageUrl": "images/recipe_45_step_8.png"
+      },
+      {
+        "text": "加入生抽。",
+        "imageUrl": "images/recipe_45_step_9.png"
+      },
+      {
+        "text": "加入一勺水。",
+        "imageUrl": "images/recipe_45_step_10.png"
+      },
+      {
+        "text": "加入盐调味。",
+        "imageUrl": "images/recipe_45_step_11.png"
+      },
+      {
+        "text": "加入味精提鲜。",
+        "imageUrl": "images/recipe_45_step_12.png"
+      },
+      {
+        "text": "加入白糖。",
+        "imageUrl": "images/recipe_45_step_13.png"
+      },
+      {
+        "text": "小火炖两三分钟，让口蘑和虾滑充分入味。",
+        "imageUrl": "images/recipe_45_step_14.png"
+      },
+      {
+        "text": "加入少量土豆淀粉勾芡，收汁即可出锅。",
+        "imageUrl": "images/recipe_45_step_15.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 467.1,
+      "protein": 46.8,
+      "carbs": 26.2,
+      "fat": 22.0,
+      "salt": 4.4
+    },
+    "source": "https://v.douyin.com/"
   }
 ]
