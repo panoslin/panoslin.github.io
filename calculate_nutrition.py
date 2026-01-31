@@ -38,6 +38,7 @@ NUTRITION_DB = {
     # 贝类/螺类（常见值，按每100g可食部分估算）
     # 参考：USDA/中国食物成分表中同类贝类（螺/海螺/田螺）营养范围
     '花螺': {'calories': 110, 'protein': 20.0, 'carbs': 3.0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
+    '旺螺': {'calories': 110, 'protein': 20.0, 'carbs': 3.0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
     # 鲈鱼：按常见海鱼近似
     '鲈鱼': {'calories': 105, 'protein': 18.6, 'carbs': 0, 'fat': 3.4, 'salt': 0, 'unit': 'g'},
     

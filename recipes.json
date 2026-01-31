@@ -3765,5 +3765,97 @@
       "salt": 0.0
     },
     "source": "https://v.douyin.com/x768jBdNzfU/"
+  },
+  {
+    "id": 51,
+    "title": "白灼旺螺",
+    "category": [
+      "中餐",
+      "海鲜"
+    ],
+    "imageUrl": "images/recipe_51.png",
+    "description": "白灼旺螺制作方法，任何人都一看就会的一道菜。这样的白灼旺螺简单美味哦！白灼虾或者其他海鲜类这个酱汁通用的。",
+    "ingredients": [
+      {
+        "name": "旺螺",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "大葱",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "料酒",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "蒜",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "小葱",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "蒸鱼豉油",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "陈醋",
+        "quantity": 5,
+        "unit": "毫升"
+      },
+      {
+        "name": "食用油",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "水",
+        "quantity": 1000,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "锅中烧水去腥三件套，加入大葱、姜片和料酒",
+      "下五克盐",
+      "加入旺螺",
+      "一般大火煮两分钟，煮到底下这个壳掉下来就熟了，不然会老掉",
+      "将煮好的旺螺捞出",
+      "准备好蒜末、小葱和小米辣",
+      "准备用热油激发其香味，将热油淋在蒜末、小葱和小米辣上",
+      "加入一大勺蒸鱼豉油比较鲜甜",
+      "加入少许陈醋促进你的味蕾",
+      "搅拌均匀，这个酱汁白灼虾或者其他海鲜类都通用"
+    ],
+    "nutrition": {
+      "calories": 790.2,
+      "protein": 102.4,
+      "carbs": 25.6,
+      "fat": 27.8,
+      "salt": 7.1
+    },
+    "source": "https://v.douyin.com/BrtAAKhH2eY/"
   }
 ]
