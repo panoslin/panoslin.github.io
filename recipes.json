@@ -2218,10 +2218,10 @@
       }
     ],
     "nutrition": {
-      "calories": 590.7,
-      "protein": 95.8,
-      "carbs": 43.8,
-      "fat": 4.4,
+      "calories": 790.7,
+      "protein": 105.3,
+      "carbs": 87.8,
+      "fat": 6.4,
       "salt": 0.0
     },
     "source": "https://v.douyin.com/UJKDxAah3YA/"
@@ -3467,5 +3467,76 @@
       "salt": 4.4
     },
     "source": "https://v.douyin.com/"
+  },
+  {
+    "id": 46,
+    "title": "浸肉汁",
+    "category": [
+      "中餐"
+    ],
+    "imageUrl": "images/recipe_46.png",
+    "description": "简简单单一个浸肉汁，为什么可以上国宴。今天这个不煲不滚不老火的，水温控制在90度，微微烧开，浸煮20分钟，再烧开15分钟即可。",
+    "ingredients": [
+      {
+        "name": "肉末",
+        "quantity": 350,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 6,
+        "unit": "克"
+      },
+      {
+        "name": "猪肝",
+        "quantity": 75,
+        "unit": "克"
+      },
+      {
+        "name": "生粉",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "红枣丝",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "胡椒",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 1400,
+        "unit": "毫升"
+      },
+      {
+        "name": "姜片",
+        "quantity": 10,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "将肉末放入碗中，加入盐（1.2钱，约6克）拌匀",
+      "加入猪肝（1.5两，约75克）到肉末中",
+      "加入生粉（3钱，约15克）拌匀",
+      "加入红枣丝拌匀",
+      "加入几颗胡椒拌匀",
+      "烧水（2斤8两，约1400毫升）",
+      "可以放几片姜片下去",
+      "水一定不能烧开的，水温控制在90度，微微烧开",
+      "将肉末混合物放入90度的水中，浸煮20分钟",
+      "再烧开15分钟即可"
+    ],
+    "nutrition": {
+      "calories": 1065.5,
+      "protein": 86.4,
+      "carbs": 34.1,
+      "fat": 61.0,
+      "salt": 6.0
+    },
+    "source": "https://v.douyin.com/VCCwsw0y6O0/"
   }
 ]

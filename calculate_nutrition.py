@@ -29,6 +29,7 @@ NUTRITION_DB = {
     # 去骨鸡腿肉：按去皮鸡腿生肉近似，略高脂肪
     '去骨鸡腿肉': {'calories': 180, 'protein': 18.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '猪肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
+    '猪肝': {'calories': 129, 'protein': 19.3, 'carbs': 5.0, 'fat': 3.5, 'salt': 0, 'unit': 'g'},
     '虾': {'calories': 93, 'protein': 18.6, 'carbs': 2.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
     # 虾米：干虾米，按常见值
     '虾米': {'calories': 195, 'protein': 43.7, 'carbs': 0, 'fat': 2.6, 'salt': 0, 'unit': 'g'},
@@ -68,6 +69,7 @@ NUTRITION_DB = {
     '蒜末': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '蒜粒': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '姜': {'calories': 80, 'protein': 1.8, 'carbs': 17.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
+    '姜片': {'calories': 80, 'protein': 1.8, 'carbs': 17.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
     '紫菜': {'calories': 207, 'protein': 28.2, 'carbs': 44.1, 'fat': 1.1, 'salt': 0, 'unit': 'g'},
     # 海带/裙带菜：按泡发后的湿海带近似（干海带泡发后重量约增加10倍）
     '海带': {'calories': 13, 'protein': 1.2, 'carbs': 2.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
@@ -124,11 +126,13 @@ NUTRITION_DB = {
     # 味精：每100g含钠约8160mg，约等于20.7g盐
     '味精': {'calories': 268, 'protein': 40.1, 'carbs': 26.5, 'fat': 0.9, 'salt': 8160, 'unit': 'g'},
     '胡椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
+    '胡椒': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     # 黑胡椒：按黑胡椒粉近似
     '黑胡椒': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '十三香': {'calories': 296, 'protein': 6.0, 'carbs': 68.0, 'fat': 8.0, 'salt': 0, 'unit': 'g'},
     '小苏打': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '淀粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '生粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '玉米淀粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     
     # 油脂类
@@ -257,6 +261,7 @@ NUTRITION_DB = {
     
     # 其他
     '红枣': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    '红枣丝': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     # 蜜枣：按蜜饯红枣近似
     '蜜枣': {'calories': 320, 'protein': 1.5, 'carbs': 78.0, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     # 陈皮：干橘皮，按常见值
