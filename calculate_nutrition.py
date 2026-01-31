@@ -159,7 +159,9 @@ NUTRITION_DB = {
     # 茶类
     '红茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '绿茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '乌龙茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '茉莉花茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
+    '抹茶': {'calories': 3, 'protein': 0.2, 'carbs': 0.5, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '茶汤': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     
     # 豆制品

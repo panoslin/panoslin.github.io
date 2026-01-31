@@ -3591,5 +3591,51 @@
       "salt": 0.0
     },
     "source": "https://v.douyin.com/UX-YAbZMU8c/"
+  },
+  {
+    "id": 48,
+    "title": "抹茶乌龙冰奶",
+    "category": [
+      "饮品",
+      "夏日特饮"
+    ],
+    "imageUrl": "images/recipe_48.png",
+    "description": "抹茶脑袋一定要试试抹茶乌龙冰奶!! 直接倒入牛奶里就是一杯超好喝的抹茶乌龙冰奶。",
+    "ingredients": [
+      {
+        "name": "冰块",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "乌龙茶",
+        "quantity": 150,
+        "unit": "毫升"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "抹茶",
+        "quantity": 5,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "冰块先满上，将杯子装满冰块",
+      "乌龙茶三分满，倒入乌龙茶至杯子3/4满",
+      "奶儿满上，加入牛奶至满杯",
+      "直接倒入抹茶浓缩液到牛奶里，就是一杯超好喝的抹茶乌龙冰奶"
+    ],
+    "nutrition": {
+      "calories": 57.1,
+      "protein": 3.2,
+      "carbs": 4.0,
+      "fat": 3.2,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/bUyPKfGaI9k/"
   }
 ]
