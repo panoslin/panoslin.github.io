@@ -154,10 +154,12 @@ NUTRITION_DB = {
     '可可粉': {'calories': 228, 'protein': 19.6, 'carbs': 57.9, 'fat': 13.7, 'salt': 0, 'unit': 'g'},
     '水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '清水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
+    '气泡水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     
     # 茶类
     '红茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '绿茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '茉莉花茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '茶汤': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     
     # 豆制品
@@ -225,6 +227,7 @@ NUTRITION_DB = {
     '柠檬': {'calories': 29, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '柠檬汁': {'calories': 22, 'protein': 0.4, 'carbs': 6.9, 'fat': 0.2, 'salt': 0, 'unit': 'ml'},
     '话梅': {'calories': 168, 'protein': 0.8, 'carbs': 42.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '话梅糖浆': {'calories': 304, 'protein': 0, 'carbs': 78.0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     
     # 其他食材
     '吐司': {'calories': 265, 'protein': 8.3, 'carbs': 49.7, 'fat': 4.2, 'salt': 0, 'unit': 'g'},
@@ -258,6 +261,7 @@ NUTRITION_DB = {
     '厚乳': {'calories': 65, 'protein': 3.0, 'carbs': 4.5, 'fat': 3.5, 'salt': 0, 'unit': 'ml'},
     '纯牛奶': {'calories': 54, 'protein': 3.0, 'carbs': 3.4, 'fat': 3.2, 'salt': 0, 'unit': 'ml'},
     '冰块': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '冰': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'g'},
     
     # 其他
     '红枣': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},

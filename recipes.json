@@ -3538,5 +3538,58 @@
       "salt": 6.0
     },
     "source": "https://v.douyin.com/VCCwsw0y6O0/"
+  },
+  {
+    "id": 47,
+    "title": "话梅气泡冰茉莉",
+    "category": [
+      "饮品",
+      "夏日特饮"
+    ],
+    "imageUrl": "images/recipe_47.png",
+    "description": "又又又解锁了一杯夏日超级解腻冰饮，话梅气泡冰茉莉真的太太太解腻了！可以吸到话梅果肉，口感更佳丰富。",
+    "ingredients": [
+      {
+        "name": "冰块",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "话梅糖浆",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "话梅",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": 200,
+        "unit": "毫升"
+      },
+      {
+        "name": "气泡水",
+        "quantity": 200,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "老规矩，冰块满上，将杯子装满冰块",
+      "拿出浓稠版话梅糖浆，按照自己喜欢的甜度加糖浆",
+      "加入话梅果肉，让果肉裹满糖浆",
+      "再加入茉莉花茶",
+      "最后加入一瓶气泡水",
+      "可以吸到话梅果肉，口感更佳丰富"
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 0.3,
+      "carbs": 28.4,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/UX-YAbZMU8c/"
   }
 ]
