@@ -146,6 +146,8 @@ NUTRITION_DB = {
     
     # 奶制品
     '牛奶': {'calories': 54, 'protein': 3.0, 'carbs': 3.4, 'fat': 3.2, 'salt': 0, 'unit': 'ml'},
+    '牛乳': {'calories': 54, 'protein': 3.0, 'carbs': 3.4, 'fat': 3.2, 'salt': 0, 'unit': 'ml'},
+    '炼乳': {'calories': 321, 'protein': 7.9, 'carbs': 55.3, 'fat': 8.7, 'salt': 0, 'unit': 'g'},
     '奶油': {'calories': 345, 'protein': 0.7, 'carbs': 2.8, 'fat': 37.0, 'salt': 0, 'unit': 'g'},
     '淡奶油': {'calories': 345, 'protein': 0.7, 'carbs': 2.8, 'fat': 37.0, 'salt': 0, 'unit': 'g'},
     
@@ -228,6 +230,7 @@ NUTRITION_DB = {
     # 水果类
     '菠萝': {'calories': 50, 'protein': 0.5, 'carbs': 12.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '新鲜菠萝': {'calories': 50, 'protein': 0.5, 'carbs': 12.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '西瓜': {'calories': 30, 'protein': 0.6, 'carbs': 7.6, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '柠檬': {'calories': 29, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '柠檬汁': {'calories': 22, 'protein': 0.4, 'carbs': 6.9, 'fat': 0.2, 'salt': 0, 'unit': 'ml'},
     '话梅': {'calories': 168, 'protein': 0.8, 'carbs': 42.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},

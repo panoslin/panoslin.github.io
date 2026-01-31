@@ -3711,5 +3711,59 @@
       "salt": 5.0
     },
     "source": "https://v.douyin.com/Tv7qcbNzYWQ/"
+  },
+  {
+    "id": 50,
+    "title": "西瓜茉莉冰奶",
+    "category": [
+      "饮品",
+      "夏日特饮"
+    ],
+    "imageUrl": "images/recipe_50.png",
+    "description": "这个夏天被这杯西瓜茉莉冰奶狠狠拿捏！吃不完的大西瓜放到杯里，加入炼乳捣碎，再加入茉莉花茶和牛奶，最后雪克均匀即可。",
+    "ingredients": [
+      {
+        "name": "西瓜",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "炼乳",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "冰块",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": 200,
+        "unit": "毫升"
+      },
+      {
+        "name": "牛乳",
+        "quantity": 100,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "吃不完的大西瓜放到杯里，将西瓜块放入杯中",
+      "挤入少许炼乳",
+      "然后给它捣碎，有点颗粒感的状态就ok",
+      "加入冰块",
+      "茉莉花茶200ml，倒入茉莉花茶",
+      "牛乳补满，加入牛奶至满杯",
+      "最后一步雪克均匀，摇匀即可"
+    ],
+    "nutrition": {
+      "calories": 166.2,
+      "protein": 5.6,
+      "carbs": 27.7,
+      "fat": 4.7,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/x768jBdNzfU/"
   }
 ]
