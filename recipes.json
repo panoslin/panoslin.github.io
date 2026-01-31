@@ -3250,5 +3250,90 @@
       "salt": 4.0
     },
     "source": "https://v.douyin.com/vTHOcYlBeFE/"
+  },
+  {
+    "id": 44,
+    "title": "蜜汁肉串",
+    "category": [
+      "中餐",
+      "空气炸锅美食"
+    ],
+    "imageUrl": "images/recipe_44.png",
+    "description": "蜜汁肉串，使用空气炸锅制作，外焦里嫩，蜜汁香甜。建议多做点，真的太好吃啦！",
+    "ingredients": [
+      {
+        "name": "肉沫",
+        "quantity": 350,
+        "unit": "克"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "糖",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "老抽",
+        "quantity": 7.5,
+        "unit": "毫升"
+      },
+      {
+        "name": "清水",
+        "quantity": 10,
+        "unit": "毫升"
+      },
+      {
+        "name": "食用油",
+        "quantity": 10,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "在保鲜袋中刷油，让袋子内壁均匀涂上油。",
+        "imageUrl": "images/recipe_44_step_1.png"
+      },
+      {
+        "text": "准备肉沫，将肉沫穿到竹签上，形成肉串。然后将肉串放入已刷油的保鲜袋中，往里一推，让肉串均匀裹上油。",
+        "imageUrl": "images/recipe_44_step_2.png"
+      },
+      {
+        "text": "肉串在袋中均匀裹上油后，取出备用。",
+        "imageUrl": "images/recipe_44_step_3.png"
+      },
+      {
+        "text": "准备蜜汁蘸料：蜂蜜2勺、糖1勺、生抽1勺、老抽半勺、一点清水，搅拌均匀。",
+        "imageUrl": "images/recipe_44_step_4.png"
+      },
+      {
+        "text": "将肉串放入空气炸锅，刷上蜜汁蘸料。",
+        "imageUrl": "images/recipe_44_step_5.png"
+      },
+      {
+        "text": "空气炸锅180度12分钟，中途翻面，多刷蜜汁酱。",
+        "imageUrl": "images/recipe_44_step_6.png"
+      },
+      {
+        "text": "烤至表面金黄，蜜汁浓稠即可出锅。",
+        "imageUrl": "images/recipe_44_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 1098.8,
+      "protein": 72.4,
+      "carbs": 39.9,
+      "fat": 68.1,
+      "salt": 3.29
+    },
+    "source": "https://v.douyin.com/"
   }
 ]
