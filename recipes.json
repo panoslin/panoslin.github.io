@@ -3637,5 +3637,79 @@
       "salt": 0.0
     },
     "source": "https://v.douyin.com/bUyPKfGaI9k/"
+  },
+  {
+    "id": 49,
+    "title": "清汤萝卜牛腩",
+    "category": [
+      "中餐",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_49.png",
+    "description": "今天粤菜厨师古志辉分享清汤萝卜牛腩，冬天是吃萝卜的季节。牛肉冷水下锅，去除杂质和血水，炖煮两个半小时后加入萝卜，再煮20分钟即可。",
+    "ingredients": [
+      {
+        "name": "牛腩",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "白萝卜",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "白胡椒碎",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "鲜菇",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "芹菜",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 1500,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "牛肉冷水下锅，将牛腩放入冷水中",
+      "要把它的杂质啊，血水啊先把它分离出来，打去浮沫",
+      "水刚刚到这个牛肉的上面即可",
+      "加入姜片",
+      "加入白胡椒碎",
+      "炖煮两个半小时",
+      "将白萝卜切成滚刀块",
+      "把萝卜块放入锅中",
+      "再煮约20分钟",
+      "加入鲜菇和芹菜",
+      "加入一点点姜片",
+      "放一点点的盐调味即可"
+    ],
+    "nutrition": {
+      "calories": 1359.8,
+      "protein": 136.1,
+      "carbs": 22.9,
+      "fat": 75.8,
+      "salt": 5.0
+    },
+    "source": "https://v.douyin.com/Tv7qcbNzYWQ/"
   }
 ]

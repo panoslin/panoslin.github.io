@@ -19,6 +19,7 @@ NUTRITION_DB = {
     # 肉类
     '牛里脊': {'calories': 107, 'protein': 22.2, 'carbs': 0, 'fat': 2.3, 'salt': 0, 'unit': 'g'},
     '牛肉': {'calories': 250, 'protein': 26.0, 'carbs': 0, 'fat': 15.0, 'salt': 0, 'unit': 'g'},
+    '牛腩': {'calories': 250, 'protein': 26.0, 'carbs': 0, 'fat': 15.0, 'salt': 0, 'unit': 'g'},
     '鸡肉': {'calories': 167, 'protein': 19.3, 'carbs': 0, 'fat': 9.4, 'salt': 0, 'unit': 'g'},
     # 鸡胸肉：脂肪含量更低
     '鸡胸肉': {'calories': 133, 'protein': 19.4, 'carbs': 0, 'fat': 5.0, 'salt': 0, 'unit': 'g'},
@@ -196,6 +197,7 @@ NUTRITION_DB = {
     '干辣椒': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '辣椒干': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '白胡椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
+    '白胡椒碎': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '花椒': {'calories': 258, 'protein': 6.7, 'carbs': 66.5, 'fat': 8.9, 'salt': 0, 'unit': 'g'},
     '八角': {'calories': 195, 'protein': 3.8, 'carbs': 75.4, 'fat': 5.6, 'salt': 0, 'unit': 'g'},
     '桂皮': {'calories': 174, 'protein': 4.6, 'carbs': 80.0, 'fat': 1.2, 'salt': 0, 'unit': 'g'},
@@ -237,7 +239,9 @@ NUTRITION_DB = {
     '奶油奶酪': {'calories': 342, 'protein': 6.2, 'carbs': 3.2, 'fat': 34.4, 'salt': 0, 'unit': 'g'},
     '蛋白': {'calories': 52, 'protein': 10.9, 'carbs': 1.0, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '韭菜': {'calories': 26, 'protein': 2.4, 'carbs': 4.5, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    '芹菜': {'calories': 16, 'protein': 0.8, 'carbs': 3.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '蘑菇': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '鲜菇': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     # 口蘑：白蘑菇/双孢菇
     '口蘑': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '白蘑菇': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
