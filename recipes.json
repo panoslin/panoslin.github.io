@@ -3857,5 +3857,61 @@
       "salt": 7.1
     },
     "source": "https://v.douyin.com/BrtAAKhH2eY/"
+  },
+  {
+    "id": 52,
+    "title": "杨梅妃子饮",
+    "category": [
+      "中餐",
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_52.png",
+    "description": "花小钱办大事之在家喝上皇室解暑饮品！杨梅妃子饮！",
+    "ingredients": [
+      {
+        "name": "水",
+        "quantity": 1500,
+        "unit": "毫升"
+      },
+      {
+        "name": "杨梅",
+        "quantity": 400,
+        "unit": "克"
+      },
+      {
+        "name": "荔枝",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 50,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "先把这个杨梅清洗干净，去除杂质和内部的虫子",
+      "给它泡一下盐水，让它泡一个小时",
+      "把水烧开以后，把这个杨梅放进去",
+      "让它煮个十分钟，它就能够上色了",
+      "我们把这个荔枝倒下去，荔枝不能放太久",
+      "煮一两分钟就可以了",
+      "等到它温度降下来，五六十度的时候",
+      "我们再把柠檬倒进去",
+      "不要再开火了啊，它这个味道就出来了"
+    ],
+    "nutrition": {
+      "calories": 692.5,
+      "protein": 8.8,
+      "carbs": 168.6,
+      "fat": 2.1,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/Mzv0ZVrSIKU/"
   }
 ]

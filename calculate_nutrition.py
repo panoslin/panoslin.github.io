@@ -236,6 +236,10 @@ NUTRITION_DB = {
     '柠檬汁': {'calories': 22, 'protein': 0.4, 'carbs': 6.9, 'fat': 0.2, 'salt': 0, 'unit': 'ml'},
     '话梅': {'calories': 168, 'protein': 0.8, 'carbs': 42.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '话梅糖浆': {'calories': 304, 'protein': 0, 'carbs': 78.0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
+    # 杨梅：按常见值（每100g）
+    '杨梅': {'calories': 30, 'protein': 0.8, 'carbs': 6.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    # 荔枝：按常见值（每100g）
+    '荔枝': {'calories': 70, 'protein': 0.9, 'carbs': 16.5, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     
     # 其他食材
     '吐司': {'calories': 265, 'protein': 8.3, 'carbs': 49.7, 'fat': 4.2, 'salt': 0, 'unit': 'g'},
