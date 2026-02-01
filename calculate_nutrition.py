@@ -166,6 +166,9 @@ NUTRITION_DB = {
     '水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '清水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '气泡水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
+    # 雪碧：按柠檬味碳酸饮料近似
+    '雪碧': {'calories': 42, 'protein': 0, 'carbs': 10.6, 'fat': 0, 'salt': 0, 'unit': 'ml'},
+    '雷碧': {'calories': 42, 'protein': 0, 'carbs': 10.6, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     
     # 茶类
     '红茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'g'},
@@ -241,6 +244,9 @@ NUTRITION_DB = {
     '西瓜': {'calories': 30, 'protein': 0.6, 'carbs': 7.6, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '柠檬': {'calories': 29, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '柠檬汁': {'calories': 22, 'protein': 0.4, 'carbs': 6.9, 'fat': 0.2, 'salt': 0, 'unit': 'ml'},
+    # 小青桔/金桔：按金桔近似
+    '小青桔': {'calories': 55, 'protein': 1.0, 'carbs': 13.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    '金桔': {'calories': 55, 'protein': 1.0, 'carbs': 13.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     # 葡萄汁：按常见值
     '葡萄汁': {'calories': 60, 'protein': 0.3, 'carbs': 14.5, 'fat': 0.1, 'salt': 0, 'unit': 'ml'},
     # 水溶C：按维生素C饮料近似

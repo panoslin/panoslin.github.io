@@ -4048,5 +4048,67 @@
       "salt": 0.0
     },
     "source": "https://v.douyin.com/uo-vh-5duCM/"
+  },
+  {
+    "id": 55,
+    "title": "话梅雪碧红茶",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_55.png",
+    "description": "也没人告诉我！！话梅加雪碧加红茶原来这么好喝的呀",
+    "ingredients": [
+      {
+        "name": "话梅",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "雪碧",
+        "quantity": 250,
+        "unit": "毫升"
+      },
+      {
+        "name": "红茶",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "小青桔",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "话梅糖浆",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "冰块",
+        "quantity": 100,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "如果你也有一瓶雪碧，加入两包红茶",
+      "送去冷藏泡3-4小时",
+      "准备一个杯子，冰块加满",
+      "塞两片柠檬，挤一个小青桔",
+      "再来两勺我们自制的话梅糖浆",
+      "最后倒入泡好的雪碧红茶"
+    ],
+    "nutrition": {
+      "calories": 254.2,
+      "protein": 0.7,
+      "carbs": 64.7,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/r4dY8nGxMBo/"
   }
 ]
