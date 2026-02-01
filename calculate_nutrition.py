@@ -160,6 +160,9 @@ NUTRITION_DB = {
     '淡奶油': {'calories': 345, 'protein': 0.7, 'carbs': 2.8, 'fat': 37.0, 'salt': 0, 'unit': 'g'},
     
     # 其他
+    # 酒酿/米酒：按发酵糯米制品近似
+    '酒酿': {'calories': 100, 'protein': 1.6, 'carbs': 25.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '米酒': {'calories': 100, 'protein': 1.6, 'carbs': 25.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '巧克力': {'calories': 546, 'protein': 4.3, 'carbs': 61.6, 'fat': 31.3, 'salt': 0, 'unit': 'g'},
     '黑巧克力': {'calories': 546, 'protein': 4.3, 'carbs': 61.6, 'fat': 31.3, 'salt': 0, 'unit': 'g'},
     '可可粉': {'calories': 228, 'protein': 19.6, 'carbs': 57.9, 'fat': 13.7, 'salt': 0, 'unit': 'g'},

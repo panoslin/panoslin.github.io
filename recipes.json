@@ -4110,5 +4110,52 @@
       "salt": 0.0
     },
     "source": "https://v.douyin.com/r4dY8nGxMBo/"
+  },
+  {
+    "id": 56,
+    "title": "清新版酒酿茉莉冰奶",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_56.png",
+    "description": "清新版酒酿茉莉冰奶，清新的茉莉花香又能吃到酒酿的甜感",
+    "ingredients": [
+      {
+        "name": "酒酿",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "冰块",
+        "quantity": 100,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "准备一个杯子，先加入酒酿",
+      "加入冰块",
+      "倒入茉莉花茶",
+      "我喜欢茶感清新点所以牛奶跟茶我是一比一，倒入牛奶",
+      "搅拌均匀，清新的茉莉花香又能吃到酒酿的甜感",
+      "反正一口接一口很难不爱"
+    ],
+    "nutrition": {
+      "calories": 106.0,
+      "protein": 3.9,
+      "carbs": 16.3,
+      "fat": 3.2,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/xjkPX3dFUz0/"
   }
 ]
