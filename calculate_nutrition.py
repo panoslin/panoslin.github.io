@@ -168,6 +168,7 @@ NUTRITION_DB = {
     '可可粉': {'calories': 228, 'protein': 19.6, 'carbs': 57.9, 'fat': 13.7, 'salt': 0, 'unit': 'g'},
     '水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '清水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
+    '温水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '气泡水': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     # 雪碧：按柠檬味碳酸饮料近似
     '雪碧': {'calories': 42, 'protein': 0, 'carbs': 10.6, 'fat': 0, 'salt': 0, 'unit': 'ml'},
@@ -179,6 +180,7 @@ NUTRITION_DB = {
     '乌龙茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '茉莉花茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '抹茶': {'calories': 3, 'protein': 0.2, 'carbs': 0.5, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '抹茶粉': {'calories': 3, 'protein': 0.2, 'carbs': 0.5, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '茶汤': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     
     # 豆制品
@@ -315,6 +317,8 @@ NUTRITION_DB = {
     '鸡脚': {'calories': 215, 'protein': 19.4, 'carbs': 0, 'fat': 14.6, 'salt': 0, 'unit': 'g'},
     '鸡爪': {'calories': 215, 'protein': 19.4, 'carbs': 0, 'fat': 14.6, 'salt': 0, 'unit': 'g'},
     '玫瑰': {'calories': 316, 'protein': 4.0, 'carbs': 75.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 玫瑰花酱：按玫瑰果酱近似
+    '玫瑰花酱': {'calories': 280, 'protein': 0.5, 'carbs': 70.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     
     # 特殊单位换算（在find_nutrition中处理）
     '个': {'鸡蛋': {'calories': 72, 'protein': 6.5, 'carbs': 0.5, 'fat': 4.4, 'salt': 0, 'unit': '个'},  # 约50g一个鸡蛋

@@ -4157,5 +4157,75 @@
       "salt": 0.0
     },
     "source": "https://v.douyin.com/xjkPX3dFUz0/"
+  },
+  {
+    "id": 57,
+    "title": "玫瑰抹茶冰奶",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_57.png",
+    "description": "玫瑰抹茶冰奶都给我去喝！！清新的茉莉花香配上浓郁的抹茶，还有玫瑰的香甜",
+    "ingredients": [
+      {
+        "name": "玫瑰花酱",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "冰块",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "抹茶粉",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "温水",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "淡奶油",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "炼乳",
+        "quantity": 5,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "准备一个杯子，挤两圈玫瑰花酱，里面还含有花瓣",
+      "冰块加满",
+      "茉莉花茶跟牛乳各一半的比例不会踩雷，倒入茉莉花茶",
+      "倒入牛奶",
+      "准备3g抹茶粉",
+      "加入温水化开",
+      "然后加入淡奶油30ml，炼乳5g",
+      "打发到绵密即可",
+      "最后组装到一起就完美"
+    ],
+    "nutrition": {
+      "calories": 231.6,
+      "protein": 3.8,
+      "carbs": 21.4,
+      "fat": 14.8,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/WriLNGBBHEc/"
   }
 ]
