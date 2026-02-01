@@ -4003,5 +4003,50 @@
       "salt": 4.95
     },
     "source": "https://v.douyin.com/0qX0qsVrovc/"
+  },
+  {
+    "id": 54,
+    "title": "葡萄爆柠茶",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_54.png",
+    "description": "葡萄爆柠茶，又多了一杯夏日快乐水",
+    "ingredients": [
+      {
+        "name": "柠檬味水溶C",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "葡萄汁",
+        "quantity": 150,
+        "unit": "毫升"
+      },
+      {
+        "name": "冰块",
+        "quantity": 100,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "准备一个杯子，加入冰块",
+      "柠檬味水溶C先来倒三分满",
+      "再来点百搭王茉莉花茶",
+      "最后倒入葡萄汁，这一杯就ok啦"
+    ],
+    "nutrition": {
+      "calories": 127.0,
+      "protein": 0.5,
+      "carbs": 30.6,
+      "fat": 0.2,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/uo-vh-5duCM/"
   }
 ]

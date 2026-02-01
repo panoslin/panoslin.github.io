@@ -241,6 +241,11 @@ NUTRITION_DB = {
     '西瓜': {'calories': 30, 'protein': 0.6, 'carbs': 7.6, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '柠檬': {'calories': 29, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '柠檬汁': {'calories': 22, 'protein': 0.4, 'carbs': 6.9, 'fat': 0.2, 'salt': 0, 'unit': 'ml'},
+    # 葡萄汁：按常见值
+    '葡萄汁': {'calories': 60, 'protein': 0.3, 'carbs': 14.5, 'fat': 0.1, 'salt': 0, 'unit': 'ml'},
+    # 水溶C：按维生素C饮料近似
+    '水溶C': {'calories': 35, 'protein': 0, 'carbs': 8.5, 'fat': 0, 'salt': 0, 'unit': 'ml'},
+    '柠檬味水溶C': {'calories': 35, 'protein': 0, 'carbs': 8.5, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '话梅': {'calories': 168, 'protein': 0.8, 'carbs': 42.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '话梅糖浆': {'calories': 304, 'protein': 0, 'carbs': 78.0, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     # 杨梅：按常见值（每100g）
