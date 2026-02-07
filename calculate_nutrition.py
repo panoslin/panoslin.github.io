@@ -62,6 +62,9 @@ NUTRITION_DB = {
     # 白萝卜：按常见值
     '白萝卜': {'calories': 16, 'protein': 0.7, 'carbs': 3.5, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '萝卜': {'calories': 16, 'protein': 0.7, 'carbs': 3.5, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 节瓜/毛瓜：按节瓜/毛瓜近似（类似冬瓜但更小）
+    '节瓜': {'calories': 13, 'protein': 0.6, 'carbs': 2.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '毛瓜': {'calories': 13, 'protein': 0.6, 'carbs': 2.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '洋葱': {'calories': 40, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '大葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '小葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
