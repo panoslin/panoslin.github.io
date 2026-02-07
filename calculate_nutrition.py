@@ -157,6 +157,10 @@ NUTRITION_DB = {
     # 黑胡椒：按黑胡椒粉近似
     '黑胡椒': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '十三香': {'calories': 296, 'protein': 6.0, 'carbs': 68.0, 'fat': 8.0, 'salt': 0, 'unit': 'g'},
+    # 沙姜粉：按沙姜/山奈粉近似
+    '沙姜粉': {'calories': 300, 'protein': 5.0, 'carbs': 70.0, 'fat': 2.0, 'salt': 0, 'unit': 'g'},
+    '沙姜': {'calories': 300, 'protein': 5.0, 'carbs': 70.0, 'fat': 2.0, 'salt': 0, 'unit': 'g'},
+    '山奈': {'calories': 300, 'protein': 5.0, 'carbs': 70.0, 'fat': 2.0, 'salt': 0, 'unit': 'g'},
     '小苏打': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '淀粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '生粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
