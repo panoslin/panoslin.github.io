@@ -1832,6 +1832,37 @@ html[data-theme="dark"] .ingredient-item:hover {
     border-color: rgba(124, 201, 162, 0.45);
 }
 
+/* 已购买状态的食材项 */
+.ingredient-item.purchased {
+    opacity: 0.6;
+    background: var(--apple-gray-50);
+}
+
+.ingredient-item.purchased .ingredient-name {
+    text-decoration: line-through;
+    color: var(--text-tertiary);
+}
+
+.ingredient-item.purchased .ingredient-quantity {
+    color: var(--text-tertiary);
+}
+
+/* 暗色模式下已购买状态可读性优化 */
+html[data-theme="dark"] .ingredient-item.purchased {
+    opacity: 1;
+    background: rgba(58, 157, 110, 0.12);
+    border-color: rgba(124, 201, 162, 0.25);
+}
+
+html[data-theme="dark"] .ingredient-item.purchased .ingredient-name {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+html[data-theme="dark"] .ingredient-item.purchased .ingredient-quantity {
+    color: rgba(255, 255, 255, 0.60);
+}
+
 .ingredient-name {
     font-weight: var(--font-medium);
     color: var(--text-primary);
@@ -2875,6 +2906,22 @@ html[data-theme="dark"] .shopping-ingredient-item:hover {
 
 .shopping-ingredient-item.purchased .ingredient-quantity {
     color: var(--text-tertiary);
+}
+
+/* 暗色模式下购物清单已购买状态可读性优化 */
+html[data-theme="dark"] .shopping-ingredient-item.purchased {
+    opacity: 1;
+    background: rgba(58, 157, 110, 0.12);
+    border-color: rgba(124, 201, 162, 0.25);
+}
+
+html[data-theme="dark"] .shopping-ingredient-item.purchased .ingredient-name {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+html[data-theme="dark"] .shopping-ingredient-item.purchased .ingredient-quantity {
+    color: rgba(255, 255, 255, 0.60);
 }
 
 /* 食材项内容容器 */
