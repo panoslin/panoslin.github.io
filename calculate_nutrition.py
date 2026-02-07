@@ -253,6 +253,7 @@ NUTRITION_DB = {
     '蜂蜜': {'calories': 304, 'protein': 0.3, 'carbs': 75.6, 'fat': 0, 'salt': 0, 'unit': 'g'},
     
     # 水果类
+    '草莓': {'calories': 32, 'protein': 1.0, 'carbs': 7.7, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '菠萝': {'calories': 50, 'protein': 0.5, 'carbs': 12.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '新鲜菠萝': {'calories': 50, 'protein': 0.5, 'carbs': 12.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '西瓜': {'calories': 30, 'protein': 0.6, 'carbs': 7.6, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
