@@ -249,6 +249,7 @@ NUTRITION_DB = {
     '辣椒干': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '泡椒': {'calories': 30, 'protein': 1.0, 'carbs': 6.0, 'fat': 0.2, 'salt': 2000, 'unit': 'g'},
     '白胡椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
+    '白胡椒': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '白胡椒碎': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '白胡椒粒': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '花椒': {'calories': 258, 'protein': 6.7, 'carbs': 66.5, 'fat': 8.9, 'salt': 0, 'unit': 'g'},
