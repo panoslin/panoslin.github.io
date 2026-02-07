@@ -66,6 +66,9 @@ NUTRITION_DB = {
     '大葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '小葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '香葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
+    # 蒜苗：按蒜苗/蒜薹近似
+    '蒜苗': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
+    '蒜薹': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     # 干葱 / 红葱头：按常见小洋葱近似
     '干葱': {'calories': 40, 'protein': 1.4, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '红葱头': {'calories': 40, 'protein': 1.4, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
@@ -87,6 +90,7 @@ NUTRITION_DB = {
     '香菜': {'calories': 23, 'protein': 2.1, 'carbs': 3.7, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '小米辣': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '小米椒': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    '青红小米辣': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '羽衣甘蓝': {'calories': 49, 'protein': 4.3, 'carbs': 8.8, 'fat': 0.9, 'salt': 0, 'unit': 'g'},
     '小卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     # 包菜：卷心菜
@@ -303,8 +307,14 @@ NUTRITION_DB = {
     # 口蘑：白蘑菇/双孢菇
     '口蘑': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '白蘑菇': {'calories': 22, 'protein': 2.7, 'carbs': 4.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 平菇：按平菇/蚝菇近似
+    '平菇': {'calories': 24, 'protein': 1.9, 'carbs': 4.6, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
+    '蚝菇': {'calories': 24, 'protein': 1.9, 'carbs': 4.6, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     # 杏鲍菇：按常见营养表近似
     '杏鲍菇': {'calories': 32, 'protein': 3.0, 'carbs': 6.0, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
+    # 鹿茸菇：按鹿茸菇/茶树菇近似
+    '鹿茸菇': {'calories': 30, 'protein': 2.5, 'carbs': 5.5, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    '茶树菇': {'calories': 30, 'protein': 2.5, 'carbs': 5.5, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '泡发干香菇': {'calories': 19, 'protein': 2.2, 'carbs': 3.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '青椒': {'calories': 22, 'protein': 1.0, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '红椒': {'calories': 22, 'protein': 1.0, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
