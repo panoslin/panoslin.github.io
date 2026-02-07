@@ -32,6 +32,7 @@ NUTRITION_DB = {
     '猪肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
     '猪肝': {'calories': 129, 'protein': 19.3, 'carbs': 5.0, 'fat': 3.5, 'salt': 0, 'unit': 'g'},
     '虾': {'calories': 93, 'protein': 18.6, 'carbs': 2.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
+    '虾仁': {'calories': 93, 'protein': 18.6, 'carbs': 2.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
     # 虾米：干虾米，按常见值
     '虾米': {'calories': 195, 'protein': 43.7, 'carbs': 0, 'fat': 2.6, 'salt': 0, 'unit': 'g'},
     '虾米粒': {'calories': 195, 'protein': 43.7, 'carbs': 0, 'fat': 2.6, 'salt': 0, 'unit': 'g'},
@@ -88,6 +89,12 @@ NUTRITION_DB = {
     # 包菜：卷心菜
     '包菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 荷兰豆/豌豆：按雪豆/甜豆近似
+    '荷兰豆': {'calories': 31, 'protein': 2.5, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    '豌豆': {'calories': 31, 'protein': 2.5, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    # 木耳：按黑木耳/云耳近似（泡发后）
+    '木耳': {'calories': 21, 'protein': 1.5, 'carbs': 6.0, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    '黑木耳': {'calories': 21, 'protein': 1.5, 'carbs': 6.0, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     
     # 主食类
     '面饼': {'calories': 280, 'protein': 9.0, 'carbs': 58.0, 'fat': 1.0, 'salt': 0, 'unit': 'g'},
@@ -144,6 +151,8 @@ NUTRITION_DB = {
     '淀粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '生粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '玉米淀粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 水淀粉：按淀粉近似（水无热量，主要计算淀粉部分）
+    '水淀粉': {'calories': 364, 'protein': 0.2, 'carbs': 91.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     
     # 油脂类
     '食用油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
