@@ -4951,5 +4951,63 @@
       "salt": 6.52
     },
     "source": "https://v.douyin.com/oQmbeUGu8tk/"
+  },
+  {
+    "id": 66,
+    "title": "冰摇红茶燕麦拿铁",
+    "category": [
+      "饮品",
+      "咖啡",
+      "冷饮"
+    ],
+    "imageUrl": "images/recipe_66.png",
+    "description": "冷泡个红茶燕麦奶做冰摇红茶燕麦拿铁真的yyds！配上绵密的咖啡根本停不下来，口感巨丝滑。",
+    "ingredients": [
+      {
+        "name": "燕麦奶",
+        "quantity": 800,
+        "unit": "毫升"
+      },
+      {
+        "name": "红茶包",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "咖啡液",
+        "quantity": 44,
+        "unit": "毫升"
+      },
+      {
+        "name": "糖浆",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "冰块",
+        "quantity": 100,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "提前一晚准备：将800ml燕麦奶倒入玻璃瓶中",
+      "在燕麦奶中放入2个红茶包，密封后放入冰箱冷藏浸泡一晚",
+      "第二天，萃一份醇香浓郁的曲奇拼配咖啡，约44g咖啡液",
+      "在雪克杯里加入冰块",
+      "加入15ml糖浆",
+      "倒入咖啡液",
+      "利用你的力量疯狂雪克，摇出绵密泡沫",
+      "将摇好的咖啡倒入杯中",
+      "最后倒入泡好的红茶燕麦奶",
+      "配上绵密的咖啡泡沫，口感巨丝滑，根本停不下来"
+    ],
+    "nutrition": {
+      "calories": 410.0,
+      "protein": 8.2,
+      "carbs": 64.5,
+      "fat": 12.0,
+      "salt": 0.0
+    },
+    "source": "https://v.douyin.com/_Vt3eVDloro/"
   }
 ]

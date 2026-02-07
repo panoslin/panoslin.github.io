@@ -201,6 +201,7 @@ NUTRITION_DB = {
     
     # 茶类
     '红茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '红茶包': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': '个'},
     '绿茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '乌龙茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '茉莉花茶': {'calories': 2, 'protein': 0.1, 'carbs': 0.4, 'fat': 0, 'salt': 0, 'unit': 'ml'},
@@ -335,8 +336,13 @@ NUTRITION_DB = {
     
     # 饮品相关
     '咖啡伴侣': {'calories': 545, 'protein': 0.7, 'carbs': 58.0, 'fat': 35.0, 'salt': 0, 'unit': 'g'},
+    # 咖啡豆：按咖啡豆近似（萃取后咖啡液热量较低）
+    '咖啡豆': {'calories': 1, 'protein': 0.1, 'carbs': 0.1, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '咖啡液': {'calories': 1, 'protein': 0.1, 'carbs': 0.1, 'fat': 0, 'salt': 0, 'unit': 'ml'},
     '厚乳': {'calories': 65, 'protein': 3.0, 'carbs': 4.5, 'fat': 3.5, 'salt': 0, 'unit': 'ml'},
     '纯牛奶': {'calories': 54, 'protein': 3.0, 'carbs': 3.4, 'fat': 3.2, 'salt': 0, 'unit': 'ml'},
+    # 燕麦奶：按燕麦奶近似
+    '燕麦奶': {'calories': 45, 'protein': 1.0, 'carbs': 6.5, 'fat': 1.5, 'salt': 0, 'unit': 'ml'},
     '冰块': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '冰': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 0, 'unit': 'g'},
     
