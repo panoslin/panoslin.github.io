@@ -319,6 +319,19 @@ NUTRITION_DB = {
     '玫瑰': {'calories': 316, 'protein': 4.0, 'carbs': 75.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     # 玫瑰花酱：按玫瑰果酱近似
     '玫瑰花酱': {'calories': 280, 'protein': 0.5, 'carbs': 70.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 螺丝椒：按长辣椒/线椒近似
+    '螺丝椒': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    # 前腿肉：按猪前腿肉近似，略瘦于五花肉
+    '前腿肉': {'calories': 230, 'protein': 20.0, 'carbs': 0, 'fat': 15.0, 'salt': 0, 'unit': 'g'},
+    # 头抽：按生抽/头抽酱油近似
+    '头抽': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'ml'},
+    # 豆豉：按发酵黑豆制品近似
+    '豆豉': {'calories': 259, 'protein': 24.1, 'carbs': 36.8, 'fat': 3.0, 'salt': 2637, 'unit': 'g'},
+    # 猪油：按猪脂肪近似
+    '猪油': {'calories': 902, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'g'},
+    # 鸡饭老抽：按老抽近似
+    '鸡饭老抽': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'ml'},
+    '龙牌酱油': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'ml'},
     
     # 特殊单位换算（在find_nutrition中处理）
     '个': {'鸡蛋': {'calories': 72, 'protein': 6.5, 'carbs': 0.5, 'fat': 4.4, 'salt': 0, 'unit': '个'},  # 约50g一个鸡蛋
