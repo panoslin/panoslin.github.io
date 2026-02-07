@@ -1826,6 +1826,12 @@ html[data-theme="dark"] .source-link:visited {
     transform: translateX(4px);
 }
 
+/* 暗色模式下食材清单条目 hover 可读性优化 */
+html[data-theme="dark"] .ingredient-item:hover {
+    background: rgba(58, 157, 110, 0.18);
+    border-color: rgba(124, 201, 162, 0.45);
+}
+
 .ingredient-name {
     font-weight: var(--font-medium);
     color: var(--text-primary);
@@ -1885,6 +1891,13 @@ html[data-theme="dark"] .source-link:visited {
     border-color: var(--border-spring);
     box-shadow: var(--shadow-md);
     transform: translateY(-2px);
+}
+
+
+/* 暗色模式下食材清单条目 hover 可读性优化 */
+html[data-theme="dark"] .nutrition-item:hover {
+    background: rgba(58, 157, 110, 0.18);
+    border-color: rgba(124, 201, 162, 0.45);
 }
 
 .nutrition-item:hover::before {
