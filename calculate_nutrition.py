@@ -86,6 +86,7 @@ NUTRITION_DB = {
     '裙带菜': {'calories': 13, 'protein': 1.2, 'carbs': 2.1, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '香菜': {'calories': 23, 'protein': 2.1, 'carbs': 3.7, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '小米辣': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    '小米椒': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '羽衣甘蓝': {'calories': 49, 'protein': 4.3, 'carbs': 8.8, 'fat': 0.9, 'salt': 0, 'unit': 'g'},
     '小卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     # 包菜：卷心菜
@@ -163,6 +164,8 @@ NUTRITION_DB = {
     '花生油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     '橄榄油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     '牛油果油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
+    # 花椒油：按花椒油近似（含花椒提取物，热量与普通食用油相近）
+    '花椒油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     
     # 奶制品
     '牛奶': {'calories': 54, 'protein': 3.0, 'carbs': 3.4, 'fat': 3.2, 'salt': 0, 'unit': 'ml'},
