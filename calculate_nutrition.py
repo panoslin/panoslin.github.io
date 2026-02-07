@@ -29,6 +29,8 @@ NUTRITION_DB = {
     '母鸡': {'calories': 200, 'protein': 20.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     # 去骨鸡腿肉：按去皮鸡腿生肉近似，略高脂肪
     '去骨鸡腿肉': {'calories': 180, 'protein': 18.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
+    # 鸡腿：带骨鸡腿，按去骨鸡腿肉近似（骨头约占30%）
+    '鸡腿': {'calories': 180, 'protein': 18.0, 'carbs': 0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '猪肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
     '猪肝': {'calories': 129, 'protein': 19.3, 'carbs': 5.0, 'fat': 3.5, 'salt': 0, 'unit': 'g'},
     '虾': {'calories': 93, 'protein': 18.6, 'carbs': 2.8, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
@@ -260,6 +262,8 @@ NUTRITION_DB = {
     '芝麻油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     # 蜂蜜：按常见值
     '蜂蜜': {'calories': 304, 'protein': 0.3, 'carbs': 75.6, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    # 黄栀子：天然食用色素，营养值极低
+    '黄栀子': {'calories': 5, 'protein': 0.1, 'carbs': 1.0, 'fat': 0, 'salt': 0, 'unit': 'g'},
     
     # 水果类
     '草莓': {'calories': 32, 'protein': 1.0, 'carbs': 7.7, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
