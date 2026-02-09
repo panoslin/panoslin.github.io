@@ -6087,5 +6087,70 @@
       "salt": 5.0
     },
     "source": "https://www.xiachufang.com/recipe/104407131/"
+  },
+  {
+    "id": 82,
+    "title": "茶树菇排骨汤",
+    "category": [
+      "中餐",
+      "汤品",
+      "家常菜",
+      "滋补"
+    ],
+    "imageUrl": "images/recipe_82.png",
+    "description": "茶树菇排骨汤，在寒冬里喝上一口很满足。茶树菇与排骨同煮，加入红枣和枸杞，汤味香浓鲜美，具有补肾健脾的功效。",
+    "ingredients": [
+      {
+        "name": "排骨",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "茶树菇",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "红枣",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "枸杞",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 2500,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "锅里烧开水，放入姜片15克，把洗干净的排骨500克倒进去煮开，去腥去血水泡沫",
+      "煮好的排骨捞出用清水冲洗，放入炖盅备用",
+      "茶树菇100克和红枣40克用水浸泡清洗干净，枸杞10克洗净备用",
+      "将茶树菇、红枣、枸杞和少量姜片一起放入炖盅，加入水至八分满（约2500毫升），盖上盖子",
+      "放入炖锅中，小火炖2小时，中途不要打开盖子",
+      "炖好后打开炖盅，加入盐5克调味即可食用"
+    ],
+    "nutrition": {
+      "calories": 1493.4,
+      "protein": 96.4,
+      "carbs": 39.6,
+      "fat": 102.8,
+      "salt": 5.0
+    },
+    "source": "https://www.xiachufang.com/recipe/103494712/"
   }
 ]
