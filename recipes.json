@@ -6236,5 +6236,69 @@
       "salt": 3.0
     },
     "source": "https://www.xiachufang.com/recipe/107533473/"
+  },
+  {
+    "id": 84,
+    "title": "Wholefoods椰子鸡",
+    "category": [
+      "中餐",
+      "汤品",
+      "火锅",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_84.png",
+    "description": "使用 Wholefoods 365 椰汁，不加一滴水的椰子鸡火锅。鸡汤鲜甜、带淡淡椰香，搭配玉米、娃娃菜和腐竹，冬天喝一口超满足。",
+    "ingredients": [
+      {
+        "name": "鸡肉",
+        "quantity": 1200,
+        "unit": "克"
+      },
+      {
+        "name": "椰汁",
+        "quantity": 800,
+        "unit": "毫升"
+      },
+      {
+        "name": "玉米",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "娃娃菜",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "腐竹",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 6,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "鸡肉1200克切大块，冷水下锅焯水去血沫，捞出冲洗干净备用；玉米300克切段，娃娃菜300克洗净对半切开，腐竹80克提前用温水泡软备用",
+      "锅中倒入Wholefoods 365 椰汁800毫升（不加水），加入姜片20克和焯好的鸡块，大火煮开后转小火煮30分钟，煮至鸡肉基本熟烂、汤汁乳白",
+      "加入玉米段，继续小火煮15分钟，让玉米的甜味融入汤中",
+      "将椰子鸡锅端上桌，小火保持微沸，边煮边吃，把娃娃菜和泡软的腐竹分批下入锅中涮煮至熟",
+      "根据口味加入盐约6克调味，可搭配青椒、香菜、柠檬汁等蘸料食用"
+    ],
+    "nutrition": {
+      "calories": 4289.0,
+      "protein": 300.5,
+      "carbs": 140.4,
+      "fat": 280.4,
+      "salt": 6.0
+    },
+    "source": "https://www.xiaohongshu.com/discovery/item/6962c495000000000a0306a6"
   }
 ]

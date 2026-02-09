@@ -228,6 +228,9 @@ NUTRITION_DB = {
     # 豆制品
     '豆腐': {'calories': 81, 'protein': 8.1, 'carbs': 4.2, 'fat': 3.7, 'salt': 0, 'unit': 'g'},
     '豆芽': {'calories': 18, 'protein': 2.0, 'carbs': 2.9, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 腐竹/豆腐皮：按干腐竹近似
+    '腐竹': {'calories': 460, 'protein': 45.0, 'carbs': 15.0, 'fat': 24.0, 'salt': 0, 'unit': 'g'},
+    '豆腐皮': {'calories': 460, 'protein': 45.0, 'carbs': 15.0, 'fat': 24.0, 'salt': 0, 'unit': 'g'},
     # 火腿丁：按火腿近似
     '火腿丁': {'calories': 320, 'protein': 16.4, 'carbs': 1.5, 'fat': 27.4, 'salt': 0, 'unit': 'g'},
     # 豆泡/油豆腐：油炸过的豆腐，热量和脂肪含量更高
@@ -367,6 +370,9 @@ NUTRITION_DB = {
     
     # 饮品相关
     '咖啡伴侣': {'calories': 545, 'protein': 0.7, 'carbs': 58.0, 'fat': 35.0, 'salt': 0, 'unit': 'g'},
+    # 椰奶/椰汁：按罐装椰奶近似（wholefood 365 椰汁用此）
+    '椰奶': {'calories': 190, 'protein': 2.0, 'carbs': 6.0, 'fat': 18.0, 'salt': 0, 'unit': 'ml'},
+    '椰汁': {'calories': 190, 'protein': 2.0, 'carbs': 6.0, 'fat': 18.0, 'salt': 0, 'unit': 'ml'},
     # 咖啡豆：按咖啡豆近似（萃取后咖啡液热量较低）
     '咖啡豆': {'calories': 1, 'protein': 0.1, 'carbs': 0.1, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '咖啡液': {'calories': 1, 'protein': 0.1, 'carbs': 0.1, 'fat': 0, 'salt': 0, 'unit': 'ml'},
