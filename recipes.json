@@ -5473,5 +5473,79 @@
       "salt": 9.92
     },
     "source": "https://www.xiachufang.com/recipe/106738320/"
+  },
+  {
+    "id": 74,
+    "title": "手撕包菜",
+    "category": [
+      "中餐",
+      "家常菜",
+      "素食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_74.png",
+    "description": "经典家常菜手撕包菜，包菜手撕成块，用蒜蓉和辣椒爆炒，酱汁浓郁，口感爽脆，下饭神器！",
+    "ingredients": [
+      {
+        "name": "包菜",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "干辣椒",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "老抽",
+        "quantity": 5,
+        "unit": "毫升"
+      },
+      {
+        "name": "陈醋",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 30,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "包菜500克手撕成块，大蒜20克切末，干辣椒10克剪成段",
+      "热锅下食用油30毫升，下入蒜末和干辣椒爆香",
+      "下入包菜，大火快速翻炒至断生",
+      "加入生抽20毫升、老抽5毫升、陈醋15毫升、白糖5克、盐3克，翻炒均匀",
+      "炒至包菜变软但仍有脆感，酱汁均匀包裹即可出锅"
+    ],
+    "nutrition": {
+      "calories": 485.6,
+      "protein": 10.7,
+      "carbs": 49.4,
+      "fat": 31.8,
+      "salt": 6.65
+    },
+    "source": "https://www.xiachufang.com/recipe/102234805/"
   }
 ]
