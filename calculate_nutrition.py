@@ -129,12 +129,17 @@ NUTRITION_DB = {
     '燕麦米': {'calories': 389, 'protein': 16.9, 'carbs': 66.3, 'fat': 6.9, 'salt': 0, 'unit': 'g'},
     '红糙米': {'calories': 353, 'protein': 7.4, 'carbs': 77.9, 'fat': 2.8, 'salt': 0, 'unit': 'g'},
     '黑糯米': {'calories': 341, 'protein': 8.3, 'carbs': 73.7, 'fat': 1.7, 'salt': 0, 'unit': 'g'},
+    '糯米': {'calories': 348, 'protein': 7.0, 'carbs': 77.1, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
     '小土豆': {'calories': 77, 'protein': 2.0, 'carbs': 17.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '土豆': {'calories': 77, 'protein': 2.0, 'carbs': 17.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '红薯': {'calories': 99, 'protein': 1.1, 'carbs': 24.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '玉米': {'calories': 112, 'protein': 4.2, 'carbs': 22.8, 'fat': 1.2, 'salt': 0, 'unit': 'g'},
     '藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '莲藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
+    # 薏米、莲子、花芸豆：按干品近似
+    '薏米': {'calories': 357, 'protein': 12.8, 'carbs': 64.0, 'fat': 4.3, 'salt': 0, 'unit': 'g'},
+    '莲子': {'calories': 350, 'protein': 17.2, 'carbs': 64.2, 'fat': 2.0, 'salt': 0, 'unit': 'g'},
+    '花芸豆': {'calories': 337, 'protein': 21.4, 'carbs': 60.0, 'fat': 0.8, 'salt': 0, 'unit': 'g'},
     '九孔莲藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     # 蟹类：按膏蟹近似
     '膏蟹': {'calories': 87, 'protein': 18.0, 'carbs': 0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},
