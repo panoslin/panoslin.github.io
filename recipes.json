@@ -5805,5 +5805,90 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107118336/"
+  },
+  {
+    "id": 78,
+    "title": "油焖大虾",
+    "category": [
+      "中餐",
+      "海鲜",
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_78.png",
+    "description": "经典油焖大虾，大虾鲜嫩，酱汁浓郁粘稠，甜咸适口，色泽红亮，配米饭绝佳！",
+    "ingredients": [
+      {
+        "name": "虾",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "小葱",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "老抽",
+        "quantity": 10,
+        "unit": "毫升"
+      },
+      {
+        "name": "料酒",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "白糖",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 40,
+        "unit": "毫升"
+      },
+      {
+        "name": "水",
+        "quantity": 100,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "虾500克洗净，剪去虾须和虾脚，小葱20克切段，姜10克切片，大蒜10克切末",
+      "热锅下食用油40毫升，下入葱段、姜片、蒜末爆香",
+      "下入大虾，大火翻炒至虾壳变红",
+      "加入料酒20毫升去腥，加入生抽30毫升、老抽10毫升、白糖15克、盐3克，翻炒均匀",
+      "加入水100毫升，大火烧开后转中火焖煮5分钟，至汤汁浓稠，虾完全入味",
+      "大火收汁至酱汁粘稠，均匀包裹在虾上，撒上葱花即可"
+    ],
+    "nutrition": {
+      "calories": 943.9,
+      "protein": 96.5,
+      "carbs": 39.4,
+      "fat": 44.2,
+      "salt": 8.85
+    },
+    "source": "https://www.xiachufang.com/recipe/106477587/"
   }
 ]
