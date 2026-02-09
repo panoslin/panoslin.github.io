@@ -6417,5 +6417,48 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106662354/"
+  },
+  {
+    "id": 87,
+    "title": "牛油果香蕉奶昔",
+    "category": [
+      "饮品",
+      "奶昔",
+      "早餐",
+      "减肥"
+    ],
+    "imageUrl": "images/recipe_87.png",
+    "description": "牛油果配熟香蕉和牛奶打成的奶昔，口感浓醇顺滑，香蕉的甜味中和了牛油果的青味，适合作为营养早餐或加餐。",
+    "ingredients": [
+      {
+        "name": "牛油果",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "香蕉",
+        "quantity": 120,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 250,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "准备熟透的牛油果1个（约150克果肉）和熟香蕉1根（约120克），牛奶250毫升，可根据季节选择常温或冰牛奶",
+      "牛油果对半切开去核，用勺子挖出果肉；香蕉去皮切成小段",
+      "将牛油果果肉、香蕉段和牛奶一起倒入料理杯或果汁机中",
+      "先高速搅打至完全细腻无颗粒，再用低速稍微搅拌均匀，使奶昔更加顺滑浓稠，倒出即饮"
+    ],
+    "nutrition": {
+      "calories": 481.8,
+      "protein": 11.8,
+      "carbs": 48.6,
+      "fat": 30.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/100419906/"
   }
 ]

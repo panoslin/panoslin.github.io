@@ -191,6 +191,9 @@ NUTRITION_DB = {
     '花生油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     '橄榄油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     '牛油果油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
+    # 牛油果、香蕉：按常见生果近似
+    '牛油果': {'calories': 160, 'protein': 2.0, 'carbs': 8.5, 'fat': 14.7, 'salt': 0, 'unit': 'g'},
+    '香蕉': {'calories': 89, 'protein': 1.1, 'carbs': 22.8, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     # 花椒油：按花椒油近似（含花椒提取物，热量与普通食用油相近）
     '花椒油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     
