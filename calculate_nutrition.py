@@ -386,6 +386,8 @@ NUTRITION_DB = {
     # 其他
     '红枣': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '红枣丝': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    # 姬松茸：按干姬松茸近似
+    '姬松茸': {'calories': 280, 'protein': 20.0, 'carbs': 40.0, 'fat': 3.0, 'salt': 0, 'unit': 'g'},
     # 虫草花：按干虫草花近似
     '虫草花': {'calories': 300, 'protein': 25.0, 'carbs': 40.0, 'fat': 2.0, 'salt': 0, 'unit': 'g'},
     # 枸杞：按干枸杞近似
