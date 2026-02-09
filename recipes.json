@@ -5547,5 +5547,91 @@
       "salt": 6.65
     },
     "source": "https://www.xiachufang.com/recipe/102234805/"
+  },
+  {
+    "id": 75,
+    "title": "娃娃菜焖豆泡",
+    "category": [
+      "中餐",
+      "家常菜",
+      "素食",
+      "下饭菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_75.png",
+    "description": "娃娃菜焖豆泡，巨下饭！娃娃菜软嫩，豆泡吸满汤汁，配上豆瓣酱和辣椒，香辣下饭，简单快手！",
+    "ingredients": [
+      {
+        "name": "娃娃菜",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "豆泡",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "线椒",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "水",
+        "quantity": 50,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "大蒜15克切末，小米辣10克切碎，线椒100克切段",
+      "热锅下食用油20毫升，油热后下入小米辣和蒜末爆香",
+      "下入娃娃菜300克，大火炒软",
+      "下入豆泡150克，加入生抽15毫升、蚝油15毫升，翻炒均匀",
+      "加入豆瓣酱15克，翻炒均匀",
+      "下入线椒，加入水50毫升，加入水淀粉（淀粉5克+水）勾芡，焖煮一会收汁即可"
+    ],
+    "nutrition": {
+      "calories": 709.6,
+      "protein": 34.8,
+      "carbs": 37.8,
+      "fat": 49.0,
+      "salt": 6.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107219831/"
   }
 ]

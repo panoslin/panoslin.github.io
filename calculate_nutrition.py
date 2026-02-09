@@ -219,6 +219,10 @@ NUTRITION_DB = {
     # 豆制品
     '豆腐': {'calories': 81, 'protein': 8.1, 'carbs': 4.2, 'fat': 3.7, 'salt': 0, 'unit': 'g'},
     '豆芽': {'calories': 18, 'protein': 2.0, 'carbs': 2.9, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 豆泡/油豆腐：油炸过的豆腐，热量和脂肪含量更高
+    '豆泡': {'calories': 245, 'protein': 17.0, 'carbs': 4.2, 'fat': 18.0, 'salt': 0, 'unit': 'g'},
+    '油豆腐': {'calories': 245, 'protein': 17.0, 'carbs': 4.2, 'fat': 18.0, 'salt': 0, 'unit': 'g'},
+    '豆腐泡': {'calories': 245, 'protein': 17.0, 'carbs': 4.2, 'fat': 18.0, 'salt': 0, 'unit': 'g'},
     
     # 其他肉类
     '排骨': {'calories': 264, 'protein': 18.3, 'carbs': 0, 'fat': 20.4, 'salt': 0, 'unit': 'g'},
@@ -382,6 +386,7 @@ NUTRITION_DB = {
     # 玫瑰花酱：按玫瑰果酱近似
     '玫瑰花酱': {'calories': 280, 'protein': 0.5, 'carbs': 70.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     # 螺丝椒：按长辣椒/线椒近似
+    '线椒': {'calories': 22, 'protein': 1.0, 'carbs': 5.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '螺丝椒': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     # 前腿肉：按猪前腿肉近似，略瘦于五花肉
     '前腿肉': {'calories': 230, 'protein': 20.0, 'carbs': 0, 'fat': 15.0, 'salt': 0, 'unit': 'g'},
