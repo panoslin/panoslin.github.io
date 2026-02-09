@@ -405,6 +405,8 @@ NUTRITION_DB = {
     # 其他
     '红枣': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '红枣丝': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    # 蛋挞皮：按市售起酥蛋挞皮近似（主要为黄油和面粉）
+    '蛋挞皮': {'calories': 450, 'protein': 7.0, 'carbs': 45.0, 'fat': 26.0, 'salt': 0, 'unit': '个'},
     # 姬松茸：按干姬松茸近似
     '姬松茸': {'calories': 280, 'protein': 20.0, 'carbs': 40.0, 'fat': 3.0, 'salt': 0, 'unit': 'g'},
     # 虫草花：按干虫草花近似
