@@ -334,6 +334,8 @@ NUTRITION_DB = {
     '菠萝': {'calories': 50, 'protein': 0.5, 'carbs': 12.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '新鲜菠萝': {'calories': 50, 'protein': 0.5, 'carbs': 12.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '西瓜': {'calories': 30, 'protein': 0.6, 'carbs': 7.6, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '梨': {'calories': 57, 'protein': 0.4, 'carbs': 15.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '雪梨': {'calories': 57, 'protein': 0.4, 'carbs': 15.0, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '柠檬': {'calories': 29, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '柠檬汁': {'calories': 22, 'protein': 0.4, 'carbs': 6.9, 'fat': 0.2, 'salt': 0, 'unit': 'ml'},
     # 小青桔/金桔：按金桔近似
@@ -405,6 +407,8 @@ NUTRITION_DB = {
     # 其他
     '红枣': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '红枣丝': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    # 百合：按干百合近似
+    '百合': {'calories': 327, 'protein': 7.0, 'carbs': 74.0, 'fat': 1.2, 'salt': 0, 'unit': 'g'},
     # 蛋挞皮：按市售起酥蛋挞皮近似（主要为黄油和面粉）
     '蛋挞皮': {'calories': 450, 'protein': 7.0, 'carbs': 45.0, 'fat': 26.0, 'salt': 0, 'unit': '个'},
     # 姬松茸：按干姬松茸近似
