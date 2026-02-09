@@ -99,6 +99,7 @@ NUTRITION_DB = {
     '青红小米辣': {'calories': 40, 'protein': 1.9, 'carbs': 8.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '羽衣甘蓝': {'calories': 49, 'protein': 4.3, 'carbs': 8.8, 'fat': 0.9, 'salt': 0, 'unit': 'g'},
     '小卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '金针菇': {'calories': 32, 'protein': 2.4, 'carbs': 6.0, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     # 包菜：卷心菜
     '包菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '卷心菜': {'calories': 25, 'protein': 1.3, 'carbs': 5.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},

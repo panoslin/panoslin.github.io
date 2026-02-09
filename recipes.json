@@ -5633,5 +5633,119 @@
       "salt": 6.0
     },
     "source": "https://www.xiachufang.com/recipe/107219831/"
+  },
+  {
+    "id": 76,
+    "title": "椒麻口水鸡",
+    "category": [
+      "中餐",
+      "川菜",
+      "凉菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_76.png",
+    "description": "超好吃的椒麻口水鸡，麻辣鲜香，超级入味，做法简单零失败，手残党也能一次成功！鸡腿嫩滑，配上椒麻料汁，静置20分钟更入味！",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": 600,
+        "unit": "克"
+      },
+      {
+        "name": "金针菇",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "青椒",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "小葱",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "花椒油",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "料酒",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "姜",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 1000,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "调酱汁：碗中放入青椒100克、小米辣20克切圈，加入蒜末15克、辣椒粉5克、白芝麻5克、葱花10克，淋上热油30毫升",
+      "加入生抽30毫升、白糖5克、蚝油15毫升、盐2克、花椒油30毫升，再加几勺煮鸡腿的汤汁，搅拌均匀",
+      "鸡腿600克去骨，凉水入锅，加入葱、姜10克、料酒15毫升，大火煮开，撇去浮沫，转中火继续煮15分钟",
+      "捞出鸡腿放入冰水中浸泡10分钟，金针菇150克去根部洗净，放入鸡汤中煮熟，捞出铺入碗底",
+      "鸡腿切小块放入金针菇上，淋上料汁，静置20分钟左右更入味即可"
+    ],
+    "nutrition": {
+      "calories": 1830.8,
+      "protein": 117.9,
+      "carbs": 39.3,
+      "fat": 135.6,
+      "salt": 7.91
+    },
+    "source": "https://www.xiachufang.com/recipe/106763393/"
   }
 ]
