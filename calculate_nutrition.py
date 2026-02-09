@@ -54,6 +54,7 @@ NUTRITION_DB = {
     '西兰花': {'calories': 34, 'protein': 2.8, 'carbs': 6.6, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '西蓝花': {'calories': 34, 'protein': 2.8, 'carbs': 6.6, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '茄子': {'calories': 25, 'protein': 1.1, 'carbs': 5.4, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    '黄瓜': {'calories': 16, 'protein': 0.7, 'carbs': 3.6, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '白菜': {'calories': 16, 'protein': 1.5, 'carbs': 3.2, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     # 娃娃菜：按小棵大白菜近似
     '娃娃菜': {'calories': 15, 'protein': 1.3, 'carbs': 2.8, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
@@ -77,6 +78,8 @@ NUTRITION_DB = {
     '红葱头': {'calories': 40, 'protein': 1.4, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '葱花': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
+    '孜然粉': {'calories': 375, 'protein': 22.8, 'carbs': 33.7, 'fat': 22.3, 'salt': 0, 'unit': 'g'},
+    '孜然': {'calories': 375, 'protein': 22.8, 'carbs': 33.7, 'fat': 22.3, 'salt': 0, 'unit': 'g'},
     '葱节': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '蒜': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
     '大蒜': {'calories': 149, 'protein': 6.4, 'carbs': 33.1, 'fat': 0.5, 'salt': 0, 'unit': 'g'},
@@ -276,6 +279,14 @@ NUTRITION_DB = {
     # 香油：芝麻油
     '香油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     '芝麻油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
+    '熟芝麻': {'calories': 559, 'protein': 19.1, 'carbs': 21.6, 'fat': 46.1, 'salt': 0, 'unit': 'g'},
+    '白芝麻': {'calories': 559, 'protein': 19.1, 'carbs': 21.6, 'fat': 46.1, 'salt': 0, 'unit': 'g'},
+    '芝麻': {'calories': 559, 'protein': 19.1, 'carbs': 21.6, 'fat': 46.1, 'salt': 0, 'unit': 'g'},
+    # 花生米：炸好的花生米，按油炸花生近似
+    '花生米': {'calories': 600, 'protein': 25.0, 'carbs': 16.0, 'fat': 50.0, 'salt': 0, 'unit': 'g'},
+    '炸花生米': {'calories': 600, 'protein': 25.0, 'carbs': 16.0, 'fat': 50.0, 'salt': 0, 'unit': 'g'},
+    '花生': {'calories': 600, 'protein': 25.0, 'carbs': 16.0, 'fat': 50.0, 'salt': 0, 'unit': 'g'},
+    '色拉油': {'calories': 884, 'protein': 0, 'carbs': 0, 'fat': 100, 'salt': 0, 'unit': 'ml'},
     # 蜂蜜：按常见值
     '蜂蜜': {'calories': 304, 'protein': 0.3, 'carbs': 75.6, 'fat': 0, 'salt': 0, 'unit': 'g'},
     # 黄栀子：天然食用色素，营养值极低
