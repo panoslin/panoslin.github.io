@@ -5353,5 +5353,125 @@
       "salt": 6.39
     },
     "source": "https://www.xiachufang.com/recipe/106772054/"
+  },
+  {
+    "id": 73,
+    "title": "鱼香肉丝",
+    "category": [
+      "中餐",
+      "川菜",
+      "下饭菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_73.png",
+    "description": "经典川菜鱼香肉丝，酸甜微辣，下饭神器！肉丝嫩滑，配菜丰富，干两大碗米饭都不够！",
+    "ingredients": [
+      {
+        "name": "猪肉",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "黑木耳",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "青椒",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "小葱",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "陈醋",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "白糖",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "料酒",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "生抽",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "老抽",
+        "quantity": 3,
+        "unit": "毫升"
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "食用油",
+        "quantity": 30,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "调鱼香汁：碗中加入陈醋20毫升、白糖20克、清水20毫升（比例1:1:1），加入料酒15毫升、生抽15毫升、水淀粉10克（淀粉10克+水），搅拌均匀",
+      "葱10克、姜10克、蒜10克切末，胡萝卜50克、青椒100克、黑木耳30克切丝",
+      "猪肉200克切丝，加入黑胡椒1克、盐2克、料酒5毫升、淀粉10克，抓匀腌制10分钟",
+      "热锅热油下入肉丝划散，炒至断生，加入葱姜蒜末，翻炒1-2分钟，装盘备用",
+      "热锅热油下入胡萝卜，炒1分钟，倒入豆瓣酱15克翻炒，倒入青椒和黑木耳翻炒，倒入肉丝，翻炒均匀",
+      "倒入鱼香汁，翻炒均匀，出锅即可"
+    ],
+    "nutrition": {
+      "calories": 990.4,
+      "protein": 46.7,
+      "carbs": 52.0,
+      "fat": 64.8,
+      "salt": 9.92
+    },
+    "source": "https://www.xiachufang.com/recipe/106738320/"
   }
 ]
