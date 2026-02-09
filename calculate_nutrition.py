@@ -38,6 +38,9 @@ NUTRITION_DB = {
     # 虾米：干虾米，按常见值
     '虾米': {'calories': 195, 'protein': 43.7, 'carbs': 0, 'fat': 2.6, 'salt': 0, 'unit': 'g'},
     '虾米粒': {'calories': 195, 'protein': 43.7, 'carbs': 0, 'fat': 2.6, 'salt': 0, 'unit': 'g'},
+    # 章鱼/八爪鱼：按常见值
+    '章鱼': {'calories': 135, 'protein': 18.9, 'carbs': 0, 'fat': 5.0, 'salt': 0, 'unit': 'g'},
+    '八爪鱼': {'calories': 135, 'protein': 18.9, 'carbs': 0, 'fat': 5.0, 'salt': 0, 'unit': 'g'},
     # 贝类/螺类（常见值，按每100g可食部分估算）
     # 参考：USDA/中国食物成分表中同类贝类（螺/海螺/田螺）营养范围
     '花螺': {'calories': 110, 'protein': 20.0, 'carbs': 3.0, 'fat': 1.5, 'salt': 0, 'unit': 'g'},

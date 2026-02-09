@@ -5937,5 +5937,90 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104484068/"
+  },
+  {
+    "id": 80,
+    "title": "爆炒鱿鱼",
+    "category": [
+      "中餐",
+      "海鲜",
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_80.png",
+    "description": "爆炒章鱼，章鱼Q弹有嚼劲，配上红洋葱和辣椒，酱汁浓郁，香辣下饭！",
+    "ingredients": [
+      {
+        "name": "章鱼",
+        "quantity": 400,
+        "unit": "克"
+      },
+      {
+        "name": "洋葱",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "青椒",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "干辣椒",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 25,
+        "unit": "毫升"
+      },
+      {
+        "name": "老抽",
+        "quantity": 5,
+        "unit": "毫升"
+      },
+      {
+        "name": "料酒",
+        "quantity": 20,
+        "unit": "毫升"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 30,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "章鱼400克洗净切段，洋葱150克切片，青椒100克切段，干辣椒10克剪段，大蒜15克切末",
+      "热锅下食用油30毫升，下入蒜末和干辣椒爆香",
+      "下入章鱼，大火快速翻炒，加入料酒20毫升去腥",
+      "下入洋葱和青椒，继续大火翻炒",
+      "加入生抽25毫升、老抽5毫升、白糖5克、盐3克，翻炒均匀",
+      "大火炒至章鱼熟透，酱汁均匀包裹，出锅即可"
+    ],
+    "nutrition": {
+      "calories": 990.6,
+      "protein": 82.5,
+      "carbs": 38.4,
+      "fat": 51.7,
+      "salt": 7.39
+    },
+    "source": "https://www.xiachufang.com/recipe/104695758/"
   }
 ]
