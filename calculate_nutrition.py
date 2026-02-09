@@ -126,6 +126,8 @@ NUTRITION_DB = {
     '黑米': {'calories': 339, 'protein': 8.4, 'carbs': 75.6, 'fat': 2.8, 'salt': 0, 'unit': 'g'},
     '糙米': {'calories': 353, 'protein': 7.4, 'carbs': 77.9, 'fat': 2.8, 'salt': 0, 'unit': 'g'},
     '大米': {'calories': 346, 'protein': 7.0, 'carbs': 77.0, 'fat': 0.7, 'salt': 0, 'unit': 'g'},
+    # 熟米饭：按煮熟米饭每100g
+    '米饭': {'calories': 116, 'protein': 2.6, 'carbs': 25.6, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     # 粉丝/龙口粉丝：按干粉丝近似
     '粉丝': {'calories': 338, 'protein': 0.8, 'carbs': 83.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '龙口粉丝': {'calories': 338, 'protein': 0.8, 'carbs': 83.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
