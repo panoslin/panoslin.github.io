@@ -15,6 +15,9 @@ NUTRITION_DB = {
     # 蛋类
     '鸡蛋': {'calories': 144, 'protein': 13.3, 'carbs': 1.5, 'fat': 8.8, 'salt': 0, 'unit': 'g'},
     '蛋黄': {'calories': 328, 'protein': 15.2, 'carbs': 3.6, 'fat': 28.2, 'salt': 0, 'unit': 'g'},
+    # 皮蛋、咸鸭蛋：按常见值近似
+    '皮蛋': {'calories': 160, 'protein': 12.8, 'carbs': 4.5, 'fat': 10.0, 'salt': 0, 'unit': 'g'},
+    '咸鸭蛋': {'calories': 190, 'protein': 13.0, 'carbs': 3.0, 'fat': 14.5, 'salt': 0, 'unit': 'g'},
     
     # 肉类
     '牛里脊': {'calories': 107, 'protein': 22.2, 'carbs': 0, 'fat': 2.3, 'salt': 0, 'unit': 'g'},
@@ -225,6 +228,8 @@ NUTRITION_DB = {
     # 豆制品
     '豆腐': {'calories': 81, 'protein': 8.1, 'carbs': 4.2, 'fat': 3.7, 'salt': 0, 'unit': 'g'},
     '豆芽': {'calories': 18, 'protein': 2.0, 'carbs': 2.9, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 火腿丁：按火腿近似
+    '火腿丁': {'calories': 320, 'protein': 16.4, 'carbs': 1.5, 'fat': 27.4, 'salt': 0, 'unit': 'g'},
     # 豆泡/油豆腐：油炸过的豆腐，热量和脂肪含量更高
     '豆泡': {'calories': 245, 'protein': 17.0, 'carbs': 4.2, 'fat': 18.0, 'salt': 0, 'unit': 'g'},
     '油豆腐': {'calories': 245, 'protein': 17.0, 'carbs': 4.2, 'fat': 18.0, 'salt': 0, 'unit': 'g'},

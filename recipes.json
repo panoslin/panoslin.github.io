@@ -6152,5 +6152,89 @@
       "salt": 5.0
     },
     "source": "https://www.xiachufang.com/recipe/103494712/"
+  },
+  {
+    "id": 83,
+    "title": "上汤粉丝娃娃菜",
+    "category": [
+      "中餐",
+      "汤品",
+      "家常菜",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_83.png",
+    "description": "暖乎乎的上汤粉丝娃娃菜，娃娃菜软嫩、粉丝顺滑，搭配皮蛋、咸鸭蛋和火腿丁，上桌就是一锅鲜香浓郁的暖心汤。",
+    "ingredients": [
+      {
+        "name": "娃娃菜",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "粉丝",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "皮蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "咸鸭蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "火腿丁",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "姜丝",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "葱段",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "葱花",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 1000,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "粉丝50克提前用温水泡软，娃娃菜250克洗净对半切片；皮蛋1个、咸鸭蛋1个去壳切小块，火腿丁40克、姜丝5克、葱段10克准备好",
+      "锅中下少许油（可用火腿自身油脂），放入咸鸭蛋块、皮蛋块、姜丝5克、葱段10克和火腿丁40克，中小火翻炒至蛋黄微微出沙、香味溢出",
+      "加入水1000毫升煮开，形成上汤",
+      "下入娃娃菜片和泡软的粉丝，大火煮至娃娃菜变软、粉丝熟透",
+      "加入盐3克和黑胡椒1克调味，轻轻翻匀，撒上葱花5克即可上桌"
+    ],
+    "nutrition": {
+      "calories": 346.2,
+      "protein": 10.7,
+      "carbs": 52.0,
+      "fat": 11.7,
+      "salt": 3.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107533473/"
   }
 ]
