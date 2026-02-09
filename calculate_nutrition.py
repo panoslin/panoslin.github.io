@@ -73,6 +73,9 @@ NUTRITION_DB = {
     '节瓜': {'calories': 13, 'protein': 0.6, 'carbs': 2.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '毛瓜': {'calories': 13, 'protein': 0.6, 'carbs': 2.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '洋葱': {'calories': 40, 'protein': 1.1, 'carbs': 9.3, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
+    # 红黄甜椒：按青椒近似
+    '红甜椒': {'calories': 26, 'protein': 1.0, 'carbs': 6.0, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
+    '黄甜椒': {'calories': 26, 'protein': 1.0, 'carbs': 6.0, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '大葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '小葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
     '香葱': {'calories': 30, 'protein': 1.7, 'carbs': 6.5, 'fat': 0.3, 'salt': 0, 'unit': 'g'},
@@ -278,6 +281,8 @@ NUTRITION_DB = {
     '鸡粉': {'calories': 195, 'protein': 10.7, 'carbs': 43.5, 'fat': 0.3, 'salt': 20000, 'unit': 'g'},
     '松鲜鲜': {'calories': 195, 'protein': 10.7, 'carbs': 43.5, 'fat': 0.3, 'salt': 20000, 'unit': 'g'},
     '辣椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
+    # 烟熏辣椒粉：按辣椒粉近似
+    '烟熏辣椒粉': {'calories': 316, 'protein': 10.4, 'carbs': 63.9, 'fat': 3.3, 'salt': 0, 'unit': 'g'},
     '干辣椒': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '辣椒干': {'calories': 296, 'protein': 15.0, 'carbs': 61.0, 'fat': 12.0, 'salt': 0, 'unit': 'g'},
     '泡椒': {'calories': 30, 'protein': 1.0, 'carbs': 6.0, 'fat': 0.2, 'salt': 2000, 'unit': 'g'},
