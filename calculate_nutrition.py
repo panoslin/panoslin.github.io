@@ -135,6 +135,8 @@ NUTRITION_DB = {
     '盐': {'calories': 0, 'protein': 0, 'carbs': 0, 'fat': 0, 'salt': 100000, 'unit': 'g'},  # 100g盐 = 100000mg钠 = 约254g盐含量
     '糖': {'calories': 387, 'protein': 0, 'carbs': 100, 'fat': 0, 'salt': 0, 'unit': 'g'},
     '白砂糖': {'calories': 387, 'protein': 0, 'carbs': 100, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '细砂糖': {'calories': 387, 'protein': 0, 'carbs': 100, 'fat': 0, 'salt': 0, 'unit': 'g'},
+    '粗砂糖': {'calories': 387, 'protein': 0, 'carbs': 100, 'fat': 0, 'salt': 0, 'unit': 'g'},
     # 酱油：每100g含钠约5757mg，约等于14.6g盐
     '酱油': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
     '生抽': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},
