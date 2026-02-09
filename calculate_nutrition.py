@@ -139,6 +139,8 @@ NUTRITION_DB = {
     '土豆': {'calories': 77, 'protein': 2.0, 'carbs': 17.8, 'fat': 0.1, 'salt': 0, 'unit': 'g'},
     '红薯': {'calories': 99, 'protein': 1.1, 'carbs': 24.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '玉米': {'calories': 112, 'protein': 4.2, 'carbs': 22.8, 'fat': 1.2, 'salt': 0, 'unit': 'g'},
+    # 油麦菜：按生菜/罗马生菜近似
+    '油麦菜': {'calories': 17, 'protein': 1.5, 'carbs': 3.3, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '莲藕': {'calories': 70, 'protein': 1.9, 'carbs': 16.4, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     # 薏米、莲子、花芸豆：按干品近似
@@ -266,6 +268,8 @@ NUTRITION_DB = {
     '猪梅肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
     '腌牛肉': {'calories': 250, 'protein': 26.0, 'carbs': 0, 'fat': 15.0, 'salt': 0, 'unit': 'g'},
     '腌肉': {'calories': 242, 'protein': 20.3, 'carbs': 0, 'fat': 16.6, 'salt': 0, 'unit': 'g'},
+    # 豆豉鲮鱼罐头：按罐头鱼平均值估算（含油和豆豉）
+    '豆豉鲮鱼': {'calories': 250, 'protein': 18.0, 'carbs': 3.0, 'fat': 18.0, 'salt': 0, 'unit': 'g'},
     
     # 更多调料
     '老抽': {'calories': 63, 'protein': 5.6, 'carbs': 9.9, 'fat': 0.1, 'salt': 5757, 'unit': 'g'},  # 与生抽相同
