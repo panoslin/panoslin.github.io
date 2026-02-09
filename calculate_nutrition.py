@@ -119,6 +119,10 @@ NUTRITION_DB = {
     # 主食类
     '面饼': {'calories': 280, 'protein': 9.0, 'carbs': 58.0, 'fat': 1.0, 'salt': 0, 'unit': 'g'},
     '面条': {'calories': 280, 'protein': 9.0, 'carbs': 58.0, 'fat': 1.0, 'salt': 0, 'unit': 'g'},
+    # 杂粮饭相关
+    '黑米': {'calories': 339, 'protein': 8.4, 'carbs': 75.6, 'fat': 2.8, 'salt': 0, 'unit': 'g'},
+    '糙米': {'calories': 353, 'protein': 7.4, 'carbs': 77.9, 'fat': 2.8, 'salt': 0, 'unit': 'g'},
+    '大米': {'calories': 346, 'protein': 7.0, 'carbs': 77.0, 'fat': 0.7, 'salt': 0, 'unit': 'g'},
     # 粉丝/龙口粉丝：按干粉丝近似
     '粉丝': {'calories': 338, 'protein': 0.8, 'carbs': 83.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     '龙口粉丝': {'calories': 338, 'protein': 0.8, 'carbs': 83.7, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
