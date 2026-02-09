@@ -375,6 +375,10 @@ NUTRITION_DB = {
     # 其他
     '红枣': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
     '红枣丝': {'calories': 264, 'protein': 2.1, 'carbs': 67.8, 'fat': 0.4, 'salt': 0, 'unit': 'g'},
+    # 虫草花：按干虫草花近似
+    '虫草花': {'calories': 300, 'protein': 25.0, 'carbs': 40.0, 'fat': 2.0, 'salt': 0, 'unit': 'g'},
+    # 枸杞：按干枸杞近似
+    '枸杞': {'calories': 258, 'protein': 13.0, 'carbs': 43.0, 'fat': 2.7, 'salt': 0, 'unit': 'g'},
     # 蜜枣：按蜜饯红枣近似
     '蜜枣': {'calories': 320, 'protein': 1.5, 'carbs': 78.0, 'fat': 0.2, 'salt': 0, 'unit': 'g'},
     # 陈皮：干橘皮，按常见值
