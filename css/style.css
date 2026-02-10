@@ -1319,13 +1319,19 @@ body::before {
 }
 
 /* ============================================
-   食谱网格（Instagram风格瀑布流）
+   食谱网格
+   使用 CSS Grid + JS 动态行高模拟 Masonry：
+   - 视觉上尽量填满上方空隙
+   - DOM 顺序仍按从左到右、从上到下
    ============================================ */
 .recipes-grid {
-    column-count: auto;
-    column-width: 300px;
-    column-gap: var(--spacing-6);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Masonry 行高基准，用 JS 按高度计算需要跨多少行 */
+    grid-auto-rows: 8px;
+    gap: var(--spacing-6);
     margin-top: var(--spacing-6);
+    align-items: flex-start;
 }
 
 .recipe-card {
@@ -1340,8 +1346,7 @@ body::before {
     display: flex;
     flex-direction: column;
     width: 100%;
-    break-inside: avoid; /* 防止卡片被分割到两列 */
-    margin-bottom: var(--spacing-6);
+    margin: 0; /* 由 grid 的 gap 统一控制间距 */
 }
 
 .recipe-card::before {
@@ -2223,12 +2228,11 @@ html[data-theme="dark"] .instructions-list li:hover {
     :root {
         --container-padding: var(--spacing-5);
     }
-    
     .content-layout {
         grid-template-columns: 1fr;
         gap: var(--spacing-4);
     }
-    
+
     /* 在移动端，侧边栏通过 JavaScript 控制显示/隐藏 */
     .sidebar {
         position: static;
@@ -2238,10 +2242,11 @@ html[data-theme="dark"] .instructions-list li:hover {
     .content-main {
         width: 100%;
     }
-    
+
+    /* 平板及中等屏幕：稍微缩小最小列宽，保持 2–3 列 */
     .recipes-grid {
-        column-width: 280px;
-        column-gap: var(--spacing-5);
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: var(--spacing-5);
     }
 }
 
@@ -2291,10 +2296,10 @@ html[data-theme="dark"] .instructions-list li:hover {
         padding: var(--spacing-1) var(--spacing-2); /* 减少按钮内边距 */
         font-size: var(--text-xs); /* 减小字体 */
     }
-    
+    /* 小屏：列数自动，但列宽再缩小一些 */
     .recipes-grid {
-        column-width: 260px;
-        column-gap: var(--spacing-4);
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: var(--spacing-4);
     }
     
     .recipe-card-image {
@@ -2384,10 +2389,9 @@ html[data-theme="dark"] .instructions-list li:hover {
     .search-section {
         margin: var(--spacing-5) auto var(--spacing-4);
     }
-    
+    /* 超小屏：固定单列，按行从上到下展示 */
     .recipes-grid {
-        column-count: 1;
-        column-width: auto;
+        grid-template-columns: 1fr;
     }
     
     .recipe-card-image {

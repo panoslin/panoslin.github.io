@@ -791,10 +791,42 @@ function renderRecipes(recipes, searchTerm = '') {
         grid.appendChild(card);
     });
     
-    // 初始化新添加图片的懒加载
+    // 初始化新添加图片的懒加载，并在图片加载后重新计算 Masonry 布局
     setTimeout(() => {
         initializeLazyLoading();
+        // 初次渲染时先做一遍 Masonry 计算（此时图片可能尚未全部加载）
+        if (typeof applyMasonryLayout === 'function') {
+            applyMasonryLayout();
+        }
     }, 100);
+}
+
+/**
+ * 根据卡片实际高度，计算 Masonry 样式的 Grid 行跨度
+ * 让下方卡片尽量填满上方空隙
+ */
+function applyMasonryLayout() {
+    const grid = document.getElementById('recipes-grid');
+    if (!grid) return;
+
+    const computed = window.getComputedStyle(grid);
+    const rowHeight = parseFloat(computed.getPropertyValue('grid-auto-rows')) || 8;
+    const rowGap = parseFloat(computed.getPropertyValue('row-gap')) || 0;
+
+    const cards = grid.querySelectorAll('.recipe-card');
+    if (!cards.length) return;
+
+    cards.forEach(card => {
+        // 先清空旧的跨度，避免高度测量被上一次结果影响
+        card.style.gridRowEnd = '';
+        const cardHeight = card.getBoundingClientRect().height;
+        if (!cardHeight || !rowHeight) return;
+
+        // 经典 Masonry 计算公式：行数 = (高度 + 间距) / (行高 + 间距)
+        const total = cardHeight + rowGap;
+        const span = Math.ceil(total / (rowHeight + rowGap));
+        card.style.gridRowEnd = `span ${span}`;
+    });
 }
 
 /**
@@ -1266,6 +1298,11 @@ function initializeLazyLoading() {
                             if (imageContainer) {
                                 imageContainer.classList.remove('loading');
                             }
+                            // 图片真实高度就绪后，重新计算 Masonry 布局
+                            if (typeof applyMasonryLayout === 'function') {
+                                // 使用 requestAnimationFrame 避免频繁同步测量
+                                window.requestAnimationFrame(applyMasonryLayout);
+                            }
                         };
                         
                         // 图片加载失败
@@ -1280,6 +1317,10 @@ function initializeLazyLoading() {
                                     imageContainer.innerHTML = '<div style="padding: 4rem; text-align: center; font-size: 4rem; color: var(--text-tertiary);">🍽️</div>';
                                 }
                             }
+                            // 即便加载失败，高度也稳定了，重新算一次 Masonry
+                            if (typeof applyMasonryLayout === 'function') {
+                                window.requestAnimationFrame(applyMasonryLayout);
+                            }
                         };
                     }
                     
@@ -1287,13 +1328,20 @@ function initializeLazyLoading() {
                 }
             });
         }, {
-            rootMargin: '50px' // 提前50px开始加载
+            // 当图片距离视口「下方」约 100px 时就开始预加载，
+            // 上方和左右不做额外提前量，避免过多无效加载
+            // 语法：rootMargin: 'top right bottom left'
+            rootMargin: '0px 0px 100px 0px'
         });
         
         // 观察所有懒加载图片
         document.querySelectorAll('img.lazy-load').forEach(img => {
             window.imageObserver.observe(img);
         });
+        // 观察开始后，先做一轮 Masonry 计算，避免初始空白
+        if (typeof applyMasonryLayout === 'function') {
+            applyMasonryLayout();
+        }
     } else {
         // 降级方案：直接加载所有图片
         document.querySelectorAll('img.lazy-load').forEach(img => {
