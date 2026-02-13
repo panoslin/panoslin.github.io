@@ -448,6 +448,7 @@ function launchToShoppingList(btn) {
 
 const THEME_PREF_KEY = 'themePreference'; // 'auto' | 'light' | 'dark'
 let themeAutoTimer = null;
+let themeCheckInterval = null; // 定期检查定时器
 
 function getUserTimeZone() {
     try {
@@ -492,8 +493,32 @@ function resolveThemeFromPreference(pref) {
     return isNightByLocalTime() ? 'dark' : 'light';
 }
 
+/**
+ * 检查并应用自动主题（如果需要切换）
+ */
+function checkAndApplyAutoTheme() {
+    const pref = getStoredThemePreference();
+    if (pref !== 'auto') return;
+    
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const shouldBeTheme = resolveThemeFromPreference('auto');
+    
+    // 如果当前主题和应该的主题不一致，切换
+    if (currentTheme !== shouldBeTheme) {
+        applyTheme(shouldBeTheme, true);
+        updateThemeToggleUI('auto');
+    }
+}
+
+/**
+ * 启动自动主题定时器
+ */
 function scheduleAutoTheme() {
     if (themeAutoTimer) window.clearTimeout(themeAutoTimer);
+    
+    // 先检查一次当前是否需要切换
+    checkAndApplyAutoTheme();
+    
     // 下一次切换点：06:00 或 18:00（本地时间）
     const now = new Date();
     const next = new Date(now);
@@ -511,11 +536,44 @@ function scheduleAutoTheme() {
     themeAutoTimer = window.setTimeout(() => {
         const pref = getStoredThemePreference();
         if (pref === 'auto') {
-            applyTheme(resolveThemeFromPreference('auto'), true);
-            updateThemeToggleUI('auto');
-            scheduleAutoTheme();
+            checkAndApplyAutoTheme();
+            scheduleAutoTheme(); // 重新安排下一次
         }
     }, ms);
+}
+
+/**
+ * 启动定期检查机制（每分钟检查一次）
+ */
+function startThemeCheckInterval() {
+    if (themeCheckInterval) window.clearInterval(themeCheckInterval);
+    
+    const pref = getStoredThemePreference();
+    if (pref !== 'auto') return;
+    
+    // 每分钟检查一次当前时间，看是否需要切换主题
+    themeCheckInterval = window.setInterval(() => {
+        const pref = getStoredThemePreference();
+        if (pref === 'auto') {
+            checkAndApplyAutoTheme();
+        } else {
+            // 如果不是自动模式，停止定期检查
+            if (themeCheckInterval) {
+                window.clearInterval(themeCheckInterval);
+                themeCheckInterval = null;
+            }
+        }
+    }, 60 * 1000); // 每60秒检查一次
+}
+
+/**
+ * 停止定期检查
+ */
+function stopThemeCheckInterval() {
+    if (themeCheckInterval) {
+        window.clearInterval(themeCheckInterval);
+        themeCheckInterval = null;
+    }
 }
 
 function updateThemeToggleUI(pref) {
@@ -544,15 +602,41 @@ function cycleThemePreference() {
     setStoredThemePreference(next);
     applyTheme(resolveThemeFromPreference(next), true);
     updateThemeToggleUI(next);
-    if (next === 'auto') scheduleAutoTheme();
-    else if (themeAutoTimer) window.clearTimeout(themeAutoTimer);
+    if (next === 'auto') {
+        scheduleAutoTheme();
+        startThemeCheckInterval();
+    } else {
+        if (themeAutoTimer) window.clearTimeout(themeAutoTimer);
+        stopThemeCheckInterval();
+    }
 }
 
 function initThemeSystem() {
     const pref = getStoredThemePreference();
     applyTheme(resolveThemeFromPreference(pref), false);
     updateThemeToggleUI(pref);
-    if (pref === 'auto') scheduleAutoTheme();
+    if (pref === 'auto') {
+        scheduleAutoTheme();
+        startThemeCheckInterval();
+    }
+
+    // 页面可见性变化时检查主题（用户切回页面时）
+    document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) {
+            const pref = getStoredThemePreference();
+            if (pref === 'auto') {
+                checkAndApplyAutoTheme();
+            }
+        }
+    });
+
+    // 窗口获得焦点时也检查一次
+    window.addEventListener('focus', () => {
+        const pref = getStoredThemePreference();
+        if (pref === 'auto') {
+            checkAndApplyAutoTheme();
+        }
+    });
 
     const bind = (id) => {
         const btn = document.getElementById(id);
