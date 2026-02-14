@@ -615,23 +615,37 @@ function shareShoppingList() {
     }
     
     try {
-        // 准备分享数据（只包含必要信息）
-        const shareData = {
-            recipes: data.selectedRecipeIds.map(id => ({
-                id: id,
-                scale: data.recipeScales && data.recipeScales[id] ? data.recipeScales[id] : 1
-            })),
-            ingredients: data.ingredients.map(ing => ({
-                name: ing.name,
-                quantity: ing.quantity,
-                unit: ing.unit,
-                purchased: ing.purchased || false
-            }))
-        };
+        // 准备分享数据（使用紧凑格式）
+        // 食谱：[[id, scale], ...] 而不是 [{id, scale}, ...]
+        const recipes = data.selectedRecipeIds.map(id => [
+            id,
+            data.recipeScales && data.recipeScales[id] ? data.recipeScales[id] : 1
+        ]);
         
-        // 将数据编码为 JSON 字符串，然后进行 Base64 编码
+        // 食材：[[name, quantity, unit, purchased], ...] 而不是 [{name, quantity, unit, purchased}, ...]
+        const ingredients = data.ingredients.map(ing => [
+            ing.name,
+            ing.quantity,
+            ing.unit,
+            ing.purchased || false
+        ]);
+        
+        // 使用紧凑的数组格式
+        const shareData = [recipes, ingredients];
+        
+        // 将数据编码为 JSON 字符串
         const jsonString = JSON.stringify(shareData);
-        const encoded = btoa(encodeURIComponent(jsonString));
+        
+        // 使用 LZ-string 压缩（如果可用），否则使用 Base64
+        let encoded;
+        if (typeof LZString !== 'undefined') {
+            // LZ-string 压缩，然后进行 Base64URL 编码（URL 安全）
+            const compressed = LZString.compressToBase64(jsonString);
+            encoded = compressed;
+        } else {
+            // 降级方案：使用 Base64 编码
+            encoded = btoa(encodeURIComponent(jsonString));
+        }
         
         // 构建分享 URL
         const currentUrl = new URL(window.location.href);
@@ -729,14 +743,47 @@ function checkAndLoadSharedShoppingList() {
     }
     
     try {
-        // 解码 Base64 并解析 JSON
-        const decoded = decodeURIComponent(atob(shareData));
-        const data = JSON.parse(decoded);
+        // 解码数据（支持 LZ-string 压缩和 Base64）
+        let decoded;
+        if (typeof LZString !== 'undefined') {
+            try {
+                // 尝试使用 LZ-string 解压
+                decoded = LZString.decompressFromBase64(shareData);
+                if (!decoded) {
+                    // 如果解压失败，尝试 Base64 解码（兼容旧格式）
+                    decoded = decodeURIComponent(atob(shareData));
+                }
+            } catch (e) {
+                // 如果出错，使用 Base64 解码（兼容旧格式）
+                decoded = decodeURIComponent(atob(shareData));
+            }
+        } else {
+            // 降级方案：使用 Base64 解码
+            decoded = decodeURIComponent(atob(shareData));
+        }
         
-        if (!data || !data.recipes || !Array.isArray(data.recipes)) {
+        const parsed = JSON.parse(decoded);
+        
+        // 支持新旧两种格式
+        let recipes, ingredients;
+        if (Array.isArray(parsed) && parsed.length === 2) {
+            // 新格式：紧凑数组 [[recipes], [ingredients]]
+            recipes = parsed[0];
+            ingredients = parsed[1];
+        } else if (parsed.recipes && Array.isArray(parsed.recipes)) {
+            // 旧格式：对象 {recipes: [...], ingredients: [...]}
+            recipes = parsed.recipes;
+            ingredients = parsed.ingredients;
+        } else {
             console.warn('分享数据格式无效');
             showShareToast('分享链接无效', 'error');
-            // 清除 URL 参数
+            clearShareUrl();
+            return;
+        }
+        
+        if (!recipes || recipes.length === 0) {
+            console.warn('分享数据中没有食谱');
+            showShareToast('分享链接无效', 'error');
             clearShareUrl();
             return;
         }
@@ -748,8 +795,19 @@ function checkAndLoadSharedShoppingList() {
             return;
         }
         
+        // 解析食谱数据（支持新旧格式）
+        const recipeList = recipes.map(r => {
+            if (Array.isArray(r)) {
+                // 新格式：[id, scale]
+                return { id: r[0], scale: r[1] || 1 };
+            } else {
+                // 旧格式：{id, scale}
+                return { id: r.id, scale: r.scale || 1 };
+            }
+        });
+        
         // 验证食谱是否存在
-        const validRecipes = data.recipes.filter(r => {
+        const validRecipes = recipeList.filter(r => {
             const recipe = allRecipes.find(rec => rec.id === r.id);
             return recipe !== undefined;
         });
@@ -769,14 +827,35 @@ function checkAndLoadSharedShoppingList() {
         
         // 如果有食材数据，使用分享的食材（保留购买状态）
         // 否则从食谱重新收集
-        let ingredients;
-        if (data.ingredients && Array.isArray(data.ingredients) && data.ingredients.length > 0) {
+        let finalIngredients;
+        if (ingredients && Array.isArray(ingredients) && ingredients.length > 0) {
+            // 解析食材数据（支持新旧格式）
+            const ingredientList = ingredients.map(ing => {
+                if (Array.isArray(ing)) {
+                    // 新格式：[name, quantity, unit, purchased]
+                    return {
+                        name: ing[0],
+                        quantity: ing[1],
+                        unit: ing[2],
+                        purchased: ing[3] || false
+                    };
+                } else {
+                    // 旧格式：{name, quantity, unit, purchased}
+                    return {
+                        name: ing.name,
+                        quantity: ing.quantity,
+                        unit: ing.unit,
+                        purchased: ing.purchased || false
+                    };
+                }
+            });
+            
             // 使用分享的食材数据，但需要重新收集以确保数量正确（考虑分量比例）
             const collectedIngredients = collectIngredientsFromRecipes(selectedRecipeIds, allRecipes, recipeScales);
             
             // 合并分享的购买状态
             collectedIngredients.forEach(ing => {
-                const sharedIng = data.ingredients.find(
+                const sharedIng = ingredientList.find(
                     si => si.name === ing.name && si.unit === ing.unit
                 );
                 if (sharedIng) {
@@ -784,14 +863,14 @@ function checkAndLoadSharedShoppingList() {
                 }
             });
             
-            ingredients = collectedIngredients;
+            finalIngredients = collectedIngredients;
         } else {
             // 从食谱重新收集
-            ingredients = collectIngredientsFromRecipes(selectedRecipeIds, allRecipes, recipeScales);
+            finalIngredients = collectIngredientsFromRecipes(selectedRecipeIds, allRecipes, recipeScales);
         }
         
         // 保存到购物清单
-        saveShoppingList(ingredients, selectedRecipeIds, recipeScales);
+        saveShoppingList(finalIngredients, selectedRecipeIds, recipeScales);
         
         // 显示成功提示
         showShareToast(`已加载 ${validRecipes.length} 个食谱的购物清单`, 'success');
