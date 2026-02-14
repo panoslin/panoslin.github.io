@@ -23,6 +23,22 @@ function loadShoppingListPage() {
         return;
     }
     
+    // 检查是否有分享链接，如果有则先加载分享的购物清单
+    if (typeof loadSharedShoppingList === 'function') {
+        const sharedLoaded = loadSharedShoppingList();
+        // 如果成功加载了分享的购物清单，需要重新渲染页面
+        if (sharedLoaded) {
+            // 等待一下让数据保存完成
+            setTimeout(() => {
+                renderShoppingList();
+                updateStats();
+                renderShoppingListSidebar();
+                renderShoppingNutritionSummary();
+            }, 100);
+            return;
+        }
+    }
+    
     renderShoppingList();
     updateStats();
     renderShoppingListSidebar();

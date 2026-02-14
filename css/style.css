@@ -2163,6 +2163,18 @@ html[data-theme="dark"] .instructions-list li:hover {
     transform: translateY(0);
 }
 
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: var(--apple-white);
+    border: none;
+    box-shadow: var(--shadow-spring-green);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
 .btn-secondary {
     background: var(--bg-primary);
     color: var(--text-primary);
@@ -2295,6 +2307,13 @@ html[data-theme="dark"] .instructions-list li:hover {
     .back-home-btn {
         padding: var(--spacing-1) var(--spacing-2); /* 减少按钮内边距 */
         font-size: var(--text-xs); /* 减小字体 */
+    }
+    
+    /* 修复移动端 theme-toggle 与 mobile-sidebar-toggle-right 重叠问题 */
+    /* mobile-sidebar-toggle-right: 宽度 40px + right: var(--spacing-4) (16px) = 56px */
+    /* 需要为 theme-toggle 留出空间：56px + 间距 8px = 64px */
+    .theme-toggle {
+        right: calc(40px + var(--spacing-4) + var(--spacing-2)); /* 64px */
     }
     /* 小屏：列数自动，但列宽再缩小一些 */
     .recipes-grid {
@@ -2829,12 +2848,58 @@ html[data-theme="dark"] .instructions-list li:hover {
 .shopping-list-actions {
     display: flex;
     gap: var(--spacing-3);
+    flex-wrap: wrap;
 }
 
 .shopping-list-content {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-6);
+}
+
+/* 分享提示消息 */
+.share-toast {
+    position: fixed;
+    bottom: var(--spacing-6);
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    padding: var(--spacing-4) var(--spacing-6);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-xl);
+    z-index: 10000;
+    font-size: var(--text-base);
+    font-weight: var(--font-medium);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    backdrop-filter: blur(14px) saturate(160%);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+}
+
+.share-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+}
+
+.share-toast-success {
+    background: linear-gradient(135deg, rgba(58, 157, 110, 0.15) 0%, rgba(58, 143, 196, 0.15) 100%);
+    border-color: var(--border-spring);
+    color: var(--text-primary);
+}
+
+/* 暗色模式下分享提示消息 */
+html[data-theme="dark"] .share-toast {
+    background: var(--bg-glass);
+    border-color: var(--border-medium);
+}
+
+html[data-theme="dark"] .share-toast-success {
+    background: linear-gradient(135deg, rgba(58, 157, 110, 0.25) 0%, rgba(58, 143, 196, 0.25) 100%);
+    border-color: var(--border-spring);
 }
 
 /* 购物清单分类 */
