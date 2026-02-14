@@ -893,6 +893,29 @@ body::before {
     z-index: 1;
 }
 
+/* 移动端优化分类区域间距 */
+@media (max-width: 768px) {
+    .category-section {
+        margin-bottom: var(--spacing-5); /* 减少底部间距 */
+    }
+    
+    .category-title {
+        font-size: var(--text-lg); /* 稍微减小标题 */
+        margin-bottom: var(--spacing-3);
+    }
+}
+
+@media (max-width: 480px) {
+    .category-section {
+        margin-bottom: var(--spacing-4);
+    }
+    
+    .category-title {
+        font-size: var(--text-base);
+        margin-bottom: var(--spacing-2);
+    }
+}
+
 .category-title {
     font-size: var(--text-xl);
     font-weight: var(--font-semibold);
@@ -947,6 +970,19 @@ body::before {
     padding: 0 var(--container-padding) var(--spacing-12);
     position: relative;
     z-index: 1;
+}
+
+/* 移动端优化主内容区域顶部间距 */
+@media (max-width: 768px) {
+    .main-content {
+        padding-top: var(--spacing-4); /* 减少顶部间距，与紧凑 header 匹配 */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding-top: var(--spacing-3);
+    }
 }
 
 /* 内容布局容器（CSS Grid） */
@@ -2321,55 +2357,72 @@ html[data-theme="dark"] .share-toast-error {
 @media (max-width: 768px) {
     /* Header 高度优化 - 减少移动端占用空间 */
     :root {
-        --header-height: 60px; /* 移动端减少 header 高度 */
+        --header-height: 50px; /* 移动端进一步减少 header 高度 */
     }
 
     .header {
-        padding: var(--spacing-3) 0; /* 减少上下内边距 */
+        padding: var(--spacing-2) 0; /* 进一步减少上下内边距 */
     }
 
-    /* Header 布局优化 */
+    /* Header 布局优化 - 紧凑的单行布局 */
     .header-content {
         position: relative;
-        padding-top: calc(var(--spacing-2) + 44px); /* 减少顶部内边距，为触发按钮留空间 */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 var(--container-padding);
+        min-height: 50px;
     }
 
+    /* Logo 和标题横向排列 */
     .header-logo-title {
-        gap: var(--spacing-2); /* 减少 logo 和标题之间的间距 */
+        display: flex;
+        flex-direction: row; /* 横向排列 */
+        align-items: center;
+        gap: var(--spacing-2); /* 减少间距 */
+        flex: 1;
         justify-content: center;
-        margin-bottom: var(--spacing-1); /* 减少底部边距 */
+        margin: 0;
+        padding: 0 var(--spacing-4); /* 为左右按钮留空间 */
     }
     
     .site-logo {
-        width: 40px; /* 减小 logo 尺寸 */
-        height: 40px;
+        width: 32px; /* 进一步减小 logo 尺寸 */
+        height: 32px;
+        padding: var(--spacing-1); /* 减少内边距 */
     }
     
     .header h1 {
-        font-size: var(--text-2xl); /* 减小标题字体 */
+        font-size: var(--text-lg); /* 减小标题字体 */
         margin: 0;
+        line-height: 1.2;
+        white-space: nowrap; /* 防止换行 */
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     
-    .header p {
-        font-size: var(--text-sm); /* 减小描述文字 */
-        margin: 0;
-        line-height: 1.4;
+    /* 移动端隐藏副标题 */
+    .header-subtitle {
+        display: none;
     }
     
     .header-top {
-        margin-bottom: var(--spacing-2); /* 减少顶部区域边距 */
-    }
-    
-    .back-home-btn {
-        padding: var(--spacing-1) var(--spacing-2); /* 减少按钮内边距 */
-        font-size: var(--text-xs); /* 减小字体 */
+        display: none; /* 移动端隐藏返回按钮（在 menu-bar 中已有） */
     }
     
     /* 修复移动端 theme-toggle 与 mobile-sidebar-toggle-right 重叠问题 */
     /* mobile-sidebar-toggle-right: 宽度 40px + right: var(--spacing-4) (16px) = 56px */
     /* 需要为 theme-toggle 留出空间：56px + 间距 8px = 64px */
     .theme-toggle {
+        position: absolute;
         right: calc(40px + var(--spacing-4) + var(--spacing-2)); /* 64px */
+        top: 50%;
+        transform: translateY(-50%);
+        padding: var(--spacing-1) var(--spacing-2);
+    }
+    
+    .theme-toggle .theme-label {
+        display: none; /* 移动端只显示图标 */
     }
     /* 小屏：列数自动，但列宽再缩小一些 */
     .recipes-grid {
@@ -2390,14 +2443,15 @@ html[data-theme="dark"] .share-toast-error {
         border-radius: var(--radius-xl);
     }
     
+    /* 详情页和购物清单页的 header 保持横向布局 */
     .header-logo-title {
         gap: var(--spacing-2);
-        flex-direction: column;
+        flex-direction: row; /* 保持横向 */
     }
     
     .site-logo {
-        width: 48px;
-        height: 48px;
+        width: 32px;
+        height: 32px;
     }
     
     .recipe-detail-title {
@@ -2425,44 +2479,65 @@ html[data-theme="dark"] .share-toast-error {
 @media (max-width: 480px) {
     :root {
         --container-padding: var(--spacing-4);
-        --header-height: 56px; /* 超小屏幕进一步减少高度 */
+        --header-height: 48px; /* 超小屏幕进一步减少高度 */
     }
     
     .header {
-        padding: var(--spacing-2) 0; /* 进一步减少内边距 */
+        padding: var(--spacing-1) 0; /* 最小化内边距 */
     }
     
     .header-content {
-        padding-top: calc(var(--spacing-1) + 44px); /* 最小化顶部内边距 */
+        min-height: 48px;
+        padding: 0 var(--spacing-3); /* 减少左右内边距 */
     }
 
     .header-logo-title {
-        gap: var(--spacing-2);
-        margin-bottom: 0; /* 移除底部边距 */
+        gap: var(--spacing-1); /* 最小化间距 */
+        padding: 0 var(--spacing-3);
     }
     
     .site-logo {
-        width: 36px; /* 进一步减小 logo */
-        height: 36px;
+        width: 28px; /* 进一步减小 logo */
+        height: 28px;
+        padding: 2px; /* 最小化内边距 */
     }
     
     .header h1 {
-        font-size: var(--text-xl); /* 进一步减小标题 */
+        font-size: var(--text-base); /* 进一步减小标题 */
         line-height: 1.2;
     }
     
-    .header p {
-        font-size: var(--text-xs); /* 进一步减小描述 */
-        line-height: 1.3;
-        margin-top: var(--spacing-1);
+    /* 副标题在超小屏也保持隐藏 */
+    .header-subtitle {
+        display: none;
     }
 
     .header-top {
-        margin-bottom: var(--spacing-1); /* 最小化顶部区域边距 */
+        display: none; /* 保持隐藏 */
+    }
+    
+    /* 超小屏进一步优化按钮位置 */
+    .mobile-sidebar-toggle {
+        width: 36px;
+        height: 36px;
+        top: var(--spacing-1);
+    }
+    
+    .mobile-sidebar-toggle-left {
+        left: var(--spacing-3);
+    }
+    
+    .mobile-sidebar-toggle-right {
+        right: var(--spacing-3);
+    }
+    
+    .theme-toggle {
+        right: calc(36px + var(--spacing-3) + var(--spacing-1));
+        padding: var(--spacing-1);
     }
     
     .search-section {
-        margin: var(--spacing-5) auto var(--spacing-4);
+        margin: var(--spacing-4) auto var(--spacing-3); /* 减少上边距，与紧凑 header 匹配 */
     }
     /* 超小屏：固定单列，按行从上到下展示 */
     .recipes-grid {
@@ -3233,6 +3308,66 @@ html[data-theme="dark"] .source-recipe-tag:hover {
     .shopping-ingredient-item.swiped-open .ingredient-item-content {
         transform: translateX(-100px);
     }
+    
+    /* 移动端紧凑布局优化 */
+    .shopping-ingredient-item {
+        border-radius: var(--radius-sm); /* 减小圆角 */
+        margin-bottom: var(--spacing-2); /* 减少卡片间距 */
+    }
+    
+    /* 减少内容容器内边距 */
+    .ingredient-item-content {
+        padding: var(--spacing-2) var(--spacing-3); /* 从 spacing-3 spacing-4 减少 */
+        gap: var(--spacing-2); /* 从 spacing-3 减少 */
+    }
+    
+    /* 减小复选框尺寸 */
+    .checkbox-custom {
+        width: 20px;
+        height: 20px;
+        border-width: 1.5px;
+    }
+    
+    .ingredient-checkbox:checked + .checkbox-custom::after {
+        font-size: var(--text-sm);
+    }
+    
+    /* 优化食材信息布局 */
+    .ingredient-info {
+        gap: var(--spacing-1); /* 从 spacing-2 减少 */
+    }
+    
+    .ingredient-main-info {
+        gap: 2px; /* 从 spacing-1 减少 */
+    }
+    
+    /* 优化食材名称和数量 */
+    .ingredient-name {
+        font-size: var(--text-sm);
+        line-height: 1.3; /* 更紧凑的行高 */
+    }
+    
+    .ingredient-quantity {
+        font-size: var(--text-xs);
+        line-height: 1.2;
+    }
+    
+    /* 优化食材来源显示 - 更紧凑 */
+    .ingredient-sources {
+        margin-top: 0; /* 移除顶部边距 */
+        gap: var(--spacing-1); /* 从 spacing-2 减少 */
+    }
+    
+    .sources-label {
+        font-size: 10px; /* 更小的标签 */
+        margin-bottom: 0;
+    }
+    
+    .source-recipe-tag {
+        padding: 1px 6px; /* 从 2px 8px 减少 */
+        font-size: 10px; /* 从 text-xs 进一步减小 */
+        border-radius: var(--radius-xs);
+    }
 }
 
 /* 空状态 */
@@ -3265,53 +3400,139 @@ html[data-theme="dark"] .source-recipe-tag:hover {
     .shopping-list-header {
         flex-direction: column;
         align-items: stretch;
+        padding: var(--spacing-3); /* 从 spacing-5 减少 */
+        margin-bottom: var(--spacing-4); /* 从 spacing-6 减少 */
+        border-radius: var(--radius-lg); /* 从 radius-xl 减小 */
+        gap: var(--spacing-3); /* 从 spacing-4 减少 */
     }
     
     .shopping-list-stats {
         justify-content: space-around;
+        gap: var(--spacing-3); /* 从 spacing-6 减少 */
+    }
+    
+    .stat-item {
+        gap: 2px; /* 从 spacing-1 减少 */
+    }
+    
+    .stat-label {
+        font-size: var(--text-xs); /* 从 text-sm 减小 */
+    }
+    
+    .stat-value {
+        font-size: var(--text-xl); /* 从 text-2xl 减小 */
     }
     
     .shopping-list-actions {
         flex-direction: column;
+        gap: var(--spacing-2); /* 减少按钮间距 */
     }
     
     .shopping-list-actions .btn {
         width: 100%;
+        padding: var(--spacing-2) var(--spacing-3); /* 减少按钮内边距 */
+        font-size: var(--text-sm); /* 减小按钮字体 */
     }
     
     .shopping-category {
-        padding: var(--spacing-4);
+        padding: var(--spacing-3); /* 从 spacing-4 减少 */
+        border-radius: var(--radius-lg); /* 从 radius-xl 减小 */
+        margin-bottom: var(--spacing-3); /* 减少分类之间的间距 */
+    }
+    
+    .shopping-category-title {
+        font-size: var(--text-lg); /* 从 text-xl 减小 */
+        margin-bottom: var(--spacing-2); /* 从 spacing-4 减少 */
+        padding-bottom: var(--spacing-2); /* 从 spacing-3 减少 */
+    }
+    
+    .category-icon {
+        font-size: var(--text-xl); /* 从 text-2xl 减小 */
+    }
+    
+    .shopping-list-content {
+        gap: var(--spacing-4); /* 从 spacing-6 减少 */
+    }
+    
+    /* 超小屏进一步优化 */
+    .shopping-list-header {
+        padding: var(--spacing-2);
+        margin-bottom: var(--spacing-3);
+        gap: var(--spacing-2);
+    }
+    
+    .shopping-list-stats {
+        gap: var(--spacing-2);
+    }
+    
+    .stat-label {
+        font-size: 10px;
+    }
+    
+    .stat-value {
+        font-size: var(--text-lg);
+    }
+    
+    .shopping-list-actions .btn {
+        padding: var(--spacing-1) var(--spacing-2);
+        font-size: var(--text-xs);
+    }
+    
+    .shopping-category {
+        padding: var(--spacing-2); /* 进一步减少内边距 */
+        margin-bottom: var(--spacing-2);
+    }
+    
+    .shopping-category-title {
+        font-size: var(--text-base);
+        margin-bottom: var(--spacing-1);
+        padding-bottom: var(--spacing-1);
+    }
+    
+    .category-icon {
+        font-size: var(--text-lg);
+    }
+    
+    .shopping-list-content {
+        gap: var(--spacing-3);
     }
     
     .shopping-ingredient-item {
-        padding: var(--spacing-2) var(--spacing-3);
+        margin-bottom: var(--spacing-1); /* 进一步减少间距 */
     }
     
-    .ingredient-info {
-        min-width: 0;
+    .ingredient-item-content {
+        padding: var(--spacing-1) var(--spacing-2); /* 最小化内边距 */
+        gap: var(--spacing-1);
+    }
+    
+    .checkbox-custom {
+        width: 18px;
+        height: 18px;
     }
     
     .ingredient-name {
-        font-size: var(--text-sm);
-        word-break: break-word;
+        font-size: var(--text-xs); /* 进一步减小 */
+        line-height: 1.25;
     }
     
     .ingredient-quantity {
-        font-size: var(--text-xs);
+        font-size: 10px; /* 进一步减小 */
     }
     
+    /* 超小屏优化食材来源显示 - 保持显示但更紧凑 */
     .ingredient-sources {
-        flex-direction: column;
-        align-items: flex-start;
+        margin-top: 2px; /* 最小化顶部边距 */
+        gap: 4px; /* 进一步减少间距 */
     }
     
     .sources-label {
-        margin-bottom: var(--spacing-1);
+        font-size: 9px; /* 进一步减小标签字体 */
     }
     
     .source-recipe-tag {
-        max-width: 100%;
-        font-size: var(--text-xs);
+        padding: 1px 4px; /* 进一步减少内边距 */
+        font-size: 9px; /* 进一步减小字体 */
     }
 }
 
@@ -3576,6 +3797,19 @@ html[data-theme="dark"] .selected-recipe-link:hover {
     align-items: center;
     justify-content: center;
     padding: 0;
+}
+
+/* 移动端优化：按钮与 header 对齐 */
+@media (max-width: 768px) {
+    .mobile-sidebar-toggle {
+        top: calc((var(--header-height) - 40px) / 2); /* 垂直居中 */
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-sidebar-toggle {
+        top: calc((var(--header-height) - 36px) / 2); /* 垂直居中 */
+    }
 }
 
 .mobile-sidebar-toggle:hover {
