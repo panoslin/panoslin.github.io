@@ -4,6 +4,16 @@
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', function() {
+    // 检查是否有分享数据，如果有则先加载分享数据，然后再加载页面
+    const urlParams = new URLSearchParams(window.location.search);
+    const shareData = urlParams.get('share');
+    
+    if (shareData) {
+        // 有分享数据，先加载分享数据
+        checkAndLoadSharedShoppingList();
+    }
+    
+    // 加载购物清单页面（会在分享数据加载完成后自动触发重新渲染）
     loadShoppingListPage();
 });
 
@@ -21,22 +31,6 @@ function loadShoppingListPage() {
     if (typeof loadShoppingList === 'undefined' || typeof getShoppingListStats === 'undefined') {
         setTimeout(loadShoppingListPage, 100);
         return;
-    }
-    
-    // 检查是否有分享链接，如果有则先加载分享的购物清单
-    if (typeof loadSharedShoppingList === 'function') {
-        const sharedLoaded = loadSharedShoppingList();
-        // 如果成功加载了分享的购物清单，需要重新渲染页面
-        if (sharedLoaded) {
-            // 等待一下让数据保存完成
-            setTimeout(() => {
-                renderShoppingList();
-                updateStats();
-                renderShoppingListSidebar();
-                renderShoppingNutritionSummary();
-            }, 100);
-            return;
-        }
     }
     
     renderShoppingList();
@@ -605,4 +599,226 @@ function markAllUnpurchased() {
     renderShoppingList();
     updateStats();
     renderShoppingListSidebar();
+}
+
+/**
+ * 分享购物清单
+ * 将购物清单数据编码到 URL 并复制到剪贴板
+ */
+function shareShoppingList() {
+    const data = loadShoppingList();
+    
+    // 检查是否有数据可分享
+    if (!data || !data.selectedRecipeIds || data.selectedRecipeIds.length === 0) {
+        showShareToast('购物清单为空，无法分享', 'error');
+        return;
+    }
+    
+    try {
+        // 准备分享数据（只包含必要信息）
+        const shareData = {
+            recipes: data.selectedRecipeIds.map(id => ({
+                id: id,
+                scale: data.recipeScales && data.recipeScales[id] ? data.recipeScales[id] : 1
+            })),
+            ingredients: data.ingredients.map(ing => ({
+                name: ing.name,
+                quantity: ing.quantity,
+                unit: ing.unit,
+                purchased: ing.purchased || false
+            }))
+        };
+        
+        // 将数据编码为 JSON 字符串，然后进行 Base64 编码
+        const jsonString = JSON.stringify(shareData);
+        const encoded = btoa(encodeURIComponent(jsonString));
+        
+        // 构建分享 URL
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('share', encoded);
+        const shareUrl = currentUrl.toString();
+        
+        // 复制到剪贴板
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                showShareToast('分享链接已复制到剪贴板', 'success');
+            }).catch(err => {
+                console.error('复制失败:', err);
+                // 降级方案：使用传统方法
+                fallbackCopyToClipboard(shareUrl);
+            });
+        } else {
+            // 降级方案：使用传统方法
+            fallbackCopyToClipboard(shareUrl);
+        }
+    } catch (error) {
+        console.error('分享失败:', error);
+        showShareToast('分享失败，请重试', 'error');
+    }
+}
+
+/**
+ * 降级方案：使用传统方法复制到剪贴板
+ */
+function fallbackCopyToClipboard(text) {
+    const textArea = document.createElement('textarea');
+    textArea.value = text;
+    textArea.style.position = 'fixed';
+    textArea.style.left = '-999999px';
+    textArea.style.top = '-999999px';
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            showShareToast('分享链接已复制到剪贴板', 'success');
+        } else {
+            showShareToast('复制失败，请手动复制链接', 'error');
+        }
+    } catch (err) {
+        console.error('复制失败:', err);
+        showShareToast('复制失败，请手动复制链接', 'error');
+    } finally {
+        document.body.removeChild(textArea);
+    }
+}
+
+/**
+ * 显示分享提示消息
+ */
+function showShareToast(message, type = 'success') {
+    // 移除已存在的提示
+    const existingToast = document.querySelector('.share-toast');
+    if (existingToast) {
+        existingToast.remove();
+    }
+    
+    // 创建新的提示元素
+    const toast = document.createElement('div');
+    toast.className = `share-toast share-toast-${type}`;
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    
+    // 触发显示动画
+    requestAnimationFrame(() => {
+        toast.classList.add('show');
+    });
+    
+    // 3秒后自动隐藏
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => {
+            if (toast.parentNode) {
+                toast.parentNode.removeChild(toast);
+            }
+        }, 300);
+    }, 3000);
+}
+
+/**
+ * 检查并加载分享的购物清单
+ */
+function checkAndLoadSharedShoppingList() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const shareData = urlParams.get('share');
+    
+    if (!shareData) {
+        return; // 没有分享数据，正常加载
+    }
+    
+    try {
+        // 解码 Base64 并解析 JSON
+        const decoded = decodeURIComponent(atob(shareData));
+        const data = JSON.parse(decoded);
+        
+        if (!data || !data.recipes || !Array.isArray(data.recipes)) {
+            console.warn('分享数据格式无效');
+            showShareToast('分享链接无效', 'error');
+            // 清除 URL 参数
+            clearShareUrl();
+            return;
+        }
+        
+        // 检查是否已加载食谱数据
+        if (typeof allRecipes === 'undefined' || !allRecipes || allRecipes.length === 0) {
+            // 等待食谱数据加载
+            setTimeout(checkAndLoadSharedShoppingList, 100);
+            return;
+        }
+        
+        // 验证食谱是否存在
+        const validRecipes = data.recipes.filter(r => {
+            const recipe = allRecipes.find(rec => rec.id === r.id);
+            return recipe !== undefined;
+        });
+        
+        if (validRecipes.length === 0) {
+            showShareToast('分享的食谱不存在', 'error');
+            clearShareUrl();
+            return;
+        }
+        
+        // 构建购物清单数据
+        const selectedRecipeIds = validRecipes.map(r => r.id);
+        const recipeScales = {};
+        validRecipes.forEach(r => {
+            recipeScales[r.id] = normalizeScale(r.scale || 1);
+        });
+        
+        // 如果有食材数据，使用分享的食材（保留购买状态）
+        // 否则从食谱重新收集
+        let ingredients;
+        if (data.ingredients && Array.isArray(data.ingredients) && data.ingredients.length > 0) {
+            // 使用分享的食材数据，但需要重新收集以确保数量正确（考虑分量比例）
+            const collectedIngredients = collectIngredientsFromRecipes(selectedRecipeIds, allRecipes, recipeScales);
+            
+            // 合并分享的购买状态
+            collectedIngredients.forEach(ing => {
+                const sharedIng = data.ingredients.find(
+                    si => si.name === ing.name && si.unit === ing.unit
+                );
+                if (sharedIng) {
+                    ing.purchased = sharedIng.purchased || false;
+                }
+            });
+            
+            ingredients = collectedIngredients;
+        } else {
+            // 从食谱重新收集
+            ingredients = collectIngredientsFromRecipes(selectedRecipeIds, allRecipes, recipeScales);
+        }
+        
+        // 保存到购物清单
+        saveShoppingList(ingredients, selectedRecipeIds, recipeScales);
+        
+        // 显示成功提示
+        showShareToast(`已加载 ${validRecipes.length} 个食谱的购物清单`, 'success');
+        
+        // 清除 URL 参数，避免刷新时重复加载
+        clearShareUrl();
+        
+        // 重新渲染页面以显示加载的分享数据
+        if (typeof renderShoppingList === 'function') {
+            renderShoppingList();
+            updateStats();
+            renderShoppingListSidebar();
+            renderShoppingNutritionSummary();
+        }
+        
+    } catch (error) {
+        console.error('解析分享数据失败:', error);
+        showShareToast('分享链接无效或已损坏', 'error');
+        clearShareUrl();
+    }
+}
+
+/**
+ * 清除 URL 中的分享参数
+ */
+function clearShareUrl() {
+    const url = new URL(window.location.href);
+    url.searchParams.delete('share');
+    window.history.replaceState({}, '', url.toString());
 }
