@@ -95,9 +95,7 @@ function renderShoppingList() {
     container.innerHTML = html;
     
     // 初始化滑动删除功能
-    if (typeof initSwipeToDelete === 'function') {
-        initSwipeToDelete();
-    }
+    initSwipeToDelete();
 }
 
 /**
@@ -146,9 +144,9 @@ function renderIngredientItem(ingredient) {
                 </div>
             </div>
             <div class="ingredient-delete-action" 
-                 onclick="removeIngredientFromList('${key}')">
-                <span class="delete-icon">🗑️</span>
-                <span class="delete-text">删除</span>
+                 onclick="handleSwipeRemovePurchased('${key}', this.closest('.shopping-ingredient-item'))">
+                <span class="delete-icon">${purchased ? '↩️' : '✓'}</span>
+                <span class="delete-text">${purchased ? '移除已购' : '标记已购'}</span>
             </div>
         </li>
     `;
@@ -900,4 +898,260 @@ function clearShareUrl() {
     const url = new URL(window.location.href);
     url.searchParams.delete('share');
     window.history.replaceState({}, '', url.toString());
+}
+
+/**
+ * 初始化滑动删除功能（移动端）
+ */
+function initSwipeToDelete() {
+    // 只在移动端启用
+    if (window.innerWidth > 768) {
+        return;
+    }
+    
+    const items = document.querySelectorAll('.shopping-ingredient-item');
+    
+    items.forEach(item => {
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let isSwiping = false;
+        let currentX = 0;
+        let startTime = 0;
+        
+        const content = item.querySelector('.ingredient-item-content');
+        const deleteAction = item.querySelector('.ingredient-delete-action');
+        
+        if (!content || !deleteAction) return;
+        
+        // 触摸开始
+        item.addEventListener('touchstart', (e) => {
+            if (e.touches.length !== 1) return;
+            
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+            startTime = Date.now();
+            isSwiping = false;
+            currentX = 0;
+        }, { passive: true });
+        
+        // 触摸移动
+        item.addEventListener('touchmove', (e) => {
+            if (e.touches.length !== 1) return;
+            
+            const touchX = e.touches[0].clientX;
+            const touchY = e.touches[0].clientY;
+            
+            const deltaX = touchX - touchStartX;
+            const deltaY = touchY - touchStartY;
+            
+            // 判断是否为水平滑动
+            if (!isSwiping && Math.abs(deltaX) > 10 && Math.abs(deltaX) > Math.abs(deltaY)) {
+                isSwiping = true;
+            }
+            
+            if (isSwiping) {
+                e.preventDefault();
+                
+                // 只允许向左滑动
+                if (deltaX < 0) {
+                    currentX = Math.max(deltaX, -100);
+                    content.style.transform = `translateX(${currentX}px)`;
+                    deleteAction.style.opacity = Math.min(Math.abs(currentX) / 100, 1).toString();
+                }
+            }
+        }, { passive: false });
+        
+        // 触摸结束
+        item.addEventListener('touchend', () => {
+            if (!isSwiping) return;
+            
+            // 如果滑动超过阈值，执行操作
+            if (currentX < -50) {
+                item.classList.add('swiped-open');
+                content.style.transform = 'translateX(-100px)';
+                deleteAction.style.opacity = '1';
+                
+                // 执行移除已购操作
+                const ingredientKey = item.getAttribute('data-ingredient-key');
+                if (ingredientKey) {
+                    handleSwipeRemovePurchased(ingredientKey, item);
+                }
+            } else {
+                // 恢复原状
+                item.classList.remove('swiped-open');
+                content.style.transform = '';
+                deleteAction.style.opacity = '0';
+            }
+            
+            isSwiping = false;
+            currentX = 0;
+        }, { passive: true });
+        
+        // 触摸取消
+        item.addEventListener('touchcancel', () => {
+            if (isSwiping) {
+                item.classList.remove('swiped-open');
+                content.style.transform = '';
+                deleteAction.style.opacity = '0';
+            }
+            isSwiping = false;
+            currentX = 0;
+        }, { passive: true });
+        
+        // 点击删除区域
+        deleteAction.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const ingredientKey = item.getAttribute('data-ingredient-key');
+            if (ingredientKey) {
+                handleSwipeRemovePurchased(ingredientKey, item);
+            }
+        });
+    });
+}
+
+/**
+ * 处理滑动移除已购食材
+ */
+function handleSwipeRemovePurchased(ingredientKey, itemElement) {
+    const data = loadShoppingList();
+    const ingredient = data.ingredients.find(ing => {
+        const key = `${ing.name}_${ing.unit}`;
+        return key === ingredientKey;
+    });
+    
+    if (!ingredient) return;
+    
+    // 保存移除前的状态（用于撤回）
+    const undoData = {
+        ingredientKey: ingredientKey,
+        wasPurchased: ingredient.purchased || false,
+        timestamp: Date.now()
+    };
+    
+    // 如果已购买，则移除（标记为未购买）
+    if (ingredient.purchased) {
+        ingredient.purchased = false;
+        saveShoppingList(data.ingredients, data.selectedRecipeIds, data.recipeScales);
+        
+        // 显示撤回提示
+        showUndoToast(ingredient.name, undoData);
+        
+        // 重新渲染
+        renderShoppingList();
+        updateStats();
+        renderShoppingListSidebar();
+    } else {
+        // 如果未购买，则标记为已购买
+        ingredient.purchased = true;
+        saveShoppingList(data.ingredients, data.selectedRecipeIds, data.recipeScales);
+        
+        // 显示撤回提示
+        showUndoToast(ingredient.name, undoData);
+        
+        // 重新渲染
+        renderShoppingList();
+        updateStats();
+        renderShoppingListSidebar();
+    }
+    
+    // 恢复卡片状态
+    itemElement.classList.remove('swiped-open');
+    const content = itemElement.querySelector('.ingredient-item-content');
+    if (content) {
+        content.style.transform = '';
+    }
+    const deleteAction = itemElement.querySelector('.ingredient-delete-action');
+    if (deleteAction) {
+        deleteAction.style.opacity = '0';
+    }
+}
+
+/**
+ * 显示撤回提示
+ */
+let undoTimeout = null;
+let currentUndoData = null;
+
+function showUndoToast(ingredientName, undoData) {
+    // 清除之前的提示
+    const existingToast = document.getElementById('undo-toast');
+    if (existingToast) {
+        existingToast.remove();
+    }
+    
+    // 清除之前的定时器
+    if (undoTimeout) {
+        clearTimeout(undoTimeout);
+    }
+    
+    // 保存撤回数据
+    currentUndoData = undoData;
+    
+    // 创建提示元素
+    const toast = document.createElement('div');
+    toast.id = 'undo-toast';
+    toast.className = 'undo-toast';
+    toast.innerHTML = `
+        <span class="undo-toast-text">${ingredientName} 已${undoData.wasPurchased ? '移除' : '标记为已购'}</span>
+        <button class="undo-toast-btn" onclick="undoRemovePurchased()" aria-label="撤回">
+            <img src="image.png" alt="撤回" class="undo-icon">
+        </button>
+    `;
+    
+    document.body.appendChild(toast);
+    
+    // 显示动画
+    setTimeout(() => {
+        toast.classList.add('show');
+    }, 10);
+    
+    // 5秒后自动隐藏
+    undoTimeout = setTimeout(() => {
+        hideUndoToast();
+    }, 5000);
+}
+
+/**
+ * 隐藏撤回提示
+ */
+function hideUndoToast() {
+    const toast = document.getElementById('undo-toast');
+    if (toast) {
+        toast.classList.remove('show');
+        setTimeout(() => {
+            toast.remove();
+        }, 300);
+    }
+    currentUndoData = null;
+    if (undoTimeout) {
+        clearTimeout(undoTimeout);
+        undoTimeout = null;
+    }
+}
+
+/**
+ * 撤回移除操作
+ */
+function undoRemovePurchased() {
+    if (!currentUndoData) return;
+    
+    const data = loadShoppingList();
+    const ingredient = data.ingredients.find(ing => {
+        const key = `${ing.name}_${ing.unit}`;
+        return key === currentUndoData.ingredientKey;
+    });
+    
+    if (ingredient) {
+        // 恢复之前的状态
+        ingredient.purchased = currentUndoData.wasPurchased;
+        saveShoppingList(data.ingredients, data.selectedRecipeIds, data.recipeScales);
+        
+        // 重新渲染
+        renderShoppingList();
+        updateStats();
+        renderShoppingListSidebar();
+    }
+    
+    // 隐藏提示
+    hideUndoToast();
 }

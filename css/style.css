@@ -3115,6 +3115,24 @@ html[data-theme="dark"] .shopping-ingredient-item.purchased .ingredient-quantity
     background: var(--spring-pink-600);
 }
 
+/* 已购买状态的操作区域 - 显示为"移除已购" */
+.shopping-ingredient-item.purchased .ingredient-delete-action {
+    background: var(--spring-blue-500);
+}
+
+.shopping-ingredient-item.purchased .ingredient-delete-action:active {
+    background: var(--spring-blue-600);
+}
+
+/* 未购买状态的操作区域 - 显示为"标记已购" */
+.shopping-ingredient-item:not(.purchased) .ingredient-delete-action {
+    background: var(--spring-green-500);
+}
+
+.shopping-ingredient-item:not(.purchased) .ingredient-delete-action:active {
+    background: var(--spring-green-600);
+}
+
 .delete-icon {
     font-size: var(--text-xl);
 }
@@ -3295,21 +3313,126 @@ html[data-theme="dark"] .source-recipe-tag:hover {
     font-size: var(--text-base);
 }
 
-/* 移动端隐藏传统删除按钮，使用滑动删除 */
+/* 移动端隐藏传统删除按钮和checkbox，使用滑动操作 */
 @media (max-width: 768px) {
     .ingredient-delete-btn {
         display: none;
     }
     
+    /* 隐藏移动端的 checkbox，使用左滑操作替代 */
+    .ingredient-checkbox-label {
+        display: none;
+    }
+    
+    /* 左滑操作区域 */
     .ingredient-delete-action {
         width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--spacing-1);
     }
     
     .shopping-ingredient-item.swiped-open .ingredient-item-content {
         transform: translateX(-100px);
     }
+}
+
+/* ============================================
+   撤回提示样式
+   ============================================ */
+
+.undo-toast {
+    position: fixed;
+    bottom: max(20px, env(safe-area-inset-bottom));
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--bg-glass);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-3) var(--spacing-4);
+    box-shadow: var(--shadow-xl);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    z-index: calc(var(--z-modal) + 10);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 280px;
+    max-width: 90vw;
+}
+
+.undo-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.undo-toast-text {
+    flex: 1;
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+    font-weight: var(--font-medium);
+}
+
+.undo-toast-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: var(--primary-color);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    flex-shrink: 0;
+}
+
+.undo-toast-btn:hover {
+    background: var(--primary-hover);
+    transform: scale(1.1);
+}
+
+.undo-toast-btn:active {
+    transform: scale(0.95);
+}
+
+.undo-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+    .undo-toast {
+        bottom: max(16px, env(safe-area-inset-bottom));
+        padding: var(--spacing-2) var(--spacing-3);
+        min-width: 260px;
+        gap: var(--spacing-2);
+    }
     
-    /* 移动端紧凑布局优化 */
+    .undo-toast-text {
+        font-size: var(--text-xs);
+    }
+    
+    .undo-toast-btn {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .undo-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* 移动端紧凑布局优化 */
+@media (max-width: 768px) {
     .shopping-ingredient-item {
         border-radius: var(--radius-sm); /* 减小圆角 */
         margin-bottom: var(--spacing-2); /* 减少卡片间距 */
