@@ -1236,7 +1236,7 @@ function renderRecipeDetail(recipe) {
         <div class="recipe-section" id="nutrition">
             <h2 class="recipe-section-title">营养信息</h2>
             <div class="nutrition-grid">
-                <div class="nutrition-item" data-nutrition="calories">
+                <div class="nutrition-item" data-nutrition="calories" onclick="showNutritionContribution('calories', ${recipe.id})" style="cursor: pointer;" title="点击查看食材贡献排名">
                     <div class="nutrition-icon">🔥</div>
                     <div class="nutrition-content">
                         <div class="nutrition-label">热量</div>
@@ -1246,7 +1246,7 @@ function renderRecipeDetail(recipe) {
                         <div class="nutrition-unit">大卡</div>
                     </div>
                 </div>
-                <div class="nutrition-item" data-nutrition="protein">
+                <div class="nutrition-item" data-nutrition="protein" onclick="showNutritionContribution('protein', ${recipe.id})" style="cursor: pointer;" title="点击查看食材贡献排名">
                     <div class="nutrition-icon">💪</div>
                     <div class="nutrition-content">
                         <div class="nutrition-label">蛋白质</div>
@@ -1256,7 +1256,7 @@ function renderRecipeDetail(recipe) {
                         <div class="nutrition-unit">克</div>
                     </div>
                 </div>
-                <div class="nutrition-item" data-nutrition="carbs">
+                <div class="nutrition-item" data-nutrition="carbs" onclick="showNutritionContribution('carbs', ${recipe.id})" style="cursor: pointer;" title="点击查看食材贡献排名">
                     <div class="nutrition-icon">🌾</div>
                     <div class="nutrition-content">
                         <div class="nutrition-label">碳水化合物</div>
@@ -1266,7 +1266,7 @@ function renderRecipeDetail(recipe) {
                         <div class="nutrition-unit">克</div>
                     </div>
                 </div>
-                <div class="nutrition-item" data-nutrition="fat">
+                <div class="nutrition-item" data-nutrition="fat" onclick="showNutritionContribution('fat', ${recipe.id})" style="cursor: pointer;" title="点击查看食材贡献排名">
                     <div class="nutrition-icon">🥑</div>
                     <div class="nutrition-content">
                         <div class="nutrition-label">脂肪</div>
@@ -1277,7 +1277,7 @@ function renderRecipeDetail(recipe) {
                     </div>
                 </div>
                 ${recipe.nutrition.salt !== undefined ? `
-                <div class="nutrition-item" data-nutrition="salt">
+                <div class="nutrition-item" data-nutrition="salt" onclick="showNutritionContribution('salt', ${recipe.id})" style="cursor: pointer;" title="点击查看食材贡献排名">
                     <div class="nutrition-icon">🧂</div>
                     <div class="nutrition-content">
                         <div class="nutrition-label">盐（钠）</div>
@@ -2456,5 +2456,271 @@ function updateMenuBarButtons() {
         const rightSidebar = document.getElementById('sidebar-right');
         const isOpen = rightSidebar && rightSidebar.classList.contains('mobile-open');
         rightToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+/* ============================================
+   营养贡献排名功能
+   ============================================ */
+
+// 营养数据库（从 JSON 文件加载）
+let NUTRITION_DB = null;
+let NUTRITION_DB_LOADED = false;
+
+/**
+ * 加载营养数据库
+ */
+async function loadNutritionDatabase() {
+    if (NUTRITION_DB_LOADED) return;
+    
+    try {
+        const response = await fetch('nutrition_db.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        NUTRITION_DB = data.nutrition_db || {};
+        NUTRITION_DB_LOADED = true;
+        console.log('营养数据库加载成功');
+    } catch (error) {
+        console.error('加载营养数据库失败，使用默认数据:', error);
+        // 降级到默认数据（仅包含基本食材）
+        NUTRITION_DB = {
+            '盐': { calories: 0, protein: 0, carbs: 0, fat: 0, salt: 100000 },
+            '酱油': { calories: 63, protein: 5.6, carbs: 9.9, fat: 0.1, salt: 5757 },
+            '生抽': { calories: 63, protein: 5.6, carbs: 9.9, fat: 0.1, salt: 5757 },
+            '蚝油': { calories: 114, protein: 2.5, carbs: 23.0, fat: 0.3, salt: 4000 },
+            '耗油': { calories: 114, protein: 2.5, carbs: 23.0, fat: 0.3, salt: 4000 },
+            'default': { calories: 100, protein: 5, carbs: 10, fat: 5, salt: 0 }
+        };
+    }
+    NUTRITION_DB_LOADED = true;
+}
+
+// 页面加载时加载营养数据库
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadNutritionDatabase);
+} else {
+    loadNutritionDatabase();
+}
+
+/**
+ * 查找食材的营养数据
+ */
+function findIngredientNutrition(ingredientName) {
+    if (!NUTRITION_DB) {
+        console.warn('营养数据库未加载');
+        return { calories: 100, protein: 5, carbs: 10, fat: 5, salt: 0, unit: 'g' };
+    }
+    
+    // 跳过特殊单位键
+    const specialUnits = ['个', '头', '瓣', '滴', '杯'];
+    
+    // 尝试精确匹配
+    if (NUTRITION_DB[ingredientName] && !specialUnits.includes(ingredientName)) {
+        return NUTRITION_DB[ingredientName];
+    }
+    
+    // 尝试部分匹配
+    for (const key in NUTRITION_DB) {
+        if (specialUnits.includes(key)) continue;
+        
+        if (ingredientName.includes(key) || key.includes(ingredientName)) {
+            return NUTRITION_DB[key];
+        }
+    }
+    
+    // 返回默认值
+    return NUTRITION_DB['default'] || { calories: 100, protein: 5, carbs: 10, fat: 5, salt: 0, unit: 'g' };
+}
+
+/**
+ * 计算食材的营养贡献
+ */
+function calculateIngredientContribution(ingredient, nutritionType) {
+    const name = ingredient.name.trim();
+    const quantity = ingredient.quantity;
+    const unit = ingredient.unit;
+    
+    // 特殊处理：如果食材是"盐"，直接使用用量作为盐含量
+    if (nutritionType === 'salt' && name === '盐') {
+        return quantity; // 盐的用量就是盐含量（克）
+    }
+    
+    // 获取基础营养数据（每100g）
+    const baseNutrition = findIngredientNutrition(name);
+    let baseValue = baseNutrition[nutritionType] || 0;
+    
+    // 对于盐含量，需要特殊处理：salt字段存储的是钠含量（毫克/100g），需要转换为盐含量（克）
+    if (nutritionType === 'salt' && baseValue > 0) {
+        // 计算实际用量（转换为克）
+        let actualQuantityG = quantity;
+        if (unit === 'g' || unit === '克') {
+            actualQuantityG = quantity;
+        } else if (unit === 'ml' || unit === '毫升') {
+            // 假设密度为1，1ml = 1g
+            actualQuantityG = quantity;
+        } else if (unit === '个' || unit === '头' || unit === '瓣') {
+            // 特殊单位：假设每个约50g
+            actualQuantityG = quantity * 50;
+        } else {
+            // 其他单位，假设为克
+            actualQuantityG = quantity;
+        }
+        
+        // 计算钠含量（毫克）
+        const saltMgPer100g = baseValue; // 钠含量（毫克/100g）
+        const saltMgTotal = saltMgPer100g * (actualQuantityG / 100);
+        // 转换为盐含量（克）：盐含量 = 钠含量(mg) / 1000 * 2.54
+        const saltG = saltMgTotal / 1000 * 2.54;
+        return saltG;
+    }
+    
+    // 其他营养成分的正常计算
+    // 计算实际用量（转换为克）
+    let multiplier = 1;
+    if (unit === 'g' || unit === '克') {
+        multiplier = quantity / 100;
+    } else if (unit === 'ml' || unit === '毫升') {
+        // 假设密度为1
+        multiplier = quantity / 100;
+    } else if (unit === '个' || unit === '头' || unit === '瓣') {
+        // 特殊单位：假设每个约50g
+        multiplier = (quantity * 50) / 100;
+    } else {
+        // 其他单位，假设为克
+        multiplier = quantity / 100;
+    }
+    
+    return baseValue * multiplier;
+}
+
+/**
+ * 计算所有食材对指定营养成分的贡献并排序
+ */
+function calculateNutritionContributions(recipe, nutritionType) {
+    if (!recipe || !recipe.ingredients || !Array.isArray(recipe.ingredients)) {
+        return [];
+    }
+    
+    const contributions = recipe.ingredients.map(ingredient => {
+        const contribution = calculateIngredientContribution(ingredient, nutritionType);
+        return {
+            name: ingredient.name,
+            quantity: ingredient.quantity,
+            unit: ingredient.unit,
+            contribution: contribution,
+            percentage: 0 // 稍后计算
+        };
+    });
+    
+    // 计算总贡献
+    const total = contributions.reduce((sum, item) => sum + item.contribution, 0);
+    
+    // 计算百分比并排序
+    contributions.forEach(item => {
+        item.percentage = total > 0 ? (item.contribution / total * 100) : 0;
+    });
+    
+    // 按贡献值降序排序
+    contributions.sort((a, b) => b.contribution - a.contribution);
+    
+    return contributions;
+}
+
+/**
+ * 显示营养贡献排名弹窗
+ */
+async function showNutritionContribution(nutritionType, recipeId) {
+    // 确保营养数据库已加载
+    if (!NUTRITION_DB_LOADED) {
+        await loadNutritionDatabase();
+    }
+    
+    // 查找食谱
+    const recipe = allRecipes.find(r => r.id === recipeId);
+    if (!recipe || !recipe.nutrition) {
+        return;
+    }
+    
+    // 营养类型映射
+    const nutritionLabels = {
+        'calories': '热量',
+        'protein': '蛋白质',
+        'carbs': '碳水化合物',
+        'fat': '脂肪',
+        'salt': '盐（钠）'
+    };
+    
+    const nutritionUnits = {
+        'calories': '大卡',
+        'protein': '克',
+        'carbs': '克',
+        'fat': '克',
+        'salt': '克'
+    };
+    
+    const label = nutritionLabels[nutritionType] || nutritionType;
+    const unit = nutritionUnits[nutritionType] || '';
+    
+    // 计算贡献
+    const contributions = calculateNutritionContributions(recipe, nutritionType);
+    
+    // 过滤掉贡献为 0 的食材
+    const filteredContributions = contributions.filter(item => item.contribution > 0);
+    
+    // 创建弹窗
+    const modal = document.createElement('div');
+    modal.className = 'nutrition-contribution-modal';
+    modal.innerHTML = `
+        <div class="nutrition-contribution-content">
+            <div class="nutrition-contribution-header">
+                <h3>${label} 食材贡献排名</h3>
+                <button class="nutrition-contribution-close" onclick="closeNutritionContribution()" aria-label="关闭">✕</button>
+            </div>
+            <div class="nutrition-contribution-list">
+                ${filteredContributions.length > 0 ? filteredContributions.map((item, index) => `
+                    <div class="nutrition-contribution-item">
+                        <div class="contribution-rank">${index + 1}</div>
+                        <div class="contribution-info">
+                            <div class="contribution-name">${item.name}</div>
+                            <div class="contribution-quantity">${item.quantity} ${item.unit}</div>
+                        </div>
+                        <div class="contribution-value">
+                            ${nutritionType === 'salt' ? item.contribution.toFixed(2) : item.contribution.toFixed(1)} ${unit}
+                            <div class="contribution-percentage">${item.percentage.toFixed(1)}%</div>
+                        </div>
+                    </div>
+                `).join('') : '<p style="text-align: center; color: var(--text-tertiary); padding: var(--spacing-4);">暂无数据</p>'}
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    // 点击背景关闭
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeNutritionContribution();
+        }
+    });
+    
+    // ESC 键关闭
+    const handleEsc = (e) => {
+        if (e.key === 'Escape') {
+            closeNutritionContribution();
+            document.removeEventListener('keydown', handleEsc);
+        }
+    };
+    document.addEventListener('keydown', handleEsc);
+}
+
+/**
+ * 关闭营养贡献排名弹窗
+ */
+function closeNutritionContribution() {
+    const modal = document.querySelector('.nutrition-contribution-modal');
+    if (modal) {
+        modal.remove();
     }
 }

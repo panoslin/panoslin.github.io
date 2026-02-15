@@ -1984,6 +1984,172 @@ html[data-theme="dark"] .nutrition-item:hover {
     background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-light) 100%);
 }
 
+/* 营养贡献排名弹窗 */
+.nutrition-contribution-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: var(--z-modal);
+    padding: var(--spacing-4);
+    animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nutrition-contribution-content {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-light);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.nutrition-contribution-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-4) var(--spacing-5);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.nutrition-contribution-header h3 {
+    margin: 0;
+    font-size: var(--text-lg);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+}
+
+.nutrition-contribution-close {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-base);
+}
+
+.nutrition-contribution-close:hover {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.nutrition-contribution-list {
+    padding: var(--spacing-3);
+    overflow-y: auto;
+    flex: 1;
+}
+
+.nutrition-contribution-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    padding: var(--spacing-3);
+    border-radius: var(--radius-md);
+    background: var(--bg-secondary);
+    margin-bottom: var(--spacing-2);
+    transition: all var(--transition-base);
+}
+
+.nutrition-contribution-item:hover {
+    background: var(--primary-bg);
+    transform: translateX(4px);
+}
+
+.nutrition-contribution-item:last-child {
+    margin-bottom: 0;
+}
+
+.contribution-rank {
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-full);
+    background: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--font-bold);
+    font-size: var(--text-sm);
+    flex-shrink: 0;
+}
+
+.contribution-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.contribution-name {
+    font-weight: var(--font-medium);
+    color: var(--text-primary);
+    font-size: var(--text-sm);
+    margin-bottom: var(--spacing-1);
+}
+
+.contribution-quantity {
+    font-size: var(--text-xs);
+    color: var(--text-tertiary);
+}
+
+.contribution-value {
+    font-weight: var(--font-semibold);
+    color: var(--primary-color);
+    font-size: var(--text-sm);
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.contribution-percentage {
+    font-size: var(--text-xs);
+    color: var(--text-tertiary);
+    margin-top: var(--spacing-1);
+}
+
+/* Dark mode 优化 */
+html[data-theme="dark"] .nutrition-contribution-modal {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+html[data-theme="dark"] .nutrition-contribution-item:hover {
+    background: rgba(58, 157, 110, 0.15);
+}
+
 .nutrition-item[data-nutrition="fat"]::before {
     background: linear-gradient(90deg, #FFB74D 0%, #FFA726 100%);
 }
