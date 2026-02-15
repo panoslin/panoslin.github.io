@@ -3684,6 +3684,11 @@ html[data-theme="dark"] .source-recipe-tag:hover {
 
 /* 移动端紧凑布局优化 */
 @media (max-width: 768px) {
+    /* 移动端隐藏已购食材 */
+    .shopping-ingredient-item.purchased {
+        display: none;
+    }
+    
     .shopping-ingredient-item {
         border-radius: var(--radius-sm); /* 减小圆角 */
         margin-bottom: var(--spacing-2); /* 减少卡片间距 */
