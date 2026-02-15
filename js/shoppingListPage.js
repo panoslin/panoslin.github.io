@@ -1094,7 +1094,7 @@ function showUndoToast(ingredientName, undoData) {
     toast.innerHTML = `
         <span class="undo-toast-text">${ingredientName} 已${undoData.wasPurchased ? '移除' : '标记为已购'}</span>
         <button class="undo-toast-btn" onclick="undoRemovePurchased()" aria-label="撤回">
-            <img src="image.png" alt="撤回" class="undo-icon">
+            <img src="images/撤回小猫.png" alt="撤回" class="undo-icon">
         </button>
     `;
     
