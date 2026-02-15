@@ -2686,6 +2686,25 @@ html[data-theme="dark"] .share-toast-error {
     font-size: var(--text-sm);
 }
 
+/* Dark mode 下的按钮样式优化 */
+html[data-theme="dark"] .add-to-shopping-list-btn:hover {
+    background: rgba(58, 157, 110, 0.20);
+    border-color: rgba(124, 201, 162, 0.50);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+html[data-theme="dark"] .add-to-shopping-list-btn.added {
+    background: rgba(58, 157, 110, 0.25);
+    border-color: rgba(124, 201, 162, 0.55);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+html[data-theme="dark"] .add-to-shopping-list-btn.added:hover {
+    background: rgba(58, 157, 110, 0.35);
+    border-color: rgba(124, 201, 162, 0.65);
+    color: rgba(255, 255, 255, 1);
+}
+
 /* 详情页分量区：加入清单按钮 */
 .portion-btn.portion-add-to-list {
     display: inline-flex;
@@ -2710,6 +2729,25 @@ html[data-theme="dark"] .share-toast-error {
     background: var(--spring-green-50);
     border-color: var(--spring-green-300);
     color: var(--spring-green-700);
+}
+
+/* Dark mode 下详情页分量调整按钮样式优化 */
+html[data-theme="dark"] .portion-btn.portion-add-to-list:hover {
+    background: rgba(58, 157, 110, 0.20);
+    border-color: rgba(124, 201, 162, 0.50);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+html[data-theme="dark"] .portion-btn.portion-add-to-list.added {
+    background: rgba(58, 157, 110, 0.25);
+    border-color: rgba(124, 201, 162, 0.55);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+html[data-theme="dark"] .portion-btn.portion-add-to-list.added:hover {
+    background: rgba(58, 157, 110, 0.35);
+    border-color: rgba(124, 201, 162, 0.65);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* 轻量通知 */
@@ -2738,6 +2776,14 @@ html[data-theme="dark"] .share-toast-error {
 .shopping-notification.show {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
+}
+
+/* Dark mode 下通知样式优化 */
+html[data-theme="dark"] .shopping-notification {
+    background: rgba(16, 20, 26, 0.95);
+    border-color: rgba(124, 201, 162, 0.30);
+    color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45), 0 4px 12px rgba(0, 0, 0, 0.30);
 }
 
 /* 悬浮购物清单按钮 */
