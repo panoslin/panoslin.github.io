@@ -2484,16 +2484,19 @@ html[data-theme="dark"] .share-toast-error {
     
     .header {
         padding: var(--spacing-1) 0; /* 最小化内边距 */
+        overflow: hidden; /* 防止按钮超出 header 范围 */
     }
     
     .header-content {
         min-height: 48px;
         padding: 0 var(--spacing-3); /* 减少左右内边距 */
+        position: relative; /* 确保内部绝对定位元素相对于此定位 */
     }
 
     .header-logo-title {
         gap: var(--spacing-1); /* 最小化间距 */
-        padding: 0 var(--spacing-3);
+        padding: var(--spacing-1);
+        margin-right: var(--spacing-4);
     }
     
     .site-logo {
@@ -2516,24 +2519,42 @@ html[data-theme="dark"] .share-toast-error {
         display: none; /* 保持隐藏 */
     }
     
-    /* 超小屏进一步优化按钮位置 */
+    /* 超小屏进一步优化按钮位置 - 确保在 header-content 范围内 */
     .mobile-sidebar-toggle {
         width: 36px;
         height: 36px;
-        top: var(--spacing-1);
+        top: calc((var(--header-height) - 36px) / 2); /* 垂直居中 */
     }
     
+    /* 左侧按钮：距离视口左边缘 = header-content 的 padding */
     .mobile-sidebar-toggle-left {
-        left: var(--spacing-3);
+        left: var(--spacing-3); /* 12px，与 header-content padding 对齐 */
     }
     
+    /* 右侧按钮：距离视口右边缘 = header-content 的 padding + 按钮宽度 + theme-toggle 宽度 + 间距 */
+    /* 按钮宽度 36px + theme-toggle 宽度约 36px + 间距 8px = 80px */
+    /* 所以右侧按钮的 right = 80px，这样 theme-toggle 在 44px，按钮在 12px */
     .mobile-sidebar-toggle-right {
-        right: var(--spacing-3);
+        right: calc(36px + var(--spacing-2) + 36px); /* 36px(theme-toggle) + 8px(间距) + 36px(按钮) = 80px */
     }
     
+    /* 主题按钮：在右侧按钮左侧，确保不重叠 */
     .theme-toggle {
-        right: calc(36px + var(--spacing-3) + var(--spacing-1));
-        padding: var(--spacing-1);
+        position: absolute;
+        right: calc(57px + var(--spacing-2)); /* 36px(右侧按钮宽度) + 8px(间距) = 44px */
+        top: 50%;
+        transform: translateY(-50%);
+        width: 36px; /* 固定宽度，与按钮一致 */
+        height: 36px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* 超小屏隐藏主题按钮文字 */
+    .theme-toggle .theme-label {
+        display: none;
     }
     
     .search-section {
@@ -3931,7 +3952,7 @@ html[data-theme="dark"] .selected-recipe-link:hover {
 
 @media (max-width: 480px) {
     .mobile-sidebar-toggle {
-        top: calc((var(--header-height) - 36px) / 2); /* 垂直居中 */
+        top: calc((var(--header-height) - 36px) / 2 - 1); /* 垂直居中 */
     }
 }
 
