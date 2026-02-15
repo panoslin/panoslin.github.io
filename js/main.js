@@ -188,6 +188,10 @@ function initFloatingShoppingButton() {
     menu.setAttribute('role', 'menu');
     menu.setAttribute('aria-hidden', 'true');
     menu.innerHTML = `
+        <button class="floating-menu-item" role="menuitem" data-target="index.html">
+            <span class="floating-menu-icon"><img src="images/首页.png" alt="首页" class="floating-menu-icon-img" /></span>
+            <span class="floating-menu-text">首页</span>
+        </button>
         <button class="floating-menu-item" role="menuitem" data-target="shopping_list.html">
             <span class="floating-menu-icon">🛒</span>
             <span class="floating-menu-text">购物清单</span>
