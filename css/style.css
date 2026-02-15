@@ -2948,17 +2948,34 @@ html[data-theme="dark"] .shopping-notification {
 .selected-recipe-actions {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: var(--spacing-2);
+    width: 100%;
 }
 
 .recipe-scale-editor {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 8px;
-    border-radius: var(--radius-md);
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
     border: 1px solid var(--border-light);
-    background: var(--bg-secondary);
+    background: var(--bg-tertiary);
+    transition: all var(--transition-base);
+}
+
+.recipe-scale-editor:hover {
+    border-color: var(--primary-color);
+    background: var(--primary-bg);
+}
+
+html[data-theme="dark"] .recipe-scale-editor {
+    background: rgba(20, 26, 34, 0.6);
+}
+
+html[data-theme="dark"] .recipe-scale-editor:hover {
+    background: rgba(58, 157, 110, 0.15);
+    border-color: rgba(124, 201, 162, 0.40);
 }
 
 .recipe-scale-editor .scale-label {
@@ -2968,12 +2985,13 @@ html[data-theme="dark"] .shopping-notification {
 }
 
 .recipe-scale-input {
-    width: 64px;
+    width: 56px;
     border: none;
     background: transparent;
     color: var(--text-primary);
     font-size: var(--text-sm);
     outline: none;
+    padding: 0 2px;
 }
 
 /* 购物清单按钮徽章 */
@@ -3779,23 +3797,42 @@ html[data-theme="dark"] .source-recipe-tag:hover {
 .selected-recipes-list {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-2);
+    gap: var(--spacing-1);
 }
 
 .selected-recipe-item {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     gap: var(--spacing-2);
     padding: var(--spacing-2);
     background: var(--bg-secondary);
     border-radius: var(--radius-md);
     border: 1px solid var(--border-light);
     transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+}
+
+.selected-recipe-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--primary-color);
+    opacity: 0;
+    transition: opacity var(--transition-base);
 }
 
 .selected-recipe-item:hover {
     background: var(--primary-bg);
     border-color: var(--border-spring);
+}
+
+.selected-recipe-item:hover::before {
+    opacity: 1;
 }
 
 /* 暗色模式下已选食谱项 hover 可读性优化 */
@@ -3804,15 +3841,51 @@ html[data-theme="dark"] .selected-recipe-item:hover {
     border-color: rgba(124, 201, 162, 0.45);
 }
 
-.selected-recipe-link {
+.selected-recipe-image-link {
+    display: block;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.selected-recipe-image {
+    width: 56px;
+    height: 56px;
+    border-radius: var(--radius-md);
+    object-fit: cover;
+    display: block;
+    background: var(--bg-tertiary);
+}
+
+.selected-recipe-image-placeholder {
+    width: 56px;
+    height: 56px;
+    border-radius: var(--radius-md);
+    background: var(--bg-tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+    color: var(--text-tertiary);
+}
+
+.selected-recipe-content {
     flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+}
+
+.selected-recipe-link {
+    width: 100%;
     min-width: 0; /* 允许 flex 子元素收缩 */
     text-decoration: none;
     color: var(--text-primary);
     font-size: var(--text-sm);
     transition: color var(--transition-base);
-    display: flex;
-    align-items: center;
+    display: block;
+    line-height: 1.4;
 }
 
 .selected-recipe-link:hover {
@@ -3831,6 +3904,8 @@ html[data-theme="dark"] .selected-recipe-link:hover {
     word-break: break-word;
     hyphens: auto;
     line-height: 1.4;
+    font-weight: var(--font-medium);
+    color: var(--text-primary);
     /* 移除 text-overflow 和 white-space: nowrap，允许换行显示完整文本 */
 }
 
@@ -3841,7 +3916,7 @@ html[data-theme="dark"] .selected-recipe-link:hover {
     width: 24px;
     height: 24px;
     padding: 0;
-    background: transparent;
+    background: var(--bg-tertiary);
     border: 1px solid var(--border-light);
     border-radius: var(--radius-sm);
     color: var(--text-secondary);
@@ -3849,13 +3924,26 @@ html[data-theme="dark"] .selected-recipe-link:hover {
     transition: all var(--transition-base);
     flex-shrink: 0;
     font-size: var(--text-sm);
+    line-height: 1;
 }
 
 .remove-recipe-btn:hover {
     background: var(--spring-pink-50);
     border-color: var(--spring-pink-300);
     color: var(--spring-pink-600);
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 2px 6px rgba(230, 130, 165, 0.2);
+}
+
+html[data-theme="dark"] .remove-recipe-btn {
+    background: rgba(20, 26, 34, 0.6);
+}
+
+html[data-theme="dark"] .remove-recipe-btn:hover {
+    background: rgba(230, 130, 165, 0.20);
+    border-color: rgba(230, 130, 165, 0.40);
+    color: rgba(255, 180, 200, 0.95);
+    box-shadow: 0 2px 6px rgba(230, 130, 165, 0.25);
 }
 
 /* 侧边栏统计信息 */
@@ -4191,19 +4279,18 @@ html[data-theme="dark"] .selected-recipe-link:hover {
 
     /* 移动端已选食谱项优化 */
     .selected-recipe-item {
-        flex-wrap: wrap;
-        align-items: flex-start;
+        padding: var(--spacing-2);
+        gap: var(--spacing-2);
     }
 
-    .selected-recipe-link {
-        flex-basis: 100%;
-        min-width: 0;
-        margin-bottom: var(--spacing-1);
+    .selected-recipe-image,
+    .selected-recipe-image-placeholder {
+        width: 48px;
+        height: 48px;
     }
 
     .selected-recipe-actions {
-        flex-shrink: 0;
-        margin-left: auto;
+        justify-content: flex-end;
     }
 
     .recipe-title {

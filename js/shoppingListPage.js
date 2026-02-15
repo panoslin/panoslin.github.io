@@ -440,29 +440,44 @@ function renderSelectedRecipesList() {
         const scale = recipeScales && recipeScales[recipe.id] !== undefined ? Number(recipeScales[recipe.id]) : 1;
         const scaleText = (Number.isFinite(scale) && scale !== 1) ? ` (x${scale.toFixed(2)})` : '';
         const fullTitle = `${recipe.title}${scaleText}`;
+        const imageUrl = recipe.imageUrl || '';
         return `
             <div class="selected-recipe-item">
+                ${imageUrl ? `
                 <a href="recipe_detail.html?id=${recipe.id}" 
-                   class="selected-recipe-link"
+                   class="selected-recipe-image-link"
                    title="${fullTitle}">
-                    <span class="recipe-title">${fullTitle}</span>
+                    <img src="${imageUrl}" 
+                         alt="${recipe.title}" 
+                         class="selected-recipe-image"
+                         onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\\'selected-recipe-image-placeholder\\'>🍽️</div>';">
                 </a>
-                <div class="selected-recipe-actions">
-                    <label class="recipe-scale-editor" title="调整分量比例">
-                        <span class="scale-label">x</span>
-                        <input class="recipe-scale-input"
-                               type="number"
-                               step="0.1"
-                               min="0.1"
-                               max="20"
-                               value="${Number.isFinite(scale) ? scale : 1}"
-                               onchange="updateSelectedRecipeScale(${recipe.id}, this.value); event.stopPropagation();">
-                    </label>
-                    <button class="remove-recipe-btn" 
-                            onclick="removeRecipeFromShoppingListPage(${recipe.id}); return false;"
-                            title="移除">
-                        <span>✕</span>
-                    </button>
+                ` : `
+                <div class="selected-recipe-image-placeholder">🍽️</div>
+                `}
+                <div class="selected-recipe-content">
+                    <a href="recipe_detail.html?id=${recipe.id}" 
+                       class="selected-recipe-link"
+                       title="${fullTitle}">
+                        <span class="recipe-title">${fullTitle}</span>
+                    </a>
+                    <div class="selected-recipe-actions">
+                        <label class="recipe-scale-editor" title="调整分量比例">
+                            <span class="scale-label">x</span>
+                            <input class="recipe-scale-input"
+                                   type="number"
+                                   step="0.1"
+                                   min="0.1"
+                                   max="20"
+                                   value="${Number.isFinite(scale) ? scale : 1}"
+                                   onchange="updateSelectedRecipeScale(${recipe.id}, this.value); event.stopPropagation();">
+                        </label>
+                        <button class="remove-recipe-btn" 
+                                onclick="removeRecipeFromShoppingListPage(${recipe.id}); return false;"
+                                title="移除">
+                            <span>✕</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         `;
