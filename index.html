@@ -100,7 +100,7 @@
                 type="text" 
                 id="search-input" 
                 class="search-input" 
-                placeholder="搜索食谱、食材、制作方法..."
+                placeholder="搜索食谱、食材、制作方法...（支持拼音）"
                 autocomplete="off"
             >
         </div>
@@ -166,6 +166,16 @@
          onclick="closeAllMobileSidebars()"></div>
 
     <!-- JavaScript文件 -->
+    <!-- 拼音库：支持中文拼音转换和匹配 -->
+    <script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.19.0/dist/index.js"></script>
+    <script>
+        // 确保 pinyin-pro 库正确加载并暴露为全局变量
+        if (typeof pinyinPro !== 'undefined') {
+            window.pinyin = pinyinPro;
+        } else if (typeof pinyin !== 'undefined') {
+            window.pinyin = pinyin;
+        }
+    </script>
     <script src="js/shoppingList.js"></script>
     <script src="js/main.js"></script>
     <script>

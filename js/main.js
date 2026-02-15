@@ -732,26 +732,107 @@ function performSearch(searchTerm) {
         return String(value).toLowerCase();
     }
 
+    // 检查字符串是否包含中文字符
+    function hasChinese(str) {
+        return /[\u4e00-\u9fa5]/.test(str);
+    }
+
+    // 检查搜索词是否为拼音（不包含中文字符，且只包含字母）
+    const isPinyinSearch = !hasChinese(searchTerm) && /^[a-z\s]+$/i.test(searchTerm);
+    
+    // 拼音匹配辅助函数
+    function matchWithPinyin(text, searchTerm) {
+        if (!text || typeof text !== 'string') return false;
+        
+        // 先进行普通的中文匹配
+        const normalMatch = toLowerSafe(text).includes(searchTerm);
+        if (normalMatch) return true;
+        
+        // 如果搜索词是拼音，进行拼音匹配
+        if (isPinyinSearch) {
+            try {
+                // 尝试使用 pinyin-pro 库（可能以不同方式暴露）
+                let pinyinLib = null;
+                if (typeof pinyin !== 'undefined') {
+                    pinyinLib = pinyin;
+                } else if (typeof pinyinPro !== 'undefined') {
+                    pinyinLib = pinyinPro;
+                } else if (typeof window !== 'undefined' && window.pinyin) {
+                    pinyinLib = window.pinyin;
+                }
+                
+                if (pinyinLib) {
+                    // 优先使用 match 方法（如果可用）
+                    if (typeof pinyinLib.match === 'function') {
+                        const matchResult = pinyinLib.match(text, searchTerm);
+                        if (matchResult) return true;
+                    }
+                    
+                    // 降级方案：转换为拼音后匹配
+                    // pinyin-pro 的 pinyin 函数用法
+                    let textPinyin = '';
+                    if (typeof pinyinLib.pinyin === 'function') {
+                        // pinyin-pro v3+ 用法
+                        textPinyin = pinyinLib.pinyin(text, { 
+                            toneType: 'none',
+                            type: 'all',
+                            v: true 
+                        });
+                    } else if (typeof pinyinLib === 'function') {
+                        // 直接调用函数
+                        textPinyin = pinyinLib(text, { toneType: 'none', type: 'all' });
+                    }
+                    
+                    if (textPinyin) {
+                        const pinyinStr = Array.isArray(textPinyin) 
+                            ? textPinyin.join('').toLowerCase().replace(/\s+/g, '')
+                            : String(textPinyin).toLowerCase().replace(/\s+/g, '');
+                        const searchLower = searchTerm.toLowerCase().replace(/\s+/g, '');
+                        return pinyinStr.includes(searchLower);
+                    }
+                }
+            } catch (e) {
+                // 如果拼音库不可用或出错，静默失败，继续使用普通匹配
+                console.warn('拼音匹配失败，使用普通匹配:', e);
+            }
+        }
+        
+        return false;
+    }
+
     filteredRecipes = allRecipes.filter(recipe => {
-        // 搜索标题
-        const titleMatch = toLowerSafe(recipe.title).includes(searchTerm);
+        // 搜索标题（支持拼音）
+        const titleMatch = matchWithPinyin(recipe.title, searchTerm) || 
+                          toLowerSafe(recipe.title).includes(searchTerm);
         
-        // 搜索描述
-        const descMatch = !!recipe.description && 
-            toLowerSafe(recipe.description).includes(searchTerm);
-        
-        // 搜索食材
-        const ingredientsMatch = Array.isArray(recipe.ingredients) && recipe.ingredients.some(ingredient =>
-            toLowerSafe(ingredient && ingredient.name).includes(searchTerm)
+        // 搜索描述（支持拼音）
+        const descMatch = !!recipe.description && (
+            matchWithPinyin(recipe.description, searchTerm) ||
+            toLowerSafe(recipe.description).includes(searchTerm)
         );
         
-        // 搜索制作方法
-        const instructionsMatch = Array.isArray(recipe.instructions) && recipe.instructions.some(instruction =>
-            toLowerSafe(instruction).includes(searchTerm)
-        );
+        // 搜索食材（支持拼音）
+        const ingredientsMatch = Array.isArray(recipe.ingredients) && recipe.ingredients.some(ingredient => {
+            const name = ingredient && ingredient.name;
+            return matchWithPinyin(name, searchTerm) || 
+                   toLowerSafe(name).includes(searchTerm);
+        });
         
-        // 搜索分类
+        // 搜索制作方法（支持拼音）
+        const instructionsMatch = Array.isArray(recipe.instructions) && recipe.instructions.some(instruction => {
+            let instructionText = '';
+            if (typeof instruction === 'string') {
+                instructionText = instruction;
+            } else if (typeof instruction === 'object' && instruction.text) {
+                instructionText = instruction.text;
+            }
+            return matchWithPinyin(instructionText, searchTerm) ||
+                   toLowerSafe(instructionText).includes(searchTerm);
+        });
+        
+        // 搜索分类（支持拼音）
         const categoryMatch = Array.isArray(recipe.category) && recipe.category.some(cat =>
+            matchWithPinyin(cat, searchTerm) ||
             toLowerSafe(cat).includes(searchTerm)
         );
         
