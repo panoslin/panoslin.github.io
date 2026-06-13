@@ -12415,5 +12415,88 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7619892940341926473"
+  },
+  {
+    "id": 154,
+    "title": "泰式打抛猪肉饭🍳",
+    "category": [
+      "下饭菜",
+      "猪肉"
+    ],
+    "imageUrl": "images/recipe_154.png",
+    "description": "泰式打抛猪肉饭🍳的详细制作方法",
+    "ingredients": [
+      {
+        "name": "猪肉末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "四季豆（豆角丁）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣（红辣椒）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "罗勒叶（打抛叶/九层塔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米饭",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青柠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽（酱油）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "四季豆（豆角）切小丁，入沸水焯水至断生后捞出沥干。",
+        "imageUrl": "images/recipe_154_step_1.png"
+      },
+      {
+        "text": "热锅下油，倒入猪肉末中火煸炒至变色出油，加入小米辣（红辣椒）一起翻炒。",
+        "imageUrl": "images/recipe_154_step_2.png"
+      },
+      {
+        "text": "另起一口小锅，煎一个荷包蛋（可溏心）备用。",
+        "imageUrl": "images/recipe_154_step_3.png"
+      },
+      "肉末炒散后加入焯好的豆角丁，淋入生抽等调味料翻炒上色入味（具体用量视频未给出）。",
+      {
+        "text": "最后放入大量罗勒叶（打抛叶），大火快速翻炒至叶片断生即可关火。",
+        "imageUrl": "images/recipe_154_step_5.png"
+      },
+      {
+        "text": "盛一碗米饭，铺上炒好的打抛猪肉，放上煎蛋，旁配几角青柠，挤汁食用更香。",
+        "imageUrl": "images/recipe_154_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7629328962262453504"
   }
 ]
