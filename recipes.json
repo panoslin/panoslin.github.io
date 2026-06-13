@@ -11501,5 +11501,86 @@
       "salt": 1.15
     },
     "source": "https://www.douyin.com/video/7632647704916675840"
+  },
+  {
+    "id": 145,
+    "title": "美贝酿虾滑🦐",
+    "category": [
+      "海鲜",
+      "蒸制"
+    ],
+    "imageUrl": "images/recipe_145.png",
+    "description": "美贝酿虾滑的详细制作方法",
+    "ingredients": [
+      {
+        "name": "美贝",
+        "quantity": 12,
+        "unit": "个"
+      },
+      {
+        "name": "虾滑",
+        "quantity": 1,
+        "unit": "包"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒸鱼豉油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "美贝加入姜片和料酒，盖上盖子焖煮3-5分钟，待全部开壳后捞出；若觉得壳内脏，可稍微冲洗一下。",
+        "imageUrl": "images/recipe_145_step_1.png"
+      },
+      "虾滑（可直接买现成的）中加入剁碎的胡萝卜，以及孩子平时不爱吃的青菜，搅拌均匀；虾滑本身已有味道，无需额外调味。",
+      {
+        "text": "将拌好的虾滑馅塞入开壳的美贝中。",
+        "imageUrl": "images/recipe_145_step_3.png"
+      },
+      "将酿好的美贝装入盘中，冷水下锅盖上盖子，水开后转小火蒸15分钟。",
+      {
+        "text": "出锅后撒上葱花，淋上热油激发葱香，最后浇上少许蒸鱼豉油即可。",
+        "imageUrl": "images/recipe_145_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.9,
+      "protein": 0.2,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7634557388843132581"
   }
 ]
