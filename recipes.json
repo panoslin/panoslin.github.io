@@ -19318,5 +19318,120 @@
       "salt": 1
     },
     "source": "https://www.douyin.com/video/7579075260553645375"
+  },
+  {
+    "id": 234,
+    "title": "香茅炒牛肉🌶️",
+    "category": [
+      "牛肉",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_234.png",
+    "description": "香茅炒牛肉🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "椰子糖（也可用白糖）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鱼露",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香茅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "九层塔",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "牛肉逆纹切薄片。",
+      {
+        "text": "牛肉中加入胡椒粉、酱油、蚝油、淀粉抓拌均匀，再封一层油锁住水分，这样炒出来的肉更嫩。",
+        "imageUrl": "images/recipe_234_step_2.png"
+      },
+      "调酱汁：椰子糖（也可用白糖）、鱼露、酱油混合备用。",
+      "备好配料：小米辣、蒜头、洋葱切好，香茅、干辣椒备用。",
+      {
+        "text": "热锅下油，先下香茅、干辣椒炒香。",
+        "imageUrl": "images/recipe_234_step_5.png"
+      },
+      "再下小米辣、洋葱、蒜头炒香。",
+      {
+        "text": "倒入腌好的牛肉翻炒至变色。",
+        "imageUrl": "images/recipe_234_step_7.png"
+      },
+      "下辣椒面和刚调好的酱汁，翻炒入味。",
+      "最后放入九层塔炒匀即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7577348475197880945"
   }
 ]
