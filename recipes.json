@@ -16510,5 +16510,113 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7610056216299560310"
+  },
+  {
+    "id": 200,
+    "title": "酸汤面🍜",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_200.png",
+    "description": "酸汤面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "鸡精",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "醋",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "午餐肉",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "青菜",
+        "quantity": 2,
+        "unit": "把"
+      }
+    ],
+    "instructions": [
+      "碗中放入葱花、蒜末、辣椒面、白芝麻。",
+      {
+        "text": "淋上一勺热油，激发出葱蒜辣椒的香味。",
+        "imageUrl": "images/recipe_200_step_2.png"
+      },
+      {
+        "text": "趁热加入一小勺白糖、一小勺鸡精，再加入一勺生抽、一勺蚝油和两勺醋，搅拌均匀制成酸辣汤底。",
+        "imageUrl": "images/recipe_200_step_3.png"
+      },
+      {
+        "text": "锅中油热，煎一个鸡蛋和两片午餐肉，煎好后盛出备用。",
+        "imageUrl": "images/recipe_200_step_4.png"
+      },
+      "水开后下入面条，面条快煮好时放入两把青菜。",
+      "盛三勺面汤到碗中的汤底里。",
+      "将煮好的面条和青菜放入碗中，再加入煎好的鸡蛋和午餐肉即可。"
+    ],
+    "nutrition": {
+      "calories": 88.8,
+      "protein": 6.7,
+      "carbs": 2.3,
+      "fat": 5.4,
+      "salt": 0.76
+    },
+    "source": "https://www.douyin.com/video/7599639786194810980"
   }
 ]
