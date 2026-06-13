@@ -13356,5 +13356,95 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7622920156520368114"
+  },
+  {
+    "id": 165,
+    "title": "拌水果三吃🍓",
+    "category": [
+      "甜品",
+      "凉菜"
+    ],
+    "imageUrl": "images/recipe_165.png",
+    "description": "拌水果三吃🍓的详细制作方法",
+    "ingredients": [
+      {
+        "name": "草莓",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "凤梨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "苹果",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "百香果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "橙汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青柠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白砂糖",
+        "quantity": 2,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      "【草莓拌凤梨】草莓去蒂切块,凤梨切块备用。",
+      {
+        "text": "草莓中加入2个百香果、2勺蜂蜜(或糖浆)和一丢丢盐,不停搅拌约2分钟,直到草莓表面像裹了一层蜜。",
+        "imageUrl": "images/recipe_165_step_2.png"
+      },
+      "加入凤梨一起搅拌均匀,放入冰箱冷藏几个小时,让草莓与凤梨互相吸满味道即可。",
+      "【糖渍苹果】3个苹果去核切块,加入3个百香果和2勺蜂蜜。",
+      {
+        "text": "倒入橙汁,分量不要太多,刚好与苹果齐平即可。",
+        "imageUrl": "images/recipe_165_step_5.png"
+      },
+      "放入冰箱冷藏一个晚上,腌渍后汁水酸甜融合,十分好喝。",
+      {
+        "text": "【青柠糖渍凤梨】凤梨切块,表面擦上青柠皮,注意只擦表皮、别擦到白瓤(会发苦)。",
+        "imageUrl": "images/recipe_165_step_7.png"
+      },
+      "再挤上一点点柠檬汁,加2勺白砂糖搅拌均匀。",
+      "放入冰箱冷藏一个晚上,酸甜清爽,能让很酸的凤梨也变得好吃。"
+    ],
+    "nutrition": {
+      "calories": 13.8,
+      "protein": 0.0,
+      "carbs": 3.5,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7616334373050207534"
   }
 ]
