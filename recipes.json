@@ -9316,5 +9316,76 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7634103671105522954"
+  },
+  {
+    "id": 120,
+    "title": "可乐鸡腿🍗",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_120.png",
+    "description": "可乐鸡腿🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "苹果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "可乐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡腿去骨平铺入锅，三个鸡腿两面煎至金黄",
+        "imageUrl": "images/recipe_120_step_1.png"
+      },
+      {
+        "text": "放入苹果、洋葱，倒入可乐至没过鸡腿，加生抽、老抽调味",
+        "imageUrl": "images/recipe_120_step_2.png"
+      },
+      "盖上锅盖，中火焖煮约八分钟",
+      {
+        "text": "转大火收汁至汤汁浓稠裹满鸡腿",
+        "imageUrl": "images/recipe_120_step_4.png"
+      },
+      "出锅撒上芝麻即可，鸡肉鲜嫩多汁、带果香味"
+    ],
+    "nutrition": {
+      "calories": 540,
+      "protein": 54.0,
+      "carbs": 0,
+      "fat": 36.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7613328273052863786"
   }
 ]
