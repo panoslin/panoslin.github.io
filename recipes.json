@@ -11917,5 +11917,110 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7632699293300651961"
+  },
+  {
+    "id": 149,
+    "title": "电饭煲啤酒小龙虾🦞",
+    "category": [
+      "海鲜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_149.png",
+    "description": "电饭煲啤酒小龙虾🦞的详细制作方法",
+    "ingredients": [
+      {
+        "name": "小龙虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干面粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱段",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "十三香",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "啤酒",
+        "quantity": 1,
+        "unit": "瓶"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "小龙虾用干面粉和白醋反复抓洗，再用清水冲净、沥干。",
+        "imageUrl": "images/recipe_149_step_1.png"
+      },
+      "将洗净的小龙虾放入电饭煲内胆。",
+      "加入干料：葱段、姜片、香叶、干辣椒。",
+      {
+        "text": "依次加入生抽一勺、蚝油半勺、盐一小勺，再多放一些十三香。",
+        "imageUrl": "images/recipe_149_step_4.png"
+      },
+      {
+        "text": "放入冰糖，倒入一瓶啤酒，大致没过小龙虾。",
+        "imageUrl": "images/recipe_149_step_5.png"
+      },
+      {
+        "text": "盖上盖子，按下煮饭键焖煮，跳闸后即可出锅。",
+        "imageUrl": "images/recipe_149_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 1.2,
+      "protein": 0.1,
+      "carbs": 0.2,
+      "fat": 0.0,
+      "salt": 1.2
+    },
+    "source": "https://www.douyin.com/video/7628172349028886906"
   }
 ]
