@@ -17727,5 +17727,87 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7599476840620641570"
+  },
+  {
+    "id": 216,
+    "title": "蛋松白菜汤 🍲",
+    "category": [
+      "汤品",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_216.png",
+    "description": "蛋松白菜汤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "白菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "虾皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "猪油",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "白菜处理：不要先切菜头，从根部下刀切下去，这样待会切片更顺手；把白菜帮子和白菜叶子分开备用。",
+        "imageUrl": "images/recipe_216_step_1.png"
+      },
+      {
+        "text": "炒蛋松：尽量用铁锅（温度高汤更香），倒入约两勺油烧至6成热并把油搅动起来，将3个打散的鸡蛋慢慢倒入，像扬州炒饭炒蛋松那样；再让油温升高，把蛋炸到金黄蓬松成‘蛋松’，捞出控油备用。",
+        "imageUrl": "images/recipe_216_step_2.png"
+      },
+      "爆香：锅中放一小勺猪油，下虾皮和白菜帮子稍稍爆香，再把炒好的蛋松倒进去。",
+      {
+        "text": "冲水成浓白汤：倒入一锅清水，汤汁瞬间变得浓白，大火滚1分钟左右。",
+        "imageUrl": "images/recipe_216_step_4.png"
+      },
+      "放入白菜叶子，继续煮至断生。",
+      "起锅时调味：加鸡粉、盐、白胡椒各适量（滚汤水分蒸发多，尽量在起锅时再调味）。"
+    ],
+    "nutrition": {
+      "calories": 242.7,
+      "protein": 19.5,
+      "carbs": 1.5,
+      "fat": 16.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7595875855868415259"
   }
 ]
