@@ -20008,5 +20008,99 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7566949842392621450"
+  },
+  {
+    "id": 240,
+    "title": "豉汁焖鸡腿🍗",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_240.png",
+    "description": "豉汁焖鸡腿🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "软豆豉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蘑菇精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸡腿去骨（去骨更易熟），加生粉和盐抓拌清洗，并摘掉多余的猪油",
+      "把鸡肉剁散一下纤维，再切成大大的小块",
+      "加入盐、蘑菇精、胡椒粉、生粉抓拌均匀，腌制入味",
+      "姜、葱切好备用，加点辣椒更惹味",
+      {
+        "text": "软豆豉加一点点生抽化开，调成豆豉酱",
+        "imageUrl": "images/recipe_240_step_5.png"
+      },
+      {
+        "text": "热锅下本地花生油，鸡肉下锅煎至焦黄",
+        "imageUrl": "images/recipe_240_step_6.png"
+      },
+      "加入姜、葱、辣椒料头炒香",
+      {
+        "text": "浇入豆豉酱炒匀，即可出锅",
+        "imageUrl": "images/recipe_240_step_8.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7564719062569520430"
   }
 ]
