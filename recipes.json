@@ -14145,5 +14145,82 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7617332580782079348"
+  },
+  {
+    "id": 174,
+    "title": "花椒牛肋条一锅出🌶️",
+    "category": [
+      "牛肉",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_174.png",
+    "description": "花椒牛肋条一锅出🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肋条",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "八角",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白萝卜",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "小锅中放入两勺盐、一个八角和一大把花椒，最小火慢炒，把花椒和八角的香味炒出来。",
+        "imageUrl": "images/recipe_174_step_1.png"
+      },
+      "用炒好的花椒八角盐腌制牛肋条（约一斤），味道淡不淡主要看腌制时间的长短。",
+      {
+        "text": "牛肋条冷水下锅，煮开后撇掉浮沫。",
+        "imageUrl": "images/recipe_174_step_3.png"
+      },
+      "放入半个白萝卜，高压锅上汽后再压15分钟。",
+      {
+        "text": "时间到把肉捞出，萝卜随便弄碎；等肉凉一凉再切，这样做出来的肉不柴还保留了牛肉本身的香味，切好即可直接吃。",
+        "imageUrl": "images/recipe_174_step_5.png"
+      },
+      "最后在萝卜和汤里加点枸杞、葱花、胡椒和盐调个味即可，懒人一锅出，方便又好吃。"
+    ],
+    "nutrition": {
+      "calories": 203.0,
+      "protein": 4.1,
+      "carbs": 77.2,
+      "fat": 5.6,
+      "salt": 2.0
+    },
+    "source": "https://www.douyin.com/video/7617465884513704633"
   }
 ]
