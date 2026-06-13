@@ -15935,5 +15935,113 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7612222073858985251"
+  },
+  {
+    "id": 193,
+    "title": "酸辣粉🌶️",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_193.png",
+    "description": "酸辣粉🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "粉条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "榨菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生米",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "碗中放入葱花、蒜末、小米辣，再加入盐、鸡精、白糖、胡椒粉。",
+      {
+        "text": "淋入生抽、醋、香油、辣椒油，调成酸辣料汁。",
+        "imageUrl": "images/recipe_193_step_2.png"
+      },
+      "锅中水烧开，下入粉条，将粉条煮熟。",
+      {
+        "text": "留一点原汤，连同煮好的粉条一起倒入料汁碗中。",
+        "imageUrl": "images/recipe_193_step_4.png"
+      },
+      "最后放上香菜、榨菜、花生米，酸辣开胃即可享用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7609999063371408576"
   }
 ]
