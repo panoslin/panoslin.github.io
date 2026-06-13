@@ -14222,5 +14222,122 @@
       "salt": 2.0
     },
     "source": "https://www.douyin.com/video/7617465884513704633"
+  },
+  {
+    "id": 175,
+    "title": "恰巴塔牛肉滑蛋三明治 🥪",
+    "category": [
+      "西餐",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_175.png",
+    "description": "恰巴塔牛肉滑蛋三明治的详细制作方法",
+    "ingredients": [
+      {
+        "name": "恰巴塔面包",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝士片",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "油泼辣子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜芥末酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "欧芹",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "咖啡粉",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "水",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "香蕉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛奶",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "恰巴塔面包放入平底锅，加一点水，小火加盖焖一会儿让面包回软，时间到后取出备用。",
+      "趁热在面包上淋少许油泼辣子增香。",
+      "锅中放入牛肉、青椒、番茄翻炒，加黑胡椒调味。",
+      {
+        "text": "倒入蛋液，等边缘凝固后转中小火，轻轻滑炒摊成嫩滑的蛋饼。",
+        "imageUrl": "images/recipe_175_step_4.png"
+      },
+      "在蛋饼上铺一片芝士片，盖上锅盖关火，焖至芝士融化。",
+      {
+        "text": "另做饮品：两勺咖啡粉加两勺水，打发至浓稠的奶油质地。",
+        "imageUrl": "images/recipe_175_step_6.png"
+      },
+      "香蕉捣成泥，加入牛奶搅匀，再倒入打发好的咖啡，做成一杯香蕉拿铁。",
+      "恰巴塔面包铺上生菜，放上牛肉芝士蛋饼，挤上蜂蜜芥末酱，撒欧芹和蒜盐，合起即成三明治。",
+      "搭配香蕉拿铁一起享用即可。"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7616955538857720010"
   }
 ]
