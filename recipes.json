@@ -21078,5 +21078,73 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7555755918022085926"
+  },
+  {
+    "id": 250,
+    "title": "窝蛋牛肉生菜粥🥣",
+    "category": [
+      "粤菜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_250.png",
+    "description": "窝蛋牛肉生菜粥🥣的详细制作方法",
+    "ingredients": [
+      {
+        "name": "冷冻米饭",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛肉(吊龙)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "用冷冻的米饭来煲粥,米粒更快开花、煲粥更省时。",
+      {
+        "text": "牛肉选用吊龙部位,切好后加姜腌制一下。",
+        "imageUrl": "images/recipe_250_step_2.png"
+      },
+      "生菜洗净切碎备用。",
+      "粥底煲至浓稠后,放入腌好的牛肉,搅散煮熟。",
+      "打入一个鸡蛋做成窝蛋,稍煮。",
+      {
+        "text": "下入切好的生菜,加胡椒粉调味,略煮即可。",
+        "imageUrl": "images/recipe_250_step_6.png"
+      },
+      {
+        "text": "盛入碗中,窝蛋牛肉生菜粥即成,趁热享用。",
+        "imageUrl": "images/recipe_250_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 72,
+      "protein": 6.5,
+      "carbs": 0.5,
+      "fat": 4.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7549376962176306489"
   }
 ]
