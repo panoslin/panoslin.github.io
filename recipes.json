@@ -17809,5 +17809,68 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7595875855868415259"
+  },
+  {
+    "id": 217,
+    "title": "黄油蒜香杏鲍菇🍄",
+    "category": [
+      "素食",
+      "西餐"
+    ],
+    "imageUrl": "images/recipe_217.png",
+    "description": "黄油蒜香杏鲍菇🍄的详细制作方法",
+    "ingredients": [
+      {
+        "name": "杏鲍菇",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒸鱼豉油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "杏鲍菇削掉比较硬的表皮，切成1.5厘米左右的圆柱，上下面改个花刀，再切点蒜末备用。",
+        "imageUrl": "images/recipe_217_step_1.png"
+      },
+      {
+        "text": "锅中先不放油，开小火放入杏鲍菇，盖盖焖2分钟左右把水分焖出，再干煎至两面金黄。",
+        "imageUrl": "images/recipe_217_step_2.png"
+      },
+      {
+        "text": "把杏鲍菇推到一边，在空处放入一块黄油，注意全程保持小火（大火黄油容易焦）。",
+        "imageUrl": "images/recipe_217_step_3.png"
+      },
+      {
+        "text": "把蒜末倒进去一起慢慢炒香，再加一点辣椒酱和蒸鱼豉油提味，最后一起翻拌均匀即可。",
+        "imageUrl": "images/recipe_217_step_4.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 64.0,
+      "protein": 6.0,
+      "carbs": 12.0,
+      "fat": 0.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7596532041613659402"
   }
 ]
