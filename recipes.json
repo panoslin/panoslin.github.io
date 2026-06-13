@@ -15346,5 +15346,118 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7615265670943251891"
+  },
+  {
+    "id": 186,
+    "title": "潮汕海鲜砂锅粥🍲",
+    "category": [
+      "海鲜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_186.png",
+    "description": "潮汕海鲜砂锅粥🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "白粥（粥底）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "流油咸鸭蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "姜丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冬菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鲍鱼片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾仁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生蚝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芹菜珠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "先提前煮好一锅白粥作为粥底",
+      "捏入一个流油咸鸭蛋",
+      "加入姜丝、冬菜、花生酱，煮约3分钟",
+      {
+        "text": "倒入鲍鱼片、虾仁",
+        "imageUrl": "images/recipe_186_step_4.png"
+      },
+      {
+        "text": "加入用生抽、蚝油、胡椒粉腌制好的猪肉，煮约2分钟",
+        "imageUrl": "images/recipe_186_step_5.png"
+      },
+      {
+        "text": "再倒入生蚝、生菜、芹菜珠",
+        "imageUrl": "images/recipe_186_step_6.png"
+      },
+      "最后加盐、胡椒粉调味即可出锅"
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein": 13.0,
+      "carbs": 3.0,
+      "fat": 14.5,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7613748831491265384"
   }
 ]
