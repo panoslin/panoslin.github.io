@@ -13196,5 +13196,97 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7623144677924144802"
+  },
+  {
+    "id": 163,
+    "title": "五指毛桃焗鸡🍗",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_163.png",
+    "description": "五指毛桃焗鸡🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡块",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五指毛桃",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红葱头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "广东米酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸡块加入盐、糖、胡椒粉、生抽、淀粉、花生油抓匀腌制。",
+      {
+        "text": "热锅凉油，下鸡块和五指毛桃，开小火慢煎至两面焦香。",
+        "imageUrl": "images/recipe_163_step_2.png"
+      },
+      "打出煎鸡的油脂，盛出鸡块备用。",
+      {
+        "text": "砂锅烧热，倒入煎鸡原油，下蒜、红葱头、五指毛桃炒出香味。",
+        "imageUrl": "images/recipe_163_step_4.png"
+      },
+      {
+        "text": "倒入鸡块，盖上盖子，淋上一圈广东米酒。",
+        "imageUrl": "images/recipe_163_step_5.png"
+      },
+      "焗5分钟即可，椰香味浓，鲜嫩好吃。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7613322996283298737"
   }
 ]
