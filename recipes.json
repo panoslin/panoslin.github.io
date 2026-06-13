@@ -10407,5 +10407,112 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7638079872397451145"
+  },
+  {
+    "id": 134,
+    "title": "凉面🍜",
+    "category": [
+      "凉菜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_134.png",
+    "description": "凉面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "干碱面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菜籽油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆芽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "油辣子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "锅中水烧开,下干碱面大火煮40-50秒(碱面碱性重一些更香),刚熟就捞出控水。",
+      {
+        "text": "把面在案板上均匀铺开,不要去翻动,让它自然放凉;千万不要过凉水,过了凉水就不好吃。",
+        "imageUrl": "images/recipe_134_step_2.png"
+      },
+      {
+        "text": "面完全放凉后淋入菜籽油,用手把面抖散,做到根根分明、利索不坨。",
+        "imageUrl": "images/recipe_134_step_3.png"
+      },
+      "喜欢吃豆芽的把豆芽涮(焯)水后加入,喜欢吃黄瓜的加黄瓜(按口味添加)。",
+      {
+        "text": "调料汁:生抽少许、香醋少许、白糖、盐、味精、鸡精,再加花椒油、花椒面、油辣子,最后撒上葱花。",
+        "imageUrl": "images/recipe_134_step_5.png"
+      },
+      "把面和所有调料一起搅拌均匀即可开吃。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7629690841375894715"
   }
 ]
