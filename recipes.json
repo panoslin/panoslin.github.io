@@ -9799,5 +9799,74 @@
       "salt": 5.8
     },
     "source": "https://www.douyin.com/video/7635885868210108297"
+  },
+  {
+    "id": 125,
+    "title": "奶香养颜杂粮粥🥛",
+    "category": [
+      "主食",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_125.png",
+    "description": "奶香养颜杂粮粥🥛的详细制作方法",
+    "ingredients": [
+      {
+        "name": "红豆",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "红皮花生",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "糯米",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "黑米",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "红枣",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "纯牛奶",
+        "quantity": 1,
+        "unit": "盒"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "红豆、红皮花生、糯米、黑米、红枣各取一勺，洗净后加入适量清水",
+        "imageUrl": "images/recipe_125_step_1.png"
+      },
+      "放入电压力锅煮45分钟",
+      "煮好后加入红糖，搅拌至融化",
+      "最后加入一盒纯牛奶，搅匀即可，奶香浓郁软糯香甜"
+    ],
+    "nutrition": {
+      "calories": 19.3,
+      "protein": 0.7,
+      "carbs": 3.0,
+      "fat": 0.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7622294109549685350"
   }
 ]
