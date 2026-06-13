@@ -19554,5 +19554,116 @@
       "salt": 44.69
     },
     "source": "https://www.douyin.com/video/7562097792807505162"
+  },
+  {
+    "id": 236,
+    "title": "油泡肾球",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_236.png",
+    "description": "油泡肾球的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸭肾（鸭胗）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "麻油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸭肾（又叫鸭胗）用刀将四面八方的筋膜去除干净，修到光滑为止。",
+      {
+        "text": "在鸭肾表面先划一个十字花刀（不用太深），再贴着刀直切下去，保持均匀、不要切断，然后翻面继续切，使切开后能开出漂亮的'花'。技巧：在刀两侧各夹一个回形针（万字夹）控制深度，间距约8公分，照着切就不会切断。",
+        "imageUrl": "images/recipe_236_step_2.png"
+      },
+      "将切好的肾球加入姜、葱、米酒抓匀，静置约3分钟，去腥并去掉鸭的骚味。",
+      {
+        "text": "调一个碗芡：碗中加水、糖、盐、味精、蚝油，再加生粉（无粉不成芡）、胡椒粉、麻油几滴，调匀备用。",
+        "imageUrl": "images/recipe_236_step_4.png"
+      },
+      {
+        "text": "起锅下油烧热，肾球下锅拉油约1分钟，肾球微微张开即可捞出，不要煮过头。家里不想用油可改用清水飞水（拉油100分，飞水也有80分）。",
+        "imageUrl": "images/recipe_236_step_5.png"
+      },
+      "倒出多余的油，利用锅中余油爆香姜片，倒入肾球，烹入少许米酒。",
+      {
+        "text": "慢慢倒入调好的碗芡，再加入葱榄（葱花），喜欢的话可加少许胡萝卜点缀；翻匀至'有芡而不见芡流、色鲜而匀滑'即可出锅。",
+        "imageUrl": "images/recipe_236_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7545122291412159798"
   }
 ]
