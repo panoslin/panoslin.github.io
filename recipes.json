@@ -13588,5 +13588,111 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7619361987717360564"
+  },
+  {
+    "id": 168,
+    "title": "酸辣凉拌鸡胸肉🌶️",
+    "category": [
+      "凉菜",
+      "减肥"
+    ],
+    "imageUrl": "images/recipe_168.png",
+    "description": "酸辣凉拌鸡胸肉的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡胸肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "葱花",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "柠檬汁",
+        "quantity": 0.5,
+        "unit": "颗"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡胸肉切厚片，两面沾上玉米淀粉，用擀面杖敲薄。",
+        "imageUrl": "images/recipe_168_step_1.png"
+      },
+      "另烧一锅开水，加两勺料酒、一小把花椒，下入鸡胸肉烫约一分钟，捞出备用。",
+      {
+        "text": "调料汁：碗中放两勺蒜末、一勺葱花、一勺白芝麻、一勺小米辣，浇上热油激出香味。",
+        "imageUrl": "images/recipe_168_step_3.png"
+      },
+      {
+        "text": "再加两勺生抽、一勺蚝油、半颗柠檬汁、小半勺盐、小半勺糖，搅拌均匀。",
+        "imageUrl": "images/recipe_168_step_4.png"
+      },
+      "将调好的料汁浇在鸡胸肉片上，即可开饭。"
+    ],
+    "nutrition": {
+      "calories": 13.1,
+      "protein": 0.5,
+      "carbs": 1.5,
+      "fat": 0.5,
+      "salt": 0.39
+    },
+    "source": "https://www.douyin.com/video/7608574356872039707"
   }
 ]
