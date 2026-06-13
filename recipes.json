@@ -13288,5 +13288,73 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7613322996283298737"
+  },
+  {
+    "id": 164,
+    "title": "苹果鸳鸯奶茶🍎",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_164.png",
+    "description": "苹果鸳鸯奶茶🍎的详细制作方法",
+    "ingredients": [
+      {
+        "name": "苹果（选甜度高的）",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "红茶（工夫红茶）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鲜牛奶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "速溶咖啡（摩可纳5号）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "选择一个甜度高的苹果，切小块放入能进微波炉的杯子。",
+      "加入一小撮红茶（工夫红茶）和一点点糖，这个版本不用加水。",
+      {
+        "text": "搅拌融合后直接放进微波炉高火2分钟，至苹果熟透、夹杂红茶香气。",
+        "imageUrl": "images/recipe_164_step_3.png"
+      },
+      "倒入鲜牛奶浸泡，微波炉继续高火1分钟。",
+      "另取速溶咖啡（摩可纳5号），按水与咖啡1:1的比例冲调。",
+      {
+        "text": "用咖啡自带的搅拌器搅打至冰激凌奶油质地。",
+        "imageUrl": "images/recipe_164_step_6.png"
+      },
+      {
+        "text": "把泡好的苹果牛奶倒入打发好的咖啡中，即成夹杂苹果香与咖啡香的鸳鸯苹果奶茶。",
+        "imageUrl": "images/recipe_164_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7622920156520368114"
   }
 ]
