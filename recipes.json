@@ -13507,5 +13507,86 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7621426205778899813"
+  },
+  {
+    "id": 167,
+    "title": "粤式桑拿鸡🐔",
+    "category": [
+      "粤菜",
+      "蒸制"
+    ],
+    "imageUrl": "images/recipe_167.png",
+    "description": "粤式桑拿鸡🐔的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冬瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虫草花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡腿肉加盐、胡椒粉、蚝油、葱段抓匀，腌制1小时。",
+        "imageUrl": "images/recipe_167_step_1.png"
+      },
+      {
+        "text": "冬瓜切薄片铺在盘底打底。",
+        "imageUrl": "images/recipe_167_step_2.png"
+      },
+      "在冬瓜上铺一层虫草花。",
+      {
+        "text": "将腌好的鸡腿肉均匀铺在虫草花上。",
+        "imageUrl": "images/recipe_167_step_4.png"
+      },
+      "撒上枸杞。",
+      {
+        "text": "盖盖中火焖8分钟，全程不用加一滴水，原汁原味。",
+        "imageUrl": "images/recipe_167_step_6.png"
+      },
+      "时间到后撒上葱花即可，鸡肉鲜嫩，连汤汁都是精华。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7619361987717360564"
   }
 ]
