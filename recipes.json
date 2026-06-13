@@ -18365,5 +18365,108 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7592181009521675560"
+  },
+  {
+    "id": 223,
+    "title": "劲酒五指毛桃浸鸡煲🍲",
+    "category": [
+      "粤菜",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_223.png",
+    "description": "劲酒五指毛桃浸鸡煲🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "清远走地鸡(180天以上,已起肉)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五指毛桃",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红枣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "劲酒",
+        "quantity": 125,
+        "unit": "毫升"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "沙姜",
+        "quantity": 4,
+        "unit": "颗"
+      },
+      {
+        "name": "干葱头",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "选用180天以上的清远走地鸡,让商家提前起肉(去骨),并把多余的鸡油清理掉,口感更清爽不肥腻。",
+      {
+        "text": "把鸡肉切成约一个大拇指的厚度;刀要够锋利,否则切的时候容易皮肉分离。",
+        "imageUrl": "images/recipe_223_step_2.png"
+      },
+      "鸡骨放进煲里,加入五指毛桃、姜片、几粒养胃的红枣,再倒入一支125毫升的劲酒。",
+      {
+        "text": "大火煮开,一边煮一边撇去浮起的血沫,把精华全部保留在这口汤里(飞水去腥)。",
+        "imageUrl": "images/recipe_223_step_4.png"
+      },
+      "盖上盖子,转小火煮40分钟熬出汤底。",
+      {
+        "text": "做蘸料:四颗沙姜洗净不去皮拍碎,再加一个干葱头一起拍碎,淋上热油激发香味,然后加酱油、半勺盐和少许糖调味。",
+        "imageUrl": "images/recipe_223_step_6.png"
+      },
+      "汤煮好后把鸡骨捞出,汤里只需放一点盐调味。",
+      {
+        "text": "把切好的鸡肉和鸡杂一起下锅,中火慢慢浸熟,约两三分钟即熟,连鸡胸肉都滑嫩。",
+        "imageUrl": "images/recipe_223_step_8.png"
+      },
+      "最后加几粒枸杞点缀即可,搭配沙姜蘸料一起食用。"
+    ],
+    "nutrition": {
+      "calories": 52.0,
+      "protein": 1.6,
+      "carbs": 12.1,
+      "fat": 0.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7580402938443599119"
   }
 ]
