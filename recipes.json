@@ -14076,5 +14076,74 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7618525047006853882"
+  },
+  {
+    "id": 173,
+    "title": "煎酿豆腐🍳",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_173.png",
+    "description": "煎酿豆腐🍳的详细制作方法",
+    "ingredients": [
+      {
+        "name": "豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪肉馅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "豆腐切成大小均匀的方块，用勺子在每块豆腐中央压出一个小凹窝，并在窝内撒少许淀粉便于肉馅粘附。",
+        "imageUrl": "images/recipe_173_step_1.png"
+      },
+      {
+        "text": "将猪肉馅填入每块豆腐的凹窝中，肉面整理平整。",
+        "imageUrl": "images/recipe_173_step_2.png"
+      },
+      {
+        "text": "平底锅刷油烧热，豆腐肉面朝下下锅，表面再撒少许淀粉，中火煎至两面金黄。",
+        "imageUrl": "images/recipe_173_step_3.png"
+      },
+      {
+        "text": "倒入调味料汁，中火焖煮至汤汁浓稠、豆腐入味。",
+        "imageUrl": "images/recipe_173_step_4.png"
+      },
+      "出锅装入砂锅，撒上葱花，配米饭趁热食用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7617332580782079348"
   }
 ]
