@@ -15459,5 +15459,61 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7613748831491265384"
+  },
+  {
+    "id": 187,
+    "title": "话梅糖浆🥤",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_187.png",
+    "description": "话梅糖浆🥤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "甘草话梅",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "黄冰糖",
+        "quantity": 250,
+        "unit": "毫升"
+      },
+      {
+        "name": "纯净水",
+        "quantity": 320,
+        "unit": "毫升"
+      },
+      {
+        "name": "柠檬汁",
+        "quantity": 200,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "甘草话梅150g、黄冰糖250ml、纯净水320ml一起放入锅中,让话梅和冰糖充分浸泡。",
+        "imageUrl": "images/recipe_187_step_1.png"
+      },
+      {
+        "text": "全程小火慢慢煮,不需要搅拌。",
+        "imageUrl": "images/recipe_187_step_2.png"
+      },
+      {
+        "text": "加入柠檬汁200ml(没有新鲜柠檬可用市售柠檬汁代替),让口感酸甜更中和。",
+        "imageUrl": "images/recipe_187_step_3.png"
+      },
+      "煮好后放凉装瓶,这个比例刚好是一瓶的分量。",
+      "夏天搭配气泡水、茉莉花茶或咖啡饮用都很合适。"
+    ],
+    "nutrition": {
+      "calories": 1263.5,
+      "protein": 2.0,
+      "carbs": 326.8,
+      "fat": 0.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7614829441718421755"
   }
 ]
