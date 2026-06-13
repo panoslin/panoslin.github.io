@@ -19799,5 +19799,106 @@
       "salt": 10.41
     },
     "source": "https://www.douyin.com/video/7573215771213374345"
+  },
+  {
+    "id": 238,
+    "title": "麻辣香锅🌶️",
+    "category": [
+      "海鲜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_238.png",
+    "description": "麻辣香锅🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鱿鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "基围虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "莲藕",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香锅酱（干锅酱）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "处理基围虾：去虾枪、去虾胃，开背去虾肠，冲洗干净。",
+      {
+        "text": "鱿鱼撕掉外皮，打上花刀。",
+        "imageUrl": "images/recipe_238_step_2.png"
+      },
+      "姜、蒜、干辣椒备好；土豆、莲藕切片备用。",
+      "备一包香锅酱（干锅酱），用量根据个人口味添加。",
+      "配菜下锅焯水，焯熟后捞出备用。",
+      {
+        "text": "虾拍上一点淀粉，下锅煎至金黄盛出备用。",
+        "imageUrl": "images/recipe_238_step_6.png"
+      },
+      "配菜下锅煎，炒干水分才够香，煎香后倒出备用。",
+      {
+        "text": "爆香料头（姜、蒜、干辣椒），下入配菜翻炒。",
+        "imageUrl": "images/recipe_238_step_8.png"
+      },
+      "加入香锅酱，把海鲜和配菜全部加进去翻炒均匀。",
+      "撒上白芝麻、葱花即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7563548494700793097"
   }
 ]
