@@ -12574,5 +12574,74 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7615657672906424505"
+  },
+  {
+    "id": 156,
+    "title": "空气炸锅叉烧肉🍖",
+    "category": [
+      "粤菜",
+      "猪肉"
+    ],
+    "imageUrl": "images/recipe_156.png",
+    "description": "空气炸锅叉烧肉🍖的详细制作方法",
+    "ingredients": [
+      {
+        "name": "梅花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "腐乳",
+        "quantity": 1,
+        "unit": "块"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 1,
+        "unit": "瓷勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 3,
+        "unit": "瓷勺"
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "梅花肉切成厚片,约3到4片",
+        "imageUrl": "images/recipe_156_step_1.png"
+      },
+      {
+        "text": "加入一整块腐乳、一瓷勺蜂蜜、三瓷勺生抽,用手抓匀,腌制十来分钟",
+        "imageUrl": "images/recipe_156_step_2.png"
+      },
+      "空气炸锅最底层铺入葱姜并码匀",
+      {
+        "text": "放入腌好的梅花肉,170度烤30分钟,中途翻面",
+        "imageUrl": "images/recipe_156_step_4.png"
+      },
+      {
+        "text": "烤好后取出改刀切片即可",
+        "imageUrl": "images/recipe_156_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 4.9,
+      "protein": 0.2,
+      "carbs": 1.1,
+      "fat": 0.0,
+      "salt": 0.44
+    },
+    "source": "https://www.douyin.com/video/7628427856955937774"
   }
 ]
