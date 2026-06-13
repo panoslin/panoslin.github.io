@@ -7943,5 +7943,152 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7646243249992573802"
+  },
+  {
+    "id": 105,
+    "title": "鲍师傅肉松小贝🧁",
+    "category": [
+      "甜点",
+      "烘焙"
+    ],
+    "imageUrl": "images/recipe_105.png",
+    "description": "鲍师傅肉松小贝🧁的详细制作方法",
+    "ingredients": [
+      {
+        "name": "无菌蛋（沙拉酱）",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "白砂糖（沙拉酱）",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "盐（沙拉酱）",
+        "quantity": 4,
+        "unit": "克"
+      },
+      {
+        "name": "味精（沙拉酱）",
+        "quantity": 6,
+        "unit": "克"
+      },
+      {
+        "name": "植物油（沙拉酱）",
+        "quantity": 900,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶（沙拉酱）",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "白醋（沙拉酱）",
+        "quantity": 28,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶（蛋糕体）",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "色拉油（蛋糕体）",
+        "quantity": 45,
+        "unit": "克"
+      },
+      {
+        "name": "泡打粉",
+        "quantity": 2.5,
+        "unit": "克"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 125,
+        "unit": "克"
+      },
+      {
+        "name": "蛋黄",
+        "quantity": 125,
+        "unit": "克"
+      },
+      {
+        "name": "全蛋",
+        "quantity": 70,
+        "unit": "克"
+      },
+      {
+        "name": "蛋清",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "塔塔粉",
+        "quantity": 4,
+        "unit": "克"
+      },
+      {
+        "name": "盐（蛋糕体）",
+        "quantity": 1.5,
+        "unit": "克"
+      },
+      {
+        "name": "糖（蛋糕体）",
+        "quantity": 125,
+        "unit": "克"
+      },
+      {
+        "name": "肉松",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海苔",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "制作特调沙拉酱：将无菌蛋、白砂糖、盐、味精加入厨师机搅拌均匀，再高速打发至肉眼可见的蓬松状态。",
+      {
+        "text": "缓慢加入植物油，边打边加，直到油全部加完。",
+        "imageUrl": "images/recipe_105_step_2.png"
+      },
+      {
+        "text": "调成中速模式，加入牛奶和白醋继续打发，打成顺滑浓稠的状态即可。",
+        "imageUrl": "images/recipe_105_step_3.png"
+      },
+      "制作蛋糕体（蛋黄糊）：盆里加牛奶、色拉油搅拌后，加入泡打粉、玉米淀粉、过筛低筋面粉继续搅拌，再放入蛋黄、全蛋搅拌均匀至无颗粒状。",
+      {
+        "text": "蛋清部分：盆里加入蛋清、塔塔粉、盐用厨师机打发，分三次加糖（出大气泡时、打至细腻泡沫时、打出纹路时各加三分之一），打发至非常蓬松绵密、蛋清稍微偏老即可。",
+        "imageUrl": "images/recipe_105_step_5.png"
+      },
+      {
+        "text": "将蛋黄糊与蛋清霜翻拌在一起（从下往上顺时针翻拌）。",
+        "imageUrl": "images/recipe_105_step_6.png"
+      },
+      {
+        "text": "面糊装进裱花袋，挤在烤盘上。",
+        "imageUrl": "images/recipe_105_step_7.png"
+      },
+      "上火190度、下火150度，烤约15分钟（具体温度根据自家烤箱适当调整）。",
+      "取出晾凉。",
+      "晾凉的蛋糕体表面包裹特调沙拉酱，再放入肉松中裹满肉松（混合酥脆海苔），即成鲍师傅肉松小贝。"
+    ],
+    "nutrition": {
+      "calories": 9791.9,
+      "protein": 24.2,
+      "carbs": 257.4,
+      "fat": 983.2,
+      "salt": 15.21
+    },
+    "source": "https://www.douyin.com/video/7217003593004617012"
   }
 ]
