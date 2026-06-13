@@ -9015,5 +9015,75 @@
       "salt": 8.66
     },
     "source": "https://www.douyin.com/video/7641042068323849403"
+  },
+  {
+    "id": 115,
+    "title": "电饭煲红薯西米芋圆奶露🍠",
+    "category": [
+      "甜品",
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_115.png",
+    "description": "电饭煲红薯西米芋圆奶露🍠的详细制作方法",
+    "ingredients": [
+      {
+        "name": "红薯",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芋圆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "滚烫开水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "纯牛奶或椰奶",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "红薯去皮切块，放入电饭煲内胆。",
+      {
+        "text": "加入西米和喜欢吃的芋圆，再放适量冰糖。",
+        "imageUrl": "images/recipe_115_step_2.png"
+      },
+      {
+        "text": "一定要加入滚烫的开水（关键步骤，避免西米夹生）。",
+        "imageUrl": "images/recipe_115_step_3.png"
+      },
+      "搅拌防止粘锅。",
+      {
+        "text": "盖上盖子，电饭煲选择煮饭模式，煮约半个小时。",
+        "imageUrl": "images/recipe_115_step_5.png"
+      },
+      {
+        "text": "煮好后加入纯牛奶或椰奶拌匀即可，口感润糯香甜、奶香浓郁。",
+        "imageUrl": "images/recipe_115_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7626358890992868283"
   }
 ]
