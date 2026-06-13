@@ -12310,5 +12310,110 @@
       "salt": 2.0
     },
     "source": "https://www.douyin.com/video/7627789807774931060"
+  },
+  {
+    "id": 153,
+    "title": "电饭煲麻辣烫🍲",
+    "category": [
+      "快手菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_153.png",
+    "description": "电饭煲麻辣烫的详细制作方法",
+    "ingredients": [
+      {
+        "name": "火锅底料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "丸子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "金针菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "方便面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛奶",
+        "quantity": 1,
+        "unit": "盒"
+      },
+      {
+        "name": "水",
+        "quantity": 1,
+        "unit": "盒"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "配菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "火锅底料装入纱布袋，放进电饭煲内胆，这样不影响汤底口感。",
+        "imageUrl": "images/recipe_153_step_1.png"
+      },
+      "把喜欢吃的丸子、金针菇、方便面都倒进锅里。",
+      "倒入一盒牛奶，再倒入一盒水。",
+      "加点盐和味精，调到咸淡合适。",
+      "扣盖按正常焖饭模式，定一个10分钟的闹钟。",
+      {
+        "text": "碗里放芝麻酱，加生抽把麻酱澥开成料汁。",
+        "imageUrl": "images/recipe_153_step_6.png"
+      },
+      "到点后把喜欢吃的配菜放进锅里，翻拌均匀，扣盖再焖5分钟。",
+      {
+        "text": "到点取出，把澥好的麻酱往上一倒。",
+        "imageUrl": "images/recipe_153_step_8.png"
+      },
+      "喜欢酸甜口的可以再加点白糖和醋。"
+    ],
+    "nutrition": {
+      "calories": 0.5,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7619892940341926473"
   }
 ]
