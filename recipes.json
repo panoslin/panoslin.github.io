@@ -18754,5 +18754,66 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7587350455472622897"
+  },
+  {
+    "id": 227,
+    "title": "哈佛蔬菜汤🥣",
+    "category": [
+      "汤品",
+      "减肥"
+    ],
+    "imageUrl": "images/recipe_227.png",
+    "description": "哈佛蔬菜汤🥣的详细制作方法",
+    "ingredients": [
+      {
+        "name": "南瓜",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "洋葱",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "包菜",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "包菜、洋葱、胡萝卜、南瓜各100克，洗净后切成大块，全部不要去皮（带皮可增加汤里的植物素）。",
+        "imageUrl": "images/recipe_227_step_1.png"
+      },
+      {
+        "text": "将所有食材放入锅中，加水没过食材。",
+        "imageUrl": "images/recipe_227_step_2.png"
+      },
+      {
+        "text": "大火烧开后转中火煮20分钟。",
+        "imageUrl": "images/recipe_227_step_3.png"
+      },
+      "全程不需要加任何调料，汤里都是植物素和营养。",
+      "煮好后盛出即可饮用，非常好喝。"
+    ],
+    "nutrition": {
+      "calories": 106.0,
+      "protein": 3.3,
+      "carbs": 24.7,
+      "fat": 0.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7532422420134743356"
   }
 ]
