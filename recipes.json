@@ -17333,5 +17333,72 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7603226221781978420"
+  },
+  {
+    "id": 210,
+    "title": "话梅冰椰水🥥",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_210.png",
+    "description": "话梅冰椰水🥥的详细制作方法",
+    "ingredients": [
+      {
+        "name": "话梅",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "黄冰糖",
+        "quantity": 160,
+        "unit": "克"
+      },
+      {
+        "name": "清水",
+        "quantity": 250,
+        "unit": "毫升"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "椰子水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用冰",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "话梅80克、黄冰糖160克、清水250毫升放入锅中（比例固定不变）。",
+        "imageUrl": "images/recipe_210_step_1.png"
+      },
+      "中小火煮约10分钟，挤入半个柠檬的汁。",
+      "再煮2分钟即可关火。",
+      {
+        "text": "趁热倒入干净的小罐子保存；放凉后糖浆会变得浓稠。",
+        "imageUrl": "images/recipe_210_step_4.png"
+      },
+      "饮用时取一杯，放入几颗话梅，再加适量话梅糖浆。",
+      "倒入冷水与椰子水，加入适量食用冰。",
+      {
+        "text": "盖紧摇一摇、摇匀即可饮用。",
+        "imageUrl": "images/recipe_210_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 768.1,
+      "protein": 1.2,
+      "carbs": 198.2,
+      "fat": 0.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7575513565088815027"
   }
 ]
