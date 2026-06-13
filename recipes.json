@@ -6999,5 +6999,103 @@
       "salt": 3.17
     },
     "source": "https://www.xiachufang.com/recipe/76944/"
+  },
+  {
+    "id": 95,
+    "title": "面包机鸡胸肉松🍚",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_95.png",
+    "description": "面包机鸡胸肉松🍚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡胸肉",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱结",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 8,
+        "unit": "克"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 8,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "糖",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "玉米油",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸡胸肉300克冷水下锅，加入去腥三件套（料酒、葱结、姜片），煮开后撇去浮沫，煮熟后捞出。",
+      "煮熟的鸡胸肉放凉后装进保鲜袋。",
+      {
+        "text": "用擀面杖隔着保鲜袋将鸡胸肉压散、敲打成细丝。",
+        "imageUrl": "images/recipe_95_step_3.png"
+      },
+      {
+        "text": "把肉丝倒入面包机，加入料汁：老抽5g、生抽8g、蚝油8g、盐2g、糖15g、玉米油20g。",
+        "imageUrl": "images/recipe_95_step_4.png"
+      },
+      {
+        "text": "启动面包机翻炒程序，炒至金黄蓬松、成肉松状态。",
+        "imageUrl": "images/recipe_95_step_5.png"
+      },
+      "撒入白芝麻、黑芝麻拌匀。",
+      "放凉后密封装起来保存，下次可用来做肉松吐司。"
+    ],
+    "nutrition": {
+      "calories": 496.8,
+      "protein": 60.0,
+      "carbs": 22.7,
+      "fat": 15.3,
+      "salt": 4.71
+    },
+    "source": "https://www.douyin.com/video/7641206591925469082"
   }
 ]

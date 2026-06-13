@@ -1376,6 +1376,7 @@ function updatePortion(multiplier) {
     quantityElements.forEach(element => {
         const originalQuantity = parseFloat(element.getAttribute('data-quantity'));
         const unit = element.getAttribute('data-unit');
+        if (isNaN(originalQuantity)) return; // 适量等非数值: 保持原样不缩放
         const newQuantity = originalQuantity * clampedMultiplier;
         
         // 格式化显示：如果是整数则显示整数，否则保留1位小数
@@ -2545,6 +2546,7 @@ function calculateIngredientContribution(ingredient, nutritionType) {
     const name = ingredient.name.trim();
     const quantity = ingredient.quantity;
     const unit = ingredient.unit;
+    if (typeof quantity !== 'number') return 0; // 适量等非数值: 不计入营养贡献
     
     // 特殊处理：如果食材是"盐"，直接使用用量作为盐含量
     if (nutritionType === 'salt' && name === '盐') {
