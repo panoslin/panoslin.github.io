@@ -22392,5 +22392,116 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7317182469428497718"
+  },
+  {
+    "id": 266,
+    "title": "香煎排骨🍖",
+    "category": [
+      "家常菜",
+      "猪肉"
+    ],
+    "imageUrl": "images/recipe_266.png",
+    "description": "香煎排骨🍖的详细制作方法",
+    "ingredients": [
+      {
+        "name": "排骨",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蘑菇精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱段",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花雕酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "排骨500克用生粉和盐抓洗，冲洗干净后吸干水分。",
+      {
+        "text": "加少许盐抓至起胶。",
+        "imageUrl": "images/recipe_266_step_2.png"
+      },
+      "加入糖、蘑菇精、胡椒粉、蚝油、生抽、生粉抓匀，再倒入花生油锁住水分腌制。",
+      "准备青红椒圈、葱段、蒜片作料头备用。",
+      {
+        "text": "调灵魂料汁：生抽、蚝油、糖、胡椒粉、花雕搅拌均匀。",
+        "imageUrl": "images/recipe_266_step_5.png"
+      },
+      "热锅热油，下入排骨，大火慢煎。",
+      {
+        "text": "煎至底面焦黄后即刻翻面。",
+        "imageUrl": "images/recipe_266_step_7.png"
+      },
+      "倒出锅中多余的油，沿锅边淋两圈花雕增香去腥（小心着火）。",
+      "盖上锅盖，细火焗1分钟。",
+      "加入料头炒香，翻匀即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 1320.0,
+      "protein": 91.5,
+      "carbs": 0.0,
+      "fat": 102.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7512000650152332554"
   }
 ]
