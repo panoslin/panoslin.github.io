@@ -14018,5 +14018,63 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7617279176354434410"
+  },
+  {
+    "id": 172,
+    "title": "话梅柠檬糖浆🍋",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_172.png",
+    "description": "话梅柠檬糖浆🍋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "柠檬",
+        "quantity": 2,
+        "unit": "颗"
+      },
+      {
+        "name": "纯净水",
+        "quantity": 250,
+        "unit": "毫升"
+      },
+      {
+        "name": "黄冰糖",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "甘草话梅",
+        "quantity": 100,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "柠檬两颗洗净后切成薄片备用。",
+        "imageUrl": "images/recipe_172_step_1.png"
+      },
+      "将黄冰糖和甘草话梅全部倒入锅中。",
+      {
+        "text": "把柠檬片铺在最上面。",
+        "imageUrl": "images/recipe_172_step_3.png"
+      },
+      "最后倒入250毫升纯净水。",
+      {
+        "text": "开最小火慢慢熬煮约15分钟,中途无需搅拌,让柠檬充分浸泡在糖浆中即可。",
+        "imageUrl": "images/recipe_172_step_5.png"
+      },
+      "熬好后装入干净罐子,冷藏可保存约一周。",
+      "饮用时加入适量冰块,舀一勺糖浆,兑入一瓶气泡水或苏打水即可。"
+    ],
+    "nutrition": {
+      "calories": 1136.1,
+      "protein": 0.8,
+      "carbs": 292.2,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7618525047006853882"
   }
 ]
