@@ -7406,5 +7406,127 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7648903133501934854"
+  },
+  {
+    "id": 99,
+    "title": "酱多多肉松蛋糕卷🍰",
+    "category": [
+      "甜品",
+      "烘焙"
+    ],
+    "imageUrl": "images/recipe_99.png",
+    "description": "酱多多肉松蛋糕卷的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛奶(卡仕达酱)",
+        "quantity": 115,
+        "unit": "克"
+      },
+      {
+        "name": "蛋黄(卡仕达酱)",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "白糖(卡仕达酱)",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 6,
+        "unit": "克"
+      },
+      {
+        "name": "黄油",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 5,
+        "unit": "个"
+      },
+      {
+        "name": "玉米油",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶(蛋糕)",
+        "quantity": 60,
+        "unit": "克"
+      },
+      {
+        "name": "白糖(蛋糕)",
+        "quantity": 45,
+        "unit": "克"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 60,
+        "unit": "克"
+      },
+      {
+        "name": "柠檬汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉松",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淡奶油",
+        "quantity": 130,
+        "unit": "克"
+      },
+      {
+        "name": "沙拉酱",
+        "quantity": 35,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "制作卡仕达酱:将蛋黄、牛奶(115克)、白糖(15克)、玉米淀粉一起加入奶锅。",
+      {
+        "text": "小火加热并不断搅拌至浓稠状态。",
+        "imageUrl": "images/recipe_99_step_2.png"
+      },
+      "加入黄油搅拌融化,贴面盖上保鲜膜冷藏备用。",
+      "制作蛋糕糊:玉米油和牛奶(60克)搅拌乳化。",
+      "筛入低筋面粉,搅拌至无干粉状态。",
+      "加入分离出的5个蛋黄,搅匀成蛋黄糊。",
+      {
+        "text": "蛋清中加入白砂糖、柠檬汁,打发至尖嘴小弯钩状态。",
+        "imageUrl": "images/recipe_99_step_7.png"
+      },
+      "取部分蛋白到蛋黄糊里拌匀,再倒回蛋白盆里翻拌均匀。",
+      "倒入28方盘抹平,表面撒上香葱、肉松。",
+      "150度烤30分钟,取出晾凉。",
+      "制作奶酱:淡奶油、沙拉酱与全部卡仕达酱混合打发均匀。",
+      {
+        "text": "晾凉的蛋糕卷抹上奶酱,提起油纸轻压卷起。",
+        "imageUrl": "images/recipe_99_step_12.png"
+      },
+      {
+        "text": "卷好后侧面蘸上奶酱再蘸满肉松即可。",
+        "imageUrl": "images/recipe_99_step_13.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 1565.7,
+      "protein": 55.6,
+      "carbs": 90.3,
+      "fat": 108.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7648261026631072690"
   }
 ]
