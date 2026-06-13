@@ -15248,5 +15248,103 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7615081651215628714"
+  },
+  {
+    "id": 185,
+    "title": "黄油胡椒虾🦐",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_185.png",
+    "description": "黄油胡椒虾🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "罗氏虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "广东米酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄油",
+        "quantity": 1,
+        "unit": "块"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "处理虾:新鲜罗氏虾剪去虾足和虾枪,摘掉虾胃,再剪开腹部和虾头。",
+        "imageUrl": "images/recipe_185_step_1.png"
+      },
+      "蒜切碎、小葱切粒;黑胡椒和白胡椒研磨好备用。",
+      {
+        "text": "砂锅开火预热烧油,下黑白胡椒碎和蒜粒炒香。",
+        "imageUrl": "images/recipe_185_step_3.png"
+      },
+      "下小葱爆香。",
+      {
+        "text": "放入虾先煎一下,再翻炒至变色。",
+        "imageUrl": "images/recipe_185_step_5.png"
+      },
+      "加入生抽、蚝油、白糖,翻拌均匀。",
+      "加盖淋入广东米酒,大火焗1分钟。",
+      {
+        "text": "开盖后加一块黄油,撒入黑白胡椒碎,翻拌让虾壳裹满料汁。",
+        "imageUrl": "images/recipe_185_step_8.png"
+      },
+      "撒入葱花即可开动。"
+    ],
+    "nutrition": {
+      "calories": 7.2,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.8,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7615265670943251891"
   }
 ]
