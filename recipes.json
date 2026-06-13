@@ -21820,5 +21820,88 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7533971406780075321"
+  },
+  {
+    "id": 258,
+    "title": "滑蛋恰巴塔🍳",
+    "category": [
+      "西餐",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_258.png",
+    "description": "滑蛋恰巴塔🍳的详细制作方法",
+    "ingredients": [
+      {
+        "name": "冷冻恰巴塔",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝士片",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "培根",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "绿叶菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芥末青瓜酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "辣椒油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "冷冻恰巴塔无需解冻，直接放入平底锅，加入少许水，盖上盖子焖几分钟，焖至松松软软即可出锅",
+        "imageUrl": "images/recipe_258_step_1.png"
+      },
+      "平底锅放入培根煎至焦香，盛出备用",
+      {
+        "text": "不粘锅小火做滑蛋，快速翻炒至丝滑半凝固的嫩滑状态",
+        "imageUrl": "images/recipe_258_step_3.png"
+      },
+      {
+        "text": "在滑蛋上铺一片芝士，盖上盖子焖一会儿至芝士融化",
+        "imageUrl": "images/recipe_258_step_4.png"
+      },
+      "恰巴塔对半切开，在切面抹上一勺芥末青瓜酱",
+      "依次铺上几片绿叶菜、火腿片和煎好的培根",
+      "放上滑蛋芝士，淋上辣椒油，合上恰巴塔即可，全程不到十分钟"
+    ],
+    "nutrition": {
+      "calories": 0.7,
+      "protein": 0.0,
+      "carbs": 0.1,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7522713950300704040"
   }
 ]
