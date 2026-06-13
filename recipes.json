@@ -10327,5 +10327,85 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7634506437767905768"
+  },
+  {
+    "id": 133,
+    "title": "菌菇玉米素汤🍲",
+    "category": [
+      "汤品",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_133.png",
+    "description": "菌菇玉米素汤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "口蘑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "铁棍山药",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "羊肚菌",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "清水",
+        "quantity": 400,
+        "unit": "毫升"
+      },
+      {
+        "name": "豌豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "羊肚菌提前用清水泡发，泡羊肚菌的水留着备用，不要倒掉",
+      {
+        "text": "锅中喷少许油，放几片生姜和口蘑，先煎出汁水",
+        "imageUrl": "images/recipe_133_step_2.png"
+      },
+      "倒入铁棍山药和羊肚菌",
+      "加入泡羊肚菌的水和适量开水，盖盖焖煮10分钟",
+      {
+        "text": "利用等待时间，把100克玉米倒入破壁机，加400毫升清水，选择果蔬模式打成玉米汁",
+        "imageUrl": "images/recipe_133_step_5.png"
+      },
+      "把打好的玉米汁倒入锅中，加一把豌豆，继续煮5分钟",
+      "最后加一点点盐调味即可，吃的都是食材的本味鲜甜"
+    ],
+    "nutrition": {
+      "calories": 112.0,
+      "protein": 4.2,
+      "carbs": 22.8,
+      "fat": 1.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7638079872397451145"
   }
 ]
