@@ -21987,5 +21987,55 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7528354968379051291"
+  },
+  {
+    "id": 260,
+    "title": "番茄味疙瘩汤的疙瘩🍅",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_260.png",
+    "description": "番茄味疙瘩汤的疙瘩🍅的详细制作方法",
+    "ingredients": [
+      {
+        "name": "番茄",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "大葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "面粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "番茄、大葱切小块，与面粉一起放入料理机中。",
+      {
+        "text": "直接搅打，不到10秒钟即可得到一个粉粉的面团。",
+        "imageUrl": "images/recipe_260_step_2.png"
+      },
+      {
+        "text": "再加入一些面粉，继续搅打几秒钟，就得到了疙瘩汤里的小面疙瘩。",
+        "imageUrl": "images/recipe_260_step_3.png"
+      },
+      "用同样的方法可加入各种蔬菜，做成不同蔬菜味；无需色素即可得到番茄味的面疙瘩。",
+      "可另做一份不加番茄的原味面疙瘩。",
+      "用保鲜袋装好，平铺放入冷冻室冷冻；因为加了面粉防粘，冻好后不会结成坨。",
+      "想吃疙瘩汤时，直接抓一把下锅煮即可。"
+    ],
+    "nutrition": {
+      "calories": 18,
+      "protein": 0.9,
+      "carbs": 3.5,
+      "fat": 0.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7523820690304355623"
   }
 ]
