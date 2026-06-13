@@ -7200,5 +7200,68 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7649317462323825947"
+  },
+  {
+    "id": 97,
+    "title": "苹果奶绿🍎",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_97.png",
+    "description": "苹果奶绿🍎的详细制作方法",
+    "ingredients": [
+      {
+        "name": "苹果",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": 300,
+        "unit": "毫升"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 200,
+        "unit": "毫升"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "提前把冰块冻好备用。",
+      "准备两个苹果，洗净去核切块。",
+      "苹果块放入破壁机，加入300毫升茉莉花茶；喜欢甜口的可以再加适量蜂蜜。",
+      {
+        "text": "再加一丢丢盐，用果汁模式打2分钟——加盐能让口感更甜，还不会氧化变色。",
+        "imageUrl": "images/recipe_97_step_4.png"
+      },
+      {
+        "text": "牛奶不要放进破壁机一起打（会起沫），打好后直接把200毫升牛奶加进杯子里。",
+        "imageUrl": "images/recipe_97_step_5.png"
+      },
+      "加入冻好的冰块，搅匀即可享用。"
+    ],
+    "nutrition": {
+      "calories": 114.0,
+      "protein": 6.3,
+      "carbs": 8.0,
+      "fat": 6.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7648827093183507441"
   }
 ]
