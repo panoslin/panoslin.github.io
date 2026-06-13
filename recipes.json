@@ -21489,5 +21489,123 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7540977175630826803"
+  },
+  {
+    "id": 255,
+    "title": "石家庄特色牛肉板面🍜",
+    "category": [
+      "主食",
+      "牛肉"
+    ],
+    "imageUrl": "images/recipe_255.png",
+    "description": "石家庄特色牛肉板面的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "热水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "板面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "锅中放入牛油烧化，下入干辣椒和香料小火炒出香味",
+        "imageUrl": "images/recipe_255_step_1.png"
+      },
+      {
+        "text": "加入切好的牛肉丁煸炒上色",
+        "imageUrl": "images/recipe_255_step_2.png"
+      },
+      "倒入适量热水煮开",
+      "加入盐、鸡精、生抽、老抽调味",
+      "放入豆皮、鸡蛋、火腿肠一起炖煮入味",
+      "下入板面煮熟",
+      "加入青菜稍煮后捞出过一遍凉水",
+      {
+        "text": "碗中浇入面汤，码上牛肉、豆皮、火腿肠和鸡蛋",
+        "imageUrl": "images/recipe_255_step_8.png"
+      },
+      {
+        "text": "淋上辣椒油，搅拌均匀即可开吃",
+        "imageUrl": "images/recipe_255_step_9.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7513869082433752331"
   }
 ]
