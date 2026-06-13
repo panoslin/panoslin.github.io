@@ -18648,5 +18648,111 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/6907502601147911439"
+  },
+  {
+    "id": 226,
+    "title": "芥末虾球 🍤",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_226.png",
+    "description": "芥末虾球 🍤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "大虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋黄",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜芥末酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "沙拉酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣根",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "欧芹碎",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "取葱、姜放入碗中加少量水，抓挤出葱姜水备用。",
+      {
+        "text": "处理虾：去掉虾头和虾皮、留下虾仁，开背取出虾线，虾背的口一定要开大一点，方便炸时成球；清洗干净虾线和杂质后擦干水分。",
+        "imageUrl": "images/recipe_226_step_2.png"
+      },
+      {
+        "text": "腌制：加白胡椒、少许盐入底味，倒入葱姜水（不要用料酒腌，否则挂糊后料酒味挥发不出去、肉质会发酸），下入1个鸡蛋黄，加玉米淀粉（先两勺，没有可用土豆淀粉，建议用玉米淀粉），再下少量水，若偏稀补点玉米淀粉，加少许油抓拌，使每个虾均匀裹糊至稍粘手的状态，腌约15分钟。",
+        "imageUrl": "images/recipe_226_step_3.png"
+      },
+      {
+        "text": "调灵魂酱汁：蜂蜜芥末酱与沙拉酱按1:1挤入，再加适量辣根（家中有小孩不能吃辣根可少放），三种酱汁提前和匀。",
+        "imageUrl": "images/recipe_226_step_4.png"
+      },
+      {
+        "text": "炸制：大火将油烧至六七成热（筷子旁冒出密集小泡即可），捏住虾中间部位一个一个下入，下入后改中火，炸至金黄、虾仁飘起即熟。",
+        "imageUrl": "images/recipe_226_step_5.png"
+      },
+      "把炸好的虾仁与调好的酱汁拌匀。",
+      "装入干净的盘子中，撒上欧芹碎即可。"
+    ],
+    "nutrition": {
+      "calories": 144,
+      "protein": 13.3,
+      "carbs": 1.5,
+      "fat": 8.8,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7587350455472622897"
   }
 ]
