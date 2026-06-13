@@ -8167,5 +8167,89 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7634854498708179835"
+  },
+  {
+    "id": 107,
+    "title": "银耳雪梨汤🍐",
+    "category": [
+      "汤品",
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_107.png",
+    "description": "银耳雪梨汤🍐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "雪梨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "梨皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "椴木银耳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "川贝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干百合",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小枣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "雪梨洗净,削去梨皮,梨皮保留备用(别扔)。",
+      {
+        "text": "梨皮放入微波炉中火约2分钟稍作脱水(也可用平底锅烘烤),逼出梨香味。",
+        "imageUrl": "images/recipe_107_step_2.png"
+      },
+      "雪梨一分为四,去掉梨核,再切成小块。",
+      {
+        "text": "椴木银耳提前用凉水浸泡2-3小时泡发,去掉根部,撕成小朵(撕得越碎,出胶越快)。",
+        "imageUrl": "images/recipe_107_step_4.png"
+      },
+      {
+        "text": "锅中加水烧至温热,放入梨块、梨皮、川贝、干百合、五六粒小枣和撕碎的椴木银耳。",
+        "imageUrl": "images/recipe_107_step_5.png"
+      },
+      "加入少量盐和老冰糖调味。",
+      "开大火煮开并保持微开状态,开锅后转小火慢熬40分钟。",
+      "熬好后把梨皮挑出来即可,口感清爽滋润。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7481346710803860799"
   }
 ]
