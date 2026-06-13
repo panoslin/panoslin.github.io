@@ -11098,5 +11098,133 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7635216097684135083"
+  },
+  {
+    "id": 141,
+    "title": "台湾牛肉面🍜",
+    "category": [
+      "牛肉",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_141.png",
+    "description": "台湾牛肉面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肋条（澳洲牛肋条）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛蹄筋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": 1,
+        "unit": "块"
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "沙茶酱",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "番茄膏",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "汤匙"
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "咸菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "锅中倒入少许清油烧热。",
+      "放入牛肋条（本次选用澳洲牛肋条）煎炒。",
+      "牛肉煎至上色后，放入葱、蒜、八角、香叶和拍碎的姜块，继续煎炒。",
+      "放入预先炖至约五成、摸起来弹弹但还没软糯的牛蹄筋。",
+      {
+        "text": "加入豆瓣酱煸炒（不要放太多），把豆瓣酱本身的香味释放出来，炒至油脂微微红润。",
+        "imageUrl": "images/recipe_141_step_5.png"
+      },
+      {
+        "text": "加入约一大勺沙茶酱（喜欢沙茶味可按豆瓣酱∶沙茶酱=1∶2）炒匀。",
+        "imageUrl": "images/recipe_141_step_6.png"
+      },
+      {
+        "text": "再加入一小勺番茄膏，用其酸味平衡酱汁，把所有酱料炒匀炒香。",
+        "imageUrl": "images/recipe_141_step_7.png"
+      },
+      "将炒好的料连同牛肉一起放入炖锅，注入清水至没过食材约一半。",
+      "煮开后加入约10克冰糖、1汤匙生抽，再补约1勺老抽调味。",
+      "加盖焖约45分钟。",
+      "焖好后不要捞出牛肉，让其在原汤中浸泡一晚或至少4–5小时（炖后再卤，更入味）；原汤口味可稍重，经面汤稀释后刚好。",
+      "牛肉面煮好，先盛一碗浓汤；因有沙茶酱加持，汤底更鲜。可搭配少许咸菜，风味更完美。"
+    ],
+    "nutrition": {
+      "calories": 40.9,
+      "protein": 0.1,
+      "carbs": 10.4,
+      "fat": 0.0,
+      "salt": 0.3
+    },
+    "source": "https://www.douyin.com/video/7635478536677084442"
   }
 ]
