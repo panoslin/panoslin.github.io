@@ -7097,5 +7097,108 @@
       "salt": 4.71
     },
     "source": "https://www.douyin.com/video/7641206591925469082"
+  },
+  {
+    "id": 96,
+    "title": "炝拌黄瓜🥒",
+    "category": [
+      "凉菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_96.png",
+    "description": "炝拌黄瓜🥒的详细制作方法",
+    "ingredients": [
+      {
+        "name": "黄瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜泥",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "陈醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "黄瓜清洗干净，切去头尾，先一破二、再二破四切开。",
+      {
+        "text": "去掉黄瓜中间的瓜瓤，这样吃起来口感更脆、不会有水渣感。",
+        "imageUrl": "images/recipe_96_step_2.png"
+      },
+      "把黄瓜切成长短合适的条。",
+      {
+        "text": "撒少许盐抓拌均匀，腌制约10分钟杀水，待水分充分析出。",
+        "imageUrl": "images/recipe_96_step_4.png"
+      },
+      "用清水把盐分淘洗干净，沥干水分备用。",
+      {
+        "text": "加入味精、少许白糖、蒜泥（可多放）、酱油、陈醋、香油、花椒油，搅拌均匀。",
+        "imageUrl": "images/recipe_96_step_6.png"
+      },
+      {
+        "text": "起锅烧油，油烧至冒烟，下入花椒、干辣椒快速炝香（不要炝过），立即淋在黄瓜上。",
+        "imageUrl": "images/recipe_96_step_7.png"
+      },
+      "马上盖上盖子焖三五分钟，让炝香味浸入黄瓜。",
+      "揭开盖子，边拌边感受香味，装盘即可。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7649317462323825947"
   }
 ]
