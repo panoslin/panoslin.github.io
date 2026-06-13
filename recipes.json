@@ -8251,5 +8251,63 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7481346710803860799"
+  },
+  {
+    "id": 108,
+    "title": "绿豆西米露🥤",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_108.png",
+    "description": "绿豆西米露🥤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "绿豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红薯",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "绿豆、切块的红薯、西米依次放入电饭煲内胆。",
+      "加入适量冰糖。",
+      {
+        "text": "一定要加入滚烫的开水，边加边搅拌防止粘锅。",
+        "imageUrl": "images/recipe_108_step_3.png"
+      },
+      {
+        "text": "盖上盖子，电饭煲选择煮粥模式，煮一个半小时。",
+        "imageUrl": "images/recipe_108_step_4.png"
+      },
+      "煮好后绿豆清爽解腻、红薯软糯香甜，盛出即可享用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7626704435984853883"
   }
 ]
