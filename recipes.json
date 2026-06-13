@@ -15659,5 +15659,88 @@
       "salt": 0.15
     },
     "source": "https://www.douyin.com/video/7612179537363355254"
+  },
+  {
+    "id": 190,
+    "title": "花椒烤鱼🐟",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_190.png",
+    "description": "花椒烤鱼🐟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鲈鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鲈鱼切块，吸干表面水分。",
+      {
+        "text": "加入生姜、盐、胡椒粉、鸡精、蚝油、生抽等常规调料腌制。",
+        "imageUrl": "images/recipe_190_step_2.png"
+      },
+      {
+        "text": "放入一大把花椒（千万别嫌多，全部放下去），戴上手套抓拌均匀（小心扎手）。",
+        "imageUrl": "images/recipe_190_step_3.png"
+      },
+      "盖好冷藏腌制，至少1个小时。",
+      "腌好后在烤盘里刷一层油防止鱼皮粘连，鱼块码入烤盘，鱼皮朝上。",
+      {
+        "text": "送入空气炸锅180度：第10分钟翻面，再烤10分钟后再次翻面，最后再烤5分钟即可。",
+        "imageUrl": "images/recipe_190_step_6.png"
+      },
+      "出锅时鱼皮金黄焦脆、花椒香渗入鱼肉即可。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7612929568693131513"
   }
 ]
