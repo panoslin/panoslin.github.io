@@ -7610,5 +7610,106 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7643049595572838245"
+  },
+  {
+    "id": 101,
+    "title": "酸菜番茄肉片米粉🍜",
+    "category": [
+      "主食",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_101.png",
+    "description": "酸菜番茄肉片米粉的详细制作方法",
+    "ingredients": [
+      {
+        "name": "米粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酸菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "榨菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "米粉提前用冷水泡软,备用。",
+      "热锅倒油,放入红辣椒小火爆香。",
+      {
+        "text": "下入酸菜和榨菜,中火翻炒出酸香味。",
+        "imageUrl": "images/recipe_101_step_3.png"
+      },
+      "加入肉片,翻炒至肉色变白。",
+      "放入番茄块,翻炒出汤汁。",
+      {
+        "text": "加入蚝油和豆瓣酱,翻炒均匀上色出红油。",
+        "imageUrl": "images/recipe_101_step_6.png"
+      },
+      "倒入足量开水,大火煮开。",
+      "加入生抽调味。",
+      {
+        "text": "下入泡软的米粉,煮至软糯入味。",
+        "imageUrl": "images/recipe_101_step_9.png"
+      },
+      "盛入碗中,撒上葱花即可享用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7626658223256276258"
   }
 ]
