@@ -10514,5 +10514,74 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7629690841375894715"
+  },
+  {
+    "id": 135,
+    "title": "西瓜气泡多多🍉",
+    "category": [
+      "饮品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_135.png",
+    "description": "西瓜气泡多多🍉的详细制作方法",
+    "ingredients": [
+      {
+        "name": "西瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香水柠檬",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "雪碧",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "益力多(养乐多)",
+        "quantity": 1,
+        "unit": "瓶"
+      }
+    ],
+    "instructions": [
+      "西瓜清洗干净备用",
+      "香水柠檬去掉尾部，切成薄片",
+      "西瓜切块",
+      "把切好的西瓜装入瓶子里",
+      {
+        "text": "用棍把瓶中的西瓜捣碎",
+        "imageUrl": "images/recipe_135_step_5.png"
+      },
+      {
+        "text": "往瓶里装满冰块",
+        "imageUrl": "images/recipe_135_step_6.png"
+      },
+      "放入一片香水柠檬",
+      {
+        "text": "倒入雪碧（气泡水）",
+        "imageUrl": "images/recipe_135_step_8.png"
+      },
+      {
+        "text": "最后倒入一瓶益力多，拧上瓶盖",
+        "imageUrl": "images/recipe_135_step_9.png"
+      },
+      "喝之前摇一下即可饮用"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7633737731360829019"
   }
 ]
