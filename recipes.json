@@ -9993,5 +9993,83 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7637429796805839795"
+  },
+  {
+    "id": 128,
+    "title": "空气炸锅蒜蓉茄子🍆",
+    "category": [
+      "家常菜",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_128.png",
+    "description": "空气炸锅蒜蓉茄子🍆的详细制作方法",
+    "ingredients": [
+      {
+        "name": "茄子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "茄子洗净,表面均匀刷上一层食用油",
+      "放入空气炸锅,200度烤15分钟",
+      {
+        "text": "取出茄子,从中间剖开压平",
+        "imageUrl": "images/recipe_128_step_3.png"
+      },
+      {
+        "text": "调蒜蓉酱:蒜末、小米辣、生抽、蚝油、白糖、油混合拌匀",
+        "imageUrl": "images/recipe_128_step_4.png"
+      },
+      {
+        "text": "在剖开的茄子上刷上多多的蒜蓉酱",
+        "imageUrl": "images/recipe_128_step_5.png"
+      },
+      "放回空气炸锅,180度再烤5分钟",
+      "出锅后撒上葱花即可"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7615498918931718779"
   }
 ]
