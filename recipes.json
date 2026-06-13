@@ -12022,5 +12022,135 @@
       "salt": 1.2
     },
     "source": "https://www.douyin.com/video/7628172349028886906"
+  },
+  {
+    "id": 150,
+    "title": "蒜蓉香辣双味小龙虾🦞",
+    "category": [
+      "海鲜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_150.png",
+    "description": "蒜蓉香辣双味小龙虾🦞的详细制作方法",
+    "ingredients": [
+      {
+        "name": "清水小龙虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青红辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜（蒜蓉）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "草果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火锅底料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "啤酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "清水小龙虾用刷子逐只刷洗干净（不剪头、不去虾线），把浮在水面发白的死虾挑出不要。",
+      "青红辣椒洗净切段；蒜剁成蒜蓉后过水洗去苦涩味备用。",
+      {
+        "text": "起油锅烧热，沥干水分的小龙虾下锅过油炸约40秒，变色即可捞出。",
+        "imageUrl": "images/recipe_150_step_3.png"
+      },
+      {
+        "text": "【香辣味】另起锅放油烧热，下花椒、八角、香叶、草果炒出香味，再放干辣椒、豆瓣酱、火锅底料炒出红油。",
+        "imageUrl": "images/recipe_150_step_4.png"
+      },
+      "倒入炸好的小龙虾翻炒，加入啤酒，再调入胡椒粉、酱油、蚝油、糖、盐。",
+      "盖上盖子煮开后再煮约10分钟，加入青红辣椒翻炒片刻即可出锅。",
+      {
+        "text": "【蒜蓉味】锅中放蒜蓉炒香，加少许红辣椒，把蒜末炒熟炒香。",
+        "imageUrl": "images/recipe_150_step_7.png"
+      },
+      "放入小龙虾翻炒裹匀，加啤酒，再调入蚝油、糖、鸡粉、盐。",
+      "盖上盖子焖约10分钟收一下水分，再放入生蒜蓉拌匀即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7627093055417371910"
   }
 ]
