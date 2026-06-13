@@ -8391,5 +8391,93 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7623350877344231028"
+  },
+  {
+    "id": 110,
+    "title": "砂锅肉末米线🍜",
+    "category": [
+      "主食",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_110.png",
+    "description": "砂锅肉末米线🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "米线",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋(煎蛋)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑木耳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酸菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "砂锅中加水煮开,放入蒜瓣、小米椒和葱段,再下入肉末",
+        "imageUrl": "images/recipe_110_step_1.png"
+      },
+      "加入泡发的黑木耳和酸菜(泡菜)丝同煮",
+      "放入煎好的荷包蛋",
+      {
+        "text": "下入米线,煮至入味",
+        "imageUrl": "images/recipe_110_step_4.png"
+      },
+      "撒入白芝麻",
+      "加入香菜和葱花,煮好后即可出锅",
+      {
+        "text": "盛入碗中即可享用",
+        "imageUrl": "images/recipe_110_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7617027486330184059"
   }
 ]
