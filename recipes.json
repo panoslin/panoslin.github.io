@@ -15806,5 +15806,134 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7613001810374821477"
+  },
+  {
+    "id": 192,
+    "title": "越南牛肉粉🍜",
+    "category": [
+      "主食",
+      "牛肉"
+    ],
+    "imageUrl": "images/recipe_192.png",
+    "description": "越南牛肉粉🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛腿骨",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "牛腱子",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "越南河粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "绿豆芽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青柠",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "九层塔",
+        "quantity": 6,
+        "unit": "片"
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白洋葱",
+        "quantity": 1,
+        "unit": "颗"
+      },
+      {
+        "name": "生姜",
+        "quantity": 1,
+        "unit": "大块"
+      },
+      {
+        "name": "八角",
+        "quantity": 3,
+        "unit": "颗"
+      },
+      {
+        "name": "桂皮",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "草果",
+        "quantity": 1,
+        "unit": "颗"
+      },
+      {
+        "name": "香菜籽",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "黑胡椒粒",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "丁香",
+        "quantity": 3,
+        "unit": "粒"
+      },
+      {
+        "name": "黄冰糖",
+        "quantity": 38,
+        "unit": "克"
+      },
+      {
+        "name": "鱼露",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "盐巴",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "牛腿骨和牛腱子冷水下锅，加入料酒焯水，去除血沫异味后捞出洗净备用。",
+      {
+        "text": "白洋葱和生姜用干锅煎到表面出现黑色焦化层，让美拉德反应充分，产生焦糖香气和适当的烟熏感——这是这锅汤底独一无二的关键。",
+        "imageUrl": "images/recipe_192_step_2.png"
+      },
+      {
+        "text": "转小火，把八角、桂皮、草果、香菜籽、黑胡椒粒、丁香等香料耐心焙香，连同焦化的洋葱、生姜一起装入同一个料理袋（香料种类和比例按配料表来，不要随意增减，以免煮成一锅中药味）。",
+        "imageUrl": "images/recipe_192_step_3.png"
+      },
+      "把焯好的牛骨、牛肉连同香料料理袋一起放入装约8升开水的大锅，加入黄冰糖和鱼露，最小火保持汤汁微微沸腾的状态，盖盖煮4小时以上；煮到一个半小时时先把牛腱子捞出，放冰箱冷藏备用（方便后续切片）。",
+      "越南河粉或菜场买的新鲜河粉烫熟盛入碗中，铺上切好的牛腱子片。",
+      "汤煮够时间后加入适量盐巴和味精调味，浇入碗中，再搭配绿豆芽、青柠、九层塔、小米辣等自己喜欢的配菜即可。"
+    ],
+    "nutrition": {
+      "calories": 1411.3,
+      "protein": 130.4,
+      "carbs": 42.7,
+      "fat": 75.3,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7612222073858985251"
   }
 ]
