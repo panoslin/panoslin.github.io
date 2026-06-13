@@ -10137,5 +10137,96 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7637457279466478970"
+  },
+  {
+    "id": 130,
+    "title": "炝拌藕丁🌶️",
+    "category": [
+      "凉菜",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_130.png",
+    "description": "炝拌藕丁🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "藕",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "松鲜鲜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备两个大的藕，去皮后切成小丁（切藕片不够入味，切小丁更好）。",
+        "imageUrl": "images/recipe_130_step_1.png"
+      },
+      {
+        "text": "藕丁用凉水多洗几遍，把表面的淀粉洗掉，洗到水变得透明即可。",
+        "imageUrl": "images/recipe_130_step_2.png"
+      },
+      "锅中水烧开，把藕丁下锅焯烫2到3分钟，时间到捞出过一遍凉水沥干。",
+      "把一点干辣椒段和一些花椒放入大盆中，加入沥干的藕丁。",
+      {
+        "text": "另起锅多放些油，烧到锅边冒烟后关火，楞十来秒，把热油直接浇在花椒和辣椒上，盖上盖子焖一分钟激出香味（此时辣椒是脆的）。",
+        "imageUrl": "images/recipe_130_step_5.png"
+      },
+      {
+        "text": "依次加入生抽、醋、白糖、蚝油（量大些）、盐和松鲜鲜调味。",
+        "imageUrl": "images/recipe_130_step_6.png"
+      },
+      "把所有材料充分拌匀即可，成品酸甜麻辣、一咬嘎嘣脆。"
+    ],
+    "nutrition": {
+      "calories": 140,
+      "protein": 3.8,
+      "carbs": 32.8,
+      "fat": 0.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7584700693065796913"
   }
 ]
