@@ -13781,5 +13781,84 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7617826733621945765"
+  },
+  {
+    "id": 170,
+    "title": "意式简易早餐🍳",
+    "category": [
+      "西餐",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_170.png",
+    "description": "意式简易早餐🍳的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛油果",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "白面包",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "柠檬汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "罂粟籽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "咖啡粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "绿芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "摩卡壶装入咖啡粉，不用精确测量刻度，盖好后放到火上加热约一分钟即可。",
+        "imageUrl": "images/recipe_170_step_1.png"
+      },
+      {
+        "text": "打开一个西西里牛油果（放了两三天、烂了一半也无妨），取出果肉压成泥。",
+        "imageUrl": "images/recipe_170_step_2.png"
+      },
+      "在牛油果泥上淋适量柠檬汁，拌匀防止氧化。",
+      "撒上少许罂粟籽（papavero）调味，不要太多。",
+      {
+        "text": "取一块白面包切开，其实没想象中那么难切。",
+        "imageUrl": "images/recipe_170_step_5.png"
+      },
+      "在面包上抹一层黄油。",
+      "把牛油果泥铺在面包上，再搭配一个新鲜鸡蛋。",
+      "依个人喜好撒上绿芝麻，配上现煮的摩卡咖啡，约5分钟即可享用这份意式简易早餐。"
+    ],
+    "nutrition": {
+      "calories": 232.0,
+      "protein": 8.5,
+      "carbs": 9.0,
+      "fat": 19.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7608671637428973275"
   }
 ]
