@@ -9941,5 +9941,57 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7622939574851767025"
+  },
+  {
+    "id": 127,
+    "title": "金黄透亮牛肉汤🍲",
+    "category": [
+      "汤品",
+      "牛肉"
+    ],
+    "imageUrl": "images/recipe_127.png",
+    "description": "金黄透亮牛肉汤🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "先把锅里的表层浮沫粗略打捞一遍",
+      "等汤汁完全大火烧开",
+      {
+        "text": "往汤里加入适量的醋",
+        "imageUrl": "images/recipe_127_step_3.png"
+      },
+      {
+        "text": "醋遇高温快速翻滚起泡，瞬间把粘在骨头上的残留浮沫和血水杂质全部翻腾漂浮上来",
+        "imageUrl": "images/recipe_127_step_4.png"
+      },
+      {
+        "text": "再次细致打捞，把浮起的杂质全部清理干净",
+        "imageUrl": "images/recipe_127_step_5.png"
+      },
+      "熬出的牛肉汤金黄透亮，口感不腥不涩不发苦，原汁原味、鲜香浓郁"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7637429796805839795"
   }
 ]
