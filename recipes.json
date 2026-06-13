@@ -11226,5 +11226,79 @@
       "salt": 0.3
     },
     "source": "https://www.douyin.com/video/7635478536677084442"
+  },
+  {
+    "id": 142,
+    "title": "潮汕干贝冬瓜汤🍲",
+    "category": [
+      "汤品",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_142.png",
+    "description": "潮汕干贝冬瓜汤🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "干贝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冬瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪肉末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芹菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "干贝提前泡发，锅中倒入食用油，放入泡发好的干贝炒香。",
+        "imageUrl": "images/recipe_142_step_1.png"
+      },
+      "加入冬瓜翻炒一下。",
+      "倒入开水，大火煮六七分钟至冬瓜变软。",
+      "加入猪肉末，煮熟。",
+      "加盐、芹菜调味。",
+      {
+        "text": "撒入胡椒粉拌匀即可出锅，潮汕特色汤之一，汤鲜味美。",
+        "imageUrl": "images/recipe_142_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7634589390895706795"
   }
 ]
