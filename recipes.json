@@ -17583,5 +17583,111 @@
       "salt": 4.19
     },
     "source": "https://www.douyin.com/video/7599967727515602219"
+  },
+  {
+    "id": 214,
+    "title": "湿椒盐濑尿虾🦐",
+    "category": [
+      "海鲜",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_214.png",
+    "description": "湿椒盐濑尿虾🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "濑尿虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄酒",
+        "quantity": 5,
+        "unit": "钱"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "碎胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "泰椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "濑尿虾买回来带海水，先用清水冲洗干净",
+      {
+        "text": "放入生粉，让生粉均匀裹一裹，抛一抛使其均匀；切忌用手抓（会被虾扎到手）",
+        "imageUrl": "images/recipe_214_step_2.png"
+      },
+      {
+        "text": "调湿椒盐：黄酒约5钱、加少许盐、糖、花椒粉、辣椒酱、碎胡椒一起煮开，渗出酱色",
+        "imageUrl": "images/recipe_214_step_3.png"
+      },
+      {
+        "text": "油温烧至约120度，下濑尿虾炸（料不要太满，会窜火），慢火约1分钟",
+        "imageUrl": "images/recipe_214_step_4.png"
+      },
+      "趁还没回油，用剪刀把虾两侧的边脚修剪掉，吃起来更安全",
+      {
+        "text": "油温升至约150度，回油复炸约30秒，让虾更脆更香",
+        "imageUrl": "images/recipe_214_step_6.png"
+      },
+      "趁锅干净，利用炸虾的余油（不另加油）爆香姜葱蒜、泰椒等料头",
+      {
+        "text": "倒入调好的湿椒盐，下炸好的濑尿虾翻炒，使酱汁均匀裹满",
+        "imageUrl": "images/recipe_214_step_8.png"
+      },
+      "出锅装盘即可，趁热食用，连壳都入味"
+    ],
+    "nutrition": {
+      "calories": 4.0,
+      "protein": 0.0,
+      "carbs": 0.3,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7600715353966136619"
   }
 ]
