@@ -8090,5 +8090,82 @@
       "salt": 15.21
     },
     "source": "https://www.douyin.com/video/7217003593004617012"
+  },
+  {
+    "id": 106,
+    "title": "酸汤肉末米线🍜",
+    "category": [
+      "主食",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_106.png",
+    "description": "酸汤肉末米线的详细制作方法",
+    "ingredients": [
+      {
+        "name": "米线",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪肉末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酸菜（酸萝卜）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "话梅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "砂锅中加入清水（或高汤），放入猪肉末和酸菜（酸萝卜），大火加热。",
+        "imageUrl": "images/recipe_106_step_1.png"
+      },
+      "加入一颗话梅提酸增香，煮至汤汁沸腾。",
+      {
+        "text": "汤煮开后下入米线，煮至米线变软入味。",
+        "imageUrl": "images/recipe_106_step_3.png"
+      },
+      {
+        "text": "打入鸡蛋，继续煮至蛋熟。",
+        "imageUrl": "images/recipe_106_step_4.png"
+      },
+      "撒上香菜、葱花和小米辣点缀。",
+      "连汤带料盛入碗中即可享用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7634854498708179835"
   }
 ]
