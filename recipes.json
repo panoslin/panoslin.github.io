@@ -9638,5 +9638,79 @@
       "salt": 1.15
     },
     "source": "https://www.douyin.com/video/7637526942538796340"
+  },
+  {
+    "id": 123,
+    "title": "红豆香芋西米露🥣",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_123.png",
+    "description": "红豆香芋西米露的详细制作方法",
+    "ingredients": [
+      {
+        "name": "红豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香芋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 1,
+        "unit": "盒"
+      }
+    ],
+    "instructions": [
+      "红豆提前冷冻一晚备用",
+      {
+        "text": "取一勺将冷冻好的红豆捣碎",
+        "imageUrl": "images/recipe_123_step_2.png"
+      },
+      "加入切块的香芋",
+      "加入适量冰糖",
+      "倒入多多的开水",
+      "煮开后下入西米",
+      {
+        "text": "扣上锅盖，上汽后压10分钟",
+        "imageUrl": "images/recipe_123_step_7.png"
+      },
+      "自然泄气后开盖",
+      "挤入半个柠檬",
+      "倒入一盒牛奶",
+      "再次煮开即可，奶香浓郁，大人小孩都爱喝"
+    ],
+    "nutrition": {
+      "calories": 15.0,
+      "protein": 0.6,
+      "carbs": 4.7,
+      "fat": 0.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7625620318317940334"
   }
 ]
