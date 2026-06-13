@@ -13860,5 +13860,163 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7608671637428973275"
+  },
+  {
+    "id": 171,
+    "title": "海鲜家宴·六菜一汤 🦞",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_171.png",
+    "description": "海鲜家宴·六菜一汤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "小青龙",
+        "quantity": 3,
+        "unit": "只"
+      },
+      {
+        "name": "膏蟹",
+        "quantity": 4,
+        "unit": "只"
+      },
+      {
+        "name": "鱼头鱼尾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白菜",
+        "quantity": 1,
+        "unit": "颗"
+      },
+      {
+        "name": "包菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "农家鸡（干蒸鸡用）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "封肉（提前做好的成品）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "党参",
+        "quantity": 2,
+        "unit": "根"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小葱（葱叶）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "高度白酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "处理小青龙：冲洗干净，剪掉触须，前后部位依次剪开，去掉虾线以及像皮筋一样粘连的部分（不可食用）。",
+        "imageUrl": "images/recipe_171_step_1.png"
+      },
+      "处理膏蟹：先从一侧搓住放置约5分钟使其不易掉脚，再剪掉钳脚；揭开蟹盖，清理两侧的塞子（过滤器）和嘴部，并对半切开。",
+      {
+        "text": "做葱姜焗小青龙：锅中下芝麻香油，放多一点的生姜片和一大把小葱，放入小青龙，表面撒上少许盐，扣盖中小火焗约10分钟。",
+        "imageUrl": "images/recipe_171_step_3.png"
+      },
+      {
+        "text": "开盖后顺着锅边淋上高度白酒并点燃（火焰龙虾），即成葱姜焗小青龙，出锅装盘。",
+        "imageUrl": "images/recipe_171_step_4.png"
+      },
+      "焗膏蟹：用同样方式将螃蟹摆入锅中、盖回蟹盖，可补一点芝麻香油防止太干，中小火至少焗18分钟；太干时从锅边稍稍加点水。",
+      {
+        "text": "开盖撒上高度白酒点燃，蟹肉熟透定型后出锅装盘。",
+        "imageUrl": "images/recipe_171_step_6.png"
+      },
+      {
+        "text": "做鱼头白菜汤：把锅和锅铲的水分擦干，锅烧热下油，鱼头鱼尾下锅，锅热油热煎至两面金黄不粘锅。",
+        "imageUrl": "images/recipe_171_step_7.png"
+      },
+      "下生姜片和大葱一起煎香，加入开水，丢两根党参，扣盖中大火熬约5分钟。",
+      "调入两勺盐、少许味精，下白菜煮约1分钟，加胡椒粉，撒枸杞、葱叶点缀，鱼头白菜汤出锅。",
+      {
+        "text": "做虾皮炒包菜：锅热下油，虾皮和蒜头下锅炒香，再下约1/4个包菜，大火快速翻炒。",
+        "imageUrl": "images/recipe_171_step_10.png"
+      },
+      "加一小勺盐、味精，撒葱叶，中大火翻炒约2分钟至熟，出锅装盘。",
+      "干蒸鸡：农家鸡抹上盐巴，直接上锅蒸熟，原汁原味。",
+      "封肉提前做好，连纱布一起蒸透，端出后打开纱布、翻扣装盘即可，与上述菜品凑成六菜一汤。"
+    ],
+    "nutrition": {
+      "calories": 3.6,
+      "protein": 0.7,
+      "carbs": 0.0,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7617279176354434410"
   }
 ]
