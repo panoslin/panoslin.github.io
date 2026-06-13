@@ -22875,5 +22875,75 @@
       "salt": 13.31
     },
     "source": "https://www.douyin.com/video/7074553457339845901"
+  },
+  {
+    "id": 270,
+    "title": "太阳花煎蛋🌻",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_270.png",
+    "description": "太阳花煎蛋🌻的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "平底锅刷一层薄油,小火加热,打入一个鸡蛋,尽量保持蛋黄完整居中作为花心。",
+      {
+        "text": "趁蛋白尚未凝固,把火腿肠切成薄片,围绕蛋黄摆成一圈做出太阳花的花瓣。",
+        "imageUrl": "images/recipe_270_step_2.png"
+      },
+      {
+        "text": "在花朵下方用整根火腿肠和青椒摆出花茎和叶子。",
+        "imageUrl": "images/recipe_270_step_3.png"
+      },
+      {
+        "text": "用胡萝卜切出小爱心点缀在四周,丰富太阳花造型。",
+        "imageUrl": "images/recipe_270_step_4.png"
+      },
+      "中小火慢煎,煎至蛋白完全凝固定型。",
+      {
+        "text": "出锅装盘前淋上少许酱汁调味即可。",
+        "imageUrl": "images/recipe_270_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7504859649355664703"
   }
 ]
