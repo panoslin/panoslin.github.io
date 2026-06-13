@@ -16465,5 +16465,50 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7579897146938379566"
+  },
+  {
+    "id": 199,
+    "title": "烤菠萝蜜雪花牛肉🥩",
+    "category": [
+      "牛肉",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_199.png",
+    "description": "烤菠萝蜜雪花牛肉🥩的详细制作方法",
+    "ingredients": [
+      {
+        "name": "雪花牛肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菠萝蜜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "烧烤酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "雪花牛肉切薄片卷起,穿成肉串;菠萝蜜去核切块穿签",
+      "牛肉串与菠萝蜜一同上烤架烤制,刷烧烤酱、撒白芝麻至熟",
+      "将烤好的菠萝蜜与雪花牛肉搭配食用,菠萝蜜的果酸解腻、酸甜提味"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7610056216299560310"
   }
 ]
