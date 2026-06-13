@@ -12747,5 +12747,58 @@
       "salt": 0.29
     },
     "source": "https://www.douyin.com/video/7625573862235020010"
+  },
+  {
+    "id": 158,
+    "title": "健身快手燕麦早餐 🥣",
+    "category": [
+      "减肥",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_158.png",
+    "description": "健身快手燕麦早餐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "燕麦",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "冻蓝莓",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 5,
+        "unit": "个"
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "取 80 克燕麦倒入碗中。",
+      {
+        "text": "倒入足量开水冲泡（务必用开水，可多倒一点），因为燕麦中含有奇亚籽，需用热水才能泡开，浸泡 1～2 分钟。",
+        "imageUrl": "images/recipe_158_step_2.png"
+      },
+      {
+        "text": "加入 80 克冻蓝莓拌匀，冻蓝莓能正好把燕麦温度降到可直接入口的程度。",
+        "imageUrl": "images/recipe_158_step_3.png"
+      },
+      "另将鸡蛋放入蒸箱蒸熟（一般吃 5 个全蛋）。",
+      "燕麦泡好后搭配蒸蛋一起食用即可。"
+    ],
+    "nutrition": {
+      "calories": 671.2,
+      "protein": 46.0,
+      "carbs": 55.5,
+      "fat": 27.5,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7615104750401432741"
   }
 ]
