@@ -10583,5 +10583,68 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7633737731360829019"
+  },
+  {
+    "id": 136,
+    "title": "话梅可乐冰柠🥤",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_136.png",
+    "description": "话梅可乐冰柠🥤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "话梅",
+        "quantity": 300,
+        "unit": "颗"
+      },
+      {
+        "name": "开水",
+        "quantity": 5,
+        "unit": "升"
+      },
+      {
+        "name": "香水柠檬",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小金桔",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "可乐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "把约300颗话梅倒入5升开水中浸泡15分钟，泡出酸味和咸香后把话梅捞出；话梅水盛出自然冷却备用，泡过的话梅不要丢弃，盖好留作后续使用。",
+      "小金桔和香水柠檬洗净切开；小金桔籽多、泡进去会发苦，提前把籽挑出来。",
+      {
+        "text": "杯中先放入2片香水柠檬、2个小金桔和少许冰块，用捣棒捶出汁水和果香。",
+        "imageUrl": "images/recipe_136_step_3.png"
+      },
+      "加入泡好的3颗话梅，再把冰块加满。",
+      {
+        "text": "倒入约三分之一杯的话梅水，最后倒满可乐。",
+        "imageUrl": "images/recipe_136_step_5.png"
+      },
+      "盖上盖子摇晃均匀即可；装好后放冰箱冷藏，防止冰块加速融化。"
+    ],
+    "nutrition": {
+      "calories": 504.0,
+      "protein": 2.4,
+      "carbs": 126.0,
+      "fat": 0.3,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7634760414682114033"
   }
 ]
