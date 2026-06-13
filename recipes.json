@@ -7843,5 +7843,105 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7645254594385937402"
+  },
+  {
+    "id": 104,
+    "title": "芥末虾仁🍤",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_104.png",
+    "description": "芥末虾仁🍤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "虾(去头带皮)",
+        "quantity": 1,
+        "unit": "斤"
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "鸡蛋黄",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 2.5,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "美乃滋",
+        "quantity": 90,
+        "unit": "克"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "黄芥末酱",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "绿芥末(wasabi)",
+        "quantity": 3,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "处理虾仁:约1斤带皮虾开背并取出虾线,开背时尽量划得深一点,这样炸出来能卷成球状;清洗后用厨房纸尽量把表面水分蘸干。",
+        "imageUrl": "images/recipe_104_step_1.png"
+      },
+      "腌制:放入切好的姜片、料酒约半勺、白胡椒粉约半勺,再根据虾仁本身的咸度酌情加盐,抓拌均匀后腌制20-30分钟。",
+      {
+        "text": "挂浆糊:加入一个鸡蛋黄抓匀(蛋黄能让炸出的颜色更好看),再少量多次加入约两勺半淀粉,边加边看状态,抓拌至黏黏糊糊、每个虾仁都裹上浆糊。",
+        "imageUrl": "images/recipe_104_step_3.png"
+      },
+      {
+        "text": "炸制:锅中倒油没过虾的一半即可,筷子插入冒小泡时下虾仁,全程中火炸至微微发黄先捞出;待油温升高后复炸约10秒让外皮更脆(也可一次直接炸到金黄再捞出)。",
+        "imageUrl": "images/recipe_104_step_4.png"
+      },
+      {
+        "text": "调料汁:美乃滋90g、蜂蜜15g、黄芥末酱10-15g、绿芥末(wasabi)约3g 混合均匀;喜欢味道冲可多加绿芥末。",
+        "imageUrl": "images/recipe_104_step_5.png"
+      },
+      "将炸好的虾仁稍微放凉(温度过高会把酱料融化),再倒入碗中与料汁搅拌均匀即可。"
+    ],
+    "nutrition": {
+      "calories": 213.4,
+      "protein": 14.4,
+      "carbs": 16.5,
+      "fat": 9.5,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7646243249992573802"
   }
 ]
