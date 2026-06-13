@@ -22300,5 +22300,97 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7517957779018091816"
+  },
+  {
+    "id": 265,
+    "title": "地中海风味鲈鱼🐟",
+    "category": [
+      "西餐",
+      "海鲜"
+    ],
+    "imageUrl": "images/recipe_265.png",
+    "description": "地中海风味鲈鱼🐟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鲈鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红葱头",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 4,
+        "unit": "瓣"
+      },
+      {
+        "name": "红黄小番茄",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白葡萄酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蛤蜊",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "欧芹",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "把鲈鱼处理干净，剪掉鱼鳍，取下两侧鱼排肉。",
+      "鱼排放入盘中，用黑胡椒、海盐、橄榄油腌制，两面涂抹均匀。",
+      "红葱头切丝，大蒜切片，红黄小番茄对半切开。",
+      {
+        "text": "锅中倒入橄榄油，放入红葱头丝和蒜片翻炒出香气。",
+        "imageUrl": "images/recipe_265_step_4.png"
+      },
+      "加入小番茄翻炒约2分钟。",
+      "烹入白葡萄酒，大火挥发酒精。",
+      "加入适量水，撒入黑胡椒和适量海盐，中小火煮3~5分钟。",
+      {
+        "text": "另起锅放入鱼排，每面煎制约1分钟至上色。",
+        "imageUrl": "images/recipe_265_step_8.png"
+      },
+      "把煎好的鱼排放入番茄汤汁锅中。",
+      {
+        "text": "加入一把蛤蜊，煮至蛤蜊开口后即可关火。",
+        "imageUrl": "images/recipe_265_step_10.png"
+      },
+      "撒入欧芹点缀即可。"
+    ],
+    "nutrition": {
+      "calories": 230.0,
+      "protein": 9.1,
+      "carbs": 51.3,
+      "fat": 1.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7317182469428497718"
   }
 ]
