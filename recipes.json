@@ -9265,5 +9265,56 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7620782926087283688"
+  },
+  {
+    "id": 119,
+    "title": "绿豆汤的3种黄金搭配🥣",
+    "category": [
+      "汤品",
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_119.png",
+    "description": "绿豆汤的3种黄金搭配🥣的详细制作方法",
+    "ingredients": [
+      {
+        "name": "绿豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "莲子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "百合",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "陈皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "薏米",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "绿豆本身清热解毒、消暑利水,但单独食用力量较弱,搭配不同药材煮成绿豆汤调理身体可事半功倍。",
+      "搭配一(需辨证为心火旺):绿豆+莲子+百合,养阴润肺、清心安神,适合心火旺引起的心烦失眠、口舌生疮。",
+      "搭配二(需辨证为脾虚湿盛):绿豆+陈皮,理气健脾、燥湿化痰,适合夏天没胃口、肚子胀。",
+      "搭配三(需辨证为湿气重):绿豆+薏米,清热解毒、健脾利湿,适合湿气重引起的困倦乏力。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7634103671105522954"
   }
 ]
