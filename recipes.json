@@ -10646,5 +10646,89 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7634760414682114033"
+  },
+  {
+    "id": 137,
+    "title": "潮汕虾粥🦐",
+    "category": [
+      "粤菜",
+      "海鲜"
+    ],
+    "imageUrl": "images/recipe_137.png",
+    "description": "潮汕虾粥🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸭蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "鲜虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪瘦肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冬菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "捏碎一个鸭蛋备用",
+      {
+        "text": "剪入虾头,煸炒出虾油",
+        "imageUrl": "images/recipe_137_step_2.png"
+      },
+      "倒入适量开水,煮开三四分钟后捞出虾壳",
+      "加入大米,拌一下防粘",
+      {
+        "text": "高压锅上气后转小火压5分钟,自然下气再开盖",
+        "imageUrl": "images/recipe_137_step_5.png"
+      },
+      {
+        "text": "加入冬菜、一勺花生酱、开过背的鲜虾和猪瘦肉,打散煮2分钟",
+        "imageUrl": "images/recipe_137_step_6.png"
+      },
+      "撇去浮沫,加盐和胡椒粉调味",
+      "撒上香菜即可出锅,鲜甜好吃"
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein": 13.0,
+      "carbs": 3.0,
+      "fat": 14.5,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7638616068278349190"
   }
 ]
