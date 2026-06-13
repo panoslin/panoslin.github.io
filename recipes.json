@@ -17456,5 +17456,59 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7602964645633366656"
+  },
+  {
+    "id": 212,
+    "title": "微波炉草莓牛乳🍓",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_212.png",
+    "description": "微波炉草莓牛乳🍓的详细制作方法",
+    "ingredients": [
+      {
+        "name": "草莓",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白砂糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淡奶油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛乳",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "草莓洗净,切成小丁。",
+      "倒入白砂糖搅拌均匀,放入冰箱冷藏腌制半小时。",
+      {
+        "text": "放入烤箱微波炉模式,180度加热5分钟,熬成带点颗粒、不软烂口感的草莓果酱。",
+        "imageUrl": "images/recipe_212_step_3.png"
+      },
+      "杯中倒入熬好的草莓果酱。",
+      "加上一点淡奶油,增加奶香感。",
+      {
+        "text": "最后直接用牛乳补满,草莓牛乳即完成。",
+        "imageUrl": "images/recipe_212_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7587350265889115429"
   }
 ]
