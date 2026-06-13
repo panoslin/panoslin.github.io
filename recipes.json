@@ -14839,5 +14839,70 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7616323844193652014"
+  },
+  {
+    "id": 181,
+    "title": "网友版黄油咖啡2.0☕",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_181.png",
+    "description": "网友版黄油咖啡2.0☕的详细制作方法",
+    "ingredients": [
+      {
+        "name": "摩可纳8号速溶咖啡",
+        "quantity": 2,
+        "unit": "小勺"
+      },
+      {
+        "name": "黄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "热水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛奶",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "杯中加入两小勺摩可纳8号速溶咖啡粉。",
+      "加入约1/4小块黄油（热量很低，能让咖啡口感更丰富醇厚）。",
+      "加一小勺蜂蜜，不要加多，加多了反而不好喝。",
+      "加一点点盐，用来突出蜂蜜的风味并降低咖啡的苦味。",
+      "一定要冲入热水（因为加了黄油，凉水化不开），水量按1:3的比例。",
+      {
+        "text": "用搅拌棒先打出大气泡，再转圈打发，直到打成云朵舒芙蕾般的质地（倒扣杯子也不掉落）；若不喜欢云朵泡沫口感，可改用1:1的水量打发。",
+        "imageUrl": "images/recipe_181_step_6.png"
+      },
+      {
+        "text": "缓缓倒入牛奶，倒至想要的高度即可。",
+        "imageUrl": "images/recipe_181_step_7.png"
+      },
+      "完成，享用满满仪式感的黄油咖啡。"
+    ],
+    "nutrition": {
+      "calories": 3.0,
+      "protein": 0.0,
+      "carbs": 0.8,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7616342100434554609"
   }
 ]
