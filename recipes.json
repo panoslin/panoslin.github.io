@@ -11300,5 +11300,62 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7634589390895706795"
+  },
+  {
+    "id": 143,
+    "title": "柠檬Dirty🍋",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_143.png",
+    "description": "柠檬Dirty🍋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "香水柠檬(取皮)",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "牛奶(高蛋白纯牛奶)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冻干黑咖啡",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "水",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "大冰块",
+        "quantity": 1,
+        "unit": "个"
+      }
+    ],
+    "instructions": [
+      "把香水柠檬的皮削下来,半个香水柠檬的皮就够了。",
+      "把柠檬皮装进杯子里,倒入牛奶(蛋白质含量越高越好),盖上盖子放冰箱冷藏一晚。",
+      "掀开盖子(能闻到一股柠檬清香),把柠檬皮过滤掉,柠檬牛奶备用。",
+      {
+        "text": "另取一杯放入一个大冰块——这是柠檬Dirty形成漂亮分层的关键,再把柠檬牛奶倒进杯子里。",
+        "imageUrl": "images/recipe_143_step_4.png"
+      },
+      {
+        "text": "两勺冻干黑咖啡加两勺水搅拌均匀后,缓缓浇在大冰块上,形成漂亮的三层分层即可。",
+        "imageUrl": "images/recipe_143_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7634764988839147877"
   }
 ]
