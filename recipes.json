@@ -11357,5 +11357,149 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7634764988839147877"
+  },
+  {
+    "id": 144,
+    "title": "炝拌土豆丝🥔",
+    "category": [
+      "凉菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_144.png",
+    "description": "炝拌土豆丝🥔的详细制作方法",
+    "ingredients": [
+      {
+        "name": "土豆",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "白醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒面",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "烧烤料",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菜籽油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "醋",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "香油",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "土豆去皮擦成丝，尽量擦细一点，口感更好。",
+      "土豆丝多洗几遍，洗到水变清，捞出把水沥干。",
+      {
+        "text": "锅中烧开水，水开后倒入土豆丝，再倒点白醋，焯烫约一分半钟，千万不要烫太久。",
+        "imageUrl": "images/recipe_144_step_3.png"
+      },
+      "时间一到马上捞出过凉水，然后把水分挤干。",
+      "加入胡萝卜丝、洋葱丝，再放辣椒面、烧烤料、白芝麻、蒜、小米辣、葱花，铺开备用。",
+      {
+        "text": "呛油：干辣椒和干花椒洗净擦干；锅烧热倒入菜籽油，烧到冒大烟关火晾一下，待冒小烟时下干辣椒、干花椒呛几秒，趁热泼到料上。",
+        "imageUrl": "images/recipe_144_step_6.png"
+      },
+      "立即盖上盖子焖约两分钟，把香味焖进去。",
+      {
+        "text": "加一勺生抽、一勺醋、半勺香油，再加蚝油、白糖、味精，最后来一勺盐，放香菜拌匀即可。",
+        "imageUrl": "images/recipe_144_step_8.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 164.7,
+      "protein": 4.2,
+      "carbs": 35.9,
+      "fat": 1.2,
+      "salt": 1.15
+    },
+    "source": "https://www.douyin.com/video/7632647704916675840"
   }
 ]
