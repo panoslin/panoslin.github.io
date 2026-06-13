@@ -19228,5 +19228,95 @@
       "salt": 1.8
     },
     "source": "https://www.douyin.com/video/7581680162215873833"
+  },
+  {
+    "id": 233,
+    "title": "厨房做菜小妙招🍳",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_233.png",
+    "description": "厨房做菜小妙招🍳的详细制作方法",
+    "ingredients": [
+      {
+        "name": "饺子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冷冻虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红薯",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "莲藕",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用小苏打",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "煮饺子不破皮：不要等水沸腾，在水刚冒小泡时加一勺盐和几滴油，再下饺子，这样煮出来的饺子皮更筋道、防粘连，不易破皮。",
+        "imageUrl": "images/recipe_233_step_1.png"
+      },
+      {
+        "text": "冷冻虾更Q弹：冷冻虾用微波炉中高火叮约4分钟，等虾一变红就立马泡进冷水，虾肉会变得更Q弹紧实（约适合7-8只半巴掌大的虾）。",
+        "imageUrl": "images/recipe_233_step_2.png"
+      },
+      {
+        "text": "烤流心红薯：红薯先泡水2小时，再放进空气炸锅，180度慢烤45分钟，就能吃到香甜软糯的流心红薯。",
+        "imageUrl": "images/recipe_233_step_3.png"
+      },
+      {
+        "text": "莲藕不发黑：莲藕切块后先放进沸水里焯约70秒，再下锅煮，藕就不会发黑。",
+        "imageUrl": "images/recipe_233_step_4.png"
+      },
+      "煮玉米更香甜：煮玉米时往水里撒一点点小苏打，煮出来的玉米更香甜。",
+      "煮饭更香：煮米饭前加点醋和油，米饭更香、更软糯。"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 1
+    },
+    "source": "https://www.douyin.com/video/7579075260553645375"
   }
 ]
