@@ -12498,5 +12498,81 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7629328962262453504"
+  },
+  {
+    "id": 155,
+    "title": "水果冰激凌🍦",
+    "category": [
+      "甜品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_155.png",
+    "description": "水果冰激凌🍦的详细制作方法",
+    "ingredients": [
+      {
+        "name": "哈密瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "凤梨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香蕉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "草莓",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蓝莓",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青提",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淡奶油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将哈密瓜、凤梨、香蕉、草莓、蓝莓、青提等水果切块，装入密封盒冷冻一晚至冻得邦邦硬。",
+        "imageUrl": "images/recipe_155_step_1.png"
+      },
+      {
+        "text": "第二天取出冻硬的水果，按喜好组合放入料理机，加入香蕉、适量淡奶油和一勺白糖。",
+        "imageUrl": "images/recipe_155_step_2.png"
+      },
+      {
+        "text": "一起打成细腻丝滑、没有一点冰渣的冰激凌。",
+        "imageUrl": "images/recipe_155_step_3.png"
+      },
+      "可自由搭配口味：凤梨+香蕉、哈密瓜+青提、草莓+蓝莓、青提+香蕉，全部真材实料无添加。",
+      "一次吃不完装入密封盒冷冻保存，想吃随时取出即可。"
+    ],
+    "nutrition": {
+      "calories": 3.9,
+      "protein": 0.0,
+      "carbs": 1.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7615657672906424505"
   }
 ]
