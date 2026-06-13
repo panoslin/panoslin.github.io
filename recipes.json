@@ -9868,5 +9868,78 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7622294109549685350"
+  },
+  {
+    "id": 126,
+    "title": "自制水果茶冰块🧊",
+    "category": [
+      "饮品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_126.png",
+    "description": "自制水果茶冰块🧊的详细制作方法",
+    "ingredients": [
+      {
+        "name": "菠萝丁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "话梅干",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小青柑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "百香果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 1,
+        "unit": "碗"
+      },
+      {
+        "name": "雪碧",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "将菠萝丁、话梅干、小青柑、百香果、老冰糖一起放入大碗中",
+      "再加入一碗蜂蜜",
+      {
+        "text": "给所有食材充分抓拌均匀，让冰糖和蜂蜜裹满果肉",
+        "imageUrl": "images/recipe_126_step_3.png"
+      },
+      {
+        "text": "挖一小勺，分装进这样的小盒子里",
+        "imageUrl": "images/recipe_126_step_4.png"
+      },
+      "全部装好后放进冰箱里速冻成块",
+      "想喝的时候取两块放进杯子里",
+      {
+        "text": "再倒上雪碧即可，比奶茶店的还好喝",
+        "imageUrl": "images/recipe_126_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 3.0,
+      "protein": 0.0,
+      "carbs": 0.8,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7622939574851767025"
   }
 ]
