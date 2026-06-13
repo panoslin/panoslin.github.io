@@ -15029,5 +15029,159 @@
       "salt": 1.08
     },
     "source": "https://www.douyin.com/video/7615411337334724838"
+  },
+  {
+    "id": 183,
+    "title": "水煮牛肉",
+    "category": [
+      "牛肉",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_183.png",
+    "description": "水煮牛肉的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛外脊",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "葱姜水",
+        "quantity": 200,
+        "unit": "毫升"
+      },
+      {
+        "name": "小苏打",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红薯淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒（石柱红、二荆条）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒（红花椒、青花椒）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "郫县豆瓣酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老菜籽油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青笋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛肉高汤",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花雕酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "选用没有肥肉的牛外脊，逆纹切成大小、薄厚均匀一致的薄片。",
+      {
+        "text": "分次加入提前浸泡的葱姜水（一斤牛肉配四两水的经典比例），抓拌至吸收，循环往复两到三次，让牛肉吸饱水分。",
+        "imageUrl": "images/recipe_183_step_2.png"
+      },
+      {
+        "text": "加入小苏打、白糖、生抽、鸡蛋、白胡椒粉抓匀，再加红薯淀粉锁住水分，最后封一层油，放冰箱冷藏腌制约2小时。",
+        "imageUrl": "images/recipe_183_step_3.png"
+      },
+      {
+        "text": "锅中放薄薄一层油，下干辣椒（石柱红、二荆条）和花椒（红花椒、青花椒），小火慢慢焙炒，炒香炒透炒酥，制成刀口辣椒和油酥花椒。",
+        "imageUrl": "images/recipe_183_step_4.png"
+      },
+      "另起锅小油微热，先下青笋、青蒜等配菜，加少量盐旺火快炒，盛出垫在碗底。",
+      {
+        "text": "用老菜籽油爆香葱姜蒜，加入郫县豆瓣酱炒香炒透，炒出红油。",
+        "imageUrl": "images/recipe_183_step_6.png"
+      },
+      "加入牛肉高汤、花雕酒、生抽、老抽、白糖调味，调出麻辣鲜嫩烫香的味道。",
+      {
+        "text": "汤锅保持微开状态，下入腌好的牛肉片，浸润至成熟（不要大火猛煮）。",
+        "imageUrl": "images/recipe_183_step_8.png"
+      },
+      {
+        "text": "关火，将牛肉连汤浇在菜底上，撒上刀口辣椒和油酥花椒，放大蒜、青蒜，淋热油激发香味即可。",
+        "imageUrl": "images/recipe_183_step_9.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 60.0,
+      "protein": 3.4,
+      "carbs": 13.0,
+      "fat": 0.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7615096233509555496"
   }
 ]
