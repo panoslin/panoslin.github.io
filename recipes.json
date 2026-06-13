@@ -16104,5 +16104,54 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7611787730317511946"
+  },
+  {
+    "id": 195,
+    "title": "肉片汤烫豆苗🍲",
+    "category": [
+      "汤品",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_195.png",
+    "description": "肉片汤烫豆苗🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "肉片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆苗",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜丝",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "豆苗等绿叶菜洗净，铺入大碗底部备用。",
+      "锅中加水煮开，下肉片汆煮，加入葱花、姜丝煮成肉片汤。",
+      {
+        "text": "趁热将滚烫的肉片连汤一起浇淋在豆苗上，用热汤把青菜烫熟。",
+        "imageUrl": "images/recipe_195_step_3.png"
+      },
+      "略浸片刻至青菜断生，即可连汤食用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7604453980463100793"
   }
 ]
