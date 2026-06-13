@@ -11582,5 +11582,102 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7634557388843132581"
+  },
+  {
+    "id": 146,
+    "title": "鲜溜虾仁🍤",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_146.png",
+    "description": "鲜溜虾仁🍤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "去壳开背虾仁",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青笋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豌豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋清",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "干淀粉",
+        "quantity": 35,
+        "unit": "克"
+      },
+      {
+        "name": "料酒",
+        "quantity": 4,
+        "unit": "勺"
+      },
+      {
+        "name": "水淀粉",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "味精",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "胡萝卜、青笋切小丁，与豌豆一起焯水约8分钟，捞出过凉水备用。",
+      {
+        "text": "调蛋清淀粉：1个鸡蛋清加入约35克（4勺）干淀粉搅匀成糊，可使虾仁更嫩。",
+        "imageUrl": "images/recipe_146_step_2.png"
+      },
+      {
+        "text": "调鲜咸味汁：碗中放入4勺料酒、2勺水淀粉（1勺淀粉+2勺水勾兑）、半勺盐、1勺味精、少量胡椒粉，最后加点香油拌匀。",
+        "imageUrl": "images/recipe_146_step_3.png"
+      },
+      "虾仁加1勺盐上底味，再加入蛋清淀粉抓拌均匀腌制。",
+      {
+        "text": "起锅烧油，温油状态（虾仁下锅不起泡）下虾仁慢慢滑熟；再下胡萝卜丁、青笋丁、豌豆滑一遍油，一起捞出备用。",
+        "imageUrl": "images/recipe_146_step_5.png"
+      },
+      "锅留底油，倒入滑过油的虾仁和配菜，倒入调好的味汁，大火快速翻炒均匀即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 563.0,
+      "protein": 69.6,
+      "carbs": 44.0,
+      "fat": 11.2,
+      "salt": 1.21
+    },
+    "source": "https://www.douyin.com/video/7624094698918947300"
   }
 ]
