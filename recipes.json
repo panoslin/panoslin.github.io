@@ -19036,5 +19036,86 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7583598555365985576"
+  },
+  {
+    "id": 231,
+    "title": "竹升面汤底🍜",
+    "category": [
+      "粤菜",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_231.png",
+    "description": "竹升面汤底🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "清水",
+        "quantity": 2500,
+        "unit": "克"
+      },
+      {
+        "name": "姜",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "猪骨",
+        "quantity": 1000,
+        "unit": "克"
+      },
+      {
+        "name": "虾",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "大地鱼",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "胡椒粒",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "罗汉果皮",
+        "quantity": 8,
+        "unit": "克"
+      },
+      {
+        "name": "虾籽",
+        "quantity": 25,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "大地鱼用喷枪(气枪)烧一下,去腥增香(焦一点不怕),再洗净备用",
+        "imageUrl": "images/recipe_231_step_1.png"
+      },
+      {
+        "text": "虾不下油,把锅烧热,干锅炒到微焦出香(虾香味足、没腥味)",
+        "imageUrl": "images/recipe_231_step_2.png"
+      },
+      {
+        "text": "猪骨冷水下锅飞水,把渗出的血水撇净,捞出后倒入清水冲洗干净,让汤更清澈",
+        "imageUrl": "images/recipe_231_step_3.png"
+      },
+      "起锅烧水(清水2500克),放入姜、飞水洗净的猪骨、炒香的虾和烧过的大地鱼",
+      {
+        "text": "加入胡椒粒(驱寒辟腥增香)、罗汉果皮(喝完汤不口干)、虾籽,按配料表比例下料",
+        "imageUrl": "images/recipe_231_step_5.png"
+      },
+      "先大火煮沸,再转小火煲约4小时",
+      "另起一锅清水煮面(推荐全鸭蛋竹升面,一斤面约四两鸭蛋;不要直接在汤里煮面),面煮熟后盛入熬好的汤底即可"
+    ],
+    "nutrition": {
+      "calories": 647.2,
+      "protein": 102.0,
+      "carbs": 48.5,
+      "fat": 5.8,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7582794927285849385"
   }
 ]
