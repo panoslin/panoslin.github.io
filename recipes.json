@@ -17971,5 +17971,134 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7592593504954584374"
+  },
+  {
+    "id": 219,
+    "title": "皮蛋宫保鸡丁🥚",
+    "category": [
+      "川菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_219.png",
+    "description": "皮蛋宫保鸡丁🥚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄心皮蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "腰果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒节",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干红花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大葱节",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡辣油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干玉米淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "醋",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "水淀粉",
+        "quantity": 4,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 20,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "鸡腿去骨后用刀拍松，斜切成条再切成丁，放入碗中备用；宫保鸡丁选用鸡腿肉口感更好，不要用鸡胸肉",
+      "腌码鸡丁：鸡肉丁中淋入少量水，加一勺盐、一勺酱油搅拌均匀，再加入一勺淀粉抓匀上浆，使肉质更嫩",
+      "切好的皮蛋裹上一层干玉米淀粉，搅拌均匀",
+      {
+        "text": "调荔枝味糖醋芡汁：碗底加盐、酱油，兑入糖醋汁（糖醋约1:1，想更甜可糖稍多），再加小半勺水淀粉调匀。参考比例：盐3克、白糖25克、醋20克、水淀粉4克、水20克",
+        "imageUrl": "images/recipe_219_step_4.png"
+      },
+      {
+        "text": "起锅烧油，先下皮蛋炸至表皮金黄；炸过的皮蛋不会有臭味，吃起来鲜醇回甘",
+        "imageUrl": "images/recipe_219_step_5.png"
+      },
+      {
+        "text": "锅中加入胡辣油（干辣椒与花椒1:1炸制而成），油温热后下干辣椒节、干红花椒炝至棕红色",
+        "imageUrl": "images/recipe_219_step_6.png"
+      },
+      "倒入腌好的鸡肉丁，小火炒制散籽滑熟",
+      "加入姜片、蒜片、大葱节炒香",
+      "烹入调好的荔枝味芡汁，急火快炒",
+      {
+        "text": "紧汁亮油后加入腰果和炸好的皮蛋翻拌均匀，即可出锅装盘（用腰果代替花生仁是这道菜的创新点）",
+        "imageUrl": "images/recipe_219_step_10.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 112.5,
+      "protein": 0.0,
+      "carbs": 29.0,
+      "fat": 0.0,
+      "salt": 3.0
+    },
+    "source": "https://www.douyin.com/video/7618894080555261604"
   }
 ]
