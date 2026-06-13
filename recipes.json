@@ -18815,5 +18815,74 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7532422420134743356"
+  },
+  {
+    "id": 228,
+    "title": "🧄 地中海蒜香土豆",
+    "category": [
+      "西餐",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_228.png",
+    "description": "🧄 地中海蒜香土豆的详细制作方法",
+    "ingredients": [
+      {
+        "name": "土豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "欧芹碎",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "土豆去皮切成滚刀块",
+        "imageUrl": "images/recipe_228_step_1.png"
+      },
+      "土豆下沸水焯水后捞出沥干",
+      "土豆放入碗中，加入橄榄油、海盐、黑胡椒拌匀",
+      "将拌好的土豆平铺放入烤盘",
+      {
+        "text": "大蒜去头，裹上锡纸",
+        "imageUrl": "images/recipe_228_step_5.png"
+      },
+      {
+        "text": "土豆与大蒜一同放入烤箱180度烤20分钟",
+        "imageUrl": "images/recipe_228_step_6.png"
+      },
+      "烤好后取出大蒜挤出蒜肉，与土豆一起加入欧芹碎，搅拌均匀",
+      "倒入盘中即可"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7585481462640659712"
   }
 ]
