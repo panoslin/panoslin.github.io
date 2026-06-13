@@ -16727,5 +16727,82 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7605518054772034859"
+  },
+  {
+    "id": 203,
+    "title": "清汤面🍜",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_203.png",
+    "description": "清汤面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "醋",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "碗里放入葱花，用烧热的热油泼一下激出葱香",
+        "imageUrl": "images/recipe_203_step_1.png"
+      },
+      {
+        "text": "加入两勺生抽、一勺醋、一点点盐、一点点鸡精调味",
+        "imageUrl": "images/recipe_203_step_2.png"
+      },
+      "锅中水烧开后，先舀一点热汤到碗里把调料化开",
+      "下入面条煮熟",
+      {
+        "text": "有条件的可以另外煎一个鸡蛋",
+        "imageUrl": "images/recipe_203_step_5.png"
+      },
+      "面条煮好后挑入碗中即可，看着清淡但味道不错"
+    ],
+    "nutrition": {
+      "calories": 73.3,
+      "protein": 6.6,
+      "carbs": 0.7,
+      "fat": 4.4,
+      "salt": 0.29
+    },
+    "source": "https://www.douyin.com/video/7605932583642125739"
   }
 ]
