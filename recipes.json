@@ -10228,5 +10228,59 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7584700693065796913"
+  },
+  {
+    "id": 131,
+    "title": "牛奶冰糕🥛",
+    "category": [
+      "甜品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_131.png",
+    "description": "牛奶冰糕🥛的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛奶",
+        "quantity": 500,
+        "unit": "毫升"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "黄豆粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "锅中倒入500毫升牛奶，加入一勺白糖和50克玉米淀粉",
+      "搅拌均匀",
+      {
+        "text": "小火熬至浓稠的状态",
+        "imageUrl": "images/recipe_131_step_3.png"
+      },
+      "倒入碗中，震荡平整",
+      "放入冰箱冷藏1小时",
+      {
+        "text": "脱模后撒上黄豆粉即可",
+        "imageUrl": "images/recipe_131_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 455.9,
+      "protein": 15.1,
+      "carbs": 63.6,
+      "fat": 16.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7627442942387276666"
   }
 ]
