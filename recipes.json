@@ -20968,5 +20968,115 @@
       "salt": 1.0
     },
     "source": "https://www.douyin.com/video/7561452748575640890"
+  },
+  {
+    "id": 249,
+    "title": "韭黄银芽炒虾丝🦐",
+    "category": [
+      "粤菜",
+      "海鲜"
+    ],
+    "imageUrl": "images/recipe_249.png",
+    "description": "韭黄银芽炒虾丝🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "虾胶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "银芽（绿豆芽）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "韭黄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青红椒丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜汁酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "麻油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "把虾胶装入裱花袋，挤成细长的虾面（虾丝）。",
+        "imageUrl": "images/recipe_249_step_1.png"
+      },
+      "把挤好的虾面放入不太滚的热水中浸约1分钟至刚熟，捞出。",
+      "把浸熟的虾面剪成一段段（约一指长），这样才更入味好吃。",
+      {
+        "text": "锅中放油，把虾面煎香，既能辟除腥味又能增添锅气，煎好盛出备用。",
+        "imageUrl": "images/recipe_249_step_4.png"
+      },
+      {
+        "text": "调碗仔芡：把味精、生粉、胡椒粉、麻油加少许清水调匀备用。",
+        "imageUrl": "images/recipe_249_step_5.png"
+      },
+      {
+        "text": "热锅放少许油，中火快炒银芽（火小易出水、火猛易过火），加入姜汁酒和盐炒匀，盛出滤干水分。",
+        "imageUrl": "images/recipe_249_step_6.png"
+      },
+      "另起锅放油，爆香蒜头，下青红椒丝、韭黄、虾丝略炒，再倒入银芽。",
+      {
+        "text": "倒入碗仔芡快炒均匀，炒至完全无水、只剩油光并带焦香锅气即可出锅。",
+        "imageUrl": "images/recipe_249_step_8.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7555755918022085926"
   }
 ]
