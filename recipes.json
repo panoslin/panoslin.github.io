@@ -14904,5 +14904,130 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7616342100434554609"
+  },
+  {
+    "id": 182,
+    "title": "鸡丝凉面🍜",
+    "category": [
+      "主食",
+      "凉菜"
+    ],
+    "imageUrl": "images/recipe_182.png",
+    "description": "鸡丝凉面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "意大利面(细意面)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜泥",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "甜椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "热油(食用油)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香醋",
+        "quantity": 4,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 4,
+        "unit": "勺"
+      },
+      {
+        "name": "芝麻油",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "洋葱丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "糖",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "黄瓜丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "熟花生米",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "意大利面(细意面)下锅煮熟，捞出晾凉备用。",
+      "四个鸡腿加姜片，水开后放入煮20分钟，筷子插入没有血水冒出即熟。",
+      "鸡腿放凉后撕成块(想撕成丝太难，撕成块即可)。",
+      {
+        "text": "碗中放入葱花、辣椒面、蒜泥、白芝麻，再加一点甜椒粉提色(不放也行)。",
+        "imageUrl": "images/recipe_182_step_4.png"
+      },
+      {
+        "text": "往料碗中泼入热油，激出香味。",
+        "imageUrl": "images/recipe_182_step_5.png"
+      },
+      {
+        "text": "加入香醋四勺、生抽四勺、芝麻油两勺。",
+        "imageUrl": "images/recipe_182_step_6.png"
+      },
+      "放一点洋葱丝，再倒入半勺盐和糖，搅匀成料汁。",
+      "料汁中倒入鸡丝、面、黄瓜丝、熟花生米。",
+      "全部搅拌均匀即可开吃，酸辣开胃。"
+    ],
+    "nutrition": {
+      "calories": 742.4,
+      "protein": 72.2,
+      "carbs": 1.0,
+      "fat": 50.0,
+      "salt": 1.08
+    },
+    "source": "https://www.douyin.com/video/7615411337334724838"
   }
 ]
