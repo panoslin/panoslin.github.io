@@ -11679,5 +11679,117 @@
       "salt": 1.21
     },
     "source": "https://www.douyin.com/video/7624094698918947300"
+  },
+  {
+    "id": 147,
+    "title": "干锅鱿鱼花甲🦑",
+    "category": [
+      "海鲜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_147.png",
+    "description": "干锅鱿鱼花甲🦑的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鱿鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花甲",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干锅酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青红椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "孜然",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱段",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鱿鱼、花甲倒入锅中,加一圈料酒,加水没过食材",
+      "煮开后捞出,用清水清洗干净",
+      {
+        "text": "另起锅油热,倒入干辣椒、花椒、蒜末、干锅酱炒香",
+        "imageUrl": "images/recipe_147_step_3.png"
+      },
+      {
+        "text": "倒入焯好的鱿鱼花甲,加生抽、白糖、蚝油、少许盐调味",
+        "imageUrl": "images/recipe_147_step_4.png"
+      },
+      "大火翻炒出香味",
+      {
+        "text": "加入洋葱、青红椒、孜然、葱段翻炒均匀即可",
+        "imageUrl": "images/recipe_147_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7618150898800246267"
   }
 ]
