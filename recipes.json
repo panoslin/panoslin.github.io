@@ -7711,5 +7711,72 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7626658223256276258"
+  },
+  {
+    "id": 102,
+    "title": "芥末柠檬脆皮黄瓜🥒",
+    "category": [
+      "凉菜",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_102.png",
+    "description": "芥末柠檬脆皮黄瓜🥒的详细制作方法",
+    "ingredients": [
+      {
+        "name": "黄瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "山葵酱(芥末)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "冰水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "黄瓜削皮。",
+      {
+        "text": "黄瓜下面垫上筷子，斜刀上下来回滚动着切，用筷子挡住刀口防止切断；如果筷子分开了就立刻调整位置继续，切出细密均匀的蓑衣纹路。",
+        "imageUrl": "images/recipe_102_step_2.png"
+      },
+      {
+        "text": "再斜刀将黄瓜切成片。",
+        "imageUrl": "images/recipe_102_step_3.png"
+      },
+      "切好的黄瓜放入冰水中浸泡冰镇一下，口感更清爽脆嫩。",
+      {
+        "text": "调小料汁：2勺生抽、小半勺糖、适量山葵酱（芥末）、挤入半个柠檬的汁，搅拌均匀。",
+        "imageUrl": "images/recipe_102_step_5.png"
+      },
+      "把冰镇后的黄瓜捞出装盘，淋上小料汁即可；也推荐直接蘸着料汁吃、不用拌在一起，芥末味会更冲。"
+    ],
+    "nutrition": {
+      "calories": 15.8,
+      "protein": 0.7,
+      "carbs": 4.8,
+      "fat": 0.2,
+      "salt": 0.29
+    },
+    "source": "https://www.douyin.com/video/7648114736499969097"
   }
 ]
