@@ -10071,5 +10071,71 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7615498918931718779"
+  },
+  {
+    "id": 129,
+    "title": "绿豆花生莲子西米粥",
+    "category": [
+      "家常菜",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_129.png",
+    "description": "绿豆花生莲子西米粥的详细制作方法",
+    "ingredients": [
+      {
+        "name": "绿豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "莲子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白西米",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "滚烫白开水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "绿豆、花生、莲子、白西米淘洗干净后，一起倒入高压锅中",
+        "imageUrl": "images/recipe_129_step_1.png"
+      },
+      {
+        "text": "一定要倒入滚烫的白开水（用刚烧开的开水，食材更易煮开花、口感更软糯）",
+        "imageUrl": "images/recipe_129_step_2.png"
+      },
+      "放入冰糖，与食材一起拌匀",
+      {
+        "text": "盖上高压锅盖，大火上汽后压煮约10分钟即可",
+        "imageUrl": "images/recipe_129_step_4.png"
+      },
+      "煮好后开盖盛出，温热饮用，全家老少皆宜，也可早起现煮当作早餐"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7637457279466478970"
   }
 ]
