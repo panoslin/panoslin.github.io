@@ -21344,5 +21344,87 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7539897860159524148"
+  },
+  {
+    "id": 253,
+    "title": "街边炒方便面🍜",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_253.png",
+    "description": "街边炒方便面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "方便面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "方便面料包",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老干妈",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "方便面用冷水浸泡，泡到略散开但不软烂",
+      {
+        "text": "水开后上锅蒸，蒸至面条Q弹",
+        "imageUrl": "images/recipe_253_step_2.png"
+      },
+      "锅中打入鸡蛋炒散",
+      "下火腿肠、洋葱、青菜翻炒至断生",
+      {
+        "text": "倒入蒸好的方便面，加生抽、蒜末、料包和老干妈",
+        "imageUrl": "images/recipe_253_step_5.png"
+      },
+      {
+        "text": "全程猛火爆炒，炒到干香筋道即可",
+        "imageUrl": "images/recipe_253_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7542458224495086882"
   }
 ]
