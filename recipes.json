@@ -18884,5 +18884,101 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7585481462640659712"
+  },
+  {
+    "id": 229,
+    "title": "紫菜虾仁蒸饺🥟",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_229.png",
+    "description": "紫菜虾仁蒸饺🥟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "紫菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉馅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾仁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "韭菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "馄饨皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "小勺"
+      },
+      {
+        "name": "鸡精",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": 0.5,
+        "unit": "小勺"
+      },
+      {
+        "name": "香油",
+        "quantity": 2,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "锅中不放油，下入紫菜煎至翠绿色，捏碎后直接加入肉馅中",
+        "imageUrl": "images/recipe_229_step_1.png"
+      },
+      {
+        "text": "加入虾仁、韭菜，再放入生抽2勺、老抽1勺、蚝油半勺、盐2小勺、鸡精1小勺、胡椒粉半小勺、香油2勺，搅拌均匀",
+        "imageUrl": "images/recipe_229_step_2.png"
+      },
+      {
+        "text": "取现成的馄饨皮放入馅料，对折捏紧，再将两边往中间捏紧",
+        "imageUrl": "images/recipe_229_step_3.png"
+      },
+      "蒸屉刷一层油，放入包好的蒸饺，表皮刷一层水",
+      "水开后上锅蒸12分钟即可"
+    ],
+    "nutrition": {
+      "calories": 23.7,
+      "protein": 0.3,
+      "carbs": 1.2,
+      "fat": 2.0,
+      "salt": 3.0
+    },
+    "source": "https://www.douyin.com/video/7580203304983383759"
   }
 ]
