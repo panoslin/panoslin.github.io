@@ -16273,5 +16273,63 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7609611856722389105"
+  },
+  {
+    "id": 197,
+    "title": "花椒盐焖大虾🦐",
+    "category": [
+      "海鲜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_197.png",
+    "description": "花椒盐焖大虾🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "大虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "大虾洗净、剪去虾须沥干水分，整齐铺入不粘锅中（无需放油放水，靠虾自身出水干焖）。",
+      "放几片姜片去腥。",
+      {
+        "text": "撒上一层花椒，花椒是这道菜的精髓，香味全靠它。",
+        "imageUrl": "images/recipe_197_step_3.png"
+      },
+      "再均匀撒上一层盐调味。",
+      {
+        "text": "盖上锅盖，转最小火焖约15分钟，焖出超香的花椒味。",
+        "imageUrl": "images/recipe_197_step_5.png"
+      },
+      {
+        "text": "开盖转大火收汁，期间翻面让大虾均匀入味上色。",
+        "imageUrl": "images/recipe_197_step_6.png"
+      },
+      "汤汁收浓、香味四溢后即可出锅装盘，趁热享用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7605023296816504827"
   }
 ]
