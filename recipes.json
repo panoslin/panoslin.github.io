@@ -21426,5 +21426,68 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7542458224495086882"
+  },
+  {
+    "id": 254,
+    "title": "冷锅脆皮煎鸡腿🍗",
+    "category": [
+      "家常菜",
+      "西餐"
+    ],
+    "imageUrl": "images/recipe_254.png",
+    "description": "冷锅脆皮煎鸡腿🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "带皮鸡腿",
+        "quantity": 2,
+        "unit": "块"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "万能调味料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "高烟点油",
+        "quantity": 1,
+        "unit": "汤匙"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "不锈钢锅不预热、不放油不放盐，将带皮鸡腿鸡皮朝下放入冷锅（本视频用两块）。",
+        "imageUrl": "images/recipe_254_step_1.png"
+      },
+      {
+        "text": "先开大火，随即转中小火（炉子约3-4档），耐心慢煎5-10分钟，靠鸡肉自身油脂把脂肪慢慢煎出来。",
+        "imageUrl": "images/recipe_254_step_2.png"
+      },
+      "鸡肉一开始会粘锅，千万不要用铲子去刮；耐心等它自然脱离锅面，煎出焦糖褐色脆皮。",
+      "翻面前在朝上一面撒盐、黑胡椒和喜欢的万能调味料。",
+      {
+        "text": "翻面，将另一面继续煎至金黄脆皮、鸡肉内部熟透；全程不要盖锅盖，以免破坏脆皮。",
+        "imageUrl": "images/recipe_254_step_5.png"
+      },
+      "鸡皮煎好后，加入约1汤匙高烟点油，提高油的烟点、减少油烟。",
+      "煎好后轻轻取出鸡腿以保护鸡皮；锅底留下的焦香物可用来做锅汁。"
+    ],
+    "nutrition": {
+      "calories": 3.6,
+      "protein": 0.4,
+      "carbs": 0.0,
+      "fat": 0.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7540977175630826803"
   }
 ]
