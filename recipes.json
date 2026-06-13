@@ -13020,5 +13020,117 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7622639448177514106"
+  },
+  {
+    "id": 161,
+    "title": "咖喱菠萝炒饭🍍",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_161.png",
+    "description": "咖喱菠萝炒饭🍍的详细制作方法",
+    "ingredients": [
+      {
+        "name": "隔夜米饭",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菠萝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾仁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "咖喱块",
+        "quantity": 2,
+        "unit": "块"
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "虾仁中撒入少许白胡椒和一点点盐，抓拌均匀腌制约10分钟。",
+      {
+        "text": "菠萝从中间斜刀切开，一半掏出果肉做成菠萝盅摆盘装饰，另一半切成小块用淡盐水浸泡约2分钟后洗净。",
+        "imageUrl": "images/recipe_161_step_2.png"
+      },
+      {
+        "text": "锅烧热倒少许油，油温热后下入鸡蛋快速摇匀，立即关火用余温炒至凝固（鸡蛋容易炒老），盛出备用。",
+        "imageUrl": "images/recipe_161_step_3.png"
+      },
+      "锅中再放少许油，开小火，油温不要太热，下入蒜末、洋葱、胡萝卜、青豆翻炒断生，再下入腌好的虾仁。",
+      {
+        "text": "虾仁翻炒至变色后转最小火，加入两块咖喱块，小火翻炒至咖喱完全融化。",
+        "imageUrl": "images/recipe_161_step_5.png"
+      },
+      {
+        "text": "加入米饭，淋入少许生抽和一点蚝油，小火翻炒并把米饭炒散。",
+        "imageUrl": "images/recipe_161_step_6.png"
+      },
+      "下入炒好的鸡蛋和菠萝块，转大火快速翻炒、勤翻动约1分钟。",
+      "出锅前尝口调整咸淡，盛入喜欢的盘子即可。"
+    ],
+    "nutrition": {
+      "calories": 6.5,
+      "protein": 0.2,
+      "carbs": 1.1,
+      "fat": 0.3,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7612578128795885029"
   }
 ]
