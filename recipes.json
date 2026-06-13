@@ -22945,5 +22945,186 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7504859649355664703"
+  },
+  {
+    "id": 271,
+    "title": "超嫩鸡胸肉七日腌法🍗",
+    "category": [
+      "减肥",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_271.png",
+    "description": "超嫩鸡胸肉七日腌法🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡胸肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水（盐水法）",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "盐（盐水法）",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米酒（或黄酒）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味醂",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酸奶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "咖喱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜根",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鱼露",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "韩式辣酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "罗勒青酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "准备可冷冻、可加热、密封性强的密封袋（如 GLAD），便于腌制后直接冷冻保存并用于后续加热。",
+      {
+        "text": "Day1 盐水法：500g 水 + 25g 盐（5%）腌 4 小时；或 500g 水 + 15g 盐（3%）腌 12-24 小时。盐离子会破坏肌肉蛋白结构、重塑保水网络，需腌 30 分钟以上才起效；盐水中可加少许糖，平衡咸度、保水更强。腌好可作食材或直接煎。",
+        "imageUrl": "images/recipe_271_step_2.png"
+      },
+      {
+        "text": "Day2 经典蒜香：蒜末（多）、黑胡椒、盐、生抽、米酒或黄酒、蜂蜜、小半碗水，混匀后与鸡胸肉一起密封腌制。",
+        "imageUrl": "images/recipe_271_step_3.png"
+      },
+      {
+        "text": "Day3 照烧酱汁：味醂、生抽、蚝油、蜂蜜、老抽调成照烧汁（也可直接用市售照烧酱）腌制。",
+        "imageUrl": "images/recipe_271_step_4.png"
+      },
+      {
+        "text": "Day4 酸奶咖喱：酸奶、盐、咖喱混合后腌制。",
+        "imageUrl": "images/recipe_271_step_5.png"
+      },
+      {
+        "text": "Day5 东南亚风：蒜末、柠檬汁、米酒、柠檬片、洋葱碎、香菜根、盐、小米辣、鱼露混合后腌制。",
+        "imageUrl": "images/recipe_271_step_6.png"
+      },
+      {
+        "text": "Day6 韩式辣鸡：蒜末、蜂蜜、韩式辣酱、黑胡椒粉混合后腌制。",
+        "imageUrl": "images/recipe_271_step_7.png"
+      },
+      {
+        "text": "Day7 罗勒青酱：柠檬片、米酒、青酱、盐混合后腌制。",
+        "imageUrl": "images/recipe_271_step_8.png"
+      },
+      "保存：冷藏腌制 4 小时以上即可食用；若超过 24 小时则转入冷冻，食用前取出。",
+      {
+        "text": "加热（干煎）：中火干煎鸡胸肉 2 分钟，翻面再煎 2 分钟；大火焦化后加少许水、盖盖焖 2 分钟会更嫩，或测中心温度达 65℃ 即可。",
+        "imageUrl": "images/recipe_271_step_10.png"
+      },
+      {
+        "text": "加热（水浴）：从冷冻取出连袋直接丢入水中，65℃ 水浴 2-3 小时（可定时，如起床前 3 小时开始）；只要密封袋不漏即可，绝不翻车。",
+        "imageUrl": "images/recipe_271_step_11.png"
+      },
+      "搭配一点蔬菜一起食用即可。"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 1333.5
+    },
+    "source": "https://www.douyin.com/video/7500501948182580539"
   }
 ]
