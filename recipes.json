@@ -8707,5 +8707,116 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7521670178792164668"
+  },
+  {
+    "id": 113,
+    "title": "泰式鱿鱼🦑",
+    "category": [
+      "海鲜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_113.png",
+    "description": "泰式鱿鱼🦑的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鱿鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鱼露",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜根",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干葱头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青柠汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "凉白开",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "薄荷",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鱿鱼清洗干净，准备好红、绿两种泰汁的食材。",
+      {
+        "text": "开水入锅，将鱿鱼焯烫30-40秒后捞出，立刻过一下冰水，这样肉质会更加爽脆弹牙。",
+        "imageUrl": "images/recipe_113_step_2.png"
+      },
+      "用酱油、鱼露、白糖涂抹鱿鱼全身，腌制十来分钟。",
+      {
+        "text": "调红泰汁：小番茄、小米辣、香菜根、干葱头、大蒜切碎，加青柠汁、凉白开、白糖、鱼露拌匀，酸辣奔放、刺激感更强。",
+        "imageUrl": "images/recipe_113_step_4.png"
+      },
+      {
+        "text": "调绿泰汁：青椒、薄荷切碎，加生抽拌匀，清新生津、以植物清香为主。",
+        "imageUrl": "images/recipe_113_step_5.png"
+      },
+      {
+        "text": "将腌好的鱿鱼炭火烤或入锅煎，让表面有点焦化感即可；鱿鱼很好熟，不用煎太久。",
+        "imageUrl": "images/recipe_113_step_6.png"
+      },
+      "搭配喜欢的一款泰汁蘸食即可，多余的泰汁和泰式打抛饭也非常搭。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7642615832614292751"
   }
 ]
