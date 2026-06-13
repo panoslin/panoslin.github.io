@@ -12226,5 +12226,89 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7628912738802339185"
+  },
+  {
+    "id": 152,
+    "title": "自制万能烧烤料🍖",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_152.png",
+    "description": "自制万能烧烤料🍖的详细制作方法",
+    "ingredients": [
+      {
+        "name": "花生",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "孜然",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "茶匙"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "雪饼",
+        "quantity": 4,
+        "unit": "片"
+      },
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "将花生、孜然、黄豆、辣椒、花椒、芝麻全部分别炒熟备用。",
+      "加入两茶匙盐和一茶匙白糖提鲜（不喜欢甜味可以不放糖）。",
+      "加入4片雪饼，起到蓬松和吸油的作用。",
+      {
+        "text": "把所有食材倒入绞肉机打碎；注意时间不要太长，打太久容易出油，打到略带颗粒感正好。",
+        "imageUrl": "images/recipe_152_step_4.png"
+      },
+      "嘎嘎香的万能烧烤料就做好了，装瓶备用。",
+      {
+        "text": "食用时配上五花肉，煎至滋滋冒油，撒上烧烤料即可。",
+        "imageUrl": "images/recipe_152_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 3.9,
+      "protein": 0.0,
+      "carbs": 1.0,
+      "fat": 0.0,
+      "salt": 2.0
+    },
+    "source": "https://www.douyin.com/video/7627789807774931060"
   }
 ]
