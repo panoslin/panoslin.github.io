@@ -9085,5 +9085,77 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7626358890992868283"
+  },
+  {
+    "id": 116,
+    "title": "杨枝甘露🥭",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_116.png",
+    "description": "杨枝甘露🥭的详细制作方法",
+    "ingredients": [
+      {
+        "name": "西米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芒果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "脆啵啵",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "幼砂糖或白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鲜牛乳或椰奶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "西米不用洗，直接下锅，加入100度热水，水要稍微多一点。",
+      "盖上锅盖，上汽后转中小火煮6分钟。",
+      {
+        "text": "关火后让西米自然泄气再开盖，西米要焖一下才没有白心。",
+        "imageUrl": "images/recipe_116_step_3.png"
+      },
+      {
+        "text": "将西米捞出过凉水，口感更Q弹，过好凉水后倒回锅中。",
+        "imageUrl": "images/recipe_116_step_4.png"
+      },
+      {
+        "text": "芒果用破壁机打成芒果泥。",
+        "imageUrl": "images/recipe_116_step_5.png"
+      },
+      "另备芒果肉切成丁。",
+      "加入脆啵啵。",
+      "倒入幼砂糖或白糖，根据个人口味调整甜度。",
+      "倒入鲜牛乳或椰奶。",
+      "加入冰块口感更佳，或放入冰箱冷藏。",
+      "搅拌均匀即可，在家也能实现杨枝甘露自由。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7628224082979124136"
   }
 ]
