@@ -13694,5 +13694,92 @@
       "salt": 0.39
     },
     "source": "https://www.douyin.com/video/7608574356872039707"
+  },
+  {
+    "id": 169,
+    "title": "白切牛腱子肉🥩",
+    "category": [
+      "牛肉",
+      "凉菜"
+    ],
+    "imageUrl": "images/recipe_169.png",
+    "description": "白切牛腱子肉🥩的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛腱子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "苹果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "南姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红葱头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "苹果去芯，南姜备好，与牛腱子、清水一同放入锅中。",
+      {
+        "text": "盖上锅盖，上气后转中小火煮约20分钟。",
+        "imageUrl": "images/recipe_169_step_2.png"
+      },
+      "泄气后开盖，夹出牛腱子肉放凉；捞出苹果丢弃（苹果去腥提鲜的作用已完成）。",
+      {
+        "text": "牛腱子肉彻底放凉后切薄片。",
+        "imageUrl": "images/recipe_169_step_4.png"
+      },
+      {
+        "text": "蒜末、红葱头放入碗中，浇上热油激发香味，再加入小米辣、香菜、生抽拌匀成灵魂蘸料。",
+        "imageUrl": "images/recipe_169_step_5.png"
+      },
+      "牛腱子肉片蘸上酱汁即可享用，香而不发柴。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7617826733621945765"
   }
 ]
