@@ -10282,5 +10282,50 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7627442942387276666"
+  },
+  {
+    "id": 132,
+    "title": "西瓜雪碧优乐多特调 🍉",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_132.png",
+    "description": "西瓜雪碧优乐多特调 🍉的详细制作方法",
+    "ingredients": [
+      {
+        "name": "西瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "雪碧",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "优乐多",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "西瓜切成小块，放入玻璃罐中",
+      "加入适量冰块",
+      "倒入雪碧",
+      "加入优乐多，搅拌均匀即可饮用"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7634506437767905768"
   }
 ]
