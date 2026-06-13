@@ -22101,5 +22101,55 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7520899680327355707"
+  },
+  {
+    "id": 262,
+    "title": "金黄小米粥🥣",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_262.png",
+    "description": "金黄小米粥🥣的详细制作方法",
+    "ingredients": [
+      {
+        "name": "小米",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 5000,
+        "unit": "毫升"
+      },
+      {
+        "name": "栀子水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "小米与水按半斤小米配十斤水的比例(约 250 克小米、5000 毫升水),记住这个比例。",
+      {
+        "text": "水烧开后再下入小米,这样不容易糊锅、溢锅;下米后要不断搅动,因为明火加热容易粘锅,等水再次滚开后即可停止搅动(若用电饭锅则不必搅动,不会粘锅)。",
+        "imageUrl": "images/recipe_262_step_2.png"
+      },
+      {
+        "text": "继续熬煮至小米呈粘稠状;舀起一勺,小米不再往下沉,这锅稀饭就熬好了。",
+        "imageUrl": "images/recipe_262_step_3.png"
+      },
+      {
+        "text": "熬好的小米粥发白不好看,加入秘密武器——栀子水(用栀子泡的水,有清热凉血、退黄杀菌等功效),小米粥马上变得金黄软糯、浓浓米香,即可食用。",
+        "imageUrl": "images/recipe_262_step_4.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 100.0,
+      "protein": 4.8,
+      "carbs": 22.0,
+      "fat": 1.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7400304000295390515"
   }
 ]
