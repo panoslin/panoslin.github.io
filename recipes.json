@@ -13446,5 +13446,66 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7616334373050207534"
+  },
+  {
+    "id": 166,
+    "title": "空气炸锅包浆豆腐 🧈",
+    "category": [
+      "素食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_166.png",
+    "description": "空气炸锅包浆豆腐 🧈的详细制作方法",
+    "ingredients": [
+      {
+        "name": "老豆腐（Costco Kirkland 老豆腐）",
+        "quantity": 1,
+        "unit": "块"
+      },
+      {
+        "name": "小苏打",
+        "quantity": 7,
+        "unit": "克"
+      },
+      {
+        "name": "清水",
+        "quantity": 700,
+        "unit": "毫升"
+      },
+      {
+        "name": "蘸料/烧烤料",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "老豆腐先从侧面对半切一刀，再从侧面切，一块豆腐切成 12 小块。",
+        "imageUrl": "images/recipe_166_step_1.png"
+      },
+      {
+        "text": "调碱水（小苏打水）：水和小苏打按 100:1 的比例，用 1.5 小勺约 7 克小苏打，先用少量清水把小苏打化开。",
+        "imageUrl": "images/recipe_166_step_2.png"
+      },
+      "把化开的小苏打水撒在豆腐上，再加入 700 毫升清水，水要能没过豆腐。",
+      "放入冰箱冷藏浸泡 8 小时以上；豆腐越老需要泡得越久（可浸泡过夜），不是特别老的豆腐可适当减少浸泡时间。",
+      "泡好的豆腐捞出，擦干表面水分。",
+      {
+        "text": "空气炸锅底部垫一层油纸，不用喷油，直接放入豆腐，400 华氏度（约 200 摄氏度）烤 15 分钟，中间记得拿出来翻面。",
+        "imageUrl": "images/recipe_166_step_6.png"
+      },
+      {
+        "text": "烤至表皮焦脆、内里软嫩即可，搭配自己调的蘸料或喜欢的烧烤料食用。",
+        "imageUrl": "images/recipe_166_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.8,
+      "protein": 0.1,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7621426205778899813"
   }
 ]
