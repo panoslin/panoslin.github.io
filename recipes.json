@@ -16686,5 +16686,46 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7583874951963807010"
+  },
+  {
+    "id": 202,
+    "title": "土豆泥小龙虾拌面 🦞",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_202.png",
+    "description": "土豆泥小龙虾拌面的详细制作方法",
+    "ingredients": [
+      {
+        "name": "面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "手剥小龙虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土豆泥",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "将煮好的面条盛入碗中",
+      "铺上手剥小龙虾虾仁（颗颗饱满、香辣入味）",
+      "再加入一勺软糯醇香的土豆泥",
+      "充分拌匀，使黏糊的土豆泥裹满虾肉和面条即可"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7605518054772034859"
   }
 ]
