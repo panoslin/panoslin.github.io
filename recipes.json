@@ -15742,5 +15742,69 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7612929568693131513"
+  },
+  {
+    "id": 191,
+    "title": "白菜叶垫底蒸饺子🥟",
+    "category": [
+      "主食",
+      "蒸制"
+    ],
+    "imageUrl": "images/recipe_191.png",
+    "description": "白菜叶垫底蒸饺子🥟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "饺子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白菜叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香醋",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "白菜叶洗净，平铺在蒸锅/蒸屉底部垫着，可以防止饺子粘底",
+        "imageUrl": "images/recipe_191_step_1.png"
+      },
+      "把生饺子整齐摆放在白菜叶上，盖盖上锅蒸熟",
+      "调一碗蘸料：蒜末、小米辣、香葱，加生抽、香醋拌匀",
+      "蒸好的饺子完整不破皮、皮不粘底，蘸料食用；垫底的白菜也可一起蘸料吃，搭配着吃饺子不会那么腻"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7613001810374821477"
   }
 ]
