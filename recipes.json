@@ -9496,5 +9496,147 @@
       "salt": 1.25
     },
     "source": "https://www.douyin.com/video/7637083347478491391"
+  },
+  {
+    "id": 122,
+    "title": "夏日凉面🍜",
+    "category": [
+      "主食",
+      "凉菜"
+    ],
+    "imageUrl": "images/recipe_122.png",
+    "description": "夏日凉面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "碱水面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "绿豆芽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "陈醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "凉白开",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "胡萝卜削皮，先切薄片再切成细丝；黄瓜同样先切薄片再切细丝。",
+      "香菜去根切小段，葱切葱花，小米椒切丁；大蒜留几粒整粒，其余压扁剁成蒜末。",
+      "锅中水烧开，倒入绿豆芽烫煮1-2分钟，控水捞出备用。",
+      {
+        "text": "另起锅水沸后下入碱水面，再次煮沸后加一两次少量冷水；再次煮沸后挑一根掐断，断面有一点白芯即可捞出。",
+        "imageUrl": "images/recipe_122_step_4.png"
+      },
+      {
+        "text": "面条迅速过一下凉水后马上沥干，倒入适量冷却的熟油拌匀，再用风扇吹凉防止粘连。",
+        "imageUrl": "images/recipe_122_step_5.png"
+      },
+      {
+        "text": "冷锅倒冷油，放入葱花、蒜末、小米椒、白芝麻、辣椒粉，油热冒烟时关火，利用余温炒香成料油。",
+        "imageUrl": "images/recipe_122_step_6.png"
+      },
+      {
+        "text": "加一小勺盐、鸡精、白糖、白胡椒粉，一勺生抽、小半勺陈醋、一点香油搅拌均匀，再加适量凉白开调成料汁。",
+        "imageUrl": "images/recipe_122_step_7.png"
+      },
+      "放入面条，依次加入绿豆芽、黄瓜丝、胡萝卜丝、香菜、花生米，抓拌均匀即可；可按喜好加入牛肉、大蒜等配菜。"
+    ],
+    "nutrition": {
+      "calories": 0.6,
+      "protein": 0.1,
+      "carbs": 0.1,
+      "fat": 0.0,
+      "salt": 1.15
+    },
+    "source": "https://www.douyin.com/video/7637526942538796340"
   }
 ]
