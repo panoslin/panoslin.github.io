@@ -22037,5 +22037,69 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7523820690304355623"
+  },
+  {
+    "id": 261,
+    "title": "绿豆沙牛乳🥛",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_261.png",
+    "description": "绿豆沙牛乳🥛的详细制作方法",
+    "ingredients": [
+      {
+        "name": "绿豆",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "燕麦",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "糯米",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 500,
+        "unit": "毫升"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 200,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "绿豆50克、燕麦20克、糯米15克、冰糖15克，按此搭配全部倒入破壁机",
+        "imageUrl": "images/recipe_261_step_1.png"
+      },
+      "加入500毫升清水",
+      {
+        "text": "选择豆浆模式，高温熬煮并破壁打浆",
+        "imageUrl": "images/recipe_261_step_3.png"
+      },
+      {
+        "text": "打好后加入200毫升牛奶，搅拌均匀即可，口感醇香绵密、细腻丝滑",
+        "imageUrl": "images/recipe_261_step_4.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 454.1,
+      "protein": 21.2,
+      "carbs": 77.6,
+      "fat": 8.3,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7520899680327355707"
   }
 ]
