@@ -21281,5 +21281,68 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7550584620698864905"
+  },
+  {
+    "id": 252,
+    "title": "免揉黄瓜馒头🥒",
+    "category": [
+      "主食",
+      "蒸制"
+    ],
+    "imageUrl": "images/recipe_252.png",
+    "description": "免揉黄瓜馒头🥒的详细制作方法",
+    "ingredients": [
+      {
+        "name": "黄瓜皮",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "清水",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "面粉",
+        "quantity": 330,
+        "unit": "克"
+      },
+      {
+        "name": "酵母粉",
+        "quantity": 2.5,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "黄瓜皮100克与清水100克放入破壁机(果蔬模式)或辅食机搅打成黄瓜汁,过滤一下口感更细腻(不过滤也可以)。",
+      {
+        "text": "面粉330克直接倒入绞肉机,加入酵母粉2.5克和黄瓜汁180克,黄金比例为:面粉9格330克、酵母粉半格2.5克、黄瓜汁3格半180克。",
+        "imageUrl": "images/recipe_252_step_2.png"
+      },
+      {
+        "text": "启动绞肉机搅打约半分钟,无需手揉即可成团,解放双手。",
+        "imageUrl": "images/recipe_252_step_3.png"
+      },
+      "面团裹上保鲜膜,放入冰箱水合6分钟。",
+      "取出后简单整理,揉至表面超光滑,搓成长条状。",
+      {
+        "text": "切成大小一致的6个剂子,每个剂子顺着一个方向揉搓,搓圆搓高。",
+        "imageUrl": "images/recipe_252_step_6.png"
+      },
+      {
+        "text": "天气热时放入冷水锅中盖盖醒发,至馒头表面明显鼓起、轻压能回弹即为醒发到位。",
+        "imageUrl": "images/recipe_252_step_7.png"
+      },
+      "水开后计时蒸15分钟,关火再焖2分钟。",
+      "出锅即得天然果蔬黄瓜馒头,蓬松喧软、回弹好、内部组织细腻。"
+    ],
+    "nutrition": {
+      "calories": 16.0,
+      "protein": 0.7,
+      "carbs": 3.6,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7539897860159524148"
   }
 ]
