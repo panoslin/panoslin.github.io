@@ -22641,5 +22641,120 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7340529345624050982"
+  },
+  {
+    "id": 268,
+    "title": "冬菇扒茄子🍆",
+    "category": [
+      "家常菜",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_268.png",
+    "description": "冬菇扒茄子🍆的详细制作方法",
+    "ingredients": [
+      {
+        "name": "茄子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菇（冬菇，干香菇泡发）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大料（八角）",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "甜面酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "香菇（冬菇）提前用清水泡发，泡香菇的水留用备用。",
+      {
+        "text": "茄子去皮，改刀切成梳子状（梳子块）。",
+        "imageUrl": "images/recipe_268_step_2.png"
+      },
+      {
+        "text": "茄子六成油温下锅炸约7分钟至小金黄色；家庭版可少油下锅煎约5分钟。油温要达到六七成，锁住茄子内部水分。",
+        "imageUrl": "images/recipe_268_step_3.png"
+      },
+      {
+        "text": "另起锅放入两个大料、姜、蒜煸炒出味，最后放葱煸出香味。",
+        "imageUrl": "images/recipe_268_step_4.png"
+      },
+      "加入少许甜面酱、酱油烹炒出酱香气。",
+      "倒入泡香菇的水，加少许盐、糖、胡椒粉，熬煮5–10分钟入味。",
+      "把大料、姜、蒜、葱等料渣捞出，只留有味的汤汁（有味见不着料）。",
+      "放入泡好的香菇煮至香菇味出来，再放入炸（煎）好的茄子。",
+      "加入煮熟的青豆。",
+      "家庭版收完汁可不勾芡；如需可勾入少许水淀粉薄芡。",
+      {
+        "text": "全程不放香油/明油（香油会覆盖冬菇香味），大翻勺后出锅装盘。",
+        "imageUrl": "images/recipe_268_step_11.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 7.6,
+      "carbs": 150.8,
+      "fat": 11.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7509004209640049983"
   }
 ]
