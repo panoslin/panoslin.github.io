@@ -18264,5 +18264,106 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7587721737077290090"
+  },
+  {
+    "id": 222,
+    "title": "好吃的饺子肉馅🥟",
+    "category": [
+      "家常菜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_222.png",
+    "description": "好吃的饺子肉馅🥟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "肉馅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五香粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蔬菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "先用葱、姜、花椒、大料泡一碗料水；调肉馅时分次加入料水，搅打至肉馅吸满料水",
+        "imageUrl": "images/recipe_222_step_1.png"
+      },
+      "肉吸满料水后，放入生抽、老抽、鸡精、五香粉等常规调料拌匀",
+      {
+        "text": "再混入蚝油和一颗鸡蛋，搅拌成黏糊糊的馅料",
+        "imageUrl": "images/recipe_222_step_3.png"
+      },
+      {
+        "text": "最后浇上热油，激发出香味",
+        "imageUrl": "images/recipe_222_step_4.png"
+      },
+      "再加入其他蔬菜拌匀即可"
+    ],
+    "nutrition": {
+      "calories": 72,
+      "protein": 6.5,
+      "carbs": 0.5,
+      "fat": 4.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7592181009521675560"
   }
 ]
