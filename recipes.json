@@ -12152,5 +12152,79 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7627093055417371910"
+  },
+  {
+    "id": 151,
+    "title": "万能泡菜水🥬",
+    "category": [
+      "凉菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_151.png",
+    "description": "万能泡菜水🥬的详细制作方法",
+    "ingredients": [
+      {
+        "name": "雪碧",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "泡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白萝卜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "调配万能泡菜水：以雪碧打底，加入小米辣、蒜片、泡椒，淋入白醋两圈，再放适量冰糖搅匀。",
+        "imageUrl": "images/recipe_151_step_1.png"
+      },
+      "放入切好的黄瓜、胡萝卜、白萝卜。",
+      "扣上盖子，腌制一晚。",
+      "腌好后即可食用，酸辣脆爽、开胃又解腻。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7628912738802339185"
   }
 ]
