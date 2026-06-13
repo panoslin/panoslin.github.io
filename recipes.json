@@ -17689,5 +17689,43 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7600715353966136619"
+  },
+  {
+    "id": 215,
+    "title": "红茶汤圆🍵",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_215.png",
+    "description": "红茶汤圆🍵的详细制作方法",
+    "ingredients": [
+      {
+        "name": "汤圆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红茶",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "汤圆下锅，水开后煮至全部浮起、熟透，捞出。",
+      "另泡一杯红茶（热泡或冰镇均可）。",
+      "将煮好的汤圆放入红茶中一起食用，既解腻又带茶香，一次能吃十几个。",
+      "也可换成冰茉莉花茶，清爽解腻。",
+      "或改用冰牛奶/旺仔牛奶，能让汤圆外皮更有嚼劲、加快冷却，连汤也很好喝。",
+      "爱喝咖啡的朋友还可以试试搭配冰美式。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7599476840620641570"
   }
 ]
