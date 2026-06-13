@@ -11791,5 +11791,131 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7618150898800246267"
+  },
+  {
+    "id": 148,
+    "title": "番茄牛肉面🍜",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_148.png",
+    "description": "番茄牛肉面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红薯粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西红柿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "牛肉逆着纹理切片，切成约一元硬币的厚度，把纹理切断，这样吃起来不塞牙、肉也更嫩。",
+        "imageUrl": "images/recipe_148_step_1.png"
+      },
+      {
+        "text": "切好的牛肉加红薯粉、生抽、蚝油和一点点清水抓拌均匀上浆，浆要带一点浓稠感、不能太稀（太稀上不了浆）。",
+        "imageUrl": "images/recipe_148_step_2.png"
+      },
+      "西红柿选普罗旺斯品种（汁水多更好吃），用剪刀剪成小块以免汁水浪费；再备好青菜、葱花和蒜。",
+      {
+        "text": "铁锅烧到冒烟下一点底油润锅，转小火打入鸡蛋，先不要动，煎黄一点再翻面（铁锅冒烟再下油就不粘）。",
+        "imageUrl": "images/recipe_148_step_4.png"
+      },
+      {
+        "text": "锅里放点猪油，下蒜末煸香，加入西红柿，中小火把西红柿炒烂炒出汁（火太大会把汤汁炒干）。",
+        "imageUrl": "images/recipe_148_step_5.png"
+      },
+      "加入开水煮开，下面条（约一元硬币大小为一人份，几人就放几份），放入煎蛋煮透，加生抽、老抽调味上色（喜欢颜色深可放老抽，不放也可以）。",
+      {
+        "text": "面条快好时把腌好的牛肉直接下锅，先不要动让它包浆，这样煮出来的牛肉最嫩。",
+        "imageUrl": "images/recipe_148_step_7.png"
+      },
+      "面条煮到八分熟，下青菜稍微烫一下，加一点味精，撒上一大把葱花即可关火。",
+      "盛入碗中，多加些牛肉、淋上酸甜的西红柿汤汁即可开吃。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7632699293300651961"
   }
 ]
