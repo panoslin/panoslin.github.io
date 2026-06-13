@@ -14736,5 +14736,108 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7616704026709339770"
+  },
+  {
+    "id": 180,
+    "title": "吸汁芝士伊面煮龙虾🦞",
+    "category": [
+      "海鲜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_180.png",
+    "description": "吸汁芝士伊面煮龙虾🦞的详细制作方法",
+    "ingredients": [
+      {
+        "name": "小青龙(龙虾)",
+        "quantity": 2,
+        "unit": "只"
+      },
+      {
+        "name": "芝士片",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "黄油",
+        "quantity": 2,
+        "unit": "块"
+      },
+      {
+        "name": "伊面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "热水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑椒碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "龙虾先放养吐净脏物去腥。剪开虾头与虾身之间的薄膜,把剪刀伸进去转一圈,再轻轻一拧,使虾身与虾肠轻松分离。",
+        "imageUrl": "images/recipe_180_step_1.png"
+      },
+      "虾壳和虾膏不要浪费,去掉虾腮后留作煮汤,鲜味十足。",
+      "虾身的壳剪掉倒刺,吃的时候不扎嘴。",
+      "虾肉用少许盐做底味,再拍上一层薄薄的生粉,防止水分流失。",
+      {
+        "text": "锅中油热,放龙虾壳下去煎透,最大化激发龙虾的鲜香味,让汤色更浓、质感更醇厚;煎好后淋一圈料酒增香增色,再加入热水。",
+        "imageUrl": "images/recipe_180_step_5.png"
+      },
+      {
+        "text": "放两片芝士、两小块黄油,加一点盐调底味,再放一点蚝油提鲜;盖盖用大火煮五六分钟成浓郁虾汤。",
+        "imageUrl": "images/recipe_180_step_6.png"
+      },
+      {
+        "text": "另起锅热锅热油,全程大火以锁住汁水为目的,快速将虾身两面煎至金黄(美拉德反应),淋一圈料酒后暂时出锅。",
+        "imageUrl": "images/recipe_180_step_7.png"
+      },
+      "舀两勺煮好的龙虾汤,放入煮好的伊面(炸过的伊面更容易吸收汤汁),用龙虾汤喂透入味。",
+      "捞走虾壳,放入虾肉小火煮约三分钟至熟。",
+      {
+        "text": "用生粉水打芡至汤汁稠稠的,再加一点尾油搅匀,让汁水更加光滑。",
+        "imageUrl": "images/recipe_180_step_10.png"
+      },
+      "摆盘,有条件的话再撒一点黑椒碎即可。"
+    ],
+    "nutrition": {
+      "calories": 16.2,
+      "protein": 0.4,
+      "carbs": 0.1,
+      "fat": 1.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7616323844193652014"
   }
 ]
