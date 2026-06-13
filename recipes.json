@@ -18153,5 +18153,116 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7627051791486534897"
+  },
+  {
+    "id": 221,
+    "title": "爆炒三鲜🦑",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_221.png",
+    "description": "爆炒三鲜🦑的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鱿鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "里脊肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "荷兰豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鱿鱼内侧改十字花刀。",
+        "imageUrl": "images/recipe_221_step_1.png"
+      },
+      "里脊肉切片，虾提前剥壳改刀。",
+      "虾和里脊肉加盐、味精、胡椒粉、黄酒和玉米淀粉抓匀腌制。",
+      {
+        "text": "调芡汁：碗中加盐、糖、味精、胡椒粉、生抽和玉米淀粉水调匀备用。",
+        "imageUrl": "images/recipe_221_step_4.png"
+      },
+      "准备配菜：胡萝卜、荷兰豆、红黄椒（可自由搭配）。",
+      "水开下素菜和鱿鱼，焯水30秒左右捞出。",
+      "起锅下虾和里脊肉炒香。",
+      "配菜和鱿鱼回锅，淋一圈黄酒去腥增香。",
+      {
+        "text": "倒入芡汁翻炒。",
+        "imageUrl": "images/recipe_221_step_9.png"
+      },
+      "翻炒几下即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7587721737077290090"
   }
 ]
