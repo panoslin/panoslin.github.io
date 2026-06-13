@@ -15582,5 +15582,82 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7613957203086576931"
+  },
+  {
+    "id": 189,
+    "title": "白灼生菜 🥬",
+    "category": [
+      "家常菜",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_189.png",
+    "description": "白灼生菜 🥬的详细制作方法",
+    "ingredients": [
+      {
+        "name": "生菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "陈醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "把切好的生菜加少许盐，用清水浸泡2分钟。",
+      "锅中加水烧开，加一勺盐和食用油。",
+      {
+        "text": "生菜下沸水烫约10秒后立即捞出，整齐地摆入盘中。",
+        "imageUrl": "images/recipe_189_step_3.png"
+      },
+      {
+        "text": "空碗中放入蒜末、辣椒丝，浇上热油炝出香味。",
+        "imageUrl": "images/recipe_189_step_4.png"
+      },
+      {
+        "text": "再加一勺生抽、少许陈醋和白糖提鲜，搅拌均匀，即成万能白灼汁。",
+        "imageUrl": "images/recipe_189_step_5.png"
+      },
+      "将白灼汁淋在生菜上即可开吃，口感清脆爽口。"
+    ],
+    "nutrition": {
+      "calories": 0.6,
+      "protein": 0.1,
+      "carbs": 0.1,
+      "fat": 0.0,
+      "salt": 0.15
+    },
+    "source": "https://www.douyin.com/video/7612179537363355254"
   }
 ]
