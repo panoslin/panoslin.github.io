@@ -9213,5 +9213,57 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7619750497097093489"
+  },
+  {
+    "id": 118,
+    "title": "葡萄茉莉多多🍇",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_118.png",
+    "description": "葡萄茉莉多多🍇的详细制作方法",
+    "ingredients": [
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "养乐多",
+        "quantity": 1,
+        "unit": "瓶"
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葡萄味气泡水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "杯中加满冰块",
+      "加入养乐多一瓶",
+      {
+        "text": "倒入茉莉花茶至八分满",
+        "imageUrl": "images/recipe_118_step_3.png"
+      },
+      "用葡萄味气泡水补满杯子",
+      {
+        "text": "盖紧杯盖，上下摇晃均匀即可",
+        "imageUrl": "images/recipe_118_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7620782926087283688"
   }
 ]
