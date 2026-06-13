@@ -7528,5 +7528,87 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7648261026631072690"
+  },
+  {
+    "id": 100,
+    "title": "芝士奶角🧀",
+    "category": [
+      "甜品",
+      "甜点"
+    ],
+    "imageUrl": "images/recipe_100.png",
+    "description": "芝士奶角🧀的详细制作方法",
+    "ingredients": [
+      {
+        "name": "蛋黄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蛋白",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "细砂糖（打发蛋白用）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "奶油奶酪",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "细砂糖（奶酪馅用）",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "淡奶油",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "奶粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "蛋黄糊部分按常规做法搅拌均匀备用。",
+      {
+        "text": "蛋白中加入细砂糖和白醋，打发到七分发、提起呈大弯钩的状态即可，不要打得太硬（否则卷的时候容易断）。",
+        "imageUrl": "images/recipe_100_step_2.png"
+      },
+      "把蛋黄糊倒入打发好的蛋白中，轻轻翻拌均匀。",
+      "面糊倒入28×28cm的金盘（可垫油纸或油布，不粘烤盘也可不垫），送入烤箱150度烘烤27分钟，最后3分钟上火调高10度。",
+      {
+        "text": "蛋糕烘烤晾凉期间打奶酪馅：奶油奶酪200克、细砂糖20克、淡奶油100克一起搅拌均匀。",
+        "imageUrl": "images/recipe_100_step_5.png"
+      },
+      {
+        "text": "蛋糕胚晾至手温后脱模，切成8个三角形。",
+        "imageUrl": "images/recipe_100_step_6.png"
+      },
+      {
+        "text": "在三角蛋糕上挤上奶油奶酪馅，下面垫一张油纸辅助折叠成形（避免开裂），再把边缘多余的奶酪馅抹平。",
+        "imageUrl": "images/recipe_100_step_7.png"
+      },
+      "两边都蘸上奶粉即可；冷藏后食用，口感像冰淇淋一样入口即化。"
+    ],
+    "nutrition": {
+      "calories": 1106.4,
+      "protein": 13.1,
+      "carbs": 29.2,
+      "fat": 105.8,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7643049595572838245"
   }
 ]
