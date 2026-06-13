@@ -14419,5 +14419,114 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7616294898518085861"
+  },
+  {
+    "id": 177,
+    "title": "三葱爆罗氏虾🦐",
+    "category": [
+      "粤菜",
+      "海鲜"
+    ],
+    "imageUrl": "images/recipe_177.png",
+    "description": "三葱爆罗氏虾的详细制作方法",
+    "ingredients": [
+      {
+        "name": "罗氏虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 125,
+        "unit": "克"
+      },
+      {
+        "name": "老抽",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "鸡粉",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "砂糖",
+        "quantity": 90,
+        "unit": "克"
+      },
+      {
+        "name": "葱（三种）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花雕酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "调三葱汁（视频为一天用量大批，家用按比例减量）：将生抽200克、蚝油125克、老抽100克、鸡粉40克、砂糖90克放入锅中。",
+        "imageUrl": "images/recipe_177_step_1.png"
+      },
+      "小火加热并不断搅拌至调料融化，因含糖分容易糊底，刚烧开即关火，取一份备用。",
+      {
+        "text": "罗氏虾处理干净，背部下刀开口深一点，炸出来更好看。",
+        "imageUrl": "images/recipe_177_step_3.png"
+      },
+      "用厨纸吸干虾身水分，避免下油锅时高油温爆溅。",
+      {
+        "text": "撒少许干生粉将虾抓搓均匀，油炸时锁住虾的肉汁。",
+        "imageUrl": "images/recipe_177_step_5.png"
+      },
+      "油温烧至七八成热，下虾油炸定型。",
+      {
+        "text": "初炸捞出，待油温升高后复炸一次，可点入少许水让虾壳更脆、更松化。",
+        "imageUrl": "images/recipe_177_step_7.png"
+      },
+      {
+        "text": "另起锅，下三种葱炒香。",
+        "imageUrl": "images/recipe_177_step_8.png"
+      },
+      "放入炸好的罗氏虾，烹入花雕酒。",
+      "加入调好的三葱汁翻炒均匀，用时可加少许汤和水淀粉调至浓稠包裹虾身。",
+      "淋入芝麻油提香。",
+      "将虾一个一个摆好装盘即可。"
+    ],
+    "nutrition": {
+      "calories": 757.8,
+      "protein": 24.2,
+      "carbs": 165.8,
+      "fat": 0.8,
+      "salt": 76.89
+    },
+    "source": "https://www.douyin.com/video/7610418962451322809"
   }
 ]
