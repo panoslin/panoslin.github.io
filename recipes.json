@@ -18468,5 +18468,98 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7580402938443599119"
+  },
+  {
+    "id": 224,
+    "title": "姜葱炒生蚝🦪",
+    "category": [
+      "海鲜",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_224.png",
+    "description": "姜葱炒生蚝🦪的详细制作方法",
+    "ingredients": [
+      {
+        "name": "生蚝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豉油（酱油）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "砂糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "清洗：用生粉抓洗生蚝，生粉能把生蚝里的脏东西带出来，再冲洗干净。",
+      {
+        "text": "飞水定型：水中放少许姜去腥，生蚝下锅到捞起千万不要超过20秒，捞出后立即浸冰水降温定型，否则生蚝一老再肥都浪费；最后抹干水分。",
+        "imageUrl": "images/recipe_224_step_2.png"
+      },
+      {
+        "text": "调味封汁：给生蚝淋一圈豉油、加砂糖拌匀，再放生粉封住肉汁，最后封一层油。",
+        "imageUrl": "images/recipe_224_step_3.png"
+      },
+      {
+        "text": "调芡汁：蚝油加少许水、少许生粉（生粉别放太多，否则生蚝会起胶），再放多一点胡椒粉调匀备用。",
+        "imageUrl": "images/recipe_224_step_4.png"
+      },
+      "爆香料头：热锅下油，把姜葱料头爆香后捞起，锅中留底油。",
+      {
+        "text": "煎生蚝：用底油下生蚝铺平，铺好后先别翻动，煎约一分半钟后再翻面，让生蚝吸收姜葱味并逼出豉油酱香与糖的焦香。",
+        "imageUrl": "images/recipe_224_step_6.png"
+      },
+      "烹酒锁香：趁锅气最香时淋入白酒，把酒香锁进生蚝里。",
+      "回锅收汁：放回爆香的料头，倒入调好的芡汁（不喜欢多汁就少倒一点），大火收汁。",
+      "出锅：下葱段、淋一点油，爆炒几下即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7589511610961986917"
   }
 ]
