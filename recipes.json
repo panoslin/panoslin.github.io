@@ -14659,5 +14659,82 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7617249935926443392"
+  },
+  {
+    "id": 179,
+    "title": "香烤三文鱼腩🐟",
+    "category": [
+      "海鲜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_179.png",
+    "description": "香烤三文鱼腩的详细制作方法",
+    "ingredients": [
+      {
+        "name": "三文鱼腩",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芦笋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬汁",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "将冷冻三文鱼腩解冻、清洗后擦干水分。",
+      "加入盐和黑胡椒，再放点生抽、一点蚝油和一点点糖，抓匀腌制约10分钟。",
+      {
+        "text": "烤盘垫上一层芦笋，撒上黑胡椒和盐，不用喷油。",
+        "imageUrl": "images/recipe_179_step_3.png"
+      },
+      {
+        "text": "将三文鱼腩鱼肉朝上放在芦笋上，180度烤8分钟。",
+        "imageUrl": "images/recipe_179_step_4.png"
+      },
+      {
+        "text": "翻面让鱼皮朝上，再烤8分钟至鱼皮酥脆。",
+        "imageUrl": "images/recipe_179_step_5.png"
+      },
+      "出炉后淋上一点柠檬汁即可享用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7616704026709339770"
   }
 ]
