@@ -20803,5 +20803,93 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7562200626130652468"
+  },
+  {
+    "id": 247,
+    "title": "姜酒糖炒芥兰🥬",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_247.png",
+    "description": "姜酒糖炒芥兰的详细制作方法",
+    "ingredients": [
+      {
+        "name": "芥兰",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "片糖碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "美极酱油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "芥兰买回后先改刀：切除多余的叶子（保留少许嫩叶）、切掉芥兰花、切去老的菜头，嫩脆部位保留，用长刀斜切成三段。",
+        "imageUrl": "images/recipe_247_step_1.png"
+      },
+      {
+        "text": "老姜是这道菜的灵魂：老姜加少许烧酒一起榨成姜汁（即姜汁酒），用以去芥兰的寒气。",
+        "imageUrl": "images/recipe_247_step_2.png"
+      },
+      {
+        "text": "芥兰飞水：锅中水烧开，下锅前放少许糖（去苦涩并让芥兰更脆甜），水沸后下芥兰焯约1分钟，捞出沥干。",
+        "imageUrl": "images/recipe_247_step_3.png"
+      },
+      {
+        "text": "爆香蒜姜：热锅下猪油，放入拍碎的蒜头和老姜，炒至金黄出香。",
+        "imageUrl": "images/recipe_247_step_4.png"
+      },
+      {
+        "text": "下芥兰翻炒调味：倒入飞水后的芥兰大火翻炒，加盐、片糖碎（黄糖，蔗香味足）和姜汁酒（米酒加姜汁）炒匀。",
+        "imageUrl": "images/recipe_247_step_5.png"
+      },
+      "起锅前淋入少许美极酱油提香，翻炒均匀即可起锅装盘。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7562012326291983654"
   }
 ]
