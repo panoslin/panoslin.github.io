@@ -21903,5 +21903,89 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7522713950300704040"
+  },
+  {
+    "id": 259,
+    "title": "空气炸锅干锅鸡翅虾🦐",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_259.png",
+    "description": "空气炸锅干锅鸡翅虾🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡翅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西兰花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "脆脆粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "烧烤干锅调料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "玉米、西兰花等时蔬铺入空气炸锅底部,鸡翅和虾摆放在上层",
+      {
+        "text": "均匀撒上脆脆粉,让鸡翅和食材表面裹匀",
+        "imageUrl": "images/recipe_259_step_2.png"
+      },
+      {
+        "text": "表面喷淋一层食用油,帮助炸制上色酥脆",
+        "imageUrl": "images/recipe_259_step_3.png"
+      },
+      {
+        "text": "高温空气炸制,中途翻面使受热均匀、焦香酥脆",
+        "imageUrl": "images/recipe_259_step_4.png"
+      },
+      {
+        "text": "炸好出锅装盘,撒上葱花和白芝麻即可",
+        "imageUrl": "images/recipe_259_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7528354968379051291"
   }
 ]
