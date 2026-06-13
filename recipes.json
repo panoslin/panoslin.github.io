@@ -12800,5 +12800,100 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7615104750401432741"
+  },
+  {
+    "id": 159,
+    "title": "泰式柠檬虾🍋",
+    "category": [
+      "海鲜",
+      "凉菜"
+    ],
+    "imageUrl": "images/recipe_159.png",
+    "description": "泰式柠檬虾🍋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "大虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒸鱼豉油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芥末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "大蒜、青椒、小米辣、香菜、葱花一起搅碎，关键是尽可能碎一点",
+        "imageUrl": "images/recipe_159_step_1.png"
+      },
+      {
+        "text": "大虾去头、去虾线，再开背，清洗干净",
+        "imageUrl": "images/recipe_159_step_2.png"
+      },
+      "处理好的虾放冰箱冷冻半小时后剥壳",
+      {
+        "text": "水开后大火下锅，水再次煮开即捞出，控干水分",
+        "imageUrl": "images/recipe_159_step_4.png"
+      },
+      {
+        "text": "先放虾，加入搅碎成渣的调料，再加蒸鱼豉油、白糖、蚝油、芥末",
+        "imageUrl": "images/recipe_159_step_5.png"
+      },
+      "再挤入柠檬汁，搅拌均匀即可，酸酸甜甜辣辣"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7624141474724121883"
   }
 ]
