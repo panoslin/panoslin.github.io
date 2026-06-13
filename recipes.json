@@ -20102,5 +20102,103 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7564719062569520430"
+  },
+  {
+    "id": 241,
+    "title": "紫苏鸡翅🌿",
+    "category": [
+      "家常菜",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_241.png",
+    "description": "紫苏鸡翅🌿的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡翅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "紫苏（叶与梗）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸡翅用淡盐水浸泡一会，去除冰箱异味，再挤去血水、沥干水分",
+      "紫苏的叶子和梗分开切，梗留作垫锅底用",
+      {
+        "text": "在鸡翅肉厚的一面各切两刀（花刀），方便腌制入味",
+        "imageUrl": "images/recipe_241_step_3.png"
+      },
+      {
+        "text": "鸡翅中加入姜片、生抽、盐、白糖、胡椒粉、淀粉抓匀，腌制约1小时",
+        "imageUrl": "images/recipe_241_step_4.png"
+      },
+      {
+        "text": "平底锅中大火，先煎没切花刀的那一面，煎至两面金黄后夹出备用",
+        "imageUrl": "images/recipe_241_step_5.png"
+      },
+      "另起一个砂锅，下姜、蒜、小洋葱爆香",
+      {
+        "text": "锅底垫上紫苏梗，放上煎好的鸡翅，再铺上紫苏叶",
+        "imageUrl": "images/recipe_241_step_7.png"
+      },
+      "盖上盖子，中火焗约3分钟",
+      "若家里有白酒，可沿锅边淋上一圈，焗出满屋紫苏香即可出锅"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7568760738425179432"
   }
 ]
