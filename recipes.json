@@ -19433,5 +19433,126 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7577348475197880945"
+  },
+  {
+    "id": 235,
+    "title": "徐州把子肉🍖",
+    "category": [
+      "猪肉",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_235.png",
+    "description": "徐州把子肉🍖的详细制作方法",
+    "ingredients": [
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "黄酒",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红曲米水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖色",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "高汤",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香料(香果、砂仁、肉蔻、栀子、香砂、山楂、毛桃、香茅草、干姜、白芷、草果、香菜籽、白蔻、良姜、桂皮、陈皮、甘草、小茴香、荜拔)",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "五花肉燎去表皮、刮净猪毛,再刷洗干净。",
+      {
+        "text": "冷水下锅,加葱姜、黄酒,焯水定型去腥。",
+        "imageUrl": "images/recipe_235_step_2.png"
+      },
+      {
+        "text": "捞出后分割成大块,每块约140-160克。",
+        "imageUrl": "images/recipe_235_step_3.png"
+      },
+      {
+        "text": "肉块下油锅过油,炸至表面金黄后捞出。",
+        "imageUrl": "images/recipe_235_step_4.png"
+      },
+      {
+        "text": "另起锅倒油,下葱姜炒香,加老抽、八角、香叶炒出香味;倒入高汤,再加黄酒、生抽、蚝油、盐、冰糖、红曲米水、糖色、鸡精、胡椒粉及香料包,煮成卤汤。",
+        "imageUrl": "images/recipe_235_step_5.png"
+      },
+      "将炸好的肉块铺入锅中,小火炖煮约40分钟。",
+      "关火后继续浸泡约1小时,使其充分入味后出锅。"
+    ],
+    "nutrition": {
+      "calories": 313.5,
+      "protein": 16.4,
+      "carbs": 47.5,
+      "fat": 0.5,
+      "salt": 44.69
+    },
+    "source": "https://www.douyin.com/video/7562097792807505162"
   }
 ]
