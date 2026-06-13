@@ -14339,5 +14339,85 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7616955538857720010"
+  },
+  {
+    "id": 176,
+    "title": "桂花椰子冰茶🍹",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_176.png",
+    "description": "桂花椰子冰茶🍹的详细制作方法",
+    "ingredients": [
+      {
+        "name": "甘草话梅",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "黄冰糖",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "新鲜柠檬",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "纯净水",
+        "quantity": 300,
+        "unit": "毫升"
+      },
+      {
+        "name": "桂花蜜酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "茉莉花茶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "椰子水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "先熬百搭话梅糖浆:甘草话梅100克、黄冰糖250克放入锅中,按比例加入300毫升纯净水。",
+        "imageUrl": "images/recipe_176_step_1.png"
+      },
+      {
+        "text": "全程小火慢熬10-15分钟,熬出话梅的咸香。",
+        "imageUrl": "images/recipe_176_step_2.png"
+      },
+      "熬好放凉后,挤入一颗新鲜柠檬汁,话梅糖浆就完成了。",
+      "取一个瓶子或杯子装满冰块(满冰是标配),加入适量桂花蜜酱。",
+      {
+        "text": "倒入两勺熬好的话梅糖浆。",
+        "imageUrl": "images/recipe_176_step_5.png"
+      },
+      "加入适量茉莉花茶。",
+      {
+        "text": "最后倒满椰子水,搅匀即可享用。",
+        "imageUrl": "images/recipe_176_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 1164.5,
+      "protein": 1.9,
+      "carbs": 301.3,
+      "fat": 0.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7616294898518085861"
   }
 ]
