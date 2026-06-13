@@ -21607,5 +21607,142 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7513869082433752331"
+  },
+  {
+    "id": 256,
+    "title": "印度咖喱牛肉🍛",
+    "category": [
+      "牛肉",
+      "西餐"
+    ],
+    "imageUrl": "images/recipe_256.png",
+    "description": "印度咖喱牛肉🍛的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肉",
+        "quantity": 2000,
+        "unit": "克"
+      },
+      {
+        "name": "玛莎拉粉（garam masala）",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "孜然粉",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "姜黄粉",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "香菜籽",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "原味酸奶",
+        "quantity": 300,
+        "unit": "毫升"
+      },
+      {
+        "name": "蒜泥",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "姜泥",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "草果粉",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "桂皮",
+        "quantity": 2,
+        "unit": "块"
+      },
+      {
+        "name": "香叶",
+        "quantity": 5,
+        "unit": "片"
+      },
+      {
+        "name": "多香果（Piment）",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西红柿罐头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "苹果泥（Apfelmus）",
+        "quantity": 1,
+        "unit": "罐"
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "绿辣椒/干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "牛肉切块，加入15g玛莎拉粉、15g孜然粉、15g姜黄粉、25g辣椒粉、25g盐、15g香菜籽、300ml原味酸奶、10g蒜泥、10g姜泥拌匀。酸奶要用原味（不能用干巴酸奶，否则香料拌不开），腌制约1小时。",
+        "imageUrl": "images/recipe_256_step_1.png"
+      },
+      "起锅炒洋葱（传统做法炒得越焦越香，但过头会发苦）；本次偷懒改用西红柿罐头代替，注意等量罐头会比鲜番茄略酸。",
+      "下入腌好的牛肉翻炒（肉量大可不强求炒散），加水；想让成品浓稠，水可以少放一些。",
+      {
+        "text": "加入第二遍香料：10g草果粉、2块桂皮、5片香叶、15g多香果（Piment）。多香果也可用2个丁香+5g豆蔻替换。",
+        "imageUrl": "images/recipe_256_step_4.png"
+      },
+      {
+        "text": "加入一罐苹果泥（Apfelmus），这是咖喱好吃的另一个秘诀。",
+        "imageUrl": "images/recipe_256_step_5.png"
+      },
+      "放入香菜与绿辣椒（或干辣椒），小火炖煮约1小时，以汤汁收浓为准即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 5213.4,
+      "protein": 528.7,
+      "carbs": 41.5,
+      "fat": 305.6,
+      "salt": 25.0
+    },
+    "source": "https://www.douyin.com/video/7527790488680074555"
   }
 ]
