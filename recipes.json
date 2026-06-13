@@ -9157,5 +9157,61 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7628224082979124136"
+  },
+  {
+    "id": 117,
+    "title": "莲子百合安神助眠饮 🌙",
+    "category": [
+      "饮品",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_117.png",
+    "description": "莲子百合安神助眠饮的详细制作方法",
+    "ingredients": [
+      {
+        "name": "莲子",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "百合",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "麦冬",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "桂圆",
+        "quantity": 6,
+        "unit": "克"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "将莲子、百合、麦冬、桂圆放入锅中，倒入清水。",
+      "先煮20分钟。",
+      "加入适量枸杞，再煮10分钟。",
+      "每天晚上睡前安排一杯。"
+    ],
+    "nutrition": {
+      "calories": 85.2,
+      "protein": 3.3,
+      "carbs": 17.0,
+      "fat": 0.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7619750497097093489"
   }
 ]
