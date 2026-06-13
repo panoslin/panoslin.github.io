@@ -20646,5 +20646,105 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7566211851042786569"
+  },
+  {
+    "id": 245,
+    "title": "广式猪肚鸡汤🍲",
+    "category": [
+      "粤菜",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_245.png",
+    "description": "广式猪肚鸡汤🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "猪肚",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老鸡",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪肘",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡脚",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "薏米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "腐竹",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "清洗猪肚：将猪肚翻面，加入生粉和盐反复搓揉揉匀，带走表面黏液，再用清水冲洗两三遍至干净，翻回剪掉多余油脂。",
+        "imageUrl": "images/recipe_245_step_1.png"
+      },
+      {
+        "text": "用火燎烧猪肘表面，烧掉残留的细毛（不是为了香，而是去毛更干净）。",
+        "imageUrl": "images/recipe_245_step_2.png"
+      },
+      {
+        "text": "鸡脚、老鸡、猪肚分别下沸水飞水，去除血水和杂质。",
+        "imageUrl": "images/recipe_245_step_3.png"
+      },
+      "另起一锅烧水，放入姜片、老鸡、鸡脚、猪肚、猪肘，再加入洗净的薏米和腐竹。",
+      {
+        "text": "盖上锅盖，先猛火后慢火，全程煲约一个半小时。",
+        "imageUrl": "images/recipe_245_step_5.png"
+      },
+      "煲约一个小时后开盖，此时汤色转白、猪肚明显收缩。",
+      {
+        "text": "还剩约半小时时，倒入白果和几粒胡椒，再煲半小时。",
+        "imageUrl": "images/recipe_245_step_7.png"
+      },
+      "最后加少许盐调味，即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7564981140105334067"
   }
 ]
