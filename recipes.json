@@ -12643,5 +12643,109 @@
       "salt": 0.44
     },
     "source": "https://www.douyin.com/video/7628427856955937774"
+  },
+  {
+    "id": 157,
+    "title": "锡纸花甲粉🦪",
+    "category": [
+      "海鲜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_157.png",
+    "description": "锡纸花甲粉🦪的详细制作方法",
+    "ingredients": [
+      {
+        "name": "花甲",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "龙口粉丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "金针菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾仁",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "孜然",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "烧烤料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜蓉酱",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "准备食材：花甲、龙口粉丝、金针菇、火腿肠、小米辣和虾仁，再备好烧烤料与蒜蓉酱（没有蒜蓉酱可用大蒜代替）。",
+      "取一个碗放入切碎的小米辣，倒入一点孜然和适量烧烤料。",
+      {
+        "text": "把食用油烧热，趁热浇在小米辣和孜然上，激发出香味。",
+        "imageUrl": "images/recipe_157_step_3.png"
+      },
+      {
+        "text": "加入两勺蒜蓉酱，再放入适量蚝油和两勺生抽，搅拌均匀，料汁就调好了。",
+        "imageUrl": "images/recipe_157_step_4.png"
+      },
+      "用锡纸折出一个碗。",
+      {
+        "text": "锡纸碗中依次放入金针菇（剪短一些）、粉丝、火腿肠、花甲和两个虾仁。",
+        "imageUrl": "images/recipe_157_step_6.png"
+      },
+      "把调好的料汁浇在配料上，再加一点清水。",
+      "放入烤箱（空气炸锅）180度烤15分钟即可。"
+    ],
+    "nutrition": {
+      "calories": 190.2,
+      "protein": 37.4,
+      "carbs": 6.5,
+      "fat": 1.6,
+      "salt": 0.29
+    },
+    "source": "https://www.douyin.com/video/7625573862235020010"
   }
 ]
