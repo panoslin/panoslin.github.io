@@ -18100,5 +18100,58 @@
       "salt": 3.0
     },
     "source": "https://www.douyin.com/video/7618894080555261604"
+  },
+  {
+    "id": 220,
+    "title": "羊肚菌酿虾滑🦐",
+    "category": [
+      "海鲜",
+      "蒸制"
+    ],
+    "imageUrl": "images/recipe_220.png",
+    "description": "羊肚菌酿虾滑🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "羊肚菌",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾滑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜蓉酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒸鱼豉油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "羊肚菌用温水泡开，泡软后挤干水分备用",
+      {
+        "text": "往泡发好的羊肚菌中挤入满满的虾滑",
+        "imageUrl": "images/recipe_220_step_2.png"
+      },
+      {
+        "text": "在虾滑中间铺上一层蒜蓉酱",
+        "imageUrl": "images/recipe_220_step_3.png"
+      },
+      "水开后上锅蒸八分钟",
+      "出锅后淋上一点蒸鱼豉油即可"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7627051791486534897"
   }
 ]
