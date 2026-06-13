@@ -15515,5 +15515,72 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7614829441718421755"
+  },
+  {
+    "id": 188,
+    "title": "紫薯粥🍠",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_188.png",
+    "description": "紫薯粥🍠的详细制作方法",
+    "ingredients": [
+      {
+        "name": "紫薯",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大米",
+        "quantity": 2,
+        "unit": "份"
+      },
+      {
+        "name": "糯米",
+        "quantity": 1,
+        "unit": "份"
+      },
+      {
+        "name": "燕麦",
+        "quantity": 1,
+        "unit": "份"
+      },
+      {
+        "name": "老冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "紫薯去掉表皮，切成小丁。",
+      "大米、糯米、燕麦按 2:1:1 的比例配好，提前泡水一个小时。",
+      {
+        "text": "锅中倒入热水，下入泡好的米煮粥（热水滚粥更容易爆花）；再次开锅前要把米充分搅动起来，让锅底形成一层薄薄的保护层，避免糊底。",
+        "imageUrl": "images/recipe_188_step_3.png"
+      },
+      {
+        "text": "开锅后把切好的紫薯丁倒入锅中，转小火煲煮约半小时，期间紫薯会随温度上升先变成土灰色。",
+        "imageUrl": "images/recipe_188_step_4.png"
+      },
+      "放入几粒老冰糖，喝起来会更加清甜。",
+      {
+        "text": "挤入柠檬汁，轻轻搅拌，粥水瞬间变得紫亮、细腻丝滑（柠檬的酸性可让紫薯花青素回色“美颜”）。",
+        "imageUrl": "images/recipe_188_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 14.3,
+      "protein": 0.4,
+      "carbs": 3.0,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7613957203086576931"
   }
 ]
