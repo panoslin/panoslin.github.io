@@ -19900,5 +19900,113 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7563548494700793097"
+  },
+  {
+    "id": 239,
+    "title": "家常煎焖罗非鱼🐟",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_239.png",
+    "description": "家常煎焖罗非鱼🐟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "罗非鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆豉酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "罗非鱼建议让摊主处理好，回家把腹内黑膜刷干净、去掉鱼鳍，两面打花刀方便入味",
+        "imageUrl": "images/recipe_239_step_1.png"
+      },
+      "用姜、葱、盐涂抹鱼身内外，使其均匀，略腌入味",
+      "姜、蒜、干辣椒切好，另切少许五花肉备用",
+      {
+        "text": "豆豉酱、蚝油、生抽、老抽加适量清水调成料汁",
+        "imageUrl": "images/recipe_239_step_4.png"
+      },
+      "热锅下五花肉煸出油，再下姜蒜干辣椒炸香，盛出料头备用",
+      {
+        "text": "罗非鱼下锅，中火煎至定型、焦黄后翻面，另一面同样煎至焦黄",
+        "imageUrl": "images/recipe_239_step_6.png"
+      },
+      "加入炒好的料头，淋入调好的料汁",
+      {
+        "text": "盖上锅盖焖3分钟",
+        "imageUrl": "images/recipe_239_step_8.png"
+      },
+      "够钟开盖，撒上胡椒粉、葱花，即可出锅"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7566949842392621450"
   }
 ]
