@@ -9387,5 +9387,114 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7613328273052863786"
+  },
+  {
+    "id": 121,
+    "title": "柠檬手撕鸡🍋",
+    "category": [
+      "凉菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_121.png",
+    "description": "柠檬手撕鸡🍋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香醋",
+        "quantity": 3,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸡腿冷水下锅，加姜片、葱、料酒，焯水煮约20分钟",
+      "捞出晾凉",
+      {
+        "text": "碗中放入葱花、蒜末、干辣椒面，浇上热油泼香",
+        "imageUrl": "images/recipe_121_step_3.png"
+      },
+      {
+        "text": "加入香醋3勺、生抽1勺、蚝油1勺、盐1小勺、白糖1小勺调成料汁",
+        "imageUrl": "images/recipe_121_step_4.png"
+      },
+      "挤入1个柠檬的汁",
+      {
+        "text": "将放凉的鸡腿撕碎",
+        "imageUrl": "images/recipe_121_step_6.png"
+      },
+      "倒入调好的料汁，加入香菜、柠檬片",
+      "搅拌均匀即可"
+    ],
+    "nutrition": {
+      "calories": 34.8,
+      "protein": 1.2,
+      "carbs": 10.7,
+      "fat": 0.3,
+      "salt": 1.25
+    },
+    "source": "https://www.douyin.com/video/7637083347478491391"
   }
 ]
