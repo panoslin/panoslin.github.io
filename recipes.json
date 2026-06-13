@@ -10730,5 +10730,101 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7638616068278349190"
+  },
+  {
+    "id": 138,
+    "title": "酸菜炒饭🍚",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_138.png",
+    "description": "酸菜炒饭🍚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "酸菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米饭",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菜籽油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "酸菜切粒，把多余的水分拧干备用",
+        "imageUrl": "images/recipe_138_step_1.png"
+      },
+      "热锅倒入菜籽油和猪油烧热",
+      "放入切好的肉末炒散，炒好后捞出备用",
+      "锅中放入辣椒段、姜、蒜爆香",
+      "倒入酸菜翻炒出香味",
+      {
+        "text": "放入炒好的肉末和米饭，翻炒均匀打散",
+        "imageUrl": "images/recipe_138_step_6.png"
+      },
+      "加入盐、味精、酱油调味，翻炒均匀",
+      "撒上小葱即可出锅，一道酸菜炒饭就完成了"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7619242830042029422"
   }
 ]
