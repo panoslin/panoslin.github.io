@@ -20891,5 +20891,82 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7562012326291983654"
+  },
+  {
+    "id": 248,
+    "title": "空气炸锅酥脆花生米🥜",
+    "category": [
+      "快手菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_248.png",
+    "description": "空气炸锅酥脆花生米🥜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "花生",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蛋黄",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "取一把花生（带红衣）放入容器中。",
+      {
+        "text": "加一勺盐、一勺食用油，抓匀，让每颗花生均匀裹上油盐。",
+        "imageUrl": "images/recipe_248_step_2.png"
+      },
+      "倒入空气炸锅，180度烤12分钟，即成咸香酥脆的原味花生米。",
+      {
+        "text": "想换口味：加一勺白糖、一把白芝麻，再打入两个蛋黄搅匀，按上法烤制，成品老人小孩都抢着吃。",
+        "imageUrl": "images/recipe_248_step_4.png"
+      },
+      {
+        "text": "酒鬼花生做法：先把花生用开水泡15分钟后去皮。",
+        "imageUrl": "images/recipe_248_step_5.png"
+      },
+      "去皮的花生加盐、花椒、干辣椒和少许食用油拌匀，再烤制，即成又香又脆的酒鬼花生。"
+    ],
+    "nutrition": {
+      "calories": 156.7,
+      "protein": 13.0,
+      "carbs": 2.0,
+      "fat": 9.8,
+      "salt": 1.0
+    },
+    "source": "https://www.douyin.com/video/7561452748575640890"
   }
 ]
