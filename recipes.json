@@ -22503,5 +22503,143 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7512000650152332554"
+  },
+  {
+    "id": 267,
+    "title": "葱油手撕鸡🐔",
+    "category": [
+      "凉菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_267.png",
+    "description": "葱油手撕鸡🐔的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花雕酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "凉白开",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "松茸调味料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生豆",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "水锅充分沸腾后,将鸡腿下锅快速汆烫约10秒立刻捞入冷水(过冷河);如此快速汆烫、过冷河重复三次,最后一次约8秒,使鸡皮紧致弹嫩。",
+        "imageUrl": "images/recipe_267_step_1.png"
+      },
+      "鸡腿再次入锅,加入小葱、姜片、花雕酒和一丢丢盐,用极小的火焖煮25分钟,关火后浸泡至凉。",
+      {
+        "text": "另起锅下油,先放小葱煎至微微发黄,再加入洋葱、香菜根、拍碎的大蒜和大葱,中火慢慢煎熬至大葱呈金黄色。",
+        "imageUrl": "images/recipe_267_step_3.png"
+      },
+      "倒入适量凉白开继续熬,让葱油更持续地释放香味;待锅中水声消散殆尽时,捞出葱渣,得到葱油。",
+      {
+        "text": "调酱汁:取酱油、蚝油、白糖、香油、米醋、松茸调味料调匀。",
+        "imageUrl": "images/recipe_267_step_5.png"
+      },
+      "葱油要在调好酱汁之后,趁热淋浇到酱汁里拌匀。",
+      "将焖好的鸡腿手撕成块装盘,撒上洋葱丝、香菜段、小葱段、小米辣、柠檬片、蒜蓉、花生豆,淋上调好的葱油酱汁和小红油即可,边撕边吃。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7340529345624050982"
   }
 ]
