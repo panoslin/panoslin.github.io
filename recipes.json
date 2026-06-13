@@ -16882,5 +16882,92 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7604797315102166308"
+  },
+  {
+    "id": 205,
+    "title": "低卡柠檬干煎鸡🍋",
+    "category": [
+      "减肥",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_205.png",
+    "description": "低卡柠檬干煎鸡的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "零卡糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "柠檬",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡腿肉提前用腌料腌制：生抽2勺、老抽半勺、蚝油1勺、料酒1勺、淀粉1勺（万能腌料公式）。",
+        "imageUrl": "images/recipe_205_step_1.png"
+      },
+      "锅中喷一点油，锅热后放入腌好的鸡肉，全程开小火慢慢煎。",
+      {
+        "text": "底部煎到焦褐色后翻面，煎到两面都焦黄。",
+        "imageUrl": "images/recipe_205_step_3.png"
+      },
+      "下入洋葱，全程中火炒出香味即可，不需要炒太软。",
+      "加入一勺零卡糖翻炒，中和一下咸味（不喜欢吃甜可以不加），翻炒五六下。",
+      {
+        "text": "下入柠檬（一定要去籽，否则会发苦），可稍微戳一下让酸味释出，随意翻炒几下即可出锅。",
+        "imageUrl": "images/recipe_205_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 10.9,
+      "protein": 0.2,
+      "carbs": 2.4,
+      "fat": 0.0,
+      "salt": 0.46
+    },
+    "source": "https://www.douyin.com/video/7603563712168202210"
   }
 ]
