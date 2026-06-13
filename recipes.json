@@ -12895,5 +12895,130 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7624141474724121883"
+  },
+  {
+    "id": 160,
+    "title": "卤肉饭🍚",
+    "category": [
+      "主食",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_160.png",
+    "description": "卤肉饭🍚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "桂皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱白",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花雕酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄冰糖",
+        "quantity": 2,
+        "unit": "颗"
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米饭",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "五花肉猪皮先用刀刮净，切成拇指厚薄的方块；瘦肉也切成同样大小的块。",
+      "洋葱选肉厚的切成小颗粒；备好干辣椒、桂皮、八角、姜、蒜、葱白等香料。",
+      "鸡蛋冷水下锅煮8分钟，捞出泡冷水后敲碎剥壳备用。",
+      {
+        "text": "锅烧热润锅，下肥肉用中火慢慢把油脂煸出来，煸至上色；油脂过多时滤出一部分。",
+        "imageUrl": "images/recipe_160_step_4.png"
+      },
+      "下瘦肉炒至变色，淋一圈花雕酒去腥挥发，放入备好的香料炒香。",
+      {
+        "text": "下洋葱炒至五分熟，加入两颗黄冰糖和盐，再加生抽、老抽（多一点）炒出酱香味。",
+        "imageUrl": "images/recipe_160_step_6.png"
+      },
+      "加开水没过食材，连同鸡蛋一起转入高压锅，上汽后压7分钟（没有高压锅则放锅里炖煮1小时以上）。",
+      {
+        "text": "卤好的肉回锅，挑出香料，开大火把汤汁收至浓稠。",
+        "imageUrl": "images/recipe_160_step_8.png"
+      },
+      "米饭装入碗中，浇上卤肉和浓稠汤汁，搭配青菜即可享用。"
+    ],
+    "nutrition": {
+      "calories": 7.7,
+      "protein": 0.0,
+      "carbs": 2.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7622639448177514106"
   }
 ]
