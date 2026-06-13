@@ -21146,5 +21146,140 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7549376962176306489"
+  },
+  {
+    "id": 251,
+    "title": "支竹焖鱼头🐟",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_251.png",
+    "description": "支竹焖鱼头🐟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鱼头(大头鱼/草鱼头)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "支竹(腐竹)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蛋黄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉(或薯粉)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蘑菇精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "煲仔酱或海鲜酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鱼头清洗干净，砍成小块更易煎透；用盐反复搓洗去除黏液和血污，再冲洗干净并吸干水分。",
+      {
+        "text": "鱼块加盐、糖、蘑菇精、胡椒粉抓匀，再加入蛋黄和生粉(或薯粉)拌匀上浆。",
+        "imageUrl": "images/recipe_251_step_2.png"
+      },
+      "姜、蒜、香菇、五花肉粒、辣椒、葱段切好备用；支竹(腐竹)用热水浸泡约15分钟泡软(炸一下更香)。",
+      {
+        "text": "起油烧热锅，下鱼头煎至两面焦黄，盛出备用。",
+        "imageUrl": "images/recipe_251_step_4.png"
+      },
+      "锅留少许油，下姜蒜、香菇、五花肉粒、辣椒爆香料头。",
+      {
+        "text": "加入煲仔酱或海鲜酱，翻炒出酱香。",
+        "imageUrl": "images/recipe_251_step_6.png"
+      },
+      "加入泡好的支竹翻炒，淋入生抽。",
+      "放回鱼头，加少许料酒增香去腥，再加入清水没过食材，调味。",
+      "盖上锅盖焖约5分钟，至味道完全融合即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7550584620698864905"
   }
 ]
