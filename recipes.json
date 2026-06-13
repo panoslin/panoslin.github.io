@@ -9712,5 +9712,92 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7625620318317940334"
+  },
+  {
+    "id": 124,
+    "title": "广式酱油鸡🍗",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_124.png",
+    "description": "广式酱油鸡🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡",
+        "quantity": 0.5,
+        "unit": "只"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红葱头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米酒",
+        "quantity": 0.5,
+        "unit": "杯"
+      },
+      {
+        "name": "酱油",
+        "quantity": 0.5,
+        "unit": "杯"
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": 2,
+        "unit": "杯"
+      },
+      {
+        "name": "黄冰糖",
+        "quantity": 1,
+        "unit": "片"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "热锅下油，油热后放入半边鸡，把表皮煎至金黄酥脆。",
+        "imageUrl": "images/recipe_124_step_1.png"
+      },
+      "放入红葱头、姜蒜粒，煸炒出香味。",
+      {
+        "text": "加入半杯米酒、半杯酱油、少许老抽上色。",
+        "imageUrl": "images/recipe_124_step_3.png"
+      },
+      "加入两杯清水、一小片黄冰糖。",
+      {
+        "text": "盖盖中小火焖煮30分钟，中途翻面3次，边煮边浇汤汁。",
+        "imageUrl": "images/recipe_124_step_5.png"
+      },
+      "焖煮收汁后即可装盘，一道广东名菜酱油鸡就做好了。"
+    ],
+    "nutrition": {
+      "calories": 514.0,
+      "protein": 22.6,
+      "carbs": 110.1,
+      "fat": 0.7,
+      "salt": 5.8
+    },
+    "source": "https://www.douyin.com/video/7635885868210108297"
   }
 ]
