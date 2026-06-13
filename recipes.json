@@ -18980,5 +18980,61 @@
       "salt": 3.0
     },
     "source": "https://www.douyin.com/video/7580203304983383759"
+  },
+  {
+    "id": 230,
+    "title": "柠檬干煎鸡翅 🍋",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_230.png",
+    "description": "柠檬干煎鸡翅的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡翅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸡翅洗净沥干，两面划口便于入味。",
+      "平底锅少油，下鸡翅中小火干煎至两面金黄。",
+      "加入洋葱、青红椒同煎出香。",
+      "挤入柠檬汁、放柠檬片调味，撒葱花出锅装盘。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7583598555365985576"
   }
 ]
