@@ -17872,5 +17872,104 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7596532041613659402"
+  },
+  {
+    "id": 218,
+    "title": "正确清洗生肉海鲜的5个方法🥩",
+    "category": [
+      "家常菜",
+      "海鲜"
+    ],
+    "imageUrl": "images/recipe_218.png",
+    "description": "正确清洗生肉海鲜的5个方法🥩的详细制作方法",
+    "ingredients": [
+      {
+        "name": "猪肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "排骨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花甲",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淘米水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "面粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "温水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "处理生肉前先准备一个盆，不要在水龙头下直接冲洗生肉，以免溅水交叉污染。",
+      "洗猪肉：将猪肉放入盆中，倒入淘米水和盐，浸泡5分钟，再揉搓几下，洗出来干净又不柴。",
+      "洗鱼：把处理好的鱼放入盆中，加水没过，放入胡椒、白醋和几片生姜，浸泡5分钟，去掉土腥味。",
+      {
+        "text": "洗虾：先用淡盐水浸泡10分钟，然后一手捏虾头、一手握虾身，轻轻掰出缝隙，再一挤、捏住虾脑一拉，整根虾线就能拉出来。",
+        "imageUrl": "images/recipe_218_step_4.png"
+      },
+      "洗排骨：加入面粉、白醋和盐抓匀按摩，再加水浸泡6分钟去腥，洗出来不腥不柴。",
+      {
+        "text": "洗花甲：先用淡盐水浸泡半小时、淘洗2次，再换温水加食用油、放一把铁勺浸泡30分钟，泥沙就能吐干净。",
+        "imageUrl": "images/recipe_218_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7592593504954584374"
   }
 ]
