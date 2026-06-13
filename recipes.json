@@ -19117,5 +19117,116 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7582794927285849385"
+  },
+  {
+    "id": 232,
+    "title": "砂锅焖红烧肉🍖",
+    "category": [
+      "家常菜",
+      "猪肉"
+    ],
+    "imageUrl": "images/recipe_232.png",
+    "description": "砂锅焖红烧肉🍖的详细制作方法",
+    "ingredients": [
+      {
+        "name": "带皮五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜（本地黄姜）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "米酒",
+        "quantity": 2.5,
+        "unit": "两"
+      },
+      {
+        "name": "连衣蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "片糖",
+        "quantity": 2,
+        "unit": "块"
+      },
+      {
+        "name": "生抽",
+        "quantity": 0.5,
+        "unit": "碗"
+      },
+      {
+        "name": "老抽",
+        "quantity": 5,
+        "unit": "钱"
+      },
+      {
+        "name": "八角",
+        "quantity": 2,
+        "unit": "颗"
+      },
+      {
+        "name": "当归",
+        "quantity": 2,
+        "unit": "块"
+      },
+      {
+        "name": "辣椒干",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": 1.2,
+        "unit": "斤"
+      }
+    ],
+    "instructions": [
+      "烧一锅开水，放入姜片（本地黄姜）、胡椒，再倒些许米酒、加一勺盐，下五花肉焯水去骚味。",
+      "水滚后盖盖，慢火煮约20分钟，去骚味、定型并逼出部分油脂，煮到闻着是猪肉香、没有骚味即可捞出。",
+      {
+        "text": "把焯好的五花肉修型，切成约3公分、两指宽的方块，红烧肉要刀工整齐。",
+        "imageUrl": "images/recipe_232_step_3.png"
+      },
+      {
+        "text": "砂锅下油烧热，放连衣蒜爆香，加几粒洗净的虾米，再放两块片糖炒出蔗香。",
+        "imageUrl": "images/recipe_232_step_4.png"
+      },
+      {
+        "text": "倒入五花肉翻炒上色，加二两半米酒、半碗生抽、五钱老抽，再放八角两颗、当归两块、少量辣椒干和胡椒。",
+        "imageUrl": "images/recipe_232_step_5.png"
+      },
+      "加一斤二两水，水量刚好浸过肉面，盖盖用猛火焖约20分钟（砂锅焖不能用小火）。",
+      {
+        "text": "开盖，焖到肉色透明、肥肉化口、瘦肉松软即成，配上一碗米饭趁热享用。",
+        "imageUrl": "images/recipe_232_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 23.2,
+      "protein": 0.7,
+      "carbs": 5.9,
+      "fat": 0.2,
+      "salt": 1.8
+    },
+    "source": "https://www.douyin.com/video/7581680162215873833"
   }
 ]
