@@ -10826,5 +10826,99 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7619242830042029422"
+  },
+  {
+    "id": 139,
+    "title": "潮汕牛肉粥🥩",
+    "category": [
+      "粤菜",
+      "牛肉"
+    ],
+    "imageUrl": "images/recipe_139.png",
+    "description": "潮汕牛肉粥🥩的详细制作方法",
+    "ingredients": [
+      {
+        "name": "白粥",
+        "quantity": 1,
+        "unit": "锅"
+      },
+      {
+        "name": "咸蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "皮蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "姜丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛肉(吊龙部位)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芹菜粒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "白粥中加入1个咸蛋、1个皮蛋和几根姜丝，一起煮5分钟。",
+      {
+        "text": "牛肉选用吊龙部位，加入盐、淀粉、花生油，抓匀腌制5分钟。",
+        "imageUrl": "images/recipe_139_step_2.png"
+      },
+      {
+        "text": "下入腌好的牛肉，煮约10秒钟。",
+        "imageUrl": "images/recipe_139_step_3.png"
+      },
+      "下入生菜和芹菜粒。",
+      "加入食盐和胡椒粉调味。",
+      "淋入芝麻油即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 72.0,
+      "protein": 6.5,
+      "carbs": 0.5,
+      "fat": 4.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7635945678309855333"
   }
 ]
