@@ -8479,5 +8479,95 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7617027486330184059"
+  },
+  {
+    "id": 111,
+    "title": "酸甜小鲫鱼罐头🐟",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_111.png",
+    "description": "酸甜小鲫鱼罐头🐟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "小鲫鱼",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "小鲫鱼去内脏、刮洗干净。",
+      "把鱼放盐腌制一会儿，让鱼入味。",
+      "腌好后用清水投洗一遍，抖掉表面成堆的盐，使咸淡适中。",
+      {
+        "text": "把鱼放到阳光下晾晒，晒到表皮微微绷皮即可、不用太干，这样下锅炸时不崩油。",
+        "imageUrl": "images/recipe_111_step_4.png"
+      },
+      {
+        "text": "锅里烧油，鱼下锅小火慢炸；锅小鱼多就分几锅，反复炸至酥脆后捞出备用。",
+        "imageUrl": "images/recipe_111_step_5.png"
+      },
+      {
+        "text": "锅里留底油，添适量水，依次加姜、红辣椒段、白糖、醋、白酒、酱油（上色）、盐，调成酸甜咸辣口的料汁。",
+        "imageUrl": "images/recipe_111_step_6.png"
+      },
+      "放入炸好的鱼，盖上盖焖约半个小时，注意留一点汤汁。",
+      "准备干净玻璃瓶，新瓶子也要用热水烫一下。",
+      "把焖好的鱼装入瓶中，再倒入适量汤汁。",
+      "装好瓶摆在屉上，上锅蒸约半个小时。",
+      {
+        "text": "蒸好后趁热拧紧瓶盖，再把瓶子倒扣过来，利用真空作用密封保存。",
+        "imageUrl": "images/recipe_111_step_11.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7414070874543803675"
   }
 ]
