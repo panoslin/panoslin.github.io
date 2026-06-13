@@ -16618,5 +16618,73 @@
       "salt": 0.76
     },
     "source": "https://www.douyin.com/video/7599639786194810980"
+  },
+  {
+    "id": 201,
+    "title": "南瓜炖银耳🎃",
+    "category": [
+      "甜品",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_201.png",
+    "description": "南瓜炖银耳🎃的详细制作方法",
+    "ingredients": [
+      {
+        "name": "南瓜",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "银耳",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "红枣（去核）",
+        "quantity": 3,
+        "unit": "颗"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "纯牛奶",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "热水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将南瓜、银耳、去核红枣、枸杞、冰糖依次放入炖盅中。",
+        "imageUrl": "images/recipe_201_step_1.png"
+      },
+      "倒入刚烧开的热水，八分满即可。",
+      "盖上盖子，避免营养流失。",
+      "水开上汽后蒸40分钟。",
+      {
+        "text": "蒸好后加入30毫升纯牛奶，搅匀即可享用，香甜润滑。",
+        "imageUrl": "images/recipe_201_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 24.1,
+      "protein": 1.0,
+      "carbs": 3.1,
+      "fat": 1.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7583874951963807010"
   }
 ]
