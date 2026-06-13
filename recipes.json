@@ -16043,5 +16043,66 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7609999063371408576"
+  },
+  {
+    "id": 194,
+    "title": "🧊 冷冻水果当冰块",
+    "category": [
+      "饮品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_194.png",
+    "description": "🧊 冷冻水果当冰块的详细制作方法",
+    "ingredients": [
+      {
+        "name": "葡萄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "草莓",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菠萝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "荔枝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "杨梅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "饮料/雪碧/酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "挑选自带果皮、不易出水的水果，如葡萄、小番茄、草莓、菠萝、荔枝、杨梅，洗净后沥干水分。",
+      "将水果平铺放入冰箱冷冻室，冻至完全硬实。",
+      "用冻好的水果代替传统冰块，放入饮料、雪碧或酒中，既能冰镇又不会因化冻而稀释风味。",
+      "饮料喝完后，冻草莓会化成绵密冰沙可直接食用；用酒浸泡的小番茄则顺便变成一份酒渍小番茄。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7611787730317511946"
   }
 ]
