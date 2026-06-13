@@ -17400,5 +17400,61 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7575513565088815027"
+  },
+  {
+    "id": 211,
+    "title": "丸子云吞煮泡面🍜",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_211.png",
+    "description": "丸子云吞煮泡面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "方便面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "云吞",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉丸",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鱼丸",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "油豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "方便面调料包",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "锅中加水烧开，放入云吞、肉丸、鱼丸、油豆腐一起煮熟。",
+      "方便面放入碗中，加入随附的酱料包与粉包。",
+      "将煮好的丸子、云吞、油豆腐连同汤汁一起倒入泡面碗中。",
+      "搅拌均匀，浸泡至面条变软即可食用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7602964645633366656"
   }
 ]
