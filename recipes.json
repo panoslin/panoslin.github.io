@@ -7778,5 +7778,70 @@
       "salt": 0.29
     },
     "source": "https://www.douyin.com/video/7648114736499969097"
+  },
+  {
+    "id": 103,
+    "title": "古早味台式冬瓜茶🧋",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_103.png",
+    "description": "古早味台式冬瓜茶🧋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "冬瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬",
+        "quantity": 0.5,
+        "unit": "颗"
+      },
+      {
+        "name": "热水",
+        "quantity": 6,
+        "unit": "份"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "冬瓜削去翠绿外皮，刮净瓜瓤，再切成大小均匀的小块。",
+        "imageUrl": "images/recipe_103_step_1.png"
+      },
+      "大锅烧热，将冬瓜与白糖、黑糖一同下锅。",
+      "开大火，无需搅动，让糖慢慢融化，冬瓜自然渗出清甜的汁水。",
+      {
+        "text": "炖煮约一小时，瓜肉逐渐变得柔软透明；随水分不断蒸发，糖浆变得浓稠，翻滚的气泡由大变小、颜色愈发深沉。",
+        "imageUrl": "images/recipe_103_step_4.png"
+      },
+      {
+        "text": "取一筷尖蘸糖浆刺入冷水，能瞬间凝固即是熬好的信号。",
+        "imageUrl": "images/recipe_103_step_5.png"
+      },
+      "趁热将糖浆倒入油纸上，摊开等待冷却。",
+      "放凉后的冬瓜糖砖切成整齐小块，密封储存在冰箱里。",
+      "饮用时取一块糖砖、加六份热水冲开，即成一杯冬瓜茶。",
+      "可再添上半颗柠檬，酸甜交织，冰镇后更能消暑解燥。"
+    ],
+    "nutrition": {
+      "calories": 0.1,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7645254594385937402"
   }
 ]
