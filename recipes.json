@@ -17083,5 +17083,99 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7603363531764895016"
+  },
+  {
+    "id": 207,
+    "title": "贵阳辣子鸡🌶️",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_207.png",
+    "description": "贵阳辣子鸡🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "公鸡肉（最好用土鸡）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糍粑辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "啤酒",
+        "quantity": 0.5,
+        "unit": "瓶"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青蒜苗",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "起锅烧油，烧至八成油温。",
+      {
+        "text": "下入洗净的公鸡肉（最好用土鸡），中途加少许生姜一起炸，一直炸到油变清即可捞出。",
+        "imageUrl": "images/recipe_207_step_2.png"
+      },
+      {
+        "text": "锅中留底油，下入大蒜、干花椒、糍粑辣椒，快速翻炒出香味，炒至糍粑辣椒微微发干（买不到糍粑辣椒也可自制）。",
+        "imageUrl": "images/recipe_207_step_3.png"
+      },
+      "下入炸过的鸡肉翻炒入味。",
+      "倒入半瓶啤酒（别倒太多，否则会发苦），再加水没过鸡肉。",
+      "加入鸡精、盐、胡椒粉和喜欢吃的配菜。",
+      "盖上盖子中小火焖，焖制时长视鸡肉老嫩而定。",
+      {
+        "text": "下入青蒜苗，大火收浓汤汁，炒出香味即可出锅。",
+        "imageUrl": "images/recipe_207_step_8.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7575578074943655206"
   }
 ]
