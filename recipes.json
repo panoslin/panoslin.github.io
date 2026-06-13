@@ -16331,5 +16331,139 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7605023296816504827"
+  },
+  {
+    "id": 198,
+    "title": "红酒炖牛肉🍷",
+    "category": [
+      "西餐",
+      "牛肉"
+    ],
+    "imageUrl": "images/recipe_198.png",
+    "description": "红酒炖牛肉的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肋条",
+        "quantity": 1000,
+        "unit": "克"
+      },
+      {
+        "name": "培根",
+        "quantity": 3,
+        "unit": "片"
+      },
+      {
+        "name": "红酒",
+        "quantity": 450,
+        "unit": "毫升"
+      },
+      {
+        "name": "白洋葱",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "红葱头",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": 2,
+        "unit": "根"
+      },
+      {
+        "name": "口蘑",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 5,
+        "unit": "瓣"
+      },
+      {
+        "name": "番茄膏",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "面粉",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "牛肉高汤",
+        "quantity": 350,
+        "unit": "毫升"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": 50,
+        "unit": "毫升"
+      },
+      {
+        "name": "黄油",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "香叶",
+        "quantity": 3,
+        "unit": "片"
+      },
+      {
+        "name": "百里香",
+        "quantity": 2,
+        "unit": "根"
+      },
+      {
+        "name": "干欧芹碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "新鲜欧芹碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "牛肋条切大块洗净，培根切小块；锅中放橄榄油把培根煎至微微焦香盛出放入炖锅，再用炒出的培根油分两批把牛肋条煎至表面焦色（一次别太拥挤，煎出漂亮的美拉德反应），全部转移到炖锅。",
+        "imageUrl": "images/recipe_198_step_1.png"
+      },
+      {
+        "text": "煎锅先别洗，倒入约2/3瓶红酒（约450毫升），开火煮沸2-3分钟，让红酒吸收锅底肉香、并挥发掉大部分酒精（注意锅内可能起火），整锅倒入炖锅小火慢炖。",
+        "imageUrl": "images/recipe_198_step_2.png"
+      },
+      {
+        "text": "胡萝卜切滚刀块、白洋葱切丁、口蘑一切四瓣；另起油锅用橄榄油依次炒香洋葱丁、蒜末、胡萝卜、番茄膏，再加面粉炒到看不见白色干粉（相当于西餐勾芡）。",
+        "imageUrl": "images/recipe_198_step_3.png"
+      },
+      "倒入一碗牛肉高汤（约350毫升，没有就用清水），放入香叶、百里香、干欧芹碎、盐、黑胡椒煮开，整锅倒入炖锅与牛肉同炖1个半小时左右至牛肉软烂。",
+      {
+        "text": "红葱头加水煮约8分钟后去皮、从中间一切二；干净锅里放一块黄油，把口蘑和红葱头炒出甜甜的焦香味，整个倒入炖锅再煮3~5分钟，最后撒上新鲜欧芹碎即可。",
+        "imageUrl": "images/recipe_198_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 1664.3,
+      "protein": 97.7,
+      "carbs": 29.7,
+      "fat": 127.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7579897146938379566"
   }
 ]
