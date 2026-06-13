@@ -22756,5 +22756,124 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7509004209640049983"
+  },
+  {
+    "id": 269,
+    "title": "凉拌海带丝🥗",
+    "category": [
+      "凉菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_269.png",
+    "description": "凉拌海带丝的详细制作方法",
+    "ingredients": [
+      {
+        "name": "干海带",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淘米水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "植物油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "香醋",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 6,
+        "unit": "克"
+      },
+      {
+        "name": "糖",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "辣椒油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "熟白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "挑选优质干海带：叶片完整无碎片、无虫眼霉变、颜色正常无异味、表面白霜（甘露醇）较多。",
+      "将干海带剪成小段，长度根据蒸锅大小决定。",
+      {
+        "text": "干蒸海带：锅中加清水煮沸后转最小火，倒入海带均匀铺开，盖盖大火足气蒸10分钟。全程绝对不能用水洗，否则海带表面会形成胶体保护膜很难蒸透。",
+        "imageUrl": "images/recipe_269_step_3.png"
+      },
+      {
+        "text": "将蒸好的海带放入大盆，倒入淘米水没过海带，浸泡5分钟（淘米水呈弱碱性可加速软化并吸附脏物）；没有淘米水可用两勺面粉加一点小苏打代替，同样泡5分钟。",
+        "imageUrl": "images/recipe_269_step_4.png"
+      },
+      "换一盆清水将海带清洗干净，沥干水分。",
+      {
+        "text": "将海带平铺案板上卷起，用刀切成细丝，略细一点更入味。",
+        "imageUrl": "images/recipe_269_step_6.png"
+      },
+      "锅中加清水烧开，倒入海带丝，加一点盐和料酒去腥，水开后再煮2分钟，捞出过凉白开，沥水备用。",
+      {
+        "text": "调料汁：大碗中放入蒜末、干辣椒、小米辣（不吃辣可换红甜椒），植物油烧至微微冒烟后泼入激发香味；再加生抽50克、香醋25克、盐6克、糖10克，可按口味加辣椒油，最后淋入芝麻油。",
+        "imageUrl": "images/recipe_269_step_8.png"
+      },
+      "将沥干的海带丝倒入料汁中，用夹子拌匀即可。",
+      "上桌前撒上熟的白芝麻、放一点香菜点缀即可。"
+    ],
+    "nutrition": {
+      "calories": 71.7,
+      "protein": 2.8,
+      "carbs": 15.3,
+      "fat": 0.1,
+      "salt": 13.31
+    },
+    "source": "https://www.douyin.com/video/7074553457339845901"
   }
 ]
