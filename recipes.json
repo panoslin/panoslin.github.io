@@ -23402,5 +23402,86 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7597375947070852386"
+  },
+  {
+    "id": 273,
+    "title": "贵州土豆丝饼🥔",
+    "category": [
+      "家常菜",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_273.png",
+    "description": "贵州土豆丝饼🥔的详细制作方法",
+    "ingredients": [
+      {
+        "name": "土豆",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "鸡粉",
+        "quantity": 4,
+        "unit": "克"
+      },
+      {
+        "name": "十三香",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "辣椒面",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "土豆去皮，先切薄片再切成细丝，粗细跟牙签差不多，不要太粗也不要太细，越细越容易煎得酥脆入味。",
+        "imageUrl": "images/recipe_273_step_1.png"
+      },
+      "切好的土豆丝不要清洗，保留表面天然的土豆淀粉，原汁原味煎出来更香。",
+      {
+        "text": "土豆丝中加入盐2克、鸡粉4克、十三香1克、辣椒面10克和适量葱花，抓匀至出粉（可按个人口味调整）。",
+        "imageUrl": "images/recipe_273_step_3.png"
+      },
+      {
+        "text": "锅中倒入薄薄一层油（铺满锅底即可），烧至三成油温，转小火。",
+        "imageUrl": "images/recipe_273_step_4.png"
+      },
+      "放入土豆丝铺平整，不要翻动下面，把边收好，中火一面煎约3分钟。",
+      {
+        "text": "煎至底面金黄后翻面，再淋一点油定型，煎至两面金黄（厚的多煎一会，薄的约2分钟）。",
+        "imageUrl": "images/recipe_273_step_6.png"
+      },
+      "出锅前撒入辣椒面，再撒上一点芝麻，起锅装盘，外酥里嫩即可享用。"
+    ],
+    "nutrition": {
+      "calories": 395.8,
+      "protein": 10.5,
+      "carbs": 91.4,
+      "fat": 0.6,
+      "salt": 4.03
+    },
+    "source": "https://www.douyin.com/video/7497181840025865481"
   }
 ]
