@@ -39137,5 +39137,86 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/103896884/"
+  },
+  {
+    "id": 445,
+    "title": "无油无水老式鸡蛋糕",
+    "category": [
+      "蛋糕"
+    ],
+    "imageUrl": "https://i2.chuimg.com/97bab9f6f99f430f9ff8ea2404a25696_900w_579h.jpg?imageView2/1/w/800",
+    "description": "1.烤盘做防粘处理：在马芬烤盘上均匀地刷一层薄薄的黄油；2.再筛一层薄薄的面粉；3.准备好制作面糊的材料；4.制作面糊:常温鸡蛋中加细砂糖，隔55°左右温水打发至浓稠状态，纹路不会轻易消失；5.提前打开烤箱预热180℃。低筋面粉过筛分两次加入，使用打蛋器或硅胶刮刀将面粉和鸡蛋面糊",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 90,
+        "unit": "克"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 110,
+        "unit": "克"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "烤盘做防粘处理：在马芬烤盘上均匀地刷一层薄薄的黄油",
+        "imageUrl": "https://i2.chuimg.com/86c11b3e15554609b5671a781a8f34bb_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再筛一层薄薄的面粉。",
+        "imageUrl": "https://i2.chuimg.com/1085d381be1f4c8780243974742fdd12_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备好制作面糊的材料。",
+        "imageUrl": "https://i2.chuimg.com/027d6810dee44be596cc93cea88a80a9_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "制作面糊:常温鸡蛋中加细砂糖，隔55°左右温水打发至浓稠状态，纹路不会轻易消失。",
+        "imageUrl": "https://i2.chuimg.com/02f710fa070648b396b7353b1196ee22_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "提前打开烤箱预热180℃。低筋面粉过筛分两次加入，使用打蛋器或硅胶刮刀将面粉和鸡蛋面糊翻拌均匀，无干粉即可，不要过度翻拌。",
+        "imageUrl": "https://i2.chuimg.com/a8c6e891e034461f969828c37095afe1_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "使用裱花袋将蛋糕面糊挤入烤盘中9分满，表面撒白芝麻。放入烤箱烘烤，温度180℃，烤23分钟左右。",
+        "imageUrl": "https://i2.chuimg.com/2270ba179b95434dbda98abb83751dff_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤至表面颜色金黄取出。",
+        "imageUrl": "https://i2.chuimg.com/5823f06f63314fe596ee79d72f6167db_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒扣脱模后烤盘的状态",
+        "imageUrl": "https://i2.chuimg.com/2217d6319ff4409aa4fb2cd253d5881b_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "脱模后放冷却网上晾凉。",
+        "imageUrl": "https://i2.chuimg.com/793c22eb6dde4efb96a438b3a791fac4_900w_579h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "晾凉后装入保鲜袋密封保存。",
+        "imageUrl": "https://i2.chuimg.com/74911b5e79ce4f6c94c4f4e2f7574b99_900w_579h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 636.3,
+      "protein": 26.0,
+      "carbs": 92.0,
+      "fat": 17.6,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107090037/"
   }
 ]
