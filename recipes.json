@@ -23601,5 +23601,63 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7495303750694784297"
+  },
+  {
+    "id": 276,
+    "title": "蒜蓉烤生蚝🦪",
+    "category": [
+      "海鲜",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_276.png",
+    "description": "蒜蓉烤生蚝🦪的详细制作方法",
+    "ingredients": [
+      {
+        "name": "生蚝（山东乳山蚝或台山蚝）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜蓉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "新鲜辣椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "挑选生蚝（山东乳山蚝或台山蚝皆可）：敲一敲外壳，没有离壳的更新鲜；离壳会响的是死蚝，不要用。",
+      {
+        "text": "用蚝撬把生蚝壳边撬开，让蒜蓉的味道能渗进肉里。",
+        "imageUrl": "images/recipe_276_step_2.png"
+      },
+      {
+        "text": "铺上蒜蓉，不要只是随手倒在表面，要让蒜蓉渗进去、煮一下才出味更香。",
+        "imageUrl": "images/recipe_276_step_3.png"
+      },
+      {
+        "text": "全程慢火（建议用煤气炉，便于控温），切忌猛火——猛火会把蚝边烤烂；慢慢烧到生蚝饱满肥美、两面油润光滑。",
+        "imageUrl": "images/recipe_276_step_4.png"
+      },
+      {
+        "text": "撒上现切的新鲜辣椒提鲜（辣椒配海鲜很惹味）。",
+        "imageUrl": "images/recipe_276_step_5.png"
+      },
+      {
+        "text": "烧到刚刚熟、表面有光泽即可，夹起时还有蚝汁流出；切勿过熟，过熟会收缩、鲜味流失、失去光泽。",
+        "imageUrl": "images/recipe_276_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7494920950375353637"
   }
 ]
