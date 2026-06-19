@@ -40004,5 +40004,82 @@
       "salt": 1.0
     },
     "source": "https://www.xiachufang.com/recipe/107066566/"
+  },
+  {
+    "id": 455,
+    "title": "惊呆了‼️空气炸锅还能烤串⁉️",
+    "category": [
+      "减肥",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_455.png",
+    "description": "空气炸锅烤鸡肉串🍢的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡胸肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "奥尔良腌料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "烧烤料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鸡胸肉切块",
+      {
+        "text": "放入葱、姜、料酒、生抽、奥尔良腌料，抓匀腌制一小时",
+        "imageUrl": "images/recipe_455_step_2.png"
+      },
+      {
+        "text": "串成肉串，串好后撒一把烧烤料",
+        "imageUrl": "images/recipe_455_step_3.png"
+      },
+      "放入空气炸锅，表面喷一点油",
+      {
+        "text": "180度烤8分钟，翻面再烤6分钟",
+        "imageUrl": "images/recipe_455_step_5.png"
+      },
+      "到时间后取出就可以开吃啦"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107066614/"
   }
 ]
