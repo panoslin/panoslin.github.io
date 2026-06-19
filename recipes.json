@@ -29526,5 +29526,112 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/93235/"
+  },
+  {
+    "id": 337,
+    "title": "地中海风味沙拉",
+    "category": [
+      "沙拉"
+    ],
+    "imageUrl": "https://i2.chuimg.com/03502113e4a84018a799b5806298cedf_1024w_683h.jpg?imageView2/1/w/800",
+    "description": "1.把水倒入锅中，加入鹌鹑蛋，烧开水煮熟后捞起；2.在锅中加热1汤匙橄榄油，把切块的西红柿煎至出汁；3.芒果、梨子去皮切块；梨子浸泡盐水中放氧化，洋葱去皮切环，用手掰开，柠檬挤汁，香菜剁碎；4.巴西坚果切薄片；5.把凉却的鹌鹑蛋小心去壳，番茄剥去皮衣；6.把芒果、梨子、西红柿、洋",
+    "ingredients": [
+      {
+        "name": "梨",
+        "quantity": 1,
+        "unit": "粒"
+      },
+      {
+        "name": "西红柿",
+        "quantity": 1,
+        "unit": "粒"
+      },
+      {
+        "name": "芒果",
+        "quantity": 1,
+        "unit": "粒"
+      },
+      {
+        "name": "洋葱",
+        "quantity": 1,
+        "unit": "/3粒"
+      },
+      {
+        "name": "泰国柠檬",
+        "quantity": 1,
+        "unit": "/2粒"
+      },
+      {
+        "name": "鹌鹑蛋",
+        "quantity": 8,
+        "unit": "粒"
+      },
+      {
+        "name": "水",
+        "quantity": 2,
+        "unit": "碗"
+      },
+      {
+        "name": "黑橄榄",
+        "quantity": 8,
+        "unit": "粒"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": 1,
+        "unit": "汤匙+3汤匙"
+      },
+      {
+        "name": "巴西坚果",
+        "quantity": 2,
+        "unit": "粒"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": 1,
+        "unit": "枝"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "把水倒入锅中，加入鹌鹑蛋，烧开水煮熟后捞起。",
+        "imageUrl": "https://i2.chuimg.com/6afa9de0f4c84e4491c7a904d712a93a_1024w_683h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "在锅中加热1汤匙橄榄油，把切块的西红柿煎至出汁。",
+        "imageUrl": "https://i2.chuimg.com/dcd7c8514277448998d865d01ffe174e_1024w_683h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "芒果、梨子去皮切块；梨子浸泡盐水中放氧化，洋葱去皮切环，用手掰开，柠檬挤汁，香菜剁碎。",
+        "imageUrl": "https://i2.chuimg.com/73692dd449e34737a76c58d511eb0fb7_1024w_683h.jpg?imageView2/1/w/660"
+      },
+      "巴西坚果切薄片。",
+      {
+        "text": "把凉却的鹌鹑蛋小心去壳，番茄剥去皮衣。",
+        "imageUrl": "https://i2.chuimg.com/4e6b324f90334936af119696d23fe334_1024w_683h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把芒果、梨子、西红柿、洋葱、鹌鹑蛋摆在沙拉碗里，加入黑橄榄，淋上3汤匙橄榄油，柠檬汁，撒上香菜、五色胡椒粉和盐调味。拌匀，享用。",
+        "imageUrl": "https://i2.chuimg.com/5d49055ea70747ceb698facab8b7e0ca_320w_213h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 10.5,
+      "protein": 0.1,
+      "carbs": 0.4,
+      "fat": 1.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106433952/"
   }
 ]
