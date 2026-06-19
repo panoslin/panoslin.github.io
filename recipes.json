@@ -28532,5 +28532,112 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7454116422394891520"
+  },
+  {
+    "id": 325,
+    "title": "韩式大酱汤",
+    "category": [
+      "韩式"
+    ],
+    "imageUrl": "https://i2.chuimg.com/1387667a86f711e6a9a10242ac110002_481w_690h.jpg?imageView2/1/w/800",
+    "description": "正宗韩式大酱汤的做法栏目为您推荐最正宗的韩式大酱汤做法，韩式大酱汤的做法步骤图解，更多正宗韩式大酱汤怎么做好吃的窍门分享就来下厨房。",
+    "ingredients": [
+      {
+        "name": "韩式甜辣酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "韩式大酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干海带结",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "土豆",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "豆腐",
+        "quantity": 1,
+        "unit": "小块"
+      },
+      {
+        "name": "白蘑菇",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "西葫芦",
+        "quantity": "适量",
+        "unit": "半个"
+      },
+      {
+        "name": "红椒",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "豆芽",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "淘米水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": "若干瓣"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "土豆、豆腐切块，蘑菇、西葫芦、红椒切片，葱切段，蒜切碎，海带结泡发",
+        "imageUrl": "https://i2.chuimg.com/d1b889f08bd211e6b87c0242ac110003_230w_157h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "淘米水倒入锅中，放入大酱和甜辣酱，搅拌匀",
+        "imageUrl": "https://i2.chuimg.com/d1e1c2c08bd211e6b87c0242ac110003_461w_157h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将海带结放入，煮10分钟",
+        "imageUrl": "https://i2.chuimg.com/d230f9588bd211e6a9a10242ac110002_230w_155h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "依次放入土豆、蘑菇、豆腐，煮几分钟",
+        "imageUrl": "https://i2.chuimg.com/d25b51308bd211e6b87c0242ac110003_456w_153h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再放入豆芽、西葫芦、红椒",
+        "imageUrl": "https://i2.chuimg.com/d2b6c6a08bd211e6b87c0242ac110003_460w_155h.jpg?imageView2/1/w/660"
+      },
+      "放入葱段、蒜碎，调入辣椒粉，搅拌匀，关火"
+    ],
+    "nutrition": {
+      "calories": 129.0,
+      "protein": 8.2,
+      "carbs": 27.2,
+      "fat": 0.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/39389/"
   }
 ]
