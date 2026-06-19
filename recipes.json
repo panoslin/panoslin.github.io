@@ -28253,5 +28253,78 @@
       "salt": 0.32
     },
     "source": "https://www.douyin.com/video/7467920920540171572"
+  },
+  {
+    "id": 322,
+    "title": "虾滑玉米馄饨🥟",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_322.png",
+    "description": "虾滑玉米馄饨🥟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "虾滑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米粒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜粒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "馄饨皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "虾滑中加入玉米粒、胡萝卜粒，再放入盐、黑胡椒、料酒调味",
+      {
+        "text": "搅拌均匀成馅料",
+        "imageUrl": "images/recipe_322_step_2.png"
+      },
+      {
+        "text": "取适量肉馅放入馄饨皮里",
+        "imageUrl": "images/recipe_322_step_3.png"
+      },
+      {
+        "text": "在馄饨皮对角抹水后捏紧封口",
+        "imageUrl": "images/recipe_322_step_4.png"
+      },
+      "包好后放入蒸笼里",
+      "水开后大火蒸10分钟",
+      "出锅后搭配酱汁食用，皮薄馅大、Q弹鲜美"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7469354166629043466"
   }
 ]
