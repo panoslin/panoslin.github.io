@@ -33016,5 +33016,103 @@
       "salt": 101.6
     },
     "source": "https://www.xiachufang.com/recipe/102846594/"
+  },
+  {
+    "id": 379,
+    "title": "绝对不能错过！好吃到舔盘的椒盐大虾🦐",
+    "category": [
+      "家常菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/92b2a14629a44baf82e7d1412bc37dc8_1125w_1480h.jpg?imageView2/1/w/800",
+    "description": "1.准备新鲜大虾2斤；2.虾去皮去虾线开背，留点虾的小尾巴；3.加几片生姜和葱，一勺料酒；4.加2勺生抽；5.适量盐和胡椒粉；6.抓匀腌制20分钟；7.碗中加3大勺玉米淀粉（口径4cm；8.搅拌成酸奶状（如果太干了加点水稀释）；9.每个虾裹上蛋液糊；10.油温6成开始炸，炸至漂浮",
+    "ingredients": [
+      {
+        "name": "大虾",
+        "quantity": 1,
+        "unit": "斤"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 3,
+        "unit": "大勺（口径4cm"
+      },
+      {
+        "name": "葱",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "姜",
+        "quantity": 3,
+        "unit": "/4片"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备新鲜大虾2斤",
+        "imageUrl": "https://i2.chuimg.com/868f928ff117419aa2bdf9043f1e569c_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "虾去皮去虾线开背，留点虾的小尾巴",
+        "imageUrl": "https://i2.chuimg.com/c4cca011ab984fb180709226726c72b9_1464w_1171h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加几片生姜和葱，一勺料酒",
+        "imageUrl": "https://i2.chuimg.com/147837b54bb0495cb57dcc2b5d67a3e6_1411w_1129h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加2勺生抽",
+        "imageUrl": "https://i2.chuimg.com/ccf0715e7930438b998c914473d218fc_1401w_1121h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "适量盐和胡椒粉",
+        "imageUrl": "https://i2.chuimg.com/585f412621dd40e8a90e1f0b3a11e03f_1400w_1120h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "抓匀腌制20分钟",
+        "imageUrl": "https://i2.chuimg.com/4343344a1743455b9c0ddcf68dcf6a5f_1361w_1089h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "碗中加3大勺玉米淀粉（口径4cm",
+        "imageUrl": "https://i2.chuimg.com/9803fd33590348cd9a504a8881461188_858w_687h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "搅拌成酸奶状（如果太干了加点水稀释）",
+        "imageUrl": "https://i2.chuimg.com/42f57dc8f5ec4816af62fbed85970f49_899w_719h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "每个虾裹上蛋液糊",
+        "imageUrl": "https://i2.chuimg.com/01cd66a150b64fdcac45bb1a3aedc6ed_1688w_1350h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "油温6成开始炸，炸至漂浮捞出（喜欢吃脆点的可以油温升高后再复炸一遍）我就炸一遍，看个人喜好🤗",
+        "imageUrl": "https://i2.chuimg.com/2de1bb072056458d82f17f200232d671_1920w_1536h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "看这颜色就诱惑不住了🤣",
+        "imageUrl": "https://i2.chuimg.com/e17e1bb350a2488ea2efb65bbfa402a9_1920w_1536h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "金黄酥脆，好吃到吮手指😍",
+        "imageUrl": "https://i2.chuimg.com/06c1de2885174297abdc663d4e111c3f_898w_719h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "撒上椒盐或香辣粉就可以开吃咯！（喜欢的厨友们你也安排起来吧，保证儿子夸你是大厨👍）",
+        "imageUrl": "https://i2.chuimg.com/de0dd0e8629449c898f62378b7583720_1065w_852h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 158.6,
+      "protein": 13.3,
+      "carbs": 4.4,
+      "fat": 8.8,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106789618/"
   }
 ]
