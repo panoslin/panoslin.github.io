@@ -26821,5 +26821,58 @@
       "salt": 0.3
     },
     "source": "https://www.douyin.com/video/7477064206374702399"
+  },
+  {
+    "id": 308,
+    "title": "南瓜馒头🎃",
+    "category": [
+      "主食",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_308.png",
+    "description": "南瓜馒头🎃的详细制作方法",
+    "ingredients": [
+      {
+        "name": "南瓜泥",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "面粉",
+        "quantity": 330,
+        "unit": "克"
+      },
+      {
+        "name": "酵母",
+        "quantity": 2.5,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "老南瓜去皮切块，上锅蒸熟，取出捣碎成南瓜泥。",
+      {
+        "text": "称取南瓜泥200克、面粉330克、酵母2.5克，一滴水都不加，搅拌混合成絮状（这个比例刚刚好）。",
+        "imageUrl": "images/recipe_308_step_2.png"
+      },
+      {
+        "text": "把面团移到案板上多揉一会，一定要多揉，揉到面团表面很光滑。",
+        "imageUrl": "images/recipe_308_step_3.png"
+      },
+      "把面团搓成长条，切成6个大小均匀的剂子。",
+      {
+        "text": "将剂子逐个揉圆、滚一滚后反过来，最后搓高，做成馒头生胚。",
+        "imageUrl": "images/recipe_308_step_5.png"
+      },
+      "锅中放温水，把馒头生胚放入，盖盖在温暖处醒发；可用瓶盖压平的面团作参照，面团明显涨起来就说明醒好了。",
+      "水开后开始计时，蒸20分钟，关火再焖2分钟即可。"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7477489269657832763"
   }
 ]
