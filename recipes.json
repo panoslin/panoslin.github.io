@@ -31200,5 +31200,65 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106561701/"
+  },
+  {
+    "id": 357,
+    "title": "每天一杯：霸王茶姬—伯牙绝弦",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/aea69939056e49b681ad88a84d2d80fa_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.要用到的材料很少；2.泡茶汤：用这种茶饮专用茉莉蜜芽（这里面含有香精，自己喝可以用不含香精的茶叶，更健康），30g茶叶加入960毫升开水 盖盖焖泡12分钟，过滤出茶渣扔掉，茶水加入约600克冰块，等冰块化开后，茶汤就做好了。冷藏备用；3.两种版本：\n20克咖啡奶（或者20克淡",
+    "ingredients": [
+      {
+        "name": "K奶（或奶油2）",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "纯牛奶",
+        "quantity": 80,
+        "unit": "毫升"
+      },
+      {
+        "name": "茶汤",
+        "quantity": 220,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "要用到的材料很少，",
+        "imageUrl": "https://i2.chuimg.com/ee8bedd2ba75484997ac4124f5099dc9_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "泡茶汤：用这种茶饮专用茉莉蜜芽（这里面含有香精，自己喝可以用不含香精的茶叶，更健康），30g茶叶加入960毫升开水 盖盖焖泡12分钟，过滤出茶渣扔掉，茶水加入约600克冰块，等冰块化开后，茶汤就做好了。冷藏备用。",
+        "imageUrl": "https://i2.chuimg.com/94c6485af564487ebc6dfcb37ac8ea39_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "两种版本：20克咖啡奶（或者20克淡奶油）+80ml纯牛奶+220ml 茶汤+适量果糖（我一般用15克糖做成7分甜），加入冰块摇晃均匀 ，这样就做好了。",
+        "imageUrl": "https://i2.chuimg.com/2725934bc8e34d23870c2efabf65bac5_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这是k奶，不太健康，想要健康的换成淡奶油即可，不过用k奶更接近原版味道。",
+        "imageUrl": "https://i2.chuimg.com/dac66f65f6f4410fa706f97296b1a8c7_1179w_1438h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "我用的这种糖浆，根据自己喜欢的甜度适量放。",
+        "imageUrl": "https://i2.chuimg.com/47ebbb2414fb4b95a24d6eb35aa3508b_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "灵魂所在，三品管。用这种同款吸管，每次喝一口量小，味道更接近伯牙绝弦。",
+        "imageUrl": "https://i2.chuimg.com/ae29600447de4332a707648184ac99e9_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 116.6,
+      "protein": 2.8,
+      "carbs": 4.2,
+      "fat": 10.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107162899/"
   }
 ]
