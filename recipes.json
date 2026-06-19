@@ -38073,5 +38073,119 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106426870/"
+  },
+  {
+    "id": 433,
+    "title": "牛肉炒西兰花🥦",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/d782fe25b3f54211963a9fe88a6ee74d_1242w_1656h.jpg?imageView2/1/w/800",
+    "description": "1.西兰花切小块，锅水沸后倒入少许油焯水30秒左右，自然水过冷河，沥干水备用~~   \n\n牛肉切薄片，倒入料酒 生抽 老抽 胡椒粉 红曲粉  玉米淀粉 油 盐   白糖 姜丝 大蒜切碎腌制30分钟。\n\n（另外蚝油一匙，3克玉米淀粉+25克水拌匀，勾芡用）以⬆️😜；2.平底锅烧热倒",
+    "ingredients": [
+      {
+        "name": "牛肉（鲜嫩的牛里脊）",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "西兰花",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "牛肉调料以⬇️",
+        "quantity": "适量",
+        "unit": "😜"
+      },
+      {
+        "name": "料酒",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "匙"
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": "半匙"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "红曲粉",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "油",
+        "quantity": 1,
+        "unit": "匙"
+      },
+      {
+        "name": "盐 白糖各",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "姜3片",
+        "quantity": "适量",
+        "unit": "切丝"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 3,
+        "unit": "瓣"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "西兰花切小块，锅水沸后倒入少许油焯水30秒左右，自然水过冷河，沥干水备用~~   牛肉切薄片，倒入料酒 生抽 老抽 胡椒粉 红曲粉  玉米淀粉 油 盐   白糖 姜丝 大蒜切碎腌制30分钟。（另外蚝油一匙，3克玉米淀粉+25克水拌匀，勾芡用）以⬆️😜",
+        "imageUrl": "https://i2.chuimg.com/8a456d7cf565453983009180b12b7463_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "平底锅烧热倒入油烧热（油量比平时炒菜多一点）(全程大火炒）然后倒入牛肉炒 翻炒片刻",
+        "imageUrl": "https://i2.chuimg.com/ee8f9c45229642e392018ad18ef3e17f_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "然后倒入西兰花炒片刻~",
+        "imageUrl": "https://i2.chuimg.com/afa6e5acae1041198498611d9ec84b4e_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再倒入蚝油，调好玉米淀粉糊~收汁即可！",
+        "imageUrl": "https://i2.chuimg.com/b95fde859f754e03a3ef2aa0e5e669ff_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "装盘享用营养美味的~牛肉炒西兰花啦！",
+        "imageUrl": "https://i2.chuimg.com/c31d61af04bc4b369d78851c66555d79_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "有肉有菜+米饭+豆腐海带猪骨汤！幸福满足啦！😋",
+        "imageUrl": "https://i2.chuimg.com/16efef9058a543c9a66819958a84f18a_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "太美味了😋😋",
+        "imageUrl": "https://i2.chuimg.com/8ee45f6812d140d3a36f2323b3c75e86_1242w_1656h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 646.9,
+      "protein": 117.5,
+      "carbs": 21.9,
+      "fat": 12.4,
+      "salt": 0.15
+    },
+    "source": "https://www.xiachufang.com/recipe/103722525/"
   }
 ]
