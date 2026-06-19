@@ -25851,5 +25851,66 @@
       "salt": 0.15
     },
     "source": "https://www.douyin.com/video/7482066284222483721"
+  },
+  {
+    "id": 298,
+    "title": "空气炸锅烤土豆🥔",
+    "category": [
+      "减肥",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_298.png",
+    "description": "空气炸锅烤土豆🥔的详细制作方法",
+    "ingredients": [
+      {
+        "name": "土豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西芹",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "土豆洗净，放入锅中煮约20分钟，煮到筷子能轻松插透即可捞出。",
+      {
+        "text": "捞出土豆放在吸油纸上，用杯子压扁。",
+        "imageUrl": "images/recipe_298_step_2.png"
+      },
+      {
+        "text": "在土豆表面喷一层油，撒少许西芹、大蒜、盐调味。",
+        "imageUrl": "images/recipe_298_step_3.png"
+      },
+      {
+        "text": "放入空气炸锅180度烤20分钟，中途翻面一次。",
+        "imageUrl": "images/recipe_298_step_4.png"
+      },
+      "烤至表面酥脆、内里有嚼劲即可出锅。高纤维、低脂低卡、饱腹感强，适合减脂期补充优质碳水。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7482028855524347194"
   }
 ]
