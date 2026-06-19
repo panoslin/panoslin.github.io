@@ -36294,5 +36294,56 @@
       "salt": 2.15
     },
     "source": "https://www.xiachufang.com/recipe/104565642/"
+  },
+  {
+    "id": 414,
+    "title": "自制红糖姜茶",
+    "category": [
+      "家常菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/41fd424888c511e6a9a10242ac110002_600w_400h.jpg?imageView2/1/w/800",
+    "description": "正宗红糖姜茶的做法栏目为您推荐最正宗的红糖姜茶做法，红糖姜茶的做法步骤图解，更多正宗红糖姜茶怎么做好吃的窍门分享就来下厨房。",
+    "ingredients": [
+      {
+        "name": "老姜",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "太古红糖",
+        "quantity": 200,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "生姜洗净抛去外皮，用磨蓉器研磨成姜蓉备用。",
+        "imageUrl": "https://i2.chuimg.com/0460f9e68fd911e6a9a10242ac110002_400w_300h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将姜蓉放入红糖中搅拌均匀。",
+        "imageUrl": "https://i2.chuimg.com/0496f2bc8fd911e6b87c0242ac110003_400w_300h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "给红糖姜蓉盖上两层保鲜膜。",
+        "imageUrl": "https://i2.chuimg.com/04c80f6e8fd911e6b87c0242ac110003_400w_300h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烧开锅内的水，放入红糖姜蓉，加盖开中火清蒸30分钟。",
+        "imageUrl": "https://i2.chuimg.com/050835b28fd911e6a9a10242ac110002_400w_300h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "取出揭去保鲜膜，挖一勺用开水冲服，平时可放入冰箱冷藏。",
+        "imageUrl": "https://i2.chuimg.com/054b5db08fd911e6a9a10242ac110002_400w_300h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 894.0,
+      "protein": 2.7,
+      "carbs": 226.7,
+      "fat": 1.2,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/100427922/"
   }
 ]
