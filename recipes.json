@@ -41543,5 +41543,79 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107321961/"
+  },
+  {
+    "id": 473,
+    "title": "家里平常这样的剩米饭，别再丢掉了，教你做成一道非常好吃的甜品",
+    "category": [
+      "甜品",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_473.png",
+    "description": "剩米饭牛奶布丁的详细制作方法",
+    "ingredients": [
+      {
+        "name": "剩米饭",
+        "quantity": 400,
+        "unit": "克"
+      },
+      {
+        "name": "纯牛奶",
+        "quantity": 500,
+        "unit": "毫升"
+      },
+      {
+        "name": "清水",
+        "quantity": 300,
+        "unit": "毫升"
+      },
+      {
+        "name": "白糖",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "水果（蓝莓/草莓/芒果/香蕉等）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大珍珠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "仙草",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "把400克剩米饭倒入干净的不粘锅里。",
+      "加入两盒纯牛奶（一盒250毫升，共500毫升）和300毫升清水，剩米饭与液体的比例约为1:2。",
+      "开火加热，全程不停地搅拌，防止糊锅和溢锅。",
+      {
+        "text": "沸腾后继续煮三到五分钟，煮至锅里变得黏稠。",
+        "imageUrl": "images/recipe_473_step_4.png"
+      },
+      "加入40克白糖搅匀（只是微微甜，喜欢甜的可以多加一点）。",
+      {
+        "text": "将煮好的米糊转移到破壁机里，选择“奶昔”模式（无需再加热）打碎，打至绵密细腻、丝滑如酸奶。",
+        "imageUrl": "images/recipe_473_step_6.png"
+      },
+      {
+        "text": "可以直接热着吃；或放入冰箱冷藏约两个小时，质地会变得跟布丁一样。",
+        "imageUrl": "images/recipe_473_step_7.png"
+      },
+      "食用时按喜好加入蓝莓、草莓、芒果、香蕉等水果，或搭配大珍珠、奶茶（仙草）。"
+    ],
+    "nutrition": {
+      "calories": 888.8,
+      "protein": 25.4,
+      "carbs": 159.4,
+      "fat": 16.8,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107362186/"
   }
 ]
