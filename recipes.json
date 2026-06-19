@@ -25545,5 +25545,111 @@
       "salt": 2.63
     },
     "source": "https://www.douyin.com/video/7486112534429175081"
+  },
+  {
+    "id": 294,
+    "title": "农家一碗香🍳",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_294.png",
+    "description": "农家一碗香🍳的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "螺丝椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆豉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "高度白酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": 1.5,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "油热下入鸡蛋，小火煎至蛋白凝固后再翻面，煎成嫩煎蛋后盛出备用。",
+        "imageUrl": "images/recipe_294_step_1.png"
+      },
+      {
+        "text": "螺丝椒切段，锅中不加油，小火煸出水汽，这样炒出来更香，盛出备用。",
+        "imageUrl": "images/recipe_294_step_2.png"
+      },
+      {
+        "text": "锅中不放油，下入五花肉煸出多余油脂，多余的油脂一定要倒出来。",
+        "imageUrl": "images/recipe_294_step_3.png"
+      },
+      "下入一勺豆豉、葱姜蒜爆香，淋入高度白酒去腥。",
+      {
+        "text": "加入1小勺酱油、1勺蚝油、1.5克盐、1勺白糖调味。",
+        "imageUrl": "images/recipe_294_step_5.png"
+      },
+      "下入煸好的螺丝椒和煎蛋，翻炒均匀。",
+      "沿锅边淋入醋，翻炒均匀即可出锅，农家一碗香就做好了。"
+    ],
+    "nutrition": {
+      "calories": 8.2,
+      "protein": 0.3,
+      "carbs": 1.7,
+      "fat": 0.0,
+      "salt": 1.82
+    },
+    "source": "https://www.douyin.com/video/7482755286210546959"
   }
 ]
