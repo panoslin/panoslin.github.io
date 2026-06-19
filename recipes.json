@@ -41137,5 +41137,59 @@
       "salt": 1.29
     },
     "source": "https://www.xiachufang.com/recipe/107208974/"
+  },
+  {
+    "id": 468,
+    "title": "终于理解好喝到无语是什么感受！烤箱跟空气炸锅都能做！自制烤奶",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_468.png",
+    "description": "懒人自制烤奶🥛的详细制作方法",
+    "ingredients": [
+      {
+        "name": "正山小种茶叶",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛奶（推荐鲜牛奶）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "取一个碗，放入一勺正山小种茶叶和一勺白糖。",
+      "加入与茶叶齐平的水。",
+      {
+        "text": "放入烤箱或空气炸锅，180度烤10分钟，烤至茶叶呈焦黄状。",
+        "imageUrl": "images/recipe_468_step_3.png"
+      },
+      "取出后加入牛奶，份量到碗的8分满即可。",
+      "盖回烤箱或空气炸锅，继续180度烤10分钟。",
+      {
+        "text": "取出即可饮用，表面会凝结一层香浓的奶皮。",
+        "imageUrl": "images/recipe_468_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 3.9,
+      "protein": 0.0,
+      "carbs": 1.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107224151/"
   }
 ]
