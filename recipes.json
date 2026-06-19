@@ -38187,5 +38187,79 @@
       "salt": 0.15
     },
     "source": "https://www.xiachufang.com/recipe/103722525/"
+  },
+  {
+    "id": 434,
+    "title": "简单的红烧狮子头～拌饭太香了",
+    "category": [
+      "红烧"
+    ],
+    "imageUrl": "https://i2.chuimg.com/34bc40f857fa4df88142f83a28b49b89_1080w_1387h.jpg?imageView2/1/w/800",
+    "description": "1.猪前臀尖肉先切块；2.放进家用绞肉机；3.打成肉馅；4.把胡萝卜丁加进去，加一勺胡椒粉，两勺生抽，一点白糖，一个鸡蛋，半勺老抽，搅拌均匀；5.再加两勺淀粉搅拌，如果你想吃有弹性的，就说着一个方向搅拌上劲，如果想吃软嫩的，就不用太上劲。我的女儿喜欢吃软嫩的，我就搅拌均匀就好了；",
+    "ingredients": [
+      {
+        "name": "猪肉",
+        "quantity": 500,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "猪前臀尖肉先切块",
+        "imageUrl": "https://i2.chuimg.com/1e440c5d5f234442a354c8175d646a4d_1080w_1372h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放进家用绞肉机",
+        "imageUrl": "https://i2.chuimg.com/364c01b220d24a45899462b464e8b833_1080w_1440h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "打成肉馅",
+        "imageUrl": "https://i2.chuimg.com/bb3900c837f2444e8be03627cdace095_1080w_1499h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把胡萝卜丁加进去，加一勺胡椒粉，两勺生抽，一点白糖，一个鸡蛋，半勺老抽，搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/8e75757ecd5e4aeea51070e7d9db410a_1080w_1323h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再加两勺淀粉搅拌，如果你想吃有弹性的，就说着一个方向搅拌上劲，如果想吃软嫩的，就不用太上劲。我的女儿喜欢吃软嫩的，我就搅拌均匀就好了。",
+        "imageUrl": "https://i2.chuimg.com/01a9869dbedf41afb2c854023dd85f99_1080w_1434h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "手上沾油，揉网球大的肉圆",
+        "imageUrl": "https://i2.chuimg.com/a469a9d113a8419a97c70a6b19cc120d_1080w_1530h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里宽油，六成油温，把肉圆炸至表面金黄",
+        "imageUrl": "https://i2.chuimg.com/02acbc3b772c4109bc281fbef7a7afd4_1080w_1516h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅底油，炒香葱姜和桂皮八角",
+        "imageUrl": "https://i2.chuimg.com/35a7aa65ba13469286a8d1ba05d078e6_1080w_1490h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加开水，汤里放一勺生抽，一勺老抽，一勺蚝油，一丢丢十三香粉，一丢丢米醋提香，然后把炸好的肉圆丢进去，转小火炖",
+        "imageUrl": "https://i2.chuimg.com/5eb18929869a4fcf8b4c99efd4985033_1080w_1523h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "炖约十五分钟，大火收汁",
+        "imageUrl": "https://i2.chuimg.com/bc598cdc7e114c2397611588016934f8_1080w_1359h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "色香味俱全的红烧狮子头做好啦",
+        "imageUrl": "https://i2.chuimg.com/5262e88453cb44cbb3bac3ebc6374139_1080w_1387h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "你来一口拌饭吧🤗🤗",
+        "imageUrl": "https://i2.chuimg.com/2d261c1a00514467a32d6b763678fca4_1080w_1559h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1210.0,
+      "protein": 101.5,
+      "carbs": 0.0,
+      "fat": 83.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/105834770/"
   }
 ]
