@@ -33384,5 +33384,107 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106430096/"
+  },
+  {
+    "id": 383,
+    "title": "草莓脆皮半熟芝士丨锁死这个配方",
+    "category": [
+      "烘焙"
+    ],
+    "imageUrl": "https://i2.chuimg.com/16888322c4e34a3fb936bf576510a9d9_1169w_1552h.jpg?imageView2/1/w/800",
+    "description": "1.制作蛋糕体，玉米油加牛奶搅拌至乳化，筛入低筋面粉搅拌均匀，加入蛋黄和搅拌均匀；2.蛋清冷冻至边缘有小冰渣，加糖打发至大弯\n钩，取少量蛋白霜加入蛋黄糊中，搅拌均匀，倒入剩余的蛋白霜中，翻拌均匀，倒入烤盘中，刮平，上下管中层150度烤 20分钟；3.奶油奶酪隔热水加热加糖搅拌顺滑",
+    "ingredients": [
+      {
+        "name": "玉米油",
+        "quantity": 27,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 27,
+        "unit": "克"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "奶油奶酪",
+        "quantity": 160,
+        "unit": "克"
+      },
+      {
+        "name": "吉利丁片",
+        "quantity": 4,
+        "unit": "克"
+      },
+      {
+        "name": "淡奶油",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "草莓酱",
+        "quantity": 70,
+        "unit": "克"
+      },
+      {
+        "name": "白巧克力",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "椰子油",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "草莓碎",
+        "quantity": 30,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "制作蛋糕体，玉米油加牛奶搅拌至乳化，筛入低筋面粉搅拌均匀，加入蛋黄和搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/6b377c1f56d743e3b50a060b4c2e8648_1169w_1557h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋清冷冻至边缘有小冰渣，加糖打发至大弯钩，取少量蛋白霜加入蛋黄糊中，搅拌均匀，倒入剩余的蛋白霜中，翻拌均匀，倒入烤盘中，刮平，上下管中层150度烤 20分钟",
+        "imageUrl": "https://i2.chuimg.com/a231698af68c4ea8b45ea97a17a49b95_1169w_1545h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "奶油奶酪隔热水加热加糖搅拌顺滑，晾至手温加入泡软的吉利丁片，搅拌均匀。淡奶油打发至7分发，倒入奶酪糊中，搅拌均匀；取出100g奶酪糊加入草莓酱，搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/c0c000233d964ab2a9c5656fdaac89c2_1169w_1554h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "白巧克力加椰子油隔温水融化 （不超过 50度），加入草莓碎搅拌均匀；模具中放入蛋糕胚，挤入一层原味奶酪糊，再挤入一层草莓奶酪糊，冷藏一个小时，倒入草莓巧克力，冷藏至凝固。",
+        "imageUrl": "https://i2.chuimg.com/c4f8288255a449d6a95845ccc23907a7_1168w_1551h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1891.2,
+      "protein": 30.9,
+      "carbs": 145.3,
+      "fat": 133.6,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107114701/"
   }
 ]
