@@ -36981,5 +36981,117 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/102785087/"
+  },
+  {
+    "id": 421,
+    "title": "烤鱿鱼（烤箱版）秒杀铁板烧",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/3d7d61735ee74927814bdf24bb5fd528_3264w_2448h.jpg?imageView2/1/w/800",
+    "description": "1.所有调味品搅拌均匀备用。另外准备一个小刷子～；2.处理鱿鱼的图片没拍，写一下吧，冻鱿鱼解冻，拿剪刀沿鱿鱼肚子中间剪开，里面所有内脏全部不要，鱿鱼肚里有一条类似塑料的\n鱿鱼软骨也一并取出不要，再挤出眼睛，还有鱿鱼须中间的鱿鱼牙，全部清理干净，鱿鱼须的吸盘用手搓洗，最后水洗干净，",
+    "ingredients": [
+      {
+        "name": "鱿鱼",
+        "quantity": 2,
+        "unit": "只"
+      },
+      {
+        "name": "孜然粉",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": "可有可无反正点缀用"
+      },
+      {
+        "name": "糖",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "克（可不放）"
+      },
+      {
+        "name": "韩式辣椒酱",
+        "quantity": 1.5,
+        "unit": "勺"
+      },
+      {
+        "name": "花椒粉",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "辣椒面",
+        "quantity": "适量",
+        "unit": "看嗜辣程度适量添加"
+      },
+      {
+        "name": "蒜蓉辣酱",
+        "quantity": 1.5,
+        "unit": "勺"
+      },
+      {
+        "name": "花生油",
+        "quantity": 35,
+        "unit": "克"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": 3,
+        "unit": "克（没有可不添加）"
+      },
+      {
+        "name": "以上材料，适量添加就行，不用刻意称重。",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "所有调味品搅拌均匀备用。另外准备一个小刷子～",
+        "imageUrl": "https://i2.chuimg.com/fad65003a65c4a0eb40a26456f6f19fe_2448w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "处理鱿鱼的图片没拍，写一下吧，冻鱿鱼解冻，拿剪刀沿鱿鱼肚子中间剪开，里面所有内脏全部不要，鱿鱼肚里有一条类似塑料的鱿鱼软骨也一并取出不要，再挤出眼睛，还有鱿鱼须中间的鱿鱼牙，全部清理干净，鱿鱼须的吸盘用手搓洗，最后水洗干净，放容器上沥干水分，或者用厨房纸擦干，然后沿着鱿鱼两边剪成图片样式，鱿鱼须中间剪开，一分为二。",
+        "imageUrl": "https://i2.chuimg.com/1eca9a8c35964776a156f203a2f5fb34_3264w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把鱿鱼放入垫了烤纸或者锡纸的烤盘上，先刷一层调料汁，烤箱预热到200度，上下火烤5分钟之后翻面，再刷一层调料，再烤5分钟，翻面刷厚厚的一层的调料，烤3分钟，再翻面再刷厚厚一层的调料，烤三分钟，就可以出国了，如果不喜欢吃嫩的鱿鱼肉可自行增加时间。",
+        "imageUrl": "https://i2.chuimg.com/c1415749f2e545c6bb719386de3c8a35_3264w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "简直太好吃了....超级超级超级好吃！记住最后刷调料一定不要少放，多多益善！一人一条哈哈哈哈啊吃起来吧！",
+        "imageUrl": "https://i2.chuimg.com/a91b52898ec34aa5b60b37039eab0c4d_3264w_2448h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 379.6,
+      "protein": 2.7,
+      "carbs": 10.9,
+      "fat": 37.2,
+      "salt": 5.12
+    },
+    "source": "https://www.xiachufang.com/recipe/102879581/"
   }
 ]
