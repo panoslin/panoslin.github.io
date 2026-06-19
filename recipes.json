@@ -37763,5 +37763,53 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107121013/"
+  },
+  {
+    "id": 430,
+    "title": "低卡鲜美的紫菜虾滑汤！好喝不胖减脂餐",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/5d6cb16befd846de8f07eec47d098e67_1130w_1432h.jpg?imageView2/1/w/800",
+    "description": "1.虾去壳去虾线，用刀背剁碎，放入碗中；2.加1个蛋清十1勺料酒十少许盐十少许胡椒粉十1勺淀粉，朝一个方向搅拌上劲；3.个鸡蛋打散，锅中油热倒入蛋液煎熟盛出，鸡蛋切成小条，锅留底油放入葱姜煸香，加入清水煮开，挤入虾滑煮至浮起，放入鸡蛋与紫菜，加1勺生抽，少许盐与鸡精调味~",
+    "ingredients": [
+      {
+        "name": "鲜虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "紫菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "虾去壳去虾线，用刀背剁碎，放入碗中",
+        "imageUrl": "https://i2.chuimg.com/e080adf6e67f4ae4b9fd09db059ab1c0_1105w_884h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加1个蛋清十1勺料酒十少许盐十少许胡椒粉十1勺淀粉，朝一个方向搅拌上劲",
+        "imageUrl": "https://i2.chuimg.com/f4314d293dcc40b0b2beb6362387e58a_1056w_845h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "2个鸡蛋打散，锅中油热倒入蛋液煎熟盛出，鸡蛋切成小条，锅留底油放入葱姜煸香，加入清水煮开，挤入虾滑煮至浮起，放入鸡蛋与紫菜，加1勺生抽，少许盐与鸡精调味~",
+        "imageUrl": "https://i2.chuimg.com/6cf2c3680d1841dc9fee9ace39cd15c4_1280w_1024h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/106725240/"
   }
 ]
