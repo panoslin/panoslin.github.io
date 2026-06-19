@@ -33114,5 +33114,88 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106789618/"
+  },
+  {
+    "id": 380,
+    "title": "椒盐虾（超酥香）",
+    "category": [
+      "家常菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/052e48b7533646d0918e9ee52e97fe1b_684w_912h.jpg?imageView2/1/w/800",
+    "description": "1.我买的大明虾，去虾须、去额头刺（防止吃的时候伤到嘴巴）；2.开背、去虾线（用小剪刀剪开虾背～这样安全点～）；3.去虾线；4.洗净；5.加入：料酒、生姜片（2-3片）、淀粉（我用的玉米淀粉），搅拌均匀腌制10分钟；6.椒盐、葱、腌制的虾，放一起拍个照片～\n（椒盐的制作可以看上一",
+    "ingredients": [
+      {
+        "name": "虾（若干）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "椒盐、葱、生姜、料酒、淀粉，大蒜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "我买的大明虾，去虾须、去额头刺（防止吃的时候伤到嘴巴）",
+        "imageUrl": "https://i2.chuimg.com/cc2aa0eb16f643ee947d9676e5c138d4_912w_684h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "开背、去虾线（用小剪刀剪开虾背～这样安全点～）",
+        "imageUrl": "https://i2.chuimg.com/37ccc7f3f5984621b20ba45b28621e3a_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "去虾线",
+        "imageUrl": "https://i2.chuimg.com/021a1ae3d12340dcae3d2e35f3593745_684w_912h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "洗净",
+        "imageUrl": "https://i2.chuimg.com/25f2f34170444af0ab7365dd57d27d0a_684w_912h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入：料酒、生姜片（2-3片）、淀粉（我用的玉米淀粉），搅拌均匀腌制10分钟",
+        "imageUrl": "https://i2.chuimg.com/900a2edcb6864c8195bddbf67b63d4db_684w_912h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "椒盐、葱、腌制的虾，放一起拍个照片～（椒盐的制作可以看上一个菜谱：https://www.xiachufang.com/recipe/104038764/）",
+        "imageUrl": "https://i2.chuimg.com/fbfb0098a11a4be68e86300825d1b2eb_684w_912h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "热锅烧油、将腌制好的虾一个个放进去（油比平时做菜的量多一些就行，不需要太多油以免浪费～）",
+        "imageUrl": "https://i2.chuimg.com/6d06fa7d7d254391807b38ed4642469e_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "煎炸至两面酥脆（虽然外边酥脆了，里面的虾肉还是很嫩的～）",
+        "imageUrl": "https://i2.chuimg.com/1f0f4e1aacb34165a70b7a57d43ef16e_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "捞起来",
+        "imageUrl": "https://i2.chuimg.com/6e158b989b29454e87a5cac476f559ef_684w_912h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "炸好的虾放在边上备用",
+        "imageUrl": "https://i2.chuimg.com/044cd586c0a0445ea39def3af76d823c_684w_912h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "刚刚炸虾的油倒一部分，加入蒜，翻炒出香",
+        "imageUrl": "https://i2.chuimg.com/1bd53e2a5ef24a8d93653b84f1be0eec_684w_912h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入炸好的虾🦐，椒盐、葱～翻炒一下。即可出锅（没有太多油）（不需要在另外加盐，椒盐里面就有盐哦）",
+        "imageUrl": "https://i2.chuimg.com/c254810ef4394b8597e24604d7f6e2b2_912w_684h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "装盘开吃，虾皮都很好吃",
+        "imageUrl": "https://i2.chuimg.com/880cdbefb1834fd896c6a8b2826bb7fd_3648w_2736h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/104039047/"
   }
 ]
