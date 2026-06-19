@@ -39521,5 +39521,70 @@
       "salt": 1.0
     },
     "source": "https://www.xiachufang.com/recipe/107231936/"
+  },
+  {
+    "id": 449,
+    "title": "自从学会了这个意面，外面瞬间不香了～",
+    "category": [
+      "面"
+    ],
+    "imageUrl": "https://i2.chuimg.com/7ff2238d1fa740d9b24387ffbfbce436_1179w_1549h.jpg?imageView2/1/w/800",
+    "description": "1.🌿🌿食材：番茄2个，意面1份，洋葱半个，蒜2瓣\n\n🌿🌿做法：1️⃣番茄去皮切小丁，洋葱和烤肠分别也切丁，蒜切片，意面煮熟捞出过凉水沥干水分备用\n2️⃣锅里倒油，放入烤肠煎至两面微黄，下洋葱和蒜片炒香，倒入番茄丁；2.️⃣加2大勺番茄酱炒出番茄汁，调味加少许盐、黑胡椒，半勺蚝油",
+    "ingredients": [
+      {
+        "name": "番茄🍅",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "意面",
+        "quantity": 1,
+        "unit": "份"
+      },
+      {
+        "name": "烤肠",
+        "quantity": 2,
+        "unit": "根"
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": "半个"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "🌿🌿食材：番茄2个，意面1份，洋葱半个，蒜2瓣🌿🌿做法：1️⃣番茄去皮切小丁，洋葱和烤肠分别也切丁，蒜切片，意面煮熟捞出过凉水沥干水分备用2️⃣锅里倒油，放入烤肠煎至两面微黄，下洋葱和蒜片炒香，倒入番茄丁",
+        "imageUrl": "https://i2.chuimg.com/7914189875eb4f76a96de2ecf3620ea8_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "3️⃣加2大勺番茄酱炒出番茄汁，调味加少许盐、黑胡椒，半勺蚝油 翻炒均匀后下入意面，再次翻拌均匀就可以开吃啦🥰",
+        "imageUrl": "https://i2.chuimg.com/fcfd693892424a4a80d5cd8477d158e7_1921w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "完成✅",
+        "imageUrl": "https://i2.chuimg.com/2b93f1537eff462a955f1a9f5c402d2d_1179w_1549h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "每根面条裹满酱汁😍",
+        "imageUrl": "https://i2.chuimg.com/e3a82998d773418caa2c6a750b18c9b2_1147w_1542h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤肠好香呀",
+        "imageUrl": "https://i2.chuimg.com/4d421d04bec24c2aaee0034e7bdd3d39_1179w_1535h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "喜欢吃意面🍝的姐妹一定要试试哦",
+        "imageUrl": "https://i2.chuimg.com/13c4935c7f6649dd930430244e146c46_1179w_1544h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 36.0,
+      "protein": 1.8,
+      "carbs": 7.0,
+      "fat": 0.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107090874/"
   }
 ]
