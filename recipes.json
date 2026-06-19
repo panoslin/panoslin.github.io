@@ -34045,5 +34045,103 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/100556489/"
+  },
+  {
+    "id": 390,
+    "title": "电饭煲红薯馒头",
+    "category": [
+      "馒头"
+    ],
+    "imageUrl": "https://i2.chuimg.com/00fbe37b6cf844909240731e09ee0008_1242w_1242h.jpg?imageView2/1/w/800",
+    "description": "1.切片蒸熟；2.压成泥；3.克水和酵母化开；4.加入步骤3的酵母水和50克左右的水，混合搅拌成团；5.不需要发酵直接分割成8个小面团，根据自家电饭锅大小分割哦！不用和我一样，每家电饭锅也是不同的😄；6.这是自己炒的豆沙，非常好吃😋；7.包馅；8.电饭锅底部放油和少量糖，我放了2",
+    "ingredients": [
+      {
+        "name": "食材：红薯",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "食材：面粉",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "食材：糖",
+        "quantity": 10,
+        "unit": "克（可加可不加）"
+      },
+      {
+        "name": "食材：酵母",
+        "quantity": 3,
+        "unit": "克（3克酵母用25克左右水化开，便于发酵）"
+      },
+      {
+        "name": "食材：水",
+        "quantity": 50,
+        "unit": "克左右（根据面粉的吸水量少量多次加哦！不要一次性倒）"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "切片蒸熟",
+        "imageUrl": "https://i2.chuimg.com/c82127a9ee6242a289f441b17457d712_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "压成泥",
+        "imageUrl": "https://i2.chuimg.com/2c66a9e667fe480e9ce44ceed74c4954_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "25克水和酵母化开",
+        "imageUrl": "https://i2.chuimg.com/9e18d874e0444434b83dd4df493f8f91_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入步骤3的酵母水和50克左右的水，混合搅拌成团",
+        "imageUrl": "https://i2.chuimg.com/1a89c7a8134e4cf3b2f31dc4d3804668_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "不需要发酵直接分割成8个小面团，根据自家电饭锅大小分割哦！不用和我一样，每家电饭锅也是不同的😄",
+        "imageUrl": "https://i2.chuimg.com/13f6e4c2473042ff9b164a9109b6247b_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这是自己炒的豆沙，非常好吃😋",
+        "imageUrl": "https://i2.chuimg.com/1dd18c53304d41838aa9d52304580a75_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "包馅",
+        "imageUrl": "https://i2.chuimg.com/583030e72a7842558bcf52a658bcd64f_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "电饭锅底部放油和少量糖，我放了25克糖，我比较爱吃甜，你们不放也行，看自己喜欢，不喜欢油多也可以锅底少量涂成油也行！",
+        "imageUrl": "https://i2.chuimg.com/cf367e81989d435187ddef020dfb60dd_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "我放在里面一晚上😄预约煮饭功能第二天早上就可以吃了，我算好时间的，刚煮好就打开吃啦！因为煮好后怕时间长焖在里面滴水在表面，所以，我一般洗漱完正好熟哦！",
+        "imageUrl": "https://i2.chuimg.com/80dc2853c0934f9781396b6cc6c1822b_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "熟了，不需要蒸锅，没有一滴水！很方便，关键还很好吃😋",
+        "imageUrl": "https://i2.chuimg.com/a5b50a4416f34bbf913670856eab9e17_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "底部金黄，又脆又香！",
+        "imageUrl": "https://i2.chuimg.com/debb0854d2f4413da6a664da27888462_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "表面蓬松暄软",
+        "imageUrl": "https://i2.chuimg.com/604c06203ee3404582d751095f43a813_1242w_994h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "内部香甜，开吃啦！赶紧试试吧！是不是很简单？",
+        "imageUrl": "https://i2.chuimg.com/07f0d9e33ecf46a08a64806a8ef162ea_1242w_994h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 137.7,
+      "protein": 1.1,
+      "carbs": 34.7,
+      "fat": 0.2,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106679145/"
   }
 ]
