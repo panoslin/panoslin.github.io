@@ -24204,5 +24204,70 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7493435554219019571"
+  },
+  {
+    "id": 283,
+    "title": "贵州糍粑辣椒🌶️",
+    "category": [
+      "中餐",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_283.png",
+    "description": "贵州糍粑辣椒的详细制作方法",
+    "ingredients": [
+      {
+        "name": "遵义辣椒（干辣椒）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "把遵义辣椒和小米辣的头部（辣椒蒂）剪掉。",
+      {
+        "text": "锅中水烧开，下辣椒煮，用手捏着感觉辣椒里面有黏糯的手感即可捞出。",
+        "imageUrl": "images/recipe_283_step_2.png"
+      },
+      "把煮好的辣椒捞出来，放进擂钵里。",
+      "加入姜和蒜。",
+      {
+        "text": "一起擂碎，擂到像糍粑一样黏糊糊的样子就可以了。",
+        "imageUrl": "images/recipe_283_step_5.png"
+      },
+      "加入适量盐和白酒，更易保存。",
+      "做好的糍粑辣椒平时炒菜、做火锅都很美味。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7472379469492194620"
   }
 ]
