@@ -29239,5 +29239,80 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104614024/"
+  },
+  {
+    "id": 333,
+    "title": "强身健体，提高免疫力\n【姬松茸虫草花鸡汤】",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/f6fac40c83734ae488161bf54d4451f6_1280w_1023h.jpg?imageView2/1/w/800",
+    "description": "【强身健体，提高免疫力\n【姬松茸虫草花鸡汤】】1.准备好食材，清洗干净；2.虫草花，姬松茸洗干净，泡20分钟备用，记得泡的水不要倒了，留着煲；3.鸡胸架煮开水焯一下，再用冷水洗，晾干水分备用；4.食材，泡好的姬松茸和水一起倒进炖盅里；5.洗干净的鸡一起但进去；6.盖上炖2小时，喝",
+    "ingredients": [
+      {
+        "name": "虫草花",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "枸杞",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "鸡胸架",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "姬松茸",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "生姜",
+        "quantity": 3,
+        "unit": "片"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "1.准备好食材，清洗干净",
+        "imageUrl": "https://i2.chuimg.com/48f36202ad42458fae32227bd57d78f3_1280w_1023h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "2.虫草花，姬松茸洗干净，泡20分钟备用，记得泡的水不要倒了，留着煲。",
+        "imageUrl": "https://i2.chuimg.com/006dfc389ae148fa94fe624377d780fa_1280w_1023h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "3.鸡胸架煮开水焯一下，再用冷水洗，晾干水分备用",
+        "imageUrl": "https://i2.chuimg.com/dd48b511d57144d59291c77f821437c2_2668w_2668h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "4.食材，泡好的姬松茸和水一起倒进炖盅里",
+        "imageUrl": "https://i2.chuimg.com/30e6e00d6ae1427aa4427915dfd19edf_1280w_1023h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "5.洗干净的鸡一起但进去",
+        "imageUrl": "https://i2.chuimg.com/0e28324f3aaf4398b8b12a01a291a913_1280w_1023h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "6.盖上炖2小时，喝时加适量盐即可",
+        "imageUrl": "https://i2.chuimg.com/00aaff85daf9476d95d60427fc063306_2000w_2668h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 276.1,
+      "protein": 29.4,
+      "carbs": 21.0,
+      "fat": 6.3,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/104119968/"
   }
 ]
