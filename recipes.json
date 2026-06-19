@@ -34844,5 +34844,56 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/106913359/"
+  },
+  {
+    "id": 399,
+    "title": "【简】万用蒜香油（潮汕猪杂汤粉）",
+    "category": [
+      "蒜香"
+    ],
+    "imageUrl": "https://i2.chuimg.com/a08f1b60485c474eab19f475a89099e8_1318w_1054h.jpg?imageView2/1/w/800",
+    "description": "万用蒜香油（潮汕猪杂汤粉）】1.蒜掰开，每一粒都清理干净；2.打成颗粒，是颗粒哦，不是末，也不是蓉，也不是泥…是颗粒（没有打粒工具的刀切也可以哦，就是累点(｡ì _ í｡)）；3.锅下油烧开，下蒜粒。慢火；4.保持慢火，轻轻的搅拌，大概5.6分钟，蒜粒碰撞的声音会变得清脆，等转成",
+    "ingredients": [
+      {
+        "name": "大蒜",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "玉米油",
+        "quantity": 350,
+        "unit": "ml"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "蒜掰开，每一粒都清理干净。",
+        "imageUrl": "https://i2.chuimg.com/184e451818cc4b7eb485fb26ab44943d_2160w_2160h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "打成颗粒，是颗粒哦，不是末，也不是蓉，也不是泥…是颗粒（没有打粒工具的刀切也可以哦，就是累点(｡ì _ í｡)）。",
+        "imageUrl": "https://i2.chuimg.com/0aa27414d8e248c586cc1ac1d6bd647e_2160w_2160h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅下油烧开，下蒜粒。慢火",
+        "imageUrl": "https://i2.chuimg.com/8f3a85311bfd45fd8133c8ac235abe34_2160w_2160h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "保持慢火，轻轻的搅拌，大概5.6分钟，蒜粒碰撞的声音会变得清脆，等转成这个颜色（大部分黄色还带点蒜的白色）就可以关火啦！关火！关火！关火！",
+        "imageUrl": "https://i2.chuimg.com/f2f4f739fc0643d8a64a8283dffa46b2_2160w_2160h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "油和锅的余温会把蒜粒转变成这个成熟的金黄颜色。千万不要煮成这个颜色再关火！如果这样的时候关火，余温会把蒜粒烧糊掉，糊掉的蒜粒是会苦的，就不能吃了，而且也不健康！切记！",
+        "imageUrl": "https://i2.chuimg.com/e280f18a42d24adf98f53068c5704c09_2160w_2160h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1137.0,
+      "protein": 46.7,
+      "carbs": 245.3,
+      "fat": 6.7,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/104277795/"
   }
 ]
