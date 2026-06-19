@@ -40703,5 +40703,96 @@
       "salt": 0.25
     },
     "source": "https://www.xiachufang.com/recipe/107115626/"
+  },
+  {
+    "id": 463,
+    "title": "懒人快手菜！一口气做了半个月的饭团",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_463.png",
+    "description": "香肠海苔饭团 🍙的详细制作方法",
+    "ingredients": [
+      {
+        "name": "粳米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糯米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海苔碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "番茄酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海苔片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "将粳米和糯米按2:1的比例放入锅中，加入1.5倍的水。",
+      "加入切碎的香肠，用快煮功能开始煮，大约20多分钟米饭就煮好了。",
+      "先把煮好的米饭打散。",
+      "加入海苔碎拌匀。",
+      {
+        "text": "调料汁：酱油、蚝油、番茄酱、蜂蜜加少量的水拌匀；加入生菜，浇上料汁拌匀。",
+        "imageUrl": "images/recipe_463_step_5.png"
+      },
+      {
+        "text": "取一块饭团，用手捏出三角形，用力捏紧就不容易散开。",
+        "imageUrl": "images/recipe_463_step_6.png"
+      },
+      "贴上一片海苔，一个饭团就做好了。",
+      "可以一次多做点，用保鲜膜包好冷冻起来，吃之前用微波炉加热即可。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107119440/"
   }
 ]
