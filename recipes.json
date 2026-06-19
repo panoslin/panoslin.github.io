@@ -40377,5 +40377,83 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107078791/"
+  },
+  {
+    "id": 459,
+    "title": "双重口感✅生巧奶冻🍫入口即化超浓郁",
+    "category": [
+      "甜品",
+      "甜点"
+    ],
+    "imageUrl": "images/recipe_459.png",
+    "description": "生巧奶冻🍫的详细制作方法",
+    "ingredients": [
+      {
+        "name": "黑巧克力(55%，奶冻层)",
+        "quantity": 75,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "糖(奶冻层)",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "淡奶油(奶冻层)",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "吉利丁片",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "黑巧克力(75%，生巧淋面)",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "淡奶油(生巧淋面)",
+        "quantity": 120,
+        "unit": "克"
+      },
+      {
+        "name": "糖(生巧淋面)",
+        "quantity": 8,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "吉利丁片提前用冰水泡软备用。",
+      "锅中加入牛奶、糖和黑巧克力碎，开小火加热至巧克力完全融化后关火。",
+      "加入泡软的吉利丁片和淡奶油，搅拌均匀。",
+      {
+        "text": "有颗粒没关系，过筛多几次让奶冻液更细腻。",
+        "imageUrl": "images/recipe_459_step_4.png"
+      },
+      "倒入杯中约8分满，冷藏3小时以上定型。",
+      {
+        "text": "制作生巧淋面：黑巧克力加入70度的热奶油和糖，融化搅拌均匀后放凉至手温。",
+        "imageUrl": "images/recipe_459_step_6.png"
+      },
+      {
+        "text": "将淋面淋到定型好的奶冻上，再冷藏半小时即可。",
+        "imageUrl": "images/recipe_459_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 2028.8,
+      "protein": 17.6,
+      "carbs": 136.2,
+      "fat": 158.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107086784/"
   }
 ]
