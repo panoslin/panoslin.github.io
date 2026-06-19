@@ -32285,5 +32285,40 @@
       "salt": 0.32
     },
     "source": "https://www.xiachufang.com/recipe/106964474/"
+  },
+  {
+    "id": 371,
+    "title": "简单又节能的水煮蛋",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/cd9be2128b7911e6b87c0242ac110003_1560w_2080h.jpg?imageView2/1/w/800",
+    "description": "1.这个秘方是妈妈教的，水没过鸡蛋，盖盖子，水沸腾后计时1-2分钟，然后关火，焖3-4分钟。泡冷水，剥壳，就煮出蛋白和蛋黄都嫩嫩滴水煮蛋了，记着这个1234的口诀，就不用担心煮不熟或者煮老了，😘🍳绝对是省电/省煤气的方子哦",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "这个秘方是妈妈教的，水没过鸡蛋，盖盖子，水沸腾后计时1-2分钟，然后关火，焖3-4分钟。泡冷水，剥壳，就煮出蛋白和蛋黄都嫩嫩滴水煮蛋了，记着这个1234的口诀，就不用担心煮不熟或者煮老了，😘🍳绝对是省电/省煤气的方子哦。",
+        "imageUrl": "https://i2.chuimg.com/a8ebbfea922d11e6a9a10242ac110002_1560w_2080h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/101869222/"
   }
 ]
