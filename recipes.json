@@ -40936,5 +40936,75 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107136753/"
+  },
+  {
+    "id": 466,
+    "title": "搅一搅就成功❗三色烤奶皮💛 酥脆可口 ✅",
+    "category": [
+      "甜点",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_466.png",
+    "description": "三色烤奶皮💛的详细制作方法",
+    "ingredients": [
+      {
+        "name": "黄油",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "奶油",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "糖粉",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "奶粉",
+        "quantity": 60,
+        "unit": "克"
+      },
+      {
+        "name": "可可粉（可可口味）",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "抹茶粉（抹茶口味）",
+        "quantity": 3,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "黄油融化后，加入奶油、糖粉，搅合均匀",
+        "imageUrl": "images/recipe_466_step_1.png"
+      },
+      {
+        "text": "筛入粉类（奶粉；可可味加可可粉、抹茶味加抹茶粉），揉成面团",
+        "imageUrl": "images/recipe_466_step_2.png"
+      },
+      "三种口味做法相同，仅调整粉类配比",
+      {
+        "text": "将面团擀至1~2mm厚，用模具印出形状，冷冻10分钟",
+        "imageUrl": "images/recipe_466_step_4.png"
+      },
+      {
+        "text": "放入烤盘，165度烤8-10分钟（用烤垫更平整）",
+        "imageUrl": "images/recipe_466_step_5.png"
+      },
+      "烤好取出放凉，酥脆可口即可"
+    ],
+    "nutrition": {
+      "calories": 281.9,
+      "protein": 1.2,
+      "carbs": 18.5,
+      "fat": 24.3,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107148112/"
   }
 ]
