@@ -30214,5 +30214,65 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/100385245/"
+  },
+  {
+    "id": 346,
+    "title": "电饭锅版香甜南瓜粥",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/622cd249a5e244198628f6110fdc815b_1242w_994h.jpg?imageView2/1/w/800",
+    "description": "1.南瓜洗净去皮去瓤 切成小块儿；2.大米洗净；3.加入洗好的南瓜块儿 水量莫过南瓜块儿为宜；4.喜欢偏甜口的人可以适当加一些冰糖；5.按下煮粥键 煮好后用汤勺把南瓜压成泥 再煮十分钟（我这个就直接选了再加热）；6.最后就完成啦（当做早餐的可以直接预约时间煮粥，一睁眼就可以喝到香",
+    "ingredients": [
+      {
+        "name": "大米",
+        "quantity": "适量",
+        "unit": "半杯"
+      },
+      {
+        "name": "南瓜",
+        "quantity": "适量",
+        "unit": "一小块"
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "南瓜洗净去皮去瓤 切成小块儿",
+        "imageUrl": "https://i2.chuimg.com/ad3bb261958a4c639ca29b01a73d9d43_1153w_923h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "大米洗净",
+        "imageUrl": "https://i2.chuimg.com/20001c81909b4a53b3b19b108c4676ac_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入洗好的南瓜块儿 水量莫过南瓜块儿为宜",
+        "imageUrl": "https://i2.chuimg.com/25c997cdee1a42f38b6a3b5b4c8980a6_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "喜欢偏甜口的人可以适当加一些冰糖",
+        "imageUrl": "https://i2.chuimg.com/8c7ffe4aca5243429bfb57d265b1b639_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "按下煮粥键 煮好后用汤勺把南瓜压成泥 再煮十分钟（我这个就直接选了再加热）",
+        "imageUrl": "https://i2.chuimg.com/ef915cbcfee94c738114c46fc8cf4466_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "最后就完成啦（当做早餐的可以直接预约时间煮粥，一睁眼就可以喝到香喷喷的南瓜粥啦～）是不是超级简单呢^o^",
+        "imageUrl": "https://i2.chuimg.com/34c8a2d4877347d186e71e5f64e3427a_1242w_994h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/103884227/"
   }
 ]
