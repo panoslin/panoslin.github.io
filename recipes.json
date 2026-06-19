@@ -37960,5 +37960,118 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/101809618/"
+  },
+  {
+    "id": 432,
+    "title": "秒杀麦旋风一条街的奥利奥朗姆冰激凌🍦、谁做谁成功.",
+    "category": [
+      "甜品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/6d4fcf7f330a4eb986b02ac8745ef9a4_1280w_960h.jpg?imageView2/1/w/800",
+    "description": "1.准备好所有材料；2.把蛋黄和白砂糖1混合搅拌均匀；3.牛奶煮至冒泡、稍回凉后倒入蛋黄中、边倒边搅拌至混合均匀；4.然后再倒回锅中，小火加热、搅拌至粘稠关火；5.回凉后加入炼乳搅拌均匀；6.再加入朗姆酒搅拌均匀；7.将淡奶油打发至纹理清晰后加入蛋黄糊搅拌均匀；8.再加入奥利奥碎",
+    "ingredients": [
+      {
+        "name": "蛋黄",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "白砂糖1",
+        "quantity": 15,
+        "unit": "克（蛋黄混合用）"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 70,
+        "unit": "克"
+      },
+      {
+        "name": "淡奶油",
+        "quantity": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "白砂糖2",
+        "quantity": 10,
+        "unit": "克（打发淡奶油用）"
+      },
+      {
+        "name": "奥利奥碎",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "朗姆酒",
+        "quantity": 1,
+        "unit": "瓶盖"
+      },
+      {
+        "name": "炼乳",
+        "quantity": 2,
+        "unit": "小勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "1、准备好所有材料.",
+        "imageUrl": "https://i2.chuimg.com/d483722bb3da4b2c9ecd57fd139b3674_1006w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "2、把蛋黄和白砂糖1混合搅拌均匀.",
+        "imageUrl": "https://i2.chuimg.com/ee09014106864a75a0137b2e9cc666c5_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "3、牛奶煮至冒泡、稍回凉后倒入蛋黄中、边倒边搅拌至混合均匀.",
+        "imageUrl": "https://i2.chuimg.com/b3963cb5f3264b7f809a68d51c1bd2e2_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "4、然后再倒回锅中，小火加热、搅拌至粘稠关火.",
+        "imageUrl": "https://i2.chuimg.com/f6322f63d5e54729a773c8f487ef9d4b_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "5、回凉后加入炼乳搅拌均匀.",
+        "imageUrl": "https://i2.chuimg.com/416a6c88deea424dbfd53ea419d48c61_1280w_1187h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "6、再加入朗姆酒搅拌均匀.",
+        "imageUrl": "https://i2.chuimg.com/f8064f52ca734684b39a86571ff3036f_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "7、将淡奶油打发至纹理清晰后加入蛋黄糊搅拌均匀.",
+        "imageUrl": "https://i2.chuimg.com/3e51bd9705e2462690cc9658c90771ce_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "8、再加入奥利奥碎搅拌均匀.",
+        "imageUrl": "https://i2.chuimg.com/797d4bc8f72246b484b734d2de2615f4_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "9、搅拌均匀后的样子.",
+        "imageUrl": "https://i2.chuimg.com/ad978e2ed8a34d55b5b56ff51119e25e_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "10、把冰激凌糊倒入密封盒里面震几下.",
+        "imageUrl": "https://i2.chuimg.com/e9fb4aac8603416aa8cb80a066ea4a34_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "11、盖好密封盖后放入冰箱冷冻室.",
+        "imageUrl": "https://i2.chuimg.com/4c704c25431b45a8a8fde20a4704ccef_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "12、冷冻四个小时后就可以吃啦，这味道谁吃谁爱、根本停不下来呢😄",
+        "imageUrl": "https://i2.chuimg.com/3cacaf9c87f045eeac0563bcd20576bc_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "13、马上吃光光、明天接着做😂",
+        "imageUrl": "https://i2.chuimg.com/bae5b0747c7c405ca95f592182401f54_1280w_960h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1219.5,
+      "protein": 23.5,
+      "carbs": 37.0,
+      "fat": 108.1,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106426870/"
   }
 ]
