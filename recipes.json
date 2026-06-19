@@ -41696,5 +41696,85 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107392568/"
+  },
+  {
+    "id": 475,
+    "title": "地中海风味蘑菇煎土豆",
+    "category": [
+      "西餐",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_475.png",
+    "description": "地中海风味蘑菇煎土豆的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛排菇",
+        "quantity": 300,
+        "unit": "克"
+      },
+      {
+        "name": "土豆",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 3,
+        "unit": "瓣"
+      },
+      {
+        "name": "黑松露酱",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "欧芹",
+        "quantity": 1,
+        "unit": "小把"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "土豆切小块。",
+      "牛排菇切块，也可以选择任意喜欢的蘑菇。",
+      "水开后放入土豆，煮8分钟左右，捞出备用。",
+      {
+        "text": "平底锅中多倒点橄榄油，倒入煮熟的土豆，煎至上色后翻面。",
+        "imageUrl": "images/recipe_475_step_4.png"
+      },
+      "倒入牛排菇，摊平方便煎上色，撒入盐和黑胡椒。",
+      {
+        "text": "牛排菇上色后翻面，期间少翻动，更容易煎出美拉德反应。",
+        "imageUrl": "images/recipe_475_step_6.png"
+      },
+      "放入蒜末，翻炒一下。",
+      {
+        "text": "接着放入2勺黑松露酱，翻炒至香气四溢。",
+        "imageUrl": "images/recipe_475_step_8.png"
+      },
+      "撒入欧芹碎，翻炒一下即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 204.5,
+      "protein": 5.6,
+      "carbs": 47.2,
+      "fat": 0.3,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107431517/"
   }
 ]
