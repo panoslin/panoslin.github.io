@@ -30414,5 +30414,109 @@
       "salt": 2.92
     },
     "source": "https://www.xiachufang.com/recipe/256030/"
+  },
+  {
+    "id": 348,
+    "title": "地中海风味鲜虾时蔬粥🥣",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/a84b67940c1d4af5a297f315de9025f7_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.准备食材如图；2.虾仁🍤洗净，加入适量味好美海鲜专用调味料调味，它是黄油蒜香风味的，里面添加了大蒜，甜罗勒，迷迭香，欧芹等香辛料，适用于烹饪各种海鲜产品，可以有效的去腥增香，非常好用，建议备一瓶在家使用；3.大米洗净放锅中，加入适量清水，炖煮至粥熟软；4.加入蔬菜丁小火炖煮至",
+    "ingredients": [
+      {
+        "name": "虾仁",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "玉米粒",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "豌豆🫛",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "胡萝卜🥕",
+        "quantity": "适量",
+        "unit": "半根"
+      },
+      {
+        "name": "大米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味好美海鲜专用调味料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备食材如图",
+        "imageUrl": "https://i2.chuimg.com/3598a1c5eee24c1c8eaedb770966e9f1_2443w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "虾仁🍤洗净，加入适量味好美海鲜专用调味料调味，它是黄油蒜香风味的，里面添加了大蒜，甜罗勒，迷迭香，欧芹等香辛料，适用于烹饪各种海鲜产品，可以有效的去腥增香，非常好用，建议备一瓶在家使用",
+        "imageUrl": "https://i2.chuimg.com/a4ed91d5b7ce44a7a094c60f8263be41_2237w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "大米洗净放锅中，加入适量清水，炖煮至粥熟软",
+        "imageUrl": "https://i2.chuimg.com/99a1330eafce4b68a624b111577907f6_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入蔬菜丁小火炖煮至熟透",
+        "imageUrl": "https://i2.chuimg.com/1cbfcb2e94654a9e9d113cda878b97f1_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再加入腌好的虾仁🍤搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/ebf6123fe64243c98fd0a7183bdefd33_2273w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "等待虾仁成熟关火",
+        "imageUrl": "https://i2.chuimg.com/4d0bf3c181854adab3d75821c087507d_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入适量盐调味",
+        "imageUrl": "https://i2.chuimg.com/7b2269ba0a7a49d29c644f3965914ca1_2107w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "装碗中食用",
+        "imageUrl": "https://i2.chuimg.com/e76d856f3f944e8c814e5af164f067ad_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "鲜香味美，口感滑嫩，大人小孩都爱喝",
+        "imageUrl": "https://i2.chuimg.com/2bd08d855d3142de83754b874e658b26_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "成品图",
+        "imageUrl": "https://i2.chuimg.com/eb939a2ec5f348c6a0ea4cf750af3725_2560w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "寒冷的冬天趁热喝一碗，暖心又暖胃",
+        "imageUrl": "https://i2.chuimg.com/535e2ca1d6f94644ad5e38190f95fa6e_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "营养美味的鲜虾粥，你也试试吧",
+        "imageUrl": "https://i2.chuimg.com/1c3e0f8a4f9a4926926d442e1ba815e2_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 94.4,
+      "protein": 18.7,
+      "carbs": 3.1,
+      "fat": 0.8,
+      "salt": 1.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107478725/"
   }
 ]
