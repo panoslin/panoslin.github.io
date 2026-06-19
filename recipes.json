@@ -38586,5 +38586,72 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107014491/"
+  },
+  {
+    "id": 439,
+    "title": "真的无敌好吃的半熟芝士‼️",
+    "category": [
+      "蛋糕"
+    ],
+    "imageUrl": "https://i2.chuimg.com/633f152e23534980b9ebe8c0fb50ba52_1595w_2124h.jpg?imageView2/1/w/800",
+    "description": "1.就是所有食材搅拌；2.奶油奶酪软化到手指能按软就可以，不要化太多！糖40g足够甜了！烤箱要先预热，烤好后放凉再冷藏。刚烤好是能晃动的状态，不要以为没熟透，冷藏后就可以了；3.自己做成本30多，外面卖一两百；4.就是好吃",
+    "ingredients": [
+      {
+        "name": "奶油奶酪",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "蛋黄",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "淡奶油",
+        "quantity": 120,
+        "unit": "克"
+      },
+      {
+        "name": "白砂糖",
+        "quantity": 40,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "就是所有食材搅拌",
+        "imageUrl": "https://i2.chuimg.com/5b31cc3393e5407381937509e349a437_480w_384h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "奶油奶酪软化到手指能按软就可以，不要化太多！糖40g足够甜了！烤箱要先预热，烤好后放凉再冷藏。刚烤好是能晃动的状态，不要以为没熟透，冷藏后就可以了！",
+        "imageUrl": "https://i2.chuimg.com/88ea22abe46f4461afad2e33702de1b0_914w_796h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "自己做成本30多，外面卖一两百",
+        "imageUrl": "https://i2.chuimg.com/c5209bcc9e8a4734af533929bf070b21_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "就是好吃！",
+        "imageUrl": "https://i2.chuimg.com/35ceae444cba41b7801ef6593da667b0_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1676.2,
+      "protein": 35.9,
+      "carbs": 62.0,
+      "fat": 143.6,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106963654/"
   }
 ]
