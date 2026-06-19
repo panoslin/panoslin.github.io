@@ -24547,5 +24547,125 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7476098669196987708"
+  },
+  {
+    "id": 286,
+    "title": "干锅虾🦐",
+    "category": [
+      "海鲜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_286.png",
+    "description": "干锅虾🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红薯淀粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "土豆（洋芋）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "莲藕",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干锅酱",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "糍粑辣椒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜苗",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青红辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "熟芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "腌虾：虾加少量盐、一勺红薯淀粉抓匀，腌制10分钟。",
+      {
+        "text": "油热后倒入腌好的虾，炒至焦香后捞出。",
+        "imageUrl": "images/recipe_286_step_2.png"
+      },
+      "土豆（洋芋）下锅炸至金黄捞出。",
+      "藕片下锅炸熟，捞出备用。",
+      "锅留底油，下姜蒜片、干辣椒、花椒粒炒出香味。",
+      {
+        "text": "加入2勺干锅酱、1勺糍粑辣椒，炒匀出红油。",
+        "imageUrl": "images/recipe_286_step_6.png"
+      },
+      {
+        "text": "倒入炸好的虾、藕片、土豆，淋入酱油炒均匀。",
+        "imageUrl": "images/recipe_286_step_7.png"
+      },
+      "放入蒜苗、洋葱、青红辣椒翻炒断生。",
+      "撒一把熟芝麻翻匀即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 1.0,
+      "protein": 0.0,
+      "carbs": 0.2,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7488730555408764218"
   }
 ]
