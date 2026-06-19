@@ -38766,5 +38766,70 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107008051/"
+  },
+  {
+    "id": 442,
+    "title": "舒芙蕾（消耗少量蛋清）",
+    "category": [
+      "蛋糕"
+    ],
+    "imageUrl": "https://i2.chuimg.com/4e085b9431d4423f9628ca5fb1ee342b_3024w_4032h.jpg?imageView2/1/w/800",
+    "description": "1.往蛋清里挤几滴柠檬汁打发蛋清（没柠檬汁可以用醋代替，主要是去腥）；2.分三次加入白糖打发蛋清，可以看到是湿性状态（大弯勾）；3.再加入玉米淀粉继续打发到中性状态，也就是这样小勾勾的样子；4.烤箱预热好，将打发好的蛋清直接倒在锡纸上，烤箱150度，25分钟左右即可（可以加点蔓越",
+    "ingredients": [
+      {
+        "name": "蛋清",
+        "quantity": "适量",
+        "unit": "一个"
+      },
+      {
+        "name": "柠檬汁（可用醋代替）",
+        "quantity": "适量",
+        "unit": "几滴"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "—10克（爱吃甜点的10克）"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 3.3,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "往蛋清里挤几滴柠檬汁打发蛋清（没柠檬汁可以用醋代替，主要是去腥）",
+        "imageUrl": "https://i2.chuimg.com/c0b2eb05c7154864bba18c86a577b549_2703w_2479h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "分三次加入白糖打发蛋清，可以看到是湿性状态（大弯勾）",
+        "imageUrl": "https://i2.chuimg.com/7cb9b45d807e4fd5b5ecbcfa8878ca0e_2629w_2795h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再加入玉米淀粉继续打发到中性状态，也就是这样小勾勾的样子",
+        "imageUrl": "https://i2.chuimg.com/91b5f3dba5c94ea18acf7c5e2e5c00e2_2808w_3180h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤箱预热好，将打发好的蛋清直接倒在锡纸上，烤箱150度，25分钟左右即可（可以加点蔓越莓干装饰）",
+        "imageUrl": "https://i2.chuimg.com/a542755d63fc4fcab27320e23048cfdb_3407w_2571h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤得表面金黄就可以了",
+        "imageUrl": "https://i2.chuimg.com/c197fcaf197a4f99adc63cbe7e59d98c_3589w_2350h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "看，吃云朵了",
+        "imageUrl": "https://i2.chuimg.com/32f4f16d8d464c0b9b9ee983ecd97d38_3024w_4032h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 31.4,
+      "protein": 0.0,
+      "carbs": 8.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/105905179/"
   }
 ]
