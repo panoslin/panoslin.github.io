@@ -40150,5 +40150,146 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107066616/"
+  },
+  {
+    "id": 457,
+    "title": "在家也能吃到广式叉烧肉包，皮薄馅大超好吃",
+    "category": [
+      "粤菜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_457.png",
+    "description": "广式叉烧肉包🥟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "五花肉",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "洋葱",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "叉烧酱",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "黄豆酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白糖（馅料）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "清水（馅料）",
+        "quantity": 200,
+        "unit": "毫升"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "清水（兑淀粉）",
+        "quantity": 50,
+        "unit": "毫升"
+      },
+      {
+        "name": "普通面粉",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "酵母粉",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "泡打粉",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "白糖（面皮）",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 120,
+        "unit": "毫升"
+      },
+      {
+        "name": "清水（面皮）",
+        "quantity": 120,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "把五花肉去皮后切成小丁，半个洋葱洗净切碎备用。",
+      {
+        "text": "调叉烧汁：叉烧酱2勺、黄豆酱1勺、蚝油1勺、生抽2勺、老抽1勺、白糖2勺，加200毫升清水搅拌均匀。",
+        "imageUrl": "images/recipe_457_step_2.png"
+      },
+      "锅里倒入少量食用油，油热后放入五花肉，开中小火不停翻动煸炒出油分，再把姜片捡出来。",
+      "放入切好的洋葱碎炒软，倒入之前调好的叉烧汁，搅拌均匀后煮10分钟。",
+      {
+        "text": "煮到水分快收干时倒入淀粉水（30克玉米淀粉+50毫升清水），熬至非常浓稠后倒入碗里放凉凝固成馅。",
+        "imageUrl": "images/recipe_457_step_5.png"
+      },
+      "制作包子皮：500克普通面粉加5克酵母粉、3克泡打粉、20克白糖搅拌一下，再倒入120毫升牛奶和120毫升清水，搅拌至棉絮状后用手揉成光滑面团。",
+      "盖上保鲜膜，放在温暖的地方发酵至两倍大（拉开内部有蜂窝组织）。",
+      "发好的面团放案板上揉出气体，搓成长条，切成大小均匀的面剂，每个约40克。",
+      {
+        "text": "用擀面杖将面剂擀成边缘薄、中间厚的包子皮。",
+        "imageUrl": "images/recipe_457_step_9.png"
+      },
+      {
+        "text": "放入凝固好的叉烧馅料，拇指不动、左右手提拉捏出包子的褶花。",
+        "imageUrl": "images/recipe_457_step_10.png"
+      },
+      "包子下面垫一张油纸，放锅里二次发酵30分钟至体积变大。",
+      "热水上锅蒸15分钟，关火焖3分钟即可。"
+    ],
+    "nutrition": {
+      "calories": 464.2,
+      "protein": 4.5,
+      "carbs": 104.3,
+      "fat": 4.0,
+      "salt": 0.54
+    },
+    "source": "https://www.xiachufang.com/recipe/107069511/"
   }
 ]
