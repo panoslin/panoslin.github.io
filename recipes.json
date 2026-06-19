@@ -23558,5 +23558,48 @@
       "salt": 7.62
     },
     "source": "https://www.douyin.com/video/7493496253242805562"
+  },
+  {
+    "id": 275,
+    "title": "冻芒果酸奶🥭",
+    "category": [
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_275.png",
+    "description": "冻芒果酸奶🥭的详细制作方法",
+    "ingredients": [
+      {
+        "name": "芒果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酸奶",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "芒果去皮，处理干净。",
+      "在芒果上插一根舔干净的雪糕棍，方便握取。",
+      "放入冰箱冷冻一晚上，忍住别偷吃。",
+      {
+        "text": "取出冻硬的芒果，扎进酸奶里。",
+        "imageUrl": "images/recipe_275_step_4.png"
+      },
+      {
+        "text": "拿起来静置约两分钟，酸奶遇冷在芒果表面凝固。",
+        "imageUrl": "images/recipe_275_step_5.png"
+      },
+      "此时芒果不再咯牙，纯甜没有冰渣，口感沙沙的，即可享用。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7495303750694784297"
   }
 ]
