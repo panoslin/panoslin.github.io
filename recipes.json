@@ -36175,5 +36175,124 @@
       "salt": 0.46
     },
     "source": "https://www.xiachufang.com/recipe/105958886/"
+  },
+  {
+    "id": 413,
+    "title": "香煎巴沙鱼（龙利鱼）",
+    "category": [
+      "煎"
+    ],
+    "imageUrl": "https://i2.chuimg.com/f276ad5b3d054d33bdcaaac3d877ed02_1280w_1024h.jpg?imageView2/1/w/800",
+    "description": "1.冻巴沙鱼柳，自然解冻；2.解冻后清洗干净；3.准备空碗，调料汁，放一勺料酒；4.一勺生抽；5.一个大料；6.蒜片5片；7.白胡椒一勺，盐少许 口味淡的可以不放；8.把调好的料汁倒进巴沙鱼里，涂抹均匀腌制半小时；9.加入三勺淀粉，涂抹均匀；10.用锅也是可以的，我用的电饼铛，加",
+    "ingredients": [
+      {
+        "name": "巴沙鱼",
+        "quantity": 1,
+        "unit": "条"
+      },
+      {
+        "name": "姜",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "克（也可以不放）"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": "半勺"
+      },
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 3,
+        "unit": "勺"
+      },
+      {
+        "name": "白胡椒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "大蒜片",
+        "quantity": 5,
+        "unit": "片"
+      },
+      {
+        "name": "大料",
+        "quantity": 1,
+        "unit": "牙"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "冻巴沙鱼柳，自然解冻",
+        "imageUrl": "https://i2.chuimg.com/c46e4a45e83d4eb9aa4d36437fa0159b_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "解冻后清洗干净",
+        "imageUrl": "https://i2.chuimg.com/aee252ebfbf945a8a0aed12a30e2f19e_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备空碗，调料汁，放一勺料酒",
+        "imageUrl": "https://i2.chuimg.com/639ab560e8664722bd8271eb6ba84e8e_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "一勺生抽",
+        "imageUrl": "https://i2.chuimg.com/26e9f02452e3478b9490bed70d063720_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "一个大料",
+        "imageUrl": "https://i2.chuimg.com/2173ee36e3404e52a75464d06de03294_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蒜片5片",
+        "imageUrl": "https://i2.chuimg.com/4349f229482d423c9e18ef06ff43b43f_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "白胡椒一勺，盐少许 口味淡的可以不放",
+        "imageUrl": "https://i2.chuimg.com/d86f61f53d9947be812d5230c35da3dc_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把调好的料汁倒进巴沙鱼里，涂抹均匀腌制半小时",
+        "imageUrl": "https://i2.chuimg.com/99deda39e71d4c009c9dff090647bc7d_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入三勺淀粉，涂抹均匀",
+        "imageUrl": "https://i2.chuimg.com/968e2a021882429398d84d8cbf161830_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "用锅也是可以的，我用的电饼铛，加热刷油，放鱼柳，先不要翻面，煎两三分钟定型后在翻面",
+        "imageUrl": "https://i2.chuimg.com/fbcaf0e2b1f84821bdb8be4ca1e1ab25_1280w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "煎至两面金黄即可",
+        "imageUrl": "https://i2.chuimg.com/884348aaaad34d70a7dbfd99ab4425a5_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "出锅后撒上黑胡椒，很好吃的",
+        "imageUrl": "https://i2.chuimg.com/4d38ca4b12794cd5be058c629ddd8907_1280w_1280h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 24.4,
+      "protein": 0.5,
+      "carbs": 5.5,
+      "fat": 0.1,
+      "salt": 2.15
+    },
+    "source": "https://www.xiachufang.com/recipe/104565642/"
   }
 ]
