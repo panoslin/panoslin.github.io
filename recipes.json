@@ -25370,5 +25370,180 @@
       "salt": 5.0
     },
     "source": "https://www.douyin.com/video/7480733126059216187"
+  },
+  {
+    "id": 293,
+    "title": "春日大拌菜（麻酱版+红油版）🥗",
+    "category": [
+      "凉菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_293.png",
+    "description": "春日大拌菜（麻酱版+红油版）🥗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "莴笋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "时令蔬菜（有啥拌啥）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐（拌菜脱水用）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖（拌菜脱水用）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻酱（二八酱）",
+        "quantity": 3,
+        "unit": "勺"
+      },
+      {
+        "name": "水（澥麻酱）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽（麻酱汁）",
+        "quantity": 3,
+        "unit": "勺"
+      },
+      {
+        "name": "醋（麻酱汁）",
+        "quantity": 3,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油（麻酱汁）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白糖（麻酱汁）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "盐（麻酱汁）",
+        "quantity": 0.33,
+        "unit": "勺"
+      },
+      {
+        "name": "鸡粉（麻酱汁）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "黄豆酱（麻酱汁）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "辣椒面（麻酱汁）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜蓉（麻酱汁）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花（麻酱汁）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油（泼油激香）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻（麻酱汁）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐（糖醋麻辣汁）",
+        "quantity": 0.33,
+        "unit": "勺"
+      },
+      {
+        "name": "糖（糖醋麻辣汁）",
+        "quantity": 2.5,
+        "unit": "勺"
+      },
+      {
+        "name": "花椒面（糖醋麻辣汁）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "花椒油（糖醋麻辣汁）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "香醋（糖醋麻辣汁）",
+        "quantity": 3,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽（糖醋麻辣汁）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "红油（糖醋麻辣汁）",
+        "quantity": 4,
+        "unit": "勺"
+      },
+      {
+        "name": "葱花蒜蓉（糖醋麻辣汁）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "根据手头食材准备蔬菜：需要焯水的先飞水焯熟，像莴笋这类脆口菜建议不焯水以保留香脆口感；蔬菜切丝、打散备用（有啥拌啥，对食材没有限制）。",
+      {
+        "text": "莴笋等不焯水的脆口蔬菜放点盐和糖拌一拌，让它自然脱水，做到香香脆脆。",
+        "imageUrl": "images/recipe_293_step_2.png"
+      },
+      "凉拌前一定要把所有蔬菜的水分控干，否则拌的时候吸不进酱汁，口感会大打折扣。",
+      {
+        "text": "调麻酱凉拌汁：取3勺芝麻酱（二八酱）加一点水，澥开调到顺滑可流动的状态。",
+        "imageUrl": "images/recipe_293_step_4.png"
+      },
+      {
+        "text": "麻酱中加入生抽3勺、醋3勺、蚝油1勺、白糖1勺、盐1/3勺、鸡粉1勺、黄豆酱1勺，搅拌均匀。",
+        "imageUrl": "images/recipe_293_step_5.png"
+      },
+      {
+        "text": "辣椒面、蒜蓉、葱花浇上热油激香，再撒点芝麻（高油温激发芝麻香且不易糊），倒入调好的麻酱中拌匀，麻酱凉拌汁即成。",
+        "imageUrl": "images/recipe_293_step_6.png"
+      },
+      {
+        "text": "调糖醋麻辣汁（红油版）：盐1/3勺、糖两勺半、花椒面1勺、花椒油1勺、香醋3勺、生抽2勺、红油4勺，再加些许葱花蒜蓉，搅拌均匀。",
+        "imageUrl": "images/recipe_293_step_7.png"
+      },
+      "把控干的蔬菜分成两份，分别淋入麻酱凉拌汁和糖醋麻辣汁拌匀，即可装盘开吃；两种味道各有千秋，按喜好选择。"
+    ],
+    "nutrition": {
+      "calories": 77.5,
+      "protein": 1.0,
+      "carbs": 16.0,
+      "fat": 1.4,
+      "salt": 2.63
+    },
+    "source": "https://www.douyin.com/video/7486112534429175081"
   }
 ]
