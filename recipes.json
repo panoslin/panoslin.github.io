@@ -30139,5 +30139,80 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107202340/"
+  },
+  {
+    "id": 345,
+    "title": "老北京小吊梨汤",
+    "category": [
+      "甜品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/fcfc0102869a431a9ee8fe2153772297_2668w_1780h.jpg?imageView2/1/w/800",
+    "description": "正宗小吊梨汤的做法栏目为您推荐最正宗的小吊梨汤做法，小吊梨汤的做法步骤图解，更多正宗小吊梨汤怎么做好吃的窍门分享就来下厨房。",
+    "ingredients": [
+      {
+        "name": "雪花梨",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "清水",
+        "quantity": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "话梅",
+        "quantity": 3,
+        "unit": "颗"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 30,
+        "unit": "g-50g"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": "一小把"
+      },
+      {
+        "name": "银耳",
+        "quantity": 20,
+        "unit": "g左右 （泡发后100g）"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备好材料，梨子要选用雪花梨，汁水饱满味道清润。冰糖可以根据自己的喜好增减，话梅我买的是就小时候吃的那种九制话梅。银耳提前1小时泡发关于银耳种类请看小贴士关于银耳出胶质一定要看小贴士",
+        "imageUrl": "https://i2.chuimg.com/aee73b1c997c11e6b2400242ac110002_500w_332h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "梨子用盐水泡会儿再用盐搓洗后削皮，梨子皮要留下",
+        "imageUrl": "https://i2.chuimg.com/af1580f8997c11e69ce70242ac110002_500w_332h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "梨子切小块",
+        "imageUrl": "https://i2.chuimg.com/af4ea5f4997c11e69ce70242ac110002_500w_332h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "梨子皮是梨汤的关键，能够使得汤汁浓稠清润颜色更深，另一个关键是银耳会增加汤汁的粘稠度关于汤汁的粘稠度请看小贴士",
+        "imageUrl": "https://i2.chuimg.com/af7eb24e997c11e6b2400242ac110002_500w_332h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "用搪瓷锅炖锅等功率大些的，普通电饭锅隔水炖盅比较慢不建议使用。 水烧开放入梨子块梨子皮银耳冰糖 （银耳去掉黄色把柄部分撕块）放入话梅，话梅也是关键不能省略，加了话梅梨汤会更清甜关于酸甜度请看小贴士",
+        "imageUrl": "https://i2.chuimg.com/afac9f9c997c11e6b2400242ac110002_500w_332h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "撒一把枸杞转小火熬煮，水位下去三分之一就OK了，大概半小时左右。梨子银耳是可以吃掉哒~科普下：梨汤之所以叫梨汤就是煮出来时水一样的液体，因为加了银耳液体会浓稠一点黏糊一点，但是还是液体，不是像银耳梨子羹羹那样糊状的。  银耳梨子羹会熬煮上两小时糯糯的糊状，但是老北京梨汤只是煮半小时左右就好啦！银耳确实是偏脆的口感，梨汤就是这样的，不像是银耳羹那样糯糯的。",
+        "imageUrl": "https://i2.chuimg.com/afdbe586997c11e69ce70242ac110002_500w_332h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 406.1,
+      "protein": 2.0,
+      "carbs": 106.3,
+      "fat": 0.5,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/100385245/"
   }
 ]
