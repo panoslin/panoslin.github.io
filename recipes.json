@@ -38460,5 +38460,60 @@
       "salt": 1.51
     },
     "source": "https://www.xiachufang.com/recipe/106072041/"
+  },
+  {
+    "id": 437,
+    "title": "豆腐抱蛋🥚l减脂期吃它 真的绝了",
+    "category": [
+      "素菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/6ac31739abf344bfa697843568c0ccbd_1170w_1550h.jpg?imageView2/1/w/800",
+    "description": "1.备好食材；2.提前调好酱汁备用，一勺生抽+一勺蚝油+一勺番茄酱+一勺淀粉+半碗水 搅拌均匀；3.内脂豆腐切块放入盘中，再倒入两个搅拌好的鸡蛋液；4.热锅烧油，倒入葱花炒出香味；5.翻炒一会，倒入调好的酱汁，煮至鸡蛋凝固；6.可以每顿都吃它 完全不腻",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "内脂豆腐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "备好食材",
+        "imageUrl": "https://i2.chuimg.com/5569718ae1a84e1fbff79ed4a5c28e8a_1170w_1552h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "提前调好酱汁备用，一勺生抽+一勺蚝油+一勺番茄酱+一勺淀粉+半碗水 搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/8c0ab5cdcf92405cb6462287e71c1f25_1170w_1552h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "内脂豆腐切块放入盘中，再倒入两个搅拌好的鸡蛋液",
+        "imageUrl": "https://i2.chuimg.com/73c5624f718440abbfe9b6e85b7b8b70_1170w_1550h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "热锅烧油，倒入葱花炒出香味",
+        "imageUrl": "https://i2.chuimg.com/8e14042359de487b90b551b6d8c4d365_1170w_1554h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "翻炒一会，倒入调好的酱汁，煮至鸡蛋凝固",
+        "imageUrl": "https://i2.chuimg.com/fa44210bc2c847c1b506ab94b2e19c4a_1170w_1550h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "可以每顿都吃它 完全不腻",
+        "imageUrl": "https://i2.chuimg.com/59c2e38171f0438d832b58110a86c3fa_1170w_1545h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107174241/"
   }
 ]
