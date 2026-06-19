@@ -34895,5 +34895,64 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104277795/"
+  },
+  {
+    "id": 400,
+    "title": "瘦肉汤粉",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/71a1099c887c11e6b87c0242ac110003_650w_650h.jpg?imageView2/1/w/800",
+    "description": "1.瘦肉切薄片，加油  盐  酱油  生粉  蒜蓉  腌制半小时；2.开水煮瘦肉汤大概滚个3分钟吧，这是汤底；3.再煮锅开水烫河粉，烫好了捞上碗，生菜烫好摆边上，把葱花和芹菜撒上，再加入瘦肉汤",
+    "ingredients": [
+      {
+        "name": "香芹菜",
+        "quantity": "适量",
+        "unit": "一棵"
+      },
+      {
+        "name": "瘦肉",
+        "quantity": 3,
+        "unit": "两"
+      },
+      {
+        "name": "河粉",
+        "quantity": 2,
+        "unit": "斤"
+      },
+      {
+        "name": "葱花",
+        "quantity": 2,
+        "unit": "根"
+      },
+      {
+        "name": "蒜蓉",
+        "quantity": 3,
+        "unit": "颗"
+      },
+      {
+        "name": "生菜",
+        "quantity": "适量",
+        "unit": "一棵"
+      },
+      {
+        "name": "姜片",
+        "quantity": 3,
+        "unit": "片"
+      }
+    ],
+    "instructions": [
+      "瘦肉切薄片，加油  盐  酱油  生粉  蒜蓉  腌制半小时。",
+      "开水煮瘦肉汤大概滚个3分钟吧，这是汤底。",
+      "再煮锅开水烫河粉，烫好了捞上碗，生菜烫好摆边上，把葱花和芹菜撒上，再加入瘦肉汤。"
+    ],
+    "nutrition": {
+      "calories": 10.3,
+      "protein": 0.3,
+      "carbs": 2.3,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/100373927/"
   }
 ]
