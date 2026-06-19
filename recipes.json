@@ -27756,5 +27756,122 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7449277526968454457"
+  },
+  {
+    "id": 317,
+    "title": "豆豉鲮鱼焖排骨🐟",
+    "category": [
+      "粤菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_317.png",
+    "description": "豆豉鲮鱼焖排骨🐟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "排骨（前排）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆豉鲮鱼罐头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青红辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "松鲜鲜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "排骨选用前排，洗净沥干水分。",
+      {
+        "text": "排骨中加入盐、糖、生抽、蚝油、松鲜鲜、胡椒粉、生粉，搅拌均匀，再淋上一圈花生油，腌制15分钟。",
+        "imageUrl": "images/recipe_317_step_2.png"
+      },
+      "准备姜、葱、蒜切好；豆豉鲮鱼罐头撕成小块。",
+      {
+        "text": "锅中下油烧热，倒入排骨，全程中小火煎至两面金黄。",
+        "imageUrl": "images/recipe_317_step_4.png"
+      },
+      "接着倒入豆豉鲮鱼，让排骨吸收鱼的香味。",
+      {
+        "text": "另起砂锅烧热，倒入罐头鱼的油，下姜葱蒜爆香，放入煎好的排骨和豆豉鲮鱼铺平，中小火啫约10分钟。",
+        "imageUrl": "images/recipe_317_step_6.png"
+      },
+      "沿锅边淋一圈料酒增香去腥。",
+      {
+        "text": "最后撒上青红辣椒，焖出香味即可出锅。",
+        "imageUrl": "images/recipe_317_step_8.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7442883842597260554"
   }
 ]
