@@ -39296,5 +39296,75 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106951250/"
+  },
+  {
+    "id": 447,
+    "title": "红薯蛋奶",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/9a5b3824b17c491a8c0c8ab9f71887ec_1232w_1725h.jpg?imageView2/1/w/800",
+    "description": "1.红薯200g、牛奶80ml、白砂糖5g、鸡蛋两个。（也可以直接换成蛋挞液），有人会觉得腥，可以加点柠檬汁去腥；2.看图， 牛奶80ml、白砂糖5g、鸡蛋两个搅拌均匀；3.蛋奶液过滤倒在红薯上，空气炸锅170度25分钟. 或者烤箱200度，30分钟左右；4.特别简单好吃；5.图",
+    "ingredients": [
+      {
+        "name": "红薯",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 80,
+        "unit": "毫升"
+      },
+      {
+        "name": "白砂糖",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": "两个"
+      },
+      {
+        "name": "柠檬汁（去腥）",
+        "quantity": "适量",
+        "unit": "五滴"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "红薯200g、牛奶80ml、白砂糖5g、鸡蛋两个。（也可以直接换成蛋挞液），有人会觉得腥，可以加点柠檬汁去腥",
+        "imageUrl": "https://i2.chuimg.com/25906d9a5e974d3fb0b901dc49a266a2_1280w_854h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "看图， 牛奶80ml、白砂糖5g、鸡蛋两个搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/2df233c54f874434967da70f860b9b6c_1280w_917h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋奶液过滤倒在红薯上，空气炸锅170度25分钟. 或者烤箱200度，30分钟左右",
+        "imageUrl": "https://i2.chuimg.com/1197b8e7744d48778900b56beff36874_1279w_1663h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "特别简单好吃",
+        "imageUrl": "https://i2.chuimg.com/17242976f1b048be9508a23b018a7d3f_1280w_1403h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "图为南瓜版，南瓜可以不用蒸，直接切小块，再分成锡纸杯撒上黑芝麻，颜值更高哦。 如果蜜薯或南瓜是生的切小块直接蛋奶烤，烤的时间要延长5-10分钟（不然不熟）",
+        "imageUrl": "https://i2.chuimg.com/af719b1daa834e30be99dc19d091a503_1232w_1725h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "做芋泥的也很好吃",
+        "imageUrl": "https://i2.chuimg.com/ea34576df8874bf488ce03987a213a69_1264w_1449h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 260.6,
+      "protein": 4.6,
+      "carbs": 57.1,
+      "fat": 3.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107202375/"
   }
 ]
