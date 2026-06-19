@@ -26511,5 +26511,35 @@
       "salt": 10.91
     },
     "source": "https://www.douyin.com/video/7448456458653551899"
+  },
+  {
+    "id": 304,
+    "title": "破解版炒饭酱🍚",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_304.png",
+    "description": "破解版炒饭酱🍚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "海鲜酱",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "据视频破解结论:此炒饭酱以海鲜酱为主料",
+      "再加入两种常见小料调和,吊出层次感很强的香味(视频未公开这两种小料的具体名称)",
+      "调匀后即为成品酱,可用于炒饭(全程未给出任何用量与详细步骤)"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7480070568792902971"
   }
 ]
