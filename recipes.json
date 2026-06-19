@@ -31638,5 +31638,85 @@
       "salt": 5.0
     },
     "source": "https://www.xiachufang.com/recipe/106554478/"
+  },
+  {
+    "id": 364,
+    "title": "空气炸锅火腿肠",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/cb6cd04df14b4a2b9713294540aa56d8_1280w_853h.jpg?imageView2/1/w/800",
+    "description": "1.火腿肠改花刀刷油放空气炸锅，180度15分钟，时间到了拿出来翻一面继续烤15分钟；2.烤火腿肠期间准备调料浇热油；3.冷却之后就这样；4.等火腿肠开花就可以拿出来了，这种外酥里嫩，可以根据个人喜好更改烤的时间；5.拿出来之后刷上调料；6.趁热吃特别香",
+    "ingredients": [
+      {
+        "name": "火腿肠",
+        "quantity": 6,
+        "unit": "-7根"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "椒盐",
+        "quantity": "适量",
+        "unit": "少量"
+      },
+      {
+        "name": "孜然粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": "半勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": "半勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "火腿肠改花刀刷油放空气炸锅，180度15分钟，时间到了拿出来翻一面继续烤15分钟",
+        "imageUrl": "https://i2.chuimg.com/59a3a25f0b2e4f0b9ccfe31c61d7d2b8_1280w_853h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤火腿肠期间准备调料浇热油",
+        "imageUrl": "https://i2.chuimg.com/549160f3fab44e15bddc7b5fd4277ac5_1280w_853h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "冷却之后就这样",
+        "imageUrl": "https://i2.chuimg.com/7892fb8d3c304e83931b498993745f2e_1280w_853h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "等火腿肠开花就可以拿出来了，这种外酥里嫩，可以根据个人喜好更改烤的时间",
+        "imageUrl": "https://i2.chuimg.com/23195eeede7044f9bda64d1e426728fd_1280w_853h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "拿出来之后刷上调料",
+        "imageUrl": "https://i2.chuimg.com/e4357cfb10cd4fafb8de8497ae896176_1280w_853h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "趁热吃特别香",
+        "imageUrl": "https://i2.chuimg.com/185c2988055b4e4da911eca7c07286dc_1280w_853h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 31.7,
+      "protein": 1.5,
+      "carbs": 1.3,
+      "fat": 2.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106630260/"
   }
 ]
