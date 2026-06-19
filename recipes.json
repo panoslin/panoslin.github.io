@@ -39777,5 +39777,104 @@
       "salt": 0.15
     },
     "source": "https://www.xiachufang.com/recipe/106989121/"
+  },
+  {
+    "id": 452,
+    "title": "空气炸锅鸡腿鸡翅完美",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_452.png",
+    "description": "空气炸锅鸡腿鸡翅🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡翅",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "十三香",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "油菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡腿、鸡翅加入酱油、蚝油、十三香、海盐、黑胡椒、蒜片、料酒,抓匀腌制约1小时。",
+        "imageUrl": "images/recipe_452_step_1.png"
+      },
+      {
+        "text": "将腌好的鸡块铺入空气炸锅,180度烤15分钟。",
+        "imageUrl": "images/recipe_452_step_2.png"
+      },
+      "利用烤制间隙起锅炒青椒、油菜,加酱油、蚝油、少许水和盐调味炒熟,作为配菜。",
+      {
+        "text": "鸡块翻面,180度再烤10分钟。",
+        "imageUrl": "images/recipe_452_step_4.png"
+      },
+      {
+        "text": "取出后再200度烤3分钟,至表皮金黄酥脆即可。",
+        "imageUrl": "images/recipe_452_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/106994003/"
   }
 ]
