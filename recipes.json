@@ -32457,5 +32457,53 @@
       "salt": 13.72
     },
     "source": "https://www.xiachufang.com/recipe/106489836/"
+  },
+  {
+    "id": 374,
+    "title": "毫无难度！一分钟做生椰乳Dirty🥥",
+    "category": [
+      "咖啡"
+    ],
+    "imageUrl": "https://i2.chuimg.com/254ebe5feff94e41a048decd6fdd2614_854w_854h.jpg?imageView2/1/w/800",
+    "description": "1.已经养成习惯，喝完就把杯子洗净重新放回冷冻室。\n杯子的温度对dirty是否够污起到很重要的作用喔；2.g 菲诺厚椰乳，这款味道真的不错，价格也便宜，1L也就二十来块，唯一一点就是这个包装实在不好储存；3.直接将浓缩萃进椰乳里\n让萃取嘴尽可能靠近液面，也可以用勺子🥄的背面进行一",
+    "ingredients": [
+      {
+        "name": "厚椰乳",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "浓缩",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "容量为120ml的玻璃杯",
+        "quantity": "适量",
+        "unit": "一只"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "已经养成习惯，喝完就把杯子洗净重新放回冷冻室。杯子的温度对dirty是否够污起到很重要的作用喔！",
+        "imageUrl": "https://i2.chuimg.com/3bef613fe51c44d1b9adf4fd392e79e6_1008w_1008h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "100g 菲诺厚椰乳，这款味道真的不错，价格也便宜，1L也就二十来块，唯一一点就是这个包装实在不好储存",
+        "imageUrl": "https://i2.chuimg.com/cc80ccd12cea4fc5be3c58552bf6d1fe_667w_534h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "直接将浓缩萃进椰乳里让萃取嘴尽可能靠近液面，也可以用勺子🥄的背面进行一个引流要快快喝哦！第一口可以喝到热咖啡和浓郁的椰奶味越往下喝融合的越好！好好享用吧～如果没有现成的生椰乳可以用100ml牛奶🥛➕70g的椰浆 搅拌均匀，可以喝到差不多的味道哦",
+        "imageUrl": "https://i2.chuimg.com/b0f0dec23f8343f48a83242042468b28_784w_627h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106474239/"
   }
 ]
