@@ -28130,5 +28130,128 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7448461932438326562"
+  },
+  {
+    "id": 321,
+    "title": "三汁焖锅🍲",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_321.png",
+    "description": "三汁焖锅🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡翅中",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "玉米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鹌鹑蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花雕酒（腌料）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽（腌料）",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "黑胡椒（腌料）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄豆酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "甜面酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "番茄酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽（酱汁）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "糖",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "黑胡椒（酱汁）",
+        "quantity": 0.5,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      "准备配菜：素菜可选玉米、洋葱、土豆，肉类可选鸡翅中、虾、鹌鹑蛋，家里有什么放什么就行。",
+      {
+        "text": "鸡翅中加姜片、花雕酒1勺、生抽半勺、黑胡椒少许，抓匀腌制10分钟去腥；如果焯水就不用腌制了。",
+        "imageUrl": "images/recipe_321_step_2.png"
+      },
+      {
+        "text": "调焖锅酱汁：黄豆酱、甜面酱、番茄酱各1勺作三汁打底，再加蚝油1勺、生抽1勺、糖半勺、黑胡椒半勺，一起搅匀。",
+        "imageUrl": "images/recipe_321_step_3.png"
+      },
+      "留一勺酱汁，跟切好的蔬菜一起拌匀。",
+      {
+        "text": "把拌好的蔬菜铺在电饭锅底，再把肉类铺在上层，表面盖满酱汁。",
+        "imageUrl": "images/recipe_321_step_5.png"
+      },
+      "盖上盖子，按正常煮饭键开煮。",
+      "煮好后准备好米饭，盛出即可尽情享用。"
+    ],
+    "nutrition": {
+      "calories": 6.4,
+      "protein": 0.2,
+      "carbs": 1.4,
+      "fat": 0.0,
+      "salt": 0.32
+    },
+    "source": "https://www.douyin.com/video/7467920920540171572"
   }
 ]
