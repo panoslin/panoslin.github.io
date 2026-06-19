@@ -37691,5 +37691,77 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106194131/"
+  },
+  {
+    "id": 429,
+    "title": "一口爆汁的虾滑酿口蘑",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/476b515952324cbba1ad84e8e1457b2b_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.把口蘑的蒂去掉，凹槽向下沥干水分后，虾滑挤入凹槽内抹平；2.大火下油，油冒泡泡后关小火，口蘑凹槽向下摆入锅中，所有口蘑放好以后，开大火2分钟，再关小火翻面；3.小火煎2分钟以后，蚝油、酱油、糖、淀粉、少许的水混合均匀，围绕锅边倒入，撒上黑胡椒碎，大火收汁即可出锅；4.真的口口",
+    "ingredients": [
+      {
+        "name": "口蘑",
+        "quantity": "适量",
+        "unit": "一盒"
+      },
+      {
+        "name": "虾滑",
+        "quantity": "适量",
+        "unit": "一袋（最好买95虾肉含量的够脆）"
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": "一小勺"
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": "一小勺"
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": "一小勺"
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": "一小勺"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "把口蘑的蒂去掉，凹槽向下沥干水分后，虾滑挤入凹槽内抹平",
+        "imageUrl": "https://i2.chuimg.com/eb3a08af0aa34692a932782b7710f104_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "大火下油，油冒泡泡后关小火，口蘑凹槽向下摆入锅中，所有口蘑放好以后，开大火2分钟，再关小火翻面",
+        "imageUrl": "https://i2.chuimg.com/723b93e8f1854fca861dfc15e2eff26f_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "小火煎2分钟以后，蚝油、酱油、糖、淀粉、少许的水混合均匀，围绕锅边倒入，撒上黑胡椒碎，大火收汁即可出锅",
+        "imageUrl": "https://i2.chuimg.com/7b41a9cf623d44b8b334c5ac23abe94b_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "真的口口爆汁啊，敲好吃！",
+        "imageUrl": "https://i2.chuimg.com/c724516cad404da3a5848eeff851c1e1_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107121013/"
   }
 ]
