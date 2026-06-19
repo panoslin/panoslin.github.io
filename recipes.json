@@ -37093,5 +37093,63 @@
       "salt": 5.12
     },
     "source": "https://www.xiachufang.com/recipe/102879581/"
+  },
+  {
+    "id": 422,
+    "title": "真想把这份椒盐虾仁分享给所有没食欲的姐妹",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e7edf88e47c046caa915059f214e7f8c_1280w_1707h.jpg?imageView2/1/w/800",
+    "description": "1.大虾去壳去虾线取出虾仁\n2.加入一勺料酒+一小撮胡椒粉+少许盐，抓匀腌制半小时；2.100克淀粉+2个鸡蛋🥚+少许盐和胡椒粉搅成面糊，虾仁裹上面糊\n4.油热下锅，炸至微黄捞出，撒上椒盐、辣椒粉；3.外酥里嫩的椒盐虾仁，好吃哭了，你们一定要试试呀",
+    "ingredients": [
+      {
+        "name": "大虾",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": "一小撮"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "1.大虾去壳去虾线取出虾仁2.加入一勺料酒+一小撮胡椒粉+少许盐，抓匀腌制半小时",
+        "imageUrl": "https://i2.chuimg.com/5a495186db664a0bbc63eb65ae46c17a_720w_576h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "3.100克淀粉+2个鸡蛋🥚+少许盐和胡椒粉搅成面糊，虾仁裹上面糊4.油热下锅，炸至微黄捞出，撒上椒盐、辣椒粉",
+        "imageUrl": "https://i2.chuimg.com/fea629b381c44cedb5ee9cd8f6d05d20_720w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "外酥里嫩的椒盐虾仁，好吃哭了，你们一定要试试呀！",
+        "imageUrl": "https://i2.chuimg.com/51bf6c8dc4354404845936dc9190be2f_720w_960h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 973.7,
+      "protein": 106.2,
+      "carbs": 106.3,
+      "fat": 12.9,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107176345/"
   }
 ]
