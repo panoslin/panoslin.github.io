@@ -34954,5 +34954,106 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/100373927/"
+  },
+  {
+    "id": 401,
+    "title": "家常版的潮汕汤粉",
+    "category": [
+      "早餐"
+    ],
+    "imageUrl": "https://i2.chuimg.com/5bc9afe235114f06bfa03fb665fc2823_992w_744h.jpg?imageView2/1/w/800",
+    "description": "1.买新鲜的瘦肉，猪肝，粉肠各二两，洗净切片(段)备用；2.将蒜头和生姜切细剁末；3.芹菜一颗，洗净切成小颗粒备用；4.锅中加入少许热油，将生姜和大蒜末放入，中小火慢炒，直到闻到满屋蒜香；5.加入烧开；6.将河粉放入，加适量盐。(也可以将河粉改成米粉或面条，看个人喜好)\n注意河粉",
+    "ingredients": [
+      {
+        "name": "河粉",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芹菜",
+        "quantity": 1,
+        "unit": "颗"
+      },
+      {
+        "name": "猪肝",
+        "quantity": 2,
+        "unit": "两"
+      },
+      {
+        "name": "瘦肉",
+        "quantity": 2,
+        "unit": "两"
+      },
+      {
+        "name": "粉肠",
+        "quantity": 2,
+        "unit": "两"
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": "一小块"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 5,
+        "unit": "瓣"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "买新鲜的瘦肉，猪肝，粉肠各二两，洗净切片(段)备用。",
+        "imageUrl": "https://i2.chuimg.com/4bc6969bc7b84a13a6760a534b10a5a3_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将蒜头和生姜切细剁末。",
+        "imageUrl": "https://i2.chuimg.com/599941b9f09c400695393fe2edce8522_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "芹菜一颗，洗净切成小颗粒备用。",
+        "imageUrl": "https://i2.chuimg.com/d3bfa26a4d9243e29e6400c86812234b_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅中加入少许热油，将生姜和大蒜末放入，中小火慢炒，直到闻到满屋蒜香。",
+        "imageUrl": "https://i2.chuimg.com/9413d86a90f6453e9f9bc374ce522051_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入烧开。",
+        "imageUrl": "https://i2.chuimg.com/ecfbcd210e9a4c51b922691effbb3de8_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将河粉放入，加适量盐。(也可以将河粉改成米粉或面条，看个人喜好)注意河粉不能煮久，约1-2分钟即可。",
+        "imageUrl": "https://i2.chuimg.com/4c8ae9bdad844f3b9e17f7ac6ebfe34d_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把河粉用漏勺舀入碗中，汤留底在锅中。",
+        "imageUrl": "https://i2.chuimg.com/fa1077271f434160bc653e0f5f0934c1_744w_992h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将粉肠，猪肝，瘦肉放入锅中烫1分钟左右，看颜色变化。起锅前放入芹菜粒，关火。",
+        "imageUrl": "https://i2.chuimg.com/f826fddd0d7b48ffbc6d3bfd5ab6b36e_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "用漏勺把肉肉们捞起放到河粉上面，将锅里余汤适量倒入碗中。",
+        "imageUrl": "https://i2.chuimg.com/0925fe85d8c14b0a98cc4b50935a5866_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "清淡又美味的汤河粉就完成了!",
+        "imageUrl": "https://i2.chuimg.com/773d86a321cf4a059c5a1cee1962883f_992w_744h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 372.7,
+      "protein": 8.9,
+      "carbs": 79.6,
+      "fat": 1.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/103496264/"
   }
 ]
