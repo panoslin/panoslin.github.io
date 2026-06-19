@@ -33932,5 +33932,54 @@
       "salt": 2.54
     },
     "source": "https://www.xiachufang.com/recipe/100573539/"
+  },
+  {
+    "id": 388,
+    "title": "电饭煲#懒人版#红豆沙馅",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/97faf8c95cd24b649886aa55badb1b85_2339w_2492h.jpg?imageView2/1/w/800",
+    "description": "1.红小豆洗干净用水泡一夜（10小时左右），泡好的红豆捞出放进电饭煲，倒入水大概没过红豆1厘米位置。按熬粥功能键，开始；2.熬粥结束后掀开盖子，就是图中的这个效果。（如果想要蜜红豆的话，可以盛出一些放入白糖冷藏即可）；3.把电饭煲内胆取出，底部垫一块布（避免摩擦伤害内胆）放入白糖",
+    "ingredients": [
+      {
+        "name": "红豆",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "糖",
+        "quantity": 90,
+        "unit": "克（可根据自己喜好调整）"
+      },
+      {
+        "name": "玉米油",
+        "quantity": 25,
+        "unit": "克（不喜欢也可以不加）"
+      }
+    ],
+    "instructions": [
+      "红小豆洗干净用水泡一夜（10小时左右），泡好的红豆捞出放进电饭煲，倒入水大概没过红豆1厘米位置。按熬粥功能键，开始！",
+      {
+        "text": "熬粥结束后掀开盖子，就是图中的这个效果。（如果想要蜜红豆的话，可以盛出一些放入白糖冷藏即可）",
+        "imageUrl": "https://i2.chuimg.com/6abac41b5db34285bf94dd2f0c8be082_2446w_3260h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把电饭煲内胆取出，底部垫一块布（避免摩擦伤害内胆）放入白糖，用铲子按压翻拌。",
+        "imageUrl": "https://i2.chuimg.com/1cbd1c075c2f4cf6be9a517d5a98ee16_2446w_3260h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再次把内胆放入电饭煲，倒入玉米油（没有味道的食用油，葵花籽油也可），按快速煮饭键，开始翻拌。这一步的目的是把豆沙馅中的多余水分去除，使玉米油完全融合在豆沙馅中。翻拌的时候最好在内胆边缘垫一块干净的布，减少对电饭煲的磨损。如视频中的效果就可以了。晾凉后就可以做豆沙包、豆沙面包……啦啦啦",
+        "imageUrl": "https://i2.chuimg.com/cd94d128e5f84c6ca9598995de03a218_480w_384h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1186.3,
+      "protein": 51.5,
+      "carbs": 253.2,
+      "fat": 1.8,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/104322281/"
   }
 ]
