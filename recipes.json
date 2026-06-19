@@ -28639,5 +28639,91 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/39389/"
+  },
+  {
+    "id": 326,
+    "title": "“银耳雪梨羹”女生美颜秘诀",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/fe9c443a92b64700af707f4ae1648db4_1170w_658h.jpg?imageView2/1/w/800",
+    "description": "1.银耳超市买回来先用水泡发然后剪掉尾部剩下剪碎越碎越好；2.剪碎剪好放一边；3.在冲一次水洗干净捞起；4.放入锅里加白开水倒满银耳上面放入电饭锅按下煮粥键煮两个小时👆🏻；5.接下来切雪梨；6.切小块；7.看个人喜欢本人喜欢吃红枣片所以要切开也可以放单颗红枣，中间切一刀逆时针旋转",
+    "ingredients": [
+      {
+        "name": "银耳",
+        "quantity": 1,
+        "unit": "块"
+      },
+      {
+        "name": "红枣",
+        "quantity": "适量",
+        "unit": "十颗"
+      },
+      {
+        "name": "雪梨",
+        "quantity": "适量",
+        "unit": "一颗"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": "十粒"
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": "一把看个人口味"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "银耳超市买回来先用水泡发然后剪掉尾部剩下剪碎越碎越好",
+        "imageUrl": "https://i2.chuimg.com/eb71f73b190e4a139f9084c3997d2bdc_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "剪碎剪好放一边",
+        "imageUrl": "https://i2.chuimg.com/e57a5d4b295e4e4b8bc434941c395a95_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "在冲一次水洗干净捞起",
+        "imageUrl": "https://i2.chuimg.com/a8356319d37446b4904ce007b7e5de3f_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "“放入锅里加白开水倒满银耳上面放入电饭锅按下煮粥键煮两个小时👆🏻",
+        "imageUrl": "https://i2.chuimg.com/22abec5f6cb543cc933572a759be769c_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "接下来切雪梨",
+        "imageUrl": "https://i2.chuimg.com/0e6d5f4d967249b590bf117391f13da3_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "切小块",
+        "imageUrl": "https://i2.chuimg.com/fa1633e51e0d4b968b62a69766254be3_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "看个人喜欢本人喜欢吃红枣片所以要切开也可以放单颗红枣，中间切一刀逆时针旋转避开再把内核取出切片",
+        "imageUrl": "https://i2.chuimg.com/99905ecf4e4241e4b8a5aaa1841a3af6_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备食材红枣、枸杞、雪梨🍐",
+        "imageUrl": "https://i2.chuimg.com/26ffee8ae425434f91bd3d9f6b2588a9_1080w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "银耳煮了两个小时开胶了，开始放入准备好的食材搅拌均匀、再按煮粥键在煮两个小时即可这样一碗银耳雪梨就好了喜欢喝牛奶的可以加牛奶口感会更好些哦😉",
+        "imageUrl": "https://i2.chuimg.com/56c07b88eab04a029fe06e0a8b8acbc9_1920w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/79c6c7516b7240e490775819ce3dd9ec_1170w_658h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107015140/"
   }
 ]
