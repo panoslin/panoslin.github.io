@@ -31950,5 +31950,101 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/101719194/"
+  },
+  {
+    "id": 368,
+    "title": "家庭版的铁板鱿鱼",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/fd299f105691440f8c2ab16270e215d3_912w_684h.jpg?imageView2/1/w/800",
+    "description": "1.大鱿鱼中间切一刀变成，大鱿鱼片。从边角开始撕皮。一只手拉住白色薄膜，另一只手压住鱿鱼，跟着薄膜运动方向，白色皮就很容易撕下来啦；2.平底锅，放少许油煎鱿鱼至半熟；3.加生姜蒜，继续煎至7分熟；4.液体调料加入锅中；5.鱿鱼快熟的时候，加各种粉类，过个一两分钟，关火，撒上芝麻",
+    "ingredients": [
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "甜面酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "孜然",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "鱿鱼",
+        "quantity": 2,
+        "unit": "只"
+      },
+      {
+        "name": "烧烤酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "孜然粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蒜蓉辣酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "熟芝麻",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "大鱿鱼中间切一刀变成，大鱿鱼片。从边角开始撕皮。一只手拉住白色薄膜，另一只手压住鱿鱼，跟着薄膜运动方向，白色皮就很容易撕下来啦。",
+        "imageUrl": "https://i2.chuimg.com/0b94950f209d42c99666aa80b78a7083_1350w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "平底锅，放少许油煎鱿鱼至半熟",
+        "imageUrl": "https://i2.chuimg.com/f85edd09610c4f8a9d9ef9acf851509d_1350w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加生姜蒜，继续煎至7分熟",
+        "imageUrl": "https://i2.chuimg.com/af6fcc89578d468684a0138ce533c6de_1350w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "液体调料加入锅中",
+        "imageUrl": "https://i2.chuimg.com/7d1bdaf821ca4af98b28123e7f69c657_1350w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "鱿鱼快熟的时候，加各种粉类，过个一两分钟，关火，撒上芝麻。",
+        "imageUrl": "https://i2.chuimg.com/6e757d30e6314cb3b9ba938a381d4223_912w_684h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 70.5,
+      "protein": 2.6,
+      "carbs": 4.1,
+      "fat": 5.1,
+      "salt": 0.25
+    },
+    "source": "https://www.xiachufang.com/recipe/106526323/"
   }
 ]
