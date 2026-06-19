@@ -36433,5 +36433,107 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104327282/"
+  },
+  {
+    "id": 416,
+    "title": "茄汁日本豆腐",
+    "category": [
+      "素食"
+    ],
+    "imageUrl": "https://i2.chuimg.com/07cb8bb557324381882a2700c4364b91_2160w_2160h.jpg?imageView2/1/w/800",
+    "description": "1.MUTTI慕意蕃茄酱and三根日本豆腐；2.日本豆腐小心撕开包装，切成厚度均匀的块状，并用玉米淀粉将两面均匀的裹好。（裹了玉米淀粉的豆腐单独放在一个没有水的盘子里，不要把裹好没裹好的都放到一个碗里，不然你会发现它们全部相亲相爱的黏住了 ）；3.准备调个汁儿～生抽2勺，蚝油一勺",
+    "ingredients": [
+      {
+        "name": "日本豆腐",
+        "quantity": 3,
+        "unit": "条"
+      },
+      {
+        "name": "慕意番茄酱",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": 2,
+        "unit": "瓣"
+      },
+      {
+        "name": "葱",
+        "quantity": 1,
+        "unit": "根"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "MUTTI慕意蕃茄酱and三根日本豆腐",
+        "imageUrl": "https://i2.chuimg.com/fc71538961084cbea8cf1f2bda1083f8_2160w_2160h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "日本豆腐小心撕开包装，切成厚度均匀的块状，并用玉米淀粉将两面均匀的裹好。（裹了玉米淀粉的豆腐单独放在一个没有水的盘子里，不要把裹好没裹好的都放到一个碗里，不然你会发现它们全部相亲相爱的黏住了 ）",
+        "imageUrl": "https://i2.chuimg.com/15d200645bce4591bb4d4a6a31f4c25c_2117w_1693h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备调个汁儿～生抽2勺，蚝油一勺，蕃茄酱2勺，糖1勺，少许玉米淀粉，加小半碗水搅拌均匀（这里的玉米淀粉不要太多，蕃茄酱可以多加）",
+        "imageUrl": "https://i2.chuimg.com/0eb71c9ee8ea4fe78c0e8fa863f30ec0_1706w_1364h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "热锅热油～裹好玉米淀粉的日本豆腐小心放入，我直接拿手放的，筷子根本夹不住的，除非你轻点夹，不然圆着下去碎着起来！煎至两面金黄捞出（煎的时间一定要拉长，一面彻底煎好了再翻面，温柔点啊，手劲大了它们团灭碎给你看）",
+        "imageUrl": "https://i2.chuimg.com/ada4ead66195426396ab7c3351e13a0c_2160w_2160h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里留少许底油，放入蒜末炒香，倒入我们调好的茄汁～",
+        "imageUrl": "https://i2.chuimg.com/c2009b89e1864912af9b02d5e54c5368_2160w_1726h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "小心放入煎好的日本豆腐～不需要翻面，慢慢烧开至汤汁浓稠即可",
+        "imageUrl": "https://i2.chuimg.com/cd1b39b59aae4e8890dddee4e9d046aa_2160w_1726h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "撒上葱花装盘！",
+        "imageUrl": "https://i2.chuimg.com/1609304d4cf14854b9384e64958bc77e_2160w_2160h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "酸甜开胃的茄汁日本豆腐，滑滑嫩嫩，快码住啊",
+        "imageUrl": "https://i2.chuimg.com/96ea39218ac64674a71c84fd21a273f4_1699w_1358h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "不好吃我打你",
+        "imageUrl": "https://i2.chuimg.com/27dcb3e46d574e7c8a3e286781e7bd43_2160w_2160h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 17.4,
+      "protein": 0.8,
+      "carbs": 3.5,
+      "fat": 0.1,
+      "salt": 0.39
+    },
+    "source": "https://www.xiachufang.com/recipe/106172608/"
   }
 ]
