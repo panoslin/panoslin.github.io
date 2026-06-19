@@ -27111,5 +27111,121 @@
       "salt": 12.7
     },
     "source": "https://www.douyin.com/video/7475638711552740646"
+  },
+  {
+    "id": 311,
+    "title": "客家酿豆腐",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_311.png",
+    "description": "客家酿豆腐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "梅头肉（猪肉）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红葱头",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淀粉（生粉）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "猪肉选肥瘦相间的梅头肉，剁成略带颗粒度的肉沫，不用太碎。",
+      "切适量小葱（葱花）和红葱头备用。",
+      {
+        "text": "肉馅调味：加入葱花、红葱头、生抽、胡椒粉、生粉、料酒、盐，抓匀后摔打五六七下上劲。",
+        "imageUrl": "images/recipe_311_step_3.png"
+      },
+      "豆腐切成长方形或三角形，中间开一条缝。",
+      {
+        "text": "慢慢往豆腐缝里塞入肉馅，不用撑太满。",
+        "imageUrl": "images/recipe_311_step_5.png"
+      },
+      {
+        "text": "预调料汁：生抽、老抽、胡椒粉、淀粉、清水调匀。",
+        "imageUrl": "images/recipe_311_step_6.png"
+      },
+      {
+        "text": "热锅下花生油，豆腐有肉馅的一面朝下先煎，煎至两面金黄。",
+        "imageUrl": "images/recipe_311_step_7.png"
+      },
+      "煎好后起锅装盘。",
+      "另起砂锅烧热下油，锅底放姜、蒜、红葱头，中大火快速爆香。",
+      "把煎好的豆腐全部铺入砂锅。",
+      "淋上调好的料汁，加盖焖几分钟。",
+      "最后勾少许淀粉水、撒一把葱花即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7455630627971337512"
   }
 ]
