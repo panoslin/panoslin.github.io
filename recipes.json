@@ -29877,5 +29877,39 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106797427/"
+  },
+  {
+    "id": 341,
+    "title": "鸡蛋卷",
+    "category": [
+      "早餐"
+    ],
+    "imageUrl": "https://i2.chuimg.com/09d1ee9544e24cf5b1ea2318bea68b72_1080w_1440h.jpg?imageView2/1/w/800",
+    "description": "1.；2.食材准备：鸡蛋3个、胡萝卜50g、青瓜50g\n\n做法如下：[爱心][爱心]\n1、胡萝卜和青瓜切丁、3个鸡蛋打散\n2、鸡蛋液种加入加入蔬菜力和少许盐搅拌均匀；\n3、少油热锅，倒入一半鸡蛋液，中小火煎至底部定型厚慢慢卷起，\n4、继续倒入省下的鸡蛋液，在卷起来切小块就好了",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": 3,
+        "unit": "个"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/2e914b6887104fda82b6d2968ad97e7c_1080w_1441h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "食材准备：鸡蛋3个、胡萝卜50g、青瓜50g做法如下：[爱心][爱心]1、胡萝卜和青瓜切丁、3个鸡蛋打散2、鸡蛋液种加入加入蔬菜力和少许盐搅拌均匀；3、少油热锅，倒入一半鸡蛋液，中小火煎至底部定型厚慢慢卷起，4、继续倒入省下的鸡蛋液，在卷起来切小块就好了。",
+        "imageUrl": "https://i2.chuimg.com/afc6dd551e20494e9bcef35fb65dc15e_1080w_1440h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 216,
+      "protein": 19.5,
+      "carbs": 1.5,
+      "fat": 13.2,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107421728/"
   }
 ]
