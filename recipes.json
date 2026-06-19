@@ -24667,5 +24667,94 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7488730555408764218"
+  },
+  {
+    "id": 287,
+    "title": "贵州脆哨🐷",
+    "category": [
+      "猪肉",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_287.png",
+    "description": "贵州脆哨🐷的详细制作方法",
+    "ingredients": [
+      {
+        "name": "五花肉",
+        "quantity": 4,
+        "unit": "斤"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 1,
+        "unit": "颗"
+      },
+      {
+        "name": "甜酒酿",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "十三香",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "味精",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "陈醋",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "五花肉去皮，切成拇指大小的块。",
+      {
+        "text": "锅中放入猪油和姜片，下入切好的五花肉，中火熬出油后关火。",
+        "imageUrl": "images/recipe_287_step_2.png"
+      },
+      "倒出多余的油，锅中只留适量底油，夹出姜片不用。",
+      {
+        "text": "将冰糖、甜酒酿、十三香、盐、味精和适量清水调成料汁。",
+        "imageUrl": "images/recipe_287_step_4.png"
+      },
+      "开大火倒入料汁，翻炒至水分收干。",
+      {
+        "text": "炒出小泡时倒入一小碗清水，不停翻炒约5分钟。",
+        "imageUrl": "images/recipe_287_step_6.png"
+      },
+      "加入20克陈醋，继续翻炒约3分钟。",
+      "关火，倒入冷油降温，贵州脆哨即完成。"
+    ],
+    "nutrition": {
+      "calories": 42.0,
+      "protein": 1.7,
+      "carbs": 9.1,
+      "fat": 0.3,
+      "salt": 5.62
+    },
+    "source": "https://www.douyin.com/video/7490930379646438713"
   }
 ]
