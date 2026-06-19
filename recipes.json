@@ -37151,5 +37151,87 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107176345/"
+  },
+  {
+    "id": 423,
+    "title": "能量满满的鸡蛋芝士吐司",
+    "category": [
+      "面包"
+    ],
+    "imageUrl": "https://i2.chuimg.com/f7c6b12030494ed98838aafacf9ed1c9_1280w_1483h.jpg?imageView2/1/w/800",
+    "description": "1.准备好材料；2.鸡蛋加点胡椒粉打散， 吐司中间切一刀，  最好准备一片午餐肉（也可以用火腿，或者火腿肠代替了）；3.火腿肉稍微煎一下；4.锅里再倒油，倒入鸡蛋液，平摊成圆形鸡蛋饼\n\n吐司两面沾上蛋液，然后放在鸡蛋液上（注意吐司摆放的方向看哦）；5.把吐司翻面；6.放上午餐肉（",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "午餐肉（火腿片）",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "芝士",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "吐司",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": "少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备好材料",
+        "imageUrl": "https://i2.chuimg.com/1c61de10ca624500a10d161f9a973988_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "鸡蛋加点胡椒粉打散， 吐司中间切一刀，  最好准备一片午餐肉（也可以用火腿，或者火腿肠代替了）",
+        "imageUrl": "https://i2.chuimg.com/40aade3704e64e21b51383d6133bf353_3485w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "火腿肉稍微煎一下",
+        "imageUrl": "https://i2.chuimg.com/a0b72aebacd145a18b49d03bbce4c13b_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里再倒油，倒入鸡蛋液，平摊成圆形鸡蛋饼吐司两面沾上蛋液，然后放在鸡蛋液上（注意吐司摆放的方向看哦）",
+        "imageUrl": "https://i2.chuimg.com/a6ae67eb696642f09efdf750e6eaf32f_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把吐司翻面",
+        "imageUrl": "https://i2.chuimg.com/40de30fe2401400a965b23572c5ddb5b_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放上午餐肉（或者火腿），芝士， 也可以加上点自己喜欢的沙拉酱",
+        "imageUrl": "https://i2.chuimg.com/702ba04607014afd9fc3312f327ef3ed_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "估计另一面的蛋液已经熟了（定型），把鸡蛋皮裹好。",
+        "imageUrl": "https://i2.chuimg.com/23220fb3554c4922bcc173d098622587_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将一面折好",
+        "imageUrl": "https://i2.chuimg.com/a5ba0fed4db24c31a743db6ec3bcea6e_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "装盘～",
+        "imageUrl": "https://i2.chuimg.com/ca99c1f3f152403ca4819db4fc67df40_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 149.8,
+      "protein": 13.2,
+      "carbs": 1.5,
+      "fat": 9.1,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107218209/"
   }
 ]
