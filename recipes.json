@@ -40636,5 +40636,72 @@
       "salt": 5.08
     },
     "source": "https://www.xiachufang.com/recipe/107107627/"
+  },
+  {
+    "id": 462,
+    "title": "如果家里有空气炸锅的，你就像我这样做，想吃烧烤再也不用去淄博了",
+    "category": [
+      "家常菜",
+      "猪肉"
+    ],
+    "imageUrl": "images/recipe_462.png",
+    "description": "空气炸锅烤五花肉🍖的详细制作方法",
+    "ingredients": [
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "烧烤料",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      "五花肉切成块",
+      {
+        "text": "加入葱姜，料酒、生抽、蚝油、烧烤料各1勺",
+        "imageUrl": "images/recipe_462_step_2.png"
+      },
+      "抓拌均匀，腌制30分钟",
+      "竹签用开水浸泡10分钟",
+      {
+        "text": "将腌好的五花肉穿到竹签上，放入空气炸锅",
+        "imageUrl": "images/recipe_462_step_5.png"
+      },
+      {
+        "text": "180度烤25分钟，中途翻面，烤至滋滋冒油即可出锅",
+        "imageUrl": "images/recipe_462_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 2.4,
+      "protein": 0.1,
+      "carbs": 0.3,
+      "fat": 0.0,
+      "salt": 0.25
+    },
+    "source": "https://www.xiachufang.com/recipe/107115626/"
   }
 ]
