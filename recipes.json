@@ -27616,5 +27616,145 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7469362744605543706"
+  },
+  {
+    "id": 316,
+    "title": "一兰豚骨拉面🍜",
+    "category": [
+      "主食",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_316.png",
+    "description": "一兰豚骨拉面的详细制作方法",
+    "ingredients": [
+      {
+        "name": "棒骨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "脊骨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "背脂",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪蹄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "昆布",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "包菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "苹果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大葱叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "泰式鱼露",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "拉面面条",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "准备骨料：棒骨、脊骨、背脂、猪蹄洗净备用。",
+      "昆布和香菇用冷水浸泡（水与料约2:1），浸泡约6小时，再用60度水温煮约10分钟，备用。",
+      {
+        "text": "骨头加冷水下锅，大火一直烧至沸腾后开始打血沫（带点白色的油脂沫无妨）。",
+        "imageUrl": "images/recipe_316_step_3.png"
+      },
+      "熬约2个半小时后，将包菜、洋葱、苹果、土豆、大蒜、生姜、胡萝卜、大葱叶等蔬菜下锅同熬。",
+      "倒入此前煮好的昆布香菇水继续熬煮；用过的昆布香菇可再加冷水浸泡、低温煮二次利用。",
+      {
+        "text": "持续用最小火熬至5~6小时，汤色奶白、骨头基本脱骨。",
+        "imageUrl": "images/recipe_316_step_6.png"
+      },
+      {
+        "text": "做灵魂料汁：最小火煮水，加薄姜片、泰式鱼露，再加一大把盐和一大把味精；煮好后过滤，重新烧沸，倒回猛火烧沸即可使用。",
+        "imageUrl": "images/recipe_316_step_7.png"
+      },
+      "碗中先放一点点猪油和做好的灵魂料汁；浓汤过滤后再次烧沸备用。",
+      "煮面之前先用热水把碗烫热温碗。",
+      "另起锅水烧开，下面条煮熟。",
+      {
+        "text": "将烧开的浓汤冲入烫好的碗中，放上煮好的面条，摆盘放上自己喜欢的食材即可。",
+        "imageUrl": "images/recipe_316_step_11.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7449277526968454457"
   }
 ]
