@@ -36051,5 +36051,129 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107168576/"
+  },
+  {
+    "id": 412,
+    "title": "水煮鱼(龙利鱼)",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/631e295110ed4ca8b3011382dffdb3a0_1499w_1125h.jpg?imageView2/1/w/800",
+    "description": "1.龙利鱼中间分开，然后切片。适量盐，一勺半料酒，一个蛋清，搅匀，再加适量淀粉，搅匀，腌制上去做后面的；2.锅里烧水，加适量盐，清洗豆芽和细芹菜，芹菜切段，水开后先焯水豆芽再焯水芹菜。捞出铺在最后盛出水煮鱼的容器底部。只有豆芽也可以～；3.准备葱姜蒜，花椒干辣椒；4.锅里比平时放",
+    "ingredients": [
+      {
+        "name": "龙利鱼",
+        "quantity": 2,
+        "unit": "磅(约1.8斤)"
+      },
+      {
+        "name": "黄豆芽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": "克"
+      },
+      {
+        "name": "蛋清",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": "勺"
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": "根"
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": "片"
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": "瓣"
+      },
+      {
+        "name": "花椒",
+        "quantity": "适量",
+        "unit": "粒"
+      },
+      {
+        "name": "干辣椒",
+        "quantity": "适量",
+        "unit": "个"
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": 3,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": "勺"
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": "克"
+      },
+      {
+        "name": "青花椒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "龙利鱼中间分开，然后切片。适量盐，一勺半料酒，一个蛋清，搅匀，再加适量淀粉，搅匀，腌制上去做后面的。",
+        "imageUrl": "https://i2.chuimg.com/d8b1f20783cd4203be42f95db189bb61_1502w_1124h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里烧水，加适量盐，清洗豆芽和细芹菜，芹菜切段，水开后先焯水豆芽再焯水芹菜。捞出铺在最后盛出水煮鱼的容器底部。只有豆芽也可以～",
+        "imageUrl": "https://i2.chuimg.com/f26c134391b94d908bfb87f216cb1773_1502w_1124h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备葱姜蒜，花椒干辣椒。",
+        "imageUrl": "https://i2.chuimg.com/cd09b5513f904ef7a948a93e458b84dd_1406w_1125h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里比平时放两倍油，放3勺豆瓣酱，小火炒出红油，倒入辅料大火炒香。",
+        "imageUrl": "https://i2.chuimg.com/bbe38e5b999147bc83abb4fdac5446c9_1124w_1500h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加适量温水，倒入生抽，料酒，半勺糖，盐，味精。不要等水开，一个鱼片一个鱼片放入，煮熟。(水开后再煮约3分钟)",
+        "imageUrl": "https://i2.chuimg.com/45fad485d76442ccbdb05df0dbb16ad1_1124w_1500h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把鱼片和汤倒在豆芽上，锅里再放前面差不多量的油，油不要太热炒干辣椒和青花椒，然后淋到鱼上。(火大了辣椒容易黑)",
+        "imageUrl": "https://i2.chuimg.com/ce8f9a68443543adb0b366d99706a963_1500w_1124h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "成了～",
+        "imageUrl": "https://i2.chuimg.com/9482b27d74884571844ed8e2ffe47c6d_1316w_1053h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 5.4,
+      "protein": 0.4,
+      "carbs": 0.5,
+      "fat": 0.2,
+      "salt": 0.46
+    },
+    "source": "https://www.xiachufang.com/recipe/105958886/"
   }
 ]
