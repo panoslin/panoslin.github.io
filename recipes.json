@@ -25651,5 +25651,61 @@
       "salt": 1.82
     },
     "source": "https://www.douyin.com/video/7482755286210546959"
+  },
+  {
+    "id": 295,
+    "title": "草莓红茶🍓",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_295.png",
+    "description": "草莓红茶🍓的详细制作方法",
+    "ingredients": [
+      {
+        "name": "草莓",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红茶",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "草莓洗净去蒂，放入锅中，加入冰糖。",
+      {
+        "text": "手动给草莓爆个汁，把草莓压出汁水。",
+        "imageUrl": "images/recipe_295_step_2.png"
+      },
+      {
+        "text": "加入一勺红茶，把红茶翻炒出香气。",
+        "imageUrl": "images/recipe_295_step_3.png"
+      },
+      "转小火再煎一会儿。",
+      {
+        "text": "倒入清水煮开，煮至满屋草莓红茶香。",
+        "imageUrl": "images/recipe_295_step_5.png"
+      },
+      "煮好的草莓红茶果香加茶香、酸甜爽口、一点都不苦涩，趁热或冰镇饮用皆可。"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7478930876454178106"
   }
 ]
