@@ -28450,5 +28450,87 @@
       "salt": 1.85
     },
     "source": "https://www.douyin.com/video/7461164871514721576"
+  },
+  {
+    "id": 324,
+    "title": "西兰花鲜虾蒸糕🍤",
+    "category": [
+      "辅食",
+      "蒸制"
+    ],
+    "imageUrl": "images/recipe_324.png",
+    "description": "西兰花鲜虾蒸糕🍤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "西兰花(取花冠部分)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "鲜虾",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "蛋清",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "盐(1岁以下不放)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 8,
+        "unit": "克"
+      },
+      {
+        "name": "胡萝卜碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辅食油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "西兰花取花冠部分，放入沸水中焯水1分钟后捞出。",
+      "焯好的西兰花切碎，加入1颗鸡蛋搅匀成蛋液，备用。",
+      {
+        "text": "150克处理好的鲜虾加入1个蛋清、少许盐（1岁以下不放盐），用辅食机打成虾泥。",
+        "imageUrl": "images/recipe_324_step_3.png"
+      },
+      "虾泥中加入8克玉米淀粉和适量胡萝卜碎。",
+      {
+        "text": "所有食材搅匀，搅到挑在筷子上不会掉下来即可。",
+        "imageUrl": "images/recipe_324_step_5.png"
+      },
+      {
+        "text": "碗底刷一层辅食油，先铺上虾泥，再淋上西兰花蛋液。",
+        "imageUrl": "images/recipe_324_step_6.png"
+      },
+      "盖上保鲜膜并扎几个小孔，上锅蒸25分钟。",
+      {
+        "text": "蒸好后倒扣脱模，切成适合宝宝的小块即可。",
+        "imageUrl": "images/recipe_324_step_8.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 240.6,
+      "protein": 34.4,
+      "carbs": 12.0,
+      "fat": 5.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7454116422394891520"
   }
 ]
