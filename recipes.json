@@ -29633,5 +29633,112 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106433952/"
+  },
+  {
+    "id": 338,
+    "title": "希腊的夏日-地中海式鹰嘴豆沙拉",
+    "category": [
+      "快手菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e02c2efa891c11e6a9a10242ac110002_640w_640h.jpg?imageView2/1/w/800",
+    "description": "1.鹰嘴豆事先浸泡一夜。第二天拿出在开水中加些许盐煮约十分钟后捞出备用；2.将酱汁的材料混合，酸度根据个人喜好来；3.将所有的蔬菜切丁，和鹰嘴豆混合；4.淋上酱汁，撒上奶酪，然后均匀搅拌；5.放进冰箱冷藏至少一小时后方可食用",
+    "ingredients": [
+      {
+        "name": "食材",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鹰嘴豆",
+        "quantity": 1,
+        "unit": "Cup"
+      },
+      {
+        "name": "黄瓜",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "小番茄",
+        "quantity": 1,
+        "unit": "Cup"
+      },
+      {
+        "name": "彩椒",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "红洋葱",
+        "quantity": "适量",
+        "unit": "半个"
+      },
+      {
+        "name": "Feta/Mozzarella Cheese",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑橄榄",
+        "quantity": 1,
+        "unit": "/2 Cup"
+      },
+      {
+        "name": "酱汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "橄榄油",
+        "quantity": 1,
+        "unit": "/4 Cup"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "/2 Tsp"
+      },
+      {
+        "name": "柠檬汁/醋",
+        "quantity": 1,
+        "unit": "/4 Cup/3 Tsp"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛至叶（干）",
+        "quantity": 1,
+        "unit": "Tsp"
+      },
+      {
+        "name": "欧芹碎",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "鹰嘴豆事先浸泡一夜。第二天拿出在开水中加些许盐煮约十分钟后捞出备用。",
+      "将酱汁的材料混合，酸度根据个人喜好来。",
+      "将所有的蔬菜切丁，和鹰嘴豆混合。",
+      {
+        "text": "淋上酱汁，撒上奶酪，然后均匀搅拌。",
+        "imageUrl": "https://i2.chuimg.com/53fa48d8931511e6b87c0242ac110003_640w_640h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放进冰箱冷藏至少一小时后方可食用。",
+        "imageUrl": "https://i2.chuimg.com/54948b3c931511e6b87c0242ac110003_640w_640h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 9.2,
+      "protein": 0.0,
+      "carbs": 0.1,
+      "fat": 1.0,
+      "salt": 1.0
+    },
+    "source": "https://www.xiachufang.com/recipe/100503422/"
   }
 ]
