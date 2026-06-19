@@ -37627,5 +37627,69 @@
       "salt": 1.0
     },
     "source": "https://www.xiachufang.com/recipe/107170220/"
+  },
+  {
+    "id": 428,
+    "title": "好吃到哭！便利店同款❗️蛋黄酱三明治",
+    "category": [
+      "三明治"
+    ],
+    "imageUrl": "https://i2.chuimg.com/a890c33505aa43e6b32f9f6390fac0d2_3024w_4030h.jpg?imageView2/1/w/800",
+    "description": "1.准备食材；2.鸡蛋煮熟；3.剥壳；4.蛋黄蛋白分离；5.捣碎；6.加入低脂沙拉酱；7.将蛋黄酱堆在面包上，盖上另一片吐司，用保鲜膜包一下，对半切开，完美～",
+    "ingredients": [
+      {
+        "name": "吐司",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "沙拉酱",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备食材",
+        "imageUrl": "https://i2.chuimg.com/b436a7bc08a24c5b980aaf807c63c660_4032w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "鸡蛋煮熟",
+        "imageUrl": "https://i2.chuimg.com/487e666f35b9449b918bea498fdf103a_4032w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "剥壳",
+        "imageUrl": "https://i2.chuimg.com/38efb59ec6924f3ebe0c90e9a8f5a226_4032w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋黄蛋白分离",
+        "imageUrl": "https://i2.chuimg.com/0d9280c16c8549f7b90b51ad4eda2542_4032w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "捣碎",
+        "imageUrl": "https://i2.chuimg.com/9382c42196c64d64a00588c440d54d43_4032w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入低脂沙拉酱",
+        "imageUrl": "https://i2.chuimg.com/c11141b3ab3a49ea821ea2c8d3f389e2_4032w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将蛋黄酱堆在面包上，盖上另一片吐司，用保鲜膜包一下，对半切开，完美～",
+        "imageUrl": "https://i2.chuimg.com/cb1dda406089475f97c58b95be354392_3024w_4030h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 149.3,
+      "protein": 13.2,
+      "carbs": 2.0,
+      "fat": 8.9,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106194131/"
   }
 ]
