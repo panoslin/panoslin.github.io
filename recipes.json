@@ -35999,5 +35999,57 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107131774/"
+  },
+  {
+    "id": 411,
+    "title": "有手就会！一点点同款茉莉奶绿",
+    "category": [
+      "奶茶"
+    ],
+    "imageUrl": "https://i2.chuimg.com/4c61984d02d44ca8b580b1172fbfb4ed_1080w_1920h.jpg?imageView2/1/w/800",
+    "description": "1.出品杯里加冰块适量；2.茉莉清茶加200ml左右；3.旺仔牛奶补满；4.完成✅！有手就会！味道不输奶茶店",
+    "ingredients": [
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "茉莉清茶",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "旺仔牛奶",
+        "quantity": 200,
+        "unit": "ml"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "出品杯里加冰块适量",
+        "imageUrl": "https://i2.chuimg.com/a01bf1ab6c5f47caa4a269320422a0df_1170w_2532h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "茉莉清茶加200ml左右",
+        "imageUrl": "https://i2.chuimg.com/734e988be7924af483dcb2cde5603443_1170w_2532h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "旺仔牛奶补满",
+        "imageUrl": "https://i2.chuimg.com/05ee954d3ff84ea087f44b1670a4eb11_1170w_2532h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "完成✅！有手就会！味道不输奶茶店！",
+        "imageUrl": "https://i2.chuimg.com/b4094edb10774755a9999a1135102343_1170w_2532h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 108.0,
+      "protein": 6.0,
+      "carbs": 6.8,
+      "fat": 6.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107168576/"
   }
 ]
