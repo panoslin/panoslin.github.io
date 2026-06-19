@@ -36345,5 +36345,93 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/100427922/"
+  },
+  {
+    "id": 415,
+    "title": "超好吃的红糖糍粑",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/61f52bbb78ac471aa04ee471d4a3b11f_3024w_4032h.jpg?imageView2/1/w/800",
+    "description": "1.糯米粉一点点加入凉水，和成面团，密封醒30分钟；2.刚和完的面团比较软，放一会儿会变干，变成一拿就段的状态；3.醒面的时间可以用来炒黄豆，平底锅不放油，把黄豆清洗一下放入锅里，这个过程比较长，也可以放电饼铛里一面加热，不盖盖子；4.炒到这种程度，黄豆的外皮有一点点糊糊的，在锅",
+    "ingredients": [
+      {
+        "name": "红糖",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "糯米粉",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "黄豆",
+        "quantity": 100,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "糯米粉一点点加入凉水，和成面团，密封醒30分钟",
+        "imageUrl": "https://i2.chuimg.com/41f8698223e245c3b68f385e5df11cb9_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "刚和完的面团比较软，放一会儿会变干，变成一拿就段的状态",
+        "imageUrl": "https://i2.chuimg.com/7e19d0df3b6448ee945fc037f2a36ebc_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "醒面的时间可以用来炒黄豆，平底锅不放油，把黄豆清洗一下放入锅里，这个过程比较长，也可以放电饼铛里一面加热，不盖盖子",
+        "imageUrl": "https://i2.chuimg.com/c758b7da62dc45f0be87f14e87fda532_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "炒到这种程度，黄豆的外皮有一点点糊糊的，在锅里翻动的时候声音很清脆就可以了",
+        "imageUrl": "https://i2.chuimg.com/ea20ff5b0969441fbbac18488b00c5e2_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把黄豆放进塑料袋里，用擀面杖砸，不用砸的很碎，这个过程是让黄豆的皮掉下来",
+        "imageUrl": "https://i2.chuimg.com/dbe10a646d764c91816a0601f6b41645_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把黄豆的皮吹掉（高一点从一个碗里倒进另一个碗里，一边倒一边吹）",
+        "imageUrl": "https://i2.chuimg.com/fc91de568e0a49768f3decbb4f287bea_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒进料理机里打成粉，这个量做一盘糍粑肯定富余，可以放进密封的容器里保存起来（当然如果买到市售的黄豆粉可以直接省略这一步，放无油的平底锅炒黄炒熟就可以了）",
+        "imageUrl": "https://i2.chuimg.com/6faed6354f364facb6eb3435779c8544_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "平底锅刷油，把面团揪下一小块儿捏成你喜欢的形状（这个时候面团比较干，一揪就段的程度，这样正合适，如果面团还是软的就不成型了）",
+        "imageUrl": "https://i2.chuimg.com/dad90791e46d40b3a8006e950b23ca41_4032w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "定型就翻面，一定要小火，把每一面都煎到金黄酥脆就可以了",
+        "imageUrl": "https://i2.chuimg.com/c5f219a5366244a79a75e291f87d3e75_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "20克红糖加50克温水搅匀，放入锅里熬，不放油，小火把糖熬粘稠（熬到酸奶状）",
+        "imageUrl": "https://i2.chuimg.com/8f4dcbdb59ac4d3e8cb5b96794b8dbdd_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把红糖浆淋在煎好的糍粑上",
+        "imageUrl": "https://i2.chuimg.com/de70a31fac0c4831993fe5ae0167a608_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "筛上薄薄一层黄豆粉",
+        "imageUrl": "https://i2.chuimg.com/8069f827cec44e04aa5f8dabbdfae6c0_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "简单易学，味道棒棒哒，快来试试吧",
+        "imageUrl": "https://i2.chuimg.com/3ab5c4a6cd9443a8a5c0e6c45e8c0eac_3024w_4032h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 425.8,
+      "protein": 7.1,
+      "carbs": 96.4,
+      "fat": 0.8,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/104327282/"
   }
 ]
