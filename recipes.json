@@ -27431,5 +27431,83 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7473473869458771263"
+  },
+  {
+    "id": 314,
+    "title": "利苑新版蒜蓉酱🧄",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_314.png",
+    "description": "利苑新版蒜蓉酱的详细制作方法",
+    "ingredients": [
+      {
+        "name": "蒜头",
+        "quantity": 20,
+        "unit": "斤"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "两"
+      },
+      {
+        "name": "味精",
+        "quantity": 3,
+        "unit": "两"
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻酱",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "糖",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "色拉油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "蒜头自己剁成蒜蓉，不要泡太久的水，直接放水冲洗、过滤三遍即可（冲太久蒜味会流失）。",
+      {
+        "text": "取一半蒜蓉下锅油炸，油不要放太多（炸出的蒜油后面还要用），炸至金黄色后捞出。",
+        "imageUrl": "images/recipe_314_step_2.png"
+      },
+      "炸好的蒜蓉放到吸油纸上吸去多余油分，并把里面的黑头等杂质挑出来。",
+      "加入盐、味精、鸡精、花生酱、芝麻酱、糖搅拌均匀，烧滚。",
+      {
+        "text": "另用一半蒜油加一半色拉油烧热，趁热泼在生蒜上把生蒜吡香，油温一定要够蒜香才出得来。",
+        "imageUrl": "images/recipe_314_step_5.png"
+      },
+      {
+        "text": "蒜蓉做好后马上放入冰水中急速过凉，这样蒜蓉不会熟得太透、也不会太辣。",
+        "imageUrl": "images/recipe_314_step_6.png"
+      },
+      "过凉后再把生蒜拌进去即成，可用于焯拌青菜或蒸菜。"
+    ],
+    "nutrition": {
+      "calories": 1542.8,
+      "protein": 40.7,
+      "carbs": 150.6,
+      "fat": 92.3,
+      "salt": 2.62
+    },
+    "source": "https://www.douyin.com/video/7475889084058062143"
   }
 ]
