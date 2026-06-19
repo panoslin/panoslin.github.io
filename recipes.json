@@ -38515,5 +38515,76 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107174241/"
+  },
+  {
+    "id": 438,
+    "title": "🧨年夜饭餐桌上光盘的香辣脆皮鸡翅，太香了",
+    "category": [
+      "家常菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/7e5ccc2d0a094ddf9904b062b14bf25b_1125w_1475h.jpg?imageView2/1/w/800",
+    "description": "1.🍀🍀食材：鸡翅12只，辣椒面1勺，玉米淀粉100g，蒜头1个，葱姜适量\n\n🍀🍀做法：1️⃣鸡翅洗净后对半切开，加几片姜和葱➕一勺料酒➕少许胡椒粉➕二勺生抽➕二勺奥尔良腌料，抓匀腌制30分钟；2.️⃣碗中放入适量玉米淀粉，将腌好的鸡翅均匀裹上，锅中倒入宽油，六成油温一个个下锅炸",
+    "ingredients": [
+      {
+        "name": "鸡翅",
+        "quantity": 12,
+        "unit": "只"
+      },
+      {
+        "name": "辣椒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "玉米🌽淀粉",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "葱姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜头",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "奥尔良腌料",
+        "quantity": 2,
+        "unit": "勺（4cm"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "🍀🍀食材：鸡翅12只，辣椒面1勺，玉米淀粉100g，蒜头1个，葱姜适量🍀🍀做法：1️⃣鸡翅洗净后对半切开，加几片姜和葱➕一勺料酒➕少许胡椒粉➕二勺生抽➕二勺奥尔良腌料，抓匀腌制30分钟",
+        "imageUrl": "https://i2.chuimg.com/ab0fb8e776324cdca8b6508bfd38666a_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "2️⃣碗中放入适量玉米淀粉，将腌好的鸡翅均匀裹上，锅中倒入宽油，六成油温一个个下锅炸，炸至表面金黄酥脆捞出3️⃣锅留底油，蒜末炒香，倒入辣椒面炒匀，接着倒入炸好的鸡翅，加一勺白糖提鲜，翻拌均匀，出锅撒葱花装盘",
+        "imageUrl": "https://i2.chuimg.com/a8f0079fc513417882c6c04d6f22a8d2_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "太酥太香了",
+        "imageUrl": "https://i2.chuimg.com/6c3b2c7567fe45c3ba1c35b835cebb54_1125w_1475h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "外皮酥脆",
+        "imageUrl": "https://i2.chuimg.com/5dc0f888317f4cbdbfbcf9dd7dcb7a15_1125w_1474h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "肉质鲜嫩",
+        "imageUrl": "https://i2.chuimg.com/e9a0310df0bd4639832cb7ce28c7f340_1125w_1133h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 264.2,
+      "protein": 10.7,
+      "carbs": 56.5,
+      "fat": 1.7,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107014491/"
   }
 ]
