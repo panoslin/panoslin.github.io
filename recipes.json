@@ -38261,5 +38261,95 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/105834770/"
+  },
+  {
+    "id": 435,
+    "title": "老上海馄饨（早餐）",
+    "category": [
+      "馄饨"
+    ],
+    "imageUrl": "https://i2.chuimg.com/13debf9fbb4949498dc43de10034b96f_1535w_2048h.jpg?imageView2/1/w/800",
+    "description": "1.虾仁放入主锅，3秒/速度5切碎；2.加入肉糜、料酒和盐，以10米/速度3拌匀，倒出清空主锅；3.将榨菜、紫菜、鸡高汤和虾米放入主锅，8分30秒/V/小勺煮沸；4.加入包好的小馄饨、盐和白胡椒粉，3分/V：反转小勺烹煮，倒入碗内，撒上香菜和香葱即可享用",
+    "ingredients": [
+      {
+        "name": "虾仁",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "肉糜",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "榨菜",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "紫菜",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "鸡高汤",
+        "quantity": 800,
+        "unit": "毫升"
+      },
+      {
+        "name": "虾米",
+        "quantity": 1,
+        "unit": "汤匙"
+      },
+      {
+        "name": "小馄饨皮",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": 10,
+        "unit": "克，切末"
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香葱",
+        "quantity": 10,
+        "unit": "克，切末"
+      }
+    ],
+    "instructions": [
+      "虾仁放入主锅，3秒/速度5切碎",
+      "加入肉糜、料酒和盐，以10米/速度3拌匀，倒出清空主锅",
+      "将榨菜、紫菜、鸡高汤和虾米放入主锅，8分30秒/V/小勺煮沸",
+      "加入包好的小馄饨、盐和白胡椒粉，3分/V：反转小勺烹煮，倒入碗内，撒上香菜和香葱即可享用"
+    ],
+    "nutrition": {
+      "calories": 204.3,
+      "protein": 39.4,
+      "carbs": 8.8,
+      "fat": 1.8,
+      "salt": 1.0
+    },
+    "source": "https://www.xiachufang.com/recipe/103644040/"
   }
 ]
