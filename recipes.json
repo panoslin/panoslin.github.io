@@ -27873,5 +27873,97 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7442883842597260554"
+  },
+  {
+    "id": 318,
+    "title": "懒人版辣奶油意面🍝",
+    "category": [
+      "西餐",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_318.png",
+    "description": "懒人版辣奶油意面🍝的详细制作方法",
+    "ingredients": [
+      {
+        "name": "意面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香肠或火腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "口蘑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "热水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "奶油",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "韩式辣酱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝士片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "洋葱切碎、香肠（或火腿）切片，连同小番茄、口蘑和意面一起放入电饭煲（快锅）内胆。",
+      "倒入没过食材的热水。",
+      {
+        "text": "加入30毫升奶油，或用半杯牛奶代替。",
+        "imageUrl": "images/recipe_318_step_3.png"
+      },
+      {
+        "text": "加入韩式辣酱调味；不能吃辣的可以换成意面酱。",
+        "imageUrl": "images/recipe_318_step_4.png"
+      },
+      "盖上锅盖，搅拌均匀，按下煮饭／快煮键开始煮。",
+      {
+        "text": "煮的过程中丢入一片芝士片，让汤汁更奶香浓郁。",
+        "imageUrl": "images/recipe_318_step_6.png"
+      },
+      {
+        "text": "煮至汤汁收干、洋葱和番茄软烂煮化，盛出装盘。",
+        "imageUrl": "images/recipe_318_step_7.png"
+      },
+      "搭配一个鸡蛋，元气早餐就完成了。"
+    ],
+    "nutrition": {
+      "calories": 103.5,
+      "protein": 0.2,
+      "carbs": 0.8,
+      "fat": 11.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7454397159467781387"
   }
 ]
