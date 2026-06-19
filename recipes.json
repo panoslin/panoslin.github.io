@@ -24360,5 +24360,192 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7472014623319788858"
+  },
+  {
+    "id": 285,
+    "title": "贵州夺夺粉火锅🍲",
+    "category": [
+      "中餐",
+      "汤品"
+    ],
+    "imageUrl": "images/recipe_285.png",
+    "description": "贵州夺夺粉火锅🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "米豆腐(夺夺粉)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "猪油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "霉豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小西红柿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红酸汤",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芹菜杆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土豆泥",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "折耳根",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉圆子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芹菜叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冻菌",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "莴笋片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛肉丸",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "牛肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "面筋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆腐皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "茗粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糊辣椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆腐乳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "松茸鲜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "原汤",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      "米豆腐(夺夺粉)切成块备用。",
+      {
+        "text": "锅中放猪油烧化,下辣椒面炒香。",
+        "imageUrl": "images/recipe_285_step_2.png"
+      },
+      {
+        "text": "加入霉豆腐、小西红柿和红酸汤,压碎炒出沙(炒出红油)。",
+        "imageUrl": "images/recipe_285_step_3.png"
+      },
+      "放入芹菜杆翻炒均匀。",
+      "倒入开水煮开。",
+      "加入土豆泥和水淀粉,搅匀调成浓稠汤底。",
+      "下折耳根、肉圆子、芹菜叶、冻菌、莴笋片。",
+      "再加入牛肉丸、火腿肠、牛肉。",
+      "放入面筋、豆腐皮、茗粉煮熟。",
+      {
+        "text": "调蘸水:碗中放糊辣椒面、豆腐乳、折耳根、葱花、香菜、盐、松茸鲜、酱油,加一勺原汤调匀。",
+        "imageUrl": "images/recipe_285_step_10.png"
+      },
+      "将煮好的食材夹出,蘸蘸水食用。"
+    ],
+    "nutrition": {
+      "calories": 0.1,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7476098669196987708"
   }
 ]
