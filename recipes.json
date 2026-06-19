@@ -33721,5 +33721,105 @@
       "salt": 0.5
     },
     "source": "https://www.xiachufang.com/recipe/104189725/"
+  },
+  {
+    "id": 386,
+    "title": "四川凉面【附复制红酱油配方】",
+    "category": [
+      "面条"
+    ],
+    "imageUrl": "https://i2.chuimg.com/73641cb5a33542849d6abb65f536cca1_1080w_1616h.jpg?imageView2/1/w/800",
+    "description": "】1.将碱水棍棍面下锅煮熟，约五分钟。有干面，也有水面。我用的是干面。\n煮熟的面捞出后用冷水冲凉，然后沥干水分，放入芝麻香油或者植物油，小时候家里的老人会用菜油和蒜泥提炼后的蒜油，将它倒入面中拌匀；2.将拌匀的面放在筛网或者簸箕中，放在通风阴凉处收干水份，此时面条微黄，油亮，根根",
+    "ingredients": [
+      {
+        "name": "碱水棍棍面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆芽",
+        "quantity": "适量",
+        "unit": "适量把"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "/2茶匙"
+      },
+      {
+        "name": "糖",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "花椒面",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "醋",
+        "quantity": 1,
+        "unit": "汤匙"
+      },
+      {
+        "name": "蒜水",
+        "quantity": 2,
+        "unit": "茶匙"
+      },
+      {
+        "name": "葱花",
+        "quantity": 1,
+        "unit": "汤匙"
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": "一茶匙"
+      },
+      {
+        "name": "红油辣椒",
+        "quantity": 2,
+        "unit": "汤匙"
+      },
+      {
+        "name": "芝麻油",
+        "quantity": 1,
+        "unit": "汤匙"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将碱水棍棍面下锅煮熟，约五分钟。有干面，也有水面。我用的是干面。煮熟的面捞出后用冷水冲凉，然后沥干水分，放入芝麻香油或者植物油，小时候家里的老人会用菜油和蒜泥提炼后的蒜油，将它倒入面中拌匀。",
+        "imageUrl": "https://i2.chuimg.com/e03cf36318ef4cea9302e9b9c7b61780_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将拌匀的面放在筛网或者簸箕中，放在通风阴凉处收干水份，此时面条微黄，油亮，根根分开。",
+        "imageUrl": "https://i2.chuimg.com/bee2b712138f4c7a8f0a8f80de5fc786_1080w_1616h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "此时，凉面已经完成可以开始拌面。碗底放豆芽，上面放凉面。分别放入盐、糖、花椒面、蒜水、味精、醋、复制红酱油（小贴士有做法）、红油（带点辣椒底子）、撒葱花、撒点现酥的花生碎。",
+        "imageUrl": "https://i2.chuimg.com/105ae336f9bd44a2ae8daf793451d197_1080w_1616h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "咸鲜微辣，略带酸甜。好好吃。",
+        "imageUrl": "https://i2.chuimg.com/e797eb5f8a594a36b1b46a201b2fd9d9_1080w_1616h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "现酥花生。",
+        "imageUrl": "https://i2.chuimg.com/6b1da062fa4349dd8577ccab3c77186a_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "去皮拍碎，那个香呀。",
+        "imageUrl": "https://i2.chuimg.com/4c8e6822d322467f8e21014f84da4412_2688w_4032h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 18.6,
+      "protein": 0.2,
+      "carbs": 2.4,
+      "fat": 1.1,
+      "salt": 1.0
+    },
+    "source": "https://www.xiachufang.com/recipe/104636200/"
   }
 ]
