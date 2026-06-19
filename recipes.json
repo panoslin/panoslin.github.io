@@ -23809,5 +23809,100 @@
       "salt": 4.0
     },
     "source": "https://www.douyin.com/video/7494532942249594163"
+  },
+  {
+    "id": 279,
+    "title": "丝瓜虾滑豆腐汤🍲",
+    "category": [
+      "汤品",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_279.png",
+    "description": "丝瓜虾滑豆腐汤🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "丝瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾滑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "丝瓜去皮后切成滚刀块，怕氧化变黑可提前用盐水浸泡。",
+      {
+        "text": "打入3颗鸡蛋，直接下锅煎到定型，煎得老一点也没关系。",
+        "imageUrl": "images/recipe_279_step_2.png"
+      },
+      {
+        "text": "另起锅用少量油把葱末煸香，再放入丝瓜简单翻炒一下（炒过和不炒区别挺大）。",
+        "imageUrl": "images/recipe_279_step_3.png"
+      },
+      {
+        "text": "倒入煎好的鸡蛋、豆腐以及开水，大火煮沸，汤色很快就会变得乳白。",
+        "imageUrl": "images/recipe_279_step_4.png"
+      },
+      {
+        "text": "接着挤入虾滑。",
+        "imageUrl": "images/recipe_279_step_5.png"
+      },
+      "加盐、白胡椒粉调味，随喜好加入鸡粉和枸杞，煮熟即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 216,
+      "protein": 19.5,
+      "carbs": 1.5,
+      "fat": 13.2,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7488208311280618771"
   }
 ]
