@@ -33486,5 +33486,134 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107114701/"
+  },
+  {
+    "id": 384,
+    "title": "零失败新手轻松驾驭芋圆三色",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/d76ab70dc1e94634a7c3858a1e6fa6de_1242w_1242h.jpg?imageView2/1/w/800",
+    "description": "1.芋头，紫薯，红薯分别洗净切块放入蒸锅蒸熟；2.红薯选这种黄心的，颜色漂亮！其实上面的350克只是个大概的重量，多点少点没所谓哈；3.淀粉不能用其他淀粉替代，要用木薯淀粉，超市都有的，这种两百克一袋，一个颜色用一袋，很方便，还要额外准备一百来克木薯淀粉用来裹干粉的；4.这里用紫",
+    "ingredients": [
+      {
+        "name": "红薯味道：",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红薯",
+        "quantity": 350,
+        "unit": "克"
+      },
+      {
+        "name": "木薯淀粉",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "芋头味道：",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芋头",
+        "quantity": 350,
+        "unit": "克"
+      },
+      {
+        "name": "木薯淀粉",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "紫薯味道：",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "紫薯",
+        "quantity": 350,
+        "unit": "克"
+      },
+      {
+        "name": "木薯淀粉",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "裹干粉防粘用：",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "木薯淀粉",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "开水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "芋头，紫薯，红薯分别洗净切块放入蒸锅蒸熟",
+        "imageUrl": "https://i2.chuimg.com/71081fa08c4742988257cfed4c81febf_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "红薯选这种黄心的，颜色漂亮！其实上面的350克只是个大概的重量，多点少点没所谓哈",
+        "imageUrl": "https://i2.chuimg.com/381c54f87b5a47a69354627d751e634b_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "淀粉不能用其他淀粉替代，要用木薯淀粉，超市都有的，这种两百克一袋，一个颜色用一袋，很方便，还要额外准备一百来克木薯淀粉用来裹干粉的",
+        "imageUrl": "https://i2.chuimg.com/548c95f9d53b4ed0a1ca66ec0d1beabd_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这里用紫薯来举例：蒸熟的紫薯用勺子或叉子压成泥，一定要压成比较细腻的泥（还没做的其他两样先不要从蒸锅里拿出来，一直让它们在锅里保温）",
+        "imageUrl": "https://i2.chuimg.com/da4f2b9e9a774fd29979666f66adcf0b_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入200克木薯粉，搅拌成这样的细颗粒，这时候是不好揉成团的，一来水分不够太干，二来还缺一个最关键的步骤，看下面",
+        "imageUrl": "https://i2.chuimg.com/2c58bb67130d4d3a9694e27ca1938185_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烧一壶开水，一定要开水，趁热倒进上面搅拌好的粉里，水的多少自己小心估算，不要倒多了，倒个二三十克就行，然后静置一分钟，这个过程是让它糊化，一分钟后，倒了开水的那一小片面团会变成粘粘乎乎像鼻涕一样的状态（这个形容太恶心🤢😼），然后就开始揉，这样揉面团就不会散了，不然是揉不成团的，这个步骤一定不能省！揉的过程中如果感觉干了可以适当再加点热水，芋头的热水可能需要多一点，因为它本身质地比较干，大家自行调整热水的用量就行",
+        "imageUrl": "https://i2.chuimg.com/e863b1cd61734ae5897cbdbc733666ed_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这是揉好的",
+        "imageUrl": "https://i2.chuimg.com/d80bd7b367c04c74a0f61d0dfc6b4346_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "然后搓成这样的小条，如果速度慢的童鞋要准备保鲜膜把还没搓的面团盖住，不然很快就会风干的哦",
+        "imageUrl": "https://i2.chuimg.com/dde97527bfb247a68d96d86698686f7b_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "切小粒",
+        "imageUrl": "https://i2.chuimg.com/d7b8f16200454f738a53baaa95f78791_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "撒上适量木薯淀粉混匀防止粘连，红薯的和芋头的也是一样的步骤。上面的用量可以做这么多，吃不完冷冻起来，随吃随煮，非常简单方便",
+        "imageUrl": "https://i2.chuimg.com/efd1bf24672847838ebfa968fc1dee43_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "开水下锅，煮至浮起再煮分把钟就差不多煮熟了，捞出过冰水，加入适量绵白糖搅拌",
+        "imageUrl": "https://i2.chuimg.com/c3529aa5061148ca94e1a9ba24571e42_1242w_1242h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "一勺蜜豆，一勺龟苓膏，一大勺芋圆，淋点炼乳和牛奶，一份消暑甜品完成啦，享用吧✌️，蜜豆可以参考我的下厨房链接www.xiachufang.com/recipe/103848485/，自己做的比外面买的吃的安心😄",
+        "imageUrl": "https://i2.chuimg.com/24b5a7260130447591a5f5a2ed25eb8e_1242w_1242h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 2894.5,
+      "protein": 5.3,
+      "carbs": 725.5,
+      "fat": 1.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/103755586/"
   }
 ]
