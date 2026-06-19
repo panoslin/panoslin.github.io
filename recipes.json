@@ -27965,5 +27965,76 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7454397159467781387"
+  },
+  {
+    "id": 319,
+    "title": "牛肉锅盔🥟",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_319.png",
+    "description": "牛肉锅盔🥟的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肉末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "松茸鲜酱油（低钠）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辅食油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄油手抓饼",
+        "quantity": 1,
+        "unit": "张"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "牛肉末加入葱花、松茸鲜酱油（低钠）和辅食油，充分搅拌均匀成肉馅。",
+      {
+        "text": "一张黄油手抓饼切成四等份。",
+        "imageUrl": "images/recipe_319_step_2.png"
+      },
+      {
+        "text": "取一份饼皮放上肉馅，像这样包裹起来。",
+        "imageUrl": "images/recipe_319_step_3.png"
+      },
+      {
+        "text": "将包好的饼坯按扁。",
+        "imageUrl": "images/recipe_319_step_4.png"
+      },
+      "表面撒上白芝麻。",
+      "放入刷油的锅中，全程最小火煎制两面。",
+      {
+        "text": "煎至两面金黄熟透即可。",
+        "imageUrl": "images/recipe_319_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 7.2,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.8,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7447061645274205497"
   }
 ]
