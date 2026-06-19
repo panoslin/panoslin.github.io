@@ -39218,5 +39218,83 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107090037/"
+  },
+  {
+    "id": 446,
+    "title": "拔丝苹果",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/4b48b1c9dd0a4da2824459db23f5d39a_1080w_1080h.jpg?imageView2/1/w/800",
+    "description": "1.准备一个苹果，脆的好吃；2.切成自己喜欢大小（不能太小）\n放容器里裹上一层厚点的淀粉\n（分次少量的包裹）；3.我还弄了一点山药的，也非常好吃；4.锅里多放点油，烧热，可以先放一个苹果进油锅，冒泡泡就可以全部下锅炸了；5.小火慢炸，炸到金黄捞出来备用；6.一勺水，一勺糖，大火加",
+    "ingredients": [
+      {
+        "name": "苹果",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": "一勺"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备一个苹果，脆的好吃",
+        "imageUrl": "https://i2.chuimg.com/10bb3a2d54954f66aaf9b36db3beb771_765w_1020h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "切成自己喜欢大小（不能太小）放容器里裹上一层厚点的淀粉（分次少量的包裹）",
+        "imageUrl": "https://i2.chuimg.com/bfb6473fa9c54eeaa25dd01848a49269_1020w_765h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "我还弄了一点山药的，也非常好吃",
+        "imageUrl": "https://i2.chuimg.com/ba71451c86fe4a03a380707437c9e97c_765w_1020h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里多放点油，烧热，可以先放一个苹果进油锅，冒泡泡就可以全部下锅炸了",
+        "imageUrl": "https://i2.chuimg.com/64870526eca141038ae4b9d3ababdce1_765w_1020h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "小火慢炸，炸到金黄捞出来备用",
+        "imageUrl": "https://i2.chuimg.com/24880cfb222d4d4ca2a9c61e15860342_765w_1020h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "一勺水，一勺糖，大火加热到融化",
+        "imageUrl": "https://i2.chuimg.com/89b8ab8e54464b728795ed06fbfb62d4_765w_1020h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "最后小火，熬糖到褐色快速把苹果倒进去，稍微搅拌下全部裹上糖液就可以出锅了",
+        "imageUrl": "https://i2.chuimg.com/2a7e583628a644e48f5af4a63506d16a_765w_1020h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒进盘子里，趁热吃会拉丝凉了就脆了！",
+        "imageUrl": "https://i2.chuimg.com/ecb3c12002274175b0b3fae2cd3548e0_1080w_1080h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106951250/"
   }
 ]
