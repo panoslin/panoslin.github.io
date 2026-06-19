@@ -32505,5 +32505,91 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106474239/"
+  },
+  {
+    "id": 375,
+    "title": "无泡打粉华夫饼(早餐机版)",
+    "category": [
+      "早餐"
+    ],
+    "imageUrl": "https://i2.chuimg.com/38031085a955430cb2a6acf604e0c698_3024w_4032h.jpg?imageView2/1/w/800",
+    "description": "1.盆里打一个鸡蛋；2.捞出蛋黄；3.放入糖；4.打成这样；5.蛋黄、低粉、牛奶、油搅拌均匀；6.蛋清糊和蛋黄糊翻拌均匀；7.这样翻拌；8.倒入早餐机（提前预热2分钟）；9.烤5分钟；10.可以吃了",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 60,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 60,
+        "unit": "克"
+      },
+      {
+        "name": "黄油或玉米油或橄榄油",
+        "quantity": 5,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "盆里打一个鸡蛋",
+        "imageUrl": "https://i2.chuimg.com/7836bfae8c9b4ceeb23bc83a716c88f4_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "捞出蛋黄",
+        "imageUrl": "https://i2.chuimg.com/a76760ac6f3347cfbae5edb698afff80_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放入糖",
+        "imageUrl": "https://i2.chuimg.com/f0c7c66bf3e448628e655192369cfb49_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "打成这样",
+        "imageUrl": "https://i2.chuimg.com/31299256947c4b54a2a1e0d3a0ac87c5_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋黄、低粉、牛奶、油搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/51a882f4a20947dbb490a868e5bbb21c_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋清糊和蛋黄糊翻拌均匀",
+        "imageUrl": "https://i2.chuimg.com/5c30a6ea3f1643478ae9eb8cc421c932_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这样翻拌",
+        "imageUrl": "https://i2.chuimg.com/865bb28c5dd34b91b60ed64f861453a9_480w_384h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入早餐机（提前预热2分钟）",
+        "imageUrl": "https://i2.chuimg.com/e21f472602d54a95b985ead2a50fd7db_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤5分钟",
+        "imageUrl": "https://i2.chuimg.com/9fab17335e664eeca8616290b8ac3ad2_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "可以吃了",
+        "imageUrl": "https://i2.chuimg.com/2517fd6534194473955c4d86149ce28f_3024w_4032h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 168.1,
+      "protein": 8.5,
+      "carbs": 18.7,
+      "fat": 6.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/104780314/"
   }
 ]
