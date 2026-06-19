@@ -32320,5 +32320,85 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/101869222/"
+  },
+  {
+    "id": 372,
+    "title": "红茶鸳鸯拿铁☕️自制星巴克同款咖啡",
+    "category": [
+      "咖啡"
+    ],
+    "imageUrl": "https://i2.chuimg.com/fa53485cd6d5469e930d2f1ae30aa047_1242w_1864h.jpg?imageView2/1/w/800",
+    "description": "1.先冲泡红茶，然后滤出茶汤备用；2.牛奶加入淡奶后搅拌均匀；3.杯中倒入冰块七分满，加入红茶；4.冲入牛奶和淡奶混合液；5.倒入浓缩咖啡，建议咖啡机萃取，新鲜浓郁油脂厚（柏翠🚩店 报“大雪梨”，有t.uán购价）；6.喜甜的可以加一点糖浆，搅匀就可以吨吨吨啦～",
+    "ingredients": [
+      {
+        "name": "红茶",
+        "quantity": 70,
+        "unit": "ml"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 130,
+        "unit": "ml"
+      },
+      {
+        "name": "淡奶",
+        "quantity": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "冰块",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "浓缩咖啡",
+        "quantity": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "name": "*牛奶和淡奶可直接换成燕麦奶",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "先冲泡红茶，然后滤出茶汤备用",
+        "imageUrl": "https://i2.chuimg.com/d4cf6c5767c84218b9b2752b2e167326_1182w_946h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "牛奶加入淡奶后搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/72d2079609af422f8d12abbbc593e229_1182w_946h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "杯中倒入冰块七分满，加入红茶",
+        "imageUrl": "https://i2.chuimg.com/0a6c653b7eb2480290f12260f03a8a06_1182w_946h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "冲入牛奶和淡奶混合液",
+        "imageUrl": "https://i2.chuimg.com/be3c2ae5db984d41a096d7914fad8c6c_1183w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入浓缩咖啡，建议咖啡机萃取，新鲜浓郁油脂厚（柏翠🚩店 报“大雪梨”，有t.uán购价）",
+        "imageUrl": "https://i2.chuimg.com/663f9db684ee40bba917b7c9ffd84801_1242w_993h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "喜甜的可以加一点糖浆，搅匀就可以吨吨吨啦～",
+        "imageUrl": "https://i2.chuimg.com/2773d07a9f554184b65a9cb9f59ef5cf_1183w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 171.0,
+      "protein": 4.1,
+      "carbs": 13.1,
+      "fat": 11.6,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106930319/"
   }
 ]
