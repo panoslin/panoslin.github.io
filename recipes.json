@@ -35055,5 +35055,91 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/103496264/"
+  },
+  {
+    "id": 402,
+    "title": "地道辣子鸡做法揭㊙️👆🏻👆🏻",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/6b3394fcc1d3443abba5cd8f0c7814bd_2035w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.备菜\n鸡肉切成大拇指指甲盖差不多大小\n➕1勺黄酒/生抽/蚝油/五香粉/淀粉抓拌均匀，腌制15-30分钟；2.准备食材如上\n姜：1块\n蒜：1瓣\n葱：1棵\n白芝麻/花椒：1把\n鸡肉切小块\n干辣椒：50个或50g,不能吃辣的可以少一点；3.备菜\n姜蒜切片\n葱切段\n干辣椒：煎段\n花椒",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": 3,
+        "unit": "只（或鸡肉300g）"
+      },
+      {
+        "name": "干辣椒",
+        "quantity": 50,
+        "unit": "g(或50个）"
+      },
+      {
+        "name": "姜",
+        "quantity": 1,
+        "unit": "块"
+      },
+      {
+        "name": "蒜",
+        "quantity": 1,
+        "unit": "瓣"
+      },
+      {
+        "name": "花椒",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "白芝麻",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "葱",
+        "quantity": 1,
+        "unit": "棵"
+      },
+      {
+        "name": "黄酒/生抽/蚝油/五香粉/淀粉",
+        "quantity": 1,
+        "unit": "勺（约15g）"
+      },
+      {
+        "name": "白糖",
+        "quantity": 1,
+        "unit": "小勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "备菜鸡肉切成大拇指指甲盖差不多大小➕1勺黄酒/生抽/蚝油/五香粉/淀粉抓拌均匀，腌制15-30分钟",
+        "imageUrl": "https://i2.chuimg.com/3b969387183f4a41beb6042c82af201d_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备食材如上姜：1块蒜：1瓣葱：1棵白芝麻/花椒：1把鸡肉切小块干辣椒：50个或50g,不能吃辣的可以少一点",
+        "imageUrl": "https://i2.chuimg.com/476747736c4b4b98af6fb7ae71182063_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "备菜姜蒜切片葱切段干辣椒：煎段花椒可以稍微碾一碾",
+        "imageUrl": "https://i2.chuimg.com/ab4774d0050a4435a37b3d3a7e803989_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "做法1、热锅温油下鸡肉，炸至鸡肉金黄捞出2、油烧热一点，鸡肉负炸1分钟后捞出3、另起一锅，热锅热油下姜蒜片和葱段，炒香4、倒入干辣椒🌶️，翻炒均匀，倒入鸡肉，➕1勺白糖，撒上白芝麻，葱花，翻炒均匀，出锅即可🤤",
+        "imageUrl": "https://i2.chuimg.com/3dfb044f66054b7bbc500b32e09611d9_2560w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "麻辣鲜香，巨好吃❗❗❗快试试吧",
+        "imageUrl": "https://i2.chuimg.com/1bfa18f141104af3a3561aa01955e062_2035w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 171.1,
+      "protein": 8.6,
+      "carbs": 33.6,
+      "fat": 6.9,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107082881/"
   }
 ]
