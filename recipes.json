@@ -34627,5 +34627,100 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107132328/"
+  },
+  {
+    "id": 396,
+    "title": "半小时就可以上桌的酱油鸡（电饭锅快手版）",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e2260f3425314c7daa2a1f5e689af49e_1280w_1706h.jpg?imageView2/1/w/800",
+    "description": "1.鸡洗净；2.锅底铺姜片，葱段，八角，鸡皮朝下放好；3.黄冰糖一小块，换冰糖就是一小把；4.酱油半碗；5.清水半碗；6.按煮饭键，煮好焖一会；7.汤汁多就拿出来收汁。不多直接砍了；8.放到锅里面大火收汁；9.成品；10.；11.切块食用，咸鲜甜，好美味",
+    "ingredients": [
+      {
+        "name": "鸡",
+        "quantity": "适量",
+        "unit": "半只"
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": "半碗"
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": "一小段"
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": "三四片"
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": "一小块黄冰糖"
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": "两颗"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡洗净",
+        "imageUrl": "https://i2.chuimg.com/6e22d06439fc40b2b1865ab4e20efb56_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅底铺姜片，葱段，八角，鸡皮朝下放好",
+        "imageUrl": "https://i2.chuimg.com/8d44c87b7edc4470ac83496bd9f45fa6_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "黄冰糖一小块，换冰糖就是一小把",
+        "imageUrl": "https://i2.chuimg.com/9bb4c6ebc90e42a9a77ec751151c53ea_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "酱油半碗",
+        "imageUrl": "https://i2.chuimg.com/32cb400828e04d389bbc857b68d15b9f_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "清水半碗",
+        "imageUrl": "https://i2.chuimg.com/5dc086772fb6452b926a367d4b1f4051_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "按煮饭键，煮好焖一会",
+        "imageUrl": "https://i2.chuimg.com/ae93ab59a27745bb9edd4f25a1387c4a_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "汤汁多就拿出来收汁。不多直接砍了",
+        "imageUrl": "https://i2.chuimg.com/70cbc113928542239f42f10288d44401_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放到锅里面大火收汁",
+        "imageUrl": "https://i2.chuimg.com/2e8b11921f7a4fdf92c56814b5949b31_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "成品",
+        "imageUrl": "https://i2.chuimg.com/544a89e3972947c7bb818b721f536611_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/3dde6f01a10847e987f697b3569e7077_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "切块食用，咸鲜甜，好美味",
+        "imageUrl": "https://i2.chuimg.com/200bdba98d7b47a8a5a63c67f2c83c31_1280w_1706h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107248362/"
   }
 ]
