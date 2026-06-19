@@ -26041,5 +26041,116 @@
       "salt": 0.15
     },
     "source": "https://www.douyin.com/video/7481215723944152356"
+  },
+  {
+    "id": 300,
+    "title": "滑蛋鸡腿饭🍚",
+    "category": [
+      "家常菜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_300.png",
+    "description": "滑蛋鸡腿饭🍚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "洋葱",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "小勺"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": 4,
+        "unit": "勺"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "洋葱对半切开，平放在案板上切成细丝备用。",
+      {
+        "text": "鸡腿沿腿根部划一圈，用剪子剪断连接处去骨，再切成小块。",
+        "imageUrl": "images/recipe_300_step_2.png"
+      },
+      "鸡肉块加入盐、白胡椒粉、1小勺老抽上色、2勺玉米淀粉，抓拌均匀，腌制10到15分钟。",
+      {
+        "text": "调料汁：2勺生抽、1勺蚝油、1勺糖、少许黑胡椒、4勺清水，搅拌均匀备用。",
+        "imageUrl": "images/recipe_300_step_4.png"
+      },
+      "鸡蛋打散备用。",
+      "平底锅或不粘锅放少量油，下鸡腿，开中小火慢煎至两面金黄出油。",
+      "加入切好的洋葱丝，开中火炒出香味后倒入料汁。",
+      "盖盖转中小火焖5分钟。",
+      {
+        "text": "开盖后均匀淋上蛋液，煮至蛋液成熟（若锅内水干可再加适量水，防止鸡蛋碎掉）。",
+        "imageUrl": "images/recipe_300_step_9.png"
+      },
+      "撒上葱花，盛出盖在米饭上即可。"
+    ],
+    "nutrition": {
+      "calories": 898.2,
+      "protein": 85.7,
+      "carbs": 9.0,
+      "fat": 56.9,
+      "salt": 0.54
+    },
+    "source": "https://www.douyin.com/video/7481595732433063205"
   }
 ]
