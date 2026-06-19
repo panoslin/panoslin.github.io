@@ -28326,5 +28326,129 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7469354166629043466"
+  },
+  {
+    "id": 323,
+    "title": "双椒牛肉炒面🌶️",
+    "category": [
+      "主食",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_323.png",
+    "description": "双椒牛肉炒面🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肉",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "线椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽（腌肉）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽（腌肉）",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "小苏打",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽（料汁）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽（料汁）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "鸡精",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "孜然粉",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      "牛肉切成1厘米左右的条。",
+      {
+        "text": "加生抽1勺、老抽0.5勺、淀粉1勺、胡椒粉2克、小苏打2克抓匀，再封上一层食用油，腌制20分钟（加小苏打牛肉吃起来更嫩）。",
+        "imageUrl": "images/recipe_323_step_2.png"
+      },
+      "线椒切成斜刀；小米椒不太能吃辣可少放。",
+      {
+        "text": "油热下牛肉，保持大火快炒约30秒立即盛出，以免牛肉变老。",
+        "imageUrl": "images/recipe_323_step_4.png"
+      },
+      "另起锅放葱姜爆香，下线椒、小米椒炒到断生。",
+      "倒入炒好的牛肉，翻炒均匀。",
+      {
+        "text": "放入面条，加入炒面料汁：生抽2勺、蚝油1勺、老抽2勺、鸡精2克、孜然粉1勺。",
+        "imageUrl": "images/recipe_323_step_7.png"
+      },
+      "保持大火把料汁炒上色，即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 523.1,
+      "protein": 53.1,
+      "carbs": 4.1,
+      "fat": 30.4,
+      "salt": 1.85
+    },
+    "source": "https://www.douyin.com/video/7461164871514721576"
   }
 ]
