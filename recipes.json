@@ -32400,5 +32400,62 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106930319/"
+  },
+  {
+    "id": 373,
+    "title": "生椰拿铁yyds🔥复刻瑞幸爆款咖啡",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e5dcf660b7874701b6c8cc4c71d8a80b_1241w_1862h.jpg?imageView2/1/w/800",
+    "description": "1.加入冰块；2.加入厚椰乳（如果只用厚椰乳会比较腻！）；3.加入鲜牛奶，搅拌一下；4.倒入浓缩咖啡，顺着冰块缓缓倒就会有分层啦～",
+    "ingredients": [
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": "半杯"
+      },
+      {
+        "name": "厚椰乳",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "鲜牛奶",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "浓缩",
+        "quantity": 36,
+        "unit": "g（深烘豆）"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "加入冰块",
+        "imageUrl": "https://i2.chuimg.com/21962d26b90d4365818bf9ea9b5a40a8_1242w_994h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入厚椰乳（如果只用厚椰乳会比较腻！）",
+        "imageUrl": "https://i2.chuimg.com/b4bd65c163264d9384311eb41e290dc5_1242w_994h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入鲜牛奶，搅拌一下",
+        "imageUrl": "https://i2.chuimg.com/8381a69d4e4f4088ab6ce5853f419097_1242w_993h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入浓缩咖啡，顺着冰块缓缓倒就会有分层啦～",
+        "imageUrl": "https://i2.chuimg.com/424bd94bd49f4f779dfefd25f639c1c4_1242w_994h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 81.0,
+      "protein": 4.4,
+      "carbs": 8.9,
+      "fat": 1.7,
+      "salt": 13.72
+    },
+    "source": "https://www.xiachufang.com/recipe/106489836/"
   }
 ]
