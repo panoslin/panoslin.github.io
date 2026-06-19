@@ -24269,5 +24269,96 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7472379469492194620"
+  },
+  {
+    "id": 284,
+    "title": "贵州辣子鸡🌶️",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_284.png",
+    "description": "贵州辣子鸡🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "独头蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花椒粒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糍粑辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "啤酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "松茸鲜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "热锅倒油烧热，下入洗净的鸡肉。",
+      {
+        "text": "中大火翻炒，炒干鸡肉的水分，把油从浑浊炒至清亮，鸡肉炒香、表皮焦黄。",
+        "imageUrl": "images/recipe_284_step_2.png"
+      },
+      "将鸡肉捞出备用。",
+      "锅内留底油，下独头蒜、姜片、花椒粒炒出香味。",
+      {
+        "text": "下糍粑辣椒，中小火炒散炒香、炒出红油。",
+        "imageUrl": "images/recipe_284_step_5.png"
+      },
+      "倒入炒好的鸡肉，翻炒均匀。",
+      {
+        "text": "倒入啤酒，没过鸡肉。",
+        "imageUrl": "images/recipe_284_step_7.png"
+      },
+      "加入酱油、松茸鲜调味。",
+      "盖上盖子，中小火煮20分钟左右。",
+      "最后撒上一把蒜叶即可。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7472014623319788858"
   }
 ]
