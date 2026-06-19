@@ -27227,5 +27227,92 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7455630627971337512"
+  },
+  {
+    "id": 312,
+    "title": "紫菜炒饭🍚",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_312.png",
+    "description": "紫菜炒饭🍚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "紫菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 7,
+        "unit": "个"
+      },
+      {
+        "name": "米饭",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五花肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉饼或午餐肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "磷虾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "潮汕沙茶粉",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "锅中不放油,开小火,先把紫菜烘成绿色,放凉后揉碎备用。",
+        "imageUrl": "images/recipe_312_step_1.png"
+      },
+      "七个鸡蛋打散下锅炒熟,盛出备用。",
+      {
+        "text": "放五花肉下锅煸出猪油(猪油太多可盛出来一些);有肉饼就放一点,没有可用午餐肉代替。",
+        "imageUrl": "images/recipe_312_step_3.png"
+      },
+      "炒到焦黄后,放入磷虾和胡萝卜丝翻炒。",
+      "加盐调味,倒回刚刚炒好的鸡蛋、米饭、紫菜碎和葱花,一起翻炒均匀。",
+      {
+        "text": "出锅之前再来1勺潮汕沙茶粉提味增香,翻炒均匀即可出锅。",
+        "imageUrl": "images/recipe_312_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 504.0,
+      "protein": 45.5,
+      "carbs": 3.5,
+      "fat": 30.8,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7475644896376884539"
   }
 ]
