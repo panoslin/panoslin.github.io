@@ -29911,5 +29911,104 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107421728/"
+  },
+  {
+    "id": 342,
+    "title": "梦华录同款糕点 ｜ 紫薯山药豆沙糕",
+    "category": [
+      "下午茶"
+    ],
+    "imageUrl": "https://i2.chuimg.com/9e1e206c74344cd089657cffc28c8c22_3024w_4032h.jpg?imageView2/1/w/800",
+    "description": "1.食材准备；2.山药去皮；3.上锅蒸25分钟；4.豆沙馅分成每个20g；5.山药捣成泥状（不要有水分）；6.➕炼乳➕熟糯米粉揉成面团；7.均分为2份，取一份加紫薯粉揉匀；8.面团各取15g揉成圆球；9.按扁压平（克数根据模具大小决定），包裹成圆球；10.放入模具按压紧实；11.",
+    "ingredients": [
+      {
+        "name": "铁棍山药",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "熟糯米粉",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "紫薯粉",
+        "quantity": 2,
+        "unit": "g"
+      },
+      {
+        "name": "炼乳",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "name": "豆沙",
+        "quantity": 220,
+        "unit": "g"
+      },
+      {
+        "name": "桂花蜜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "食材准备",
+        "imageUrl": "https://i2.chuimg.com/687a4aa384ee473aa6e6d7c78081c6fc_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "山药去皮",
+        "imageUrl": "https://i2.chuimg.com/383b6027ec394f6a91d78664039a8a6c_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "上锅蒸25分钟",
+        "imageUrl": "https://i2.chuimg.com/c7fd132a30fc48ae801750a92bdd3b1c_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "豆沙馅分成每个20g",
+        "imageUrl": "https://i2.chuimg.com/4347938ca55d4ee490d61a63c0bfaf7a_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "山药捣成泥状（不要有水分）",
+        "imageUrl": "https://i2.chuimg.com/9fba03ef22054806a24de8c2f3a1a214_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "➕炼乳➕熟糯米粉揉成面团",
+        "imageUrl": "https://i2.chuimg.com/026809cf16bd4d5d83ca6f35f084fa62_4032w_2266h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "均分为2份，取一份加紫薯粉揉匀",
+        "imageUrl": "https://i2.chuimg.com/be5fe753e52e4a41807bac051d5405c5_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "面团各取15g揉成圆球，",
+        "imageUrl": "https://i2.chuimg.com/3d5f130fab544b648dea7b0079329bf7_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "按扁压平（克数根据模具大小决定），包裹成圆球",
+        "imageUrl": "https://i2.chuimg.com/dcf0b4a4d25949a8bba2594a918fe2c1_4032w_2266h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放入模具按压紧实",
+        "imageUrl": "https://i2.chuimg.com/fec67b71b5f44c63aad4ab65f506654c_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "脱模即可",
+        "imageUrl": "https://i2.chuimg.com/98e9f45e62134b0db2951553ec2e5996_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "淋上一些桂花蜜更好吃～",
+        "imageUrl": "https://i2.chuimg.com/429eda14e41d4c1eb3b3be6fea87a41a_3024w_4032h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 222.2,
+      "protein": 4.7,
+      "carbs": 46.8,
+      "fat": 1.7,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106833313/"
   }
 ]
