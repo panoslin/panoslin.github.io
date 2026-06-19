@@ -31463,5 +31463,49 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106932515/"
+  },
+  {
+    "id": 360,
+    "title": "冰糖雪梨（止咳，中医给的）",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/5094984b98024cf6988de315f8a2aef2_1080w_2400h.jpg?imageView2/1/w/800",
+    "description": "1.梨（皇冠梨，贡梨，酥梨都可以）用清水洗净，切块（不削皮，削皮吃了没效果），去核；2.放冰糖（我用的黄色的老冰糖），根据自己口味来放，太甜了会腻；3.放适量枸杞，倒水，用电饭煲煮饭键，煮十几分钟，跳到保温功能，让它在电饭煲里慢慢闷变色，就可以了",
+    "ingredients": [
+      {
+        "name": "梨",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": "一小把"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "梨（皇冠梨，贡梨，酥梨都可以）用清水洗净，切块（不削皮，削皮吃了没效果），去核",
+      "放冰糖（我用的黄色的老冰糖），根据自己口味来放，太甜了会腻",
+      "放适量枸杞，倒水，用电饭煲煮饭键，煮十几分钟，跳到保温功能，让它在电饭煲里慢慢闷变色，就可以了。"
+    ],
+    "nutrition": {
+      "calories": 57,
+      "protein": 0.4,
+      "carbs": 15.0,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/105973758/"
   }
 ]
