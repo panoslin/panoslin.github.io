@@ -30670,5 +30670,108 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106863919/"
+  },
+  {
+    "id": 351,
+    "title": "地中海烤鱼",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/53ec27b8022f4f30a0a3f854f078883e_3414w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.腌鱼：用柠檬皮、少许柠檬汁、黑胡椒、小茴香、盐和橄榄油混合一起腌制半小时以上。鱼肚内塞入蒜片和柠檬片；2.带皮土豆蒸熟后、西葫芦、红萝卜，、小番茄、小青辣椒和大蒜拌上橄榄油、黑胡椒、盐和少许红椒粉，也可以加少许料酒。放置半小时以上；3.烤制：200度烤箱预热，先烤蔬菜大约10",
+    "ingredients": [
+      {
+        "name": "鲈鱼",
+        "quantity": 1,
+        "unit": "条"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 1,
+        "unit": "只"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土豆",
+        "quantity": "适量",
+        "unit": "不去皮根据自己喜好"
+      },
+      {
+        "name": "蒜",
+        "quantity": 1,
+        "unit": "只"
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红萝卜🥕",
+        "quantity": 3,
+        "unit": "根"
+      },
+      {
+        "name": "西葫芦",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "小番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小茴香",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "欧芹",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红辣椒粉",
+        "quantity": "适量",
+        "unit": "少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "腌鱼：用柠檬皮、少许柠檬汁、黑胡椒、小茴香、盐和橄榄油混合一起腌制半小时以上。鱼肚内塞入蒜片和柠檬片。",
+        "imageUrl": "https://i2.chuimg.com/3d8a29d7e0a345539751e091cd5c60e1_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "带皮土豆蒸熟后、西葫芦、红萝卜，、小番茄、小青辣椒和大蒜拌上橄榄油、黑胡椒、盐和少许红椒粉，也可以加少许料酒。放置半小时以上。",
+        "imageUrl": "https://i2.chuimg.com/630df237c8c04928af3068be49267a0a_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤制：200度烤箱预热，先烤蔬菜大约10分钟。再摆入腌好的鱼🐟。淋上少许橄榄油。继续200度烤制25-30分钟。最后撒上适量欧芹。（烤制时把番茄🍅和红萝卜🥕放在上面，红萝卜略焦黄可是相当好吃😋）",
+        "imageUrl": "https://i2.chuimg.com/e695460fab574cd3a05aa389e339be0c_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 3.3,
+      "protein": 0.3,
+      "carbs": 0.5,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107030557/"
   }
 ]
