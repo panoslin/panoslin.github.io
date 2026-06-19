@@ -35370,5 +35370,99 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106909547/"
+  },
+  {
+    "id": 405,
+    "title": "番茄鸡蛋拌饭",
+    "category": [
+      "饭"
+    ],
+    "imageUrl": "https://i2.chuimg.com/df2b31a9fccf47fdb3809901782bfeff_960w_960h.jpg?imageView2/1/w/800",
+    "description": "1.准备食材！\n右边酱汁：蕃茄酱1勺、生抽1勺、蚝油1勺、淀粉半勺，盐和糖适量，加入少许水搅拌均匀；2.番茄切块（今天心情不佳，所以懒得去皮），火腿肠切片，鸡蛋打散；3.鸡蛋炒熟盛出；4.番茄炒出汤汁（所以要买熟一点的）；5.放入火腿肠片，鸡蛋，和调好的酱汁翻炒均匀，炒到汤汁浓稠",
+    "ingredients": [
+      {
+        "name": "西红柿",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "火腿肠",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蕃茄酱",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": "适量",
+        "unit": "半勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "准备食材！右边酱汁：蕃茄酱1勺、生抽1勺、蚝油1勺、淀粉半勺，盐和糖适量，加入少许水搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/617e88be937f41378f9d2b997426d4c3_2400w_1918h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "番茄切块（今天心情不佳，所以懒得去皮），火腿肠切片，鸡蛋打散",
+        "imageUrl": "https://i2.chuimg.com/e854869d58574f9b8d30aa9a39d7fe32_2400w_1918h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "鸡蛋炒熟盛出",
+        "imageUrl": "https://i2.chuimg.com/7f0d2af35e6f4489818c620f6468cdfb_1744w_1394h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "番茄炒出汤汁（所以要买熟一点的）",
+        "imageUrl": "https://i2.chuimg.com/7a12cb85cbdc4eb2beb043123fc97000_957w_765h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放入火腿肠片，鸡蛋，和调好的酱汁翻炒均匀，炒到汤汁浓稠就好啦",
+        "imageUrl": "https://i2.chuimg.com/6a3e38464b9242d691c9f0b9484469d0_1171w_936h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "挖一大勺盖在饭上，没胃口的时候就吃这个吧",
+        "imageUrl": "https://i2.chuimg.com/36f469ccf0264a06b5f35f34c69714a2_1200w_959h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "千玺帮我拌的",
+        "imageUrl": "https://i2.chuimg.com/f81cb86998d6401faf10ccf684e34b4a_1920w_1535h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 185.0,
+      "protein": 15.0,
+      "carbs": 8.3,
+      "fat": 9.5,
+      "salt": 0.25
+    },
+    "source": "https://www.xiachufang.com/recipe/106840321/"
   }
 ]
