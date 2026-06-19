@@ -26382,5 +26382,134 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7477524202073984266"
+  },
+  {
+    "id": 303,
+    "title": "无水鸡肉蔬菜锅🍲",
+    "category": [
+      "家常菜",
+      "中餐"
+    ],
+    "imageUrl": "images/recipe_303.png",
+    "description": "无水鸡肉蔬菜锅🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "去骨鸡腿肉",
+        "quantity": 5,
+        "unit": "个"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "白胡椒",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "红米酒",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "卷心菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菌菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "5个去骨鸡腿肉切成大块。",
+      {
+        "text": "加入腌制配料：盐5克、白胡椒3克、生抽30克、蚝油15克、红米酒30克、蒜末10克，抓匀腌制20分钟。",
+        "imageUrl": "images/recipe_303_step_2.png"
+      },
+      {
+        "text": "准备一口铸铁锅，热锅热油，爆香生姜、大蒜和洋葱以增加风味。",
+        "imageUrl": "images/recipe_303_step_3.png"
+      },
+      "倒入胡萝卜一起炝炒一下。",
+      {
+        "text": "锅底先铺一层卷心菜，再码上腌好的鸡腿肉。",
+        "imageUrl": "images/recipe_303_step_5.png"
+      },
+      "加入各种菌菇，丰富口感并提升汤底鲜味。",
+      {
+        "text": "最后用卷心菜封住表面，撒上一勺糖和盐调味。",
+        "imageUrl": "images/recipe_303_step_7.png"
+      },
+      "盖上盖子，转中小火焗20分钟。",
+      "还剩5分钟时开盖，稍微翻拌一下，再盖回盖子完成最后的烹饪。",
+      "时间到了，淋上一勺香油，再撒一点葱花即可享用。"
+    ],
+    "nutrition": {
+      "calories": 990.4,
+      "protein": 93.5,
+      "carbs": 19.1,
+      "fat": 60.3,
+      "salt": 10.91
+    },
+    "source": "https://www.douyin.com/video/7448456458653551899"
   }
 ]
