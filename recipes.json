@@ -38831,5 +38831,165 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/105905179/"
+  },
+  {
+    "id": 443,
+    "title": "泰式冬阴功汤",
+    "category": [
+      "火锅"
+    ],
+    "imageUrl": "https://i2.chuimg.com/dfbe6c7315894a2da976cef36bec633c_4033w_3024h.jpg?imageView2/1/w/800",
+    "description": "1.先处理虾，剪去虾枪虾脚，然后挑除虾线。挑虾线的最好方法是在虾身倒数第二第三节的连接处，用牙签插进去然后慢慢轻轻地挑出来。\n处理好的虾洗干净，然后把虾头摘下来；2.然后来准备所有冬阴功汤里用到的泰式香料：用刀背拍打香茅，然后一半切斜刀丝，一般切段；3.柠檬叶摘下两边的叶子，中间",
+    "ingredients": [
+      {
+        "name": "草虾",
+        "quantity": 30,
+        "unit": "个左右"
+      },
+      {
+        "name": "香菇",
+        "quantity": "适量",
+        "unit": "选任何2-3种自己喜欢吃的菇，像草菇，海鲜菇，平菇都可。"
+      },
+      {
+        "name": "香茅",
+        "quantity": 2,
+        "unit": "根"
+      },
+      {
+        "name": "南姜",
+        "quantity": 8,
+        "unit": "片"
+      },
+      {
+        "name": "柠檬叶",
+        "quantity": 6,
+        "unit": "片"
+      },
+      {
+        "name": "红葱头",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "蒜",
+        "quantity": 4,
+        "unit": "瓣"
+      },
+      {
+        "name": "泰国小辣椒",
+        "quantity": 2,
+        "unit": "-3根"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 2,
+        "unit": "根（可要可不要）"
+      },
+      {
+        "name": "香菜",
+        "quantity": 2,
+        "unit": "棵"
+      },
+      {
+        "name": "青柠",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "鱼露",
+        "quantity": 5,
+        "unit": "匙"
+      },
+      {
+        "name": "泰国辣酱（Nam Prik Pao）",
+        "quantity": 6,
+        "unit": "匙"
+      },
+      {
+        "name": "椰奶",
+        "quantity": 6,
+        "unit": "-7匙"
+      },
+      {
+        "name": "清水",
+        "quantity": 4,
+        "unit": "杯"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "先处理虾，剪去虾枪虾脚，然后挑除虾线。挑虾线的最好方法是在虾身倒数第二第三节的连接处，用牙签插进去然后慢慢轻轻地挑出来。处理好的虾洗干净，然后把虾头摘下来。",
+        "imageUrl": "https://i2.chuimg.com/fa13b01825b441beb68baf33d9b2f3cc_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "然后来准备所有冬阴功汤里用到的泰式香料：用刀背拍打香茅，然后一半切斜刀丝，一般切段。",
+        "imageUrl": "https://i2.chuimg.com/01be6c6b5b5645919fcd14f81ecf7b7c_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "柠檬叶摘下两边的叶子，中间那根茎不要（汤会变苦）。",
+        "imageUrl": "https://i2.chuimg.com/a246f3dd5061421f801f8172070b8352_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "南姜切片，蒜瓣切大粒，小米辣切丁，泰国小辣椒切去尾部，红葱头切大块丁。香料就此完成。",
+        "imageUrl": "https://i2.chuimg.com/b256a1d0c111432bb3c2119f51ab0b5f_750w_564h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "菇切小块或切片，看自己口味。",
+        "imageUrl": "https://i2.chuimg.com/b7e1101326244f14b2f15a8a4cab5842_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "青柠切小块，然后用勺子挤出青柠汁。",
+        "imageUrl": "https://i2.chuimg.com/9f2c4e3d921f435eb28f96da2900a1c9_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅中倒油，七成热后倒入虾头，中火炒2分钟左右，用铲子轻压虾头可以把里面的虾黄虾膏逼出来。之后倒入4杯清水。大火煮开后转中小火炖10分钟。",
+        "imageUrl": "https://i2.chuimg.com/b20554fb5cc44b4f90f375a99d36b4bd_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "之后倒入所有的香料，搅拌均匀，中大火煮3分钟左右。",
+        "imageUrl": "https://i2.chuimg.com/dbcd4d27c1a946caa49834ba1f1b32bf_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把虾头和香料捞出一部分（大概一半左右）。",
+        "imageUrl": "https://i2.chuimg.com/129c63fbd7874359a03734e382015101_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再倒入切好的香菇，中大火煮4分钟。",
+        "imageUrl": "https://i2.chuimg.com/f3d972aee51f45f5aa7d1ed6bd0ea382_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入鱼露",
+        "imageUrl": "https://i2.chuimg.com/5ba57aecde4648e5a11f8c2c91872041_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入泰国辣酱，搅拌均匀。",
+        "imageUrl": "https://i2.chuimg.com/d51f1eccc03641ae85c105fd22f44c8a_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再倒入草虾，转大火煮2分钟。",
+        "imageUrl": "https://i2.chuimg.com/062e3171897849a1a7181e15917fc95f_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入椰奶，再煮1分钟。",
+        "imageUrl": "https://i2.chuimg.com/5769dd0e2cbf4e178ebd4529c8918fed_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "关火，倒入青柠汁和切成碎末的香菜或胡荽，搅拌均匀。",
+        "imageUrl": "https://i2.chuimg.com/87c1604cede44f7995c3f80fd52fdc28_3024w_3024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "盛到碗里，开吃～",
+        "imageUrl": "https://i2.chuimg.com/6c92c51e954d4c918d283ec61a455ced_3024w_3024h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 144.7,
+      "protein": 9.6,
+      "carbs": 25.6,
+      "fat": 1.7,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/105844826/"
   }
 ]
