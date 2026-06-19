@@ -25182,5 +25182,66 @@
       "salt": 2.37
     },
     "source": "https://www.douyin.com/video/7491876493568593179"
+  },
+  {
+    "id": 291,
+    "title": "青柠盐渍菠萝🍍",
+    "category": [
+      "甜品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_291.png",
+    "description": "青柠盐渍菠萝🍍的详细制作方法",
+    "ingredients": [
+      {
+        "name": "菠萝（黑钻凤梨）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青柠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白朗姆酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "青柠表皮加少许盐，好好搓洗干净备用（青柠皮等下会用到）",
+      "菠萝选用黑钻凤梨，直接买切好的，多汁口感更好，备用",
+      {
+        "text": "用刨刀把青柠绿色表皮刮入碗中，注意只刮表层、不要刮到白色内皮，否则会发苦",
+        "imageUrl": "images/recipe_291_step_3.png"
+      },
+      "青柠切半，把青柠汁挤进菠萝里",
+      "加入盐（必须加，非常提升风味），糖可加可不加",
+      "想把味道拉满，可以再加一点白朗姆酒",
+      {
+        "text": "全部拌匀",
+        "imageUrl": "images/recipe_291_step_7.png"
+      },
+      "可以立即食用；放冰箱冷藏一两个小时以上，味道会融合得更好"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7459245696126962984"
   }
 ]
