@@ -40534,5 +40534,107 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107097279/"
+  },
+  {
+    "id": 461,
+    "title": "抓一把面条丢入电饭锅中，这也忒好吃了吧，这种神仙做法第一次见",
+    "category": [
+      "家常菜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_461.png",
+    "description": "电饭煲排骨焖面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "排骨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "湿面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香芹",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆芽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用盐",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "排骨洗净、控干水分，放入锅中煸炒至表面金黄、香味出来。",
+        "imageUrl": "images/recipe_461_step_1.png"
+      },
+      "加入香叶、八角和几片姜片，继续翻炒约1分钟把香料炒香。",
+      {
+        "text": "加入适量生抽、少许老抽上色，再放2勺食用盐，翻炒均匀让调料充分化开。",
+        "imageUrl": "images/recipe_461_step_3.png"
+      },
+      "倒入可以完全没过排骨的清水，大火煮至沸腾后关火。",
+      "把排骨连汤一起转移到电饭煲中，扒平排气，盖上盖子选择“红烧肉”程序炖煮。",
+      "趁炖煮时准备配菜：豆角掐头去尾、洗净掰成长段；香芹去掉筋络切成长段；再备一把豆芽。",
+      "排骨炖至软烂后，先舀出约一半汤汁盛出备用。",
+      "锅中加入豆角，开盖咕嘟煮约5分钟把豆角彻底煮熟（豆角未熟有毒），保持水量刚好没过排骨。",
+      {
+        "text": "放入湿面条用筷子摊平，再把刚才盛出的汤汁重新浇回面条上，让每根面条都能吸收汤汁。",
+        "imageUrl": "images/recipe_461_step_9.png"
+      },
+      "盖子盖在上面（无需密封），再焖约8分钟。",
+      "面条吸饱汤汁后，加入香芹和豆芽搅拌均匀并翻到底部，再焖三五分钟至熟即可开吃。"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 5.08
+    },
+    "source": "https://www.xiachufang.com/recipe/107107627/"
   }
 ]
