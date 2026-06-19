@@ -33981,5 +33981,69 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104322281/"
+  },
+  {
+    "id": 389,
+    "title": "冰糖炖柠檬（电饭煲版）",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/69355e53034b439b922bcf131fe88766_804w_643h.jpg?imageView2/1/w/800",
+    "description": "1.柠檬用盐搓洗干净，切成片去掉籽放入电饭煲锅里，不用切得太薄，不然一炖全化了就没有肉了也不好看；2.冰糖最好是选择老冰糖最好，各个超市都会有售，如果改用一般的也不影响～；3.冰糖直接放在柠檬上面就可以了，不需要在额外加水哦！因为柠檬本身就含有很多汁水了，如果冰糖太大块，可以敲碎",
+    "ingredients": [
+      {
+        "name": "老冰糖",
+        "quantity": 800,
+        "unit": "G"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 5,
+        "unit": "-6只"
+      },
+      {
+        "name": "如果不确定柠檬跟糖的用量可以按照……",
+        "quantity": "适量",
+        "unit": "柠檬1  :  冰糖1.5"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "柠檬用盐搓洗干净，切成片去掉籽放入电饭煲锅里，不用切得太薄，不然一炖全化了就没有肉了也不好看",
+        "imageUrl": "https://i2.chuimg.com/eef079f29a8b11e6b2400242ac110002_3264w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "冰糖最好是选择老冰糖最好，各个超市都会有售，如果改用一般的也不影响～",
+        "imageUrl": "https://i2.chuimg.com/f08a2a889a8b11e6b2400242ac110002_2448w_3264h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "冰糖直接放在柠檬上面就可以了，不需要在额外加水哦！因为柠檬本身就含有很多汁水了，如果冰糖太大块，可以敲碎一点！缓解咳嗽可以根据自己的需求加入少许的贝母或陈皮一起炖效果更好，如果只是润肺养颜则可以添加枸杞，桂圆，红枣等，但是身体火气大的就最好不要了！！！",
+        "imageUrl": "https://i2.chuimg.com/f1afe3f89a8b11e69ce70242ac110002_3264w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "选择煮粥或熬汤功能都可以，一般电饭煲都会有这样的功能，我家煮粥的是一个小时，熬汤是2小时～完成之后会自动保温！只要一直保温6～8个小时就完成了！",
+        "imageUrl": "https://i2.chuimg.com/f31e0fa89a8b11e69ce70242ac110002_3264w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这个是晚上睡觉前开始熬汤功能2小时，保温了8个小时，选的冰糖是颜色很深的那种冰糖！成品颜色很深，很浓稠，口感浓郁有点焦糖味道～",
+        "imageUrl": "https://i2.chuimg.com/f5400f3e9a8b11e69ce70242ac110002_3264w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这个是煮粥功能1小时，保温6个小时，用的冰糖就是上面图片的这种～成品颜色金黄透亮，略微浓稠～口感清香，酸甜适口！",
+        "imageUrl": "https://i2.chuimg.com/f6a4f4d49a8b11e6b2400242ac110002_3264w_2448h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "最后给大家看看我平时熬好凉透的状态，这个我是放保鲜保鲜的，最长放两个月都没有问题！",
+        "imageUrl": "https://i2.chuimg.com/b9256e8d1ee44cc1926ed01914546a9f_480w_384h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 3097.4,
+      "protein": 0.1,
+      "carbs": 800.5,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/100556489/"
   }
 ]
