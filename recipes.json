@@ -24866,5 +24866,89 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7485745370933284153"
+  },
+  {
+    "id": 289,
+    "title": "葱油蒸鸡腿🍗",
+    "category": [
+      "家常菜",
+      "蒸制"
+    ],
+    "imageUrl": "images/recipe_289.png",
+    "description": "葱油蒸鸡腿🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红枣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "取一个盘子,中间倒扣一个碗,放上鸡腿,再加入姜片和红枣。",
+      "盖上盖子,中火蒸25分钟。",
+      {
+        "text": "鸡腿蒸熟放凉后,撕成小块。",
+        "imageUrl": "images/recipe_289_step_3.png"
+      },
+      "蒸鸡腿留下的鸡汤是精华,盛出备用。",
+      {
+        "text": "碗中放入姜末、蒜末、葱花,淋上烧热的热油激出香味。",
+        "imageUrl": "images/recipe_289_step_5.png"
+      },
+      "加入生抽、盐、糖调味。",
+      {
+        "text": "倒入备用的鸡汤,搅拌均匀调成料汁。",
+        "imageUrl": "images/recipe_289_step_7.png"
+      },
+      "把料汁淋在撕好的鸡肉上即可,鸡肉鲜嫩超好吃。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7491595361157434674"
   }
 ]
