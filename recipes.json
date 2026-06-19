@@ -31407,5 +31407,61 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106829890/"
+  },
+  {
+    "id": 359,
+    "title": "空气炸锅别闲置了！超级好吃的烤奶香馒头",
+    "category": [
+      "早餐"
+    ],
+    "imageUrl": "https://i2.chuimg.com/c05ce72034b74191874d536bc6c34cc5_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.牛奶小馒头提前解冻15-20分钟，到手戳一下软软就行；2.馒头表面刷一层橄榄油，空气炸锅180度烤6分钟（不用翻面）蘸上炼乳吃～；3.成品图；4.就是这么简单，第一次就成功了；5.外壳脆脆的，咬一口里面软软，真的太绝了",
+    "ingredients": [
+      {
+        "name": "牛奶小馒头",
+        "quantity": 1,
+        "unit": "包"
+      },
+      {
+        "name": "炼奶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "牛奶小馒头提前解冻15-20分钟，到手戳一下软软就行",
+        "imageUrl": "https://i2.chuimg.com/0f4708810c014b82ae4bb0a5863386b0_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "馒头表面刷一层橄榄油，空气炸锅180度烤6分钟（不用翻面）蘸上炼乳吃～",
+        "imageUrl": "https://i2.chuimg.com/a6ad7bcb3f514b5abcc94afda10bc7f9_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "成品图",
+        "imageUrl": "https://i2.chuimg.com/6c35d9d057e1455db97d8e47002b322d_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "就是这么简单，第一次就成功了！！！",
+        "imageUrl": "https://i2.chuimg.com/5fcc4a1aebea43fc890d155e0a60679b_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "外壳脆脆的，咬一口里面软软，真的太绝了！",
+        "imageUrl": "https://i2.chuimg.com/bca1d44217d54f3696c47bf200ac5ff3_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.5,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106932515/"
   }
 ]
