@@ -25707,5 +25707,56 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7478930876454178106"
+  },
+  {
+    "id": 296,
+    "title": "完美水煮蛋🥚",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_296.png",
+    "description": "完美水煮蛋🥚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡蛋冷水下锅,加入适量盐(冷水下蛋可避免蛋壳破裂,加盐能让蛋更易剥壳)",
+        "imageUrl": "images/recipe_296_step_1.png"
+      },
+      "开火煮8分钟",
+      "关火后盖上锅盖再焖5分钟",
+      {
+        "text": "捞出立即放入冷水中浸泡,这样剥壳更容易、蛋黄表面呈金黄色、吃起来更健康(避免久煮后蛋黄表面发青的硫化物,不易消化)",
+        "imageUrl": "images/recipe_296_step_4.png"
+      },
+      {
+        "text": "想要不同熟度可调整煮制时间:4分钟为温泉蛋;5分钟蛋白约7分熟、蛋黄不熟;7分钟蛋白全熟、蛋黄流心不成型;9分钟蛋白全熟、蛋黄软嫩微微流心;15分钟为全熟蛋",
+        "imageUrl": "images/recipe_296_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7482388838363450687"
   }
 ]
