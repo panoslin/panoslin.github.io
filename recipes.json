@@ -34465,5 +34465,97 @@
       "salt": 1.01
     },
     "source": "https://www.xiachufang.com/recipe/104147512/"
+  },
+  {
+    "id": 394,
+    "title": "电饭煲蜜汁叉烧",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/fcff1beccfc342ed91da6dbc1fd25165_960w_960h.jpg?imageView2/1/w/800",
+    "description": "1.梅花肉加入以上所有调料（除了水），抓匀，放冰箱冷藏，腌制一晚；2.连汁一起将梅花肉放入电饭煲，加少量水，煮饭档，满屋的飘香，等待煮饭档自动跳到保温档，取出叉烧；3.取出叉烧肉放凉，切片，装盘，将电饭煲底的浓稠蜜汁淋在装好盘的叉烧上；4.开始享用啦",
+    "ingredients": [
+      {
+        "name": "梅花肉（肥瘦相间）",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 5,
+        "unit": "勺"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 2,
+        "unit": "瓣"
+      },
+      {
+        "name": "姜末",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "水",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "豆豉",
+        "quantity": "适量",
+        "unit": "半勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "梅花肉加入以上所有调料（除了水），抓匀，放冰箱冷藏，腌制一晚",
+        "imageUrl": "https://i2.chuimg.com/f668a732f4b94d8b835755893a592a48_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "连汁一起将梅花肉放入电饭煲，加少量水，煮饭档，满屋的飘香，等待煮饭档自动跳到保温档，取出叉烧。",
+        "imageUrl": "https://i2.chuimg.com/186cdafb1b3c4bd29b13128c7d02fa37_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "取出叉烧肉放凉，切片，装盘，将电饭煲底的浓稠蜜汁淋在装好盘的叉烧上。",
+        "imageUrl": "https://i2.chuimg.com/1e4643e9401947f895db92c7a1949ae4_1280w_1273h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "开始享用啦",
+        "imageUrl": "https://i2.chuimg.com/4ec8fed476ff40fdbe2a0ebdcfb213e9_480w_384h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 27.9,
+      "protein": 0.6,
+      "carbs": 6.4,
+      "fat": 0.0,
+      "salt": 0.4
+    },
+    "source": "https://www.xiachufang.com/recipe/106664714/"
   }
 ]
