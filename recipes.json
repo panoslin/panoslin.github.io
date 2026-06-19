@@ -30518,5 +30518,84 @@
       "salt": 1.0
     },
     "source": "https://www.xiachufang.com/recipe/107478725/"
+  },
+  {
+    "id": 349,
+    "title": "地中海香草虾",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/59a5b2e952cf44a6b6a867b29aad002d_2364w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.；2.将虾线剔去，剪掉虾须虾脚，修整一下虾尾，沥干水分，放在容器中腌制，此时加入的调味品：大蒜瓣、黑胡椒、少量海盐或普通盐，少量、少量、少量…再加入香叶、迷迭香、黑胡椒，喷一些橄榄油，翻动搅拌均匀，蒙上保鲜膜冷藏15-20分钟；3.锅内喷少量橄榄油，把腌制好的虾排列在煎锅内；",
+    "ingredients": [
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "迷迭香",
+        "quantity": "适量",
+        "unit": "几支"
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红虾/黑虎虾/斑节虾/基围虾",
+        "quantity": 1.2,
+        "unit": "kg"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/a052edba0ae845d9b2b5c3065e109cb1_2160w_3840h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将虾线剔去，剪掉虾须虾脚，修整一下虾尾，沥干水分，放在容器中腌制，此时加入的调味品：大蒜瓣、黑胡椒、少量海盐或普通盐，少量、少量、少量…再加入香叶、迷迭香、黑胡椒，喷一些橄榄油，翻动搅拌均匀，蒙上保鲜膜冷藏15-20分钟。",
+        "imageUrl": "https://i2.chuimg.com/8840ea58d58346c3a2cbfe26283740bb_1080w_1920h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅内喷少量橄榄油，把腌制好的虾排列在煎锅内。",
+        "imageUrl": "https://i2.chuimg.com/479db184687240ba967e406a3c4850ee_1080w_1920h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "同时加入腌制虾用的迷迭香、香叶、大蒜瓣，连腌制的汤汁也倒进锅内。",
+        "imageUrl": "https://i2.chuimg.com/5441667f3887463c8b3c04014bfcb55d_1080w_1920h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "颜色变红后翻面。",
+        "imageUrl": "https://i2.chuimg.com/18734b81e4cd4e50a05e131b558f136e_1080w_1920h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "待完全变色，汤汁收干，就完成了✅。",
+        "imageUrl": "https://i2.chuimg.com/85bda9c22c2545cc86236f84373bb390_1080w_1920h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "懒得摆盘也可以直接关火，稍降温，用隔热架直接把煎锅架起来上餐桌，配上红酒，氛围感十足，尽情享受这吮指美味吧。",
+        "imageUrl": "https://i2.chuimg.com/40e859e4a85c456885b6f4d56b4e1b07_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1.1,
+      "protein": 0.2,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107370817/"
   }
 ]
