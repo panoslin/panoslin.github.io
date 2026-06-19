@@ -24014,5 +24014,105 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7491239964949187866"
+  },
+  {
+    "id": 281,
+    "title": "豉汁炒花甲🦪",
+    "category": [
+      "海鲜",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_281.png",
+    "description": "豉汁炒花甲🦪的详细制作方法",
+    "ingredients": [
+      {
+        "name": "花甲",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花甲蒸汁",
+        "quantity": 0.25,
+        "unit": "碗"
+      },
+      {
+        "name": "头抽",
+        "quantity": 2,
+        "unit": "茶匙"
+      },
+      {
+        "name": "白砂糖",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "生粉",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "豆豉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜蓉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白加一(料酒)",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐(吐沙用)",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "新鲜花甲买回来,加少许盐养1-2小时,让花甲把沙吐出来。",
+      {
+        "text": "花甲上锅,水开后大火蒸8-10分钟,蒸到全部开口\"唱歌\"即可,这样能确保每个都新鲜生猛、汁水充足。",
+        "imageUrl": "images/recipe_281_step_2.png"
+      },
+      "趁蒸花甲时,备好辣椒、豆豉、蒜蓉、姜丝和葱段作配料。",
+      "蒸花甲流出的精华汁水不要倒掉,留下来调芡汁。",
+      "耐心把花甲肉从壳里取出,丢掉没肉的空壳,确保每个都肥美没沙。",
+      {
+        "text": "用1/4碗花甲蒸汁,加2茶匙头抽、1茶匙白砂糖、1茶匙生粉,拌匀调成灵魂汁(本身已够咸,不用再加盐)。",
+        "imageUrl": "images/recipe_281_step_6.png"
+      },
+      "起锅,先把辣椒、豆豉、蒜蓉、姜丝等配料炒香。",
+      "放入花甲肉翻炒,淋一点点白加一料酒去腥增香。",
+      {
+        "text": "倒入调好的灵魂汁,放入葱段,稍微翻炒几下收汁即可。",
+        "imageUrl": "images/recipe_281_step_9.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 8.8,
+      "protein": 0.1,
+      "carbs": 2.1,
+      "fat": 0.0,
+      "salt": 0.29
+    },
+    "source": "https://www.douyin.com/video/7492725933598674191"
   }
 ]
