@@ -33317,5 +33317,72 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/103757548/"
+  },
+  {
+    "id": 382,
+    "title": "自制冬瓜茶（电饭煲版）",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/c4e5cdd090134501be4a8147678683a1_1280w_1010h.jpg?imageView2/1/w/800",
+    "description": "1.这个大冬瓜！已经吃了一半了；2.瓜皮和籽都留下来，瓜肉就可以留着做菜，只需用到一丢丢瓜肉而已！\n我称了一下正好是1000克的瓜皮瓜籽和部分连着皮的肉；3.我放的是冰糖，但是因为家里的冰糖不够就把砂糖也用上了\n冬瓜和糖的比例大概是3：1，所以我放了大概333g的糖哈哈哈哈哈；4",
+    "ingredients": [
+      {
+        "name": "冬瓜",
+        "quantity": 1000,
+        "unit": "克"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 333,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "这个大冬瓜！已经吃了一半了",
+        "imageUrl": "https://i2.chuimg.com/1812c4cc2c1f44e28a69edea9578e512_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "瓜皮和籽都留下来，瓜肉就可以留着做菜，只需用到一丢丢瓜肉而已！我称了一下正好是1000克的瓜皮瓜籽和部分连着皮的肉",
+        "imageUrl": "https://i2.chuimg.com/7e41fa6801004e6c9dd7dfd0968f7038_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "我放的是冰糖，但是因为家里的冰糖不够就把砂糖也用上了冬瓜和糖的比例大概是3：1，所以我放了大概333g的糖哈哈哈哈哈",
+        "imageUrl": "https://i2.chuimg.com/792655a0277e45368a7f2be0d5f86660_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把它们拌一拌，冷静一下",
+        "imageUrl": "https://i2.chuimg.com/8d2f57d5393b496d8ed716080af29d35_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "封上一层保鲜膜，可以直接室温放置2个小时也可以放冰箱冷藏我放进了冰箱，差不多放了一个晚上，让它充分腌制出汁",
+        "imageUrl": "https://i2.chuimg.com/101df9ff2ca042e4a675fb6e1b14fc1e_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "隔天拿出来了之后就看到冬瓜已经腌好了",
+        "imageUrl": "https://i2.chuimg.com/94cb73ab2cfb4517a015d264afc50c2d_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "直接倒入电饭煲里，按煲饭的功能",
+        "imageUrl": "https://i2.chuimg.com/69fb30fc203642b3b0e5269cdbdfe9f7_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "我就煮了一次，你也可以煮两次因为我比较喜欢冬瓜的味道，煮一次的话可以尽可能保留冬瓜的味道从电饭煲里取出后过滤一下就好了，接着可以放冰箱冷藏，喝的时候再拿出来兑水",
+        "imageUrl": "https://i2.chuimg.com/c41942112cef4a53828b91a4c76c46b6_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "最后，我加了点冷泡茶，颜色好好看！你也可以放冰水～",
+        "imageUrl": "https://i2.chuimg.com/aec9c4846d2a4227b6e0167d56ee8d18_1280w_1010h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1288.7,
+      "protein": 0.0,
+      "carbs": 333.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106430096/"
   }
 ]
