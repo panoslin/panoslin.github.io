@@ -40455,5 +40455,84 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107086784/"
+  },
+  {
+    "id": 460,
+    "title": "白菜豆腐汤🍲",
+    "category": [
+      "汤品",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_460.png",
+    "description": "白菜豆腐汤🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "白菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蘑菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "白菜、豆腐切成小块备用。",
+      {
+        "text": "锅中打入鸡蛋煎一下，再用铲子铲成小块。",
+        "imageUrl": "images/recipe_460_step_2.png"
+      },
+      "加入开水煮开。",
+      {
+        "text": "下入豆腐、蘑菇、火腿、白菜，煮至食材熟透。",
+        "imageUrl": "images/recipe_460_step_4.png"
+      },
+      "加鸡精、胡椒粉、香油调味。",
+      "撒上葱花即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107097279/"
   }
 ]
