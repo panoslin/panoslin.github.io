@@ -39876,5 +39876,63 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/106994003/"
+  },
+  {
+    "id": 453,
+    "title": "💥挑战全网最难料理‼️樱桃小丸子同款卡美罗",
+    "category": [
+      "甜品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_453.png",
+    "description": "小丸子同款卡美罗🍬的详细制作方法",
+    "ingredients": [
+      {
+        "name": "白砂糖",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "红糖",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小苏打",
+        "quantity": 3,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "把白砂糖2勺、红糖1勺放入大汤勺（或小锅）中，再加少许水。",
+      "开小火，不停地搅拌。",
+      {
+        "text": "持续搅拌至冒大泡、液体变粘稠，糖浆呈焦褐色。",
+        "imageUrl": "images/recipe_453_step_3.png"
+      },
+      "把汤勺放到垫子上，晾凉约30秒。",
+      {
+        "text": "放入3g小苏打，快速疯狂搅拌均匀。",
+        "imageUrl": "images/recipe_453_step_5.png"
+      },
+      {
+        "text": "搅匀后静置，糖糊会慢慢膨胀成型，变得蓬松。",
+        "imageUrl": "images/recipe_453_step_6.png"
+      },
+      "放凉定型，松脆可口即可享用。"
+    ],
+    "nutrition": {
+      "calories": 11.6,
+      "protein": 0.0,
+      "carbs": 3.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107045293/"
   }
 ]
