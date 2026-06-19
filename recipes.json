@@ -31507,5 +31507,50 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/105973758/"
+  },
+  {
+    "id": 361,
+    "title": "润肺止咳苹果汤",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/963aa05d55404b52bc1b567866a2cdd0_3024w_4032h.jpg?imageView2/1/w/800",
+    "description": "1.做法真的太简单了\n苹果切片切块都可以，前提是去皮去核，冷水下锅，烧开后加入冰糖枸杞，中小火煮10分钟。\n我试过用炖盅，小火一小时可以了。但是果肉就比较烂，而用锅煮十分钟那种果肉口感像罐头，放凉以后孩子很爱喝",
+    "ingredients": [
+      {
+        "name": "苹果",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 8,
+        "unit": "粒"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "适量",
+        "unit": "若干粒"
+      },
+      {
+        "name": "食盐",
+        "quantity": 1,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "做法真的太简单了苹果切片切块都可以，前提是去皮去核，冷水下锅，烧开后加入冰糖枸杞，中小火煮10分钟。我试过用炖盅，小火一小时可以了。但是果肉就比较烂，而用锅煮十分钟那种果肉口感像罐头，放凉以后孩子很爱喝",
+        "imageUrl": "https://i2.chuimg.com/c02eb7c0fdbf4ff4b62e79c9ca2b2ce2_3024w_4032h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 31.0,
+      "protein": 0.0,
+      "carbs": 8.0,
+      "fat": 0.0,
+      "salt": 2.54
+    },
+    "source": "https://www.xiachufang.com/recipe/106527551/"
   }
 ]
