@@ -32168,5 +32168,122 @@
       "salt": 1.15
     },
     "source": "https://www.xiachufang.com/recipe/102203515/"
+  },
+  {
+    "id": 370,
+    "title": "家庭关东煮｜汤底比便利店鲜甜",
+    "category": [
+      "日式"
+    ],
+    "imageUrl": "https://i2.chuimg.com/27d9e46bfa974586b38b36e5b8e8ec45_3414w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.裙带菜干泡发洗净，一个苹果去皮切块，香菇切蒂，切出十字花；2.白萝卜削皮切成2cm左右厚度的圆块，削去边缘的棱角，这一步是为了防止萝卜在煮的时候裂开；3.锅内倒入苹果块、白萝卜切、泡发好的裙带菜、大葱段、一把虾米、一小把大米\n大米可以去除白萝卜的辣味，但是一点点就够了，不然煮",
+    "ingredients": [
+      {
+        "name": "汤底：",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白萝卜",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "裙带菜（泡开）",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "苹果",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "虾皮",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "大葱段",
+        "quantity": 3,
+        "unit": "段"
+      },
+      {
+        "name": "大米",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "香菇",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1.5,
+        "unit": "大汤勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "纯净水",
+        "quantity": 1000,
+        "unit": "ml"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "裙带菜干泡发洗净，一个苹果去皮切块，香菇切蒂，切出十字花",
+        "imageUrl": "https://i2.chuimg.com/82520985b92a454d9a650203cdd40376_1280w_854h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "白萝卜削皮切成2cm左右厚度的圆块，削去边缘的棱角，这一步是为了防止萝卜在煮的时候裂开",
+        "imageUrl": "https://i2.chuimg.com/83881f663dbf467dbf260a54ab3f4213_1104w_816h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅内倒入苹果块、白萝卜切、泡发好的裙带菜、大葱段、一把虾米、一小把大米大米可以去除白萝卜的辣味，但是一点点就够了，不然煮成稀饭了",
+        "imageUrl": "https://i2.chuimg.com/d6afc130b85a439aa6a0ce1e7be4c732_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入1000ml的水",
+        "imageUrl": "https://i2.chuimg.com/31f524d7f9cb4853abb4c53a69aee6e2_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加生抽、蚝油大火烧开，转小火炖半小时。可以把香菇放进去一起炖",
+        "imageUrl": "https://i2.chuimg.com/68af0e07bb184b828437c9cb4980909d_1280w_720h.jpg?imageView2/1/w/660"
+      },
+      "把白萝卜和香菇捞出，把炖好的汤底过滤出来",
+      {
+        "text": "烧开一锅水，把所有要煮的食材过一遍热水这样可以去除多余的油分",
+        "imageUrl": "https://i2.chuimg.com/5574e626f9aa4ce7bdfc6dbc20542794_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "串签签（嫌麻烦可以省略这一步直接煮，反正都是一样吃😂）",
+        "imageUrl": "https://i2.chuimg.com/1fa6b0ab188f47bc80846199d42502e3_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "低卡豆皮卷①胡萝卜、西兰花焯水，沥干水分，切碎②蔬菜加鸡胸肉、蛋清、生粉、盐，用料理机搅打成泥③豆腐皮焯水（去除豆腥味）用厨房纸巾吸干水分④把鸡肉泥均匀的涂抹在豆皮上，卷起来，上锅蒸熟，切块",
+        "imageUrl": "https://i2.chuimg.com/ea3711384e7144e3aa9d1e85b446bc90_1024w_767h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "翡翠芝士虾卷①取整张卷心菜叶焯水②虾仁加蛋清、少量生粉用料理机搅成虾泥，加马苏里拉芝士碎拌匀③菜叶底边铺上芝士虾滑，向上卷起",
+        "imageUrl": "https://i2.chuimg.com/726a15cc0a99465c8f0050186d17b80c_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把所有的串好的食材放入汤底里（东西太多煮不下了😂😂）大火烧开，转小火炖煮20分钟左右不着急吃的可以在锅里多泡泡，浸泡时间越长越入味",
+        "imageUrl": "https://i2.chuimg.com/cb285642ab3e49fea47d9b603f2515a8_1280w_960h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 90.5,
+      "protein": 10.3,
+      "carbs": 15.2,
+      "fat": 0.5,
+      "salt": 0.32
+    },
+    "source": "https://www.xiachufang.com/recipe/106964474/"
   }
 ]
