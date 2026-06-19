@@ -41006,5 +41006,136 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107148112/"
+  },
+  {
+    "id": 467,
+    "title": "醉好吃的肉末鲜虾素菜煲，鲜香美味又下饭",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_467.png",
+    "description": "肉末鲜虾素菜煲🦐的详细制作方法",
+    "ingredients": [
+      {
+        "name": "豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "肉末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "虾仁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鹌鹑蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蟹味菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "木耳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "鸡精",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "清水",
+        "quantity": 1,
+        "unit": "碗"
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "油热下豆腐，煎至两面金黄，盛出备用。",
+        "imageUrl": "images/recipe_467_step_1.png"
+      },
+      "锅中油热下肉末，炒至断生。",
+      "加入蒜片、小米辣，炒出香味。",
+      "放入白菜、木耳、火腿，翻炒均匀。",
+      "再加入煎好的豆腐、鹌鹑蛋、虾仁、蟹味菇、香菇。",
+      {
+        "text": "调入2勺生抽、1勺老抽、1勺蚝油、半勺盐、半勺鸡精，加入1碗清水。",
+        "imageUrl": "images/recipe_467_step_6.png"
+      },
+      "扣上盖焖煮8分钟。",
+      "撒上葱花即可开吃。"
+    ],
+    "nutrition": {
+      "calories": 4.0,
+      "protein": 0.2,
+      "carbs": 0.7,
+      "fat": 0.0,
+      "salt": 1.29
+    },
+    "source": "https://www.xiachufang.com/recipe/107208974/"
   }
 ]
