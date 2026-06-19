@@ -32046,5 +32046,127 @@
       "salt": 0.25
     },
     "source": "https://www.xiachufang.com/recipe/106526323/"
+  },
+  {
+    "id": 369,
+    "title": "可乐鸡翅",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/86d43f14f05a11e6947d0242ac110002_1280w_856h.jpg?imageView2/1/w/800",
+    "description": "1.鸡翅洗净背面划二刀..\n\n方便入味.\n伱要真懒.\n也可以不划..(−_−＃)；2.锅里放冷水.鸡翅..\n放入二片姜...\n\n煮开；3.准备一罐可乐.\n另一片姜切丝；4.水开后煮二分钟左右..\n\n捞出洗净备用；5.锅里放少许油.\n把洗净控干水分的鸡翅放下去煎香；6.翻面；7.二",
+    "ingredients": [
+      {
+        "name": "鸡翅",
+        "quantity": 12,
+        "unit": "个"
+      },
+      {
+        "name": "油",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "可口可乐",
+        "quantity": 1,
+        "unit": "罐"
+      },
+      {
+        "name": "姜",
+        "quantity": 3,
+        "unit": "片"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "克左右"
+      },
+      {
+        "name": "啤酒",
+        "quantity": 2,
+        "unit": "汤勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "汤勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": "小半汤勺"
+      },
+      {
+        "name": "熟白芝麻",
+        "quantity": "适量",
+        "unit": "少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡翅洗净背面划二刀..方便入味.伱要真懒.也可以不划..(−_−＃)",
+        "imageUrl": "https://i2.chuimg.com/4d6c9118f0e111e6bc9d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里放冷水.鸡翅..放入二片姜...煮开..",
+        "imageUrl": "https://i2.chuimg.com/51552592f0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备一罐可乐.另一片姜切丝.",
+        "imageUrl": "https://i2.chuimg.com/5219f87cf0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "水开后煮二分钟左右..捞出洗净备用.",
+        "imageUrl": "https://i2.chuimg.com/4f8bac9af0e111e6bc9d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里放少许油.把洗净控干水分的鸡翅放下去煎香.",
+        "imageUrl": "https://i2.chuimg.com/4dc1a89cf0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "翻面..",
+        "imageUrl": "https://i2.chuimg.com/4e1d4666f0e111e6bc9d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "二面都煎好后放入生姜丝和啤酒.炒出香味..啤酒汁略微收干了.木有啤酒的可以用一勺料酒代替.不过我还是喜欢啤酒的！",
+        "imageUrl": "https://i2.chuimg.com/4e796e46f0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放入一汤勺的生抽.嗯.就平时喝汤的勺..",
+        "imageUrl": "https://i2.chuimg.com/50053380f0e111e6bc9d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "小半汤勺的老抽.",
+        "imageUrl": "https://i2.chuimg.com/50425ba2f0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "翻炒均匀上色.",
+        "imageUrl": "https://i2.chuimg.com/510564f8f0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入可乐.烧开后转中火.盖上锅盖焖.",
+        "imageUrl": "https://i2.chuimg.com/510f7650f0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "焖至一半汁时.加入盐.开大火收汁.",
+        "imageUrl": "https://i2.chuimg.com/a61dabc0f10011e6bc9d0242ac110002_1280w_855h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "收到自己喜欢的程度就好..",
+        "imageUrl": "https://i2.chuimg.com/51a5729af0e111e6947d0242ac110002_1616w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "装盘.撒上熟白芝麻.我这是全部收干了的.一定要不停的搅拌.很容易糊.",
+        "imageUrl": "https://i2.chuimg.com/49265b66f0f011e6bc9d0242ac110002_1280w_856h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 3.0,
+      "protein": 0.1,
+      "carbs": 0.6,
+      "fat": 0.0,
+      "salt": 1.15
+    },
+    "source": "https://www.xiachufang.com/recipe/102203515/"
   }
 ]
