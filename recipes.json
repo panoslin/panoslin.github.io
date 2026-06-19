@@ -34365,5 +34365,105 @@
       "salt": 0.44
     },
     "source": "https://www.xiachufang.com/recipe/106627595/"
+  },
+  {
+    "id": 393,
+    "title": "【电饭煲窝蛋牛肉饭】",
+    "category": [
+      "汤羹"
+    ],
+    "imageUrl": "https://i2.chuimg.com/14443eb516564108a2c11f755c00cf87_7952w_5304h.jpg?imageView2/1/w/800",
+    "description": "】1.g牛里脊肉切成薄片，1小块姜切细丝，加入2勺生抽、1勺老抽、2勺淀粉和2勺油拌匀，腌制30分钟备用；2.小碗米洗净放入电饭锅中，加入没过米一指节的水，按下煮饭键；3.米饭煮好以后，开盖四周铺上腌好的牛肉片，按下煮饭健继续煮10分钟；4.在中间打入一颗鸡蛋（可生食的兰皇蛋），",
+    "ingredients": [
+      {
+        "name": "牛里脊",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "姜",
+        "quantity": 1,
+        "unit": "小块"
+      },
+      {
+        "name": "生抽",
+        "quantity": 4,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "淀粉",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "油",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "米",
+        "quantity": 1,
+        "unit": "小碗"
+      },
+      {
+        "name": "兰皇蛋",
+        "quantity": "适量",
+        "unit": "一颗"
+      },
+      {
+        "name": "蒸鱼豉油",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "芝麻油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "葱花",
+        "quantity": "适量",
+        "unit": "少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "200g牛里脊肉切成薄片，1小块姜切细丝，加入2勺生抽、1勺老抽、2勺淀粉和2勺油拌匀，腌制30分钟备用。",
+        "imageUrl": "https://i2.chuimg.com/56bd28db1f37497da0118ebc9d5baeb8_1417w_1417h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "1小碗米洗净放入电饭锅中，加入没过米一指节的水，按下煮饭键。",
+        "imageUrl": "https://i2.chuimg.com/e1ee1be65b1445099b9eb683a3ce4afe_7952w_5304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "米饭煮好以后，开盖四周铺上腌好的牛肉片，按下煮饭健继续煮10分钟。",
+        "imageUrl": "https://i2.chuimg.com/33983530a7c34cdabff509ff1df88d30_7952w_5304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "在中间打入一颗鸡蛋（可生食的兰皇蛋），关盖继续焖煮5～6分钟，直至蛋清凝固且蛋黄还流黄的状态。",
+        "imageUrl": "https://i2.chuimg.com/78e5f2378814475c9f1410377f3ae164_7952w_5304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "拌饭酱汁：2勺生抽、2勺蒸鱼豉油、1勺芝麻油和2勺水调匀。",
+        "imageUrl": "https://i2.chuimg.com/b3ae48165b4a4d46ab1d7337531b4969_1417w_945h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "开盖，淋上酱汁，撒上少许葱花，电饭煲窝蛋牛肉饭完成！",
+        "imageUrl": "https://i2.chuimg.com/b83ad6344d80485f86efbcc8d5deb407_7952w_5304h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 237.8,
+      "protein": 45.3,
+      "carbs": 2.8,
+      "fat": 5.6,
+      "salt": 1.01
+    },
+    "source": "https://www.xiachufang.com/recipe/104147512/"
   }
 ]
