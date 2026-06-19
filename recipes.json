@@ -23904,5 +23904,115 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7488208311280618771"
+  },
+  {
+    "id": 280,
+    "title": "街边炒面🍜",
+    "category": [
+      "主食",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_280.png",
+    "description": "街边炒面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "面条（煮熟）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "西红柿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "尖椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "豆芽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "煮熟的面条里放点老抽、食用油，像这样拌一下，不仅不粘，颜色也好看。",
+        "imageUrl": "images/recipe_280_step_1.png"
+      },
+      {
+        "text": "热锅凉油，打入1个鸡蛋，迅速划散。",
+        "imageUrl": "images/recipe_280_step_2.png"
+      },
+      {
+        "text": "放入西红柿、尖椒、洋葱、火腿肠、豆芽，开大火炒至断生。",
+        "imageUrl": "images/recipe_280_step_3.png"
+      },
+      "直接放入拌好的面条。",
+      {
+        "text": "调味：放入蒜末、盐、鸡精、蚝油，最后淋入生抽。",
+        "imageUrl": "images/recipe_280_step_5.png"
+      },
+      "开大火快速翻炒出锅气，全程不到一分钟即可出锅，有菜有蛋还有面，干香劲道。"
+    ],
+    "nutrition": {
+      "calories": 72,
+      "protein": 6.5,
+      "carbs": 0.5,
+      "fat": 4.4,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7491239964949187866"
   }
 ]
