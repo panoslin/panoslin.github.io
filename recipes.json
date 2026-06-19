@@ -39586,5 +39586,103 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107090874/"
+  },
+  {
+    "id": 450,
+    "title": "咸蛋黄小龙虾真的是最好吃的搭配！",
+    "category": [
+      "海鲜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_450.png",
+    "description": "咸蛋黄小龙虾炒面🦞的详细制作方法",
+    "ingredients": [
+      {
+        "name": "小龙虾尾",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "咸蛋黄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "咸蛋白",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "方便面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "方便面料包",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花雕酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "咸蛋剥去外壳,将蛋白与蛋黄分开。",
+      {
+        "text": "咸蛋黄轻轻按压后用擀面杖擀成细蓉,蛋白同样擀碎备用。",
+        "imageUrl": "images/recipe_450_step_2.png"
+      },
+      {
+        "text": "锅中水烧开,放入香葱、姜片、花雕酒,下小龙虾尾焯烫不超过10秒去腥,捞出。",
+        "imageUrl": "images/recipe_450_step_3.png"
+      },
+      {
+        "text": "另起锅少放油,煎香姜丝,下小龙虾尾旺火快煸约30秒至味道浓郁,盛出备用。",
+        "imageUrl": "images/recipe_450_step_4.png"
+      },
+      {
+        "text": "锅中保持小火,下咸蛋黄慢慢炒融,炒至起泡沫状态。",
+        "imageUrl": "images/recipe_450_step_5.png"
+      },
+      "下入煸好的小龙虾尾,加少许清水,再放入方便面。",
+      "盖上锅盖中火焖,待面条变软后轻轻打散。",
+      "加入方便面料包调味,转大火收汁。",
+      "下入咸蛋白翻炒,加胡萝卜、小葱,大火收汁炒至干香即可出锅。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/106806815/"
   }
 ]
