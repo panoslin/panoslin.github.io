@@ -32723,5 +32723,151 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104307167/"
+  },
+  {
+    "id": 377,
+    "title": "菠萝咕咾肉，咬一口不老的灵魂",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e365b8feff7f4b72a4237e3065ba5f62_1440w_889h.jpg?imageView2/1/w/800",
+    "description": "1.将梅肉洗净，先切成2cm厚的大片，用刀背拍松软，再切成大粒；2.肉粒放入碗中，调入生抽（1/2汤匙，8ml）、白胡椒粉（1/2茶匙，3g）、黄酒（2茶匙，10ml）和盐（1/2茶匙，3g），拌匀腌10分钟；3.腌肉的时候，把鲜菠萝切成差不多大的小块。还有红绿椒也切成块；4.鸡",
+    "ingredients": [
+      {
+        "name": "猪梅肉（前臀尖）",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "干面粉",
+        "quantity": 1,
+        "unit": "碗"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "枚"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "汤匙（15ml）"
+      },
+      {
+        "name": "黄酒",
+        "quantity": 2,
+        "unit": "茶匙（10ml）"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "/2茶匙（3g）"
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": 1,
+        "unit": "/2茶匙（3g）"
+      },
+      {
+        "name": "新鲜菠萝",
+        "quantity": 1,
+        "unit": "/4只"
+      },
+      {
+        "name": "青椒",
+        "quantity": 1,
+        "unit": "/4只"
+      },
+      {
+        "name": "红椒",
+        "quantity": 1,
+        "unit": "/4只"
+      },
+      {
+        "name": "酸甜汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干淀粉",
+        "quantity": 1,
+        "unit": "茶匙"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白米醋",
+        "quantity": 2,
+        "unit": "汤匙（30ml）"
+      },
+      {
+        "name": "番茄酱",
+        "quantity": 3,
+        "unit": "汤匙（45g）"
+      },
+      {
+        "name": "白砂糖",
+        "quantity": 1,
+        "unit": "汤匙（15g）"
+      },
+      {
+        "name": "油 500ml",
+        "quantity": "适量",
+        "unit": "实耗30ml"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将梅肉洗净，先切成2cm厚的大片，用刀背拍松软，再切成大粒。",
+        "imageUrl": "https://i2.chuimg.com/99fa14514bf74471b7c5faa0045423c0_1440w_889h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "肉粒放入碗中，调入生抽（1/2汤匙，8ml）、白胡椒粉（1/2茶匙，3g）、黄酒（2茶匙，10ml）和盐（1/2茶匙，3g），拌匀腌10分钟。",
+        "imageUrl": "https://i2.chuimg.com/a4067b04391f4cb7945c6d70ea800033_1440w_889h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "腌肉的时候，把鲜菠萝切成差不多大的小块。还有红绿椒也切成块。",
+        "imageUrl": "https://i2.chuimg.com/aed717eb17db49608b84cca3dd919c3d_400w_225h.gif?imageView2/1/w/660"
+      },
+      {
+        "text": "鸡蛋打匀，倒入腌好的肉碗中，使每粒肉都薄薄裹匀蛋液。",
+        "imageUrl": "https://i2.chuimg.com/b98c0a6a80754ac4a5fc00377c60f7e8_400w_225h.gif?imageView2/1/w/660"
+      },
+      {
+        "text": "将裹好的肉粒放入面粉中，用手揉搓、捏握，使肉粒表面干燥并全部裹满面粉。用筛子筛去肉上的多余面粉，备用。",
+        "imageUrl": "https://i2.chuimg.com/9b2c0cd6d89e487eac911b4c5cbd607b_400w_225h.gif?imageView2/1/w/660"
+      },
+      {
+        "text": "油锅烧至8成热（油锅上方有热气但无烟），下入肉粒炸至微黄，约3分钟，用笊篱捞出沥油。",
+        "imageUrl": "https://i2.chuimg.com/38c5607b6f2641f2af6bced5ee5de436_1440w_889h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "如果追求酥脆的口感，还需要用更热的油，烧至9成热，快速下锅再复炸一次。",
+        "imageUrl": "https://i2.chuimg.com/9e783ed068b04dbaa1750a37f4189170_400w_225h.gif?imageView2/1/w/660"
+      },
+      {
+        "text": "开始调待会用到的调酸甜汁儿，把白醋、生抽（另1/2汤匙，8ml）、番茄酱、白砂糖，以及半杯清水和干淀粉调成汁。",
+        "imageUrl": "https://i2.chuimg.com/b26d9e3a03ac4c4f9f323be41de88267_1440w_889h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "炒锅烧热油（1汤匙，15ml），放入菠萝，煸炒到边缘有焦色。放彩椒、倒入调味汁，大火煮滚。",
+        "imageUrl": "https://i2.chuimg.com/66acc3ca16e24c3692e27a37c178000b_400w_225h.gif?imageView2/1/w/660"
+      },
+      {
+        "text": "放入炸好的肉粒和彩椒块，拌炒均匀，最后调一点水淀粉勾芡就完成了。",
+        "imageUrl": "https://i2.chuimg.com/38544997423a4abe858cf00206e9dfc5_400w_225h.gif?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 743.9,
+      "protein": 61.4,
+      "carbs": 3.6,
+      "fat": 49.9,
+      "salt": 1.15
+    },
+    "source": "https://www.xiachufang.com/recipe/102970789/"
   }
 ]
