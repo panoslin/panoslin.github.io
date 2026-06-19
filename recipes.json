@@ -28916,5 +28916,48 @@
       "salt": 2.07
     },
     "source": "https://www.xiachufang.com/recipe/106125070/"
+  },
+  {
+    "id": 329,
+    "title": "下饭神器又来了，试试这道芹菜炒牛肉！！",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/71357e15872d47ae94bd2f987cd8aec0_1166w_1529h.jpg?imageView2/1/w/800",
+    "description": "1.嫩牛肉腌制：👩‍🍳\n1️⃣牛肉切好加调味（逆纹理切❗️这也很重要❗️）\n\n2️⃣蚝油➕胡椒粉➕少许蛋清➕淀粉（薄薄一层就好，姜丝不喜欢的可以不放，抓拌均匀抓拌匀\n\n3️⃣最后一步也是最重要的一步❗️封油（少许花生油）再次抓拌均匀，目的是锁住牛肉水分，腌制半小时便于入味\n\n\n做",
+    "ingredients": [
+      {
+        "name": "牛肉",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "芹菜",
+        "quantity": 100,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "嫩牛肉腌制：👩‍🍳1️⃣牛肉切好加调味（逆纹理切❗️这也很重要❗️）2️⃣蚝油➕胡椒粉➕少许蛋清➕淀粉（薄薄一层就好，姜丝不喜欢的可以不放，抓拌均匀抓拌匀3️⃣最后一步也是最重要的一步❗️封油（少许花生油）再次抓拌均匀，目的是锁住牛肉水分，腌制半小时便于入味做法步骤：1️⃣热锅热油，牛肉下锅快速滑散，炒的时间越短牛肉就越嫩！炒至八九分熟盛出2️⃣锅留底油，倒入蒜末和下米辣爆香，接着倒入青菜和牛肉，翻炒均匀后调味，加少许盐➕鸡精➕辣椒面➕一勺生抽，开大火翻炒个7、8下即可",
+        "imageUrl": "https://i2.chuimg.com/7488e11b2d964faba4920ea6453969bd_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "香辣无敌",
+        "imageUrl": "https://i2.chuimg.com/8e44231a76b04d45b7fc54a907317fe4_1166w_1529h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "炒鸡下饭神器",
+        "imageUrl": "https://i2.chuimg.com/57e9dad8a94849c39a6bc1457c8ce6f8_1170w_1529h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1266.0,
+      "protein": 130.8,
+      "carbs": 3.0,
+      "fat": 75.1,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107017526/"
   }
 ]
