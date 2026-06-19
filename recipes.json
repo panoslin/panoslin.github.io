@@ -26152,5 +26152,115 @@
       "salt": 0.54
     },
     "source": "https://www.douyin.com/video/7481595732433063205"
+  },
+  {
+    "id": 301,
+    "title": "上海葱油拌面🍜",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_301.png",
+    "description": "上海葱油拌面🍜的详细制作方法",
+    "ingredients": [
+      {
+        "name": "洋葱",
+        "quantity": 75,
+        "unit": "克"
+      },
+      {
+        "name": "大葱",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "小葱（分葱白、葱叶）",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "面条",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "植物油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "动物油（大油/猪油，清真可用鸡油）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "八角",
+        "quantity": 2,
+        "unit": "粒"
+      },
+      {
+        "name": "海米（开洋）",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 50,
+        "unit": "毫升"
+      },
+      {
+        "name": "老抽",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "黄酒（去腥，约半瓶盖）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "备三种葱：洋葱75克、大葱50克、小葱100克，分别改刀切碎，小葱再分出葱白和葱叶。",
+      "锅中倒入一半植物油、一半动物油（大油），小火加热至油融化（清真朋友可用鸡油）。",
+      "先下洋葱小火慢炼，放两粒八角增香（不要多），慢慢炼出葱香。",
+      {
+        "text": "继续小火，依次放入大葱、小葱白，炒至锅中的葱全部呈金黄色——切勿炸黑，否则会发苦。",
+        "imageUrl": "images/recipe_301_step_4.png"
+      },
+      "把洋葱、大葱、小葱白捞出挤干油分（葱料别扔，可用于炖鸡/炖肉或粤菜卤水料包）。",
+      {
+        "text": "下小葱叶（葱绿），全程小火，炸到听不见噼里啪啦的响声、筷子搅动有沙沙感，关火控油，即成酥葱。",
+        "imageUrl": "images/recipe_301_step_6.png"
+      },
+      "另起锅小火焙香海米（开洋）30克，激发鲜味。",
+      {
+        "text": "加黄酒半瓶盖去腥，再加生抽50毫升、老抽15毫升调色、冰糖20克、水30毫升，小火熬煮至酱油去除涩口感。",
+        "imageUrl": "images/recipe_301_step_8.png"
+      },
+      "熬好的酱汁盛入另一个碗中备用。",
+      {
+        "text": "面条煮好捞出打底，先浇酱油汁拌匀，让面带上酱香气。",
+        "imageUrl": "images/recipe_301_step_10.png"
+      },
+      "再加葱油拌匀，最后撒上炸好的小葱酥即可享用。"
+    ],
+    "nutrition": {
+      "calories": 197.2,
+      "protein": 7.1,
+      "carbs": 44.7,
+      "fat": 0.7,
+      "salt": 9.5
+    },
+    "source": "https://www.douyin.com/video/7481193900409965878"
   }
 ]
