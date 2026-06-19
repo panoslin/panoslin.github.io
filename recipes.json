@@ -23755,5 +23755,59 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7494574013084175656"
+  },
+  {
+    "id": 278,
+    "title": "超好吃米饭🍚",
+    "category": [
+      "主食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_278.png",
+    "description": "超好吃米饭🍚的详细制作方法",
+    "ingredients": [
+      {
+        "name": "大米",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 590,
+        "unit": "克"
+      },
+      {
+        "name": "白醋",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 4,
+        "unit": "克"
+      },
+      {
+        "name": "食用油",
+        "quantity": 8,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "一斤(500克)大米淘洗干净",
+      {
+        "text": "加入590克水、5克白醋、4克盐、8克食用油，搅拌揉匀",
+        "imageUrl": "images/recipe_278_step_2.png"
+      },
+      "浸泡30分钟",
+      "30分钟后用电饭煲标准模式直接开煮即可"
+    ],
+    "nutrition": {
+      "calories": 1801.0,
+      "protein": 35.0,
+      "carbs": 385.1,
+      "fat": 11.5,
+      "salt": 4.0
+    },
+    "source": "https://www.douyin.com/video/7494532942249594163"
   }
 ]
