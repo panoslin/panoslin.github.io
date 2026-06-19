@@ -23483,5 +23483,80 @@
       "salt": 4.03
     },
     "source": "https://www.douyin.com/video/7497181840025865481"
+  },
+  {
+    "id": 274,
+    "title": "海盐冰抹茶🍵",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_274.png",
+    "description": "海盐冰抹茶🍵的详细制作方法",
+    "ingredients": [
+      {
+        "name": "抹茶粉",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "温水",
+        "quantity": 30,
+        "unit": "毫升"
+      },
+      {
+        "name": "牛乳",
+        "quantity": 300,
+        "unit": "毫升"
+      },
+      {
+        "name": "淡奶",
+        "quantity": 50,
+        "unit": "毫升"
+      },
+      {
+        "name": "海盐",
+        "quantity": 3,
+        "unit": "克"
+      },
+      {
+        "name": "糖浆",
+        "quantity": 15,
+        "unit": "毫升"
+      },
+      {
+        "name": "炼乳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "抹茶粉3克加入30毫升温水化开，搅拌至顺滑无结块，这样抹茶不结块。",
+        "imageUrl": "images/recipe_274_step_1.png"
+      },
+      "另取一杯，依次倒入牛乳300毫升、淡奶50毫升、海盐3克、糖浆15毫升组装在一起。",
+      "再加入一点点炼乳提味去腻。",
+      {
+        "text": "盖紧杯盖，雪克均匀。",
+        "imageUrl": "images/recipe_274_step_4.png"
+      },
+      {
+        "text": "杯中加满冰块，最后倒入化开的抹茶液即可。",
+        "imageUrl": "images/recipe_274_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 380.2,
+      "protein": 9.4,
+      "carbs": 23.3,
+      "fat": 28.1,
+      "salt": 7.62
+    },
+    "source": "https://www.douyin.com/video/7493496253242805562"
   }
 ]
