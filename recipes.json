@@ -25758,5 +25758,98 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7482388838363450687"
+  },
+  {
+    "id": 297,
+    "title": "泰式烤鸡肉串🍗",
+    "category": [
+      "家常菜",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_297.png",
+    "description": "泰式烤鸡肉串🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "去骨去皮鸡腿排",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 4,
+        "unit": "瓣"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒粉（腌料）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "黑胡椒粉（腌料）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蛋黄酱",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "泰式甜辣酱",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "黑胡椒（酱汁）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "辣椒粉（酱汁）",
+        "quantity": 1,
+        "unit": "小勺"
+      }
+    ],
+    "instructions": [
+      "竹签泡水30分钟，防止烤焦",
+      "去骨去皮鸡腿排切成均匀大小的块",
+      "大蒜切片，加入到鸡腿块中",
+      {
+        "text": "倒入橄榄油，加入1勺辣椒粉、1勺生抽、适量黑胡椒粉",
+        "imageUrl": "images/recipe_297_step_4.png"
+      },
+      "抓匀腌制5分钟",
+      {
+        "text": "将腌好的鸡肉块串到竹签上",
+        "imageUrl": "images/recipe_297_step_6.png"
+      },
+      {
+        "text": "放进空气炸锅，200度烤13分钟",
+        "imageUrl": "images/recipe_297_step_7.png"
+      },
+      {
+        "text": "调酱汁：1大勺蛋黄酱、1大勺泰式甜辣酱、少许黑胡椒、1小勺辣椒粉，搅拌均匀",
+        "imageUrl": "images/recipe_297_step_8.png"
+      },
+      "时间到取出鸡肉串，趁热淋上酱汁，酱汁会随高温融化即可"
+    ],
+    "nutrition": {
+      "calories": 746.2,
+      "protein": 73.2,
+      "carbs": 5.0,
+      "fat": 48.4,
+      "salt": 0.15
+    },
+    "source": "https://www.douyin.com/video/7482066284222483721"
   }
 ]
