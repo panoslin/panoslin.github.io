@@ -26591,5 +26591,122 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7479055027928190266"
+  },
+  {
+    "id": 306,
+    "title": "开胃泡黄瓜🥒",
+    "category": [
+      "凉菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_306.png",
+    "description": "开胃泡黄瓜🥒的详细制作方法",
+    "ingredients": [
+      {
+        "name": "黄瓜",
+        "quantity": 5,
+        "unit": "斤"
+      },
+      {
+        "name": "盐（杀水用）",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "糖（杀水用）",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "拍蒜",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "生姜",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "小米椒（段）",
+        "quantity": 70,
+        "unit": "克"
+      },
+      {
+        "name": "小米椒（末）",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "桂皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": 350,
+        "unit": "克"
+      },
+      {
+        "name": "香醋",
+        "quantity": 350,
+        "unit": "克"
+      },
+      {
+        "name": "花椒油",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 500,
+        "unit": "克"
+      },
+      {
+        "name": "矿泉水（没过黄瓜用）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "黄瓜洗净，头尾修掉，每根一切四，再用刀把中间的瓜籽削掉（瓜籽处不够脆）。配方按5斤黄瓜，家庭吃可减半到2斤半。",
+        "imageUrl": "images/recipe_306_step_1.png"
+      },
+      {
+        "text": "加盐50克、糖50克抓匀、稍微搓一搓“杀”一下，腌制40~60分钟，黄瓜会脱出大量水分。",
+        "imageUrl": "images/recipe_306_step_2.png"
+      },
+      "腌出水后用纯净水冲洗一下、沥干；削下的黄瓜芯可拿去榨黄瓜汁，健康不浪费。",
+      {
+        "text": "调料汁：拍蒜200克、生姜100克、小米椒段70克、小米椒末100克、柠檬1个、桂皮/香叶/八角各2~3片，加酱油350克、香醋350克、花椒油150克、白糖500克，混合均匀。",
+        "imageUrl": "images/recipe_306_step_4.png"
+      },
+      "把黄瓜放进料汁里，若酱汁没过不了可加适量矿泉水（黄瓜若没抓盐则不用再加水）；盖好放冰箱冷藏。泡两天味道最足，泡一天也能吃、味道淡一些；泡过的料汁还能继续循环泡。",
+      "经过一天一夜腌制后即可装盘开吃，可把黄瓜切成花形摆盘增添仪式感。酸香开胃、非常下饭。"
+    ],
+    "nutrition": {
+      "calories": 4171.8,
+      "protein": 38.6,
+      "carbs": 698.3,
+      "fat": 153.1,
+      "salt": 178.18
+    },
+    "source": "https://www.douyin.com/video/7478212204047748406"
   }
 ]
