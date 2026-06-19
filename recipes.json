@@ -30827,5 +30827,75 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106932093/"
+  },
+  {
+    "id": 353,
+    "title": "黑松露地中海松露奶油虾",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/fad874dd28ca4267ad4dc3a69e5a3020_1200w_1200h.jpg?imageView2/1/w/800",
+    "description": "1.",
+    "ingredients": [
+      {
+        "name": "黑松露酱",
+        "quantity": "适量",
+        "unit": "用量：1勺"
+      },
+      {
+        "name": "黑虎虾",
+        "quantity": "适量",
+        "unit": "用量：若干"
+      },
+      {
+        "name": "朗姆酒",
+        "quantity": "适量",
+        "unit": "用量：少许"
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": "用量：碎末"
+      },
+      {
+        "name": "淡奶油",
+        "quantity": "适量",
+        "unit": "用量：一小碗"
+      },
+      {
+        "name": "黑胡椒海盐",
+        "quantity": "适量",
+        "unit": "用量：个人口味"
+      },
+      {
+        "name": "甜椒粉",
+        "quantity": "适量",
+        "unit": "用量：个人口味"
+      },
+      {
+        "name": "欧芹",
+        "quantity": "适量",
+        "unit": "用量：少量装饰"
+      },
+      {
+        "name": "青柠",
+        "quantity": "适量",
+        "unit": "用量：少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/38abd9dd9f68498a9a3e3da8dfe508e6_720w_1280h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107513306/"
   }
 ]
