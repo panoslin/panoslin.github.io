@@ -26708,5 +26708,118 @@
       "salt": 178.18
     },
     "source": "https://www.douyin.com/video/7478212204047748406"
+  },
+  {
+    "id": 307,
+    "title": "照烧鸡肉🍗",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_307.png",
+    "description": "照烧鸡肉🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白萝卜汁",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白萝卜碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱段",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "面粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄酒",
+        "quantity": 1,
+        "unit": "份"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 1,
+        "unit": "份"
+      },
+      {
+        "name": "生抽酱油",
+        "quantity": 1,
+        "unit": "份"
+      },
+      {
+        "name": "老抽酱油",
+        "quantity": 1,
+        "unit": "份"
+      },
+      {
+        "name": "水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡腿去骨：从关节处去掉筋，沿内侧把肉劈开，将骨头撕下，再去掉脆骨和筋膜",
+        "imageUrl": "images/recipe_307_step_1.png"
+      },
+      {
+        "text": "改刀：在鸡腿肉上横竖各划几刀（不切断），这样更容易入味",
+        "imageUrl": "images/recipe_307_step_2.png"
+      },
+      "腌制：放入葱丝、姜丝、白萝卜汁、白萝卜碎和盐，抓拌均匀，腌10分钟",
+      "切两段葱，放入烤箱220度烤5分钟",
+      {
+        "text": "调料汁：黄酒、冰糖、生抽酱油、老抽酱油各取一份，调匀",
+        "imageUrl": "images/recipe_307_step_5.png"
+      },
+      "腌好的鸡肉撒上一层面粉抓匀，方便一会儿挂汁，还能增添面香味",
+      {
+        "text": "煎鸡肉：锅烧至冒烟后转最小火，倒油下鸡肉，煎至两面焦黄、起焦边甚至糊边",
+        "imageUrl": "images/recipe_307_step_7.png"
+      },
+      "放入烤好的葱段，倒入料汁，再加少许水，开大火收汁，期间撇去浮沫，收至浓稠即可出锅",
+      "鸡肉改刀装盘，浇上锅中汤汁即可"
+    ],
+    "nutrition": {
+      "calories": 5.9,
+      "protein": 0.1,
+      "carbs": 1.3,
+      "fat": 0.0,
+      "salt": 0.3
+    },
+    "source": "https://www.douyin.com/video/7477064206374702399"
   }
 ]
