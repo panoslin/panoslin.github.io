@@ -34251,5 +34251,119 @@
       "salt": 1.69
     },
     "source": "https://www.xiachufang.com/recipe/106177985/"
+  },
+  {
+    "id": 392,
+    "title": "土豆炖牛肉（电饭锅版）",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/02175afdf7094adc8b50e2aea5a852a8_1280w_960h.jpg?imageView2/1/w/800",
+    "description": "1.牛肉切块，泡血水半个小时。冷水下锅焯水，加入两勺料酒，葱，姜，煮沸后再等两分钟，将牛肉粒夹出。温水洗一下；2.焯水时准备食材。如图所示，还可以加入其他比如，腐竹，金针菇等，根据自己的喜好调整；3.食材切块，不要太大也不要太小；4.准备调料：一个八角就可以了。干辣椒在煮的时候捞",
+    "ingredients": [
+      {
+        "name": "牛腩",
+        "quantity": "适量",
+        "unit": "克"
+      },
+      {
+        "name": "土豆",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "西红柿",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": "半个"
+      },
+      {
+        "name": "八角",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "香叶",
+        "quantity": 1,
+        "unit": "片"
+      },
+      {
+        "name": "姜",
+        "quantity": 3,
+        "unit": "片"
+      },
+      {
+        "name": "桂皮",
+        "quantity": 1,
+        "unit": "块"
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "料酒",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": "少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "牛肉切块，泡血水半个小时。冷水下锅焯水，加入两勺料酒，葱，姜，煮沸后再等两分钟，将牛肉粒夹出。温水洗一下。",
+        "imageUrl": "https://i2.chuimg.com/a59ce622e0fb46c1bbba7d51ccce6fb9_1280w_948h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "焯水时准备食材。如图所示，还可以加入其他比如，腐竹，金针菇等，根据自己的喜好调整。",
+        "imageUrl": "https://i2.chuimg.com/dddd0827656e472bb061a934e887ff74_1280w_959h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "食材切块，不要太大也不要太小。",
+        "imageUrl": "https://i2.chuimg.com/542ad87363ce4c6790a12732a5236600_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "准备调料：一个八角就可以了。干辣椒在煮的时候捞出来（不然会很辣）。",
+        "imageUrl": "https://i2.chuimg.com/48fc7505c7364ad2862c7efb77889f2f_1280w_959h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "热油，加入葱姜蒜和八角桂皮香叶，加入牛肉粒翻炒，加入料酒一勺。加入蔬菜一起翻炒，生抽两勺，老抽一勺，蚝油一勺。",
+        "imageUrl": "https://i2.chuimg.com/afbedd7913194ff09212ab662604796e_1280w_959h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入电饭煲中，加入没过食材的温水，开启煮饭模式。炖煮1.5 hours。1h时尝一下味道，用盐和黑胡椒调味。其余时间不要打开锅盖哦😌",
+        "imageUrl": "https://i2.chuimg.com/94cdbeb8c5ea4a35ac9988b7b82dec21_1280w_959h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "土豆胡萝卜软烂，牛肉很入味，出锅撒上葱花。搭配米饭和刀削面都很棒哦👍🏻",
+        "imageUrl": "https://i2.chuimg.com/a580c3c039054e9c9c2405911d5bf82a_1280w_959h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 377.9,
+      "protein": 9.1,
+      "carbs": 117.0,
+      "fat": 6.1,
+      "salt": 0.44
+    },
+    "source": "https://www.xiachufang.com/recipe/106627595/"
   }
 ]
