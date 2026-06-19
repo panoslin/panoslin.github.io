@@ -31586,5 +31586,57 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/100153155/"
+  },
+  {
+    "id": 363,
+    "title": "空气炸锅-香甜板栗",
+    "category": [
+      "小吃零食"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e37cded652e54e469a34a5819a0208d5_768w_1024h.jpg?imageView2/1/w/800",
+    "description": "1.买回来的板栗洗干净，沥干水；2.给每个板栗开口，我用刀跟切的，一定要注意安全；3.锅中放水和切好的板栗，煮开后再煮5钟，捞出沥干水；4.糖，盐，油一起搅拌均匀，然后板栗倒入，让每个板栗都能均匀裹上一层糖汁；5.最后一步，板栗平铺在空气炸锅内，200℃12分钟，香甜可口的板栗就",
+    "ingredients": [
+      {
+        "name": "板栗",
+        "quantity": 400,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "买回来的板栗洗干净，沥干水",
+      "给每个板栗开口，我用刀跟切的，一定要注意安全",
+      {
+        "text": "锅中放水和切好的板栗，煮开后再煮5钟，捞出沥干水",
+        "imageUrl": "https://i2.chuimg.com/78351bee0c6045698f6f7aeece544a06_873w_1920h.jpg?imageView2/1/w/660"
+      },
+      "糖，盐，油一起搅拌均匀，然后板栗倒入，让每个板栗都能均匀裹上一层糖汁",
+      {
+        "text": "最后一步，板栗平铺在空气炸锅内，200℃12分钟，香甜可口的板栗就完成了",
+        "imageUrl": "https://i2.chuimg.com/99a97bc4a6514d738a09d4d6c8d77026_768w_1024h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 58.0,
+      "protein": 0.0,
+      "carbs": 15.0,
+      "fat": 0.0,
+      "salt": 5.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106554478/"
   }
 ]
