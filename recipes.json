@@ -41191,5 +41191,60 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107224151/"
+  },
+  {
+    "id": 469,
+    "title": "有空气炸锅的都去试试，这个真的好喝！烤箱也可！懒人自制热柠茶",
+    "category": [
+      "饮品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_469.png",
+    "description": "烤柠檬红茶🍋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "红茶",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "冰糖",
+        "quantity": 13,
+        "unit": "粒"
+      },
+      {
+        "name": "水",
+        "quantity": 7,
+        "unit": "勺"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 3,
+        "unit": "片"
+      }
+    ],
+    "instructions": [
+      "拿一个碗，放入1勺红茶、13粒冰糖和7勺水。",
+      "放入空气炸锅或烤箱，180度烤5分钟。",
+      {
+        "text": "打开后红茶呈焦黄焦黄的浓缩状态。",
+        "imageUrl": "images/recipe_469_step_3.png"
+      },
+      {
+        "text": "加入约8分满的清水，再放入3片柠檬。",
+        "imageUrl": "images/recipe_469_step_4.png"
+      },
+      "180度继续烤10分钟（注意高温，表面烫手）。",
+      "烤好即成，口感酸酸甜甜、清爽解腻，跟外面卖的热柠茶差不多。",
+      "小贴士：用空气炸锅怕液体溅出，盖一张锡纸即可解决，十分适合懒人。"
+    ],
+    "nutrition": {
+      "calories": 51.2,
+      "protein": 0.0,
+      "carbs": 13.3,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107225932/"
   }
 ]
