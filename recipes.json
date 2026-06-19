@@ -37543,5 +37543,89 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107171129/"
+  },
+  {
+    "id": 427,
+    "title": "改了又改！不用料理机也不用炒的绿豆糕终于来了~",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/b71fe8f27cd5444085fa1d1c00d3b382_3120w_4160h.jpg?imageView2/1/w/800",
+    "description": "1.脱皮绿豆洗干净，提前一夜泡水，加至少两倍的水泡发；2.用蒸烤箱或者蒸锅蒸30分钟，蒸透，一碾就碎的程度就可以啦；3.蒸好的脱皮绿豆迅速加入厨师机，其他所有材料一定要趁绿豆还很热的时候一起加入，用厨师机低速搅拌均匀；4.再转高速持续打发均匀，可以时不时停机检查下状态，边缘的刮下",
+    "ingredients": [
+      {
+        "name": "配方约做15个绿豆糕",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "脱皮绿豆",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "g"
+      },
+      {
+        "name": "黄油（软化）",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "甜炼乳",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "小法做了两倍，配方X2即可",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "脱皮绿豆洗干净，提前一夜泡水，加至少两倍的水泡发",
+        "imageUrl": "https://i2.chuimg.com/f042bb351f9f42ab833959a2311a397d_871w_285h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "用蒸烤箱或者蒸锅蒸30分钟，蒸透，一碾就碎的程度就可以啦！",
+        "imageUrl": "https://i2.chuimg.com/0c1a3f3fd67048c18299aedf2af366c8_1079w_352h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "蒸好的脱皮绿豆迅速加入厨师机，其他所有材料一定要趁绿豆还很热的时候一起加入，用厨师机低速搅拌均匀。",
+        "imageUrl": "https://i2.chuimg.com/17fad48ec6c04cad9dc213ef5463bb43_1082w_354h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "再转高速持续打发均匀，可以时不时停机检查下状态，边缘的刮下来重新打匀。",
+        "imageUrl": "https://i2.chuimg.com/3d65a72691744280b0d8b7c50f123ea0_1079w_353h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "这样柔软细腻的程度就可以了。没有厨师机的宝宝直接放大碗里用擀面杖倒，记住趁热也能很快混合均匀顺滑！",
+        "imageUrl": "https://i2.chuimg.com/c3b78549d8f342a0b46712820f040ae2_1080w_720h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "取30g每个，用月饼或者绿豆糕模具按压出喜欢的形状。",
+        "imageUrl": "https://i2.chuimg.com/d4fbf570cc7c40418e121e39dd628a1e_1080w_720h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这个绿豆糕也可以作为绿豆馅料，下次小法教你做软皮绿豆饼呀~",
+        "imageUrl": "https://i2.chuimg.com/a98e633279c24e2ca95b0981fdc0989a_759w_611h.png?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 1027.4,
+      "protein": 44.9,
+      "carbs": 165.1,
+      "fat": 27.7,
+      "salt": 1.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107170220/"
   }
 ]
