@@ -35700,5 +35700,125 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/101855712/"
+  },
+  {
+    "id": 408,
+    "title": "奶茶店爆款👉黑钻烤奶❗️🥤好喝到没朋友❗️",
+    "category": [
+      "奶茶"
+    ],
+    "imageUrl": "https://i2.chuimg.com/3c95abb48a7b444ba0e28465f4beb32a_960w_1280h.jpg?imageView2/1/w/800",
+    "description": "1.红糖加清水加热至红糖溶化；2.加入白凉粉；3.加热至沸腾关火；4.倒入碗中晾凉，凉了后可以放冰箱冷藏2小时更好吃；5.红茶加白糖；6.小火加热至焦糖色；7.加入清水；8.继续煮至沸腾关火；9.倒入牛奶；10.搅拌均匀；11.过滤出红茶叶即可，奶茶冷却后放入冰箱冷藏；12.黑钻",
+    "ingredients": [
+      {
+        "name": "黑钻：红糖",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 600,
+        "unit": "克"
+      },
+      {
+        "name": "白凉粉",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "焦糖奶茶：红茶",
+        "quantity": 8,
+        "unit": "克"
+      },
+      {
+        "name": "糖",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "清水",
+        "quantity": 230,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 350,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "红糖加清水加热至红糖溶化，",
+        "imageUrl": "https://i2.chuimg.com/e9fb4fcdb39749f88ddca6f75ebf8360_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入白凉粉",
+        "imageUrl": "https://i2.chuimg.com/026352fe09f947a1bd5d36164a0dbff4_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加热至沸腾关火，",
+        "imageUrl": "https://i2.chuimg.com/d7594c1cd3ba4028bfc6731aecdb0b0a_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入碗中晾凉，凉了后可以放冰箱冷藏2小时更好吃",
+        "imageUrl": "https://i2.chuimg.com/898d76a09fce4a099119e2a4f4dc832b_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "红茶加白糖，",
+        "imageUrl": "https://i2.chuimg.com/01b44a9b637946638dec58ff40bdf36d_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "小火加热至焦糖色，",
+        "imageUrl": "https://i2.chuimg.com/d4b415c9d17344069638b39daa59c9b0_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入清水",
+        "imageUrl": "https://i2.chuimg.com/dbff7701896742b6948c625007404fb3_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "继续煮至沸腾关火，",
+        "imageUrl": "https://i2.chuimg.com/7653b371fbc847a79adc8fbb5d50f64d_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入牛奶",
+        "imageUrl": "https://i2.chuimg.com/8fcec618afbc4fe89bc38c35326e127e_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/b35c989683b540a2aa9ccad957cd4d56_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "过滤出红茶叶即可，奶茶冷却后放入冰箱冷藏",
+        "imageUrl": "https://i2.chuimg.com/8e31c05d1a2b4330871fcb934d7d9f1c_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "黑钻凝固后用刀划成小块，",
+        "imageUrl": "https://i2.chuimg.com/cad5902414e846ddab3a10aa02ed073d_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放入杯中，",
+        "imageUrl": "https://i2.chuimg.com/7bc1bff3e0554e7e872154ced57f4e35_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再倒入焦糖奶茶就可以喝啦～",
+        "imageUrl": "https://i2.chuimg.com/312b9035eb774263aaed3a3be7e4d62f_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "太好喝了",
+        "imageUrl": "https://i2.chuimg.com/502058d8d45e4e28b575834b83777926_1280w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "一定要试试",
+        "imageUrl": "https://i2.chuimg.com/2be7e1e8e12d4ae381cde688bb8b81ed_1280w_960h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 568.3,
+      "protein": 10.5,
+      "carbs": 109.9,
+      "fat": 11.2,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106495123/"
   }
 ]
