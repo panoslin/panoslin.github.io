@@ -36792,5 +36792,92 @@
       "salt": 1.39
     },
     "source": "https://www.xiachufang.com/recipe/104571931/"
+  },
+  {
+    "id": 419,
+    "title": "好吃到舔盘子的酸辣凉拌方便面～",
+    "category": [
+      "面条"
+    ],
+    "imageUrl": "https://i2.chuimg.com/f9cb5ed5f26d46019a0a3a856af53499_1921w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.碗中放入葱花，蒜末，辣椒粉，小米辣，香菜末，白芝麻，浇两勺油激出香味，倒入两勺生抽+两勺陈醋+一勺香油+半勺糖+一小碗凉白开搅拌均匀；2.锅中水开放入方便面煮熟捞出过凉水，放入碗中，倒入酱汁，抓拌均匀即可；3.简直绝绝子，太好吃了～；4.成品图",
+    "ingredients": [
+      {
+        "name": "方便面",
+        "quantity": 2,
+        "unit": "包"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 3,
+        "unit": "瓣"
+      },
+      {
+        "name": "葱花，香菜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "芝麻",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "陈醋",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "香油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "凉白开",
+        "quantity": "适量",
+        "unit": "小半碗"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "碗中放入葱花，蒜末，辣椒粉，小米辣，香菜末，白芝麻，浇两勺油激出香味，倒入两勺生抽+两勺陈醋+一勺香油+半勺糖+一小碗凉白开搅拌均匀",
+        "imageUrl": "https://i2.chuimg.com/b2aba92da9ab4a82866b96c00413a775_1921w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅中水开放入方便面煮熟捞出过凉水，放入碗中，倒入酱汁，抓拌均匀即可！",
+        "imageUrl": "https://i2.chuimg.com/21779ccec2be4bf680c784c4c75e7f1e_1921w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "简直绝绝子，太好吃了～",
+        "imageUrl": "https://i2.chuimg.com/66feedb817754d51a46d09903639c985_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "成品图",
+        "imageUrl": "https://i2.chuimg.com/ec016eb05a47477ab36524573c7a60bb_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 149.5,
+      "protein": 5.5,
+      "carbs": 26.6,
+      "fat": 4.1,
+      "salt": 0.29
+    },
+    "source": "https://www.xiachufang.com/recipe/106861856/"
   }
 ]
