@@ -28823,5 +28823,98 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107112506/"
+  },
+  {
+    "id": 328,
+    "title": "潮汕牛肉丸粉丝汤",
+    "category": [
+      "快手菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/33b162a2df7947709530b219c640eb7d_1836w_1964h.jpg?imageView2/1/w/800",
+    "description": "1.葱切成葱花；2.姜切片；3.汕头牛肉丸备用；4.锅里烧水，水开下牛肉丸煮滚后放入姜片；5.牛肉丸煮熟后加入泡软的粉丝，这里我用的是红薯水晶粉丝。可以用其他粉丝代替；6.粉丝煮软后调味，放入盐，生抽，香油，胡椒粉搅拌均匀；7.撒葱花就可以出锅了。鲜香可口！牛肉丸劲道弹牙；8.汤",
+    "ingredients": [
+      {
+        "name": "汕头牛肉丸",
+        "quantity": 10,
+        "unit": "个"
+      },
+      {
+        "name": "粉丝",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "葱",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "盐",
+        "quantity": 2,
+        "unit": "克"
+      },
+      {
+        "name": "生抽",
+        "quantity": 0.5,
+        "unit": "勺"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香油",
+        "quantity": "适量",
+        "unit": "几滴"
+      },
+      {
+        "name": "生姜",
+        "quantity": 6,
+        "unit": "片"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "葱切成葱花。",
+        "imageUrl": "https://i2.chuimg.com/344b3ec3019244dfbdb5f93a81353253_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "姜切片",
+        "imageUrl": "https://i2.chuimg.com/5d2ffaca85a64fc38c12a39aac2bb360_3024w_4032h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "汕头牛肉丸备用。",
+        "imageUrl": "https://i2.chuimg.com/10040a86e19749f2bc486aebd405c9c3_2448w_3264h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里烧水，水开下牛肉丸煮滚后放入姜片。",
+        "imageUrl": "https://i2.chuimg.com/d0b0a9325f6346f3b42d8239a22a6af9_2448w_3264h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "牛肉丸煮熟后加入泡软的粉丝，这里我用的是红薯水晶粉丝。可以用其他粉丝代替。",
+        "imageUrl": "https://i2.chuimg.com/cbabbedbb529425eab3e4a60313f7aef_2448w_3264h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "粉丝煮软后调味，放入盐，生抽，香油，胡椒粉搅拌均匀。",
+        "imageUrl": "https://i2.chuimg.com/288894c55962440681ea8a80867fa126_2448w_3264h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "撒葱花就可以出锅了。鲜香可口！牛肉丸劲道弹牙！",
+        "imageUrl": "https://i2.chuimg.com/07e967d41e984e4591b3b25399d20cd0_1836w_2552h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "汤很鲜美，粉丝很好吃，肉丸也好吃！",
+        "imageUrl": "https://i2.chuimg.com/302afc59d8584692b73e3686bd4ef7ce_1836w_1964h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 2508.8,
+      "protein": 260.2,
+      "carbs": 2.0,
+      "fat": 150.1,
+      "salt": 2.07
+    },
+    "source": "https://www.xiachufang.com/recipe/106125070/"
   }
 ]
