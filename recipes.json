@@ -30274,5 +30274,145 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/103884227/"
+  },
+  {
+    "id": 347,
+    "title": "虎皮青椒",
+    "category": [
+      "家常菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e290575e873011e6b87c0242ac110003_500w_666h.jpg?imageView2/1/w/800",
+    "description": "1.将青椒洗干净；2.把蒂部切掉，用小刀挖掉籽，或者侧面划一刀，抠出籽籽(吃得辣的可以不用去籽，直接把辣椒切成两段，有籽还更香)；3.大蒜拍破后去皮，切成碎末；4.将生抽、白糖、香醋、盐放入碗里混合均匀成调料汁备用(不放白糖也好吃的，我经常就是放陈醋和生抽就觉得好吃了)；5.锅中",
+    "ingredients": [
+      {
+        "name": "做法一:",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青辣椒",
+        "quantity": 8,
+        "unit": "个"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 2,
+        "unit": "瓣"
+      },
+      {
+        "name": "香醋",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "name": "生抽",
+        "quantity": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "油",
+        "quantity": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "做法二用料:",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "青辣椒",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 1,
+        "unit": "瓣"
+      },
+      {
+        "name": "香醋",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "白糖",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "name": "生抽",
+        "quantity": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "油",
+        "quantity": 15,
+        "unit": "ml"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将青椒洗干净",
+        "imageUrl": "https://i2.chuimg.com/b73b43228c1f11e6a9a10242ac110002_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "把蒂部切掉，用小刀挖掉籽，或者侧面划一刀，抠出籽籽(吃得辣的可以不用去籽，直接把辣椒切成两段，有籽还更香)",
+        "imageUrl": "https://i2.chuimg.com/b7cd23c88c1f11e6a9a10242ac110002_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "大蒜拍破后去皮，切成碎末",
+        "imageUrl": "https://i2.chuimg.com/b7ea934a8c1f11e6b87c0242ac110003_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将生抽、白糖、香醋、盐放入碗里混合均匀成调料汁备用(不放白糖也好吃的，我经常就是放陈醋和生抽就觉得好吃了)",
+        "imageUrl": "https://i2.chuimg.com/b80a4f6e8c1f11e6b87c0242ac110003_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅中倒入油，油可以稍微多一些，中火加热至4成热后，将青椒排放入锅中",
+        "imageUrl": "https://i2.chuimg.com/b82987448c1f11e6a9a10242ac110002_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "用锅铲轻轻按压青椒",
+        "imageUrl": "https://i2.chuimg.com/b84789a68c1f11e6a9a10242ac110002_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "并不时的将青椒翻面，使之均匀的受热",
+        "imageUrl": "https://i2.chuimg.com/b8653c768c1f11e6b87c0242ac110003_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "直至青椒两面表皮都煸出虎皮皱纹(可以根据喜好煸得软一些或脆口一些，两种我都喜欢)",
+        "imageUrl": "https://i2.chuimg.com/b88461648c1f11e6b87c0242ac110003_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将青椒拨到锅头的一边，放入蒜末煸香",
+        "imageUrl": "https://i2.chuimg.com/b8a24ecc8c1f11e6a9a10242ac110002_207w_156h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入步骤（2）的调料汁，迅速翻炒入味，即可盛入盘中。                                              做法二:  干煸无油版以下图片步骤是第二种做法:不用放油干煸的，有锅头的焦香气味，非常特别。",
+        "imageUrl": "https://i2.chuimg.com/b8e852f08c1f11e6b87c0242ac110003_207w_156h.jpg?imageView2/1/w/660"
+      },
+      "将青椒洗干净，把蒂部去掉，大蒜拍破后去皮，切成碎末",
+      "将生抽、白糖、香醋、盐放入碗里混合均匀成调料汁备用",
+      "锅中不放油，中火加热至4成热后，将青椒排放锅中入，用锅铲轻轻按压青椒，并不时的将青椒翻面，使之均匀的受热，青椒两面表皮都煸出皱纹",
+      "将青椒盛出，放入少许油,也可以不放,将蒜末煸香，倒入步骤（2）的调料汁，放入青椒翻炒入味，待汤汁收浓稠时即可盛入盘中"
+    ],
+    "nutrition": {
+      "calories": 71.0,
+      "protein": 2.2,
+      "carbs": 16.3,
+      "fat": 0.1,
+      "salt": 2.92
+    },
+    "source": "https://www.xiachufang.com/recipe/256030/"
   }
 ]
