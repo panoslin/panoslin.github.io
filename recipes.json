@@ -38653,5 +38653,58 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106963654/"
+  },
+  {
+    "id": 440,
+    "title": "比薯片好吃一百倍的椒盐藕片",
+    "category": [
+      "零食"
+    ],
+    "imageUrl": "https://i2.chuimg.com/6d224ad6ad4f4c248a62f36f72867806_1080w_1437h.jpg?imageView2/1/w/800",
+    "description": "1.步骤一：莲藕洗净去皮  切成片浸泡水中去淀粉  淋干水分  可以放在厨房纸巾上吸干；2.锅中热油七成油温藕片下锅炸至金黄酥脆；3.出锅装盘撒上黑胡椒海盐粉  喜欢吃辣的还可以适量加上辣椒面哦",
+    "ingredients": [
+      {
+        "name": "莲藕",
+        "quantity": "适量",
+        "unit": "一只"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": "一勺"
+      },
+      {
+        "name": "海盐粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "步骤一：莲藕洗净去皮  切成片浸泡水中去淀粉  淋干水分  可以放在厨房纸巾上吸干",
+        "imageUrl": "https://i2.chuimg.com/61547714e2bb4146837e75047049a3cf_1080w_1437h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅中热油七成油温藕片下锅炸至金黄酥脆",
+        "imageUrl": "https://i2.chuimg.com/d92de941f1b04ae6ac4af7506578edd2_1080w_1439h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "出锅装盘撒上黑胡椒海盐粉  喜欢吃辣的还可以适量加上辣椒面哦",
+        "imageUrl": "https://i2.chuimg.com/43096d224302485aa9bd2aa8324db763_1080w_1437h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/105777775/"
   }
 ]
