@@ -26262,5 +26262,125 @@
       "salt": 9.5
     },
     "source": "https://www.douyin.com/video/7481193900409965878"
+  },
+  {
+    "id": 302,
+    "title": "大葱木耳烧豆腐🍲",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_302.png",
+    "description": "大葱木耳烧豆腐🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "老豆腐",
+        "quantity": 1,
+        "unit": "块"
+      },
+      {
+        "name": "大葱",
+        "quantity": 1,
+        "unit": "根"
+      },
+      {
+        "name": "青红辣椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑木耳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黄酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": 1,
+        "unit": "碗"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "芝麻香油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "老豆腐切成稍厚的片，大葱斜切成小段，青红辣椒切成片，黑木耳提前泡发好备用。",
+      {
+        "text": "起锅倒油烧至油面微微冒烟，下入豆腐用大火炸，刚开始不要翻动，炸至豆腐浮起、表面结出焦壳后再轻轻推开。",
+        "imageUrl": "images/recipe_302_step_2.png"
+      },
+      "转中火常翻面慢炸约4-5分钟，炸至表面微微焦黄、内部呈蜂窝状即可捞出沥油，炸过的油倒回油盆下次使用。",
+      {
+        "text": "锅中留底油，下大葱煸炒至微微发蔫、炸出葱油后捞出备用，最后出锅前再放回，避免久煮变色。",
+        "imageUrl": "images/recipe_302_step_4.png"
+      },
+      "用炸葱的油下入姜末和蒜末，小火炒出香味，再加入黄酒和生抽炒出酱香。",
+      "放入炸好的豆腐，加入一碗清水，放盐、白糖、白胡椒粉调味，再加一点老抽上色，放入泡发的黑木耳。",
+      "开中火炖煮三五分钟，让豆腐充分吸饱汤汁，待汤汁收得差不多放入青红辣椒和炒好的大葱。",
+      {
+        "text": "用一勺玉米淀粉加少许清水调成水淀粉，一点一点淋入勾芡，翻匀至芡汁牢牢裹住食材。",
+        "imageUrl": "images/recipe_302_step_8.png"
+      },
+      "最后淋入一点芝麻香油拌匀即可出锅装盘。"
+    ],
+    "nutrition": {
+      "calories": 4.8,
+      "protein": 0.1,
+      "carbs": 1.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7477524202073984266"
   }
 ]
