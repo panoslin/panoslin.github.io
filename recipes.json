@@ -38706,5 +38706,65 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/105777775/"
+  },
+  {
+    "id": 441,
+    "title": "巨简单的橙子布丁🍊多吃维C身体好哦！",
+    "category": [
+      "甜品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/bc2c6c65903c47e5919678a5d8b96dd1_431w_578h.png?imageView2/1/w/800",
+    "description": "1.橙汁500ml煮到沸腾，加入 达人兔白凉粉50g搅拌均匀。（橙汁可以用自己榨的，或者超市买的瓶装的）；2.把橙汁倒进方格模具，没有模具的就倒进大碗里后面切块；3.常温放半小时以上凝固，冷藏则20分钟左右；4.凝固后脱模出来，撒上椰蓉即可，不喜欢椰蓉的可以直接吃也很美味；5.香",
+    "ingredients": [
+      {
+        "name": "橙汁",
+        "quantity": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "达人兔白凉粉",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "椰蓉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "橙汁500ml煮到沸腾，加入 达人兔白凉粉50g搅拌均匀。（橙汁可以用自己榨的，或者超市买的瓶装的）",
+        "imageUrl": "https://i2.chuimg.com/42b41222e17643d59c6955b8283fca0d_515w_749h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "把橙汁倒进方格模具，没有模具的就倒进大碗里后面切块",
+        "imageUrl": "https://i2.chuimg.com/d9f6591b9c944f69a99d81a0717ea234_518w_777h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "常温放半小时以上凝固，冷藏则20分钟左右",
+        "imageUrl": "https://i2.chuimg.com/6308194fed8142a8bd48c6b57afec3d0_518w_688h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "凝固后脱模出来，撒上椰蓉即可，不喜欢椰蓉的可以直接吃也很美味",
+        "imageUrl": "https://i2.chuimg.com/98d5f880f2f04b1bac9cf66b5fc43ad8_519w_690h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "香甜爽滑，晶莹剔透",
+        "imageUrl": "https://i2.chuimg.com/b9a2b6ca63c1423fb8418c5ef69bc145_511w_546h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "做法简单又好吃",
+        "imageUrl": "https://i2.chuimg.com/390db7bce8ca46f884e5857fde5e75b3_506w_542h.png?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107008051/"
   }
 ]
