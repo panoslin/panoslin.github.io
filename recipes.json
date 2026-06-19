@@ -37384,5 +37384,62 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106657563/"
+  },
+  {
+    "id": 425,
+    "title": "最好吃的麻辣拌做法",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/ed7d1e78e31f49158d417282bd30446c_960w_1280h.jpg?imageView2/1/w/800",
+    "description": "1.️⃣准备蒜末芝麻辣椒粉辣椒面小米辣淋上热油，一勺白糖少许盐2勺生抽，2勺醋一勺蚝油，一勺芝麻酱拌匀备用；2.️⃣准备食材，煮熟，蔬菜也焯水，倒入酱汁拌匀；3.太香了～～；4.你也赶紧试试～～",
+    "ingredients": [
+      {
+        "name": "火锅丸子",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "泡面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西蓝花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土豆片",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "1️⃣准备蒜末芝麻辣椒粉辣椒面小米辣淋上热油，一勺白糖少许盐2勺生抽，2勺醋一勺蚝油，一勺芝麻酱拌匀备用",
+        "imageUrl": "https://i2.chuimg.com/ffded2321a674028a171af64510a88e8_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "2️⃣准备食材，煮熟，蔬菜也焯水，倒入酱汁拌匀",
+        "imageUrl": "https://i2.chuimg.com/ff99d711c6c64ce6a5f541d12863dbf2_960w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "太香了～～",
+        "imageUrl": "https://i2.chuimg.com/c1fbfb8c86e3494cb379fdbdfc9a841d_960w_960h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "你也赶紧试试～～",
+        "imageUrl": "https://i2.chuimg.com/89abd71e03bc43a1af8f98f37c48bf64_960w_1280h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/106495836/"
   }
 ]
