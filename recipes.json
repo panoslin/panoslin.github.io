@@ -29784,5 +29784,98 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107466491/"
+  },
+  {
+    "id": 340,
+    "title": "低脂低卡地中海风早餐尝试～有手就会",
+    "category": [
+      "早餐"
+    ],
+    "imageUrl": "https://i2.chuimg.com/03d2cd904b424536b67a43abf6ec1c20_1280w_961h.jpg?imageView2/1/w/800",
+    "description": "1.所需食材；2.增加一点点底味～；3.倒入橄榄油，鸡蛋凝固了就可以捞出了，不要煎太久不然就老了不好吃。小番茄切两半直接用煎蛋剩下的底油煎，大概1分钟就可以啦～；4.处理好的食材其实就是这样；5.只需要把食材放到面包上，然后一夹；6.西蓝花淋橄榄油+撒黑胡椒粉凉拌就可；7.是不是",
+    "ingredients": [
+      {
+        "name": "谷物面包",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "苹果",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "小番茄",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "西蓝花",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "蓝莓",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "所需食材",
+        "imageUrl": "https://i2.chuimg.com/023ac0b0c9704214a97a049eae368943_1280w_1707h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "增加一点点底味～",
+        "imageUrl": "https://i2.chuimg.com/7d799ef8d57b4dc7a58de6f2a8b2e3d5_1280w_1707h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入橄榄油，鸡蛋凝固了就可以捞出了，不要煎太久不然就老了不好吃。小番茄切两半直接用煎蛋剩下的底油煎，大概1分钟就可以啦～",
+        "imageUrl": "https://i2.chuimg.com/81c7904caba84693a38a39c02f912e81_1923w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "处理好的食材其实就是这样",
+        "imageUrl": "https://i2.chuimg.com/22d9ba21d744461d8c2a09844217759b_1280w_1707h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "只需要把食材放到面包上，然后一夹",
+        "imageUrl": "https://i2.chuimg.com/db4feab3f52340cc94021a3e8834cc2a_1923w_1923h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "西蓝花淋橄榄油+撒黑胡椒粉凉拌就可",
+        "imageUrl": "https://i2.chuimg.com/2be020153b8c4558ac6c30f1bd62c686_1280w_1707h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "是不是很简单捏",
+        "imageUrl": "https://i2.chuimg.com/8ca05c81c2404a3f94711118e807284e_1280w_961h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "营养成分表参考～",
+        "imageUrl": "https://i2.chuimg.com/3774d24b21bd4a36995c094b73c707bd_790w_402h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 168.8,
+      "protein": 12.0,
+      "carbs": 17.6,
+      "fat": 6.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106797427/"
   }
 ]
