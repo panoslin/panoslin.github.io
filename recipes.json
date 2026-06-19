@@ -40794,5 +40794,86 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107119440/"
+  },
+  {
+    "id": 464,
+    "title": "花2000买来的配方，这个真心还原！店里同款的奶茶配方！",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_464.png",
+    "description": "店里同款奶茶·伯牙绝弦 🧋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "茶叶（茉莉蜜芽/茉莉花茶）",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "75度热水",
+        "quantity": 1600,
+        "unit": "毫升"
+      },
+      {
+        "name": "冰块（茶汤降温用）",
+        "quantity": 1000,
+        "unit": "克"
+      },
+      {
+        "name": "K奶（咖啡奶/浓缩奶油，可用同等淡奶油代替）",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "鲜牛奶",
+        "quantity": 80,
+        "unit": "毫升"
+      },
+      {
+        "name": "茶汤（做法见步骤）",
+        "quantity": 220,
+        "unit": "毫升"
+      },
+      {
+        "name": "冰糖浆",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "冰块（雪克用）",
+        "quantity": 100,
+        "unit": "克"
+      },
+      {
+        "name": "冰块（出品杯用）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "制作茶汤：取50克茶叶（茉莉蜜芽/茉莉花茶），冲入1600毫升75度的热水。",
+      "盖上盖子焖泡9分钟左右，然后过滤掉茶叶。",
+      "在滤好的茶汤里加入1000克（1千克）冰块快速降温，茶汤即完成；可一次多做混成一大桶茶底，冷藏保存随喝随取。",
+      {
+        "text": "制作奶茶：雪克杯中依次加入20克K奶（咖啡奶/浓缩奶油）、80毫升鲜牛奶、220毫升茶汤、10克冰糖浆和100克冰块。",
+        "imageUrl": "images/recipe_464_step_4.png"
+      },
+      {
+        "text": "盖紧雪克杯，上下用力摇晃约10秒钟。",
+        "imageUrl": "images/recipe_464_step_5.png"
+      },
+      {
+        "text": "出品杯中装满冰块，倒入摇好的奶茶即可。",
+        "imageUrl": "images/recipe_464_step_6.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 176.3,
+      "protein": 3.8,
+      "carbs": 18.4,
+      "fat": 10.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107133503/"
   }
 ]
