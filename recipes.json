@@ -31765,5 +31765,79 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/105902069/"
+  },
+  {
+    "id": 366,
+    "title": "空气炸锅烧烤味五花肉",
+    "category": [
+      "快手菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/d6937f01c5634241ad7076286097c4b0_1080w_1920h.jpg?imageView2/1/w/800",
+    "description": "1.腌肉：五花肉切成0.5厘米的厚片，加入料酒、生抽、老抽、蚝油、白糖、辣椒粉、孜然粉、蒜末，抓匀腌制20分钟以上；2.烤肉：准备空气炸锅，放入锡纸，把肉均匀铺在上面，180度烤15-18分钟（中途翻面）即可",
+    "ingredients": [
+      {
+        "name": "五花肉",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "料酒",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": 0.5,
+        "unit": "大勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "糖",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "孜然粉",
+        "quantity": 1,
+        "unit": "大勺"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "腌肉：五花肉切成0.5厘米的厚片，加入料酒、生抽、老抽、蚝油、白糖、辣椒粉、孜然粉、蒜末，抓匀腌制20分钟以上。",
+        "imageUrl": "https://i2.chuimg.com/7687e6286a9144eb8b297541ba312471_1080w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤肉：准备空气炸锅，放入锡纸，把肉均匀铺在上面，180度烤15-18分钟（中途翻面）即可。",
+        "imageUrl": "https://i2.chuimg.com/29102466a7774d9594a0b809d307967c_1080w_1080h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 28.4,
+      "protein": 1.1,
+      "carbs": 5.7,
+      "fat": 0.3,
+      "salt": 0.32
+    },
+    "source": "https://www.xiachufang.com/recipe/106862966/"
   }
 ]
