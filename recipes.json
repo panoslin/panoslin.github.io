@@ -24950,5 +24950,237 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7491595361157434674"
+  },
+  {
+    "id": 290,
+    "title": "踏青烧烤·三种烤肉腌料配方🍖",
+    "category": [
+      "烧烤",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_290.png",
+    "description": "踏青烧烤·三种烤肉腌料配方🍖的详细制作方法",
+    "ingredients": [
+      {
+        "name": "牛肉（齐齐哈尔·吊龙/肩胛肉）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡粉（齐齐哈尔）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "盐（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白胡椒（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖（齐齐哈尔）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "花椒面（齐齐哈尔）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "孜然面（齐齐哈尔）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "辣椒面（齐齐哈尔）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "芝麻（齐齐哈尔）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽（齐齐哈尔）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "蚝油（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝麻香油（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜米（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大豆油（齐齐哈尔）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五花肉（东北酸菜）",
+        "quantity": 1,
+        "unit": "斤"
+      },
+      {
+        "name": "东北酸菜",
+        "quantity": 1,
+        "unit": "斤"
+      },
+      {
+        "name": "洋葱丝（东北酸菜）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜头（东北酸菜）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "孜然粉（东北酸菜）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "辣椒面（东北酸菜）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "鸡粉（东北酸菜）",
+        "quantity": 1.5,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽（东北酸菜）",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "清油（东北酸菜）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "五花肉（韩式）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱丝（韩式）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜葱蒜（韩式）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "粗辣椒面（韩式）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "细辣椒面（韩式）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "胡椒粉（韩式）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽（韩式）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "白糖（韩式）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "鸡粉（韩式）",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "香油（韩式）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "韩式辣酱",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "可乐",
+        "quantity": 0.5,
+        "unit": "罐"
+      }
+    ],
+    "instructions": [
+      "准备通用配料：拍蒜、切洋葱丝、备葱姜蒜和香菜，三种烤肉都会用到。",
+      "【齐齐哈尔烤肉】选用牛肉（吊龙、肩胛肉等肥筋相间部位），切成薄片。",
+      {
+        "text": "【齐齐哈尔烤肉·料汁】牛肉加鸡粉1勺、盐少许、白胡椒少许、白糖1勺、花椒面2勺、孜然面2勺、辣椒面2勺、芝麻2勺、生抽1勺、蚝油少许、芝麻香油、姜米、洋葱、香菜，拌匀。",
+        "imageUrl": "images/recipe_290_step_3.png"
+      },
+      "拌的过程中加入约一碗大豆油拌匀；切记不要放生粉和鸡蛋，否则烤时表面会结浆糊、容易糊掉。",
+      {
+        "text": "【东北酸菜五花肉】五花肉选肥瘦相间切厚片；东北酸菜先焯水再挤干水分，去咸去水。",
+        "imageUrl": "images/recipe_290_step_5.png"
+      },
+      {
+        "text": "【东北酸菜五花肉·料汁】五花肉1斤、酸菜1斤，加洋葱丝、蒜头、孜然粉2勺、辣椒面2勺、鸡粉1.5勺、生抽2勺、清油适量（油要多一点），拌匀。",
+        "imageUrl": "images/recipe_290_step_6.png"
+      },
+      "【韩式烤五花肉】五花肉切成稍厚的长条状，这样煎烤出来更香。",
+      {
+        "text": "【韩式烤五花肉·料汁】五花肉加洋葱丝、姜葱蒜、粗辣椒面1勺、细辣椒面1勺、胡椒粉少许、生抽1勺、白糖1勺、鸡粉1勺、香油适量、韩式辣酱2勺、可乐半罐，搅拌至酱料完全化开。",
+        "imageUrl": "images/recipe_290_step_8.png"
+      },
+      {
+        "text": "把韩式五花肉一条一条码放整齐，使其更均匀入味。",
+        "imageUrl": "images/recipe_290_step_9.png"
+      },
+      "三种烤肉腌好后，烤前一定要把表面的汁水吸干，否则烤时容易糊。"
+    ],
+    "nutrition": {
+      "calories": 48.4,
+      "protein": 2.0,
+      "carbs": 7.0,
+      "fat": 2.0,
+      "salt": 2.37
+    },
+    "source": "https://www.douyin.com/video/7491876493568593179"
   }
 ]
