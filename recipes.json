@@ -31017,5 +31017,102 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107478991/"
+  },
+  {
+    "id": 355,
+    "title": "解密配方 | 咖啡店热卖外脆里软华夫饼🧇",
+    "category": [
+      "早餐"
+    ],
+    "imageUrl": "https://i2.chuimg.com/61f2a80e98df41838ba4e2a2acad027a_1279w_1705h.jpg?imageView2/1/w/800",
+    "description": "1.通常我会按照操作顺序把干湿材料分开准备，提前一晚上做好面糊，第二天早上使用正好；2.因为是快手制作，我们使用的是低筋粉。口感是松软外酥脆的，特别好吃。盐一定要一点点哦~；3.我们依次加入油，牛奶和鸡蛋，用手动打蛋器打打打，让油充分乳化\n（这一步如果使用的是黄油，需要把黄油加热",
+    "ingredients": [
+      {
+        "name": "黄油",
+        "quantity": 25,
+        "unit": "克（或者玉米油30g）"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 180,
+        "unit": "克"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "白糖",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "克"
+      },
+      {
+        "name": "泡打粉",
+        "quantity": 8,
+        "unit": "克"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 180,
+        "unit": "克"
+      },
+      {
+        "name": "朗姆酒",
+        "quantity": 1,
+        "unit": "茶匙"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "通常我会按照操作顺序把干湿材料分开准备，提前一晚上做好面糊，第二天早上使用正好！",
+        "imageUrl": "https://i2.chuimg.com/25ed83e2d54a4ae5bad0d711354a485f_4096w_2732h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "因为是快手制作，我们使用的是低筋粉。口感是松软外酥脆的，特别好吃。盐一定要一点点哦~",
+        "imageUrl": "https://i2.chuimg.com/82c7115dbb8d4c5d9640c435e632aa79_4096w_2732h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "我们依次加入油，牛奶和鸡蛋，用手动打蛋器打打打，让油充分乳化（这一步如果使用的是黄油，需要把黄油加热成液体，牛奶需要是温热的）",
+        "imageUrl": "https://i2.chuimg.com/dec95260508e40178b94f3544c020d7b_1279w_1279h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "往液体部分中加入白糖，盐，充分搅拌融化（听到没有沙沙声）",
+        "imageUrl": "https://i2.chuimg.com/b8f2861f2f6443edac73f5340ec5e6ae_1279w_1279h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入泡打粉搅拌均匀然后加入过筛的低筋粉（实在不想过筛也没事）",
+        "imageUrl": "https://i2.chuimg.com/3e1012f5683a4acd83928e708f63b547_1279w_1279h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "在混合好的面糊中加入朗姆酒拌匀就好。（建议加！不然口感没那么好）这个小朋友吃也没问题。一丢丢酒，在250度的烘烤下都挥发了的~",
+        "imageUrl": "https://i2.chuimg.com/30a85f06e5ba4d20bdb9023f0dfb0461_1706w_1138h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤制！现在的华夫饼机太多了，我自己用的是商用华夫饼机，这个配方正好做两个大大的华夫饼，如果是早餐机，可能能做比较多个。不过这个配方好就好在，密封好的情况下，华夫饼面糊是可以保存三天的，随用随取。烤出来还是很好吃。",
+        "imageUrl": "https://i2.chuimg.com/5759cf2af5c84cf297e73aa0a852c30d_1706w_1138h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "刚刚开始用华夫饼机的时候刷一点油哦~还有一点重要的就是华夫饼是会有一点点膨胀的，面糊不要放太多。烤制之前记得预热好机器，可以把你自己的机器的烤制时间记录下来。(我的机器是可以调节温度的，我一般用250℃，烤3-5分钟）",
+        "imageUrl": "https://i2.chuimg.com/6260625452b145769becc13a7f8fc798_1279w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "用漂亮的盘子装盘，放上喜欢的水果坚果和酱汁再吃掉～平凡的生活也要充满仪式感哦❤",
+        "imageUrl": "https://i2.chuimg.com/b0c8e0f732524fe5ad6f0b1b19ad6c5f_1279w_1279h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 445.2,
+      "protein": 12.0,
+      "carbs": 31.6,
+      "fat": 30.4,
+      "salt": 1.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106033068/"
   }
 ]
