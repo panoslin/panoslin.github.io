@@ -41362,5 +41362,108 @@
       "salt": 1.0
     },
     "source": "https://www.xiachufang.com/recipe/107245530/"
+  },
+  {
+    "id": 471,
+    "title": "白菜豆腐煲",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_471.png",
+    "description": "白菜豆腐煲🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑木耳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鹌鹑蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿肠",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小米辣",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水",
+        "quantity": 1,
+        "unit": "碗"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "锅里撒点盐，下入豆腐，煎至表面金黄后盛出备用",
+        "imageUrl": "images/recipe_471_step_1.png"
+      },
+      "另起锅，下葱、蒜、小米辣炒香",
+      {
+        "text": "炒香后依次放入白菜、黑木耳、鹌鹑蛋、火腿肠和煎好的豆腐",
+        "imageUrl": "images/recipe_471_step_3.png"
+      },
+      "加生抽、老抽、蚝油、盐、鸡精，再倒入一碗开水",
+      "扣盖焖煮8分钟即可"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107259116/"
   }
 ]
