@@ -41617,5 +41617,84 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107362186/"
+  },
+  {
+    "id": 474,
+    "title": "有空气炸锅必做系列——时蔬香烤牛排，巨巨巨巨香嫩！",
+    "category": [
+      "牛肉",
+      "西餐"
+    ],
+    "imageUrl": "images/recipe_474.png",
+    "description": "空气炸锅时蔬香烤牛排🥩的详细制作方法",
+    "ingredients": [
+      {
+        "name": "上脑牛排",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小南瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "小番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "口蘑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西蓝花",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "牛排用厨房纸吸干水分，切记千万不要用水冲洗",
+      {
+        "text": "给牛排撒上盐、黑胡椒粉、橄榄油，用手按摩使其入味",
+        "imageUrl": "images/recipe_474_step_2.png"
+      },
+      "盖上保鲜膜腌制30分钟以上，之后切块",
+      "西蓝花放入热水中焯水1分钟后捞起",
+      {
+        "text": "南瓜、小番茄、口蘑、西蓝花等蔬菜切块后放在一起，撒盐、黑胡椒粉、橄榄油翻拌均匀",
+        "imageUrl": "images/recipe_474_step_5.png"
+      },
+      "把蔬菜平铺在烤盘里，180度烤10分钟",
+      "放入上脑牛排，继续烤12分钟",
+      {
+        "text": "把牛排翻个面并刷一点油，再烤8分钟即可出锅",
+        "imageUrl": "images/recipe_474_step_8.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107392568/"
   }
 ]
