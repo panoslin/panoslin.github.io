@@ -24756,5 +24756,115 @@
       "salt": 5.62
     },
     "source": "https://www.douyin.com/video/7490930379646438713"
+  },
+  {
+    "id": 288,
+    "title": "贵州油辣椒🌶️",
+    "category": [
+      "家常菜",
+      "下饭菜"
+    ],
+    "imageUrl": "images/recipe_288.png",
+    "description": "贵州油辣椒🌶️的详细制作方法",
+    "ingredients": [
+      {
+        "name": "生辣椒面",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "菜籽油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生花生米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "熟芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "桂皮",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香叶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "草果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "八角",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "高度白酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "陈醋",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将三种生辣椒面（中粗中辣、中粗微辣、细粉中辣）按口味混合，搅拌均匀。",
+        "imageUrl": "images/recipe_288_step_1.png"
+      },
+      "先往辣椒面中淋入少许熟菜籽油，快速拌匀，防止后续泼油时炸糊。",
+      "锅中倒入生花生米，小火炒出香味，盛入盆中放凉后搓掉外皮丢弃。",
+      "把花生米倒入擂钵中擂碎备用。",
+      {
+        "text": "菜籽油中放入香菜、姜、葱、洋葱、桂皮、香叶、草果、八角，小火熬干炸香，捞出料渣只留香料油。",
+        "imageUrl": "images/recipe_288_step_5.png"
+      },
+      {
+        "text": "香料油大火烧至约80度（八成热），分次泼入辣椒面：第一遍泼油让辣椒出红油，第二遍泼油激发辣椒香味。",
+        "imageUrl": "images/recipe_288_step_6.png"
+      },
+      "加入花生碎和熟芝麻拌匀，再泼第三遍热油。",
+      "趁热加入少许高度白酒和陈醋拌匀，这样辣椒油能保存得更久。",
+      "盖上盖子静置一晚，风味更香。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7485745370933284153"
   }
 ]
