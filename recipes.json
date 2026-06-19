@@ -30064,5 +30064,80 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107107414/"
+  },
+  {
+    "id": 344,
+    "title": "最最简单的饭团",
+    "category": [
+      "饭团"
+    ],
+    "imageUrl": "https://i2.chuimg.com/96f95fb270274a3185873e8e2b78c063_1280w_1632h.jpg?imageView2/1/w/800",
+    "description": "1.食材:黄瓜1、午餐肉1、玉米半根、海苔碎、沙拉酱\n\n做法:1米饭煮熟备用\n2玉米粒煮熟捞出，午餐肉煎至焦黄备用\n3米饭加黄瓜、海苔碎、玉米粒、午餐肉，挤适量沙拉酱\n4拌匀揉成饭团即可；2.；3.作法；4.这一盒美味好看；5.进阶版： 可以把饭团在保鲜膜上铺平， 中间加沙拉酱和",
+    "ingredients": [
+      {
+        "name": "黄瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "午餐肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海苔碎",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "沙拉酱",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "米饭",
+        "quantity": "适量",
+        "unit": "煮熟"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "食材:黄瓜1、午餐肉1、玉米半根、海苔碎、沙拉酱做法:1米饭煮熟备用2玉米粒煮熟捞出，午餐肉煎至焦黄备用3米饭加黄瓜、海苔碎、玉米粒、午餐肉，挤适量沙拉酱4拌匀揉成饭团即可!!",
+        "imageUrl": "https://i2.chuimg.com/34f41b852c5d4b59b7c09df01603cbff_1280w_1632h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/ec79cd39b64142c3ad8d35b158aa6b54_1279w_857h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "作法",
+        "imageUrl": "https://i2.chuimg.com/0bacdd85a425421ca3e454315e6c4299_1268w_877h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这一盒美味好看",
+        "imageUrl": "https://i2.chuimg.com/a0e279c4f35a4d6ca2bdf2d55c498126_1280w_1511h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "进阶版： 可以把饭团在保鲜膜上铺平， 中间加沙拉酱和肉松，捏成米饭团就行",
+        "imageUrl": "https://i2.chuimg.com/655ff4424999445194af013453ecd1b6_1280w_1678h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这样就成肉松饭了",
+        "imageUrl": "https://i2.chuimg.com/ce9d01c3ba8d4bb68d3c1c4b3282a358_1280w_1653h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107202340/"
   }
 ]
