@@ -28725,5 +28725,103 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107015140/"
+  },
+  {
+    "id": 327,
+    "title": "鲍师傅小贝胚 鳕贝 正宗的很嫩的口感 低油",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/68ba8db7f24e4470a1eabed5f614ac02_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.蛋黄加牛奶加玉米油乳化，加入面粉；2.预热200度烤箱，过筛混合物；3.这个是过筛后的面粉蛋黄糊状态；4.蛋白加柠檬汁或白醋分次加白砂糖打发，需要打发硬一些，用塑料刮刀取一些能牢固地粘在刮刀上，那些会滑下来的都是打发不到位。如图蛋白霜粘在硅胶刮刀上不会因为重力向下掉；5.打完",
+    "ingredients": [
+      {
+        "name": "蛋白",
+        "quantity": 105,
+        "unit": "克"
+      },
+      {
+        "name": "玉米油",
+        "quantity": 18,
+        "unit": "克"
+      },
+      {
+        "name": "面粉",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "蛋黄",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "柠檬汁或白醋",
+        "quantity": "适量",
+        "unit": "几滴"
+      },
+      {
+        "name": "邱比沙拉酱",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "费氏鳕鱼松",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "蛋黄加牛奶加玉米油乳化，加入面粉，",
+        "imageUrl": "https://i2.chuimg.com/807449bca95c4b078c2ef35d464945cb_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "预热200度烤箱，过筛混合物",
+        "imageUrl": "https://i2.chuimg.com/e838a67869f84ab3837611cc9679704a_2259w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这个是过筛后的面粉蛋黄糊状态",
+        "imageUrl": "https://i2.chuimg.com/b726726f3cb94a7999f7b45492c4ac7e_2235w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋白加柠檬汁或白醋分次加白砂糖打发，需要打发硬一些，用塑料刮刀取一些能牢固地粘在刮刀上，那些会滑下来的都是打发不到位。如图蛋白霜粘在硅胶刮刀上不会因为重力向下掉",
+        "imageUrl": "https://i2.chuimg.com/297d70788df246f4ae980cd740d6f56f_1937w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "打完加入蛋黄面粉混合物切拌均匀。装入放了泡芙用裱花嘴的裱花袋像图上一样挤，这张照片是在鲍师傅门店外面拍的师傅挤出的手法，像soufflé一样堆得高一些",
+        "imageUrl": "https://i2.chuimg.com/045fb7802f144cb5a88eaa0206b7264b_828w_976h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "200度烤8分钟 各烤箱温度不一，要得到嫩的口感，最终目标是表皮微上色，底部不能有焦皮",
+        "imageUrl": "https://i2.chuimg.com/2e165050939d4dfda69b865cd44c040e_2049w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "内里超级软嫩，抹上沙拉酱和鳕鱼松就是家里的小朋友最爱的鳕鱼贝贝",
+        "imageUrl": "https://i2.chuimg.com/309d175950394dde91ea4dd0b4d9d3a5_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "200度烤8分钟 各烤箱温度不一，要得到嫩的口感，最终目标是表皮微上色，底部不能有焦皮，底部从油布上撕下来应该是图片这种颜色，如果偏黄就是温度过高，口感就会偏干，就不是很嫩的口感，要自己试验一下",
+        "imageUrl": "https://i2.chuimg.com/21bcaaac5c4f4cb28c306eb9084a0d39_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 341.5,
+      "protein": 17.5,
+      "carbs": 47.1,
+      "fat": 9.7,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107112506/"
   }
 ]
