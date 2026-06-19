@@ -40081,5 +40081,74 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/107066614/"
+  },
+  {
+    "id": 456,
+    "title": "用空气炸锅也能做出这么好吃的铁板豆腐‼️",
+    "category": [
+      "素食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_456.png",
+    "description": "空气炸锅铁板豆腐🔥的详细制作方法",
+    "ingredients": [
+      {
+        "name": "豆腐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "烧烤料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将豆腐切成厚片",
+        "imageUrl": "images/recipe_456_step_1.png"
+      },
+      {
+        "text": "碗中放入蒜末、烧烤料，浇入热油激出香味，再加生抽、蚝油搅拌均匀调成酱料",
+        "imageUrl": "images/recipe_456_step_2.png"
+      },
+      {
+        "text": "将豆腐片放入空气炸锅，表面刷上调好的酱料",
+        "imageUrl": "images/recipe_456_step_3.png"
+      },
+      {
+        "text": "200度烤20分钟，中间翻面并再次刷酱料",
+        "imageUrl": "images/recipe_456_step_4.png"
+      },
+      "出锅即可，铁板豆腐好吃到起飞"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107066616/"
   }
 ]
