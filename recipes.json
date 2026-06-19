@@ -29740,5 +29740,49 @@
       "salt": 1.0
     },
     "source": "https://www.xiachufang.com/recipe/100503422/"
+  },
+  {
+    "id": 339,
+    "title": "地中海式饮食",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/6922ea817a104a289e3ea6b863864f33_1280w_1706h.jpg?imageView2/1/w/800",
+    "description": "1.；1.",
+    "ingredients": [
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海盐",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/8bf796e765174eafa298ac7a1bae31e2_1280w_1706h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/a6bf6517a54446faa1a76990cb0c2943_1280w_1706h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107466491/"
   }
 ]
