@@ -35273,5 +35273,102 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/104763644/"
+  },
+  {
+    "id": 404,
+    "title": "好吃是好吃，就是有点费米饭🤣",
+    "category": [
+      "家常菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/2902b0870bd747e49aedc5738fcad46b_1125w_2436h.jpg?imageView2/1/w/800",
+    "description": "1.🌵食材：香干200g，蒜苔100g， 肉末150g，小米辣5/6根\n👆先调碗料汁：2勺生抽➕半勺老抽➕1勺蚝油➕少许盐白糖➕少许淀粉➕半碗清水搅匀备用；2.料汁文案见上图👆；3.葱末爆香；4.倒入肉末炒至变色，（喜欢吃焦香点的可以稍微多炒一会）；5.加入一勺米酒去腥增香；6.",
+    "ingredients": [
+      {
+        "name": "香干",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "肉末",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "蒜苔",
+        "quantity": "适量",
+        "unit": "一小把"
+      },
+      {
+        "name": "小米辣",
+        "quantity": 5,
+        "unit": "/6根"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "🌵食材：香干200g，蒜苔100g， 肉末150g，小米辣5/6根👆先调碗料汁：2勺生抽➕半勺老抽➕1勺蚝油➕少许盐白糖➕少许淀粉➕半碗清水搅匀备用",
+        "imageUrl": "https://i2.chuimg.com/c51e1b219bd14b4db5275519d9af76c5_1581w_1265h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "料汁文案见上图👆",
+        "imageUrl": "https://i2.chuimg.com/269cdbaa232741f8b2763ed5ab2eb3f1_1575w_1260h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "葱末爆香",
+        "imageUrl": "https://i2.chuimg.com/ca32355e878f40b485db5bedc6d8d83b_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入肉末炒至变色，（喜欢吃焦香点的可以稍微多炒一会）",
+        "imageUrl": "https://i2.chuimg.com/18cbd75f65354dca8e9c2e57bc5e418a_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入一勺米酒去腥增香",
+        "imageUrl": "https://i2.chuimg.com/1b589846836e40f9b756eef0e9c8ffd3_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "炒匀后淋入料汁",
+        "imageUrl": "https://i2.chuimg.com/4ff61648d7a642b786081fdb42df2135_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "煮至浓稠盛出",
+        "imageUrl": "https://i2.chuimg.com/b945851044264fb89d9c62d566ade518_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "另起锅蒜片炒香",
+        "imageUrl": "https://i2.chuimg.com/ed7f1a150a444b9a86df34075b3c85e9_1125w_900h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入香干，加点盐和生抽调味，炒至8成熟",
+        "imageUrl": "https://i2.chuimg.com/b5f325eb32db4e34b1756c66ae351512_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入配菜，蒜苔",
+        "imageUrl": "https://i2.chuimg.com/c9baae046ac04070acb2edb01db502c0_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入炒好的肉末 再次炒至入味",
+        "imageUrl": "https://i2.chuimg.com/a4f117dd515849819c9c96b90b19f4e1_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "起锅前加点小米辣丰富口感，好吃又下饭",
+        "imageUrl": "https://i2.chuimg.com/5497d189a10e42eea8f9dc9511406cba_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "经典家乡小吃，香辣入味，特费米饭🍚",
+        "imageUrl": "https://i2.chuimg.com/c1685b87b9ac49eb9ca049008c6a4179_1125w_2436h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "直接拌饭吃也是绝了🤭",
+        "imageUrl": "https://i2.chuimg.com/82e05c2e87504d66a9430db1d336dbd8_1125w_2436h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 365.0,
+      "protein": 30.5,
+      "carbs": 0.4,
+      "fat": 24.9,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106909547/"
   }
 ]
