@@ -37441,5 +37441,107 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/106495836/"
+  },
+  {
+    "id": 426,
+    "title": "泰裤啦！年纪轻轻就实现了『软皮绿豆饼』自由~",
+    "category": [
+      "饼"
+    ],
+    "imageUrl": "https://i2.chuimg.com/3749e50fabfb4ae1967c6782b5e05d07_3120w_4160h.jpg?imageView2/1/w/800",
+    "description": "1.先准备绿豆馅儿，分割20g每个；2.绿豆饼皮全部材料除黄油外混合揉成团，成团可以看面团状态适当加点水，小法多加了20g，成团了再加软化的黄油揉均匀，揉光滑就可以了；3.面团盖保鲜膜醒面10分钟，分割成15g一个小剂子，团圆，盖保鲜膜松弛15分钟；4.擀圆，中间放绿豆馅；5.包",
+    "ingredients": [
+      {
+        "name": "配方约做20-22个",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "高筋面粉",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "name": "泡打粉",
+        "quantity": 3,
+        "unit": "g"
+      },
+      {
+        "name": "黄油（软化）",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "水",
+        "quantity": 115,
+        "unit": "g+10g"
+      },
+      {
+        "name": "绿豆馅戳上一个教程哦~",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "绿豆饼小法做了两倍的量，配方x2即可",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "先准备绿豆馅儿，分割20g每个",
+        "imageUrl": "https://i2.chuimg.com/817390de2f1745fe925de58a0594b8e8_951w_312h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "绿豆饼皮全部材料除黄油外混合揉成团，成团可以看面团状态适当加点水，小法多加了20g，成团了再加软化的黄油揉均匀，揉光滑就可以了。",
+        "imageUrl": "https://i2.chuimg.com/9b86c9b1890f483c911f5f62fcc9a82c_953w_312h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "面团盖保鲜膜醒面10分钟，分割成15g一个小剂子，团圆，盖保鲜膜松弛15分钟。",
+        "imageUrl": "https://i2.chuimg.com/c19206f1208a4a79bcdb5aacbc7d613a_951w_312h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "擀圆，中间放绿豆馅",
+        "imageUrl": "https://i2.chuimg.com/64f975d7e1f6432eb55eed5e57dcbd56_951w_311h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "包起来，收口捏紧，微微擀扁。",
+        "imageUrl": "https://i2.chuimg.com/2041b83b786640b0af2a2e5edc655b82_936w_305h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "或者直接用刮板按压成有一定厚度的小圆饼。",
+        "imageUrl": "https://i2.chuimg.com/2070aa7a50ce4e378b841e6a37a85920_1080w_720h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "交错摆入烤盘，小法做的有点儿多，大家可以根据配方先做20-22个试试看",
+        "imageUrl": "https://i2.chuimg.com/05ede7d0475f4ec49eaa6e65a4329287_1080w_720h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "海氏s80烤箱风炉180度预热，入炉转170度烤约12-15分钟，烤完感觉膨胀的有点猛，小法其实觉得160度烤就可以了，大家自家烤箱也可以160-170度之间磨合下。",
+        "imageUrl": "https://i2.chuimg.com/a0b5a03f918b4a52b40305f16642a428_689w_610h.png?imageView2/1/w/660"
+      },
+      {
+        "text": "如果不用烤箱，用平底锅煎到两面微微发黄也可以！吃不完分装冷冻保存，室温解冻微博或者复烤下依然好吃哈！",
+        "imageUrl": "https://i2.chuimg.com/fb4dfdd1221b4d22b5c034ad6932bc4a_1080w_720h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 253.8,
+      "protein": 0.1,
+      "carbs": 10.0,
+      "fat": 24.3,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107171129/"
   }
 ]
