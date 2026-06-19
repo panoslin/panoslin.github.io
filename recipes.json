@@ -37811,5 +37811,154 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/106725240/"
+  },
+  {
+    "id": 431,
+    "title": "超级豪华版广式糯米鸡",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/daf21f3c8af011e6a9a10242ac110002_3456w_2304h.jpg?imageView2/1/w/800",
+    "description": "正宗糯米鸡的做法栏目为您推荐最正宗的糯米鸡做法，糯米鸡的做法步骤图解，更多正宗糯米鸡怎么做好吃的窍门分享就来下厨房。",
+    "ingredients": [
+      {
+        "name": "荷叶",
+        "quantity": 2,
+        "unit": "片"
+      },
+      {
+        "name": "糯米",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "鸡腿",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "咸蛋",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "腊肠",
+        "quantity": "适量",
+        "unit": "半根"
+      },
+      {
+        "name": "香菇",
+        "quantity": 5,
+        "unit": "-8个（香菇可以多放点很香的！）"
+      },
+      {
+        "name": "虾米",
+        "quantity": 10,
+        "unit": "个"
+      },
+      {
+        "name": "瑶柱",
+        "quantity": 10,
+        "unit": "-15个"
+      },
+      {
+        "name": "调味料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "油",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "五香粉",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": "适量",
+        "unit": "少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡腿洗净，用剪刀直接把鸡肉剪成鸡丁块。然后加入少许生抽，蚝油，胡椒粉，盐生粉腌制10分钟。",
+        "imageUrl": "https://i2.chuimg.com/506df0fe948511e6b87c0242ac110003_3476w_4638h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "干香菇洗净放一碗水泡发，切条。瑶柱虾米提前浸泡2小时。（香菇水不要倒掉，等下用来炒肉和蒸饭）",
+        "imageUrl": "https://i2.chuimg.com/4d863df6948511e6a9a10242ac110002_3476w_4638h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "热锅下油，放入腌制好的鸡丁翻炒。",
+        "imageUrl": "https://i2.chuimg.com/4af69d60948511e6b87c0242ac110003_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加入香菇，瑶柱虾米继续翻炒，然后加少许生抽，蚝油，盐继续翻炒。",
+        "imageUrl": "https://i2.chuimg.com/494b1fae948511e6b87c0242ac110003_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入一半泡香菇的水，煮一下入味。取一个小碗以生粉和水1：8的比例，倒入生粉水勾芡。稍微熬稠收汁后装盘待用。（这样炒出来的馅料就会很稠，很入味，锁住味道，上汽蒸的时候馅料就会变成汁融在糯米里。）",
+        "imageUrl": "https://i2.chuimg.com/47bcfd92948511e6a9a10242ac110002_3476w_4638h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "糯米提前浸泡4-5小时，保留一点水分，加入少许香菇水，生抽，五香粉，蚝油搅拌均匀。放入锅中蒸20分钟（有很多人反映说糯米会偏干，那可以加水浸过糯米2-3cm，本身锅里面会有蒸汽有水分，水不要多，一多就很软塌塌的，很难吃的；如果米饭比较多可以放入电饭锅像煮饭一样，水量大概是食指第一个关节左右，或者可以少一点，控制出来的糯米的水份要偏干，不然后期再蒸的时候很容易水分太多变得软绵绵哈~）",
+        "imageUrl": "https://i2.chuimg.com/45eaa1c2948511e6b87c0242ac110003_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "荷叶洗净，用温水浸泡15分钟至软，擦干表面的水分。（荷叶一般在菜市场都有买的，没有的话可以淘宝哦）",
+        "imageUrl": "https://i2.chuimg.com/44720876948511e6a9a10242ac110002_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "取一团米饭平铺在荷叶上成长方形或者正方形。",
+        "imageUrl": "https://i2.chuimg.com/435849be948511e6b87c0242ac110003_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "依次放入炒好的肉馅，半个咸蛋，切好的腊肠片。",
+        "imageUrl": "https://i2.chuimg.com/41bd9f50948511e6a9a10242ac110002_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "再加上一层糯米盖住。",
+        "imageUrl": "https://i2.chuimg.com/402464b2948511e6b87c0242ac110003_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "然后把荷叶上左右下顺序折叠成正方形。（这一步要现吃的就可以上锅蒸，剩下的可以放入冰箱冷冻，做储备粮）",
+        "imageUrl": "https://i2.chuimg.com/3e6528d2948511e6b87c0242ac110003_3456w_2304h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅里放水，放入糯米鸡，大火烧开转中火15分钟即可。",
+        "imageUrl": "https://i2.chuimg.com/3cf5f2ec948511e6b87c0242ac110003_3456w_2304h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 3000.9,
+      "protein": 472.6,
+      "carbs": 192.9,
+      "fat": 40.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/101809618/"
   }
 ]
