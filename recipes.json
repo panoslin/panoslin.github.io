@@ -40875,5 +40875,66 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107133503/"
+  },
+  {
+    "id": 465,
+    "title": "奶香黄金土司卷",
+    "category": [
+      "快手菜",
+      "主食"
+    ],
+    "imageUrl": "images/recipe_465.png",
+    "description": "奶香黄金吐司卷的详细制作方法",
+    "ingredients": [
+      {
+        "name": "吐司",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芝士碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "火腿碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蛋黄液",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "把吐司擀成薄片。",
+        "imageUrl": "images/recipe_465_step_1.png"
+      },
+      "在吐司片上放上芝士碎和火腿碎。",
+      {
+        "text": "像这样把吐司从一端卷起来。",
+        "imageUrl": "images/recipe_465_step_3.png"
+      },
+      "用牙签封口固定，备用。",
+      {
+        "text": "蛋黄液快速打散，均匀地刷在吐司卷上。",
+        "imageUrl": "images/recipe_465_step_5.png"
+      },
+      {
+        "text": "放入空气炸锅，210度烤10分钟。",
+        "imageUrl": "images/recipe_465_step_6.png"
+      },
+      "取出即可，外酥里拉丝、奶香浓郁，特别好吃。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107136753/"
   }
 ]
