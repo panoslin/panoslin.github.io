@@ -30773,5 +30773,59 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107030557/"
+  },
+  {
+    "id": 352,
+    "title": "地中海烤甜椒",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/f4169e54244a4cb8b3ea888d480cbd67_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.彩椒切条，淋油，撒上盐和黑胡椒，空气炸锅，200度，20分钟，装盘淋醋；2.开吃",
+    "ingredients": [
+      {
+        "name": "彩椒",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "醋",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "彩椒切条，淋油，撒上盐和黑胡椒，空气炸锅，200度，20分钟，装盘淋醋。",
+        "imageUrl": "https://i2.chuimg.com/5aed1ffe83d64948bac5f1fcdfa08a37_1707w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "开吃",
+        "imageUrl": "https://i2.chuimg.com/b76e5f067ee24017a58befcb448c90ef_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106932093/"
   }
 ]
