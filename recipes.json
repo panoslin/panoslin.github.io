@@ -34557,5 +34557,75 @@
       "salt": 0.4
     },
     "source": "https://www.xiachufang.com/recipe/106664714/"
+  },
+  {
+    "id": 395,
+    "title": "5️⃣分钟搞定巨巨巨好吃的‼️海苔午餐肉炒饭",
+    "category": [
+      "早餐"
+    ],
+    "imageUrl": "https://i2.chuimg.com/08d98d2114dc41c0afd593277ed91b94_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.午餐肉切小块煎至焦黄备用；2.鸡蛋炒熟；3.放入米饭🍚、玉米粒、午餐肉翻炒；4.倒入酱汁翻炒均匀；5.最后倒入海苔碎翻拌均匀关火；6.主打一个香💯",
+    "ingredients": [
+      {
+        "name": "午餐肉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉米粒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "海苔碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "米饭",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "午餐肉切小块煎至焦黄备用",
+        "imageUrl": "https://i2.chuimg.com/60e7274511da45b58bb1d73a9119ee17_1080w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "鸡蛋炒熟",
+        "imageUrl": "https://i2.chuimg.com/4c5860cedb374775958019394d35439d_1080w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放入米饭🍚、玉米粒、午餐肉翻炒",
+        "imageUrl": "https://i2.chuimg.com/a5c6e5a4ad2c4da79a7306e3b65cf779_1080w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "倒入酱汁翻炒均匀",
+        "imageUrl": "https://i2.chuimg.com/d3c56cdf33e14ad3a162845357943438_1080w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "最后倒入海苔碎翻拌均匀关火",
+        "imageUrl": "https://i2.chuimg.com/f0a4d21a73e045fb8fa04b5a9165bdab_1080w_1080h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "主打一个香💯",
+        "imageUrl": "https://i2.chuimg.com/c30163a8b4a24dce8a84e57368281dd8_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107132328/"
   }
 ]
