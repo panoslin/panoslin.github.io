@@ -41465,5 +41465,83 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107259116/"
+  },
+  {
+    "id": 472,
+    "title": "空气炸锅：烤排骨",
+    "category": [
+      "家常菜",
+      "猪肉"
+    ],
+    "imageUrl": "images/recipe_472.png",
+    "description": "空气炸锅烤排骨的详细制作方法",
+    "ingredients": [
+      {
+        "name": "排骨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "烧烤料",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": 1,
+        "unit": "头"
+      }
+    ],
+    "instructions": [
+      "排骨中加入葱、姜、料酒、生抽、蚝油、食用油以及烧烤料",
+      "抓拌均匀，腌制半小时",
+      {
+        "text": "空气炸锅铺上锡纸，码入腌好的排骨",
+        "imageUrl": "images/recipe_472_step_3.png"
+      },
+      "在排骨上再放一头大蒜",
+      {
+        "text": "180度烤30分钟，中途翻面",
+        "imageUrl": "images/recipe_472_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 149,
+      "protein": 6.4,
+      "carbs": 33.1,
+      "fat": 0.5,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107321961/"
   }
 ]
