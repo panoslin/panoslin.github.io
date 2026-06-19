@@ -30597,5 +30597,78 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107370817/"
+  },
+  {
+    "id": 350,
+    "title": "地中海风味烤南瓜 空气炸锅版（ref.主厨小C）",
+    "category": [
+      "素菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/c53eb163155947a4958d9f555f1de94b_2560w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.南瓜洗净切片，放入蒜（不用切）、迷迭香、百里香、橄榄油、黑胡椒粉，不用放盐，因为一般奶酪会比较咸；2.空气炸锅180度12分钟；\n\n放上奶酪碎块、南瓜子仁；3.完成。\n\n（原方还在盘底配了鹰嘴豆酱和青瓜酸奶酪酱Tzatziki）",
+    "ingredients": [
+      {
+        "name": "贝贝南瓜（原方是白胡桃南瓜350g）",
+        "quantity": "适量",
+        "unit": "半个"
+      },
+      {
+        "name": "蓝纹奶酪（原方是菲达羊奶酪50g）",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "蒜",
+        "quantity": 4,
+        "unit": "瓣（原方是1小个独头蒜）"
+      },
+      {
+        "name": "迷迭香",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "百里香",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "南瓜子",
+        "quantity": "适量",
+        "unit": "少许"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "南瓜洗净切片，放入蒜（不用切）、迷迭香、百里香、橄榄油、黑胡椒粉，不用放盐，因为一般奶酪会比较咸；",
+        "imageUrl": "https://i2.chuimg.com/87fdb09c59fe46d38f04a4b6f5f68222_2560w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "空气炸锅180度12分钟；放上奶酪碎块、南瓜子仁；",
+        "imageUrl": "https://i2.chuimg.com/501847f5ed04436e9a7a226faa9d4a62_2560w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "完成。（原方还在盘底配了鹰嘴豆酱和青瓜酸奶酪酱Tzatziki）",
+        "imageUrl": "https://i2.chuimg.com/f7ae65d816814ff5a32a94b067940df9_2560w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 6.0,
+      "protein": 0.3,
+      "carbs": 1.3,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106863919/"
   }
 ]
