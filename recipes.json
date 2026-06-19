@@ -34791,5 +34791,58 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106529045/"
+  },
+  {
+    "id": 398,
+    "title": "【简】过瘾油泼辣酱（潮汕猪杂汤粉版）",
+    "category": [
+      "面条"
+    ],
+    "imageUrl": "https://i2.chuimg.com/967a7ee710a44668ba8ee285d907e61b_1216w_1216h.jpg?imageView2/1/w/800",
+    "description": "过瘾油泼辣酱（潮汕猪杂汤粉版）】1.材料准备好～；2.所有材料（除了油）入料理机搅打，然后转移到不锈钢/陶瓷/玻璃碗中（要耐高温的容器）；\n然后做着做着后面就忘了拍照～；3.锅下油，烧热，油热浇辣酱上（浇下去会冒很多泡泡会滋滋滋响的那种热哦～），趁热用勺子将辣酱搅拌让受热熟化均匀",
+    "ingredients": [
+      {
+        "name": "小米椒",
+        "quantity": "适量",
+        "unit": "一把"
+      },
+      {
+        "name": "蒜头四五粒",
+        "quantity": "适量",
+        "unit": "半个"
+      },
+      {
+        "name": "五香粉/盐/糖",
+        "quantity": "适量",
+        "unit": "少许"
+      },
+      {
+        "name": "玉米油",
+        "quantity": "适量",
+        "unit": "量≥所有固体材料"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "材料准备好～",
+        "imageUrl": "https://i2.chuimg.com/bbf38c75e5854b6990f4455f2b974e86_3079w_2463h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "所有材料（除了油）入料理机搅打，然后转移到不锈钢/陶瓷/玻璃碗中（要耐高温的容器）；然后做着做着后面就忘了拍照～",
+        "imageUrl": "https://i2.chuimg.com/2fb2625adb0f4f1da1c2f44c45be7aad_1971w_1576h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "锅下油，烧热，油热浇辣酱上（浇下去会冒很多泡泡会滋滋滋响的那种热哦～），趁热用勺子将辣酱搅拌让受热熟化均匀，，，然后～就开吃啦！放汤里也可以～用来蘸着吃猪杂也可以～٩😛ི۶٩😛ི۶٩😛ི۶",
+        "imageUrl": "https://i2.chuimg.com/f1321ea519d847b1a24233db54efc067_1919w_1535h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/106913359/"
   }
 ]
