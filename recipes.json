@@ -35930,5 +35930,74 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104253983/"
+  },
+  {
+    "id": 410,
+    "title": "奶奶传下来的配方，自制阿达子好吃绝了！",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/90cab1f24b3c4ac09a866a58603cbcbd_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.g木薯淀粉➕70g开水，筷子搅拌成絮状；2.温度不烫手后，用手揉成长条切小块，撒点木薯淀粉防粘连；3.放入开水中煮约6分钟；4.捞出过几遍冷水即变透明；5.绿豆➕冰糖和水煮熟约25分钟；6.煮好的阿达子和绿豆➕蜂蜜水搅匀即可；7.加冰水更好喝，冰冰凉凉，QQ弹弹，从小吃到大的",
+    "ingredients": [
+      {
+        "name": "木薯淀粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "绿豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "100g木薯淀粉➕70g开水，筷子搅拌成絮状",
+        "imageUrl": "https://i2.chuimg.com/bbb4920aa4d840099fbd7b6c18b4ced1_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "温度不烫手后，用手揉成长条切小块，撒点木薯淀粉防粘连",
+        "imageUrl": "https://i2.chuimg.com/05e0b76f1d9e49cabb3296d357bf66dc_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "放入开水中煮约6分钟",
+        "imageUrl": "https://i2.chuimg.com/9bcaf5ccfc8f4bc992b1fc69c21833b6_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "捞出过几遍冷水即变透明",
+        "imageUrl": "https://i2.chuimg.com/37bb6c6a36db4d0196fdfbf110b669b2_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "绿豆➕冰糖和水煮熟约25分钟",
+        "imageUrl": "https://i2.chuimg.com/c68c264e31624adc9c737b1216f6f429_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "煮好的阿达子和绿豆➕蜂蜜水搅匀即可",
+        "imageUrl": "https://i2.chuimg.com/7fa0338823f642bb82ff83f1629ff3f3_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "加冰水更好喝，冰冰凉凉，QQ弹弹，从小吃到大的甜品",
+        "imageUrl": "https://i2.chuimg.com/7b295dd9abc447c693cba48e73096a40_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/107131774/"
   }
 ]
