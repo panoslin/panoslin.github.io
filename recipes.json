@@ -28036,5 +28036,99 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7447061645274205497"
+  },
+  {
+    "id": 320,
+    "title": "干煸杏鲍菇🍄",
+    "category": [
+      "减肥",
+      "素食"
+    ],
+    "imageUrl": "images/recipe_320.png",
+    "description": "干煸杏鲍菇🍄的详细制作方法",
+    "ingredients": [
+      {
+        "name": "杏鲍菇",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蒜末",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "干辣椒丝",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "味精",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "0卡糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "烧烤粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "杏鲍菇洗净,先切片再切成长条。",
+      "锅中加水烧开,放入杏鲍菇焯水。",
+      {
+        "text": "捞出过凉水,用手捏干水分。",
+        "imageUrl": "images/recipe_320_step_3.png"
+      },
+      {
+        "text": "起锅喷油,油热后下杏鲍菇,翻炒煎至两面焦黄。",
+        "imageUrl": "images/recipe_320_step_4.png"
+      },
+      {
+        "text": "锅内再喷油,下蒜末、干辣椒丝爆香,扒拉均匀。",
+        "imageUrl": "images/recipe_320_step_5.png"
+      },
+      "加生抽、蚝油、味精、0卡糖调味,继续翻炒入味。",
+      "加烧烤粉、白芝麻,再次翻炒均匀。",
+      "最后加香菜提味,翻炒均匀即可装盘。"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7448461932438326562"
   }
 ]
