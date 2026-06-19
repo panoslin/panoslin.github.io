@@ -31114,5 +31114,91 @@
       "salt": 1.0
     },
     "source": "https://www.xiachufang.com/recipe/106033068/"
+  },
+  {
+    "id": 356,
+    "title": "☕️瑞幸同款｜丝绒拿铁｜纵享丝滑",
+    "category": [
+      "咖啡"
+    ],
+    "imageUrl": "https://i2.chuimg.com/f0ec0d2d86ae436399f58fc1e5b6c0c1_850w_1280h.jpg?imageView2/1/w/800",
+    "description": "1.克咖啡豆磨粉；2.压紧；3.萃取35克咖啡液～；4.杯子；5.满杯冰块🧊；6.厚乳70克；7.牛奶倒8分满～；8.最后倒咖啡液～；9.分层很美～阳光也很美；10.分层虽然很美，但是喝之前要搅一搅，充分融合之后，才能收获更醇厚清甜的口感～",
+    "ingredients": [
+      {
+        "name": "杯子",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "冰块",
+        "quantity": 1,
+        "unit": "杯"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 8,
+        "unit": "分满杯"
+      },
+      {
+        "name": "冰滴厚乳",
+        "quantity": 70,
+        "unit": "克"
+      },
+      {
+        "name": "意式浓缩咖啡液",
+        "quantity": 35,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "17克咖啡豆磨粉",
+        "imageUrl": "https://i2.chuimg.com/d5e1f0e15b594f6abd8630564c49617a_1280w_850h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "压紧",
+        "imageUrl": "https://i2.chuimg.com/d2342fbc04b24cf3966870fec4cda730_1280w_850h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "萃取35克咖啡液～",
+        "imageUrl": "https://i2.chuimg.com/c6ce9188731d4b03a125d3826d875142_1280w_850h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "杯子",
+        "imageUrl": "https://i2.chuimg.com/570c9d7a6afe44599c05d8239fd4ebba_850w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "满杯冰块🧊",
+        "imageUrl": "https://i2.chuimg.com/08519dd241f7473c8b40093f141f9f28_850w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "厚乳70克",
+        "imageUrl": "https://i2.chuimg.com/763a501a8edb4796822d720f8fec9caf_959w_959h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "牛奶倒8分满～",
+        "imageUrl": "https://i2.chuimg.com/55eaa34740a64536bb5a365751fd7ac3_850w_680h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "最后倒咖啡液～",
+        "imageUrl": "https://i2.chuimg.com/d0d9483d387746adbddb6b22fa2f4251_883w_883h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "分层很美～阳光也很美",
+        "imageUrl": "https://i2.chuimg.com/ed23e1a932f74c86b2c6a45a38967959_850w_1280h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "分层虽然很美，但是喝之前要搅一搅，充分融合之后，才能收获更醇厚清甜的口感～",
+        "imageUrl": "https://i2.chuimg.com/2791bec6de314d9fa98c74f2e19afb66_849w_849h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 50.2,
+      "protein": 2.4,
+      "carbs": 3.5,
+      "fat": 2.7,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106561701/"
   }
 ]
