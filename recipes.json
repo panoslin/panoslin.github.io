@@ -34143,5 +34143,113 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106679145/"
+  },
+  {
+    "id": 391,
+    "title": "电饭煲麻辣鸡腿",
+    "category": [
+      "快手菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/b234f7154e8448c0aa8dd856b96c153c_1616w_1080h.jpg?imageView2/1/w/800",
+    "description": "1.片姜片和5瓣蒜瓣拍碎垫锅底，倒入2勺玉米油，将5个切成块的琵琶腿放入电饭锅内；2.继续放入3个香菇丁，倒入2勺料酒、2勺生抽、半勺老抽、1勺蚝油、2勺郫县豆瓣酱、1勺花椒、半勺糖和1/4勺盐。拌匀静置，腌制10分钟；3.选择煮饭功能，约40分钟后开盖，放入切好的小米椒和绿尖椒",
+    "ingredients": [
+      {
+        "name": "姜片",
+        "quantity": 10,
+        "unit": "片"
+      },
+      {
+        "name": "蒜瓣",
+        "quantity": 5,
+        "unit": "瓣"
+      },
+      {
+        "name": "玉米油",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "琵琶腿",
+        "quantity": 5,
+        "unit": "个"
+      },
+      {
+        "name": "香菇丁",
+        "quantity": 3,
+        "unit": "个"
+      },
+      {
+        "name": "料酒",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "生抽",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "老抽",
+        "quantity": "适量",
+        "unit": "半勺"
+      },
+      {
+        "name": "蚝油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "郫县豆瓣酱",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "花椒",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": "半勺"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "/4勺"
+      },
+      {
+        "name": "小米椒",
+        "quantity": "适量",
+        "unit": "少量"
+      },
+      {
+        "name": "绿尖椒",
+        "quantity": "适量",
+        "unit": "少量"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "10片姜片和5瓣蒜瓣拍碎垫锅底，倒入2勺玉米油，将5个切成块的琵琶腿放入电饭锅内。",
+        "imageUrl": "https://i2.chuimg.com/f4514470c03f4d259626e487f1090363_4240w_2832h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "继续放入3个香菇丁，倒入2勺料酒、2勺生抽、半勺老抽、1勺蚝油、2勺郫县豆瓣酱、1勺花椒、半勺糖和1/4勺盐。拌匀静置，腌制10分钟。",
+        "imageUrl": "https://i2.chuimg.com/5f3052a118b74593aa252f924136a1b7_828w_1241h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "选择煮饭功能，约40分钟后开盖，放入切好的小米椒和绿尖椒，翻炒收汁即可。",
+        "imageUrl": "https://i2.chuimg.com/310c08e3fbc943a49bda9e20a8eead19_380w_214h.gif?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 765.2,
+      "protein": 32.7,
+      "carbs": 169.1,
+      "fat": 2.8,
+      "salt": 1.69
+    },
+    "source": "https://www.xiachufang.com/recipe/106177985/"
   }
 ]
