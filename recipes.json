@@ -27037,5 +27037,79 @@
       "salt": 93.75
     },
     "source": "https://www.douyin.com/video/7476654300106689850"
+  },
+  {
+    "id": 310,
+    "title": "花生豆腐脑🥣",
+    "category": [
+      "素食",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_310.png",
+    "description": "花生豆腐脑🥣的详细制作方法",
+    "ingredients": [
+      {
+        "name": "花生",
+        "quantity": 170,
+        "unit": "克"
+      },
+      {
+        "name": "黄豆",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "清水(打浆)",
+        "quantity": 1300,
+        "unit": "毫升"
+      },
+      {
+        "name": "食盐",
+        "quantity": 5,
+        "unit": "克"
+      },
+      {
+        "name": "白醋",
+        "quantity": 50,
+        "unit": "毫升"
+      },
+      {
+        "name": "清水(化凝固剂)",
+        "quantity": 50,
+        "unit": "毫升"
+      }
+    ],
+    "instructions": [
+      "准备170克花生和30克黄豆,加足量清水,提前浸泡一晚上至豆子饱满",
+      "泡好的豆子捞出沥干水分,倒入搅拌机或破壁机,加入1300毫升清水(可分多次搅打),尽量打得细腻一些",
+      {
+        "text": "打好后用纱布过滤出生豆浆,过滤掉的豆渣不要丢,可煎成饼食用",
+        "imageUrl": "images/recipe_310_step_3.png"
+      },
+      "把过滤好的豆浆倒入锅中,开小火边煮边搅拌,煮开后撇掉表面浮沫,盖上盖子静置3分钟",
+      {
+        "text": "另取一个空碗,加入5克食盐、50毫升白醋和50毫升清水,充分搅匀化开,制成凝固剂",
+        "imageUrl": "images/recipe_310_step_5.png"
+      },
+      {
+        "text": "先把凝固剂倒入盆底,再把约85度的豆浆从高处冲入大盆中",
+        "imageUrl": "images/recipe_310_step_6.png"
+      },
+      "不要搅动,让其静置10分钟,即成嫩滑的花生豆腐脑(南方可浇糖水,北方可浇卤汁)",
+      "若要做花生豆腐:先把棉布用开水烫一下防粘,再把剩下的豆腐脑全部放进去",
+      {
+        "text": "像这样将棉布对折把豆腐脑包起来,扣上盖子",
+        "imageUrl": "images/recipe_310_step_9.png"
+      },
+      "上面压一个重物,压约一个小时,即成花生味浓郁的花生豆腐"
+    ],
+    "nutrition": {
+      "calories": 1023.0,
+      "protein": 42.5,
+      "carbs": 27.9,
+      "fat": 85.0,
+      "salt": 12.7
+    },
+    "source": "https://www.douyin.com/video/7475638711552740646"
   }
 ]
