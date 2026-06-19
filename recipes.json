@@ -28959,5 +28959,73 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107017526/"
+  },
+  {
+    "id": 330,
+    "title": "蒜蓉粉丝娃娃菜",
+    "category": [
+      "素菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/415361e0f64d468cb8bbe24ce917d38b_1124w_1482h.jpg?imageView2/1/w/800",
+    "description": "1.所有菜洗干净，粉丝用温水泡软，蒜和红椒切末。取一个大点的盘子，摆入娃娃菜；2.一层金针菇，一层粉丝。热油放蒜蓉，红椒碎煸炒香后放入耗油和生抽，再加两勺水，混合成调料汁，淋入摆好的盘子里；3.上锅隔水蒸10分钟，出锅就可以开吃啦，多蒸米饭🍚不然不够吃",
+    "ingredients": [
+      {
+        "name": "娃娃菜",
+        "quantity": 1,
+        "unit": "颗"
+      },
+      {
+        "name": "粉丝",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "大蒜",
+        "quantity": "适量",
+        "unit": "半头"
+      },
+      {
+        "name": "红椒碎",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "金针菇",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "生抽",
+        "quantity": 5,
+        "unit": "勺"
+      },
+      {
+        "name": "耗油",
+        "quantity": 1,
+        "unit": "勺"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "所有菜洗干净，粉丝用温水泡软，蒜和红椒切末。取一个大点的盘子，摆入娃娃菜。",
+        "imageUrl": "https://i2.chuimg.com/965c70b78e5347e094d1d8b8e761b636_1124w_1487h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "一层金针菇，一层粉丝。热油放蒜蓉，红椒碎煸炒香后放入耗油和生抽，再加两勺水，混合成调料汁，淋入摆好的盘子里。",
+        "imageUrl": "https://i2.chuimg.com/2e6e167cc46f4c0bab8f9e6b481ff999_1124w_1481h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "上锅隔水蒸10分钟，出锅就可以开吃啦，多蒸米饭🍚不然不够吃！",
+        "imageUrl": "https://i2.chuimg.com/3a81043bf8604429bf6e28ee6bc9a771_1124w_1482h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 8.1,
+      "protein": 0.3,
+      "carbs": 1.7,
+      "fat": 0.0,
+      "salt": 0.83
+    },
+    "source": "https://www.xiachufang.com/recipe/104413951/"
   }
 ]
