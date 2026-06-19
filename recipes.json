@@ -32591,5 +32591,137 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/104780314/"
+  },
+  {
+    "id": 376,
+    "title": "电饭煲戚风蛋糕",
+    "category": [
+      "蛋糕"
+    ],
+    "imageUrl": "https://i2.chuimg.com/dac1fa6dddcd447fab3b8d417ad623e8_1080w_864h.jpg?imageView2/1/w/800",
+    "description": "1.蛋黄部分\n蛋黄加牛奶加植物油混合均匀直到油水不分离\n＊一定不能油水分离就加面粉 切记；2.分两次加面粉\n第一次搅拌均匀加第二次\n手法就是视频一样z字型拌或者翻拌\n翻拌手法后面有动图参考；3.第二次加面粉\n注意看搅拌手法\n只要不划圈怎么拌都行；4.这个配方面粉量比较多\n也可以这",
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "quantity": 6,
+        "unit": "个          8个"
+      },
+      {
+        "name": "细砂糖",
+        "quantity": 100,
+        "unit": "克     120克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 75,
+        "unit": "克       100克"
+      },
+      {
+        "name": "玉米油",
+        "quantity": 75,
+        "unit": "克       100克"
+      },
+      {
+        "name": "低筋面粉",
+        "quantity": 135,
+        "unit": "克     180克"
+      },
+      {
+        "name": "柠檬汁（白醋）",
+        "quantity": "适量",
+        "unit": "几滴        几滴"
+      },
+      {
+        "name": "电饭锅容量",
+        "quantity": 3,
+        "unit": "升         4升以上"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "蛋黄部分蛋黄加牛奶加植物油混合均匀直到油水不分离＊一定不能油水分离就加面粉 切记",
+        "imageUrl": "https://i2.chuimg.com/30da4931f87e4c7b8a80f78658a3ccb5_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "分两次加面粉第一次搅拌均匀加第二次手法就是视频一样z字型拌或者翻拌翻拌手法后面有动图参考",
+        "imageUrl": "https://i2.chuimg.com/f00ab83ef5bf4b56a97182cf648a59f7_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "第二次加面粉注意看搅拌手法只要不划圈怎么拌都行",
+        "imageUrl": "https://i2.chuimg.com/1a1b7961ab2647beae9201932d3a0ca7_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这个配方面粉量比较多也可以这样拌会更顺滑细腻拌到没有颗粒感就可以了",
+        "imageUrl": "https://i2.chuimg.com/3dee8218a0d94d99bc2466a4215014a9_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋白部分加几滴柠檬先打蛋白大泡泡再加第一次糖分三次加发白加第二次发白顺滑奶油状加第三次",
+        "imageUrl": "https://i2.chuimg.com/03d4bc7590bd44d3b9ace60410244102_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "视频偏了截个图吧",
+        "imageUrl": "https://i2.chuimg.com/402b1e66300444469b32543493796dbe_1080w_864h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "这时候加第三次基本快打好了",
+        "imageUrl": "https://i2.chuimg.com/26fb7e4c2351410194f24e51c4872227_1080w_2060h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "视频那样能拉出小弯沟的叫湿性发泡状态可以做蛋糕卷电饭煲做蛋糕必须打到硬性发泡这时候可以把打蛋器降低速慢慢打",
+        "imageUrl": "https://i2.chuimg.com/9dae4c38fb4c494a816454da5bfc1e03_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "打到能拉出这种直角就可以了总结下我这个打蛋器是祈和KS936功率250W全程最多五分钟（今天特意看了下时间只用了4分钟）1.最大档半分钟加第一次糖2.继续保持最大档打一分钟后加第二次糖3.继续保持最大档打一分钟后加第三次糖4.继续保持最大档打一分钟后出现弯沟湿性发泡5.转最小档打半分钟就直了结束当然主要还是看蛋白状态出现直角为止以上时间仅供参考",
+        "imageUrl": "https://i2.chuimg.com/41e44d162eb94407a1bf9b4ecbbba0e4_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "两者混合取三分之一到蛋黄糊里翻拌到看不到蛋白",
+        "imageUrl": "https://i2.chuimg.com/eea2599d77b64907ae10f17a480e73f9_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "混合均匀倒回蛋白里继续翻拌看翻拌手法是边转盆基本30下左右就能均匀不见蛋白后就尽快入锅烘烤＊面糊忌讳空气停放太久容易消泡发不高",
+        "imageUrl": "https://i2.chuimg.com/35600b5b253342049d74bc34b46e619e_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "检查面糊稠度滴落不消失没有明显消泡泡细腻有光泽就成功尽快烤锅内胆怕沾底部可以刷油侧边不能刷油爬不高",
+        "imageUrl": "https://i2.chuimg.com/a411402db53640378c231eb19bcb6739_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "忘了放个翻拌手法哈哈",
+        "imageUrl": "https://i2.chuimg.com/e5e826be57794fcb9860c62cf90a2491_640w_512h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "面糊高度",
+        "imageUrl": "https://i2.chuimg.com/2a84a55f54e545e8ac12f82815488449_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "蛋糕键50分钟跳保温后再点开蛋糕键再烤10分钟按掉我前后烘烤60分钟不需要闷＊直接打开取出来震一下出热气再倒扣倒扣是重点否则会回缩",
+        "imageUrl": "https://i2.chuimg.com/c6b75a3525f242c885cb3ceb3131d192_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "晾十分钟尝试提起内胆我的锅不沾所以自动脱落要有耐心动作轻柔如果沾了就用手剥蛋糕一下或者筷子刮一下",
+        "imageUrl": "https://i2.chuimg.com/57fb1b94179c4efba5af174b81a2651d_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "真的烤了个锅哈哈",
+        "imageUrl": "https://i2.chuimg.com/97cf31ebde5848f9a7db0e10b980d24c_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "顶到电饭煲出气口了",
+        "imageUrl": "https://i2.chuimg.com/42b9069c53ca4508ae6c9c1fb263d91a_992w_744h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "就是这么厚这么挺",
+        "imageUrl": "https://i2.chuimg.com/c007832e33234d8380e383c00355e11f_992w_744h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 520.1,
+      "protein": 6.2,
+      "carbs": 119.7,
+      "fat": 3.8,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/104307167/"
   }
 ]
