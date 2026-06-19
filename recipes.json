@@ -29415,5 +29415,66 @@
       "salt": 0
     },
     "source": "https://www.xiachufang.com/recipe/101819454/"
+  },
+  {
+    "id": 335,
+    "title": "燕麦黑芝麻糊 l 秋冬暖饮",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "https://i2.chuimg.com/cdf575aa380344e6b719ca299a290192_1364w_1024h.jpg?imageView2/1/w/800",
+    "description": "1.将即食黑燕麦片放入料理机中打成粉末。一次可以多打一点放入瓶中密封保存。（如果你买的不是即食燕麦片，可以先放炒锅里用小火炒香炒熟，放凉再用）；2.熟的黑芝麻也放入料理机中打成粉末状，一次可以多打一点放入瓶中密封保存。（如果你买的是生芝麻，可以先放炒锅里用小火炒香炒熟，放凉再用）",
+    "ingredients": [
+      {
+        "name": "即食燕麦片1杯",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "熟黑芝麻1杯",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖适量",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "开水适量",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "将即食黑燕麦片放入料理机中打成粉末。一次可以多打一点放入瓶中密封保存。（如果你买的不是即食燕麦片，可以先放炒锅里用小火炒香炒熟，放凉再用）",
+        "imageUrl": "https://i2.chuimg.com/63db58860e984fb6967953c65706f25e_1367w_1024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "熟的黑芝麻也放入料理机中打成粉末状，一次可以多打一点放入瓶中密封保存。（如果你买的是生芝麻，可以先放炒锅里用小火炒香炒熟，放凉再用）",
+        "imageUrl": "https://i2.chuimg.com/11d731b2698a48e6b9d321697dc0b86a_1365w_1024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "取一个小碗各放入1大勺黑芝麻粉、燕麦粉，再放入一小勺糖",
+        "imageUrl": "https://i2.chuimg.com/a4de2e70718144fe8b173c26db014922_1363w_1024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "用沸水冲调即成为黑芝麻糊，芝麻糊的浓稠度可以酌情添加沸水来调整~~（黑燕麦片冲泡的黏度不如糯米粉，但稍微多泡一会儿，黏度就会上升）",
+        "imageUrl": "https://i2.chuimg.com/ab60e9a6e40846c5b3ec54bca112c2fa_1364w_1024h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "香浓美味的燕麦黑芝麻糊就做好了，趁热享用~~",
+        "imageUrl": "https://i2.chuimg.com/f7c436c5b7f8469bb503fcf19ff14576_1364w_1024h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.xiachufang.com/recipe/103479329/"
   }
 ]
