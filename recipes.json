@@ -41246,5 +41246,121 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107225932/"
+  },
+  {
+    "id": 470,
+    "title": "健康饮食｜地中海烤鸡腿肉 柠檬蒜香 酸辣美味",
+    "category": [
+      "西餐",
+      "减肥"
+    ],
+    "imageUrl": "images/recipe_470.png",
+    "description": "地中海烤鸡腿肉🍗的详细制作方法",
+    "ingredients": [
+      {
+        "name": "鸡腿肉",
+        "quantity": 4,
+        "unit": "块"
+      },
+      {
+        "name": "盐",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "代糖",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "甜椒粉",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 1,
+        "unit": "个"
+      },
+      {
+        "name": "意式香料/披萨草",
+        "quantity": 1,
+        "unit": "勺"
+      },
+      {
+        "name": "土豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "彩椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "圣女果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "口蘑",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "水",
+        "quantity": 100,
+        "unit": "毫升"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香菜叶/欧芹",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "鸡腿肉中加入盐1勺、代糖2勺、橄榄油1勺、甜椒粉1勺、意式香料/披萨草1勺，再挤入1个柠檬的汁，抓匀腌制20分钟以上。",
+        "imageUrl": "images/recipe_470_step_1.png"
+      },
+      {
+        "text": "土豆、洋葱、彩椒切成小块。",
+        "imageUrl": "images/recipe_470_step_2.png"
+      },
+      "烤盘里放入鸡腿肉、土豆、洋葱。",
+      "倒入腌鸡剩下的料汁。",
+      "加入100ml水。",
+      "放入预热好的烤箱，中下层，180度烤40分钟。",
+      "烤好后放入彩椒、圣女果、口蘑。",
+      "加少许盐、黑胡椒、油。",
+      "放入烤箱200度再烤15分钟。",
+      {
+        "text": "烤至鸡皮焦香，加香菜叶/欧芹点缀即可。",
+        "imageUrl": "images/recipe_470_step_10.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 52.8,
+      "protein": 1.8,
+      "carbs": 11.3,
+      "fat": 1.8,
+      "salt": 1.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107245530/"
   }
 ]
