@@ -42716,5 +42716,66 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107065061/"
+  },
+  {
+    "id": 487,
+    "title": "蜂蜜烤红薯片",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/c5f625acfb7149d292ce081dd2d4b294_828w_1098h.jpg?imageView2/1/w/800",
+    "description": "1.①两个鸡蛋+两勺淀粉拌匀\n②红薯切片，倒入蛋液，每片红薯都沾上蛋液\n③（摆入烤盘前油纸/锡纸记得刷油防粘哦）\n摆入烤盘200度烤15分钟，再刷上一层蜂蜜水，继续烤五分钟；2.；2.；2.；2.",
+    "ingredients": [
+      {
+        "name": "红薯",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 2,
+        "unit": "勺"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "①两个鸡蛋+两勺淀粉拌匀②红薯切片，倒入蛋液，每片红薯都沾上蛋液③（摆入烤盘前油纸/锡纸记得刷油防粘哦）摆入烤盘200度烤15分钟，再刷上一层蜂蜜水，继续烤五分钟",
+        "imageUrl": "https://i2.chuimg.com/5477266ab03a42b08cd533871e5d229d_828w_1077h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/22e67b1978c34c3a968e81c4ed4a324e_828w_1098h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/80177b3e3adb4b3896d743cc53cab73f_827w_1081h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/3ecabecf7865412aa11e7aea3dad990f_827w_1095h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/c008e89532234937b95302e62644b06a_828w_1098h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 151.3,
+      "protein": 13.0,
+      "carbs": 2.8,
+      "fat": 8.8,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107210704/"
   }
 ]
