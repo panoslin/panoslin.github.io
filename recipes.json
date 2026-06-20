@@ -41776,5 +41776,109 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/107431517/"
+  },
+  {
+    "id": 476,
+    "title": "凤梨青柠冰淇淋🍍",
+    "category": [
+      "甜品",
+      "冰淇淋"
+    ],
+    "imageUrl": "images/recipe_476.png",
+    "description": "凤梨青柠冰淇淋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "凤梨",
+        "quantity": 600,
+        "unit": "克"
+      },
+      {
+        "name": "青柠汁",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "青柠皮",
+        "quantity": 1,
+        "unit": "颗"
+      },
+      {
+        "name": "细砂糖（凤梨腌制）",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "樱桃白兰地",
+        "quantity": 15,
+        "unit": "克"
+      },
+      {
+        "name": "糖（果酱熬煮时加）",
+        "quantity": 40,
+        "unit": "克"
+      },
+      {
+        "name": "蛋黄",
+        "quantity": 4,
+        "unit": "个"
+      },
+      {
+        "name": "糖（蛋奶酱）",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 120,
+        "unit": "毫升"
+      },
+      {
+        "name": "淡奶油",
+        "quantity": 300,
+        "unit": "毫升"
+      },
+      {
+        "name": "炼乳",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青柠（成品擦皮提味）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "凤梨切成均匀的小块，尽量切小一些，方便后续熬煮成果酱。",
+      "加入青柠皮屑、青柠汁和细砂糖拌匀腌制，再加入樱桃白兰地，放入冰箱冷藏1小时左右。",
+      {
+        "text": "腌制好后取1/3的凤梨打成果泥。",
+        "imageUrl": "images/recipe_476_step_3.png"
+      },
+      {
+        "text": "用不粘锅全程小火慢慢熬果酱，中途可用均质机打一半使口感更细腻，再加约40g糖，一边搅动一边煮至浓稠。",
+        "imageUrl": "images/recipe_476_step_4.png"
+      },
+      "果酱做好后用高温消毒过的密封罐装好，放冰箱冷藏。",
+      {
+        "text": "制作蛋奶酱：蛋黄、糖、牛奶搅拌均匀后倒入不粘锅，小火不停翻动至浓稠酸奶状即可关火。",
+        "imageUrl": "images/recipe_476_step_6.png"
+      },
+      {
+        "text": "打发淡奶油，打到5分发时加入蛋奶酱继续打匀，再加入一点炼乳。",
+        "imageUrl": "images/recipe_476_step_7.png"
+      },
+      "打好后装入容器，加入一部分凤梨果酱搅匀。",
+      "冷藏4小时以上至凝固。",
+      "冷藏好之后再擦一点青柠皮提味即可。"
+    ],
+    "nutrition": {
+      "calories": 2116.8,
+      "protein": 34.1,
+      "carbs": 204.5,
+      "fat": 133.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7647043475025075171"
   }
 ]
