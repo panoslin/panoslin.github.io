@@ -42442,5 +42442,83 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/6972480267273374983"
+  },
+  {
+    "id": 484,
+    "title": "五指毛桃鸡汤",
+    "category": [
+      "家常菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/e3a4a8d647de47b6b040986e7fac610a_3414w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.药材用水泡几分钟，红枣去核。鸡清洗干净（鸡要选新鲜鸡），把所有材料全部放进锅中，水末过鸡再多点。\n如果是老母鸡建议砍成块。\n（我习惯新鲜鸡不焯水，在煮的过程撇去浮沫，其他的地方的朋友不习惯可以对鸡进行焯水处理再下锅）；2.水开后嫩鸡再煲40分钟，然后熄火焗20分钟。老母鸡的话",
+    "ingredients": [
+      {
+        "name": "五指毛桃",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "茯苓",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "薏米",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "赤小豆",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "扁豆",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "红枣",
+        "quantity": 4,
+        "unit": "-6颗"
+      },
+      {
+        "name": "蜜枣",
+        "quantity": 2,
+        "unit": "个"
+      },
+      {
+        "name": "姜",
+        "quantity": 4,
+        "unit": "片"
+      },
+      {
+        "name": "清远走地鸡/老母鸡",
+        "quantity": 1,
+        "unit": "只"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "药材用水泡几分钟，红枣去核。鸡清洗干净（鸡要选新鲜鸡），把所有材料全部放进锅中，水末过鸡再多点。如果是老母鸡建议砍成块。（我习惯新鲜鸡不焯水，在煮的过程撇去浮沫，其他的地方的朋友不习惯可以对鸡进行焯水处理再下锅）",
+        "imageUrl": "https://i2.chuimg.com/647b92b16a804808af7531045535e24f_3414w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "水开后嫩鸡再煲40分钟，然后熄火焗20分钟。老母鸡的话煲80分钟。",
+        "imageUrl": "https://i2.chuimg.com/5d3035c7330d4829a6c25f6e22643fd3_3414w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "老母鸡煲的汤会更好，但五指毛桃煮的嫩鸡，原只吃特别多汁水，很香。汤根据自身口味适量放盐。",
+        "imageUrl": "https://i2.chuimg.com/a32d818126054c1c9e8fe9c2320707ce_881w_881h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 727.2,
+      "protein": 5.9,
+      "carbs": 172.2,
+      "fat": 1.4,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/106901847/"
   }
 ]
