@@ -41987,5 +41987,95 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7632512898685817716"
+  },
+  {
+    "id": 478,
+    "title": "杨枝甘露奶酪小方🥭",
+    "category": [
+      "甜品",
+      "甜点"
+    ],
+    "imageUrl": "images/recipe_478.png",
+    "description": "杨枝甘露奶酪小方🥭的详细制作方法",
+    "ingredients": [
+      {
+        "name": "奶酪",
+        "quantity": 250,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "芒果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "西柚",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糯米粉",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "白糖",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 250,
+        "unit": "毫升"
+      },
+      {
+        "name": "玉米油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "炒熟糯米粉（防粘）",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "奶酪250克加入白糖30克，压拌成软软的状态。",
+      "加入切好的芒果和西柚（没有西柚也可以不加），拌匀。",
+      "装入裱花袋，挤在铺好的保鲜膜上，堆高一点后包起来整成方形，放入冰箱冷冻3小时以上。",
+      {
+        "text": "另取糯米粉200克、玉米淀粉50克、白糖30克、牛奶250毫升，搅拌至无颗粒。",
+        "imageUrl": "images/recipe_478_step_4.png"
+      },
+      "水开后上锅蒸30分钟至熟。",
+      {
+        "text": "趁热加入一点点玉米油，等不那么烫后戴上手套拉扯几分钟，揉成光滑的面团。",
+        "imageUrl": "images/recipe_478_step_6.png"
+      },
+      "在垫子上撒点炒熟的糯米粉防粘，把面团压成厚一点的饼皮。",
+      {
+        "text": "取出冻硬的奶酪撕掉保鲜膜，用饼皮包起来，一定要包紧实一点。",
+        "imageUrl": "images/recipe_478_step_8.png"
+      },
+      "再次放入冰箱冷冻2小时，取出切成块即可享用。"
+    ],
+    "nutrition": {
+      "calories": 2100.2,
+      "protein": 37.1,
+      "carbs": 276.4,
+      "fat": 95.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7633025507784853978"
   }
 ]
