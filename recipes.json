@@ -42077,5 +42077,83 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7633025507784853978"
+  },
+  {
+    "id": 479,
+    "title": "自制水果冰淇淋🍦",
+    "category": [
+      "甜品",
+      "快手菜"
+    ],
+    "imageUrl": "images/recipe_479.png",
+    "description": "自制水果冰淇淋🍦的详细制作方法",
+    "ingredients": [
+      {
+        "name": "凤梨",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "香蕉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "淡奶油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "玉菇甜瓜",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "青提",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "莓果",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "白糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "巧克力",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "凤梨、香蕉提前去皮切块,冷冻一晚至完全冻硬",
+      {
+        "text": "凤梨香蕉口味:冻凤梨、冻香蕉加淡奶油(喜甜可加糖),用料理机打至细腻丝滑、一点冰渣都没有",
+        "imageUrl": "images/recipe_479_step_2.png"
+      },
+      "哈密瓜青提口味:玉菇甜瓜、青提加淡奶油打匀,清新香甜、哈密瓜味十足",
+      "莓果口味:莓果加淡奶油、白糖打匀,酸酸甜甜、花青素十足",
+      {
+        "text": "家里有巧克力的,把融化好的巧克力抹平在容器/模具内壁",
+        "imageUrl": "images/recipe_479_step_5.png"
+      },
+      {
+        "text": "打好的冰淇淋装进裱花袋,挤入容器",
+        "imageUrl": "images/recipe_479_step_6.png"
+      },
+      "扎起来冷冻30分钟即可,在家实现冰淇淋甜筒自由"
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7621928236935432335"
   }
 ]
