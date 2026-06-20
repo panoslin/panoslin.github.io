@@ -41880,5 +41880,112 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7647043475025075171"
+  },
+  {
+    "id": 477,
+    "title": "冰淇淋乳酪小方🍨",
+    "category": [
+      "甜品",
+      "甜点"
+    ],
+    "imageUrl": "images/recipe_477.png",
+    "description": "冰淇淋乳酪小方🍨的详细制作方法",
+    "ingredients": [
+      {
+        "name": "糯米粉",
+        "quantity": 150,
+        "unit": "克"
+      },
+      {
+        "name": "玉米淀粉",
+        "quantity": 25,
+        "unit": "克"
+      },
+      {
+        "name": "糖（麻薯）",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "芒果粉（麻薯）",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "牛奶",
+        "quantity": 200,
+        "unit": "毫升"
+      },
+      {
+        "name": "黄油",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "奶油奶酪",
+        "quantity": 200,
+        "unit": "克"
+      },
+      {
+        "name": "糖（馅料）",
+        "quantity": 20,
+        "unit": "克"
+      },
+      {
+        "name": "酸奶",
+        "quantity": 50,
+        "unit": "克"
+      },
+      {
+        "name": "芒果粉（馅料）",
+        "quantity": 10,
+        "unit": "克"
+      },
+      {
+        "name": "芒果",
+        "quantity": 80,
+        "unit": "克"
+      },
+      {
+        "name": "红西柚",
+        "quantity": 30,
+        "unit": "克"
+      },
+      {
+        "name": "西米",
+        "quantity": 30,
+        "unit": "克"
+      }
+    ],
+    "instructions": [
+      "制作麻薯：将糯米粉150克、玉米淀粉25克、糖20克、芒果粉10克与牛奶200毫升混合，所有食材搅匀，过筛使面糊更细腻",
+      "盖上保鲜膜戳几个洞，上锅蒸25分钟",
+      {
+        "text": "蒸好的麻薯趁热加入黄油20克揉匀，反复拉扯至拉丝",
+        "imageUrl": "images/recipe_477_step_3.png"
+      },
+      "制作馅料：奶油奶酪200克加糖20克搅匀至顺滑",
+      "加入酸奶50克和芒果粉10克搅匀",
+      "加入芒果80克、红西柚30克、西米30克拌匀",
+      "将馅料挤入方形模具整型，冷冻定型",
+      {
+        "text": "取麻薯擀成长方形，包入冷冻定型好的乳酪馅",
+        "imageUrl": "images/recipe_477_step_8.png"
+      },
+      {
+        "text": "捏紧收口，剪去多余部分",
+        "imageUrl": "images/recipe_477_step_9.png"
+      },
+      "冷冻2小时定型后切成小块即可",
+      "把芒果粉换成斑斓粉、草莓粉、紫薯粉或蝶豆花粉，馅料换成青提、草莓、蓝莓、奥利奥等，可做出多种口味"
+    ],
+    "nutrition": {
+      "calories": 1703.2,
+      "protein": 29.1,
+      "carbs": 191.7,
+      "fat": 92.6,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7632512898685817716"
   }
 ]
