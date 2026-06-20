@@ -42520,5 +42520,110 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/106901847/"
+  },
+  {
+    "id": 485,
+    "title": "地中海风味烤红薯鹰嘴豆",
+    "category": [
+      "其他"
+    ],
+    "imageUrl": "https://i2.chuimg.com/964243f65c6b11e7947d0242ac110002_750w_1000h.jpg?imageView2/1/w/800",
+    "description": "1.预热烤箱205摄氏度，预备两个烤盘，铺上烘焙纸或锡纸；2.将红薯洗净，擦干水分，纵向一切为二，刷上一层薄橄榄油，撒少许盐，涂匀，表皮朝上排入烤盘；3.将鹰嘴豆罐头的水滤干，豆类用厨房纸擦干，淋上适量橄榄油，撒上盐和孜然粒或孜然粉，拌匀，平铺在烤盘里；4.将红薯和鹰嘴豆同时放入",
+    "ingredients": [
+      {
+        "name": "红薯",
+        "quantity": 2,
+        "unit": "个（中等大小）"
+      },
+      {
+        "name": "鹰嘴豆罐头",
+        "quantity": 1,
+        "unit": "罐（400g左右）"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "孜然粒",
+        "quantity": 1,
+        "unit": "-2 tsp"
+      },
+      {
+        "name": "Tahini酱（中东芝麻酱）",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "name": "蒜",
+        "quantity": 3,
+        "unit": "瓣（剁成蒜泥）"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 1,
+        "unit": "颗（一半用做柠檬汁，一半摆盘用）"
+      },
+      {
+        "name": "小番茄",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "芫荽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "洋葱",
+        "quantity": "适量",
+        "unit": "半颗"
+      }
+    ],
+    "instructions": [
+      "预热烤箱205摄氏度，预备两个烤盘，铺上烘焙纸或锡纸；",
+      {
+        "text": "将红薯洗净，擦干水分，纵向一切为二，刷上一层薄橄榄油，撒少许盐，涂匀，表皮朝上排入烤盘；",
+        "imageUrl": "https://i2.chuimg.com/dfd78b305c6a11e7947d0242ac110002_500w_375h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将鹰嘴豆罐头的水滤干，豆类用厨房纸擦干，淋上适量橄榄油，撒上盐和孜然粒或孜然粉，拌匀，平铺在烤盘里；",
+        "imageUrl": "https://i2.chuimg.com/e7ea74905c6a11e7bc9d0242ac110002_500w_375h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将红薯和鹰嘴豆同时放入烤箱，25-30分钟。此时鹰嘴豆已经烤出金黄色泽就可以拿出来了，如果红薯还不够软就继续烤一会，直到用勺子可以容易压进去（看下图）；",
+        "imageUrl": "https://i2.chuimg.com/002891185c6b11e7947d0242ac110002_500w_375h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤软的红薯是这个状态",
+        "imageUrl": "https://i2.chuimg.com/f9a342025c6a11e7bc9d0242ac110002_500w_375h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤红薯和鹰嘴豆的时候，做酱和配菜。酱Tahini酱（或鹰嘴豆酱）、蒜泥、柠檬汁，少许盐，搅拌在一起，适量加入水稀释一下，直到浓稠度适合以流质状态倒出；",
+        "imageUrl": "https://i2.chuimg.com/0e1c7e065c6b11e7947d0242ac110002_500w_375h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将小番茄对半切，芫荽切碎，洋葱切粒，加入适量橄榄油和盐，柠檬汁，拌匀待用；",
+        "imageUrl": "https://i2.chuimg.com/19d890365c6b11e7bc9d0242ac110002_500w_375h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "将烤好的红薯用勺子稍微往里压一压，加入鹰嘴豆，淋入酱料，撒上番茄配菜，趁热享用。",
+        "imageUrl": "https://i2.chuimg.com/430488d45c6b11e7947d0242ac110002_1000w_750h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 345.9,
+      "protein": 11.9,
+      "carbs": 14.9,
+      "fat": 27.9,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/102326736/"
   }
 ]
