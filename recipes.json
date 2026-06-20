@@ -42386,5 +42386,61 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7166834933955169573"
+  },
+  {
+    "id": 483,
+    "title": "绿豆沙🥤",
+    "category": [
+      "饮品",
+      "甜品"
+    ],
+    "imageUrl": "images/recipe_483.png",
+    "description": "绿豆沙🥤的详细制作方法",
+    "ingredients": [
+      {
+        "name": "绿豆",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "纯净水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "柠檬",
+        "quantity": 0.5,
+        "unit": "个"
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "绿豆用开水浸泡10分钟",
+      {
+        "text": "捞出放凉后放入冰箱冷冻成块,骤冷骤热可让绿豆快速酥烂",
+        "imageUrl": "images/recipe_483_step_2.png"
+      },
+      "将冻好的绿豆块放入锅中,加纯净水煮(用纯净水可防止汤汁变红)",
+      {
+        "text": "煮约5分钟后挤入半个柠檬,使汤汁更翠绿",
+        "imageUrl": "images/recipe_483_step_4.png"
+      },
+      {
+        "text": "加适量糖,盖盖再煮5分钟,煮至酥烂翠绿起沙即可",
+        "imageUrl": "images/recipe_483_step_5.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 14.5,
+      "protein": 0.6,
+      "carbs": 4.7,
+      "fat": 0.1,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/6972480267273374983"
   }
 ]
