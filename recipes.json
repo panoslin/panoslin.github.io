@@ -42155,5 +42155,70 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7621928236935432335"
+  },
+  {
+    "id": 480,
+    "title": "柠檬冰红茶糖浆🍋",
+    "category": [
+      "饮品"
+    ],
+    "imageUrl": "images/recipe_480.png",
+    "description": "柠檬冰红茶糖浆🍋的详细制作方法",
+    "ingredients": [
+      {
+        "name": "柠檬（去籽切片）",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "红茶",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "冰块",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "柠檬洗净去籽，切成薄片。",
+      {
+        "text": "电饭煲内胆底部铺一层柠檬片，再铺一层冰糖；如此层层叠放，重复3次。",
+        "imageUrl": "images/recipe_480_step_2.png"
+      },
+      "在最上层均匀铺上红茶。",
+      {
+        "text": "加清水至水位线，盖好后按下煮饭键煮约40分钟，中途搅拌几次。",
+        "imageUrl": "images/recipe_480_step_4.png"
+      },
+      "煮好后自然放凉，即得预制浓缩冰红茶糖浆。",
+      {
+        "text": "将糖浆倒入冰格分装，冷冻在冰箱里随用随取（做一次可以喝一个月）。",
+        "imageUrl": "images/recipe_480_step_6.png"
+      },
+      {
+        "text": "饮用时取出糖浆，加冰块和清水稀释，即成一杯酸酸甜甜的冰红茶。",
+        "imageUrl": "images/recipe_480_step_7.png"
+      }
+    ],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "salt": 0
+    },
+    "source": "https://www.douyin.com/video/7613750803199358193"
   }
 ]
