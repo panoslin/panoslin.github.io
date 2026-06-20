@@ -42625,5 +42625,96 @@
       "salt": 0.0
     },
     "source": "https://www.xiachufang.com/recipe/102326736/"
+  },
+  {
+    "id": 486,
+    "title": "零难度健康餐｜地中海风味烤鸡腿",
+    "category": [
+      "荤菜"
+    ],
+    "imageUrl": "https://i2.chuimg.com/796ef00f29274334a5375e46f2e38b50_1920w_2560h.jpg?imageView2/1/w/800",
+    "description": "1.；2.鸡翅根用叉子插一下，加半小勺盐、黑胡椒粉、一小勺红椒粉、半个柠檬的汁、一小勺迷迭香、4支百里香、蒜粒、两勺橄榄油抓匀腌制2小时以上；3.烤盘上铺鸡翅根和蒜，放小番茄，把腌制的油汁淋在上面；4.烤箱200度预热，放入烤盘烤40分钟；5.取出放柠檬角和罗勒叶装饰",
+    "ingredients": [
+      {
+        "name": "鸡翅根",
+        "quantity": 8,
+        "unit": "个"
+      },
+      {
+        "name": "小番茄",
+        "quantity": 8,
+        "unit": "个"
+      },
+      {
+        "name": "蒜",
+        "quantity": 4,
+        "unit": "颗，轻拍"
+      },
+      {
+        "name": "柠檬",
+        "quantity": 1,
+        "unit": "个，一半挤汁一半装饰"
+      },
+      {
+        "name": "黑胡椒",
+        "quantity": "适量",
+        "unit": "一勺"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": "适量",
+        "unit": "一勺"
+      },
+      {
+        "name": "迷迭香",
+        "quantity": "适量",
+        "unit": "一小勺"
+      },
+      {
+        "name": "百里香",
+        "quantity": 4,
+        "unit": "支"
+      },
+      {
+        "name": "罗勒叶装饰",
+        "quantity": "适量",
+        "unit": "几片"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      {
+        "text": "见图",
+        "imageUrl": "https://i2.chuimg.com/c810fe1be9854dd29a9c66b36d826809_1921w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "鸡翅根用叉子插一下，加半小勺盐、黑胡椒粉、一小勺红椒粉、半个柠檬的汁、一小勺迷迭香、4支百里香、蒜粒、两勺橄榄油抓匀腌制2小时以上；",
+        "imageUrl": "https://i2.chuimg.com/37d9766d46374d5590f0bb44cca48a6d_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤盘上铺鸡翅根和蒜，放小番茄，把腌制的油汁淋在上面；",
+        "imageUrl": "https://i2.chuimg.com/789d4a8fe56f46e08a67881a186a45da_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "烤箱200度预热，放入烤盘烤40分钟；",
+        "imageUrl": "https://i2.chuimg.com/0a15ed82bc8844e4be573254598df35b_1920w_2560h.jpg?imageView2/1/w/660"
+      },
+      {
+        "text": "取出放柠檬角和罗勒叶装饰。",
+        "imageUrl": "https://i2.chuimg.com/fe018cc90e3542b7a691c0fe27efae7c_1920w_2560h.jpg?imageView2/1/w/660"
+      }
+    ],
+    "nutrition": {
+      "calories": 150.2,
+      "protein": 7.5,
+      "carbs": 29.4,
+      "fat": 1.6,
+      "salt": 0.0
+    },
+    "source": "https://www.xiachufang.com/recipe/107065061/"
   }
 ]
