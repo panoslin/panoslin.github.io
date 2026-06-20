@@ -42307,5 +42307,84 @@
       "salt": 0.0
     },
     "source": "https://www.douyin.com/video/7591365528578406501"
+  },
+  {
+    "id": 482,
+    "title": "五指毛桃煲鸡🍲",
+    "category": [
+      "汤品",
+      "粤菜"
+    ],
+    "imageUrl": "images/recipe_482.png",
+    "description": "五指毛桃煲鸡的详细制作方法",
+    "ingredients": [
+      {
+        "name": "五指毛桃",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "土茯苓",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "老鸡",
+        "quantity": 0.5,
+        "unit": "只"
+      },
+      {
+        "name": "鸡爪",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "蜜枣",
+        "quantity": 2,
+        "unit": "颗"
+      },
+      {
+        "name": "姜",
+        "quantity": 2,
+        "unit": "块"
+      },
+      {
+        "name": "盐",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "清水",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "锅中加入足量清水，大火烧开（水沸后再下食材）。",
+      {
+        "text": "水沸后放入五指毛桃和土茯苓",
+        "imageUrl": "images/recipe_482_step_2.png"
+      },
+      "加入两颗蜜枣，让汤更润、更回甜。",
+      "拍两块姜，一起放入锅中。",
+      {
+        "text": "放入鸡爪（不剪指尖，煲汤不油腻）和半只老鸡",
+        "imageUrl": "images/recipe_482_step_5.png"
+      },
+      {
+        "text": "盖上盖子，大火煮沸后转小火，煲约1个半小时（汤易溢出可让盖子留条缝）",
+        "imageUrl": "images/recipe_482_step_6.png"
+      },
+      "出锅前加盐调味即可。",
+      "汤可直接饮用；喝过后加清水还能继续煮鸡、打火锅。"
+    ],
+    "nutrition": {
+      "calories": 8.0,
+      "protein": 0.1,
+      "carbs": 1.9,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7166834933955169573"
   }
 ]
