@@ -42220,5 +42220,92 @@
       "salt": 0
     },
     "source": "https://www.douyin.com/video/7613750803199358193"
+  },
+  {
+    "id": 481,
+    "title": "五指毛桃鸡煲🍲",
+    "category": [
+      "粤菜",
+      "家常菜"
+    ],
+    "imageUrl": "images/recipe_481.png",
+    "description": "五指毛桃鸡煲🍲的详细制作方法",
+    "ingredients": [
+      {
+        "name": "清远鸡",
+        "quantity": 0.5,
+        "unit": "只"
+      },
+      {
+        "name": "五指毛桃",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "盐焗粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "糖",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "生粉",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "花生油",
+        "quantity": "适量",
+        "unit": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": "适量",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "五指毛桃提前用清水浸泡备用",
+      "半只清远鸡砍成小块",
+      {
+        "text": "鸡块中加入盐焗粉、糖、生抽、生粉，淋入花生油封面抓匀，腌制二十分钟",
+        "imageUrl": "images/recipe_481_step_3.png"
+      },
+      "热锅凉油，鸡块下锅，全程大火煎香",
+      {
+        "text": "下入一半五指毛桃一起煎出香味，煎至鸡皮表面焦香",
+        "imageUrl": "images/recipe_481_step_5.png"
+      },
+      "倒出锅中多余的油，鸡块出锅备用",
+      {
+        "text": "砂锅烧热后再放油润锅，这样不易粘锅",
+        "imageUrl": "images/recipe_481_step_7.png"
+      },
+      "下入姜片炒香",
+      "加入干芯五指毛桃",
+      "将煎好的鸡块转入砂锅",
+      "沿锅边淋入两圈料酒，加盖转小火焗约5分钟即可"
+    ],
+    "nutrition": {
+      "calories": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "salt": 0.0
+    },
+    "source": "https://www.douyin.com/video/7591365528578406501"
   }
 ]
