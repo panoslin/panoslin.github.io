@@ -1,0 +1,18 @@
+{
+  "folder": "菜谱",
+  "harvested": 301,
+  "folder_total": 314,
+  "already_in_library": 33,
+  "new_count": 268,
+  "note": "已加载 301/314(差几条为音乐/合集类非视频)。完整 harvest 由 daily_update 分块写全量。",
+  "sample_new": [
+    {
+      "id": "7649317462323825947",
+      "caption": "经典凉拌菜，炝黄瓜来咯！"
+    },
+    {
+      "id": "7648827093183507441",
+      "caption": "我将立刻把家里的苹果都做成这个苹果奶绿！"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  每天 22:00 触发增量爬取。安装:
+    cp scripts/com.panoslin.recipe-daily.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.panoslin.recipe-daily.plist
+  卸载: launchctl unload ~/Library/LaunchAgents/com.panoslin.recipe-daily.plist
+  前提: 该时刻机器唤醒、Chrome 常驻并已登录抖音、claude-in-chrome 扩展已授权 douyin.com。
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.panoslin.recipe-daily</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/bytedance/Desktop/Projects/tiktok_recipe/scripts/run_daily.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardOutPath</key><string>/Users/bytedance/Desktop/Projects/tiktok_recipe/data/launchd.out.log</string>
+  <key>StandardErrorPath</key><string>/Users/bytedance/Desktop/Projects/tiktok_recipe/data/launchd.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/bin:/bin:/Users/bytedance/.local/bin</string>
+  </dict>
+</dict>
+</plist>

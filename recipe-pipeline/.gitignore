@@ -1,0 +1,42 @@
+# ── 运行期重产物(可重建,绝不提交)────────────────────────────
+.venv/
+.cache/                 # 含 clone/(panoslin.github.io 工作副本)、hf/(whisper 模型)、repo/(营养脚本缓存)
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# data/ 下的大体积/可重建产物
+data/work/              # 每条食谱的帧/音频/bundle/draft 中间产物(GB 级)
+data/videos/            # 抖音下载的原视频
+data/xcf_videos/        # 下厨房视频菜谱临时下载
+data/images/            # 抽出的封面/步骤图(已随 PR 提交到站点 images/,本地副本无需入库)
+*.mp4
+*.wav
+*.png                   # 本地抽帧图(站点图片走各自 PR,不在工具子目录)
+
+# 日志(seen.json 才是状态源,日志不入库)
+data/*.log
+data/*.out
+*.log
+
+# 模型/缓存
+*.onnx
+hf/
+
+# ── 凭证/敏感(永不提交)──────────────────────────────────────
+.env
+.env.*
+*.token
+*token*.txt
+*cookie*
+*.pem
+*.key
+*credential*
+
+# ── 保留的断点续跑状态(显式不忽略,确保入库)──────────────────
+!data/state/seen.json
+!data/queue/
+!data/review_verdicts.json
+!data/review_compare.json
+!data/review_table.json
+!data/xcf_harvest.jsonl
