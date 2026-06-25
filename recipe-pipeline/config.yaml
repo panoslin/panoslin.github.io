@@ -1,0 +1,41 @@
+# 抖音菜谱管道配置
+favorite_folder: "菜谱"
+favorite_url: "https://www.douyin.com/user/self?showSubTab=favorite_folder&showTab=favorite_collection"
+
+# 输出目标(用户的 GitHub Pages 仓库)
+repo:
+  slug: "panoslin/panoslin.github.io"
+  recipes_json: "recipes.json"
+  images_dir: "images"
+  # 本地工作副本(克隆后路径); 未克隆时仅本地产出, 不推送
+  local_clone: ""
+
+asr:
+  model: "medium"          # faster-whisper; 中文用量精度
+  language: "zh"
+  # 纯 BGM/无人声时的 whisper 幻觉短语(命中即判 asr 不可用)
+  hallucination_markers:
+    - "请不吝点赞"
+    - "点赞"
+    - "订阅"
+    - "转发"
+    - "打赏"
+    - "明镜"
+    - "点点栏目"
+    - "谢谢观看"
+    - "感谢观看"
+    - "字幕"
+    - "Amara"
+
+frames:
+  ocr_fps: 2               # 密集均匀抽帧做 OCR(不靠场景切变, 避免漏字幕)
+  redense_fps: 5           # 完整性补抽时对缺口时间戳的加密帧率
+  ocr_height: 720          # OCR 帧高度(像素)
+
+storage:
+  keep_video: false        # 处理后删除原视频; 保留转写/OCR/截图
+
+# 复用用户仓库的营养计算脚本与库(从 raw.githubusercontent 拉取并缓存)
+nutrition:
+  calc_script_url: "https://raw.githubusercontent.com/panoslin/panoslin.github.io/main/calculate_nutrition.py"
+  db_url: "https://raw.githubusercontent.com/panoslin/panoslin.github.io/main/nutrition_db.json"

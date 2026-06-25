@@ -1,0 +1,25 @@
+# 用公网 PyPI 安装(若内网镜像连不上):
+#   pip install --index-url https://pypi.org/simple/ -r requirements.txt
+# 另需系统级 ffmpeg / ffprobe(brew install ffmpeg),以及 gh CLI(已认证)。
+#
+# whisper 模型走 huggingface.co 直连下载,首次自动拉取;
+# 不要设 HF_ENDPOINT(hf-mirror.com 只回 308 跳转,会失败)。可设 HF_HOME=.cache/hf 缓存。
+
+# 抖音视频下载
+yt-dlp>=2026.6.9
+# ASR(中文用量精度,medium 模型)
+faster-whisper>=1.2.1
+# 关键帧 OCR
+rapidocr-onnxruntime>=1.3
+# 下厨房抓取:模拟 Chrome TLS 指纹破站点反爬
+curl_cffi>=0.7
+# 下厨房 HTML 解析
+beautifulsoup4>=4.12
+lxml>=5.0
+# recipe schema 校验
+jsonschema>=4.0
+# 读 config.yaml
+pyyaml>=6.0
+
+# 说明:av / opencv-python / numpy / onnxruntime / ctranslate2 等为
+# faster-whisper 与 rapidocr-onnxruntime 的传递依赖,pip 会自动装,无需显式列。
